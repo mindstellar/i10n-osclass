@@ -1,3 +1,5 @@
 files:
   - source: /src/templates/*.pot
     translation: /src/translations/%locale_with_underscore%/%file_name%.po
+  - source: /src/templates/mail.sql
+    translation: /src/email/%two_letters_code%/%original_file_name%
