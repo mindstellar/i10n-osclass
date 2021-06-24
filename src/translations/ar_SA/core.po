@@ -1,0 +1,4218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: osclass-v2\n"
+"Report-Msgid-Bugs-To: translations@mindstellar.com\n"
+"POT-Creation-Date: 2021-06-23 17:36+0530\n"
+"PO-Revision-Date: 2021-06-23 14:21\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: osclass-v2\n"
+"X-Crowdin-Project-ID: 376123\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /[mindstellar.i18n-osclass] master/src/templates/core.pot\n"
+"X-Crowdin-File-ID: 8192\n"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:56
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1123
+msgid "No results"
+msgstr "لايوجد نتائج"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:121
+msgid "An error occurred"
+msgstr "حدث خطأ."
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:123
+msgid "Order saved"
+msgstr "تم تسجسل طلبك"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:211
+msgid "An error occurred while updating."
+msgstr "حدث خطأ أثناء تحديث"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:215
+msgid "Sorry, you already have a field with that name"
+msgstr "آسف، لديك حقل بالفعل بهذا الاسم"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:221
+msgid "Saved"
+msgstr "تم الحفظ"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:232
+msgid "The custom field has been deleted"
+msgstr "لقد تم حذف الحقل المخصص"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:234
+#: tmp/osclass/oc-admin/ajax/ajax.php:342
+msgid "An error occurred while deleting"
+msgstr "حدث خطأ خلال عملية الحذف"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:241
+msgid "NEW custom field"
+msgstr "حقل عميل جديد"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:273
+#, php-format
+msgid "No category with id %d exists"
+msgstr "لا يوجد قسم بالرقم %d"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:296
+msgid "The category as well as its subcategories have been enabled"
+msgstr "تم تمكين التصنيف  وكذلك التصنيفات الفرعية له"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:300
+msgid "The category as well as its subcategories have been disabled"
+msgstr "تم تعطيل التصنيف وكذلك التصنيفات الفرعية له"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:311
+msgid "Parent category is disabled, you can not enable that category"
+msgstr "تم ايقاف الفئة الرئيسية , لايمكنك اتاحة هذه الفئة"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:319
+msgid "The subcategory has been enabled"
+msgstr "تم اتاحة القائمة الفرعية"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:323
+msgid "The subcategory has been disabled"
+msgstr "تم ايقاف القائمة الفرعية"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:339
+msgid "The categories have been deleted"
+msgstr "تم مسح الفئة"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:394
+msgid "Category updated correctly"
+msgstr "تم تحديث الفئة بنجاح"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:398
+msgid "Category updated correctly, but some titles are empty"
+msgstr "تم تعديل القسم بنجاح، لكن بعض العناوين فارغة"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:400
+msgid "Sorry, including at least a title is mandatory"
+msgstr "آسف، بما في ذلك ما لا يقل عن عنوان إلزامي"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:403
+msgid "An error occurred while updating"
+msgstr "حدث خطأ خلال عملية التحديث"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:439
+#, php-format
+msgid "Test email, %s"
+msgstr "بريد تجريبي , %s"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:440
+msgid "Test email"
+msgstr "بريد تجريبي"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:452
+#: tmp/osclass/oc-admin/ajax/ajax.php:474
+msgid "Email sent successfully"
+msgstr "تم الارسال البريد الالكتروني بنجاح"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:454
+#: tmp/osclass/oc-admin/ajax/ajax.php:476
+msgid "An error occurred while sending email"
+msgstr "حدث خطأ خلال ارسال البريد الالكتروني"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:505
+msgid "Version could not be checked"
+msgstr ""
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:524
+#: tmp/osclass/oc-admin/ajax/ajax.php:528
+#: tmp/osclass/oc-admin/ajax/ajax.php:532
+msgid "Checked updates"
+msgstr ""
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:541
+msgid "This action cannot be done because it is a demo site"
+msgstr ""
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:582
+msgid "No external sources are allowed"
+msgstr "لا يوجد مصادر خارجية متاحة"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:590
+msgid "No code was submitted"
+msgstr "لم يتم ارسال أي كود"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:631
+msgid "You don't have the necessary permissions"
+msgstr "ليس لديك التصاريح اللازمة"
+
+#: tmp/osclass/oc-admin/ajax/ajax.php:634
+#: tmp/osclass/oc-includes/osclass/controller/ajax.php:347
+msgid "no action defined"
+msgstr "لا يوجد أية إجراءات محدده"
+
+#: tmp/osclass/oc-admin/users.php:96 tmp/osclass/oc-admin/users.php:644
+#: tmp/osclass/oc-admin/comments.php:259
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:149
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:89
+#: tmp/osclass/oc-admin/items.php:450 tmp/osclass/oc-admin/items.php:824
+#: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:84
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:116
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:102
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:268
+msgid "Deactivate"
+msgstr "تعطيل"
+
+#: tmp/osclass/oc-admin/users.php:98 tmp/osclass/oc-admin/users.php:643
+#: tmp/osclass/oc-admin/comments.php:258
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:148
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:89
+#: tmp/osclass/oc-admin/items.php:452 tmp/osclass/oc-admin/items.php:823
+#: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:86
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:118
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:104
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:270
+msgid "Activate"
+msgstr "تفعيل "
+
+#: tmp/osclass/oc-admin/users.php:101 tmp/osclass/oc-admin/users.php:646
+#: tmp/osclass/oc-admin/comments.php:260
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:97
+#: tmp/osclass/oc-admin/items.php:455 tmp/osclass/oc-admin/items.php:825
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:108
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:107
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:273
+msgid "Block"
+msgstr "حظر"
+
+#: tmp/osclass/oc-admin/users.php:103 tmp/osclass/oc-admin/users.php:645
+#: tmp/osclass/oc-admin/comments.php:261
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:97
+#: tmp/osclass/oc-admin/items.php:457 tmp/osclass/oc-admin/items.php:826
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:110
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:109
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:275
+msgid "Unblock"
+msgstr "إلغاء حظر"
+
+#: tmp/osclass/oc-admin/users.php:511 tmp/osclass/oc-admin/users.php:642
+#: tmp/osclass/oc-admin/comments.php:256 tmp/osclass/oc-admin/languages.php:452
+#: tmp/osclass/oc-admin/media.php:134 tmp/osclass/oc-admin/admins.php:369
+#: tmp/osclass/oc-admin/items.php:821 tmp/osclass/oc-admin/pages.php:276
+msgid "Bulk actions"
+msgstr "إجراءات بالجملة"
+
+#: tmp/osclass/oc-admin/users.php:512
+#, php-format
+msgid "Are you sure you want to %s the selected ban rules?"
+msgstr "هل أنت متأكد أنك تريد %s  قواعد الحظر المحددة؟"
+
+#: tmp/osclass/oc-admin/users.php:512 tmp/osclass/oc-admin/users.php:513
+#: tmp/osclass/oc-admin/users.php:647 tmp/osclass/oc-admin/plugins.php:338
+#: tmp/osclass/oc-admin/comments.php:257 tmp/osclass/oc-admin/languages.php:400
+#: tmp/osclass/oc-admin/languages.php:489
+#: tmp/osclass/oc-admin/languages.php:491 tmp/osclass/oc-admin/media.php:135
+#: tmp/osclass/oc-admin/admins.php:330 tmp/osclass/oc-admin/admins.php:370
+#: tmp/osclass/oc-admin/themes/modern/users/ban.php:179
+#: tmp/osclass/oc-admin/themes/modern/users/ban.php:190
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:405
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:331
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:342
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:150
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:205
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:216
+#: tmp/osclass/oc-admin/themes/modern/fields/index.php:138
+#: tmp/osclass/oc-admin/themes/modern/fields/index.php:229
+#: tmp/osclass/oc-admin/themes/modern/comments/index.php:181
+#: tmp/osclass/oc-admin/themes/modern/comments/index.php:192
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:139
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:194
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:205
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:402
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:413
+#: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:129
+#: tmp/osclass/oc-admin/themes/modern/admins/index.php:175
+#: tmp/osclass/oc-admin/themes/modern/admins/index.php:186
+#: tmp/osclass/oc-admin/themes/modern/settings/currencies.php:110
+#: tmp/osclass/oc-admin/themes/modern/settings/currencies.php:132
+#: tmp/osclass/oc-admin/themes/modern/settings/currencies.php:175
+#: tmp/osclass/oc-admin/themes/modern/settings/currencies.php:186
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:412
+#: tmp/osclass/oc-admin/themes/modern/media/index.php:169
+#: tmp/osclass/oc-admin/themes/modern/media/index.php:180
+#: tmp/osclass/oc-admin/themes/modern/categories/index.php:386
+#: tmp/osclass/oc-admin/themes/modern/pages/index.php:203
+#: tmp/osclass/oc-admin/themes/modern/pages/index.php:214
+#: tmp/osclass/oc-admin/themes/modern/languages/index.php:175
+#: tmp/osclass/oc-admin/themes/modern/languages/index.php:187
+#: tmp/osclass/oc-admin/items.php:822 tmp/osclass/oc-admin/pages.php:277
+#: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:80
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:112
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:98
+#: tmp/osclass/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:82
+#: tmp/osclass/oc-includes/osclass/classes/datatables/MediaDataTable.php:102
+#: tmp/osclass/oc-includes/osclass/classes/datatables/PagesDataTable.php:97
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:290
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:385
+#: tmp/osclass/oc-includes/osclass/gui/common/head.php:25
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1654
+msgid "Delete"
+msgstr "حذف"
+
+#: tmp/osclass/oc-admin/users.php:643 tmp/osclass/oc-admin/users.php:644
+#: tmp/osclass/oc-admin/users.php:645 tmp/osclass/oc-admin/users.php:646
+#: tmp/osclass/oc-admin/users.php:647 tmp/osclass/oc-admin/users.php:650
+#, php-format
+msgid "Are you sure you want to %s the selected users?"
+msgstr "هل انت متأكد بأنك تريد %s المستخدمين المحددين?"
+
+#: tmp/osclass/oc-admin/users.php:650
+msgid "Resend the activation to"
+msgstr "العادة ارسال التفعيل الي"
+
+#: tmp/osclass/oc-admin/users.php:650
+msgid "Resend activation"
+msgstr "اعادة ارسال التفعيل"
+
+#: tmp/osclass/oc-admin/plugins.php:313
+msgid "There's a new update available"
+msgstr "يوجد تحديثات جديدة متاحة"
+
+#: tmp/osclass/oc-admin/plugins.php:319
+msgid "Configure"
+msgstr "تهيئة"
+
+#: tmp/osclass/oc-admin/plugins.php:325
+msgid "Disable"
+msgstr "تعطيل"
+
+#: tmp/osclass/oc-admin/plugins.php:327
+msgid "Enable"
+msgstr "تفعيل"
+
+#: tmp/osclass/oc-admin/plugins.php:332
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:262
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:177
+msgid "Uninstall"
+msgstr "ازالة"
+
+#: tmp/osclass/oc-admin/plugins.php:334
+msgid "Install"
+msgstr "تنصيب"
+
+#: tmp/osclass/oc-admin/plugins.php:343
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:72
+msgid "Problems with this plugin? Ask for support."
+msgstr "هل يوجد مشاكل مع هذا التطبيق الملحق؟ إتصل بالدعم"
+
+#: tmp/osclass/oc-admin/plugins.php:347
+msgid "Plugins Site"
+msgstr "موقع الملحقات"
+
+#: tmp/osclass/oc-admin/plugins.php:350 tmp/osclass/oc-admin/plugins.php:352
+msgid "By"
+msgstr "بواسطة"
+
+#: tmp/osclass/oc-admin/plugins.php:356
+msgid "Version:"
+msgstr "إصدار:"
+
+#: tmp/osclass/oc-admin/comments.php:257 tmp/osclass/oc-admin/comments.php:258
+#: tmp/osclass/oc-admin/comments.php:259 tmp/osclass/oc-admin/comments.php:260
+#: tmp/osclass/oc-admin/comments.php:261
+#, php-format
+msgid "Are you sure you want to %s the selected comments?"
+msgstr "هل انت متأكد من %s التعليقات المحددة ؟"
+
+#: tmp/osclass/oc-admin/languages.php:390 tmp/osclass/oc-admin/admins.php:329
+#: tmp/osclass/oc-admin/emails.php:128
+#: tmp/osclass/oc-admin/themes/modern/fields/index.php:136
+#: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:86
+#: tmp/osclass/oc-admin/themes/modern/settings/currencies.php:111
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:130
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:114
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:97
+#: tmp/osclass/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:81
+#: tmp/osclass/oc-includes/osclass/classes/datatables/PagesDataTable.php:95
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:289
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:384
+msgid "Edit"
+msgstr "تحرير"
+
+#: tmp/osclass/oc-admin/languages.php:393
+msgid "Disable (website)"
+msgstr "تعطيل (موقع)"
+
+#: tmp/osclass/oc-admin/languages.php:393
+msgid "Enable (website)"
+msgstr "تفعيل (موقع)"
+
+#: tmp/osclass/oc-admin/languages.php:396
+#: tmp/osclass/oc-admin/languages.php:481
+#: tmp/osclass/oc-admin/languages.php:483
+msgid "Disable (oc-admin)"
+msgstr "تعطيل (OC-المشرف)"
+
+#: tmp/osclass/oc-admin/languages.php:396
+#: tmp/osclass/oc-admin/languages.php:473
+#: tmp/osclass/oc-admin/languages.php:475
+msgid "Enable (oc-admin)"
+msgstr "تفعيل (OC-المشرف)"
+
+#: tmp/osclass/oc-admin/languages.php:413
+msgid "Update here"
+msgstr "حدث من هنا"
+
+#: tmp/osclass/oc-admin/languages.php:420
+#: tmp/osclass/oc-admin/languages.php:421
+msgid "Yes"
+msgstr "نعم"
+
+#: tmp/osclass/oc-admin/languages.php:420
+#: tmp/osclass/oc-admin/languages.php:421
+msgid "No"
+msgstr "لا"
+
+#: tmp/osclass/oc-admin/languages.php:456
+#: tmp/osclass/oc-admin/languages.php:464
+#: tmp/osclass/oc-admin/languages.php:472
+#: tmp/osclass/oc-admin/languages.php:480
+#: tmp/osclass/oc-admin/languages.php:488
+#, php-format
+msgid "Are you sure you want to %s the selected languages?"
+msgstr "هل انت متأكد من %s  اللغة المحددة؟"
+
+#: tmp/osclass/oc-admin/languages.php:457
+#: tmp/osclass/oc-admin/languages.php:459
+msgid "Enable (Website)"
+msgstr "تشغيل (الموقع)"
+
+#: tmp/osclass/oc-admin/languages.php:465
+#: tmp/osclass/oc-admin/languages.php:467
+msgid "Disable (Website)"
+msgstr "ايقاف (الموقع)"
+
+#: tmp/osclass/oc-admin/media.php:135
+#, php-format
+msgid "Are you sure you want to %s the selected media files?"
+msgstr "هل أنت متأكد بأنك تريد أن %s ملفات الوسائط المتعددة؟"
+
+#: tmp/osclass/oc-admin/gui/forgot_password.php:57
+#: tmp/osclass/oc-includes/osclass/gui/user-change_password.php:37
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:435
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:438
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:496
+msgid "Change password"
+msgstr "تغيير كلمة المرور"
+
+#: tmp/osclass/oc-admin/gui/forgot_password.php:64
+#: tmp/osclass/oc-admin/gui/login.php:76
+#: tmp/osclass/oc-admin/gui/recover.php:55
+#, php-format
+msgid "Back to %s"
+msgstr "العودة الي %s"
+
+#: tmp/osclass/oc-admin/gui/login.php:68
+msgid "Forgot your password?"
+msgstr "نسيت كلمة السر"
+
+#: tmp/osclass/oc-admin/gui/login.php:71
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+#: tmp/osclass/oc-admin/gui/recover.php:49
+msgid "Get new password"
+msgstr "احصل علي كلمة سر جديدة"
+
+#: tmp/osclass/oc-admin/admins.php:370
+#, php-format
+msgid "Are you sure you want to %s the selected admins?"
+msgstr "هل انت متأكد من برغبتك في %s المدراء المحددين؟"
+
+#: tmp/osclass/oc-admin/appearance.php:200
+msgid "Error loading theme custom file"
+msgstr ""
+
+#: tmp/osclass/oc-admin/themes/modern/stats/users.php:28
+#: tmp/osclass/oc-admin/themes/modern/stats/comments.php:25
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:22
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:33
+msgid "Last 10 weeks"
+msgstr "آخر 10 أسابيع"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/users.php:31
+#: tmp/osclass/oc-admin/themes/modern/stats/comments.php:28
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:25
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:36
+msgid "Last 10 months"
+msgstr "آخر 10 شهور"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/users.php:34
+#: tmp/osclass/oc-admin/themes/modern/stats/comments.php:31
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:28
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:39
+msgid "Last 10 days"
+msgstr "آخر 10 أيام"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/users.php:43
+msgid "Stay up-to-date on the number of users registered on your site. You can also see a breakdown of the countries and regions where users live among those available on your site."
+msgstr "البقاء محدثاً عن عدد المستخدمين المسجلين على موقع الويب الخاص بك. يمكنك أيضا رؤية البلدان والمناطق التي يعيش فيها بين مستخدمي عن تلك المتاحة على موقع الويب الخاص بك."
+
+#: tmp/osclass/oc-admin/themes/modern/stats/users.php:56
+#, php-format
+msgid "User Statistics &raquo; %s"
+msgstr "احصائيات مستخدم &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/users.php:83
+#: tmp/osclass/oc-admin/themes/modern/stats/comments.php:76
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:71
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:94
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:96
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:102
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:104
+#: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:60
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:84
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:75
+#: tmp/osclass/oc-includes/osclass/classes/datatables/MediaDataTable.php:84
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:156
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:234
+msgid "Date"
+msgstr "التاريخ"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/users.php:84
+msgid "New users"
+msgstr "مستخدمين جدد"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/users.php:138
+#: tmp/osclass/oc-admin/themes/modern/stats/users.php:150
+msgid "Unknown"
+msgstr "غير معروف"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/users.php:267
+#, php-format
+msgid "%s listings per user"
+msgstr "%s اعلان بواسطة مستخدم"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/comments.php:40
+msgid "See how many comments the listings published on your site have received."
+msgstr "نرى كم عدد التعليقات المستلمة التي قد وردت في القوائم المنشورة على موقع الويب الخاص بك."
+
+#: tmp/osclass/oc-admin/themes/modern/stats/comments.php:53
+#, php-format
+msgid "Comment Statistics &raquo; %s"
+msgstr "احصائيات الردود &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/comments.php:77
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:61
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:76
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:81
+msgid "Comments"
+msgstr "التعليقات"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:37
+msgid "See how many listings from your site have been reported as spam, expired, duplicate, etc."
+msgstr "ترى كم عدد الإعلانات من موقعك التي تم الإبلاغ عنها كدعاية، او منتهية او مكررة، الخ"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:50
+#, php-format
+msgid "Report Statistics &raquo; %s"
+msgstr "تقرير الاحصائيات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:72
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:229
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:595
+#: tmp/osclass/oc-includes/osclass/functions.php:547
+msgid "Spam"
+msgstr "مزيف"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:73
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:231
+msgid "Duplicated"
+msgstr "مكرر"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:74
+msgid "Bad category"
+msgstr "فسم خاطيء"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:75
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:233
+msgid "Offensive"
+msgstr "هجوم"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/reports.php:76
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:232
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:623
+msgid "Expired"
+msgstr "منتهي الصلاحية"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:48
+msgid "Quickly find out how many new listings have been published on your site and how many visits each of the listings gets."
+msgstr "العثور بسرعة عدد القوائم جديدة المنشورة على الموقع الخاص بك، وكم عدد الزيارات التي تحصل عليها كل قائمة."
+
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:61
+#, php-format
+msgid "Listing Statistics &raquo; %s"
+msgstr "احصاءات المبوبات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:95
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:76
+msgid "Items"
+msgstr "العناصر"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:97
+msgid "Views"
+msgstr "المشاهدات"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:103
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:100
+#: tmp/osclass/oc-includes/osclass/gui/user-alerts.php:37
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:431
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:476
+msgid "Alerts"
+msgstr "التنبيهات"
+
+#: tmp/osclass/oc-admin/themes/modern/stats/items.php:105
+msgid "Subscribers"
+msgstr "المشتركون"
+
+#: tmp/osclass/oc-admin/themes/modern/parts/header.php:16
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:423
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:432
+msgid "No change expiration"
+msgstr "لم يطرأ أي تغيير علي انتهاء الصلاحية"
+
+#: tmp/osclass/oc-admin/themes/modern/parts/header.php:17
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:424
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:434
+msgid "Without expiration"
+msgstr "دون انتهاء صلاحية"
+
+#: tmp/osclass/oc-admin/themes/modern/parts/header.php:18
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:425
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:436
+msgid "1 day"
+msgstr "1 يوم"
+
+#: tmp/osclass/oc-admin/themes/modern/parts/header.php:19
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:426
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:439
+#, php-format
+msgid "%d days"
+msgstr "%d ايام"
+
+#: tmp/osclass/oc-admin/themes/modern/parts/header.php:20
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:253
+msgid "Select category"
+msgstr "اختر الفئة"
+
+#: tmp/osclass/oc-admin/themes/modern/parts/header.php:21
+msgid "No subcategory"
+msgstr "لا يوجد فئة فرعية"
+
+#: tmp/osclass/oc-admin/themes/modern/parts/header.php:22
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:254
+msgid "Select subcategory"
+msgstr "اختار الفئة الفرعية"
+
+#: tmp/osclass/oc-admin/themes/modern/users/ban.php:19
+msgid "Add, edit or delete ban rules. Keep in mind that ban rules prevent users to register, publish or comment on listings."
+msgstr "إضافة، تعديل أو حذف قواعد الحظر. نضع في اعتبارنا أن حظر قواعد منع المستخدمين لتسجيل ونشر أو التعليق على القوائم."
+
+#: tmp/osclass/oc-admin/themes/modern/users/ban.php:35
+#, php-format
+msgid "Manage ban rules &raquo; %s"
+msgstr "ادارة  قواعد المنع &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/users/ban.php:126
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:278
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:151
+#: tmp/osclass/oc-admin/themes/modern/comments/index.php:128
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:146
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:349
+#: tmp/osclass/oc-admin/themes/modern/admins/index.php:115
+#: tmp/osclass/oc-admin/themes/modern/settings/currencies.php:133
+#: tmp/osclass/oc-admin/themes/modern/media/index.php:119
+#: tmp/osclass/oc-admin/themes/modern/pages/index.php:150
+#: tmp/osclass/oc-admin/themes/modern/languages/index.php:118
+msgid "Apply"
+msgstr "تطبيق"
+
+#: tmp/osclass/oc-admin/themes/modern/users/ban.php:168
+msgid "Delete rule"
+msgstr "حذف قاعدة"
+
+#: tmp/osclass/oc-admin/themes/modern/users/settings.php:19
+msgid "Manage the options related to users on your site. Here, you can decide if users must register or if email confirmation is necessary, among other options."
+msgstr "إدارة الخيارات المتعلقة المستخدمين على موقعك. هنا، يمكنك أن تقرر إذا يجب على المستخدمين تسجيل أو إذا تأكيد البريد الإلكتروني أمر ضروري، من بين خيارات أخرى."
+
+#: tmp/osclass/oc-admin/themes/modern/users/settings.php:32
+#, php-format
+msgid "User Settings &raquo; %s"
+msgstr "اعدادات المستخدم &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/users/settings.php:84
+#: tmp/osclass/oc-admin/themes/modern/fields/iframe.php:82
+#: tmp/osclass/oc-admin/themes/modern/items/settings.php:201
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:27
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:55
+#: tmp/osclass/oc-admin/themes/modern/settings/searches.php:142
+#: tmp/osclass/oc-admin/themes/modern/settings/mailserver.php:169
+#: tmp/osclass/oc-admin/themes/modern/settings/comments.php:161
+#: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:113
+#: tmp/osclass/oc-admin/themes/modern/settings/spamNbots.php:80
+#: tmp/osclass/oc-admin/themes/modern/settings/spamNbots.php:115
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:669
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:331
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:375
+#: tmp/osclass/oc-admin/themes/modern/emails/frm.php:134
+#: tmp/osclass/oc-admin/themes/modern/categories/iframe.php:54
+#: tmp/osclass/oc-admin/themes/modern/pages/frm.php:34
+#: tmp/osclass/oc-admin/themes/modern/languages/frm.php:112
+msgid "Save changes"
+msgstr "حفظ التغييرات"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:32
+msgid "Edit user"
+msgstr "تعديل مستخدم"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:34
+msgid "Update user"
+msgstr "تحديث مستخدم"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:38
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:40
+msgid "Add new user"
+msgstr "اضافة مستخدم جديد"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:126
+#: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:55
+msgid "Username: this field is required"
+msgstr "اسم المستخدم: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:151
+#: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:80
+msgid "The username is available"
+msgstr "اسم المستخدم متاح"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:153
+#: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:82
+msgid "The username is NOT available"
+msgstr "اسم المستخدم غير متاح"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:205
+#, php-format
+msgid "%s on %s"
+msgstr "%s علي %s"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:298
+msgid "(twice, required)"
+msgstr "(مرتين، مطلوب)"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:346
+#, php-format
+msgid "Alert #%d"
+msgstr "تحذير #%d"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:349
+#: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:107
+#, php-format
+msgid "<b>Pattern:</b> %s"
+msgstr "<b>النمط:</b> %s"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:359
+#: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:116
+msgid "...More"
+msgstr "المزيد..."
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:362
+#: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:119
+#, php-format
+msgid "<b>Categories:</b> %s"
+msgstr "<b>الفئات:</b> %s"
+
+#: tmp/osclass/oc-admin/themes/modern/users/frm.php:393
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:193
+msgid "Delete alert"
+msgstr "حذف تحذير"
+
+#: tmp/osclass/oc-admin/themes/modern/users/ban_frm.php:28
+msgid "Edit rule"
+msgstr "تحرير قاعدة"
+
+#: tmp/osclass/oc-admin/themes/modern/users/ban_frm.php:30
+msgid "Update rule"
+msgstr "تحديث قاعدة"
+
+#: tmp/osclass/oc-admin/themes/modern/users/ban_frm.php:33
+#: tmp/osclass/oc-admin/themes/modern/users/ban_frm.php:35
+msgid "Add new ban rule"
+msgstr "إضافة قاعدة الحظر الجديد"
+
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:19
+msgid "Add, edit or delete information associated to registered users. Keep in mind that deleting a user also deletes all the listings the user published."
+msgstr "إضافة، تعديل أو حذف المعلومات المرتبطة للمستخدمين المسجلين. نضع في اعتبارنا أن حذف مستخدم أيضا حذف جميع قوائم المستخدم المنشورة."
+
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:34
+#, php-format
+msgid "Manage users &raquo; %s"
+msgstr "ادارة المستخدمين &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:84
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:125
+msgid "Filters"
+msgstr "مرشحات"
+
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:239
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:288
+msgid "Apply filters"
+msgstr "تطبيق مرشحات"
+
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:254
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:255
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:256
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:257
+#, php-format
+msgid "%d Users"
+msgstr "%d مستخدمين"
+
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:268
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:135
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:339
+msgid "Find"
+msgstr "اوجد"
+
+#: tmp/osclass/oc-admin/themes/modern/users/index.php:320
+msgid "Delete user"
+msgstr "مسح مستخدم"
+
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:19
+msgid "Add, edit or delete information associated to alerts."
+msgstr "اضافة او تعديل او حذف البيانات الخاصة باتحذيرات."
+
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:32
+#, php-format
+msgid "Manage alerts &raquo; %s"
+msgstr "ادارة التحذيرات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:148
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:149
+#: tmp/osclass/oc-admin/themes/modern/users/alerts.php:150
+#, php-format
+msgid "Are you sure you want to %s the selected alerts?"
+msgstr "هل انت متأكد انك تريد حذف %s هذه التحذيرات؟"
+
+#: tmp/osclass/oc-admin/themes/modern/fields/iframe.php:83
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:132
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:129
+#: tmp/osclass/oc-admin/themes/modern/categories/iframe.php:55
+#: tmp/osclass/oc-includes/osclass/gui/common/head.php:26
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1652
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: tmp/osclass/oc-admin/themes/modern/fields/iframe.php:110
+msgid "At least one option is required."
+msgstr "يوجد علي الاقل اختيار لم يكتمل."
+
+#: tmp/osclass/oc-admin/themes/modern/fields/iframe.php:140
+#: tmp/osclass/oc-admin/themes/modern/fields/index.php:115
+#: tmp/osclass/oc-admin/themes/modern/categories/index.php:210
+#: tmp/osclass/oc-admin/themes/modern/categories/index.php:307
+msgid "Ajax error, try again."
+msgstr "خطاء في Ajax, حاول مرة اخري."
+
+#: tmp/osclass/oc-admin/themes/modern/fields/index.php:25
+msgid "Create new fields for users to fill out when they publish a listing. You can require extra  information such as the number of bedrooms in real estate listings or fuel type in car listings, for example."
+msgstr "إنشاء حقول جديدة للمستخدمين لملء عندما نشر القائمة. يمكنك أن تطلب معلومات إضافية مثل عدد غرف النوم في قوائم العقارات أو أي نوع الوقود في قوائم السيارة على سبيل المثال."
+
+#: tmp/osclass/oc-admin/themes/modern/fields/index.php:148
+msgid "Custom field could not be added"
+msgstr "لا يمكن إضافة حقل مخصص"
+
+#: tmp/osclass/oc-admin/themes/modern/fields/index.php:181
+#, php-format
+msgid "Custom fields &raquo; %s"
+msgstr "حقول مخصصة &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/fields/index.php:221
+msgid "Delete custom field"
+msgstr "حذف حقل مخصص"
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/view.php:20
+#: tmp/osclass/oc-admin/themes/modern/plugins/configuration.php:26
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:69
+msgid "Plugins"
+msgstr "اضافات"
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/view.php:25
+#: tmp/osclass/oc-admin/themes/modern/plugins/configuration.php:58
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:43
+#, php-format
+msgid "Plugins &raquo; %s"
+msgstr "اضافات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/configuration.php:87
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:316
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:227
+msgid "Update"
+msgstr "تحديث"
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/add.php:19
+msgid "Manually upload Osclass plugins in .zip format. If you prefer, you can manually upload the decompressed plugin to <em>oc-content/plugins</em>."
+msgstr "تحميل الإضافات يدويا في Osclass. بتنسيق .zip. إذا كنت تفضل، يمكنك رفع الاضافة بلا ضغط يدويا الى <em>oc-content/plugins</em>."
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/add.php:32
+#, php-format
+msgid "Add plugin &raquo; %s"
+msgstr "اضافة اضافات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/add.php:53
+#: tmp/osclass/oc-admin/themes/modern/appearance/add.php:53
+#: tmp/osclass/oc-admin/themes/modern/languages/add.php:46
+#: tmp/osclass/oc-includes/osclass/gui/admin/header.php:69
+msgid "Upload"
+msgstr "تحميل"
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:19
+msgid "Install or uninstall the plugins available in your installation. In some cases, you'll have to configure the plugin in order to get it to work."
+msgstr "تثبيت أو إلغاء تثبيت الإضافات متاح في عملية التثبيت. في بعض الحالات، يتوجب عليك تهيئة الاضافة  من أجل جعلها تعمل."
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:68
+msgid "Uninstall plugin"
+msgstr "ازالة اضافات"
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:157
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:158
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:159
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:160
+#, php-format
+msgid "%d plugins"
+msgstr "%d ملحقات"
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:291
+msgid "The plugin has been downloaded correctly, proceed to install and configure."
+msgstr "لقد تم تحميل الاضافة بشكل استمر بتثبيتها وتهيئتها."
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:293
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:296
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:203
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:206
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:126
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:365
+#: tmp/osclass/oc-includes/osclass/gui/common/head.php:92
+msgid "Close"
+msgstr "إغلاق"
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:320
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:231
+msgid "Osclass Market"
+msgstr "متجر Osclass"
+
+#: tmp/osclass/oc-admin/themes/modern/plugins/index.php:330
+msgid "You are about to delete the files of the plugin. Do you want to continue?"
+msgstr ""
+
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:25
+msgid "Edit comment"
+msgstr "تعديل رد"
+
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:27
+msgid "Update comment"
+msgstr "تحديث التعليق"
+
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:30
+msgid "Add comment"
+msgstr "اضف تعليق"
+
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:32
+#: tmp/osclass/oc-admin/themes/modern/admins/frm.php:33
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:128
+msgid "Add"
+msgstr "اضافة"
+
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:42
+#, php-format
+msgid "Edit comment &raquo; %s"
+msgstr "تعديل التعليق  &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:89
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:239
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:310
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:629
+msgid "Active"
+msgstr "فعال"
+
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:89
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:233
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:304
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:609
+msgid "Inactive"
+msgstr "غير مفعّل"
+
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:97
+msgid "Unblocked"
+msgstr "إلغاء الحظر"
+
+#: tmp/osclass/oc-admin/themes/modern/comments/frm.php:97
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:226
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:297
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:602
+msgid "Blocked"
+msgstr "حظر"
+
+#: tmp/osclass/oc-admin/themes/modern/comments/index.php:19
+msgid "Manage the comments that users publish on the listings on your site. You can also edit, delete, activate or block comments."
+msgstr "إدارة التعليقات التي ينشرها المستخدمين على القوائم في موقعك. يمكنك أيضا تعديل أو حذف،او تفعيل أو منع التعليقات."
+
+#: tmp/osclass/oc-admin/themes/modern/comments/index.php:33
+#, php-format
+msgid "Comments &raquo; %s"
+msgstr "الردود &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/comments/index.php:170
+msgid "Delete comment"
+msgstr "حذف التعليق"
+
+#: tmp/osclass/oc-admin/themes/modern/items/settings.php:19
+msgid "Modify the general settings for your listings. Decide if users have to register in order to publish something, the number of pictures allowed for each listing, etc."
+msgstr "تعديل الإعدادات العامة للالقوائم الخاصة بك. تقرر ما إذا كان لدى المستخدمين لتسجيل من أجل نشر شيء، وعدد من الصور يسمح كل عنصر في القائمة، الخ"
+
+#: tmp/osclass/oc-admin/themes/modern/items/settings.php:57
+#, php-format
+msgid "Listing Settings &raquo; %s"
+msgstr "اعدادات الاعلان &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/items/settings.php:81
+#, php-format
+msgid "An user has to wait %s seconds between each listing added"
+msgstr "علي المستخدم أن تنتظر %s  ثانية بين كل اعلان"
+
+#: tmp/osclass/oc-admin/themes/modern/items/settings.php:94
+#, php-format
+msgid "After %s validated listings the user doesn't need to validate the listings any more"
+msgstr "بعد %s من التأييدات من صحة القوائم و لا يحتاج المستخدم لتاييد صحة قائمة بعدها"
+
+#: tmp/osclass/oc-admin/themes/modern/items/settings.php:167
+#: tmp/osclass/oc-admin/themes/modern/items/settings.php:175
+#, php-format
+msgid "%s characters "
+msgstr "%s حروف"
+
+#: tmp/osclass/oc-admin/themes/modern/items/settings.php:194
+#, php-format
+msgid "Attach %s images per listing"
+msgstr "ارفاق %s صور في الاعلان"
+
+#: tmp/osclass/oc-admin/themes/modern/items/frm.php:30
+#: tmp/osclass/oc-admin/themes/modern/items/frm.php:34
+#: tmp/osclass/oc-admin/themes/modern/main/index.php:206
+#: tmp/osclass/oc-admin/themes/modern/main/index.php:211
+msgid "Listing"
+msgstr "اعلان"
+
+#: tmp/osclass/oc-admin/themes/modern/items/frm.php:31
+#: tmp/osclass/oc-admin/themes/modern/items/frm.php:32
+msgid "Add listing"
+msgstr "اضافة اعلان "
+
+#: tmp/osclass/oc-admin/themes/modern/items/frm.php:35
+msgid "Edit listing"
+msgstr "تحرير اعلان"
+
+#: tmp/osclass/oc-admin/themes/modern/items/frm.php:36
+msgid "Update listing"
+msgstr "تحديث اعلان"
+
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:19
+msgid "From here, you can edit or delete the listings reported by users (spam, misclassified, duplicate, expired, offensive). You can also delete the report if you consider it mistaken."
+msgstr "من هنا، يمكنك تعديل أو حذف قوائم تم الابلاغ عنها من قبل المستخدمين (مزعجة, سيئة التصنيف, مكررة, منتهية الصلاحية, مهينة). يمكنك أيضا حذف التقارير إذا كنت توقن ان فيها خطأ."
+
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:32
+#, php-format
+msgid "Reported listings &raquo; %s"
+msgstr "الاعلانات المبلغ عنها &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:57
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:84
+msgid "Delete listing"
+msgstr "حذف اعلان"
+
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:121
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:122
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:123
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:124
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:303
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:304
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:305
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:306
+#, php-format
+msgid "%d Listings"
+msgstr "%d اعلان"
+
+#: tmp/osclass/oc-admin/themes/modern/items/reported.php:139
+#, php-format
+msgid "Are you sure you want to %s the selected items?"
+msgstr "هل أنت متأكد من رغبتك في %s العناصر المحددة؟"
+
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:21
+msgid "Manage all the listings on your site: edit, delete or block the latest listings published. You can also filter by several parameters: user, region, city, etc."
+msgstr "إدارة جميع القوائم على الموقع الخاص بك: تحرير، حذف أو منع أحدث القوائم من النشر. يمكنك أيضا تصفية من قبل العديد من المعلمات: المستخدم، المنطقة، المدينة، الخ"
+
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:36
+#, php-format
+msgid "Manage listings &raquo; %s"
+msgstr "ادارة الاعلانات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/items/index.php:397
+msgid "Are you sure you want to delete this listing?"
+msgstr "هل انت متاكد من انك تريد حذف هذا الاعلان؟"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/view.php:20
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:65
+msgid "Appearance"
+msgstr "المظهر"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/view.php:25
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:46
+#: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:59
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:62
+#, php-format
+msgid "Appearance &raquo; %s"
+msgstr "مظهر &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:25
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:37
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:53
+msgid "Edit widget"
+msgstr "تعديل ويدجت"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:29
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:31
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:39
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:57
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:59
+msgid "Add widget"
+msgstr "اضافة ويدجت"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/add_widget.php:98
+msgid "Description: this field is required"
+msgstr "الوصف: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/add.php:19
+msgid "Manually add Osclass themes in .zip format. If you prefer, you can manually upload the decompressed theme to <em>oc-content/themes</em>."
+msgstr "إضاف يدويا قالب Osclass بصيغة .zip. إذا كنت تفضل، يمكنك رفع  القالب بلا ضغط يدويا الى <em>oc-content/themes</em>."
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/add.php:32
+#, php-format
+msgid "Add theme &raquo; %s"
+msgstr "اضافة ثيم &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:23
+msgid "Modify your site's header or footer here."
+msgstr ""
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:42
+msgid "Delete widget"
+msgstr "محو القطعة"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:74
+#, php-format
+msgid "Section: %s"
+msgstr "قسم: %s"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:83
+msgid "Widget"
+msgstr "ويدجت"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:84
+#, php-format
+msgid "Description: %s"
+msgstr "الوصف: %s"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:106
+msgid "Current theme does not support widgets"
+msgstr " المظهر الحالي لا يدعم الويدجت"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:32
+msgid "Delete theme"
+msgstr "محو القالب"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:48
+msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
+msgstr ""
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:193
+msgid "Please wait until the download is completed"
+msgstr "فضلا انتظر حتى يتم اكتمال التحميل"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:193
+msgid "Downloading"
+msgstr "تحميل"
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:200
+msgid "The theme has been downloaded correctly, proceed to activate or preview it."
+msgstr "لقد تم تحميل القالب بشكل صحيح، انتقل إلى تنشيط أو معاينته."
+
+#: tmp/osclass/oc-admin/themes/modern/appearance/index.php:202
+msgid "Ok"
+msgstr "موافق"
+
+#: tmp/osclass/oc-admin/themes/modern/admins/frm.php:26
+msgid "Edit admin"
+msgstr "تعديل صلاحيات مدير"
+
+#: tmp/osclass/oc-admin/themes/modern/admins/frm.php:28
+msgid "Save"
+msgstr "حفظ"
+
+#: tmp/osclass/oc-admin/themes/modern/admins/frm.php:31
+msgid "Add admin"
+msgstr "اضافة مدير"
+
+#: tmp/osclass/oc-admin/themes/modern/admins/index.php:19
+msgid "Add users who can manage your page. You can add admins or moderators: admins have access to the whole admin panel while moderators can only modify listings and see stats."
+msgstr "إضافة المستخدمين الذين يمكنهم إدارة الصفحة الخاصة بك. يمكنك إضافة مدراء أو المشرفين: مدراء من الوصول إلى لوحة الادارة كامل بينما المشرفين فقط يمكن تعديل القوائم ومعرفة الإحصائيات."
+
+#: tmp/osclass/oc-admin/themes/modern/admins/index.php:24
+#, php-format
+msgid "Admins &raquo; %s"
+msgstr "المدير &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/admins/index.php:164
+msgid "Delete admin"
+msgstr "حذف المشرف"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/searches.php:44
+msgid "Custom number: this field must only contain numeric characters"
+msgstr "رقم مخصص: هذا المجال يجب أن تحتوي فقط على أحرف رقمية"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/searches.php:45
+msgid "Custom number: this field cannot be left empty"
+msgstr "رقم مخصص: هذا الحقل لا يمكن أن يترك فارغ"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/searches.php:69
+msgid "Save the searches users do on your site. In this way, you can get information on what they're most interested in. From here, you can manage the options on how much information you want to save."
+msgstr "حفظ عمليات البحث التي يقوم بها للمستخدمين على موقعك. بهذه الطريقة، يمكنك الحصول على معلومات حول ما هي أكثر الاشياء اهتماما من هنا، يمكنك إدارة الخيارات على مقدار المعلومات التي تريد حفظها."
+
+#: tmp/osclass/oc-admin/themes/modern/settings/searches.php:82
+#, php-format
+msgid "Latest searches Settings &raquo; %s"
+msgstr "أحدث عمليات البحث إعدادات »%s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/searches.php:132
+#, php-format
+msgid "Store %s queries"
+msgstr "تخزين %s استعلام"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/currencies.php:19
+msgid "Add new currencies or edit existing currencies so users can publish listings in their country's currency."
+msgstr "إضافة عملات جديدة أو تعديل العملات الموجودة بحيث يمكن للمستخدمين نشر قوائم بعملة بلادهم."
+
+#: tmp/osclass/oc-admin/themes/modern/settings/currencies.php:33
+#, php-format
+msgid "Currencies &raquo; %s"
+msgstr "العملات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/currencies.php:132
+#, php-format
+msgid "Are you sure you want to %s the selected currencies?"
+msgstr "هل انت متاكد انك تريد %s العملات المختارة ؟"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/currencies.php:163
+msgid "Delete currency"
+msgstr "حذف العملة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:39
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:40
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:41
+msgid "Currency code: this field is required"
+msgstr "رمز العملة: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:44
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:45
+msgid "Name: this field is required"
+msgstr "الاسم: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:79
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:80
+msgid "Add currency"
+msgstr "اضافة عملة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:83
+msgid "Edit currency"
+msgstr "تعديل العملة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:84
+msgid "Update currency"
+msgstr "تحديث عملة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:115
+#, php-format
+msgid "Must be a three-character code according to the <a href=\"%s\" target=\"_blank\">ISO 4217</a>"
+msgstr "يجب أن يكون رمز من ثلاثة أحرف وفقا الى <a href=\"%s\" target=\"_blank\">ISO 4217</a>"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/mailserver.php:65
+msgid "Modify the settings of the mail server from which your site's emails are sent. <strong>Be careful</strong>: these settings can vary depending on your hosting or server. If you run into any issues, check your hosting's help section."
+msgstr "تعديل إعدادات خادم البريد التي يتم إرسالها مواقع رسائل البريد الإلكتروني. <strong>كن على حذرا</strong> : يمكن أن تختلف هذه الإعدادات تبعا لاستضافة الخاص بك أو الخادم. إذا واجهت أي مشاكل،راجع قسم المساعدة الخاص باستضافتك."
+
+#: tmp/osclass/oc-admin/themes/modern/settings/mailserver.php:78
+#, php-format
+msgid "Mail Settings &raquo; %s"
+msgstr "اعدادات الرسائل البريدية &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/comments.php:38
+msgid "Moderated comments: this field is required"
+msgstr "الردود خاضعة للإشراف: مطلوب هذا الحقل"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/comments.php:39
+msgid "Moderated comments: this field must only contain numeric characters"
+msgstr "التعليقات خاضعة للإشراف: هذا الحقل يجب أن تحتوي فقط على رموز رقمية"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/comments.php:42
+msgid "Comments per page: this field is required"
+msgstr "الردود حسب الصفحة: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/comments.php:43
+msgid "Comments per page: this field must only contain numeric characters"
+msgstr "تعليقات لكل صفحة: هذا الحقل يجب أن تحتوي فقط على رموز رقمية"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/comments.php:79
+msgid "Modify the options that allow your users to publish comments on your site's listings."
+msgstr "تعديل الخيارات التي تسمح للمستخدمين لنشر التعليقات على قوائم موقعك."
+
+#: tmp/osclass/oc-admin/themes/modern/settings/comments.php:92
+#, php-format
+msgid "Comment Settings &raquo; %s"
+msgstr "اعدادات الرد &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/comments.php:125
+#, php-format
+msgid "Before a comment appears, comment author must have at least %s previously approved comments"
+msgstr "قبل ان يظهر التعليق، مؤلف التعليق يجب أن يمتلك على الأقل على %s من التعليقات معتمدة سابقا"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/comments.php:133
+#, php-format
+msgid "Break comments into pages with %s comments per page"
+msgstr "وقف التعليقات في الصفحات التي تحتوي على %s تعليق في كل صفحة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:39
+msgid "Change advanced configuration of your Osclass. <strong>Be careful</strong> when modifying default values if you're not sure what you're doing!"
+msgstr "قم بتعديل الخيارات التابعة لطبيق أو إس كلاس الخاص بكم. <strong>انتبهوا</strong> عند تعديل أية خيارات ان كنتم لا تعلمون ماذا تفعلون جيداً!"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:55
+#, php-format
+msgid "Advanced Settings &raquo; %s"
+msgstr "اعدادات متقدمة &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:76
+#: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:77
+msgid "Flush cache"
+msgstr ""
+
+#: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:108
+#, php-format
+msgid "Your current host is \"%s\". Add it without \"www\"."
+msgstr "استضافتك الحالية هي \"%s\". اضفها بدون \"www\"."
+
+#: tmp/osclass/oc-admin/themes/modern/settings/spamNbots.php:23
+msgid "Keep spammers from publishing on your site by configuring reCAPTCHA and Akismet. Be careful: in order to use these services, you must register on their sites first and follow their instructions."
+msgstr "الحفاظ من التعليقات المزعجة من النشر على موقع الويب الخاص بك عن طريق تكوين اختبار reCAPTCHA وأكيسميت. كن حذرا: من أجل استخدام هذه الخدمات، يجب أن تقوم بالتسجيل في مواقعهم الأولى واتباع تعليماتهم."
+
+#: tmp/osclass/oc-admin/themes/modern/settings/spamNbots.php:36
+#, php-format
+msgid "Spam and bots &raquo; %s"
+msgstr "الرسائل غير المرغوب فيها و الروبوتات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/spamNbots.php:62
+msgid "This key is valid"
+msgstr "هذا المفتاح صحيح"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/spamNbots.php:66
+msgid "The key you entered is invalid. Please double-check it"
+msgstr "المفتاح الذي أدخلته غير صالح, يرجى التحقق المزدوج منه"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/spamNbots.php:70
+#, php-format
+msgid "Akismet is disabled, please enter an API key. <a href=\"%s\" target=\"_blank\">(Get your key)</a>"
+msgstr "Akismet غير مفعل ,الرجاء إدخال مفتاح API .\n"
+"<a href=\"%s\" target=\"_blank\">(أحصل على مفتاح)</a>"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/spamNbots.php:88
+#, php-format
+msgid "reCAPTCHA helps prevent automated abuse of your site by using a CAPTCHA to ensure that only humans perform certain actions. <a href=\"%s\" target=\"_blank\">Get your key</a>"
+msgstr "reCAPTCHA يساعد على منع الإساءة الآلية على موقعك باستخدام CAPTCHA لضمان أن البشر فقط يؤدون إجراءات معينة. <a href=\"%s\" target=\"_blank\">احصل على مفتاحك</a>"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:174
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:175
+msgid "Listings url: this field is required"
+msgstr "رابط المبوبات: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:178
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:179
+msgid "Page url: this field is required"
+msgstr "رابط الصفحة: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:182
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:183
+msgid "Categories url: this field is required"
+msgstr "رابط الفئات :هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:186
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:187
+msgid "Search url: this field is required"
+msgstr "رابط البحث: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:190
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:191
+msgid "Search country: this field is required"
+msgstr "البحث بالدولة: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:194
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:195
+msgid "Search region: this field is required"
+msgstr "البحث في المنطقة: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:198
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:199
+msgid "Search city: this field is required"
+msgstr "بحث حسب المدينة :هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:202
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:203
+msgid "Search city area: this field is required"
+msgstr "البحث في منطفة المدينة: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:206
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:207
+msgid "Search category: this field is required"
+msgstr "قسم البحث: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:210
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:211
+msgid "Search user: this field is required"
+msgstr "بحث حسب المستخدم :هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:214
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:215
+msgid "Search pattern: this field is required"
+msgstr "نمط البحث: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:218
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:219
+msgid "Contact url: this field is required"
+msgstr "رابط الاتصال: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:222
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:223
+msgid "Feed url: this field is required"
+msgstr "رابط المغدي: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:226
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:227
+msgid "Language url: this field is required"
+msgstr "رابط اللغة هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:230
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:231
+msgid "Listing mark url: this field is required"
+msgstr "رابط علامة الاعلان :هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:234
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:235
+msgid "Listing send friend url: this field is required"
+msgstr "رابط ارسال الاعلان لصديق : هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:238
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:239
+msgid "Listing contact url: this field is required"
+msgstr "رابط اتصال الاعلان :هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:242
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:243
+msgid "New listing url: this field is required"
+msgstr "رابط اعلان جديد:هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:246
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:247
+msgid "Activate listing url: this field is required"
+msgstr "رابط تفعيل المبوبة: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:250
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:251
+msgid "Edit listing url: this field is required"
+msgstr "رابط تعديل المبوبة: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:254
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:255
+msgid "Delete listing url: this field is required"
+msgstr "رابط حذف المبوبة: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:258
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:259
+msgid "Delete listing resource url: this field is required"
+msgstr "حذف ادراج رابط الموارد: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:262
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:263
+msgid "Login url: this field is required"
+msgstr "رابط تسجيل الدخول: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:266
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:267
+msgid "User dashboard url: this field is required"
+msgstr "رابط لوحة معلومات مستخدم: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:270
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:271
+msgid "Logout url: this field is required"
+msgstr "رابط تسجيل الخروج: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:274
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:275
+msgid "User register url: this field is required"
+msgstr "رابط تسجيل مستخدم :هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:278
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:279
+msgid "Activate user url: this field is required"
+msgstr "تنشيط رابط المستخدم: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:282
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:283
+msgid "Activate alert url: this field is required"
+msgstr "رابط تفعيل الانذار: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:286
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:287
+msgid "User profile url: this field is required"
+msgstr "رابط حساب المستخدم : هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:290
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:291
+msgid "User listings url: this field is required"
+msgstr "رابط اعلانات مستخدم : هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:294
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:295
+msgid "User alerts url: this field is required"
+msgstr "رابط تحذيرات مستخدم: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:298
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:299
+msgid "Recover user url: this field is required"
+msgstr "رابط اعادة المستخدم: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:302
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:303
+msgid "User forgot url: this field is required"
+msgstr "رابط المستخدم المنسي :هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:306
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:307
+msgid "Change password url: this field is required"
+msgstr "رابط تغيير كلمة السر: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:310
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:311
+msgid "Change email url: this field is required"
+msgstr "تغيير رابط البريد الالكتروني: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:314
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:315
+msgid "Change username url: this field is required"
+msgstr "تغيير رابط اسم المستخدم: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:318
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:319
+msgid "Change email confirm url: this field is required"
+msgstr "رابط تغيير بريد التاكيد: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:336
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:340
+msgid "Show rules"
+msgstr "اعرض القواعد"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:337
+msgid "Hide rules"
+msgstr "اخفاء القواعد"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:360
+msgid "Activate this option if you want your site's URLs to be more attractive to search engines and intelligible for users. <strong>Be careful</strong>: depending on your hosting service, this might not work correctly."
+msgstr "فعل هذا الخيار إذا كنت تريد لمواقعك عناوين أكثر جاذبية لمحركات البحث وواضحة للمستخدمين. <strong>كن على حذرا</strong> : اعتمادا على خدمة الاستضافة، وهذا قد لا تعمل بشكل صحيح."
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:372
+#, php-format
+msgid "Permalinks &raquo; %s"
+msgstr "الروابط الثابتة &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:403
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:412
+#: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:421
+#, php-format
+msgid "Accepted keywords: %s"
+msgstr "كلمات ابحث المقبولة: %s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:31
+msgid "Delete location"
+msgstr "حذف المكان"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:127
+msgid "View more"
+msgstr "شاهد المزيد"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:131
+msgid "Edit country"
+msgstr "تعديل الدولة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:132
+msgid "Add new country"
+msgstr "اضافة دولة جديدة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:133
+msgid "Edit region"
+msgstr "تعديل المنطقة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:134
+msgid "Add new region"
+msgstr "اضافة منطقة جديدة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:135
+msgid "Edit city"
+msgstr "تعديل المدينة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:136
+msgid "Add new city"
+msgstr "اضافة مدينة جديدة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:137
+msgid "Import a location"
+msgstr ""
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:152
+msgid "Add, edit or delete the countries, regions and cities installed on your Osclass. <strong>Be careful</strong>: modifying locations can cause your statistics to be incorrect until they're recalculated. Modify only if you're sure what you're doing!"
+msgstr "إضافة، تعديل أو حذف الدول والمناطق والمدن المثبتة على Osclass الخاص بك. <strong>كن على حذرا</strong>: تعديل المواقع يمكن ان يؤدي ان الإحصاءات الخاصة بك قد تكون غير صحيحة حتى يتم حتسابها. عدلها فقط اذا كنت تعرف ماذا تفعل!"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:165
+#, php-format
+msgid "Locations &raquo; %s"
+msgstr "الاماكن &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/locations.php:449
+msgid "Import"
+msgstr "استيراد"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:35
+msgid "Size is not in the correct format"
+msgstr "الحجم ليس في الشكل الصحيح"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:58
+msgid "Thumbnail size: this field is required"
+msgstr "حجم الصورة المصغرة :هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:59
+msgid "Thumbnail size: is not in the correct format"
+msgstr "حجم الصورة المصغرة: هذه الهيئة غير صحيحة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:62
+msgid "Preview size: this field is required"
+msgstr "حجم المعاينة: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:63
+msgid "Preview size: is not in the correct format"
+msgstr "حجم المعاينة: ليس في التنسيق الصحيح"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:66
+msgid "Normal size: this field is required"
+msgstr "الحجم الطبيعي: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:67
+msgid "Normal size: is not in the correct format"
+msgstr "الحجم الطبيعي: ليس في الشكل الصحيح"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:70
+msgid "Maximum size: this field is required"
+msgstr "افصي حجم: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:71
+msgid "Maximum size: this field must only contain numeric characters"
+msgstr "الحد الأقصى لحجم: هذا الحقل يجب أن تحتوي فقط على رموز رقمية"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:147
+msgid "Manage the options for the images users can upload along with their listings. You can limit their size, the number of images per ad, include a watermark, etc."
+msgstr "إدارة خيارات التي يمكن للمستخدمين من رفع الصور جنبا إلى جنب مع القوائم الخاصة بهم. يمكنك تحديد حجمها، وعددها في الإعلان، ومن ضمنها العلامة المائية، الخ"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:160
+#, php-format
+msgid "Media Settings &raquo; %s"
+msgstr "اعدادات الوسائط المتعددة &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:225
+#, php-format
+msgid "Maximum size PHP configuration allows: %d KB"
+msgstr "اقصي حجم تسمح به اعدادات PHP :%d KB"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:257
+#, php-format
+msgid "Freetype library is required. How to <a target=\"_blank\" href=\"%s\">install/configure</a>"
+msgstr ""
+
+#: tmp/osclass/oc-admin/themes/modern/settings/media.php:337
+msgid "Recommendation"
+msgstr "توصية"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:56
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:57
+msgid "Page title: this field is required"
+msgstr "عنوان الصفحة: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:60
+#: tmp/osclass/oc-includes/osclass/gui/user-change_email.php:81
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:937
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1231
+msgid "Email: this field is required"
+msgstr "البريد الالكتروني: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:61
+#: tmp/osclass/oc-includes/osclass/ItemActions.php:1351
+#: tmp/osclass/oc-includes/osclass/gui/alert-form.php:28
+#: tmp/osclass/oc-includes/osclass/gui/user-change_email.php:82
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:938
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1232
+msgid "Invalid email address"
+msgstr "عنوان بريد إلكتروني غير صالح"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:64
+msgid "Listings shown in RSS feed: this field is required"
+msgstr "ظهور الاعلان كـ RSS: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:65
+msgid "Listings shown in RSS feed: this field must only contain numeric characters"
+msgstr "القوائم تظهر في تغذيات RSS: هذا الحقل يجب أن تحتوي فقط على رموز رقمية"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:68
+msgid "Latest listings shown: this field is required"
+msgstr "اضهار أحدث قوائم : هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:69
+msgid "Latest listings shown: this field must only contain numeric characters"
+msgstr "اضهارأحدث القوائم : هذا الحقل يجب أن تحتوي فقط على رموز رقمية"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:72
+msgid "The search page shows: this field is required"
+msgstr "صفحة البحث تظهر: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:73
+msgid "The search page shows: this field must only contain numeric characters"
+msgstr "ظهور  صفحة البحث: هذا الحقل يجب أن تحتوي فقط على رموز رقمية"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:126
+msgid "Change the basic configuration of your Osclass. From here, you can modify variables such as the site’s name, the default currency or how lists of listings are displayed. <strong>Be careful</strong> when modifying default values if you're not sure what you're doing!"
+msgstr "تغيير الاعداد الأساسي لـ Osclass الخاص بك. من هنا، يمكنك تعديل متغيرات مثل اسم الموقع، العملة الافتراضية أو كيفية عرض لائحة القوائم.<strong>كن على حذرا</strong> عند تعديل القيم الافتراضية إلا إذا كنت متأكد ما انت فاعل!"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:139
+#, php-format
+msgid "General Settings &raquo; %s"
+msgstr "الإعدادات العامة &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/settings/index.php:312
+#, php-format
+msgid "Allow Osclass to run a built-in <a href=\"%s\" target=\"_blank\">cron</a> automatically without setting crontab"
+msgstr "السماح بتشغيل Osclass الداخلي <a href=\"%s\" target=\"_blank\">cron</a> تلقائيا دون تحديد crontab"
+
+#: tmp/osclass/oc-admin/themes/modern/media/index.php:19
+msgid "Manage the images that users have uploaded along with their listings. You can delete them without deleting the whole listing if the image is inappropriate or doesn’t match the listing."
+msgstr "إدارة الصور التي قمت بتحميلها المستخدمين جنبا إلى جنب مع القوائم الخاصة بهم. يمكنك حذفها دون حذف القائمة بأكملها إذا كانت الصورة غير لائقة أو لا تتناسب مع القائمة."
+
+#: tmp/osclass/oc-admin/themes/modern/media/index.php:33
+#, php-format
+msgid "Media &raquo; %s"
+msgstr "وسائط  &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/media/index.php:57
+msgid "Delete media"
+msgstr "حذف وسائط"
+
+#: tmp/osclass/oc-admin/themes/modern/emails/frm.php:58
+msgid "Send email"
+msgstr "ارسل بريد الكتروني"
+
+#: tmp/osclass/oc-admin/themes/modern/emails/frm.php:92
+#, php-format
+msgid "Edit email template &raquo; %s"
+msgstr "تحرير قالب البريد الالكتروني &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/emails/index.php:19
+msgid "Modify the emails your site's users receive when they join your site, when someone shows interest in their ad, to recover their password... <strong>Be careful</strong>: don't modify any of the words that appear within brackets."
+msgstr "تعديل رسائل البريد الإلكتروني للمستخدمي موقعك التي تظهر عند انضمامهم للموقع، عندما يظهر اشخاص ما اهتمامهم بإعلاناتهم، ولاسترداد كلمة المرور الخاصة بهم ... <strong>كن على حذرا</strong> : لا تعديل أي من الكلمات التي تظهر بين قوسين."
+
+#: tmp/osclass/oc-admin/themes/modern/emails/index.php:32
+#, php-format
+msgid "Email templates &raquo; %s"
+msgstr "قوالب البريد الالكتروني &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/categories/iframe.php:91
+#: tmp/osclass/oc-admin/themes/modern/categories/index.php:150
+msgid "Ajax error, please try again."
+msgstr "خطأ في اجاكس رجاءً حاول مجدد."
+
+#: tmp/osclass/oc-admin/themes/modern/categories/index.php:24
+msgid "Add, edit or delete the categories or subcategories in which users can post listings. Reorder sections by dragging and dropping, or nest a subcategory in an expanded category. <strong>Be careful</strong>: If you delete a category, all listings associated will also be deleted!"
+msgstr "إضاف او عديل أو احذف التصنيفات أو التصنيفات الفرعية التي يمكن للمستخدمين من خلالها إضافة قوائم. أعد ترتيب المقاطع عن طريق السحب والإفلات، أو اجعل التصنيفات فرعية في التصنيفات الموسعة. <strong>كن حذراً</strong>: إذا قمت بحذف تصنيف، فإنه سيتم حذف كافة القوائم المرتبطة به!"
+
+#: tmp/osclass/oc-admin/themes/modern/categories/index.php:38
+#, php-format
+msgid "Categories &raquo; %s"
+msgstr "الفئات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/categories/index.php:99
+msgid "Note: You must expand the category in order to make it a subcategory."
+msgstr "ملاحظة: يجب توسيع التصنيف  من أجل جعله تصنيف فرعي."
+
+#: tmp/osclass/oc-admin/themes/modern/categories/index.php:105
+#: tmp/osclass/oc-admin/themes/modern/categories/index.php:254
+msgid "This action could take a while."
+msgstr "هذه العملية قد تستغرق بعض الوقت."
+
+#: tmp/osclass/oc-admin/themes/modern/categories/index.php:378
+msgid "Delete category"
+msgstr "محو القسم"
+
+#: tmp/osclass/oc-admin/themes/modern/pages/frm.php:32
+msgid "Edit page"
+msgstr "تحرير صفحة"
+
+#: tmp/osclass/oc-admin/themes/modern/pages/frm.php:37
+#: tmp/osclass/oc-admin/themes/modern/pages/frm.php:39
+msgid "Add page"
+msgstr "اضافة صفحة"
+
+#: tmp/osclass/oc-admin/themes/modern/pages/index.php:19
+msgid "With Osclass you can create static pages on which information can be stored, such as \"About Us\" or \"Info\" pages. From here you can create, edit or delete your site's static pages."
+msgstr "مع Osclass يمكنك إنشاء صفحات ثابتة التي يمكن تخزين المعلومات, مثل \"من نحن\" أو \"معلومات\" من هنا يمكنك إنشاء أو تحرير أو حذف صفحات ثابتة موقعك."
+
+#: tmp/osclass/oc-admin/themes/modern/pages/index.php:33
+#, php-format
+msgid "Pages &raquo; %s"
+msgstr "صفحات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/pages/index.php:192
+msgid "Delete page"
+msgstr "حذف الصفحة"
+
+#: tmp/osclass/oc-admin/themes/modern/upgrade/index.php:25
+#: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:55
+msgid "Upgrade"
+msgstr "ترقية"
+
+#: tmp/osclass/oc-admin/themes/modern/languages/frm.php:28
+#, php-format
+msgid "Edit language &raquo; %s"
+msgstr "تحرير لغة &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/languages/add.php:25
+#, php-format
+msgid "Add language &raquo; %s"
+msgstr "اضافة لغة &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/languages/index.php:19
+msgid "Add, edit or delete the language in which your Osclass is displayed, both the part that's viewable by users and the admin panel."
+msgstr "إضافة أو تعديل أو حذف اللغة الخاصة بك التي يتم عرض بها Osclass، سواء الجزء الذي هو للعرض من قبل المستخدمين او لوحة الادارة"
+
+#: tmp/osclass/oc-admin/themes/modern/languages/index.php:33
+#, php-format
+msgid "Languages &raquo; %s"
+msgstr "اللغات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/languages/index.php:57
+msgid "Delete language"
+msgstr "حذف لغة"
+
+#: tmp/osclass/oc-admin/themes/modern/main/index.php:48
+#, php-format
+msgid "Dashboard &raquo; %s"
+msgstr "لوحة المعلومات &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/main/index.php:206
+#: tmp/osclass/oc-admin/themes/modern/main/index.php:211
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:57
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:73
+#: tmp/osclass/oc-includes/osclass/gui/search.php:144
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:430
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:471
+msgid "Listings"
+msgstr "اعلانات"
+
+#: tmp/osclass/oc-admin/themes/modern/main/index.php:237
+#, php-format
+msgid "Total number of listings: %s"
+msgstr "عدد الاعلانات الاجمالي : %s"
+
+#: tmp/osclass/oc-admin/themes/modern/main/index.php:243
+#, php-format
+msgid "Total number of users: %s"
+msgstr "اجمالي عدد المستخدمين: %s"
+
+#: tmp/osclass/oc-admin/themes/modern/functions.php:62
+#, php-format
+msgid "Thank you for using <a href=\"%s\" target=\"_blank\">Osclass</a>"
+msgstr "شكراً لاستخدامكم <a href=\"%s\" target=\"_blank\">أو إس كلاس</a>"
+
+#: tmp/osclass/oc-admin/themes/modern/functions.php:102
+#: tmp/osclass/oc-admin/themes/modern/functions.php:136
+msgid "Enter title here"
+msgstr "ضع العنوان هنا"
+
+#: tmp/osclass/oc-admin/themes/modern/functions.php:122
+#: tmp/osclass/oc-includes/osclass/classes/datatables/PagesDataTable.php:64
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:152
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:227
+#: tmp/osclass/oc-includes/osclass/frm/Page.form.class.php:77
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:491
+#: tmp/osclass/oc-includes/osclass/emails.php:983
+#: tmp/osclass/oc-includes/osclass/emails.php:988
+#: tmp/osclass/oc-includes/osclass/emails.php:1082
+#: tmp/osclass/oc-includes/osclass/emails.php:1087
+#: tmp/osclass/oc-includes/osclass/emails.php:1195
+#: tmp/osclass/oc-includes/osclass/emails.php:1200
+msgid "Title"
+msgstr "العنوان"
+
+#: tmp/osclass/oc-admin/themes/modern/functions.php:149
+#: tmp/osclass/oc-admin/themes/modern/functions.php:182
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:502
+#: tmp/osclass/oc-includes/osclass/frm/Category.form.class.php:159
+#: tmp/osclass/oc-includes/osclass/emails.php:984
+#: tmp/osclass/oc-includes/osclass/emails.php:989
+#: tmp/osclass/oc-includes/osclass/emails.php:1083
+#: tmp/osclass/oc-includes/osclass/emails.php:1088
+#: tmp/osclass/oc-includes/osclass/emails.php:1196
+#: tmp/osclass/oc-includes/osclass/emails.php:1201
+msgid "Description"
+msgstr "الوصف"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/version.php:22
+#, php-format
+msgid "Osclass %s"
+msgstr ""
+
+#: tmp/osclass/oc-admin/themes/modern/tools/version.php:30
+#, php-format
+msgid "Osclass %s &raquo; %s"
+msgstr ""
+
+#: tmp/osclass/oc-admin/themes/modern/tools/locations.php:71
+#, php-format
+msgid "Location stats &raquo; %s"
+msgstr "احصاءات المواقع &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/locations.php:94
+msgid "Calculate location stats"
+msgstr "حساب احصائيات مكان"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/category.php:29
+#, php-format
+msgid "Category stats &raquo; %s"
+msgstr "احصاءات القسم &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/category.php:47
+msgid "Calculate category stats"
+msgstr "حساب احصاءات الأقسام"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:32
+#, php-format
+msgid "Checking for updates (Current version %s)"
+msgstr "البحث عن تحديثات (هذه النسخة %s)"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:36
+msgid "Congratulations! Your Osclass installation is up to date!"
+msgstr "مبروك! نسختكم من أو إس كلاس لا تحتاج للتحديث!"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:38
+msgid "New version to update:"
+msgstr "يتوفر الان اصدار احدث:"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:41
+msgid "Upgrading your Osclass installation (this could take a while):"
+msgstr "ترقية Osclass المنصب (يمكن ان يستغرق هذا بعض الوقت):"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:79
+msgid "Check to see if you're using the latest version of Osclass. If you're not, the system will let you know so you can update and use the newest features."
+msgstr "تحقق لمعرفة ما إذا كنت تستخدم أحدث إصدار من Osclass. إذا كنت لا، فإن النظام سوف تتيح لك معرفة حتى تتمكن من تحديث واستخدام أحدث الميزات."
+
+#: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:98
+#, php-format
+msgid "Upgrade &raquo; %s"
+msgstr "ترقية &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:117
+msgid "Osclass Documentation"
+msgstr ""
+
+#: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:25
+msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
+msgstr "اضهار رسالة \"الموقع في وضع الصيانة\"  للمستخدميك بينما تقوم بتحديث موقعك أو تقوم بتعديل اعداداتك"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:38
+#, php-format
+msgid "Maintenance &raquo; %s"
+msgstr "الصيانة &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:53
+#, php-format
+msgid "Maintenance mode is: <strong>%s</strong>"
+msgstr "نظام الصيانة: <strong>%s</strong>"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:53
+msgid "ON"
+msgstr "تشغيل"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:53
+msgid "OFF"
+msgstr "ايقاف"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:57
+msgid "Disable maintenance mode"
+msgstr "الغاء نظام الصيانة"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:57
+msgid "Enable maintenance mode"
+msgstr "تفعيل نظام الصيانة"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/import.php:25
+#, no-php-format
+msgid "Upload registers from other Osclass installations or upload new geographic information to your site. <strong>Be careful</strong>: don’t use this option if you're not 100% sure what you're doing."
+msgstr "رفع سجلات من تنصيب Osclass أخر أو ارفع المعلومات الجغرافية لموقعك. <strong>كن على حذرا</strong> : لا تستخدم هذا الخيار إذا كنت متأكدا 100%ما كنت تفعل."
+
+#: tmp/osclass/oc-admin/themes/modern/tools/import.php:37
+#, php-format
+msgid "Import &raquo; %s"
+msgstr "استيراد &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/import.php:57
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:104
+msgid "Import data"
+msgstr "استيراد البيانات"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/backup.php:36
+msgid "Save a backup of all of your site's information: listings, users and configuration. You can save a backup on your server or on your computer."
+msgstr "حفظ نسخة احتياطية من كافة المعلومات موقعك: قوائم والمستخدمين والاعداد. يمكنك حفظ نسخة احتياطية على الخادم الخاص بك أو على جهاز الكمبيوتر الخاص بك."
+
+#: tmp/osclass/oc-admin/themes/modern/tools/backup.php:49
+#, php-format
+msgid "Backup &raquo; %s"
+msgstr "نسخ احتياطي &raquo; %s"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/backup.php:75
+msgid "Backup SQL (store on server)"
+msgstr "نسخ احتياطي لقاعدة البيانات(الحفظ علي الخادم)"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/backup.php:76
+msgid "Backup SQL (download file)"
+msgstr "نسخ الحتياطي لقاعدة البانات (حمل الملف)"
+
+#: tmp/osclass/oc-admin/themes/modern/tools/backup.php:77
+msgid "Backup files (store on server)"
+msgstr "نسخ احتياطي للملفات (الحفظ علي الخادم)"
+
+#: tmp/osclass/oc-admin/items.php:460 tmp/osclass/oc-admin/items.php:828
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:278
+msgid "Unmark as premium"
+msgstr "إلغاء الإمتياز"
+
+#: tmp/osclass/oc-admin/items.php:462 tmp/osclass/oc-admin/items.php:827
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:280
+msgid "Mark as premium"
+msgstr "تحديد إمتياز"
+
+#: tmp/osclass/oc-admin/items.php:465 tmp/osclass/oc-admin/items.php:830
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:283
+msgid "Unmark as spam"
+msgstr "إلغاء التحديد كرسائل غير مرغوب فيها"
+
+#: tmp/osclass/oc-admin/items.php:467 tmp/osclass/oc-admin/items.php:829
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:285
+msgid "Mark as spam"
+msgstr "اشرها كـبريد مزعج"
+
+#: tmp/osclass/oc-admin/items.php:822 tmp/osclass/oc-admin/items.php:823
+#: tmp/osclass/oc-admin/items.php:824 tmp/osclass/oc-admin/items.php:825
+#: tmp/osclass/oc-admin/items.php:826 tmp/osclass/oc-admin/items.php:827
+#: tmp/osclass/oc-admin/items.php:828 tmp/osclass/oc-admin/items.php:829
+#: tmp/osclass/oc-admin/items.php:830
+#, php-format
+msgid "Are you sure you want to %s the selected listings?"
+msgstr "هل انت متأكد من انك تريد %s الاعلانات المختاره ؟"
+
+#: tmp/osclass/oc-admin/pages.php:277
+#, php-format
+msgid "Are you sure you want to %s the selected pages?"
+msgstr "هل انت متأكد انك تريد حذف %s الصفحات المختارة?"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:122
+msgid "PHP version >= 5.6.x"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:124
+msgid "At least PHP5.6 (PHP 7.0 or higher recommended) is required to run Osclass. You may talk with your hosting to upgrade your PHP version."
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:128
+msgid "MySQLi extension for PHP"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:130
+msgid "MySQLi extension is required. How to <a target=\"_blank\" href=\"http://www.php.net/manual/en/mysqli.setup.php\">install/configure</a>."
+msgstr " اضافة MySQLi مطلوبة. كيف ذلك <a target=\"_blank\" href=\"http://www.php.net/manual/en/mysqli.setup.php\">تنصيب/اعداد</a>."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:134
+msgid "GD extension for PHP"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:136
+msgid "GD extension is required. How to <a target=\"_blank\" href=\"http://www.php.net/manual/en/image.setup.php\">install/configure</a>."
+msgstr " اضافة GD مطلوبة. كيف ذلك <a target=\"_blank\" href=\"http://www.php.net/manual/en/image.setup.php\">تنصيب/اعداد</a>."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:140
+msgid "Folder <code>oc-content/uploads</code> exists"
+msgstr "مجلد <code>oc-content/uploads</code> موجود"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:142
+#, php-format
+msgid "You have to create <code>uploads</code> folder, i.e.: <code>mkdir %soc-content/uploads/</code>"
+msgstr "عليك إنشاء مجلد <code>uploads</code> اي ان عليك تنفيذ <code>mkdir %soc-content/uploads/</code>"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:146
+msgid "<code>oc-content/uploads</code> folder is writable"
+msgstr "<code>oc-content/uploads</code> مجلد قابل للكتابة عليه"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:148
+#, php-format
+msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:152
+msgid "Folder <code>oc-content/downloads</code> exists"
+msgstr "المجلد <code>oc-content/downloads</code> موجود"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:154
+#, php-format
+msgid "You have to create <code>downloads</code> folder, i.e.: <code>mkdir %soc-content/downloads/</code>"
+msgstr "عليك انشاء مجلد <code>downloads</code>,اي انه عليك ان تنفذ : <code>mkdir %soc-content/downloads/</code>"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:158
+msgid "<code>oc-content/downloads</code> folder is writable"
+msgstr "<code>oc-content/downloads</code> مجلد قابل للكتابة عليه"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:160
+#, php-format
+msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:164
+msgid "Folder <code>oc-content/languages</code> folder exists"
+msgstr "مجلد على ​​<code>oc-content/languages</code> المجلد موجود"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:166
+#, php-format
+msgid "You have to create the <code>languages</code> folder, i.e.: <code>mkdir %soc-content/languages/</code>"
+msgstr "عليك انشاء مجلد<code>languages</code> اي انه عليك ان تنفذ : <code>mkdir %soc-content/languages/</code>"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:170
+msgid "<code>oc-content/languages</code> folder is writable"
+msgstr "<code>oc-content/languages</code> مجلد قابل للكتابة عليه"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:172
+#, php-format
+msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:184
+msgid "<code>config.php</code> file is writable"
+msgstr "<code>config.php</code> ملف قابل للكتابة"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:186
+#, php-format
+msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:193
+msgid "Root directory is writable"
+msgstr "المجلد الرئيسي للخادم قابل للكتابة"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:195
+#, php-format
+msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:202
+msgid "<code>config-sample.php</code> file exists"
+msgstr "<code>config-sample.php</code> ملف موجود"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:204
+msgid "<code>config-sample.php</code> file is required, you should re-download Osclass."
+msgstr "<code>config-sample.php</code> هذا الملف غي موجود , من فضلك اعد تحميل Osclass."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:291
+#: tmp/osclass/oc-includes/osclass/install-functions.php:309
+#: tmp/osclass/oc-includes/osclass/install-functions.php:348
+#: tmp/osclass/oc-includes/osclass/install-functions.php:365
+#, php-format
+msgid "Cannot connect to the database. Error number: %s"
+msgstr "لا يمكن الوصول لقاعدة البيانات. خطاء رقم %s"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:296
+#: tmp/osclass/oc-includes/osclass/install-functions.php:353
+msgid "The database doesn't exist. You should check the \"Create DB\" checkbox and fill in a username and password with the right privileges"
+msgstr "قاعدة البياتات غير موجودة. يجب عليك التحقق من \"Create DB\" مربع اختيار واملئ اسم المستخدم وكلمة المرور ذات الامتيازات المناسبة"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:299
+#: tmp/osclass/oc-includes/osclass/install-functions.php:356
+msgid "Cannot connect to the database. Check if the user has privileges."
+msgstr "لا يمكن الاتصال بقاعدة البيانات. تحقق مما إذا كان المستخدم لديه امتيازات."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:302
+#: tmp/osclass/oc-includes/osclass/install-functions.php:359
+msgid "Cannot connect to the database. Check if the username and password are correct."
+msgstr "لا يمكن الوصول لقاعدة البيانات . تاكد من اسم المستخدم و كلمة السر."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:305
+#: tmp/osclass/oc-includes/osclass/install-functions.php:362
+msgid "Can't resolve MySQL host. Check if the host is correct."
+msgstr "لا يمكن الوصول لمضيف قاعدة البيانات . تاكد من المضيف."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:324
+#: tmp/osclass/oc-includes/osclass/install-functions.php:331
+#, php-format
+msgid "Can't create the database. Error number: %s"
+msgstr "لا يمكن انشاء قاعدة البيانات. خطاء رقم: %s"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:328
+msgid "Can't create the database. Check if the admin username and password are correct."
+msgstr "لم نتمكن من انشاء قاعدة البيانات. يرجى التأكد من اسم الشرف و كلمة السر لقاعدة البيانات."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:373
+#: tmp/osclass/oc-includes/osclass/install-functions.php:376
+msgid "Can't write in config.php file. Check if the file is writable."
+msgstr "لا يمكن التعديل في ملف config.php . تاكد من انه قابل للكتابة."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:382
+#: tmp/osclass/oc-includes/osclass/install-functions.php:385
+msgid "config-sample.php doesn't exist. Check if everything is decompressed correctly."
+msgstr "ملف config-sample.php غير موجود تحقق إذا تم فك ضغط كل شيء بشكل صحيح."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:389
+#: tmp/osclass/oc-includes/osclass/install-functions.php:392
+msgid "Can't copy config-sample.php. Check if the root directory is writable."
+msgstr "لا يمكن نسخ config-sample.php  تحقق من ان الدليل الجذر قابل للكتابة."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:409
+#: tmp/osclass/oc-includes/osclass/install-functions.php:417
+#, php-format
+msgid "Can't create the database structure. Error number: %s"
+msgstr "لا يمكن إنشاء هيكل قاعدة البيانات. خطاء رقم %s"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:414
+msgid "There are tables with the same name in the database. Change the table prefix or the database and try again."
+msgstr "وهناك جداول بنفس الاسم في قاعدة البيانات. تغيير بادئة الجدول أو قاعدة البيانات وحاول مرة أخرى."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:456
+#: tmp/osclass/oc-includes/osclass/install-functions.php:459
+#, php-format
+msgid "The file %s doesn't exist"
+msgstr "الملف %s غير موجود"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:471
+#: tmp/osclass/oc-includes/osclass/install-functions.php:479
+#, php-format
+msgid "Can't insert basic configuration. Error number: %s"
+msgstr "لا يمكن إدراج الاعداد  الأساسي. رقم الخطأ:%s"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:476
+msgid "Can't insert basic configuration. This user has no privileges to 'INSERT' into the database."
+msgstr "لا يمكن إدراج الاعداد الأساسي. هذا المستخدم ليس لديه امتيازات لإدراجها في قاعدة البيانات."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:898
+msgid "You can modify username and password if you like, just change the input value."
+msgstr "يمكنك تعديل اسم المستخدم وكلمة المرور إذا كنت تريد، فقط قم بتغيير قيمة المدخلات."
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:950
+msgid "Loading..."
+msgstr "جاري التحميل ,,,,"
+
+#: tmp/osclass/oc-includes/osclass/install-functions.php:1021
+#, php-format
+msgid "An e-mail with the password for oc-admin has been sent to: %s"
+msgstr "لقد أرسلت رسالة بالبريد الإلكتروني مع كلمة المرور للوحة تحكم الادارة :%s"
+
+#: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:32
+msgid "Osclass &raquo; Has some errors"
+msgstr "Osclass &raquo; به بعض الاخطاء"
+
+#: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:33
+msgid "We've encountered some problems while updating the database structure. The following queries failed:"
+msgstr "لقد واجهنا بعض المشاكل أثناء تحديث بنية قاعدة البيانات. الاستعلامات التالية فشلت:"
+
+#: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:35
+#, php-format
+msgid "These errors could be false-positive errors. If you're sure that is the case, you can <a href=\"%s\">continue with the upgrade</a>, or <a href=\"https://osclass.discourse.group\">ask in our forums</a>."
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:270
+msgid "You need to calculate location stats, please go to admin panel, tools, recalculate location stats or click"
+msgstr "يجب عليك حساب احصاءات الموقع، يرجى الذهاب للوحة المشرف، الأدوات، اعادة حساب احصاءات الموقع أو النقر"
+
+#: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:270
+msgid "here"
+msgstr "هنا"
+
+#: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:560
+msgid "Osclass &raquo; Updated correctly"
+msgstr "Osclass &raquo; تم تحديثه بشكل صحيح"
+
+#: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:561
+msgid "Osclass has been updated successfully. <a href=\"https://github.com/navjottomer/osclass\">Need more help?</a>"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/controller/search.php:610
+msgid "Latest listings added"
+msgstr "آخر إعلانات مضافة"
+
+#: tmp/osclass/oc-includes/osclass/controller/search.php:612
+msgid "Latest listings added in"
+msgstr "آخر إعلانات مضافة في"
+
+#: tmp/osclass/oc-includes/osclass/controller/contact.php:78
+#: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:70
+#, php-format
+msgid "Name: %s"
+msgstr "الاسم: %s"
+
+#: tmp/osclass/oc-includes/osclass/controller/contact.php:79
+#, php-format
+msgid "Email: %s"
+msgstr "البريد الالكتروني: %s"
+
+#: tmp/osclass/oc-includes/osclass/controller/contact.php:80
+#, php-format
+msgid "Subject: %s"
+msgstr "الموضوع: %s"
+
+#: tmp/osclass/oc-includes/osclass/controller/contact.php:81
+#, php-format
+msgid "Message: %s"
+msgstr "الرسالة: %s"
+
+#: tmp/osclass/oc-includes/osclass/controller/contact.php:82
+#, php-format
+msgid "Date: %s at %s"
+msgstr "التاريخ: %s إلي %s"
+
+#: tmp/osclass/oc-includes/osclass/controller/contact.php:83
+#, php-format
+msgid "IP Address: %s"
+msgstr "الاي بي : %s"
+
+#: tmp/osclass/oc-includes/osclass/controller/contact.php:99
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:397
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:440
+#: tmp/osclass/oc-includes/osclass/functions.php:229
+msgid "Contact"
+msgstr "اتصل"
+
+#: tmp/osclass/oc-includes/osclass/ItemActions.php:107
+msgid "Anonymous"
+msgstr "مجهول"
+
+#: tmp/osclass/oc-includes/osclass/ItemActions.php:1348
+msgid "Your name: this field is required"
+msgstr "اسمك: هذا الحقل مطلوب"
+
+#: tmp/osclass/oc-includes/osclass/ItemActions.php:1354
+msgid "Message: this field is required"
+msgstr "الرسالة: هذه الخانة متطلبة"
+
+#: tmp/osclass/oc-includes/osclass/classes/Dependencies.php:71
+#, php-format
+msgid "ERROR: Some dependencies could not be loaded (%s)"
+msgstr " خطأ: لايمكن تحميل بعد التبعيات (%s)"
+
+#: tmp/osclass/oc-includes/osclass/classes/ImageProcessing.php:46
+#, php-format
+msgid "%s does not exist!"
+msgstr "%s غير موجود!"
+
+#: tmp/osclass/oc-includes/osclass/classes/ImageProcessing.php:50
+#, php-format
+msgid "%s is not readable!"
+msgstr "%s غير قابل للقراءة!"
+
+#: tmp/osclass/oc-includes/osclass/classes/ImageProcessing.php:54
+#, php-format
+msgid "%s is corrupt or broken!"
+msgstr "%s فاسد او مكسور"
+
+#: tmp/osclass/oc-includes/osclass/classes/Plugins.php:124
+#, php-format
+msgid "Plugin %s is missing the index.php file %s"
+msgstr "الاضافة %s تفتقد للملف index.php %s"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:378
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:421
+#: tmp/osclass/oc-includes/osclass/functions.php:110
+msgid "Publish a listing"
+msgstr "نشر اعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:379
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:422
+#: tmp/osclass/oc-includes/osclass/functions.php:113
+msgid "Edit your listing"
+msgstr "تعديل اعلانك"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:380
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:423
+#: tmp/osclass/oc-includes/osclass/functions.php:116
+msgid "Send to a friend"
+msgstr "أرسل إلى صديق"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:381
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:424
+msgid "Contact publisher"
+msgstr "اتصل بالناشر"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:382
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:425
+#: tmp/osclass/oc-includes/osclass/functions.php:73
+#: tmp/osclass/oc-includes/osclass/functions.php:175
+msgid "Search results"
+msgstr "نتائج البحث"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:383
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:426
+#, php-format
+msgid "Search results: %s"
+msgstr "نتائج البحث: %s"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:384
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:55
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:187
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:427
+#: tmp/osclass/oc-includes/osclass/functions.php:203
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:385
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:428
+#, php-format
+msgid "%s's profile"
+msgstr "ملف %s الشخصي"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:386
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:429
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:481
+msgid "Account"
+msgstr "الحساب"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:387
+msgid "My listings"
+msgstr "اعلاناتي"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:388
+msgid "My alerts"
+msgstr "تنبيهات"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:389
+#: tmp/osclass/oc-includes/osclass/functions.php:212
+msgid "Update my profile"
+msgstr "تحديث معلوماتي الشخصية"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:390
+#: tmp/osclass/oc-includes/osclass/functions.php:218
+msgid "Change my email"
+msgstr "تغيير عنوان البريد الالكتروني"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:391
+#: tmp/osclass/oc-includes/osclass/functions.php:221
+msgid "Change my username"
+msgstr "تحديث اسم المستخدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:392
+#: tmp/osclass/oc-includes/osclass/functions.php:224
+msgid "Change my password"
+msgstr "تغيير كلمة السر"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:393
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:436
+#: tmp/osclass/oc-includes/osclass/functions.php:193
+msgid "Login"
+msgstr "دخول"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:394
+#: tmp/osclass/oc-includes/osclass/functions.php:187
+msgid "Recover your password"
+msgstr "استعادة كلمة السر الخاصة بك"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:395
+msgid "Change your password"
+msgstr "تغيير كلمة السر"
+
+#: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:396
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:439
+#: tmp/osclass/oc-includes/osclass/functions.php:197
+msgid "Create a new account"
+msgstr "إنشاء حساب جديد"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:57
+msgid "User name"
+msgstr "اسم المستخدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:58
+msgid "User email"
+msgstr "بريد المستخدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:59
+msgid "Link for account validation."
+msgstr "رابط التاكيد من صحة حسابك"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:60
+msgid "Url for account validation."
+msgstr "رابط التاكد من صحة حسابك"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:61
+msgid "List of listings, used when send alerts"
+msgstr "قائمة بالاعلانات , تستخدم عند ارسال تحذير"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:62
+msgid "Unsubscribe link."
+msgstr "رابط إلغاء الاشتراك."
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:63
+msgid "Site home page url."
+msgstr "رابط الصفحة الرئيسية للموقع."
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:64
+msgid "Site home page link."
+msgstr "رابط الصفحة الرئيسية للموقع."
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:65
+msgid "Title of your site"
+msgstr "اسم موقعك"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:66
+msgid "Current date"
+msgstr "التاريخ االحالي"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:67
+msgid "Hour"
+msgstr "الساعة"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:68
+msgid "User ip address"
+msgstr "اي بي المستخدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:69
+msgid "Comment author name"
+msgstr "اسم كاتب الرد"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:70
+msgid "Comment author email"
+msgstr "البريد الالكتروني لكاتب الرد"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:71
+msgid "Comment title"
+msgstr "عنوان الرد"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:72
+msgid "Comment text content"
+msgstr "المحتوي النصي للرد"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:73
+msgid "Comment body"
+msgstr "محتوي الرد"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:74
+msgid "Listing url"
+msgstr "رابط الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:75
+msgid "Item expiration date"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:76
+msgid "Listing list"
+msgstr "قائمة الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:77
+msgid "Listing title"
+msgstr "عنوان الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:78
+msgid "Listing id"
+msgstr "رقم العريف للاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:79
+msgid "Link for edit listing"
+msgstr "رابط لتعديل الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:80
+msgid "Url for edit listing"
+msgstr "رابط تعديل الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:81
+msgid "Delete listing link"
+msgstr "حذف رابط الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:82
+msgid "Delete listing url"
+msgstr "حذف رابط الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:83
+msgid "Change user password link"
+msgstr "تغيير رابط كلمة سر المستخدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:84
+msgid "change user password url"
+msgstr "تغيير رابط كلمة سر المستخدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:85
+msgid "Date time"
+msgstr "التاريخ الوقت"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:86
+msgid "Name of the friend who wants send"
+msgstr "اسم الصديق الذي تريد الارسال له"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:87
+msgid "Email of the friend who wants send"
+msgstr "البريد الالكتروني للصديق الذي تريد الارسال له"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:88
+msgid "Question about your listing"
+msgstr "سؤال حول اعلانك"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:89
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:99
+msgid "Contact name"
+msgstr "الاسم للتواصل"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:90
+msgid "User phone number"
+msgstr "رقم هاتف المستخدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:91
+msgid "Listing description"
+msgstr "وصف الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:92
+msgid "Listing description in all languages"
+msgstr "وصف الاعلان بكل اللغات"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:93
+msgid "Listing price"
+msgstr "سعر الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:94
+msgid "Listing country"
+msgstr "دولة الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:95
+msgid "Listing region"
+msgstr "منطقة الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:96
+msgid "Listing city"
+msgstr "مدينة الاعلان"
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:97
+msgid "Seller name"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:98
+msgid "Seller email"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:58
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:72
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:59
+msgid "Alert"
+msgstr "تنبيه"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:80
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:70
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:150
+msgid "Status"
+msgstr "الحالة"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:82
+msgid "Author"
+msgstr "الكاتب"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:83
+msgid "Comment"
+msgstr "تعليق"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:122
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:117
+#: tmp/osclass/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:86
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:302
+#: tmp/osclass/oc-includes/osclass/helpers/hAdminMenu.php:172
+msgid "Show more"
+msgstr "المزيد"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:73
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:74
+#: tmp/osclass/oc-includes/osclass/frm/Category.form.class.php:158
+msgid "Name"
+msgstr "الاسم"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:77
+msgid "Update date"
+msgstr "تحديث التاريخ"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:99
+#: tmp/osclass/oc-includes/osclass/functions.php:215
+msgid "Public profile"
+msgstr "الملف العام"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:112
+msgid "Re-send activation email"
+msgstr "ارسل بريد التاكيد مرة اخره"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:59
+msgid "Ban name / Reason"
+msgstr "منع اسم / السبب"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:60
+msgid "IP rule"
+msgstr "قاعدة الاي بي"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:61
+msgid "E-mail rule"
+msgstr "قواعد البريد الالكتروني"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/MediaDataTable.php:81
+msgid "File"
+msgstr "ملف"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/MediaDataTable.php:82
+msgid "Action"
+msgstr "اجراء"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/MediaDataTable.php:83
+msgid "Attached to"
+msgstr "ارفق الي"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/PagesDataTable.php:63
+msgid "Internal name"
+msgstr "الاسم الداخلي"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/PagesDataTable.php:65
+msgid "Order"
+msgstr "أطلب"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/PagesDataTable.php:94
+msgid "View page"
+msgstr "شاهد الصفحة"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/PagesDataTable.php:109
+msgid "Up"
+msgstr "اعلى"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/PagesDataTable.php:109
+msgid "Down"
+msgstr "اسفل"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:153
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:228
+#: tmp/osclass/oc-includes/osclass/frm/User.form.class.php:163
+msgid "User"
+msgstr "مستخدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:154
+msgid "Category"
+msgstr "التصنيف"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:155
+msgid "Location"
+msgstr "الموقع "
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:157
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:235
+msgid "Expiration date"
+msgstr "تاريخ انتهاء الصلاحية"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:230
+msgid "Misclassified"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:294
+msgid "View comments"
+msgstr "مشاهدة الردود"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:297
+msgid "View media"
+msgstr "مشاهدة الوسائط"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:335
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:407
+msgid "Never expires"
+msgstr "لا ينتهى"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:367
+msgid "Clear All"
+msgstr "مسح الجميع"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:369
+msgid "Clear Spam"
+msgstr "مسح الاعلانات الوهمية"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:372
+msgid "Clear Misclassified"
+msgstr "مسح الحقول المفقودة"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:375
+msgid "Clear Duplicated"
+msgstr "مسح الاعلانات المكرره"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:378
+msgid "Clear Offensive"
+msgstr "مسح الاعلانات العدائية"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:381
+msgid "Clear Expired"
+msgstr "مسح الاعلانات المنتهية"
+
+#: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:616
+msgid "Premium"
+msgstr "علاوة"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:58
+msgid "Manage listings"
+msgstr "ادارة الاعلانات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:59
+msgid "Reported listings"
+msgstr "الاعلانات المبلغ عنها"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:60
+msgid "Manage media"
+msgstr "ادارة الوسائط المتعددة"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:62
+msgid "Custom fields"
+msgstr "الحقول المخصصة"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:63
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:78
+msgid "Settings"
+msgstr "اعدادات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:66
+msgid "Manage themes"
+msgstr "ادارة الثيمات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:67
+msgid "Manage widgets"
+msgstr "ادارة القطع"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:70
+msgid "Manage plugins"
+msgstr "ادارة الملحقات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:72
+msgid "Statistics"
+msgstr "إحصائيات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:74
+msgid "Reports"
+msgstr "تقارير"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:75
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:95
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:96
+msgid "Users"
+msgstr "المستخدمين"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:79
+msgid "General"
+msgstr "عام"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:80
+msgid "Categories"
+msgstr "الفئات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:82
+msgid "Locations"
+msgstr "المناطق"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:83
+msgid "Email templates"
+msgstr "نماذج البريد الالكتروني"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:84
+msgid "Languages"
+msgstr "اللغات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:85
+msgid "Permalinks"
+msgstr "الروابط الثابتة"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:86
+msgid "Spam and bots"
+msgstr "الرسائل غير المرغوب فيها و الروبوتات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:87
+msgid "Currencies"
+msgstr "العملات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:88
+msgid "Mail server"
+msgstr "خادم البريد الالكتروني"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:89
+msgid "Media"
+msgstr "الوسائط المتعددة"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:90
+msgid "Latest searches"
+msgstr "آخر مواضيع تم البحث عنها"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:91
+msgid "Advanced"
+msgstr "متقدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:93
+msgid "Pages"
+msgstr "الصفحات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:97
+msgid "User Settings"
+msgstr "اعدادات المستخدم"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:98
+msgid "Administrators"
+msgstr "المديرين"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:99
+msgid "Your Profile"
+msgstr "حسابك "
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:101
+msgid "Ban rules"
+msgstr "قواعد المنع"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:103
+msgid "Tools"
+msgstr "ادوات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:105
+msgid "Backup data"
+msgstr "نسخ احتياطي للبيانات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:106
+msgid "Upgrade Osclass"
+msgstr "ترقية Osclass"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:107
+msgid "Location stats"
+msgstr "احصاءات الموقع"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:108
+msgid "Category stats"
+msgstr "فئة الإحصائيات"
+
+#: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:109
+msgid "Maintenance mode"
+msgstr "نظام الصيانة"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hSearch.php:48
+#: tmp/osclass/oc-includes/osclass/helpers/hSearch.php:55
+msgid "Newly listed"
+msgstr "الأحدث"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hSearch.php:49
+msgid "Lower price first"
+msgstr "الأسعار الأقل أولاً"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hSearch.php:50
+msgid "Higher price first"
+msgstr "الأسعار الأعلى أولاً"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "January"
+msgstr "يناير"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "February"
+msgstr "فبراير"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "March"
+msgstr "مارس"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "April"
+msgstr "أبريل"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "May"
+msgstr "مايو"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "June"
+msgstr "يونيو"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "July"
+msgstr "يوليو"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "August"
+msgstr "أغسطس"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "September"
+msgstr "سبتمبر"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "October"
+msgstr "أكتوبر"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "November"
+msgstr "نوفمبر"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:145
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:35
+msgid "December"
+msgstr "ديسمبر"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Jan"
+msgstr "يناير"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Feb"
+msgstr "فبراير"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Mar"
+msgstr "مارس"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Apr"
+msgstr "أبريل"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Jun"
+msgstr "يونيو"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Jul"
+msgstr "يوليو"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Aug"
+msgstr "أغسطس"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Sep"
+msgstr "سبتمبر"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Oct"
+msgstr "أكتوبر"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Nov"
+msgstr "نوفمبر"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:146
+msgid "Dec"
+msgstr "ديسمبر"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:147
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:37
+msgid "Monday"
+msgstr "الإثنين"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:147
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:37
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:147
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:37
+msgid "Wednesday"
+msgstr "الاربعاء"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:147
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:37
+msgid "Thursday"
+msgstr "الخميس"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:147
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:37
+msgid "Friday"
+msgstr "الجمعة"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:147
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:37
+msgid "Saturday"
+msgstr "السبت"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:147
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:37
+msgid "Sunday"
+msgstr "الاحد"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:148
+msgid "Mon"
+msgstr "الإثنين"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:148
+msgid "Tue"
+msgstr "الثلاثاء"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:148
+msgid "Wed"
+msgstr "الأربعاء"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:148
+msgid "Thu"
+msgstr "الخميس"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:148
+msgid "Fri"
+msgstr "الجمعة"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:148
+msgid "Sat"
+msgstr "السبت"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:148
+msgid "Sun"
+msgstr "الأحد"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
+msgid "AM"
+msgstr "صباحا"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
+msgid "PM"
+msgstr "مساء"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
+msgid "am"
+msgstr "ص"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
+msgid "pm"
+msgstr "م"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:186
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:466
+msgid "Public Profile"
+msgstr "ملف عام"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:188
+msgid "Manage your listings"
+msgstr "إدارة إعلاناتك"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:189
+msgid "Manage your alerts"
+msgstr "إدارة التنبيهات"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:190
+msgid "My profile"
+msgstr "الملف الشخصي"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:191
+#: tmp/osclass/oc-includes/osclass/functions.php:521
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hAdminMenu.php:176
+msgid "Compact"
+msgstr "مدمج"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hItems.php:1117
+msgid "Check with seller"
+msgstr "تحقق مع البائع"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hItems.php:1118
+msgid "Free"
+msgstr "مجانا"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hItems.php:1214
+msgid "From"
+msgstr "من"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hItems.php:1215
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:293
+msgid "to"
+msgstr "إلى"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hCategories.php:291
+#: tmp/osclass/oc-includes/osclass/gui/item-post.php:62
+#: tmp/osclass/oc-includes/osclass/gui/inc.search.php:52
+#: tmp/osclass/oc-includes/osclass/gui/header.php:76
+#: tmp/osclass/oc-includes/osclass/frm/ManageItems.form.class.php:53
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:66
+msgid "Select a category"
+msgstr "تحديد تصنيف"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hPagination.php:196
+#, php-format
+msgid "Showing %s to %s of %s results (filtered from %s total results)"
+msgstr "عرض %s الى %s من %s نتيجة (منتقاه من %s كامل النتائج)"
+
+#: tmp/osclass/oc-includes/osclass/helpers/hPagination.php:198
+#, php-format
+msgid "Showing %s to %s of %s results"
+msgstr "عرض %s الى %s من %s نتائج"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:4
+msgid "For sale"
+msgstr "للبيع"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:5
+msgid "Vehicles"
+msgstr "مركبات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:6
+msgid "Classes"
+msgstr "دروس"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:7
+msgid "Real estate"
+msgstr "عقارات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:8
+msgid "Services"
+msgstr "خدمات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:9
+msgid "Community"
+msgstr "مجتمع"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:10
+msgid "Personals"
+msgstr "أغراض شخصية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:11
+msgid "Jobs"
+msgstr "عمل"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:12
+msgid "Animals"
+msgstr "حيوانات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:13
+msgid "Art - Collectibles"
+msgstr "فن - مقتنيات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:14
+msgid "Barter"
+msgstr "مبادلة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:15
+msgid "Books - Magazines"
+msgstr "كتب - مجلات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:16
+msgid "Cameras - Camera Accessories"
+msgstr "كاميرات - ملحقات الكاميرات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:17
+msgid "CDs - Records"
+msgstr "أقراص مدمجة - الوثائق"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:18
+msgid "Cell Phones - Accessories"
+msgstr "هواتف محمولة - ومستلزماتها"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:19
+msgid "Clothing"
+msgstr "ملابس"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:20
+msgid "Computers - Hardware"
+msgstr "أجهزة كمبيوتر - هاردوير"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:21
+msgid "DVD"
+msgstr "دي في دي"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:22
+msgid "Electronics"
+msgstr "إلكترونيات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:23
+msgid "For Babies - Infants"
+msgstr "للأطفال - للرضْع"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:24
+msgid "Garage Sale"
+msgstr "بيع جراج"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:25
+msgid "Health - Beauty"
+msgstr "صحة - جمال"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:26
+msgid "Home - Furniture - Garden Supplies"
+msgstr "منزل - مفروشات - معدات حدائق"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:27
+msgid "Jewelry - Watches"
+msgstr "مصوغات - ساعات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:28
+msgid "Musical Instruments"
+msgstr "آلات موسيقية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:29
+msgid "Sporting Goods - Bicycles"
+msgstr "سلع رياضية - دراجات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:30
+msgid "Tickets"
+msgstr "تذاكر"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:31
+msgid "Toys - Games - Hobbies"
+msgstr "ألعاب - هوايات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:32
+msgid "Video Games - Consoles"
+msgstr "ألعاب الفيديو - لوحات مفاتيح"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:33
+msgid "Everything Else"
+msgstr "أخرى"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:34
+msgid "Cars"
+msgstr "سيارات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:35
+msgid "Car Parts"
+msgstr "قطع غيار سيارات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:36
+msgid "Motorcycles"
+msgstr "دراجات بخارية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:37
+msgid "Boats - Ships"
+msgstr "قوارب - سفن"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:38
+msgid "RVs - Campers - Caravans"
+msgstr "فان - كارافان"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:39
+msgid "Trucks - Commercial Vehicles"
+msgstr "الشاحنات - السيارات التجارية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:40
+msgid "Other Vehicles"
+msgstr "مركبات أخرى"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:41
+msgid "Computer - Multimedia Classes"
+msgstr "كمبيوتر -  دروس الوسائط المتعددة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:42
+msgid "Language Classes"
+msgstr "دروس لغة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:43
+msgid "Music - Theatre - Dance Classes"
+msgstr "دروس موسيقى - مسرح - رقص"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:44
+msgid "Tutoring - Private Lessons"
+msgstr "دروس خصوصية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:45
+msgid "Other Classes"
+msgstr "دروس أخرى"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:46
+msgid "Houses - Apartments for Sale"
+msgstr "منازل - شقق للبيع"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:47
+msgid "Houses - Apartments for Rent"
+msgstr "منازل - شقق للإيجار"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:48
+msgid "Rooms for Rent - Shared"
+msgstr "غرف للإيجار - للمشاركة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:49
+msgid "Housing Swap"
+msgstr "تبادل المنازل"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:50
+msgid "Vacation Rentals"
+msgstr "إيجارات الأجازات "
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:51
+msgid "Parking Spots"
+msgstr "مواقف السيارات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:52
+msgid "Land"
+msgstr "أراضي"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:53
+msgid "Office - Commercial Space"
+msgstr "مكاتب - مساحات تجارية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:54
+msgid "Shops for Rent - Sale"
+msgstr "محلات للإيجار - للبيع"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:55
+msgid "Babysitter - Nanny"
+msgstr "جليسة الأطفال - مربية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:56
+msgid "Casting - Auditions"
+msgstr "تمثيل"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:57
+msgid "Computer"
+msgstr "كمبيوتر - حاسب آلي"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:58
+msgid "Event Services"
+msgstr "أحداث"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:59
+msgid "Health - Beauty - Fitness"
+msgstr "صحة - جمال - لياقة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:60
+msgid "Horoscopes - Tarot"
+msgstr "الأبراج"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:61
+msgid "Household - Domestic Help"
+msgstr "المساعدة المنزلية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:62
+msgid "Moving - Storage"
+msgstr "نقل - تخزين"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:63
+msgid "Repair"
+msgstr "اصلاح"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:64
+msgid "Writing - Editing - Translating"
+msgstr "كتابة - تحرير - ترجمة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:65
+msgid "Other Services"
+msgstr "خدمات أخرى"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:66
+msgid "Carpool"
+msgstr "رفقاء للطريق"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:67
+msgid "Community Activities"
+msgstr "أنشطة إجتماعية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:68
+msgid "Events"
+msgstr "مناسبات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:69
+msgid "Musicians - Artists - Bands"
+msgstr "موسيقيين - فنانين"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:70
+msgid "Volunteers"
+msgstr "متطوعين"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:71
+msgid "Lost And Found"
+msgstr "مفقودات - تم العثور على"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:72
+msgid "Women looking for Men"
+msgstr "سيدات تبحث عن رجال"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:73
+msgid "Men looking for Women"
+msgstr "رجال يبحثون عن سيدات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:74
+msgid "Men looking for Men"
+msgstr "رجل يبحث عن رجل "
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:75
+msgid "Women looking for Women"
+msgstr "امرأة تبحث عن امراة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:76
+msgid "Friendship - Activity Partners"
+msgstr "صداقة - شركاء في النشاطات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:77
+msgid "Missed Connections"
+msgstr "اتصالات مقطوعة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:78
+msgid "Accounting - Finance"
+msgstr "المحاسبة - المالية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:79
+msgid "Advertising - Public Relations"
+msgstr "الإعلانات - العلاقات العامة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:80
+msgid "Arts - Entertainment - Publishing"
+msgstr "فنون - ترفيه - نشر"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:81
+msgid "Clerical - Administrative"
+msgstr "ديني - إداري"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:82
+msgid "Customer Service"
+msgstr "خدمة العملاء"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:83
+msgid "Education - Training"
+msgstr "تعليم - تدريب"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:84
+msgid "Engineering - Architecture"
+msgstr "الهندسة - الهندسة المعمارية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:85
+msgid "Healthcare"
+msgstr "الرعاية الصحية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:86
+msgid "Human Resource"
+msgstr "موارد بشرية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:87
+msgid "Internet"
+msgstr "إنترنت"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:88
+msgid "Legal"
+msgstr "قانوني"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:89
+msgid "Manual Labor"
+msgstr "أعمال يدوية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:90
+msgid "Manufacturing - Operations"
+msgstr "التصنيع"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:91
+msgid "Marketing"
+msgstr "التسويق"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:92
+msgid "Non-profit - Volunteer"
+msgstr "غير هادفة للربح - تطوع"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:93
+msgid "Real Estate"
+msgstr "عقارات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:94
+msgid "Restaurant - Food Service"
+msgstr "مطاعم - خدمات غذائية"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:95
+msgid "Retail"
+msgstr "بيع بالتجزئة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:96
+msgid "Sales"
+msgstr "مبيعات"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:97
+msgid "Technology"
+msgstr "تكنولوجيا"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:98
+msgid "Other Jobs"
+msgstr "أعمال أخرى"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:104
+msgid "Example Ad"
+msgstr "مثال لاعلان"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:105
+msgid "Description of the example ad. Insert here some usefull description of your ad."
+msgstr "وصف المثال الإعلان. إدراج هنا بعض الوصف المفيد لإعلانك."
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:106
+msgid "Example author"
+msgstr "مثال علي كاتب"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:107
+msgid "osclass@example.com"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:108
+msgid "Example country"
+msgstr "مثال علي دولة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:109
+msgid "Example region"
+msgstr "مثال علي منطقة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:110
+msgid "Example city"
+msgstr "مثال علي مدينة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:115
+msgid "Example page title"
+msgstr "مثال علي عنوان الصفحة"
+
+#: tmp/osclass/oc-includes/osclass/installer/basic_data.php:116
+msgid "This is an example page description. This is a good place to put your Terms of Service or any other help information."
+msgstr "هذا هو وصف مثال على صفحة. هذا هو مكان جيد لوضع شروط الخدمة الخاصة بك أو أي معلومات أخرى مساعدة."
+
+#: tmp/osclass/oc-includes/osclass/gui/user-alerts.php:51
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:982
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1282
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1536
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد أنك تريد المتابعة؟"
+
+#: tmp/osclass/oc-includes/osclass/gui/alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "لقد سجلت بنجاح بهذا التنبيه"
+
+#: tmp/osclass/oc-includes/osclass/gui/alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "هناك مشكلة بالتنبيه"
+
+#: tmp/osclass/oc-includes/osclass/gui/user-change_email.php:38
+msgid "Change e-mail"
+msgstr "تغيير البريد الإلكتروني"
+
+#: tmp/osclass/oc-includes/osclass/gui/admin/settings.php:46
+msgid "Donate"
+msgstr "تبرع"
+
+#: tmp/osclass/oc-includes/osclass/gui/admin/header.php:42
+msgid "Remove logo"
+msgstr "إزالة الشعار"
+
+#: tmp/osclass/oc-includes/osclass/gui/admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "مجلد الصور <strong>%s</strong> غير قابل للكتابة على الخادم الخاص بك"
+
+#: tmp/osclass/oc-includes/osclass/gui/admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "لا يمكن لـ Osclass رفع صورة الشعار من لوحة الادارة."
+
+#: tmp/osclass/oc-includes/osclass/gui/admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "الرجاء جعل مجلد الصور المذكور آنفا قابل للكتابة."
+
+#: tmp/osclass/oc-includes/osclass/gui/loop-single-premium.php:69
+#: tmp/osclass/oc-includes/osclass/gui/loop-single.php:69
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد أنك تريد المتابعة؟"
+
+#: tmp/osclass/oc-includes/osclass/gui/item.php:62
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">تأريخ النشر</strong>: %1$s"
+
+#: tmp/osclass/oc-includes/osclass/gui/item.php:65
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">تأريخ التعديل:</strong> %1$s"
+
+#: tmp/osclass/oc-includes/osclass/gui/search.php:55
+msgid "Selected"
+msgstr "مختار"
+
+#: tmp/osclass/oc-includes/osclass/gui/search.php:56
+msgid "Nothing selected, input was"
+msgstr "لا شيء اختيارها، كان الإدخال"
+
+#: tmp/osclass/oc-includes/osclass/gui/search.php:74
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "لا توجد نتائج مطابقة الى %s"
+
+#: tmp/osclass/oc-includes/osclass/gui/search.php:78
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %2$d من %3$d اعلانات"
+
+#: tmp/osclass/oc-includes/osclass/gui/search.php:136
+msgid "Premium listings"
+msgstr "اعلانات مميزة"
+
+#: tmp/osclass/oc-includes/osclass/gui/footer.php:35
+#: tmp/osclass/oc-includes/osclass/gui/header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "السلام عليكم يا %s"
+
+#: tmp/osclass/oc-includes/osclass/gui/footer.php:72
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/gui/head.php:55
+msgid "No file selected"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/gui/head.php:56
+msgid "Choose File"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:432
+msgid "Update account"
+msgstr "تحديث الحساب"
+
+#: tmp/osclass/oc-includes/osclass/gui/common/head.php:90
+msgid "Previous image"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/gui/common/head.php:91
+msgid "Next image"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:39
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:434
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:491
+msgid "Change username"
+msgstr "تغيير اسم المستخدم"
+
+#: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "البريد الإلكتروني: %s"
+
+#: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "الهاتف: %s"
+
+#: tmp/osclass/oc-includes/osclass/gui/user-sidebar.php:28
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:501
+msgid "Delete account"
+msgstr "حذف حساب"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:29
+msgid "ie. PHP Programmer"
+msgstr "مثلا مبرمج php"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:433
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:486
+msgid "Change email"
+msgstr "تغيير البريد الإلكتروني"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:437
+msgid "Recover password"
+msgstr "استعادة كلمة السر"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:566
+msgid "Theme settings updated correctly"
+msgstr "تم تحديث اعدادات القالب بشكل صحيح"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:581
+msgid "The logo image has been uploaded correctly"
+msgstr "تم تحميل صورة الشعار بشكل صحيح"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:583
+msgid "An error has occurred, please try again"
+msgstr "لقد حدث خطأ، يرجى المحاولة مرة أخرى"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:594
+msgid "The logo image has been removed"
+msgstr "تمت إزالة صورة الشعار"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:596
+msgid "Image not found"
+msgstr "الصورة غير موجودة"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:618
+msgid "Header logo"
+msgstr "شعار الترويسة"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:619
+msgid "Theme settings"
+msgstr "اعدادات القالب"
+
+#: tmp/osclass/oc-includes/osclass/gui/functions.php:692
+msgid "All categories"
+msgstr "جميع التصنيفات"
+
+#: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:69
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>العنوان:</strong> %1$s"
+
+#: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:72
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>الموقع:</strong> %1$s"
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2359
+msgid "Everything looks good! Your Osclass installation is up-to-date"
+msgstr "كل شيء يظهر بحالة جيدة! نسختكم من أو إس كلاس في حالة تحديث جيدة"
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2363
+msgid "Nearly everything looks good! Your Osclass installation is up-to-date, but there were some errors removing temporary files. Please manually remove the \"oc-content/downloads/oc-temp\" folder"
+msgstr "تقريبا كل شىء يبدو جيدا! و لكن هناك بعض المشاكل في حذف الملفات المؤقتة. من فضلك امسح المجلد  \"oc-content/downloads/oc-temp\""
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2369
+msgid "Problems when upgrading the database"
+msgstr "مشاكل عند ترقية قاعدة البيانات"
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2373
+#: tmp/osclass/oc-includes/osclass/utils.php:2675
+msgid "Problems when copying files. Please check your permissions. "
+msgstr "مشاكل عند نسخ الملفات. يرجى التحقق من الأذونات الخاصة بك."
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2377
+#: tmp/osclass/oc-includes/osclass/utils.php:2691
+msgid "Nothing to copy"
+msgstr "لايوجد شئ لنسخه"
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2382
+#: tmp/osclass/oc-includes/osclass/utils.php:2695
+msgid "Unzip failed"
+msgstr "فشلت عملية فك الضغط"
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2387
+#: tmp/osclass/oc-includes/osclass/utils.php:2699
+msgid "Download failed"
+msgstr "فشل التحميل"
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2392
+#: tmp/osclass/oc-includes/osclass/utils.php:2712
+msgid "Missing download URL"
+msgstr "رابط التحميل مفقود"
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2398
+msgid "We had some errors upgrading your database. The follwing queries failed:"
+msgstr "كان لدينا بعض الأخطاء في ترقية قاعدة البيانات الخاصة بك. الاستعلامات التالية فشلت:"
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2667
+msgid "Everything looks good!"
+msgstr "كل شيء يظهر بصورة جيدة!"
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2671
+msgid "Nearly everything looks good! but there were some errors removing temporary files. Please manually remove the \\\"oc-content/downloads/oc-temp\\\" folder"
+msgstr "تقريبا كل شىء يبدو جيدا! و لكن هناك بعض المشاكل في حذف الملفات المؤقتة. من فضلك امسح المجلد  \\\"oc-content/downloads/oc-temp\\\""
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2681
+#, php-format
+msgid "NOTE: Web user and destination folder user is not the same, you might have an issue there. <br/>Do this in your console:<br/>chown -R %s:%s %s"
+msgstr "ملاحظة: مستخدم ويب ومستخدم المجلد الهدف ليست هي نفسها، قد يكون لديك مشكلة في هذا <br/>نفذ الامر التالي في موجه الاوامر الخاص بك<br/>chown -R %s:%s %s"
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2704
+msgid "This is a paid item, you need to buy it before you are able to download it"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/utils.php:2707
+msgid "Input code not valid"
+msgstr "رمز الادخال غير صحيح"
+
+#: tmp/osclass/oc-includes/osclass/model/Category.php:658
+msgid "Non-Existent Category"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/model/Item.php:1144
+#, php-format
+msgid "%s in"
+msgstr "%s في"
+
+#: tmp/osclass/oc-includes/osclass/model/Item.php:1153
+msgid "There's no description available in your language"
+msgstr "ليس هناك وصف متاح في لغتك"
+
+#: tmp/osclass/oc-includes/osclass/install.php:91
+msgid "Looks like you've already installed Osclass. To reinstall please clear your old database tables first."
+msgstr "تبدو وكأنك بالفعل لديك Osclass مثبتة. لإعادة التثبيت يرجى مسح جداول قاعدة البيانات القديمة أولا."
+
+#: tmp/osclass/oc-includes/osclass/install.php:229
+msgid "Try again"
+msgstr "حاول مرة اخري"
+
+#: tmp/osclass/oc-includes/osclass/install.php:234
+msgid "Run the install"
+msgstr "ابدء التثبيت"
+
+#: tmp/osclass/oc-includes/osclass/core/WebSecBaseModel.php:60
+#: tmp/osclass/oc-includes/osclass/core/AdminSecBaseModel.php:110
+msgid "Session timed out"
+msgstr "انتهي  وقت الجلسة"
+
+#: tmp/osclass/oc-includes/osclass/frm/Page.form.class.php:90
+msgid "Body"
+msgstr "الجسد"
+
+#: tmp/osclass/oc-includes/osclass/frm/Alert.form.class.php:46
+msgid "Enter your e-mail"
+msgstr "اكتب بريدك الالكتروني"
+
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:31
+msgid "Done"
+msgstr "تم"
+
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:32
+msgid "Prev"
+msgstr "السابق"
+
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:33
+msgid "Next"
+msgstr "التالي"
+
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:34
+msgid "Today"
+msgstr "اليوم"
+
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:232
+msgid "Select"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:288
+msgid "from"
+msgstr "من"
+
+#: tmp/osclass/oc-includes/osclass/frm/User.form.class.php:114
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:568
+msgid "Select a country..."
+msgstr "اختار الدولة"
+
+#: tmp/osclass/oc-includes/osclass/frm/User.form.class.php:127
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:623
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1039
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1072
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1079
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1081
+msgid "Select a region..."
+msgstr "اختار المنطقة"
+
+#: tmp/osclass/oc-includes/osclass/frm/User.form.class.php:139
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:655
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1063
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1075
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1085
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1087
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1115
+msgid "Select a city..."
+msgstr "اختار المدينة"
+
+#: tmp/osclass/oc-includes/osclass/frm/User.form.class.php:164
+msgid "Company"
+msgstr "الشركة"
+
+#: tmp/osclass/oc-includes/osclass/frm/User.form.class.php:171
+msgid "All"
+msgstr "كل"
+
+#: tmp/osclass/oc-includes/osclass/frm/Admin.form.class.php:80
+msgid "Administrator"
+msgstr "مدير"
+
+#: tmp/osclass/oc-includes/osclass/frm/Admin.form.class.php:81
+msgid "Moderator"
+msgstr "المشرف"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:140
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:149
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:169
+msgid "Select Subcategory"
+msgstr "اختر فئة  فرعية"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:146
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:170
+msgid "No Subcategory"
+msgstr "لا يوجد فئة فرعية"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:881
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1163
+msgid "Description needs to be longer"
+msgstr "تتحتاج الي وصف اكثر"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:919
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1213
+msgid "Choose one category"
+msgstr "اختار تصنيف واحد فقط"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:922
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1216
+msgid "Price: no more than 50 characters"
+msgstr "السعر: ليس اكثر من 50 حرف"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:924
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1218
+msgid "Currency: make your selection"
+msgstr "العملة: حدد اختيارك"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:928
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1222
+#, php-format
+msgid "Photo: must be %s"
+msgstr "الصورة: يجب ان تكون %s"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:933
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1227
+msgid "Name: enter at least 3 characters"
+msgstr "الاسم: اكتب على الاقل 3 احرف"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:934
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1228
+msgid "Name: no more than 35 characters"
+msgstr "الاسم: ليس اطول من 35 حرف"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:942
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1242
+msgid "Address: enter at least 3 characters"
+msgstr "العنوان: اكتب على الاقل 3 احرف"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:943
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1243
+msgid "Address: no more than 100 characters"
+msgstr "العنوان: ليس اطول من 100 حرف"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1235
+msgid "Select a region"
+msgstr "اختار منطقة"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1236
+msgid "Select a city"
+msgstr "اختار مدينة"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1238
+msgid "City area: enter at least 3 characters"
+msgstr "منطقة المدينة: اكتب 3 احرف على الاقل"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1239
+msgid "City area: no more than 50 characters"
+msgstr "منطقة المدينة: ليس اكثر من 50 حرف"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1353
+msgid "Remove"
+msgstr "إمسح"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1365
+msgid "Sorry, you have reached the maximum number of images per listing"
+msgstr "عفوا, لقد وصلت الي الحد الاقصي من الصور في الاعلان "
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1632
+msgid "Too many items ({netItems}) would be uploaded. Item limit is {itemLimit}."
+msgstr "ملفات كثيرة ({netItems}) يمكن رفعها. حد العدد {itemLimit}."
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1633
+msgid "The files are being uploaded, if you leave now the upload will be cancelled."
+msgstr "جاري تحميل الملفات. اذا غادرت الصفحة الأن, سيتم إلغاء عملية التحميل"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1634
+msgid "{file} has an invalid extension. Valid extension(s): {extensions}."
+msgstr "{file} لديه نهاية غير صالحة. النهايات الصالحة: {extensions}."
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1635
+msgid "{file} is too large, maximum file size is {sizeLimit}."
+msgstr "{file} كبير جدا, اكبر حجم لملف {sizeLimit}."
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1636
+msgid "{file} is empty, please select files again without it."
+msgstr "{file} فارغ, من فضلك اختار الملفات بدونه."
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1649
+msgid "Click or Drop for upload images"
+msgstr "انقر او اوقع لرفع الصور"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1650
+msgid "Processing..."
+msgstr "جاري العمل ...."
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1651
+msgid "Retry"
+msgstr "حاول مرة اخرى"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1653
+msgid "Upload failed"
+msgstr "التحميل فشل"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1655
+msgid "Deleting..."
+msgstr "جارى الحذف..."
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1656
+#, php-format
+msgid "{percent}% of {total_size}"
+msgstr "{percent}% من {total_size}"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1671
+msgid "Make primary image"
+msgstr "اجعلها الصورة الرئيسية"
+
+#: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1711
+#, php-format
+msgid "Too many items were uploaded. Item limit is %d."
+msgstr "تم رفع ملفات كثيرة. حدود الاشياء %d ."
+
+#: tmp/osclass/oc-includes/osclass/emails.php:106
+#: tmp/osclass/oc-includes/osclass/emails.php:170
+#: tmp/osclass/oc-includes/osclass/emails.php:234
+#: tmp/osclass/oc-includes/osclass/emails.php:298
+msgid "unsubscribe alert"
+msgstr "تحذير إلغاء الاشتراك"
+
+#: tmp/osclass/oc-includes/osclass/emails.php:936
+#: tmp/osclass/oc-includes/osclass/emails.php:1147
+msgid "Admin"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/emails.php:979
+#: tmp/osclass/oc-includes/osclass/emails.php:981
+#: tmp/osclass/oc-includes/osclass/emails.php:1078
+#: tmp/osclass/oc-includes/osclass/emails.php:1080
+#: tmp/osclass/oc-includes/osclass/emails.php:1191
+#: tmp/osclass/oc-includes/osclass/emails.php:1193
+msgid "Language"
+msgstr "اللغة"
+
+#: tmp/osclass/oc-includes/osclass/emails.php:1604
+msgid "<p>Dear {WEB_TITLE} admin,</p>"
+msgstr "<p>عزيزى {WEB_TITLE} مدير,</p>"
+
+#: tmp/osclass/oc-includes/osclass/emails.php:1606
+msgid "{WEB_TITLE} - Your site has upgraded to Osclass {VERSION}"
+msgstr "{WEB_TITLE} - موقعك تم تحديثه الى Osclass {VERSION}"
+
+#: tmp/osclass/oc-includes/osclass/emails.php:1607
+msgid "<p>Your site at {WEB_LINK} has been updated automatically to Osclass {VERSION}</p>"
+msgstr "<p>موقعك في  {WEB_LINK} تم تحديثه بشكل تلقائى الى Osclass {VERSION}</p>"
+
+#: tmp/osclass/oc-includes/osclass/emails.php:1609
+msgid "<p>There were some minor errors removing temporary files. Please manually remove the \"oc-content/downloads/oc-temp\" folder</p>"
+msgstr "<p>هناك بعض الاخطاء البسيطة في مسح الملفات المؤقتة. من فضلك امسح بشكل يدوى المجلد \"oc-content/downloads/oc-temp\"</p>"
+
+#: tmp/osclass/oc-includes/osclass/emails.php:1612
+msgid "{WEB_TITLE} - We failed trying to upgrade your site to Osclass {VERSION}"
+msgstr "{WEB_TITLE} - لقد فشلنا في محاولة تحديث موقعك الى Osclass {VERSION}"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:119
+msgid "Contact seller"
+msgstr "اتصل البائع"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:130
+msgid "Error"
+msgstr "خطاء"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:141
+msgid "page"
+msgstr "صفحة"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:151
+msgid "Show all listings"
+msgstr "اعرض كل الاعلانات"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:190
+msgid "Recover my password"
+msgstr "استعادة كلمة السر"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:206
+msgid "Manage my listings"
+msgstr "ادارة مبوباتي"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:209
+msgid "Manage my alerts"
+msgstr "إدارة التنبيهات الخاصة بي"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:531
+msgid "New comments"
+msgstr "ردود جديدة"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:571
+#, php-format
+msgid "Osclass %s is available"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/functions.php:639
+msgid "Plugin updates"
+msgstr "تحديث اضافة"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:706
+msgid "Theme updates"
+msgstr "تحديث الثيم"
+
+#: tmp/osclass/oc-includes/osclass/functions.php:773
+msgid "Language updates"
+msgstr "تحديثات اللغة"
+
+#: tmp/osclass/oc-includes/osclass/install-location.php:110
+#, php-format
+msgid "Hi %s,"
+msgstr "مرحباً %s,"
+
+#: tmp/osclass/oc-includes/osclass/install-location.php:111
+#, php-format
+msgid "Your Osclass installation at %s is up and running. You can access the administration panel with these details:"
+msgstr "تركيب Osclass الخاص بك على %s كامل ويعمل يمكنك الوصول إلى لوحة الإدارة بهذه التفاصيل:"
+
+#: tmp/osclass/oc-includes/osclass/install-location.php:113
+#, php-format
+msgid "username: %s"
+msgstr "اسم المستخدم: %s"
+
+#: tmp/osclass/oc-includes/osclass/install-location.php:114
+#, php-format
+msgid "password: %s"
+msgstr "كلمة السر: %s"
+
+#: tmp/osclass/oc-includes/osclass/install-location.php:116
+#, php-format
+msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/install-location.php:117
+msgid "Cheers,"
+msgstr "مع التحيات،"
+
+#: tmp/osclass/oc-includes/osclass/install-location.php:118
+msgid "The <a href=\"https://github.com/navjottomer/osclass\">Osclass</a> team"
+msgstr ""
+
+#: tmp/osclass/oc-includes/osclass/Themes.php:208
+#, php-format
+msgid "ERROR: Some scripts could not be loaded (%s)"
+msgstr " خطاء: بعض الاسكريبتات لايمكن تحميلها (%s)"
+
