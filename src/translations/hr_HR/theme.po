@@ -1,0 +1,812 @@
+# Translation of Modern Theme in Croatian
+# This file is distributed under the same license as the Modern Theme package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-05-13 17:52:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Modern Theme\n"
+
+#: 404.php:8
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Žao nam je ali ne možemo pronaći stranicu koju tražite"
+
+#: 404.php:10
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "Dozvolite da vam pomognemo, imamo nekoliko savjeta za vas."
+
+#: 404.php:13
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>Traži</strong> to:"
+
+#: 404.php:18 header.php:73
+msgid "Search"
+msgstr "Traži"
+
+#: 404.php:22
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>Potraži</strong> to u najpopularnijim kategorijama."
+
+#: admin/header.php:7 functions.php:526
+msgid "Header logo"
+msgstr "Header logo"
+
+#: admin/header.php:13
+msgid "Preview"
+msgstr "Pregled"
+
+#: admin/header.php:20
+msgid "Remove logo"
+msgstr "Ukloni logo"
+
+#: admin/header.php:28
+msgid "No logo has been uploaded yet"
+msgstr "Još nije ni jedan logo prenesen."
+
+#: admin/header.php:31
+msgid "Upload logo"
+msgstr "Prenesi logo"
+
+#: admin/header.php:33
+msgid "The preferred size of the logo is 600x100."
+msgstr "Poželjna je veličina loga od 600x100"
+
+#: admin/header.php:35
+msgid "<strong>Note:</strong> Uploading another logo will overwrite the current logo."
+msgstr "<strong>Bilješka:</strong> Prijenos novog loga će pregaziti trenutni logo"
+
+#: admin/header.php:43
+msgid "Logo image (png,gif,jpg)"
+msgstr "Logo slika (png,gif,jpg)"
+
+#: admin/header.php:49
+msgid "Upload"
+msgstr "Prenesi"
+
+#: admin/header.php:58
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "Mapa za slike <strong>%s</strong> nije otvorena za pisanje na vašem serveru"
+
+#: admin/header.php:59
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Sustav ne može prenijeti sliku za logo kroz administracijsko sušelje"
+
+#: admin/header.php:60
+msgid "Please make the aforementioned image folder writable."
+msgstr "Molimo provjerite da li se u navedenu mapu slika može pisati."
+
+#: admin/header.php:65
+msgid "To make a directory writable under UNIX execute this command from the shell:"
+msgstr "Da bi omogučili pisanje u mapu pod UNIX-om izvršite ovu naredbu kroz konzolu:"
+
+#: admin/settings.php:14
+msgid "I would like to contribute to the development of Osclass with a donation of"
+msgstr "Želim sudjelovati u razvoju sustava sa dobrovoljnim prilogom od"
+
+#: admin/settings.php:19
+msgid "Custom"
+msgstr "Prilagodljivo"
+
+#: admin/settings.php:20
+msgid "Donate"
+msgstr "Doniraj"
+
+#: admin/settings.php:24 functions.php:527
+msgid "Theme settings"
+msgstr "Postavke teme"
+
+#: admin/settings.php:30
+msgid "Search placeholder"
+msgstr "Zadani tekst kod pretrage"
+
+#: admin/settings.php:34
+msgid "Show lists as:"
+msgstr "Prikaži listu kao:"
+
+#: admin/settings.php:37
+msgid "Gallery"
+msgstr "Galerija"
+
+#: admin/settings.php:38 main.php:45 search.php:80
+msgid "List"
+msgstr "Lista"
+
+#: admin/settings.php:43
+msgid "Footer link"
+msgstr "Link u footeru"
+
+#: admin/settings.php:45
+msgid "I want to help Osclass by linking to <a href=\"http://osclass.org/\" target=\"_blank\">osclass.org</a> from my site with the following text:"
+msgstr "Želim pomoći sustavu povezujući <a href=\"http://dilaj.hr/\" target=\"_blank\">Dilaj.hr</a> sa svojom stranicom koristeći tekst:"
+
+#: admin/settings.php:46
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"http://osclass.org/\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Ova stranica ponosno koristi <a title=\"Osclass web\" href=\"http://osclass.org/\">classifieds scripts</a> software <strong>Osclass</strong>"
+
+#: admin/settings.php:50
+msgid "Save changes"
+msgstr "Spremi promjene"
+
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "Uspješno ste se predbilježili za alarm"
+
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "Neispravna email adresa"
+
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "Postoji problem sa alarmom"
+
+#: alert-form.php:60
+msgid "Subscribe to this search"
+msgstr "Predbilježite se za ovu pretragu"
+
+#: alert-form.php:75
+msgid "Subscribe now"
+msgstr "Predbilježite se sada"
+
+#: common/head.php:3 item.php:157 loop-single-premium.php:26 loop-single.php:26
+msgid "Delete"
+msgstr "Obriši"
+
+#: common/head.php:4
+msgid "Cancel"
+msgstr "Odustani"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Kontaktirajte nas"
+
+#: contact.php:40 item-send-friend.php:44 item-sidebar.php:76 item.php:183
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr "Vaše ime"
+
+#: contact.php:41 contact.php:54 item-sidebar.php:84 user-public-sidebar.php:41
+msgid "optional"
+msgstr "opcionalno"
+
+#: contact.php:47 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr "Vaša email adresa"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Tema"
+
+#: contact.php:60 item-send-friend.php:78 item-sidebar.php:89
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr "Poruka"
+
+#: contact.php:68 item-send-friend.php:87 item-sidebar.php:119 item.php:208
+#: user-public-sidebar.php:69
+msgid "Send"
+msgstr "Pošalji"
+
+#: footer.php:34 header.php:42
+msgid "Hi %s"
+msgstr "Dobar dan %s"
+
+#: footer.php:35 header.php:43
+msgid "My account"
+msgstr "Moj korisnički račun"
+
+#: footer.php:36 header.php:44
+msgid "Logout"
+msgstr "Odjava"
+
+#: footer.php:39 functions.php:355 header.php:47 item-sidebar.php:54
+msgid "Login"
+msgstr "Prijava"
+
+#: footer.php:42 header.php:49 item-sidebar.php:55 user-login.php:58
+msgid "Register for a free account"
+msgstr "Registrirajte besplatni korisnički račun"
+
+#: footer.php:49 header.php:54
+msgid "Publish your ad for free"
+msgstr "Objavite oglas besplatno"
+
+#: footer.php:64 functions.php:359 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "Kontakt"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "Jezik:"
+
+#: functions.php:29
+msgid "ie. PHP Programmer"
+msgstr "npr. PHP programer"
+
+#: functions.php:340 item-post.php:40
+msgid "Publish a listing"
+msgstr "Objavi oglas"
+
+#: functions.php:341
+msgid "Edit your listing"
+msgstr "Uredi oglas"
+
+#: functions.php:342 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "Pošalji prijatelju"
+
+#: functions.php:343 item-sidebar.php:40
+msgid "Contact publisher"
+msgstr "Kontaktiraj oglašivača"
+
+#: functions.php:344
+msgid "Search results"
+msgstr "Rezultati pretrage"
+
+#: functions.php:345
+msgid "Search results: %s"
+msgstr "Rezultati pretrage: %s"
+
+#: functions.php:346
+msgid "Dashboard"
+msgstr "Kontrolna ploča"
+
+#: functions.php:347
+msgid "%s's profile"
+msgstr "%s profil"
+
+#: functions.php:348 functions.php:397
+msgid "Account"
+msgstr "Korisnički račun"
+
+#: functions.php:349 functions.php:387 search.php:128 user-alerts.php:51
+msgid "Listings"
+msgstr "Oglasi"
+
+#: functions.php:350 functions.php:392 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "Alarmi"
+
+#: functions.php:351 user-profile.php:32 user-profile.php:37
+msgid "Update account"
+msgstr "Ažuriraj korisnički račun"
+
+#: functions.php:352 functions.php:402
+msgid "Change email"
+msgstr "Promijeni email"
+
+#: functions.php:353 functions.php:407 user-change_username.php:34
+#: user-change_username.php:39
+msgid "Change username"
+msgstr "promijeni korisničko ime"
+
+#: functions.php:354 functions.php:357 functions.php:412
+#: user-change_password.php:32 user-change_password.php:37
+#: user-forgot_password.php:52
+msgid "Change password"
+msgstr "Promijeni lozinku"
+
+#: functions.php:356
+msgid "Recover password"
+msgstr "Oporavi lozinku"
+
+#: functions.php:358
+msgid "Create a new account"
+msgstr "Napravi novi korisnički račun"
+
+#: functions.php:382
+msgid "Public Profile"
+msgstr "Javni profil"
+
+#: functions.php:417 user-sidebar.php:28
+msgid "Delete account"
+msgstr "Obriši korisnički račun"
+
+#: functions.php:474
+msgid "Theme settings updated correctly"
+msgstr "Postavke teme ispravno ažurirane"
+
+#: functions.php:489
+msgid "The logo image has been uploaded correctly"
+msgstr "Logo slika ispravno prenesena"
+
+#: functions.php:491
+msgid "An error has occurred, please try again"
+msgstr "Greška se pojavila, pokušajte ponovo"
+
+#: functions.php:502
+msgid "The logo image has been removed"
+msgstr "Logo slika je uklonjena"
+
+#: functions.php:504
+msgid "Image not found"
+msgstr "Slika nije pronađena"
+
+#: functions.php:585 functions.php:607
+msgid "All categories"
+msgstr "Sve kategorije"
+
+#: header.php:67 item-post.php:55
+msgid "Select a category"
+msgstr "Odaberi kategoriju"
+
+#: item-post.php:51
+msgid "General Information"
+msgstr "Opće informacije"
+
+#: item-post.php:53
+msgid "Category"
+msgstr "Kategorija"
+
+#: item-post.php:59 item.php:196
+msgid "Title"
+msgstr "Naziv"
+
+#: item-post.php:65 user-profile.php:106
+msgid "Description"
+msgstr "Opis"
+
+#: item-post.php:72 search-sidebar.php:61
+msgid "Price"
+msgstr "Cijena"
+
+#: item-post.php:83
+msgid "Listing Location"
+msgstr "Lokacija"
+
+#: item-post.php:86 user-profile.php:70
+msgid "Country"
+msgstr "Država"
+
+#: item-post.php:92 user-profile.php:76
+msgid "Region"
+msgstr "Regija"
+
+#: item-post.php:98 search-sidebar.php:44 user-profile.php:82
+msgid "City"
+msgstr "Grad"
+
+#: item-post.php:104
+msgid "City Area"
+msgstr "Područje grada"
+
+#: item-post.php:110 user-profile.php:94
+msgid "Address"
+msgstr "Adresa"
+
+#: item-post.php:119
+msgid "Seller's information"
+msgstr "Informacije o oglašivaču/prodavaču"
+
+#: item-post.php:121 item-sidebar.php:59 user-profile.php:46
+#: user-register.php:39
+msgid "Name"
+msgstr "Ime"
+
+#: item-post.php:127 user-login.php:38 user-recover.php:37 user-register.php:45
+msgid "E-mail"
+msgstr "E-mail"
+
+#: item-post.php:134
+msgid "Show e-mail on the listing page"
+msgstr "Prikaži e-mail na stranici oglasa"
+
+#: item-post.php:153 user-change_email.php:59 user-change_password.php:64
+#: user-change_username.php:102 user-profile.php:113
+msgid "Update"
+msgstr "Ažuriraj"
+
+#: item-post.php:153
+msgid "Publish"
+msgstr "Objavi"
+
+#: item-send-friend.php:50 item.php:189
+msgid "Your e-mail"
+msgstr "Vaš e-mail"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "Ime vašeg prijatelja"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "E-mail pošta vašeg prijatelja"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Tema (opcionalno)"
+
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "Označi kao..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "Označi kao spam"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "Označi kao krivo klasificiran"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "Označi kao duplikat"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "Označi kao istekao"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "Označi kao uvredljivo"
+
+#: item-sidebar.php:43
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "Oglas je istekao. Ne možete kontaktirati objavljivača oglasa"
+
+#: item-sidebar.php:47
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "To je vaš oglas, ne možete kontaktirati objavljivača"
+
+#: item-sidebar.php:51
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "Morate se prijaviti ili registrirati da bi kontaktirali oglašivača"
+
+#: item-sidebar.php:61
+msgid "Name: %s"
+msgstr "Ime: %s"
+
+#: item-sidebar.php:64
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: item-sidebar.php:67
+msgid "Phone: %s"
+msgstr "Telefon: %s"
+
+#: item-sidebar.php:80
+msgid "Your e-mail address"
+msgstr "Vaša e-mail adresa"
+
+#: item-sidebar.php:84 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "Telefonski broj"
+
+#: item-sidebar.php:95
+msgid "Attachment"
+msgstr "Prilog"
+
+#: item-sidebar.php:113 user-public-sidebar.php:63
+msgid "Enter the words above"
+msgstr "Unesite riječi iznad"
+
+#: item-sidebar.php:115 user-public-sidebar.php:65
+msgid "Help"
+msgstr "Pomoć"
+
+#: item.php:55
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Datum objave</strong>: %1$s"
+
+#: item.php:58
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Datum izmjene:</strong> %1$s"
+
+#: item.php:61 main.php:67
+msgid "Location"
+msgstr "Lokacija"
+
+#: item.php:67 loop-single-premium.php:24 loop-single.php:24
+msgid "Edit item"
+msgstr "Uredi artikl"
+
+#: item.php:79 item.php:84
+msgid "Image"
+msgstr "Slika"
+
+#: item.php:113
+msgid "Contact seller"
+msgstr "Kontaktiraj oglašivača"
+
+#: item.php:117
+msgid "Share"
+msgstr "Podijeli"
+
+#: item.php:123
+msgid "Useful information"
+msgstr "Korisne informacije"
+
+#: item.php:125
+msgid "Avoid scams by acting locally or paying with PayPal"
+msgstr "Izbjegavajte prevare djelujući lokalno ili plaćanjem putem PayPala"
+
+#: item.php:126
+msgid "Never pay with Western Union, Moneygram or other anonymous payment services"
+msgstr "Nikad ne plaćajte anonimni servisima za plaćanje"
+
+#: item.php:127
+msgid "Don't buy or sell outside of your country. Don't accept cashier cheques from outside your country"
+msgstr "Ne kupujte i ne prodajte izvan vaše države. Ne prihvaćajte čekove koji nisu iz vaše države"
+
+#: item.php:128
+msgid "This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\""
+msgstr "Ova stranica nikad nije uključena u transakcije i ne barata plaćanjima, poštarinom, garancijama, ne pruža usluge zaloga, niti nudi \"zaštitu kupca\" ili \"ovjeru prodavatelja\""
+
+#: item.php:135
+msgid "Related listings"
+msgstr "Povezani oglasi"
+
+#: item.php:146
+msgid "Comments"
+msgstr "Komentari"
+
+#: item.php:153
+msgid "by"
+msgstr "od"
+
+#: item.php:157
+msgid "Delete your comment"
+msgstr "Obrišite svoj komentar"
+
+#: item.php:169
+msgid "Leave your comment (spam and offensive messages will be removed)"
+msgstr "Ostavite komentar (spam ili uvredljivi sadržaj biti će uklonjen)"
+
+#: item.php:202
+msgid "Comment"
+msgstr "Komentar"
+
+#: loop-single-premium.php:26 loop-single.php:26
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Ova akcija se ne može vratiti. Jeste sigurni da želite nastaviti?"
+
+#: loop-single-premium.php:29 loop-single.php:29
+msgid "Activate"
+msgstr "Aktiviraj"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Posljednji oglasi"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Trenutno nema dostumnih oglasa"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Rešetka"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Vidi sve oglase"
+
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Vaša pretraga"
+
+#: search-sidebar.php:51
+msgid "Show only"
+msgstr "Prikaži samo"
+
+#: search-sidebar.php:54
+msgid "listings with pictures"
+msgstr "oglase sa slikom"
+
+#: search-sidebar.php:62
+msgid "Min"
+msgstr "Min"
+
+#: search-sidebar.php:64
+msgid "Max"
+msgstr "Max"
+
+#: search-sidebar.php:84
+msgid "Apply"
+msgstr "Primjeni"
+
+#: search-sidebar.php:89
+msgid "Refine category"
+msgstr "Poboljšajte kategoriju"
+
+#: search.php:55
+msgid "Selected"
+msgstr "Odabrano"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "Ništa nije odabrano, ulazni podatci su bili"
+
+#: search.php:71
+msgid "There are no results matching \"%s\""
+msgstr "Nema razulatata koje se podudaraju s \"%s\""
+
+#: search.php:75
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %2$d od %3$d oglasa"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "Prikaži filtere"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "Sortiraj po"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "Premium oglasi"
+
+#: search.php:141
+msgid "Other searches that may interest you"
+msgstr "Druge pretrage koje vas mogu zanimati"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "Nemate još nikakvih alarma"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "Alarm"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Ova akcija se ne može vratiti. Jeste sigurni da želite nastaviti?"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "Obriši ovaj alarm"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "Promijeni e-mail"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "Trenutni e-mail"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Novi e-mail"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Trenutna lozinka"
+
+#: user-change_password.php:51 user-forgot_password.php:39
+msgid "New password"
+msgstr "Nova lozinka"
+
+#: user-change_password.php:57 user-forgot_password.php:45
+msgid "Repeat new password"
+msgstr "Ponovi novu lozinku"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Korisničko ime: polje je obavezno"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Korisničko ime je slobodno"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Korisničko ime NIJE slobodno"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Korisničko ime"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "Oporavi lozinku"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "Moji oglasi"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "Još nema dodanih oglasa"
+
+#: user-login.php:30
+msgid "Access to your account"
+msgstr "Pristupite svom korisničkom računu"
+
+#: user-login.php:44 user-register.php:52
+msgid "Password"
+msgstr "Lozinka"
+
+#: user-login.php:51
+msgid "Remember me"
+msgstr "Zapamti me"
+
+#: user-login.php:54
+msgid "Log in"
+msgstr "Prijava"
+
+#: user-login.php:58
+msgid "Forgot password?"
+msgstr "Zaboravljena lozinka?"
+
+#: user-profile.php:52
+msgid "User type"
+msgstr "Tip korisnika"
+
+#: user-profile.php:58
+msgid "Cell phone"
+msgstr "Mobitel"
+
+#: user-profile.php:64
+msgid "Phone"
+msgstr "Telefon"
+
+#: user-profile.php:88
+msgid "City area"
+msgstr "Područje grada"
+
+#: user-profile.php:100
+msgid "Website"
+msgstr "Internet stranica"
+
+#: user-public-profile.php:67
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Adresa:</strong> %1$s"
+
+#: user-public-profile.php:70
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Lokacija:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Opis korisnika"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "Posljednji oglasi"
+
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "Pošali mi novu lozinku"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Registriraj se besplatno"
+
+#: user-register.php:58
+msgid "Repeat password"
+msgstr "Ponovi lozinku"
+
+#: user-register.php:62
+msgid "Passwords don't match"
+msgstr "Lozinke se ne podudaraju"
+
+#: user-register.php:69
+msgid "Create"
+msgstr "Kreiraj"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Prikaz izbornika"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Jeste sigurni da želite obrisati svoj korisnički račun?"
+
+#. Theme Name of the plugin/theme
+msgid "bender"
+msgstr "bender"
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://osclass.org/"
+msgstr "http://osclass.org/"
+
+#. Description of the plugin/theme
+msgid "Bender theme"
+msgstr "Bender theme"
+
+#. Author of the plugin/theme
+msgid "Osclass"
+msgstr "Osclass"
