@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-24 12:47\n"
+"PO-Revision-Date: 2021-06-24 22:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -668,7 +668,7 @@ msgstr "用户设置  &raquo; %s"
 #: tmp/osclass/oc-admin/themes/modern/pages/frm.php:34
 #: tmp/osclass/oc-admin/themes/modern/languages/frm.php:112
 msgid "Save changes"
-msgstr "保存更改"
+msgstr "保持改变"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:32
 msgid "Edit user"
@@ -2358,7 +2358,7 @@ msgstr "插件%s丢失index.php文件%s"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:421
 #: tmp/osclass/oc-includes/osclass/functions.php:110
 msgid "Publish a listing"
-msgstr "发布帖子"
+msgstr "发布广告"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:379
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:422
@@ -2402,7 +2402,7 @@ msgstr "控制面板"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:428
 #, php-format
 msgid "%s's profile"
-msgstr "%s的个人资料"
+msgstr "%s 的个人简介"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:386
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:429
@@ -2635,7 +2635,7 @@ msgstr "邮箱"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:59
 msgid "Alert"
-msgstr ""
+msgstr "通知"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:80
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:70
@@ -3612,11 +3612,11 @@ msgstr "刚才的动作没有完成.您确定要继续吗？"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
-msgstr ""
+msgstr "您已经成功订阅了消息提醒"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:29
 msgid "There was a problem with the alert"
-msgstr ""
+msgstr "通知中心有些问题"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_email.php:38
 msgid "Change e-mail"
@@ -3624,29 +3624,29 @@ msgstr ""
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/settings.php:46
 msgid "Donate"
-msgstr "捐赠"
+msgstr "捐款"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:42
 msgid "Remove logo"
-msgstr ""
+msgstr "删除Logo"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:78
 #, php-format
 msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr ""
+msgstr "图像文件夹 <strong>%s</strong> 在服务器上不可写"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:79
 msgid "Osclass can't upload the logo image from the administration panel."
-msgstr ""
+msgstr "Osclass不能上传管理面板处上传图标图像"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:80
 msgid "Please make the aforementioned image folder writable."
-msgstr ""
+msgstr "请将前面提到的图像文件夹设置为可写"
 
 #: tmp/osclass/oc-includes/osclass/gui/loop-single-premium.php:69
 #: tmp/osclass/oc-includes/osclass/gui/loop-single.php:69
 msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr ""
+msgstr "刚才的动作没有完成.您确定要继续吗？"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:62
 #, php-format
@@ -3660,16 +3660,16 @@ msgstr ""
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:55
 msgid "Selected"
-msgstr ""
+msgstr "选择"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:56
 msgid "Nothing selected, input was"
-msgstr ""
+msgstr "您没有选择任何信息"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:74
 #, php-format
 msgid "There are no results matching \"%s\""
-msgstr ""
+msgstr "没有跟\\\"%s\\\"匹配的结果"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:78
 #, php-format
@@ -3684,7 +3684,7 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/gui/header.php:48
 #, php-format
 msgid "Hi %s"
-msgstr ""
+msgstr "您好%s"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:72
 #, php-format
@@ -3693,11 +3693,11 @@ msgstr ""
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:55
 msgid "No file selected"
-msgstr ""
+msgstr "未选择文件"
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:56
 msgid "Choose File"
-msgstr ""
+msgstr "选择文件"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:432
@@ -3735,7 +3735,7 @@ msgstr ""
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:29
 msgid "ie. PHP Programmer"
-msgstr ""
+msgstr "例如：PHP程序员"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:433
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:486
@@ -3748,31 +3748,31 @@ msgstr ""
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:566
 msgid "Theme settings updated correctly"
-msgstr ""
+msgstr "主题设置已更新"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:581
 msgid "The logo image has been uploaded correctly"
-msgstr ""
+msgstr "企业标记图像已上传成功"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:583
 msgid "An error has occurred, please try again"
-msgstr ""
+msgstr "发生错误，稍后再试"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:594
 msgid "The logo image has been removed"
-msgstr ""
+msgstr "企业标记图标已移除"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:596
 msgid "Image not found"
-msgstr ""
+msgstr "图像未找到"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:618
 msgid "Header logo"
-msgstr ""
+msgstr "头标图像"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:619
 msgid "Theme settings"
-msgstr ""
+msgstr "主题设置"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:692
 msgid "All categories"
