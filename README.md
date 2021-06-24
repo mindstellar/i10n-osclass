@@ -1,5 +1,5 @@
-# i18n-osclass
-Osclass translations project
+# i10n-osclass
+Osclass localization project
 
 ## Building Template files
 
