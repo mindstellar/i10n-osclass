@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-24 12:47\n"
+"PO-Revision-Date: 2021-06-25 18:46\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -256,7 +256,7 @@ msgstr "Opravdu chcete %s vybrané zákazová pravidla?"
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:25
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1654
 msgid "Delete"
-msgstr "Vymazat"
+msgstr "Smazat"
 
 #: tmp/osclass/oc-admin/users.php:643 tmp/osclass/oc-admin/users.php:644
 #: tmp/osclass/oc-admin/users.php:645 tmp/osclass/oc-admin/users.php:646
@@ -402,7 +402,7 @@ msgstr "Jste si jist, že chcete %s vybrané mediální soubory?"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:438
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:496
 msgid "Change password"
-msgstr "Změnit heslo"
+msgstr "Změňit heslo"
 
 #: tmp/osclass/oc-admin/gui/forgot_password.php:64
 #: tmp/osclass/oc-admin/gui/login.php:76
@@ -417,7 +417,7 @@ msgstr "Zapomněl/a jste heslo?"
 
 #: tmp/osclass/oc-admin/gui/login.php:71
 msgid "Log in"
-msgstr "Přihlášení"
+msgstr "Přihlásit"
 
 #: tmp/osclass/oc-admin/gui/recover.php:49
 msgid "Get new password"
@@ -686,17 +686,17 @@ msgstr "Přidat nového uživatele"
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:126
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:55
 msgid "Username: this field is required"
-msgstr "Uživatelské jméno: pole je vyžadováno"
+msgstr "Uživatelské jméno: toto pole je povinné"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:151
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:80
 msgid "The username is available"
-msgstr "Uživatelské jméno je neplatné"
+msgstr "Toto uživatelské jméno je dostupné"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:153
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:82
 msgid "The username is NOT available"
-msgstr "Uživatelské jméno NENÍ dostupné"
+msgstr "Toto uživatelské jméno NENÍ dostupné"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:205
 #, php-format
@@ -854,7 +854,7 @@ msgstr "Pluginy &raquo; %s"
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:316
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:227
 msgid "Update"
-msgstr "Aktualizace"
+msgstr "Aktualizovat"
 
 #: tmp/osclass/oc-admin/themes/modern/plugins/add.php:19
 msgid "Manually upload Osclass plugins in .zip format. If you prefer, you can manually upload the decompressed plugin to <em>oc-content/plugins</em>."
@@ -1838,7 +1838,7 @@ msgstr "Nástěnka &raquo; %s"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:430
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:471
 msgid "Listings"
-msgstr "Položky"
+msgstr "Inzeráty"
 
 #: tmp/osclass/oc-admin/themes/modern/main/index.php:237
 #, php-format
@@ -1873,7 +1873,7 @@ msgstr "Zadejte titulek"
 #: tmp/osclass/oc-includes/osclass/emails.php:1195
 #: tmp/osclass/oc-includes/osclass/emails.php:1200
 msgid "Title"
-msgstr "Titulek"
+msgstr "Nadpis"
 
 #: tmp/osclass/oc-admin/themes/modern/functions.php:149
 #: tmp/osclass/oc-admin/themes/modern/functions.php:182
@@ -2358,37 +2358,37 @@ msgstr "Plugin %s chybí v index.php souboru %s"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:421
 #: tmp/osclass/oc-includes/osclass/functions.php:110
 msgid "Publish a listing"
-msgstr "Vložit položku"
+msgstr "Zveřejnit inzerát"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:379
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:422
 #: tmp/osclass/oc-includes/osclass/functions.php:113
 msgid "Edit your listing"
-msgstr "Upravit vaši položku"
+msgstr "Upravit inzerát"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:380
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:423
 #: tmp/osclass/oc-includes/osclass/functions.php:116
 msgid "Send to a friend"
-msgstr "Poslat kamarádovi"
+msgstr "Poštli to příteli"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:381
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:424
 msgid "Contact publisher"
-msgstr "Kontaktovat inzerta"
+msgstr "Kontaktuj inzerenta"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:382
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:425
 #: tmp/osclass/oc-includes/osclass/functions.php:73
 #: tmp/osclass/oc-includes/osclass/functions.php:175
 msgid "Search results"
-msgstr "Výsledky vyhledávání"
+msgstr "Výsledky hledání"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:383
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:426
 #, php-format
 msgid "Search results: %s"
-msgstr "Výsledky vyhledávání: %s"
+msgstr "Výsledky hledání: %s"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:384
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:55
@@ -2402,7 +2402,7 @@ msgstr "Ovládací panel"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:428
 #, php-format
 msgid "%s's profile"
-msgstr "%s profil"
+msgstr "profil uživatele %s"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:386
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:429
@@ -2412,7 +2412,7 @@ msgstr "Účet"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:387
 msgid "My listings"
-msgstr "Moje položky"
+msgstr "Mé inzeráty"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:388
 msgid "My alerts"
@@ -2447,7 +2447,7 @@ msgstr "Přihlásit"
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:394
 #: tmp/osclass/oc-includes/osclass/functions.php:187
 msgid "Recover your password"
-msgstr "Obnovit heslo"
+msgstr "Obnovit vaše heslo"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:395
 msgid "Change your password"
@@ -2737,7 +2737,7 @@ msgstr "Kategorie"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:155
 msgid "Location"
-msgstr "Lokace"
+msgstr "Poloha"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:157
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:235
@@ -3175,7 +3175,7 @@ msgstr "komu"
 #: tmp/osclass/oc-includes/osclass/frm/ManageItems.form.class.php:53
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:66
 msgid "Select a category"
-msgstr "Zvolit kategorii"
+msgstr "Vyber kategorii"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hPagination.php:196
 #, php-format
@@ -3608,83 +3608,83 @@ msgstr "Toto je příklad popisu stránky. Je to dobré místo pro umístění p
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1282
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1536
 msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Tuto akci nelze vrátit. Opravdu chcete pokračovat?"
+msgstr "Tuto akci nelze vrátit zpět. Jsi si jist, že chceš pokračovat?"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
-msgstr ""
+msgstr "Úspěšně si se přihlásil k odběru upozornění"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:29
 msgid "There was a problem with the alert"
-msgstr ""
+msgstr "Vyskytnul se problém s upozorněním"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_email.php:38
 msgid "Change e-mail"
-msgstr ""
+msgstr "Změnit email"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/settings.php:46
 msgid "Donate"
-msgstr "Darovat"
+msgstr "Přispěj"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:42
 msgid "Remove logo"
-msgstr ""
+msgstr "Odstranit logo"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:78
 #, php-format
 msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr ""
+msgstr "Složka s obrázky  <strong>%s</strong> na vašem serveru nemá povolené zapisování."
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:79
 msgid "Osclass can't upload the logo image from the administration panel."
-msgstr ""
+msgstr "Osclass nemůže nahrát obrázek loga z administrativního panelu."
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:80
 msgid "Please make the aforementioned image folder writable."
-msgstr ""
+msgstr "Prosím umožněte zápis do výše zmíněného adresáře."
 
 #: tmp/osclass/oc-includes/osclass/gui/loop-single-premium.php:69
 #: tmp/osclass/oc-includes/osclass/gui/loop-single.php:69
 msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr ""
+msgstr "Tuto akci nelze vzít zpět. Jsi si jist, že chceš pokračovat?"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:62
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr ""
+msgstr "<strong class=\"publish\">Zveřejněno dne</strong>: %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:65
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr ""
+msgstr "<strong class=\"update\">Upraveno dne:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:55
 msgid "Selected"
-msgstr ""
+msgstr "Vybráno"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:56
 msgid "Nothing selected, input was"
-msgstr ""
+msgstr "Nebylo nic vybráno, vstup byl"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:74
 #, php-format
 msgid "There are no results matching \"%s\""
-msgstr ""
+msgstr "Nenalezen žádný výsledek shodující se s  \"%s\""
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:78
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
-msgstr ""
+msgstr "%1$d - %2$d of %3$d inzerátů"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:136
 msgid "Premium listings"
-msgstr ""
+msgstr "Prémiové inzeráty"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:35
 #: tmp/osclass/oc-includes/osclass/gui/header.php:48
 #, php-format
 msgid "Hi %s"
-msgstr ""
+msgstr "Ahoj %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:72
 #, php-format
@@ -3702,7 +3702,7 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:432
 msgid "Update account"
-msgstr ""
+msgstr "Aktualizuj účet"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:90
 msgid "Previous image"
@@ -3716,7 +3716,7 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:434
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:491
 msgid "Change username"
-msgstr ""
+msgstr "Změnit uživatelské jméno"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:73
 #, php-format
@@ -3726,67 +3726,67 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:76
 #, php-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "Telefon: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-sidebar.php:28
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:501
 msgid "Delete account"
-msgstr ""
+msgstr "Smazat účet"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:29
 msgid "ie. PHP Programmer"
-msgstr ""
+msgstr "např: Audi A6"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:433
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:486
 msgid "Change email"
-msgstr ""
+msgstr "Změnit email"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:437
 msgid "Recover password"
-msgstr ""
+msgstr "Obnovit heslo"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:566
 msgid "Theme settings updated correctly"
-msgstr ""
+msgstr "Nastavení motivu bylo úspěšně aktualizováno"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:581
 msgid "The logo image has been uploaded correctly"
-msgstr ""
+msgstr "Logo bylo úspěšně nahráno"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:583
 msgid "An error has occurred, please try again"
-msgstr ""
+msgstr "Vyskytla se chyba, zkus to znou"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:594
 msgid "The logo image has been removed"
-msgstr ""
+msgstr "Logo bylo odstraněno"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:596
 msgid "Image not found"
-msgstr ""
+msgstr "Obrázek nebyl nalezen"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:618
 msgid "Header logo"
-msgstr ""
+msgstr "Logo hlavičky stránky"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:619
 msgid "Theme settings"
-msgstr ""
+msgstr "Nastavení motivu"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:692
 msgid "All categories"
-msgstr ""
+msgstr "Všechny kategorie"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:69
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
-msgstr ""
+msgstr "<strong>Adresa:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:72
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
-msgstr ""
+msgstr "<strong>Místo:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2359
 msgid "Everything looks good! Your Osclass installation is up-to-date"
