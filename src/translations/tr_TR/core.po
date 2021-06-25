@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-24 12:47\n"
+"PO-Revision-Date: 2021-06-25 19:42\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -686,7 +686,7 @@ msgstr "Yeni kullanıcı ekle"
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:126
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:55
 msgid "Username: this field is required"
-msgstr "Kullanıcı adı: bu alan gerekli"
+msgstr "Kullanıcı adı: doldurulması zorunlu"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:151
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:80
@@ -2030,7 +2030,7 @@ msgstr "İlgisiz işaretini kaldır"
 #: tmp/osclass/oc-admin/items.php:467 tmp/osclass/oc-admin/items.php:829
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:285
 msgid "Mark as spam"
-msgstr "İlgisiz olarak işaretle"
+msgstr "Spam olarak işaretle"
 
 #: tmp/osclass/oc-admin/items.php:822 tmp/osclass/oc-admin/items.php:823
 #: tmp/osclass/oc-admin/items.php:824 tmp/osclass/oc-admin/items.php:825
@@ -2376,7 +2376,7 @@ msgstr "Bir arkadaşa gönder"
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:381
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:424
 msgid "Contact publisher"
-msgstr "İlanı yayınlayanla iletişime geç"
+msgstr "Yayıncıyla iletişime geçin"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:382
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:425
@@ -2403,7 +2403,7 @@ msgstr "Kontrol Paneli"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:428
 #, php-format
 msgid "%s's profile"
-msgstr "%s adlı kullanıcının bilgileri"
+msgstr "%s kullanıcısının profili"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:386
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:429
@@ -2443,7 +2443,7 @@ msgstr "Şifremi değiştir"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:436
 #: tmp/osclass/oc-includes/osclass/functions.php:193
 msgid "Login"
-msgstr "Giriş yap"
+msgstr "Giriş"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:394
 #: tmp/osclass/oc-includes/osclass/functions.php:187
@@ -2632,7 +2632,7 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:58
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:72
 msgid "E-mail"
-msgstr "E-İleti"
+msgstr "E-posta"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:59
 msgid "Alert"
@@ -2662,7 +2662,7 @@ msgstr "Daha fazla göster"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:73
 msgid "Username"
-msgstr "Qullanıcı adı"
+msgstr "Kullanıcı adı"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:74
 #: tmp/osclass/oc-includes/osclass/frm/Category.form.class.php:158
@@ -3146,7 +3146,7 @@ msgstr "Bilgilerim"
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:191
 #: tmp/osclass/oc-includes/osclass/functions.php:521
 msgid "Logout"
-msgstr "Çıkış yap"
+msgstr "Çıkış"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hAdminMenu.php:176
 msgid "Compact"
@@ -3613,15 +3613,15 @@ msgstr "Bu işlem geri alınamaz. Devam etmek istediğinize emin misiniz?"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
-msgstr ""
+msgstr "Uyarıya başarıyla abone oldunuz"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:29
 msgid "There was a problem with the alert"
-msgstr ""
+msgstr "Uyarıda bir sorun oluştu"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_email.php:38
 msgid "Change e-mail"
-msgstr ""
+msgstr "E-posta adresini değiştir"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/settings.php:46
 msgid "Donate"
@@ -3629,63 +3629,63 @@ msgstr "Bağış Yap"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:42
 msgid "Remove logo"
-msgstr ""
+msgstr "Logoyu sil"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:78
 #, php-format
 msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr ""
+msgstr "Resim klasörü <strong>%s</strong> sunucunuz üzerinde yazılabilir değil"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:79
 msgid "Osclass can't upload the logo image from the administration panel."
-msgstr ""
+msgstr "Osclass yönetim panelinden logo resmini yükleyemedi."
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:80
 msgid "Please make the aforementioned image folder writable."
-msgstr ""
+msgstr "Sözü edilen klasörü yazılabilir hale getirin."
 
 #: tmp/osclass/oc-includes/osclass/gui/loop-single-premium.php:69
 #: tmp/osclass/oc-includes/osclass/gui/loop-single.php:69
 msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr ""
+msgstr "Bu işlem geri alınamaz. Devam etmek istediğinize emin misiniz?"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:62
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr ""
+msgstr "<strong class=\"publish\">Yayınlanma tarihi</strong>: %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:65
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr ""
+msgstr "<strong class=\"update\">Güncellenme tarihi:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:55
 msgid "Selected"
-msgstr ""
+msgstr "Seçili"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:56
 msgid "Nothing selected, input was"
-msgstr ""
+msgstr "Hiçbir şey seçilmedi, girdi"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:74
 #, php-format
 msgid "There are no results matching \"%s\""
-msgstr ""
+msgstr "\"%s\" aramasına uyan bir eşleşme yok"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:78
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
-msgstr ""
+msgstr "%3$d ilan içersinde %1$d - %2$d arası"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:136
 msgid "Premium listings"
-msgstr ""
+msgstr "Öne çıkan ilanlar"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:35
 #: tmp/osclass/oc-includes/osclass/gui/header.php:48
 #, php-format
 msgid "Hi %s"
-msgstr ""
+msgstr "Merhaba %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:72
 #, php-format
@@ -3703,7 +3703,7 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:432
 msgid "Update account"
-msgstr ""
+msgstr "Hesabı güncelle"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:90
 msgid "Previous image"
@@ -3717,77 +3717,77 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:434
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:491
 msgid "Change username"
-msgstr ""
+msgstr "Kullanıcı adını değiştir"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
-msgstr ""
+msgstr "E-posta: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:76
 #, php-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "Telefon: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-sidebar.php:28
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:501
 msgid "Delete account"
-msgstr ""
+msgstr "Hesabı sil"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:29
 msgid "ie. PHP Programmer"
-msgstr ""
+msgstr "ör. PHP Programcısı"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:433
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:486
 msgid "Change email"
-msgstr ""
+msgstr "E-posta adresini değiştir"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:437
 msgid "Recover password"
-msgstr ""
+msgstr "Şifre kurtarma"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:566
 msgid "Theme settings updated correctly"
-msgstr ""
+msgstr "Tema ayarları doğru olarak güncellendi"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:581
 msgid "The logo image has been uploaded correctly"
-msgstr ""
+msgstr "Logo resmi doğru olarak yüklendi"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:583
 msgid "An error has occurred, please try again"
-msgstr ""
+msgstr "Bir hata oluştu, yeniden deneyin"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:594
 msgid "The logo image has been removed"
-msgstr ""
+msgstr "Logo resmi silindi"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:596
 msgid "Image not found"
-msgstr ""
+msgstr "Resim bulunamadı"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:618
 msgid "Header logo"
-msgstr ""
+msgstr "Başlık için logo"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:619
 msgid "Theme settings"
-msgstr ""
+msgstr "Tema Ayarları"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:692
 msgid "All categories"
-msgstr ""
+msgstr "Bütün kategoriler"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:69
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
-msgstr ""
+msgstr "<strong>Adres:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:72
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
-msgstr ""
+msgstr "<strong>Konum:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2359
 msgid "Everything looks good! Your Osclass installation is up-to-date"
