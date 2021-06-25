@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-24 12:47\n"
+"PO-Revision-Date: 2021-06-25 18:46\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -402,7 +402,7 @@ msgstr "Êtes-vous sûr de vouloir %s les images sélectionnées?"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:438
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:496
 msgid "Change password"
-msgstr "Changer le mot de passe"
+msgstr "Changer de mot de passe"
 
 #: tmp/osclass/oc-admin/gui/forgot_password.php:64
 #: tmp/osclass/oc-admin/gui/login.php:76
@@ -417,7 +417,7 @@ msgstr "Mot de passe oublié?"
 
 #: tmp/osclass/oc-admin/gui/login.php:71
 msgid "Log in"
-msgstr "Connectez vous"
+msgstr "Connexion"
 
 #: tmp/osclass/oc-admin/gui/recover.php:49
 msgid "Get new password"
@@ -568,7 +568,7 @@ msgstr "Vues"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:431
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:476
 msgid "Alerts"
-msgstr "Alertes"
+msgstr "Alertes de recherche"
 
 #: tmp/osclass/oc-admin/themes/modern/stats/items.php:105
 msgid "Subscribers"
@@ -634,7 +634,7 @@ msgstr "Gérer les règles d'exclusion &raquo; %s"
 #: tmp/osclass/oc-admin/themes/modern/pages/index.php:150
 #: tmp/osclass/oc-admin/themes/modern/languages/index.php:118
 msgid "Apply"
-msgstr "Appliquer"
+msgstr "Chercher"
 
 #: tmp/osclass/oc-admin/themes/modern/users/ban.php:168
 msgid "Delete rule"
@@ -668,7 +668,7 @@ msgstr "Paramètres des utilisateurs &raquo; %s"
 #: tmp/osclass/oc-admin/themes/modern/pages/frm.php:34
 #: tmp/osclass/oc-admin/themes/modern/languages/frm.php:112
 msgid "Save changes"
-msgstr "Enregistrer vos modifications"
+msgstr "Sauvegarder les modifications"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:32
 msgid "Edit user"
@@ -686,17 +686,17 @@ msgstr "Ajouter un nouvel utilisateur"
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:126
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:55
 msgid "Username: this field is required"
-msgstr "Nom d'utilisateur: ce champ est obligatoire"
+msgstr "Pseudo: ce champ est requis"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:151
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:80
 msgid "The username is available"
-msgstr "Ce nom d'utilisateur est disponible"
+msgstr "Ce pseudo est disponible"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:153
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:82
 msgid "The username is NOT available"
-msgstr "Ce nom d'utilisateur n'est PAS disponible"
+msgstr "Ce pseudo n'est PAS disponible"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:205
 #, php-format
@@ -854,7 +854,7 @@ msgstr "Extensions &raquo; %s"
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:316
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:227
 msgid "Update"
-msgstr "Mise à jour"
+msgstr "Mettre à jour"
 
 #: tmp/osclass/oc-admin/themes/modern/plugins/add.php:19
 msgid "Manually upload Osclass plugins in .zip format. If you prefer, you can manually upload the decompressed plugin to <em>oc-content/plugins</em>."
@@ -870,7 +870,7 @@ msgstr "Ajouter une extension &raquo; %s"
 #: tmp/osclass/oc-admin/themes/modern/languages/add.php:46
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:69
 msgid "Upload"
-msgstr "Transférer"
+msgstr "Télécharger"
 
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:19
 msgid "Install or uninstall the plugins available in your installation. In some cases, you'll have to configure the plugin in order to get it to work."
@@ -1677,7 +1677,7 @@ msgstr "Email: ce champ est obligatoire"
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:938
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1232
 msgid "Invalid email address"
-msgstr "Adresse email incorrecte"
+msgstr "Adresse email invalide"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/index.php:64
 msgid "Listings shown in RSS feed: this field is required"
@@ -2030,7 +2030,7 @@ msgstr "Retirer des Spam"
 #: tmp/osclass/oc-admin/items.php:467 tmp/osclass/oc-admin/items.php:829
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:285
 msgid "Mark as spam"
-msgstr "Marquer comme Spam"
+msgstr "Spam"
 
 #: tmp/osclass/oc-admin/items.php:822 tmp/osclass/oc-admin/items.php:823
 #: tmp/osclass/oc-admin/items.php:824 tmp/osclass/oc-admin/items.php:825
@@ -2283,7 +2283,7 @@ msgstr "Dernières annonces ajoutées dans"
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
-msgstr "Nom: %s"
+msgstr "Nom : %s"
 
 #: tmp/osclass/oc-includes/osclass/controller/contact.php:79
 #, php-format
@@ -2364,7 +2364,7 @@ msgstr "Publier une annonce"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:422
 #: tmp/osclass/oc-includes/osclass/functions.php:113
 msgid "Edit your listing"
-msgstr "Modifier une annonce"
+msgstr "Editer votre annonce"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:380
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:423
@@ -2388,7 +2388,7 @@ msgstr "Résultats de la recherche"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:426
 #, php-format
 msgid "Search results: %s"
-msgstr "Résultats de la recherche pour %s"
+msgstr "Résultats de la recherche : %s"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:384
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:55
@@ -2396,19 +2396,19 @@ msgstr "Résultats de la recherche pour %s"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:427
 #: tmp/osclass/oc-includes/osclass/functions.php:203
 msgid "Dashboard"
-msgstr "Tableau de bord"
+msgstr "Panneau de contrôle"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:385
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:428
 #, php-format
 msgid "%s's profile"
-msgstr "%s, Votre profil"
+msgstr "Profil de %s"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:386
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:429
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:481
 msgid "Account"
-msgstr "Mon compte"
+msgstr "Compte"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:387
 msgid "My listings"
@@ -2635,7 +2635,7 @@ msgstr "Email"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:59
 msgid "Alert"
-msgstr "Alerte"
+msgstr "Alerte de recherche"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:80
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:70
@@ -2661,7 +2661,7 @@ msgstr "Montrer plus"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:73
 msgid "Username"
-msgstr "Nom d'utilisateur"
+msgstr "Pseudo"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:74
 #: tmp/osclass/oc-includes/osclass/frm/Category.form.class.php:158
@@ -2733,11 +2733,11 @@ msgstr "Utilisateur"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:154
 msgid "Category"
-msgstr "Catégorie"
+msgstr "Catégories"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:155
 msgid "Location"
-msgstr "Lieu"
+msgstr "Adresse"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:157
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:235
@@ -3175,7 +3175,7 @@ msgstr "à"
 #: tmp/osclass/oc-includes/osclass/frm/ManageItems.form.class.php:53
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:66
 msgid "Select a category"
-msgstr "Sélectionnez une catégorie"
+msgstr "Choisir une catégorie"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hPagination.php:196
 #, php-format
@@ -3608,19 +3608,19 @@ msgstr "Voici un exemple de page. C'est un bon endroit pour mettre vos Condition
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1282
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1536
 msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Cette action est irréversible. Etes-vous sûr de vouloir continuer?"
+msgstr "Cette action ne peut pas être annulée. Etes-vous sûr de vouloir continuer?"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
-msgstr ""
+msgstr "Vous êtes maintenant abonné à cette alerte de recherche"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:29
 msgid "There was a problem with the alert"
-msgstr ""
+msgstr "Il y a eu un problème lors de l'abonnement à cette alerte"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_email.php:38
 msgid "Change e-mail"
-msgstr ""
+msgstr "Changer d'email"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/settings.php:46
 msgid "Donate"
@@ -3628,63 +3628,63 @@ msgstr "Faire un don"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:42
 msgid "Remove logo"
-msgstr ""
+msgstr "Supprimer le logo"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:78
 #, php-format
 msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr ""
+msgstr "Le répertoire des images <strong>%s</strong> n'est pas inscriptible."
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:79
 msgid "Osclass can't upload the logo image from the administration panel."
-msgstr ""
+msgstr "OSClass ne peut pas télécharger l'image du logo depuis le panneau d'administration."
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:80
 msgid "Please make the aforementioned image folder writable."
-msgstr ""
+msgstr "Merci de rendre le dossier image mentionné accessible en écriture"
 
 #: tmp/osclass/oc-includes/osclass/gui/loop-single-premium.php:69
 #: tmp/osclass/oc-includes/osclass/gui/loop-single.php:69
 msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr ""
+msgstr "Cette action ne peut pas être annulée. Etes-vous sûr de vouloir continuer ?"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:62
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr ""
+msgstr "<strong class=\"publish\">Date de publication</strong>: %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:65
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr ""
+msgstr "<strong class=\"update\">Date de modification</strong>: %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:55
 msgid "Selected"
-msgstr ""
+msgstr "Sélectionné"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:56
 msgid "Nothing selected, input was"
-msgstr ""
+msgstr "Rien n'a été sélectionné, l'entrée était"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:74
 #, php-format
 msgid "There are no results matching \"%s\""
-msgstr ""
+msgstr "Il n'y a aucun résultat correspondant à \"%s\""
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:78
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
-msgstr ""
+msgstr "%1$d - %2$d sur %3$d annonces"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:136
 msgid "Premium listings"
-msgstr ""
+msgstr "Annonces Premium"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:35
 #: tmp/osclass/oc-includes/osclass/gui/header.php:48
 #, php-format
 msgid "Hi %s"
-msgstr ""
+msgstr "Bonjour %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:72
 #, php-format
@@ -3702,7 +3702,7 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:432
 msgid "Update account"
-msgstr ""
+msgstr "Mettre à jour le compte"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:90
 msgid "Previous image"
@@ -3716,77 +3716,77 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:434
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:491
 msgid "Change username"
-msgstr ""
+msgstr "Chager de pseudo"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:76
 #, php-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "Téléphone: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-sidebar.php:28
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:501
 msgid "Delete account"
-msgstr ""
+msgstr "Supprimer le compte"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:29
 msgid "ie. PHP Programmer"
-msgstr ""
+msgstr "Exemple : permaculture"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:433
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:486
 msgid "Change email"
-msgstr ""
+msgstr "Changer d'adresse email"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:437
 msgid "Recover password"
-msgstr ""
+msgstr "Retrouver son mot de passe"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:566
 msgid "Theme settings updated correctly"
-msgstr ""
+msgstr "Paramètres du thème mis à jour avec succès"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:581
 msgid "The logo image has been uploaded correctly"
-msgstr ""
+msgstr "L'image du logo a bien été téléchargée"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:583
 msgid "An error has occurred, please try again"
-msgstr ""
+msgstr "Une erreur s'est produite, merci de réessayer"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:594
 msgid "The logo image has been removed"
-msgstr ""
+msgstr "L'image du logo a été supprimée"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:596
 msgid "Image not found"
-msgstr ""
+msgstr "Image non trouvée"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:618
 msgid "Header logo"
-msgstr ""
+msgstr "Logo de l'en-tête"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:619
 msgid "Theme settings"
-msgstr ""
+msgstr "Paramètres du thème"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:692
 msgid "All categories"
-msgstr ""
+msgstr "Toutes les catégories"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:69
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
-msgstr ""
+msgstr "<strong>Adresse :</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:72
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
-msgstr ""
+msgstr "<strong>Zone :</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2359
 msgid "Everything looks good! Your Osclass installation is up-to-date"
@@ -4130,7 +4130,7 @@ msgstr "{WEB_TITLE} - Nous avons échoué en essayant de mettre à jour votre si
 
 #: tmp/osclass/oc-includes/osclass/functions.php:119
 msgid "Contact seller"
-msgstr "Contactez le vendeur"
+msgstr "Contacter l'annonceur"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:130
 msgid "Error"
