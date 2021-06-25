@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-24 12:47\n"
+"PO-Revision-Date: 2021-06-25 19:42\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -402,7 +402,7 @@ msgstr "Вы действительно хотите %s выбранные ме�
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:438
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:496
 msgid "Change password"
-msgstr "Изменить пароль"
+msgstr "Сменить пароль"
 
 #: tmp/osclass/oc-admin/gui/forgot_password.php:64
 #: tmp/osclass/oc-admin/gui/login.php:76
@@ -568,7 +568,7 @@ msgstr "Просмотры"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:431
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:476
 msgid "Alerts"
-msgstr "Оповещения"
+msgstr "Подписки"
 
 #: tmp/osclass/oc-admin/themes/modern/stats/items.php:105
 msgid "Subscribers"
@@ -686,17 +686,17 @@ msgstr "Добавить пользователя"
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:126
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:55
 msgid "Username: this field is required"
-msgstr "Имя пользователя: это поле обязательно для заполнения"
+msgstr "Имя пользователя: Это поле обязательно для заполнения"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:151
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:80
 msgid "The username is available"
-msgstr "Вы можете использовать такое имя"
+msgstr "Это имя пользователя доступно"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:153
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:82
 msgid "The username is NOT available"
-msgstr "Имя пользователя уже используется"
+msgstr "Это имя пользователя НЕ ДОСТУПНО"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:205
 #, php-format
@@ -807,7 +807,7 @@ msgstr "Вы действительно хотите %s выбранные оп�
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:26
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1652
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #: tmp/osclass/oc-admin/themes/modern/fields/iframe.php:110
 msgid "At least one option is required."
@@ -870,7 +870,7 @@ msgstr "Добавить плагин &raquo; %s"
 #: tmp/osclass/oc-admin/themes/modern/languages/add.php:46
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:69
 msgid "Upload"
-msgstr "Выгрузить"
+msgstr "Загрузить"
 
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:19
 msgid "Install or uninstall the plugins available in your installation. In some cases, you'll have to configure the plugin in order to get it to work."
@@ -1668,7 +1668,7 @@ msgstr "Заголовок страницы: это поле обязатель�
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:937
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1231
 msgid "Email: this field is required"
-msgstr "E-mail: это поле обязательно для заполнения"
+msgstr "Email: это поле обязательно к заполнению."
 
 #: tmp/osclass/oc-admin/themes/modern/settings/index.php:61
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:1351
@@ -1677,7 +1677,7 @@ msgstr "E-mail: это поле обязательно для заполнени
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:938
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1232
 msgid "Invalid email address"
-msgstr "Неверный адрес электронной почты"
+msgstr "Недопустимый адрес электронной почты"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/index.php:64
 msgid "Listings shown in RSS feed: this field is required"
@@ -2030,7 +2030,7 @@ msgstr "Снять метку Спам"
 #: tmp/osclass/oc-admin/items.php:467 tmp/osclass/oc-admin/items.php:829
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:285
 msgid "Mark as spam"
-msgstr "Пометить как Спам"
+msgstr "Пометить как спам"
 
 #: tmp/osclass/oc-admin/items.php:822 tmp/osclass/oc-admin/items.php:823
 #: tmp/osclass/oc-admin/items.php:824 tmp/osclass/oc-admin/items.php:825
@@ -2375,7 +2375,7 @@ msgstr "Отправить другу"
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:381
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:424
 msgid "Contact publisher"
-msgstr "Написать автору объявления"
+msgstr "Связаться с автором"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:382
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:425
@@ -2388,7 +2388,7 @@ msgstr "Результаты поиска"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:426
 #, php-format
 msgid "Search results: %s"
-msgstr "Результаты поиска для: %s"
+msgstr "Результаты поиска: %s"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:384
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:55
@@ -2396,13 +2396,13 @@ msgstr "Результаты поиска для: %s"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:427
 #: tmp/osclass/oc-includes/osclass/functions.php:203
 msgid "Dashboard"
-msgstr "Аккаунт"
+msgstr "Панель управления"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:385
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:428
 #, php-format
 msgid "%s's profile"
-msgstr "Профиль %s"
+msgstr "%s's профиль"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:386
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:429
@@ -2447,7 +2447,7 @@ msgstr "Войти"
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:394
 #: tmp/osclass/oc-includes/osclass/functions.php:187
 msgid "Recover your password"
-msgstr "Восстановить пароль"
+msgstr "Восстановить Ваш пароль"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:395
 msgid "Change your password"
@@ -2457,7 +2457,7 @@ msgstr "Изменить пароль"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:439
 #: tmp/osclass/oc-includes/osclass/functions.php:197
 msgid "Create a new account"
-msgstr "Создать новый аккаунт"
+msgstr "Создать новую учетную запись"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:57
 msgid "User name"
@@ -2631,11 +2631,11 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:58
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:72
 msgid "E-mail"
-msgstr ""
+msgstr "Электронная почта"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:59
 msgid "Alert"
-msgstr "Оповещение"
+msgstr "Подписка"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:80
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:70
@@ -3128,7 +3128,7 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:186
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:466
 msgid "Public Profile"
-msgstr "Публичный профиль"
+msgstr "Открытый профиль"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:188
 msgid "Manage your listings"
@@ -3175,7 +3175,7 @@ msgstr "в"
 #: tmp/osclass/oc-includes/osclass/frm/ManageItems.form.class.php:53
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:66
 msgid "Select a category"
-msgstr "Выберите категорию"
+msgstr "Выбрать категорию"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hPagination.php:196
 #, php-format
@@ -3608,88 +3608,88 @@ msgstr "Это описание примера страницы."
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1282
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1536
 msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Это действие не может быть отменено. Вы уверены, что хотите продолжить?"
+msgstr "Это действие не может был отменено. Вы уверены, что хотите продолжить?"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
-msgstr ""
+msgstr "Вы успешно подписались на рассылку"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:29
 msgid "There was a problem with the alert"
-msgstr ""
+msgstr "Была проблемы с рассылкой"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_email.php:38
 msgid "Change e-mail"
-msgstr ""
+msgstr "Изменить электронную почту"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/settings.php:46
 msgid "Donate"
-msgstr "Пожертвование"
+msgstr "Пожертвовать"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:42
 msgid "Remove logo"
-msgstr ""
+msgstr "Удалить логотип"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:78
 #, php-format
 msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr ""
+msgstr "Папка с изображениями <strong>%s</strong>недоступна для записи на вашем сервере"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:79
 msgid "Osclass can't upload the logo image from the administration panel."
-msgstr ""
+msgstr "Osclass не может загрузить изображение логотипа из административной панели"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:80
 msgid "Please make the aforementioned image folder writable."
-msgstr ""
+msgstr "Пожалуйста сделайте вышеупомянутую папку изображений доступную для записи"
 
 #: tmp/osclass/oc-includes/osclass/gui/loop-single-premium.php:69
 #: tmp/osclass/oc-includes/osclass/gui/loop-single.php:69
 msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr ""
+msgstr "Это действие не может быть отменено. Вы уверены, что хотите продолжить?"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:62
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr ""
+msgstr "<strong class=\"publish\">Дата публикации</strong>: %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:65
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr ""
+msgstr "<strong class=\"update\">Дата изменения:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:55
 msgid "Selected"
-msgstr ""
+msgstr "Выбранное"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:56
 msgid "Nothing selected, input was"
-msgstr ""
+msgstr "Ничего не выбрано, ввод был"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:74
 #, php-format
 msgid "There are no results matching \"%s\""
-msgstr ""
+msgstr "Нет подходящих результатов \"%s\""
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:78
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
-msgstr ""
+msgstr "%1$d - %2$d из %3$d объявлений"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:136
 msgid "Premium listings"
-msgstr ""
+msgstr "Премиум объявления"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:35
 #: tmp/osclass/oc-includes/osclass/gui/header.php:48
 #, php-format
 msgid "Hi %s"
-msgstr ""
+msgstr "Привет %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:72
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr ""
+msgstr "Наш сайт с гордостью использует <a title=\"Osclass web\" href=\"%s\">скрипт доски объявлений</a> <strong>Osclass</strong>"
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:55
 msgid "No file selected"
@@ -3702,91 +3702,91 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:432
 msgid "Update account"
-msgstr ""
+msgstr "Обновить учетную запись"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:90
 msgid "Previous image"
-msgstr ""
+msgstr "Предыдущее изображение"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:91
 msgid "Next image"
-msgstr ""
+msgstr "Следующее изображение"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:39
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:434
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:491
 msgid "Change username"
-msgstr ""
+msgstr "Изменить имя пользователя"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
-msgstr ""
+msgstr "Электронная почта: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:76
 #, php-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "Телефон: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-sidebar.php:28
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:501
 msgid "Delete account"
-msgstr ""
+msgstr "Удалить учетную запись"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:29
 msgid "ie. PHP Programmer"
-msgstr ""
+msgstr "например, программист PHP"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:433
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:486
 msgid "Change email"
-msgstr ""
+msgstr "Изменить электронную почту"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:437
 msgid "Recover password"
-msgstr ""
+msgstr "Восстановить пароль"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:566
 msgid "Theme settings updated correctly"
-msgstr ""
+msgstr "Параметры темы успешно обновлены"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:581
 msgid "The logo image has been uploaded correctly"
-msgstr ""
+msgstr "Изображение логотипа успешно загружено"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:583
 msgid "An error has occurred, please try again"
-msgstr ""
+msgstr "Произошла ошибка, пожалуйста попробуйте снова"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:594
 msgid "The logo image has been removed"
-msgstr ""
+msgstr "Изображение логотипа было удалено"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:596
 msgid "Image not found"
-msgstr ""
+msgstr "Изображение не найдено"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:618
 msgid "Header logo"
-msgstr ""
+msgstr "Логотип верхней части страницы"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:619
 msgid "Theme settings"
-msgstr ""
+msgstr "Параметры темы"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:692
 msgid "All categories"
-msgstr ""
+msgstr "Все категории"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:69
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
-msgstr ""
+msgstr "<strong>Адрес:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:72
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
-msgstr ""
+msgstr "<strong>Местоположение:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2359
 msgid "Everything looks good! Your Osclass installation is up-to-date"
@@ -4130,7 +4130,7 @@ msgstr "{WEB_TITLE} - Произошла ошибка при обновлени�
 
 #: tmp/osclass/oc-includes/osclass/functions.php:119
 msgid "Contact seller"
-msgstr "Написать публикатору"
+msgstr "Связаться с автором"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:130
 msgid "Error"
