@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-24 12:47\n"
+"PO-Revision-Date: 2021-06-25 18:46\n"
 "Last-Translator: \n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
@@ -402,7 +402,7 @@ msgstr "Er det sikkert du ønsker at  %s valgte media filer"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:438
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:496
 msgid "Change password"
-msgstr "Ændre PassWord"
+msgstr "Skift PassWord"
 
 #: tmp/osclass/oc-admin/gui/forgot_password.php:64
 #: tmp/osclass/oc-admin/gui/login.php:76
@@ -634,7 +634,7 @@ msgstr "Administrer ban regler &raquo; %s"
 #: tmp/osclass/oc-admin/themes/modern/pages/index.php:150
 #: tmp/osclass/oc-admin/themes/modern/languages/index.php:118
 msgid "Apply"
-msgstr "Anvend"
+msgstr "* Anvend *"
 
 #: tmp/osclass/oc-admin/themes/modern/users/ban.php:168
 msgid "Delete rule"
@@ -668,7 +668,7 @@ msgstr "Bruger indstillinger &raquo; %s"
 #: tmp/osclass/oc-admin/themes/modern/pages/frm.php:34
 #: tmp/osclass/oc-admin/themes/modern/languages/frm.php:112
 msgid "Save changes"
-msgstr "* GEM ÆNDRINGER *"
+msgstr "Gem ændringer"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:32
 msgid "Edit user"
@@ -686,7 +686,7 @@ msgstr "Tilføj ny bruger"
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:126
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:55
 msgid "Username: this field is required"
-msgstr "Brugernavn: Feltet er påkrævet"
+msgstr "Brugernavn: (feltet er påkrævet)"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:151
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:80
@@ -854,7 +854,7 @@ msgstr ""
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:316
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:227
 msgid "Update"
-msgstr "Opdater"
+msgstr "* OPDATER *"
 
 #: tmp/osclass/oc-admin/themes/modern/plugins/add.php:19
 msgid "Manually upload Osclass plugins in .zip format. If you prefer, you can manually upload the decompressed plugin to <em>oc-content/plugins</em>."
@@ -1668,7 +1668,7 @@ msgstr "Side title: Feltet er påkrævet"
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:937
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1231
 msgid "Email: this field is required"
-msgstr "E-Mail adresse: Feltet er påkrævet"
+msgstr "E-Mail: Feltet er påkrævet"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/index.php:61
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:1351
@@ -1873,7 +1873,7 @@ msgstr "Indskriv annonce overskrift her"
 #: tmp/osclass/oc-includes/osclass/emails.php:1195
 #: tmp/osclass/oc-includes/osclass/emails.php:1200
 msgid "Title"
-msgstr "Overskrift"
+msgstr "Annonce overskrift"
 
 #: tmp/osclass/oc-admin/themes/modern/functions.php:149
 #: tmp/osclass/oc-admin/themes/modern/functions.php:182
@@ -1886,7 +1886,7 @@ msgstr "Overskrift"
 #: tmp/osclass/oc-includes/osclass/emails.php:1196
 #: tmp/osclass/oc-includes/osclass/emails.php:1201
 msgid "Description"
-msgstr "Beskrivelse..."
+msgstr "En kort beskrivelse"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:22
 #, php-format
@@ -2030,7 +2030,7 @@ msgstr "Afmarker som spam"
 #: tmp/osclass/oc-admin/items.php:467 tmp/osclass/oc-admin/items.php:829
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:285
 msgid "Mark as spam"
-msgstr "Marker som spam"
+msgstr ".: grov SPAM"
 
 #: tmp/osclass/oc-admin/items.php:822 tmp/osclass/oc-admin/items.php:823
 #: tmp/osclass/oc-admin/items.php:824 tmp/osclass/oc-admin/items.php:825
@@ -2315,7 +2315,7 @@ msgstr "IP Addresse: %s"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:440
 #: tmp/osclass/oc-includes/osclass/functions.php:229
 msgid "Contact"
-msgstr "Kontakt"
+msgstr " Kontakt"
 
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:107
 msgid "Anonymous"
@@ -2408,11 +2408,11 @@ msgstr "%s's  profil"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:429
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:481
 msgid "Account"
-msgstr "Din konto"
+msgstr " KONTO PROFIL *"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:387
 msgid "My listings"
-msgstr "Mine annoncer"
+msgstr "Dine annoncer"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:388
 msgid "My alerts"
@@ -2442,12 +2442,12 @@ msgstr "Ændre mit PassWord"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:436
 #: tmp/osclass/oc-includes/osclass/functions.php:193
 msgid "Login"
-msgstr "Konto Log IND"
+msgstr "Log IND"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:394
 #: tmp/osclass/oc-includes/osclass/functions.php:187
 msgid "Recover your password"
-msgstr "Udbed et nyt PassWord"
+msgstr "Genopret dit PassWord"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:395
 msgid "Change your password"
@@ -2661,7 +2661,7 @@ msgstr "Vis mere "
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:73
 msgid "Username"
-msgstr "Brugernavn"
+msgstr "Skriv NYT brugernavn"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:74
 #: tmp/osclass/oc-includes/osclass/frm/Category.form.class.php:158
@@ -2737,7 +2737,7 @@ msgstr "Kategori"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:155
 msgid "Location"
-msgstr "GEO lokalisering"
+msgstr "GEO Lokalisering"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:157
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:235
@@ -3128,7 +3128,7 @@ msgstr "Efter 12:00"
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:186
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:466
 msgid "Public Profile"
-msgstr "Offentlig profil"
+msgstr "Offentlig Profil"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:188
 msgid "Manage your listings"
@@ -3145,7 +3145,7 @@ msgstr "Opdater/Vedligehold profil"
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:191
 #: tmp/osclass/oc-includes/osclass/functions.php:521
 msgid "Logout"
-msgstr "Log UD <em> ..: husk det altid :..</em>"
+msgstr "Log UD"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hAdminMenu.php:176
 msgid "Compact"
@@ -3175,7 +3175,7 @@ msgstr "til "
 #: tmp/osclass/oc-includes/osclass/frm/ManageItems.form.class.php:53
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:66
 msgid "Select a category"
-msgstr "Vælg en kategori"
+msgstr "VÆLG  EN  KATEGORI"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hPagination.php:196
 #, php-format
@@ -3612,84 +3612,84 @@ msgstr "Handlingen kan ikke fortrydes. - Er du sikker på du vil fortsætte?"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
-msgstr ""
+msgstr "Du er nu tilmeldt denne påmindelse"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:29
 msgid "There was a problem with the alert"
-msgstr ""
+msgstr "Der opstod et problem med påmindelsen"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_email.php:38
 msgid "Change e-mail"
-msgstr ""
+msgstr "Ændre E-Mail"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/settings.php:46
 msgid "Donate"
-msgstr "Doner et beløb"
+msgstr "Doner"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:42
 msgid "Remove logo"
-msgstr ""
+msgstr "Fjern logo"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:78
 #, php-format
 msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr ""
+msgstr "Billede mappen <strong>%s</strong> er ikke skrivbar på serveren"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:79
 msgid "Osclass can't upload the logo image from the administration panel."
-msgstr ""
+msgstr "Osclass kan ikke uploade logoet fra kontrolpanelet"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:80
 msgid "Please make the aforementioned image folder writable."
-msgstr ""
+msgstr "Venligst gør den førnævnte billedmappe på serveren skrivbar."
 
 #: tmp/osclass/oc-includes/osclass/gui/loop-single-premium.php:69
 #: tmp/osclass/oc-includes/osclass/gui/loop-single.php:69
 msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr ""
+msgstr "Handlingen kan ikke fortrydes. - Er du sikker på du vil fortsætte?"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:62
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr ""
+msgstr "<strong class=\"publish\">Oprettet d</strong>: %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:65
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr ""
+msgstr "<strong class=\"update\">Redigeret d</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:55
 msgid "Selected"
-msgstr ""
+msgstr "Valgt"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:56
 msgid "Nothing selected, input was"
-msgstr ""
+msgstr "Intet valgt, indputtet var"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:74
 #, php-format
 msgid "There are no results matching \"%s\""
-msgstr ""
+msgstr "Vi fandt intet som passede på det søgte \"%s\""
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:78
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
-msgstr ""
+msgstr "%1$d til %2$d af %3$d annoncer"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:136
 msgid "Premium listings"
-msgstr ""
+msgstr "Premium annoncer"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:35
 #: tmp/osclass/oc-includes/osclass/gui/header.php:48
 #, php-format
 msgid "Hi %s"
-msgstr ""
+msgstr "<em>Goddag</em>: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:72
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr ""
+msgstr "Dette websted er bygget med <a title=\"Osclass web\" href=\"%s\"> software fra </a> <strong> Osclass </strong>"
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:55
 msgid "No file selected"
@@ -3702,91 +3702,91 @@ msgstr ""
 #: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:432
 msgid "Update account"
-msgstr ""
+msgstr "Konto profil opdatering"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:90
 msgid "Previous image"
-msgstr ""
+msgstr "Forrige billede"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:91
 msgid "Next image"
-msgstr ""
+msgstr "Næste billede"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:39
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:434
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:491
 msgid "Change username"
-msgstr ""
+msgstr "Skift bruger navn"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
-msgstr ""
+msgstr "E-Mail: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:76
 #, php-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "Fastnet tlf: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-sidebar.php:28
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:501
 msgid "Delete account"
-msgstr ""
+msgstr "? SLET KONTO ?"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:29
 msgid "ie. PHP Programmer"
-msgstr ""
+msgstr "f.eks. Søger Dansk PHP Programmør"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:433
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:486
 msgid "Change email"
-msgstr ""
+msgstr "Ændre E-Mail"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:437
 msgid "Recover password"
-msgstr ""
+msgstr "Reset PassWord"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:566
 msgid "Theme settings updated correctly"
-msgstr ""
+msgstr "Tema indstillinger er opdateret korrekt"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:581
 msgid "The logo image has been uploaded correctly"
-msgstr ""
+msgstr "Logo billede er blevet uploadet korrekt"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:583
 msgid "An error has occurred, please try again"
-msgstr ""
+msgstr "FEJL opstod, prøv venligst igen"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:594
 msgid "The logo image has been removed"
-msgstr ""
+msgstr "Logo billedet er blevet fjernet"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:596
 msgid "Image not found"
-msgstr ""
+msgstr "Billede ikke fundet"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:618
 msgid "Header logo"
-msgstr ""
+msgstr "Header (top) logo"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:619
 msgid "Theme settings"
-msgstr ""
+msgstr "Tema indstillinger"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:692
 msgid "All categories"
-msgstr ""
+msgstr "Alle kategorier"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:69
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
-msgstr ""
+msgstr "<strong>Adresse:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:72
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
-msgstr ""
+msgstr "<strong>GEO Lokalisering:</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2359
 msgid "Everything looks good! Your Osclass installation is up-to-date"
