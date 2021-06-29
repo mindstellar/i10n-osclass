@@ -1,1534 +1,1746 @@
-# Translation of Flash Messages in Hebrew
-# This file is distributed under the same license as the Flash Messages package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-05-13 17:52:34+0000\n"
+"Project-Id-Version: osclass-v2\n"
+"Report-Msgid-Bugs-To: translations@mindstellar.com\n"
+"POT-Creation-Date: 2021-06-29 18:32+0530\n"
+"PO-Revision-Date: 2021-06-29 13:58\n"
+"Last-Translator: \n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: Flash Messages\n"
-
-#: /var/www/osclass-git/oc-admin/settings.php:197
-#: /var/www/osclass-git/oc-admin/settings.php:270
-#: /var/www/osclass-git/oc-admin/settings.php:337
-msgid "%s has been deleted"
-msgstr "%s נמחק"
-
-#: /var/www/osclass-git/oc-admin/settings.php:199
-msgid "There was a problem deleting %s"
-msgstr "יש בעיה במחיקת %s"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1658
-msgid "%s has been added as a region of %s"
-msgstr "%s נוסף כאזור ב%s"
-
-#: /var/www/osclass-git/ajax.php:86
-msgid "The selected photo couldn't be deleted, the url doesn't exist"
-msgstr "התמונות הנבחרות לא ניתנות למחיקה"
-
-#: /var/www/osclass-git/ajax.php:96
-msgid "The listing doesn't exist"
-msgstr "הרישום לא נמצא"
-
-#: /var/www/osclass-git/ajax.php:105 /var/www/osclass-git/ajax.php:113
-msgid "The listing doesn't belong to you"
-msgstr "הרישום לא שייך לך"
-
-#: /var/www/osclass-git/ajax.php:136 /var/www/osclass-git/user.php:222
-msgid "The selected photo has been successfully deleted"
-msgstr "התמונות שנבחרו נמחקו בהצלחה"
-
-#: /var/www/osclass-git/ajax.php:139 /var/www/osclass-git/user.php:224
-msgid "The selected photo does not belong to you"
-msgstr "התמונות הנבחרות לא שייכות לך"
-
-#: /var/www/osclass-git/ajax.php:143 /var/www/osclass-git/user.php:227
-msgid "The selected photo couldn't be deleted"
-msgstr "התמונות הנבחרות לא ניתנות למחיקה"
-
-#: /var/www/osclass-git/contact.php:39 /var/www/osclass-git/item.php:121
-#: /var/www/osclass-git/item.php:217 /var/www/osclass-git/item.php:326
-#: /var/www/osclass-git/item.php:368
-#: /var/www/osclass-git/user-non-secure.php:118
-msgid "The Recaptcha code is wrong"
-msgstr "הקוד שהזנת לא תואם"
-
-#: /var/www/osclass-git/oc-includes/osclass/emails.php:644
-msgid "There has been some errors sending the message"
-msgstr "ארעו מספר שגיאות בשליחת ההודעה"
-
-#: /var/www/osclass-git/item.php:52 /var/www/osclass-git/item.php:99
-msgid "Only registered users are allowed to post listings"
-msgstr "רק משתמשים רשומים יכולים להוסיף רישום"
-
-#: /var/www/osclass-git/item.php:151
-msgid "Your listing has been published"
-msgstr "הרשומה שלך פורסמה"
-
-#: /var/www/osclass-git/item.php:228
-msgid "Great! We've just updated your listing"
-msgstr "מעולה! עדכנו את הרשומה שלך"
-
-#: /var/www/osclass-git/item.php:255
-msgid "The listing has been validated"
-msgstr "הרישום אומת"
-
-#: /var/www/osclass-git/item.php:257
-msgid "The listing can't be validated"
-msgstr "לא ניתן לאמת את הרישום"
-
-#: /var/www/osclass-git/item.php:260
-msgid "The listing has already been validated"
-msgstr "הרישום כבר בתוקף"
-
-#: /var/www/osclass-git/item.php:273
-msgid "Your listing has been deleted"
-msgstr "הרישום שלך נמחק"
-
-#: /var/www/osclass-git/item.php:275 /var/www/osclass-git/item.php:283
-msgid "The listing you are trying to delete couldn't be deleted"
-msgstr "הרישום שאתה מנסה למחוק לא ניתן למחוק"
-
-#: /var/www/osclass-git/item.php:304
-msgid "Thanks! That's very helpful"
-msgstr "תודה! זה מאוד מועיל"
-
-#: /var/www/osclass-git/item.php:345 /var/www/osclass-git/item.php:432
-msgid "This listing doesn't exist"
-msgstr "רשימה זו אינה קיימת"
-
-#: /var/www/osclass-git/item.php:351 /var/www/osclass-git/item.php:379
-msgid "We're sorry, but the listing has expired. You can't contact the seller"
-msgstr "אנחנו מצטערים, אבל פג תוקפיו של הרישום. לא ניתן ליצור קשר עם המוכר"
-
-#: /var/www/osclass-git/item.php:358
-msgid "You can't contact the seller, only registered users can"
-msgstr "אתה לא יכול ליצור קשר עם המוכר, רק משתמשים רשומים יכולים"
-
-#: /var/www/osclass-git/item.php:390
-msgid "We've just sent an e-mail to the seller"
-msgstr "שלחנו מייל למוכר"
-
-#: /var/www/osclass-git/item.php:400
-msgid "Sorry, we could not save your comment. Try again later"
-msgstr "מצטערים, לא יכולנו לשמור את התגובה שלך. נסה שוב מאוחר יותר"
-
-#: /var/www/osclass-git/item.php:403
-msgid "Your comment is awaiting moderation"
-msgstr "התגובה שלך ממתינה למיון"
-
-#: /var/www/osclass-git/item.php:406
-msgid "Your comment has been approved"
-msgstr "התגובה שלך אושרה"
-
-#: /var/www/osclass-git/item.php:409
-msgid "Please fill the required field (email)"
-msgstr "נא למלא את השדה הנדרש (דוא\"ל)"
-
-#: /var/www/osclass-git/item.php:412
-msgid "Please type a comment"
-msgstr "אנא הקלד תגובה"
-
-#: /var/www/osclass-git/item.php:415
-msgid "Your comment has been marked as spam"
-msgstr "התגובה שלך סומנה כדואר זבל"
-
-#: /var/www/osclass-git/item.php:439
-msgid "You must be logged in to delete a comment"
-msgstr "חייב להיות מחובר כדי למחוק תגובות"
-
-#: /var/www/osclass-git/item.php:447
-msgid "The comment doesn't exist"
-msgstr "התגובה לא קיימת"
-
-#: /var/www/osclass-git/item.php:452
-msgid "The comment is not active, you cannot delete it"
-msgstr "התגובה אינה פעילה, לא ניתן למחוק אותה"
-
-#: /var/www/osclass-git/item.php:457
-msgid "The comment was not added by you, you cannot delete it"
-msgstr "התגובה לא נוספה על ידך ולכן אתה לא יכול למחוק אותה"
-
-#: /var/www/osclass-git/item.php:462
-msgid "The comment has been deleted"
-msgstr "התגובה נמחקה"
-
-#: /var/www/osclass-git/item.php:487
-msgid "This listing hasn't been validated"
-msgstr "רשימה זו לא אומתה"
-
-#: /var/www/osclass-git/item.php:491
-msgid "The listing has been suspended"
-msgstr "רישום הושעה"
-
-#: /var/www/osclass-git/login.php:26 /var/www/osclass-git/register.php:27
-#: /var/www/osclass-git/user-non-secure.php:26 /var/www/osclass-git/user.php:26
-msgid "Users not enabled"
-msgstr "משתמשים לא מאופשרים"
-
-#: /var/www/osclass-git/login.php:37 /var/www/osclass-git/register.php:49
-msgid "Users are not enabled"
-msgstr "משתמשים לא אופשרו"
-
-#: /var/www/osclass-git/login.php:73 /var/www/osclass-git/login.php:86
-msgid "The user doesn't exist"
-msgstr "המשתמש לא קיים"
-
-#: /var/www/osclass-git/login.php:78
-msgid "The password is incorrect"
-msgstr "הסיסמא שגוייה"
-
-#: /var/www/osclass-git/login.php:88
-msgid "The user has not been validated yet"
-msgstr "המשתמש לא אומת עדיין"
-
-#: /var/www/osclass-git/login.php:90
-msgid "The user has been suspended"
-msgstr "משתמש הושעה"
-
-#: /var/www/osclass-git/login.php:130
-msgid "Invalid email address"
-msgstr "כתובת מייל לא חוקית"
-
-#: /var/www/osclass-git/login.php:139
-msgid "We have sent you an email with the instructions to reset your password"
-msgstr "נשלח אליך דוא\"ל עם ההוראות לאיפוס הסיסמה."
-
-#: /var/www/osclass-git/login.php:143
-msgid "We were not able to identify you given the information provided"
-msgstr "לא הצלחנו לזהות אותך עם המידע שסיפקת"
-
-#: /var/www/osclass-git/login.php:147
-msgid "The recaptcha code is wrong"
-msgstr "הקוד שגויי"
-
-#: /var/www/osclass-git/login.php:157 /var/www/osclass-git/login.php:184
-#: /var/www/osclass-git/user-non-secure.php:55
-#: /var/www/osclass-git/user-non-secure.php:59
-msgid "Sorry, the link is not valid"
-msgstr "סליחה, הקישור לא תקין"
-
-#: /var/www/osclass-git/login.php:163 /var/www/osclass-git/user.php:139
-msgid "Password cannot be blank"
-msgstr "סיסמא לא יכולה להיות ריקה"
-
-#: /var/www/osclass-git/login.php:177
-msgid "The password has been changed"
-msgstr "הסיסמא שונתה"
-
-#: /var/www/osclass-git/login.php:180
-msgid "Error, the password don't match"
-msgstr "תקלה, הסיסמא לא תואמת"
-
-#: /var/www/osclass-git/register.php:32
-msgid "User registration is not enabled"
-msgstr "לא ניתן לרשום משתמש"
-
-#: /var/www/osclass-git/register.php:60
-msgid "The user has been created. An activation email has been sent"
-msgstr "המשתמש נוצר. אימייל עם אקטיבציה נשלח"
-
-#: /var/www/osclass-git/register.php:63
-msgid "Your account has been created successfully"
-msgstr "החשבון שלך נוצר בהצלחה"
-
-#: /var/www/osclass-git/register.php:66 /var/www/osclass-git/user.php:127
-msgid "The specified e-mail is already in use"
-msgstr "המייל שרשמת כבר נמצא במערכת"
-
-#: /var/www/osclass-git/register.php:72
-msgid "The email is not valid"
-msgstr "כתובת האימייל אינה חוקית"
-
-#: /var/www/osclass-git/register.php:75
-msgid "The password cannot be empty"
-msgstr "הסיסמא לא יכולה להיות ריקה"
-
-#: /var/www/osclass-git/register.php:78 /var/www/osclass-git/user.php:154
-msgid "Passwords don't match"
-msgstr "הסיסמא לא תואמת"
-
-#: /var/www/osclass-git/register.php:90
-msgid "The link is not valid anymore. Sorry for the inconvenience!"
-msgstr "הקישור לא זמין יותר. מצטערים על אי הנוחות"
-
-#: /var/www/osclass-git/register.php:95
-msgid "Your account has already been validated"
-msgstr "החשבון שלך כבר אומת."
-
-#: /var/www/osclass-git/register.php:115
-msgid "Your account has been validated"
-msgstr "החשבון שלך אומת."
-
-#: /var/www/osclass-git/user-non-secure.php:52
-msgid "Your email has been changed successfully"
-msgstr "כתובת האימייל שלך שונתה בהצלחה"
-
-#: /var/www/osclass-git/user-non-secure.php:73
-#: /var/www/osclass-git/user.php:189
-msgid "Alert activated"
-msgstr "התראות הופעלו"
-
-#: /var/www/osclass-git/user-non-secure.php:85
-#: /var/www/osclass-git/user.php:201
-msgid "Unsubscribed correctly"
-msgstr "בטל את מנוי בצורה נכונה"
-
-#: /var/www/osclass-git/user.php:75
-msgid "Your profile has been updated successfully"
-msgstr "הפרופיל שלך עודכן בהצלחה"
-
-#: /var/www/osclass-git/user.php:103
-msgid "The specified e-mail is not valid"
-msgstr "הדואר האלקטרוני שצוין אינו חוקי"
-
-#: /var/www/osclass-git/user.php:144
-msgid "Current password doesn't match"
-msgstr "סיסמא נוכחית אינה תואמת את"
-
-#: /var/www/osclass-git/user.php:149
-msgid "Passwords can't be empty"
-msgstr "סיסמאות לא יכולות להיות ריקות"
-
-#: /var/www/osclass-git/user.php:161
-msgid "Password has been changed"
-msgstr "הסיסמא שונתה"
-
-#: /var/www/osclass-git/oc-admin/admins.php:34
-#: /var/www/osclass-git/oc-admin/items.php:42
-msgid "You don't have enough permissions"
-msgstr "אין לך מספיק הרשאות"
-
-#: /var/www/osclass-git/oc-admin/admins.php:76
-#: /var/www/osclass-git/oc-admin/admins.php:167
-msgid "Email invalid"
-msgstr "מייל שגויי"
-
-#: /var/www/osclass-git/oc-admin/admins.php:80
-#: /var/www/osclass-git/oc-admin/admins.php:171
-msgid "Username invalid"
-msgstr "שם משתמש לא חוקי"
-
-#: /var/www/osclass-git/oc-admin/admins.php:84
-#: /var/www/osclass-git/oc-admin/admins.php:175
-msgid "Name invalid"
-msgstr "שם לא חוקי"
-
-#: /var/www/osclass-git/oc-admin/admins.php:88
-#: /var/www/osclass-git/oc-admin/admins.php:206
-msgid "Password invalid"
-msgstr "סיסמא לא חוקית"
-
-#: /var/www/osclass-git/oc-admin/admins.php:93
-msgid "Email already in use"
-msgstr "מייל כבר בשימוש"
-
-#: /var/www/osclass-git/oc-admin/admins.php:98
-msgid "Username already in use"
-msgstr "שם משתמש כבר שימוש"
-
-#: /var/www/osclass-git/oc-admin/admins.php:113
-msgid "The admin has been added"
-msgstr "המנהל הוסיף"
-
-#: /var/www/osclass-git/oc-admin/admins.php:182
-msgid "This admin doesn't exist"
-msgstr "מנהל זה אינו קיים"
-
-#: /var/www/osclass-git/oc-admin/admins.php:188
-msgid "Existing email"
-msgstr "הדוא\"ל קיים"
-
-#: /var/www/osclass-git/oc-admin/admins.php:195
-msgid "Existing username"
-msgstr "שם משתמש קיים"
-
-#: /var/www/osclass-git/oc-admin/admins.php:214
-#: /var/www/osclass-git/oc-admin/admins.php:224
-msgid "The password couldn't be updated. Passwords don't match"
-msgstr "הסיסמא לא יכולה להתעדכן. סיסמא לא זהה"
-
-#: /var/www/osclass-git/oc-admin/admins.php:241
-msgid "The admin has been updated"
-msgstr "המנהל עדכן"
-
-#: /var/www/osclass-git/oc-admin/admins.php:259
-msgid "The admin id isn't in the correct format"
-msgstr "מזהה של האדמין לא בפורמט הנכון"
-
-#: /var/www/osclass-git/oc-admin/admins.php:265
-msgid "The operation hasn't been completed. You're trying to remove yourself!"
-msgstr "הפעולה לא בוצעה. אתה מנסה להסיר את עצמך!"
-
-#: /var/www/osclass-git/oc-admin/admins.php:272
-msgid "The admin has been deleted correctly"
-msgstr "המנהל הוסר בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/admins.php:274
-msgid "The admin couldn't be deleted"
-msgstr "לא ניתן למחוק את המנהל"
-
-#: /var/www/osclass-git/oc-admin/tools.php:40
-#: /var/www/osclass-git/oc-admin/tools.php:65
-#: /var/www/osclass-git/oc-admin/tools.php:155
-#: /var/www/osclass-git/oc-admin/tools.php:165
-#: /var/www/osclass-git/oc-admin/tools.php:202
-#: /var/www/osclass-git/oc-admin/tools.php:237
-#: /var/www/osclass-git/oc-admin/tools.php:280
-#: /var/www/osclass-git/oc-admin/tools.php:307
-#: /var/www/osclass-git/oc-admin/tools.php:335
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Crowdin-Project: osclass-v2\n"
+"X-Crowdin-Project-ID: 376123\n"
+"X-Crowdin-Language: he\n"
+"X-Crowdin-File: /master/src/templates/messages.pot\n"
+"X-Crowdin-File-ID: 8208\n"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:209
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:237
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:264
 msgid "This action cannot be done because it is a demo site"
 msgstr "פעולה זו לא ניתנת לפעולה מכיוון שזה אתר לדוגמא"
 
-#: /var/www/osclass-git/oc-admin/tools.php:229
-#: /var/www/osclass-git/oc-admin/tools.php:261
-msgid "Backup completed successfully"
-msgstr "הגיבוי בוצע בהצלחה"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
+#: tmp/oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
+msgid "You don't have enough permissions"
+msgstr "אין לך מספיק הרשאות"
 
-#: /var/www/osclass-git/oc-admin/appearance.php:50
-msgid "The theme folder is not writable"
-msgstr "התיקייה של ערכת הנושא לא ניתנת לכתיבה"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:53
-msgid "The theme has been installed correctly"
-msgstr "ערכת הנושא עודכנה בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:56
-#: /var/www/osclass-git/oc-admin/languages.php:64
-#: /var/www/osclass-git/oc-admin/plugins.php:62
-msgid "The zip file is not valid"
-msgstr "קובץ ה-zip אינו תקין"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:59
-#: /var/www/osclass-git/oc-admin/languages.php:67
-#: /var/www/osclass-git/oc-admin/plugins.php:65
-msgid "No file was uploaded"
-msgstr "לא הועלו קבצים"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:64
-msgid "There was a problem adding the theme"
-msgstr "ארעה בעיה בהוספת ערכת הנושא"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:80
-msgid "Theme removed successfully"
-msgstr "ערכת הנושא הוסרה בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:82
-msgid "There was a problem removing the theme"
-msgstr "ארעה בעיה בהסרת ערכת הנושא"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:85
-msgid "Current theme can not be deleted"
-msgstr "ערכת נושא נוכחית לא ניתנת למחיקה"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:88
-msgid "No theme selected"
-msgstr "לא נבחרה ערכת נושא"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:116
-msgid "Widget removed correctly"
-msgstr "יישומון (Widget) הוסר בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:121
-#: /var/www/osclass-git/oc-admin/appearance.php:142
-msgid "Description field is required"
-msgstr "שדה התיאור נדרש"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:134
-msgid "Widget updated correctly"
-msgstr "יישומון (Widget) עודכן בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:136
-msgid "Widget cannot be updated correctly"
-msgstr "היישומון לא יכול להתעדכן בצורה טובה"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:154
-msgid "Widget added correctly"
-msgstr "היישומון נוסף בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/appearance.php:163
-msgid "Theme activated correctly"
-msgstr "ערכת הנושא הופעלה בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/comments.php:54
-msgid "The comments have been deleted"
-msgstr "התגובות נמחקו"
-
-#: /var/www/osclass-git/oc-admin/comments.php:67
-msgid "The comments have been approved"
-msgstr "התגובות אושרו"
-
-#: /var/www/osclass-git/oc-admin/comments.php:77
-msgid "The comments have been disapproved"
-msgstr "התגובות לא אושרו"
-
-#: /var/www/osclass-git/oc-admin/comments.php:123
-msgid "The comment has been approved"
-msgstr "התגובה אושרה"
-
-#: /var/www/osclass-git/oc-admin/comments.php:130
-msgid "The comment has been disapproved"
-msgstr "התגובה לא אושרה"
-
-#: /var/www/osclass-git/oc-admin/comments.php:137
-msgid "The comment has been enabled"
-msgstr "התגובה הופעלה"
-
-#: /var/www/osclass-git/oc-admin/comments.php:144
-msgid "The comment has been disabled"
-msgstr "התגובה הושבתה"
-
-#: /var/www/osclass-git/oc-admin/comments.php:158
-msgid "Email is not correct"
-msgstr "כתובת אימייל לא תקינה"
-
-#: /var/www/osclass-git/oc-admin/comments.php:161
-msgid "Comment is required"
-msgstr "חובה להזין תגובה"
-
-#: /var/www/osclass-git/oc-admin/comments.php:183
-msgid "Great! We just updated your comment"
-msgstr "מעולה! עדכנו את הגתובה שלך"
-
-#: /var/www/osclass-git/oc-admin/emails.php:85
-msgid "The email/alert has been updated"
-msgstr "האימייל/התראה עודכנו"
-
-#: /var/www/osclass-git/oc-admin/emails.php:88
-#: /var/www/osclass-git/oc-admin/pages.php:97
-msgid "You can't repeat internal name"
-msgstr "לא ניתן לחזור על שם פנימי"
-
-#: /var/www/osclass-git/oc-admin/emails.php:90
-msgid "The email couldn't be updated, at least one title should not be empty"
-msgstr "לא ניתן לעדכן את האימייל. חובה להזין לפחות כותרת אחת"
-
-#: /var/www/osclass-git/oc-admin/items.php:61
-msgid "%d listing has been enabled"
-msgid_plural "%d listings have been enabled"
-msgstr[0] "רישום בודד: %d הופעל"
-msgstr[1] "רישומים %d הופעלו"
-
-#: /var/www/osclass-git/oc-admin/items.php:73
-msgid "%d listing has been disabled"
-msgid_plural "%d listings have been disabled"
-msgstr[0] "רישום בודד %d הושבת"
-msgstr[1] "רישומים %d הושבתו"
-
-#: /var/www/osclass-git/oc-admin/items.php:85
-msgid "%d listing has been activated"
-msgid_plural "%d listings have been activated"
-msgstr[0] "רישום %d הופעל"
-msgstr[1] "הרישומים %d הופעלו"
-
-#: /var/www/osclass-git/oc-admin/items.php:97
-msgid "%d listing has been deactivated"
-msgstr "הרישום %d הושבת"
-
-#: /var/www/osclass-git/oc-admin/items.php:109
-msgid "%d listing has been marked as premium"
-msgid_plural "%d listings have been marked as premium"
-msgstr[0] "הרישום %d סומן כמועודף"
-msgstr[1] "הרישומים %d סומנו כמועודפים"
-
-#: /var/www/osclass-git/oc-admin/items.php:121
-#: /var/www/osclass-git/oc-admin/items.php:145
-msgid "%d change has been made"
-msgid_plural "%d changes have been made"
-msgstr[0] "%d שונה"
-msgstr[1] "%d שונו"
-
-#: /var/www/osclass-git/oc-admin/items.php:133
-msgid "%d listing has been marked as spam"
-msgid_plural "%d listings have been marked as spam"
-msgstr[0] "הרישום %d סומן כדואר זבל"
-msgstr[1] "הרישומים %d סומנו כדואר זבל"
-
-#: /var/www/osclass-git/oc-admin/items.php:163
-msgid "%d listing has been deleted"
-msgid_plural "%d listings have been deleted"
-msgstr[0] "הרישום %d נמחק"
-msgstr[1] "הרישומים %d נמחקו"
-
-#: /var/www/osclass-git/oc-admin/items.php:180
-msgid "%d listing has been unmarked as spam"
-msgid_plural "%d listings have been unmarked as spam"
-msgstr[0] "הרישום %d סומן כלא דואר זבל"
-msgstr[1] "הרישומים %d סומנו כלא דואר זבל"
-
-#: /var/www/osclass-git/oc-admin/items.php:197
-msgid "%d listing has been unmarked as missclassified"
-msgid_plural "%d listings have been unmarked as missclassified"
-msgstr[0] "הרישום %d הוסר מרשימת לא ממיונים"
-msgstr[1] "הרישומים %d הוסרו מרשימת הלא ממוינים"
-
-#: /var/www/osclass-git/oc-admin/items.php:214
-msgid "%d listing has been unmarked as duplicated"
-msgid_plural "%d listings have been unmarked as duplicated"
-msgstr[0] "הרישום %d הוסר מרשימת הכפולים"
-msgstr[1] "הרישומים %d הוסרו מרשימת הכפולים"
-
-#: /var/www/osclass-git/oc-admin/items.php:231
-msgid "%d listing has been unmarked as expired"
-msgid_plural "%d listings have been unmarked as expired"
-msgstr[0] "הרישום %d הוסר מרשימת פג תוקף"
-msgstr[1] "הרישומים %d הוסרו מרשימת פג תוקף"
-
-#: /var/www/osclass-git/oc-admin/items.php:248
-msgid "%d listing has been unmarked as offensive"
-msgid_plural "%d listings have been unmarked as offensive"
-msgstr[0] "הרישום %d הוסר מרשימת תוכן פוגעני"
-msgstr[1] "הרישומים %d הוסרו מרשימת תוכן פוגעני"
-
-#: /var/www/osclass-git/oc-admin/items.php:316
-#: /var/www/osclass-git/oc-admin/items.php:328
-#: /var/www/osclass-git/oc-admin/items.php:338
-#: /var/www/osclass-git/oc-admin/items.php:348
-#: /var/www/osclass-git/oc-admin/items.php:376
-#: /var/www/osclass-git/oc-admin/items.php:401
-#: /var/www/osclass-git/oc-admin/items.php:534
-msgid "An error has occurred"
-msgstr "ארעה תקלה"
-
-#: /var/www/osclass-git/oc-admin/items.php:284
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
 msgid "The listing has been deleted"
 msgstr "הרישום נמחק"
 
-#: /var/www/osclass-git/oc-admin/items.php:286
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:374
 msgid "The listing couldn't be deleted"
 msgstr "לא ניתן למחוק את הרישום"
 
-#: /var/www/osclass-git/oc-admin/items.php:314
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:405
 msgid "The listing has been activated"
 msgstr "הרישום הופעל"
 
-#: /var/www/osclass-git/oc-admin/items.php:326
-msgid "The listing has been deactivated"
-msgstr "הרישום בוטל"
-
-#: /var/www/osclass-git/oc-admin/items.php:336
-msgid "The listing has been enabled"
-msgstr "הרישום הופעל"
-
-#: /var/www/osclass-git/oc-admin/items.php:346
-msgid "The listing has been disabled"
-msgstr "הרישום הושבת"
-
-#: /var/www/osclass-git/oc-admin/items.php:374
-#: /var/www/osclass-git/oc-admin/items.php:399
-msgid "Changes have been applied"
-msgstr "השינויים בוצעו"
-
-#: /var/www/osclass-git/oc-admin/items.php:424
-msgid "The listing has been unmarked as"
-msgstr "הרישום הוסר מרשימת ה"
-
-#: /var/www/osclass-git/oc-admin/items.php:426
-msgid "The listing hasn't been unmarked as"
-msgstr "הרישום לא הוסר מרשימת ה"
-
-#: /var/www/osclass-git/oc-admin/items.php:510
-msgid "Changes saved correctly"
-msgstr "השינויים נשמרו"
-
-#: /var/www/osclass-git/oc-admin/items.php:536
-#: /var/www/osclass-git/oc-admin/media.php:54
-#: /var/www/osclass-git/oc-admin/media.php:71
-msgid "Resource deleted"
-msgstr "משאב נמחק"
-
-#: /var/www/osclass-git/oc-admin/items.php:572
-msgid "A new listing has been added"
-msgstr "רישומים חדשים נוספו"
-
-#: /var/www/osclass-git/oc-admin/items.php:663
-msgid "Listings' settings have been updated"
-msgstr "הגדרות הרישום עודכנו"
-
-#: /var/www/osclass-git/oc-admin/languages.php:53
-msgid "The translation folder is not writable"
-msgstr "תיקיית התרגום לא ניתנת לכתיבה"
-
-#: /var/www/osclass-git/oc-admin/languages.php:57
-msgid "The language has been installed correctly"
-msgstr "השפה הותקנה בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/languages.php:60
-#: /var/www/osclass-git/oc-admin/languages.php:72
-msgid "There was a problem adding the language"
-msgstr "יש בעיה בהוספת השפה"
-
-#: /var/www/osclass-git/oc-admin/languages.php:82
-#: /var/www/osclass-git/oc-admin/languages.php:114
-msgid "Language id isn't in the correct format"
-msgstr "מזהה השפה לא בפורמט הנכון"
-
-#: /var/www/osclass-git/oc-admin/languages.php:89
-msgid "Language id doesn't exist"
-msgstr "מזהה השפה לא קיים"
-
-#: /var/www/osclass-git/oc-admin/languages.php:137
-msgid "Language name field is required"
-msgstr "שדה שם השפה הינו שדה חובה"
-
-#: /var/www/osclass-git/oc-admin/languages.php:140
-msgid "Language short name field is required"
-msgstr "חובה שם מקוצר של השפה"
-
-#: /var/www/osclass-git/oc-admin/languages.php:143
-msgid "Language description field is required"
-msgstr "חובה להזין את תיאור השפה"
-
-#: /var/www/osclass-git/oc-admin/languages.php:146
-msgid "Currency format field is required"
-msgstr "חובה להזין פורמט מטבע"
-
-#: /var/www/osclass-git/oc-admin/languages.php:170
-msgid "%s has been updated"
-msgstr "%s עודכן"
-
-#: /var/www/osclass-git/oc-admin/languages.php:175
-msgid "Selected languages have been enabled for the website"
-msgstr "השפה שנבחרה הופעלה באתר"
-
-#: /var/www/osclass-git/oc-admin/languages.php:182
-#: /var/www/osclass-git/oc-admin/languages.php:205
-#: /var/www/osclass-git/oc-admin/languages.php:237
-#: /var/www/osclass-git/oc-admin/languages.php:260
-msgid "The language ids aren't in the correct format"
-msgstr "מזהיי השפה לא בפורמט הנכון"
-
-#: /var/www/osclass-git/oc-admin/languages.php:197
-msgid "Selected languages have been disabled for the website"
-msgstr "השפות הנבחרות השבתו באתר"
-
-#: /var/www/osclass-git/oc-admin/languages.php:230
-msgid "Selected languages have been enabled for the backoffice (oc-admin)"
-msgstr "השפות שנבחרו הופעלו במערכת הניהול"
-
-#: /var/www/osclass-git/oc-admin/languages.php:252
-msgid "Selected languages have been disabled for the backoffice (oc-admin)"
-msgstr "השפות שנבחרו השבתו במערכת הניהול"
-
-#: /var/www/osclass-git/oc-admin/languages.php:211
-#: /var/www/osclass-git/oc-admin/languages.php:266
-msgid "%s can't be disabled because it's the default language"
-msgstr "אי אפשר להשבית את %s בגלל שזו שפת ברירת מחדל"
-
-#: /var/www/osclass-git/oc-admin/languages.php:290
-msgid "Directory '%s' couldn't be removed"
-msgstr "לא ניתן להסיר את התיקייה '%s'"
-
-#: /var/www/osclass-git/oc-admin/languages.php:292
-msgid "Directory \"%s\" has been successfully removed"
-msgstr "התיקייה \"%s\" הוסרה בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/languages.php:298
-msgid "Directory '%s' couldn't be removed because it's the default language. Set another language as default first and try again"
-msgstr "התיקייה \"%s\" לא הוסרה מפני שהיא  שפת ברירת מחדל. בחר שפה אחרת כברירת מחדל ונסה שנית."
-
-#: /var/www/osclass-git/oc-admin/login.php:45
-msgid "The username field is empty"
-msgstr "שדה שם משתמש ריק"
-
-#: /var/www/osclass-git/oc-admin/login.php:50
-msgid "The password field is empty"
-msgstr "שדה הסיסמא ריק"
-
-#: /var/www/osclass-git/oc-admin/login.php:58
-msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "מצטערים, שם משתמש שגויי. <a href=\"%s\">שכחת סיסמא?</a>"
-
-#: /var/www/osclass-git/oc-admin/login.php:63
-msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "מצטערים, סיסמא שגוייה. <a href=\"%s\">שכחת את הסיסמא?</a>"
-
-#: /var/www/osclass-git/oc-admin/login.php:106
-msgid "The reCAPTCHA code is wrong"
-msgstr "הקוד reCAPTCHA שגויי"
-
-#: /var/www/osclass-git/oc-admin/login.php:124
-msgid "A new password has been sent to your e-mail"
-msgstr "סיסמא חדשה נשלחה למייל שלך"
-
-#: /var/www/osclass-git/oc-admin/login.php:152
-msgid "Error, the passwords don't match"
-msgstr "תקלה, סיסמא לא זהה"
-
-#: /var/www/osclass-git/oc-admin/pages.php:79
-#: /var/www/osclass-git/oc-admin/pages.php:136
-msgid "You have to set a different internal name"
-msgstr "עליך לעדכן שם פנימי אחר"
-
-#: /var/www/osclass-git/oc-admin/pages.php:94
-msgid "The page has been updated"
-msgstr "העמוד עודכן"
-
-#: /var/www/osclass-git/oc-admin/pages.php:99
-msgid "The page couldn't be updated, at least one title should not be empty"
-msgstr "לא ניתן לעדכן את העמוד, חובה להזין לפחות כותרת אחת."
-
-#: /var/www/osclass-git/oc-admin/pages.php:74
-#: /var/www/osclass-git/oc-admin/pages.php:131
-msgid "You have to set an internal name"
-msgstr "עליך להזין שם פנימי"
-
-#: /var/www/osclass-git/oc-admin/pages.php:147
-msgid "The page has been added"
-msgstr "העמוד נוסף"
-
-#: /var/www/osclass-git/oc-admin/pages.php:150
-msgid "The page couldn't be added, at least one title should not be empty"
-msgstr "לא ניתן להוסיף את העמוד. חובה להזין לפחות כותרת אחת."
-
-#: /var/www/osclass-git/oc-admin/pages.php:153
-msgid "Oops! That internal name is already in use. We can't make the changes"
-msgstr "אופס! השם הפנימי כבר בשימוש. לא ניתן לבצע את השינויים"
-
-#: /var/www/osclass-git/oc-admin/pages.php:183
-msgid "One page can't be deleted because it is indelible"
-msgstr "אי אפשר למחוק את הדף מפני שהוא מסומן כבלתי מחיק"
-
-#: /var/www/osclass-git/oc-admin/pages.php:185
-msgid "%s pages couldn't be deleted because they are indelible"
-msgstr "העמודים %s לא ניתנים למחיקה מפני שהם מסומנים כבלתי מחיקים"
-
-#: /var/www/osclass-git/oc-admin/pages.php:190
-msgid "One page couldn't be deleted"
-msgstr "לא ניתן למחוק את הדף"
-
-#: /var/www/osclass-git/oc-admin/pages.php:192
-msgid "%s pages couldn't be deleted"
-msgstr "הדפים %s בלתי ניתנים למחיקה"
-
-#: /var/www/osclass-git/oc-admin/pages.php:197
-msgid "One page has been deleted correctly"
-msgstr "העמוד נמחק בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/pages.php:199
-msgid "%s pages have been deleted correctly"
-msgstr "העמודים %s נמחקו בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:56
-msgid "The plugin folder is not writable"
-msgstr "תיקיית התוסף לא ניתנת לכתיבה"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:59
-msgid "The plugin has been uploaded correctly"
-msgstr "התוסף הועלה בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:70
-msgid "There was a problem adding the plugin"
-msgstr "ארעה תקלה בהוספת התוסף"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:91
-msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation"
-msgstr "התוסף %d ייצר תווים <strong>לא צפויים</strong> במהלך ההתקנה"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:94
-msgid "Plugin is already installed"
-msgstr "התוסף כבר מותק"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:97
-msgid "Plugin couldn't be installed because their files are missing"
-msgstr "לא ניתן להתקין את התוסף מכיוון שחסרים לו קבצים"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:100
-msgid "Plugin couldn't be installed because of: %s"
-msgstr "ההתקנה של התוסף נכשלה עקב: %s"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:103
-msgid "Plugin couldn't be installed"
-msgstr "לא ניתן להתקין את התוסף"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:107
-msgid "Plugin installed"
-msgstr "התוסף הותקן"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:119
-msgid "Plugin uninstalled"
-msgstr "התוסף הוסר"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:121
-msgid "Plugin couldn't be uninstalled"
-msgstr "לא ניתן להסיר את התוסף"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:133
-msgid "Plugin enabled"
-msgstr "התוסף מאופשר"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:135
-msgid "Plugin is already enabled"
-msgstr "התוסף כבר מאופשר"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:147
-msgid "Plugin disabled"
-msgstr "התוסף הושבת"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:149
-msgid "Plugin is already disabled"
-msgstr "התוסף כבר מושבת"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:208
-msgid "No plugin selected"
-msgstr "לא נבחר תוסף"
-
-#: /var/www/osclass-git/oc-admin/plugins.php:204
-msgid "Configuration was saved"
-msgstr "ההגדרות נשמרו"
-
-#: /var/www/osclass-git/oc-admin/settings.php:99
-#: /var/www/osclass-git/oc-admin/settings.php:222
-#: /var/www/osclass-git/oc-admin/settings.php:247
-#: /var/www/osclass-git/oc-admin/settings.php:295
-#: /var/www/osclass-git/oc-admin/settings.php:320
-#: /var/www/osclass-git/oc-admin/settings.php:1548
-#: /var/www/osclass-git/oc-admin/settings.php:1628
-msgid "%s already was in the database"
-msgstr "%s כבר בדטה בייס"
-
-#: /var/www/osclass-git/oc-admin/settings.php:162
-#: /var/www/osclass-git/oc-admin/settings.php:1592
-msgid "%s has been added as a new country"
-msgstr "%s נוסף כמדינה חדשה"
-
-#: /var/www/osclass-git/oc-admin/settings.php:171
-msgid "Country has been edited"
-msgstr "נעשתה עריכה במדינה"
-
-#: /var/www/osclass-git/oc-admin/settings.php:173
-msgid "There were some problems editing the country"
-msgstr "ארעה תקלה בעריכת המדינה"
-
-#: /var/www/osclass-git/oc-admin/settings.php:219
-msgid "%s has been added as a new region"
-msgstr "%s נוסף כאזור חדש"
-
-#: /var/www/osclass-git/oc-admin/settings.php:243
-#: /var/www/osclass-git/oc-admin/settings.php:317
-msgid "%s has been edited"
-msgstr "%s נערך"
-
-#: /var/www/osclass-git/oc-admin/settings.php:292
-msgid "%s has been added as a new city"
-msgstr "%s נוסף כעיר חדשה"
-
-#: /var/www/osclass-git/oc-admin/settings.php:761
-msgid "One field was not updated"
-msgid_plural "%s fields were not updated"
-msgstr[0] "שדה לא עודכן"
-msgstr[1] "השדות %s לא עודכנו"
-
-#: /var/www/osclass-git/oc-admin/settings.php:764
-msgid "Permalinks structure updated"
-msgstr "עודכן מבנה Permalinks"
-
-#: /var/www/osclass-git/oc-admin/settings.php:773
-msgid "Permalinks structure updated."
-msgstr "עודכנו מבני Permalinks"
-
-#: /var/www/osclass-git/oc-admin/settings.php:775
-msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
-msgstr "עם זאת, לא ניתן לבדוק אם מודול אפצ'י <b>mod_rewrite</b> טעון. אם אתה חווה תקלות עם ה-URLs, עליך לכבות <em>Friendly URLs</em>"
-
-#: /var/www/osclass-git/oc-admin/settings.php:808
-msgid "Friendly URLs successfully deactivated"
-msgstr "Friendly URLs הושבת בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/settings.php:837
-msgid "Your Akismet key has been cleared"
-msgstr "ה-Akisment key נוקה"
-
-#: /var/www/osclass-git/oc-admin/settings.php:839
-msgid "Your Akismet key has been updated"
-msgstr "ה-Akismet key עודכן"
-
-#: /var/www/osclass-git/oc-admin/settings.php:855
-msgid "Your reCAPTCHA key has been cleared"
-msgstr "ה-reCAPTCHA key נוקה"
-
-#: /var/www/osclass-git/oc-admin/settings.php:857
-msgid "Your reCAPTCHA key has been updated"
-msgstr "ה-reCAPTCHA key עודכן"
-
-#: /var/www/osclass-git/oc-admin/settings.php:888
-msgid "The currency code is not in the correct format"
-msgstr "קוד המטבע לא בפורמט נכון"
-
-#: /var/www/osclass-git/oc-admin/settings.php:901
-msgid "Currency added"
-msgstr "מטבע נוסף"
-
-#: /var/www/osclass-git/oc-admin/settings.php:903
-msgid "Currency couldn't be added"
-msgstr "המטבע לא נוסף"
-
-#: /var/www/osclass-git/oc-admin/settings.php:913
-#: /var/www/osclass-git/oc-admin/settings.php:920
-msgid "The currency code '%s' doesn't exist"
-msgstr "קוד המטבע \"%s\" לא קיים"
-
-#: /var/www/osclass-git/oc-admin/settings.php:941
-msgid "Error: the currency code is not in the correct format"
-msgstr "תקלה: קוד המטבע לא בפורמט נכון"
-
-#: /var/www/osclass-git/oc-admin/settings.php:954
-msgid "Currency updated"
-msgstr "המטבע עודכן"
-
-#: /var/www/osclass-git/oc-admin/settings.php:956
-msgid "No changes were made"
-msgstr "לא בוצעו שינויים"
-
-#: /var/www/osclass-git/oc-admin/settings.php:986
-msgid "No currencies have been deleted"
-msgstr "לא נמחקו מטבעות"
-
-#: /var/www/osclass-git/oc-admin/settings.php:990
-msgid "One currency has been deleted"
-msgstr "המטבע נמחק"
-
-#: /var/www/osclass-git/oc-admin/settings.php:994
-msgid "%s currencies have been deleted"
-msgstr "המטבעות %s נמחקו"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1043
-msgid "Mail server type is incorrect"
-msgstr "סוג שרת המיילים לא תקין"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1065
-msgid "Mail server configuration has changed"
-msgstr "הגדרות שרת מיילים שונו"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1139
-#: /var/www/osclass-git/oc-admin/settings.php:1145
-msgid "There was a problem uploading the watermark image"
-msgstr "ארעה תקלה בהעלאת סימן מים על התמונה"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1142
-msgid "The watermark image has to be a .PNG file"
-msgstr "סימן המיים חייב להיות מסוג קובץ PNG"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1189
-msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
-msgstr "אינך יכול להגדיר גודל קובץ מקסימלי גדול מזה המאושר בהגדרות PHP <b>%d KB</b>"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1234
-msgid "Media config has been updated"
-msgstr "הגדרת מדיה עודכנה"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1321
-msgid "Re-generation complete"
-msgstr "היצור מחדש הושלם"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1361
-msgid "Page title field is required"
-msgstr "חובה להזין כותרת לעמוד"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1364
-msgid "Contact email field is required"
-msgstr "חובה להזין שדה מייל"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1463
-#: /var/www/osclass-git/oc-admin/settings.php:1465
-msgid "General settings have been updated"
-msgstr "הגדרות כלליות עודכנו"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1498
-msgid "Custom number could not be left empty"
-msgstr "חובה להזין מספר מתואם אישית"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1507
-msgid "Last search settings have been updated"
-msgstr "הגדרות חיפוש אחרונות עודכנו"
-
-#: /var/www/osclass-git/oc-admin/tools.php:52
-msgid "Import complete"
-msgstr "ייבוא הושלם"
-
-#: /var/www/osclass-git/oc-admin/tools.php:54
-msgid "There was a problem importing data to the database"
-msgstr "ארעה תקלה בייבוא המידע לדטה בייס"
-
-#: /var/www/osclass-git/oc-admin/tools.php:159
-msgid "Recount category stats has been successful"
-msgstr "ספירה מחדש של קטגוריית הסטטיסטיקות בוצעה בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/tools.php:217
-#: /var/www/osclass-git/oc-admin/tools.php:246
-msgid "Path is empty"
-msgstr "הנתיב ריק"
-
-#: /var/www/osclass-git/oc-admin/tools.php:220
-#: /var/www/osclass-git/oc-admin/tools.php:249
-msgid "Could not connect with the database. Error: %s"
-msgstr "לא ניתן להתחבר עם הדטה בייס. תקלה: %s"
-
-#: /var/www/osclass-git/oc-admin/tools.php:223
-#: /var/www/osclass-git/oc-admin/tools.php:255
-msgid "There are no tables to back up"
-msgstr "אין טבלאות לגיבויי"
-
-#: /var/www/osclass-git/oc-admin/tools.php:226
-#: /var/www/osclass-git/oc-admin/tools.php:258
-msgid "The folder is not writable"
-msgstr "התיקייה לא ניתנת לכתיבה"
-
-#: /var/www/osclass-git/oc-admin/tools.php:252
-msgid "Could not select the database. Error: %s"
-msgstr "לא ניתן לבחור את הדטה בייס. תקלה: %s"
-
-#: /var/www/osclass-git/oc-admin/tools.php:344
-msgid "Maintenance mode is ON"
-msgstr "מצב תחזוקה : פעיל"
-
-#: /var/www/osclass-git/oc-admin/tools.php:353
-msgid "Maintenance mode is OFF"
-msgstr "מצב תחזוקה: כבויי"
-
-#: /var/www/osclass-git/oc-admin/users.php:72
-msgid "The user has been created. We've sent an activation e-mail"
-msgstr "המשתמש נוצר. שלחנו מייל לאקטיבציה"
-
-#: /var/www/osclass-git/oc-admin/users.php:74
-msgid "The user has been created successfully"
-msgstr "המשתמש נוצר בהצלחה"
-
-#: /var/www/osclass-git/oc-admin/users.php:76
-msgid "Sorry, but that e-mail is already in use"
-msgstr "מצטערים אבל המייל כבר בשימוש"
-
-#: /var/www/osclass-git/oc-admin/users.php:80
-msgid "Sorry, the password cannot be empty"
-msgstr "מצטערים, חובה להזין סיסמא"
-
-#: /var/www/osclass-git/oc-admin/users.php:82
-msgid "Sorry, passwords don't match"
-msgstr "מצטערים, הסיסמא לא זהה"
-
-#: /var/www/osclass-git/oc-admin/users.php:124
-msgid "The user has been updated and activated"
-msgstr "המשתמש עודכן והופעל"
-
-#: /var/www/osclass-git/oc-admin/users.php:126
-msgid "The user has been updated"
-msgstr "המשתמש עודכן"
-
-#: /var/www/osclass-git/oc-admin/users.php:138
-#: /var/www/osclass-git/oc-admin/users.php:160
-#: /var/www/osclass-git/oc-admin/users.php:183
-#: /var/www/osclass-git/oc-admin/users.php:206
-#: /var/www/osclass-git/oc-admin/users.php:229
-#: /var/www/osclass-git/oc-admin/users.php:251
-msgid "User id isn't in the correct format"
-msgstr "מזהה המשתמש לא בפורמט נכון"
-
-#: /var/www/osclass-git/oc-admin/users.php:150
-msgid "Activation email sent to one user"
-msgid_plural "Activation email sent to %s users"
-msgstr[0] "קוד הפעלה נשלח למשתמש"
-msgstr[1] "קוד הפעלה נשלחו למשתמשים %s"
-
-#: /var/www/osclass-git/oc-admin/users.php:172
-msgid "One user has been activated"
-msgid_plural "%s users have been activated"
-msgstr[0] "משתמש אחד הופעל"
-msgstr[1] "%s משתמשים הופעלו"
-
-#: /var/www/osclass-git/oc-admin/users.php:195
-msgid "One user has been deactivated"
-msgid_plural "%s users have been deactivated"
-msgstr[0] "משתמש אחדד הושבת"
-msgstr[1] "%s משתמשים הושבתו"
-
-#: /var/www/osclass-git/oc-admin/users.php:218
-msgid "One user has been unblocked"
-msgid_plural "%s users have been unblocked"
-msgstr[0] "משתמש אחד שוחרר"
-msgstr[1] "%s משתמשים שחוררו"
-
-#: /var/www/osclass-git/oc-admin/users.php:241
-msgid "One user has been blocked"
-msgid_plural "%s users have been blocked"
-msgstr[0] "משתמש אחד נחסם"
-msgstr[1] "%s משתמשים נחסמו"
-
-#: /var/www/osclass-git/oc-admin/users.php:266
-msgid "One user has been deleted"
-msgid_plural "%s users have been deleted"
-msgstr[0] "משתמש אחד נמחק"
-msgstr[1] "%s משתמשים נמחקו"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:78
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:274
-msgid "Title too short."
-msgstr "כותרת קצרה מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:79
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:275
-msgid "Title too long."
-msgstr "כותרת ארוכה מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:91
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:287
-msgid "Description too short."
-msgstr "תיאור קצר מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:92
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:288
-msgid "Description too long."
-msgstr "תיאור ארוך מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:97
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:293
-msgid "Category invalid."
-msgstr "קטגוריה שגוייה"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:99
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:295
-msgid "Price too long."
-msgstr "מחיר ארוך מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:100
-msgid "Name too long."
-msgstr "שם ארוך מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:101
-msgid "Email invalid."
-msgstr "מייל לא תקין"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:102
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:296
-msgid "Country too short."
-msgstr "מדינה קצרה מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:103
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:297
-msgid "Country too long."
-msgstr "מדינה ארוכה מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:104
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:298
-msgid "Region too short."
-msgstr "אזור קצר מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:105
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:299
-msgid "Region too long."
-msgstr "אזור ארוך מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:106
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:300
-msgid "City too short."
-msgstr "עיר קצרה מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:107
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:301
-msgid "City too long."
-msgstr "עיר ארוכה מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:108
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:302
-msgid "Municipality too short."
-msgstr "יישוב קצר מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:109
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:303
-msgid "Municipality too long."
-msgstr "יישוב ארוך מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:110
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:304
-msgid "Address too short."
-msgstr "כתובת קצרה מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:111
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:305
-msgid "Address too long."
-msgstr "כתובת אורכה מדיי"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:112
-msgid "Too fast. You should wait a little to publish your ad."
-msgstr "מהיר מדיי. עליך להמתין מעט בין פרסום מודעות"
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:125
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:319
-msgid "%s field is required."
-msgstr "%s שדות חובה."
-
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:1198
-msgid "One of the files you tried to upload exceeds the maximum size"
-msgstr "אחד מהקבצים שהעלת עוברים את הגודל המקסימלי המותר"
-
-#: /var/www/osclass-git/item.php:149
-msgid "Check your inbox to validate your listing"
-msgstr "בדוק את האינבוקס שלך כדי לאמת את הרישום"
-
-#: /var/www/osclass-git/oc-admin/comments.php:90
-msgid "The comments have been unblocked"
-msgstr "התגובה שוחררה"
-
-#: /var/www/osclass-git/oc-admin/comments.php:100
-msgid "The comments have been blocked"
-msgstr "התגובה נחסמה"
-
-#: /var/www/osclass-git/oc-admin/items.php:265
-msgid "%d listing has been unmarked"
-msgid_plural "%d listings have been unmarked"
-msgstr[0] "רישום %d לא סומן"
-msgstr[1] "%d רישומים לא סומנו"
-
-#: /var/www/osclass-git/oc-admin/settings.php:1477
-msgid "Last check"
-msgstr "בדיקה אחרונה"
-
-#: /var/www/osclass-git/oc-includes/osclass/core/AdminSecBaseModel.php:69
-msgid "Entered an invalid email"
-msgstr "הוכנסה כתובת מייל לא נכונה"
-
-#: /var/www/osclass-git/oc-includes/osclass/core/AdminSecBaseModel.php:72
-msgid "You're already subscribed"
-msgstr "אתה כבר רשום"
-
-#: /var/www/osclass-git/oc-includes/osclass/core/AdminSecBaseModel.php:75
-msgid "Subscribed correctly"
-msgstr "הרשם בצורה נכונה"
-
-#: /var/www/osclass-git/oc-includes/osclass/core/AdminSecBaseModel.php:78
-msgid "Error subscribing"
-msgstr "שגיאת מנויי"
-
-#: /var/www/osclass-git/oc-includes/osclass/core/AdminSecBaseModel.php:85
-msgid "Thank you very much for your donation"
-msgstr "תודה רבה על תרומתך"
-
-#: /var/www/osclass-git/oc-admin/admins.php:54
-#: /var/www/osclass-git/oc-admin/admins.php:138
-#: /var/www/osclass-git/oc-admin/admins.php:251
-#: /var/www/osclass-git/oc-admin/appearance.php:38
-#: /var/www/osclass-git/oc-admin/appearance.php:73
-#: /var/www/osclass-git/oc-admin/login.php:97
-#: /var/www/osclass-git/oc-admin/plugins.php:44
-#: /var/www/osclass-git/oc-admin/plugins.php:79
-#: /var/www/osclass-git/oc-admin/plugins.php:114
-#: /var/www/osclass-git/oc-admin/plugins.php:128
-#: /var/www/osclass-git/oc-admin/plugins.php:142
-#: /var/www/osclass-git/oc-admin/settings.php:1026
-#: /var/www/osclass-git/oc-admin/settings.php:1240
-msgid "This action can't be done because it's a demo site"
-msgstr "הפעולה לא יכולה להווצר מפני שזה אתר לדוגמא"
-
-#: /var/www/osclass-git/oc-admin/admins.php:115
-msgid "There has been an error adding a new admin"
-msgstr "ארעה תקלה בהוספת מנהל חדש"
-
-#: /var/www/osclass-git/oc-admin/admins.php:130
-msgid "There is no admin with this id"
-msgstr "אין מנהל עם מזהה זה"
-
-#: /var/www/osclass-git/oc-admin/items.php:318
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:407
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:421
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:430
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:439
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:471
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:500
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:668
+msgid "An error has occurred"
+msgstr "ארעה תקלה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:410
 msgid "The listing can't be activated because it's blocked"
 msgstr "לא ניתן להפעיל את הרישום מפני שהוא חסום"
 
-#: /var/www/osclass-git/oc-admin/items.php:615
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:419
+msgid "The listing has been deactivated"
+msgstr "הרישום בוטל"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:428
+msgid "The listing has been enabled"
+msgstr "הרישום הופעל"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:437
+msgid "The listing has been disabled"
+msgstr "הרישום הושבת"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:469
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:498
+msgid "Changes have been applied"
+msgstr "השינויים בוצעו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:527
+msgid "The listing has been unmarked as"
+msgstr "הרישום הוסר מרשימת ה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:529
+msgid "The listing hasn't been unmarked as"
+msgstr "הרישום לא הוסר מרשימת ה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:632
+msgid "Changes saved correctly"
+msgstr "השינויים נשמרו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
+msgid "Resource deleted"
+msgstr "משאב נמחק"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:719
+msgid "A new listing has been added"
+msgstr "רישומים חדשים נוספו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:772
 msgid "Wait time must only contain numeric characters"
 msgstr "זמן המתנה חייב להכין מספרים בלבד"
 
-#: /var/www/osclass-git/oc-admin/items.php:618
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:777
 msgid "Number of moderated listings must only contain numeric characters"
 msgstr "מספר רישומים חייב להכין מספרים בלבד"
 
-#: /var/www/osclass-git/oc-admin/items.php:621
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:780
 msgid "Images per listing must only contain numeric characters"
 msgstr "תמונות פר רישום חייב להכין מספרים בלבד"
 
-#: /var/www/osclass-git/oc-admin/languages.php:149
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:783
+msgid "Number of expiration days has to be a numeric value"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
+msgid "Title Length has to be a numeric value"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
+msgid "Description Length has to be a numeric value"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
+msgid "Listings' settings have been updated"
+msgstr "הגדרות הרישום עודכנו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
+msgid "The comments have been deleted"
+msgstr "התגובות נמחקו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
+msgid "The comments have been approved"
+msgstr "התגובות אושרו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
+msgid "The comments have been disapproved"
+msgstr "התגובות לא אושרו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
+msgid "The comments have been unblocked"
+msgstr "התגובה שוחררה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
+msgid "The comments have been blocked"
+msgstr "התגובה נחסמה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
+msgid "The comment has been approved"
+msgstr "התגובה אושרה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
+msgid "The comment has been disapproved"
+msgstr "התגובה לא אושרה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
+msgid "The comment has been enabled"
+msgstr "התגובה הופעלה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
+msgid "The comment has been disabled"
+msgstr "התגובה הושבתה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
+msgid "Email is not correct"
+msgstr "כתובת אימייל לא תקינה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
+msgid "Comment is required"
+msgstr "חובה להזין תגובה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
+msgid "Great! We just updated your comment"
+msgstr "מעולה! עדכנו את הגתובה שלך"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:229
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:671
+msgid "The comment has been deleted"
+msgstr "התגובה נמחקה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:110
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
+msgid "This action can't be done because it's a demo site"
+msgstr "הפעולה לא יכולה להווצר מפני שזה אתר לדוגמא"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
+msgid "The translation folder is not writable"
+msgstr "תיקיית התרגום לא ניתנת לכתיבה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:83
+msgid "The language has been installed correctly"
+msgstr "השפה הותקנה בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
+msgid "File uploaded but unable to activate the language"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
+msgid "The zip file is not valid"
+msgstr "קובץ ה-zip אינו תקין"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
+msgid "No file was uploaded"
+msgstr "לא הועלו קבצים"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
+msgid "There was a problem adding the language"
+msgstr "יש בעיה בהוספת השפה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:153
+msgid "Language imported successfully"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:160
+msgid "There was a problem importing the selected language"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:168
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:201
+msgid "Language id isn't in the correct format"
+msgstr "מזהה השפה לא בפורמט הנכון"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:175
+msgid "Language id doesn't exist"
+msgstr "מזהה השפה לא קיים"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
+msgid "Language name field is required"
+msgstr "שדה שם השפה הינו שדה חובה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:227
+msgid "Language short name field is required"
+msgstr "חובה שם מקוצר של השפה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:230
+msgid "Language description field is required"
+msgstr "חובה להזין את תיאור השפה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:233
+msgid "Currency format field is required"
+msgstr "חובה להזין פורמט מטבע"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:236
 msgid "Number of decimals must only contain numeric characters"
 msgstr "מספר עשרוני חייב להכין מספרים בלבד"
 
-#: /var/www/osclass-git/oc-admin/languages.php:295
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:259
+#, php-format
+msgid "%s has been updated"
+msgstr "%s עודכן"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:265
+msgid "Selected languages have been enabled for the website"
+msgstr "השפה שנבחרה הופעלה באתר"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:272
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:297
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:331
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:356
+msgid "The language ids aren't in the correct format"
+msgstr "מזהיי השפה לא בפורמט הנכון"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:289
+msgid "Selected languages have been disabled for the website"
+msgstr "השפות הנבחרות השבתו באתר"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:304
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:363
+#, php-format
+msgid "%s can't be disabled because it's the default language"
+msgstr "אי אפשר להשבית את %s בגלל שזו שפת ברירת מחדל"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:324
+msgid "Selected languages have been enabled for the backoffice (oc-admin)"
+msgstr "השפות שנבחרו הופעלו במערכת הניהול"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:348
+msgid "Selected languages have been disabled for the backoffice (oc-admin)"
+msgstr "השפות שנבחרו השבתו במערכת הניהול"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:390
+#, php-format
+msgid "Directory '%s' couldn't be removed"
+msgstr "לא ניתן להסיר את התיקייה '%s'"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:395
+#, php-format
+msgid "Directory \"%s\" has been successfully removed"
+msgstr "התיקייה \"%s\" הוסרה בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
+#, php-format
 msgid "Directory '%s' couldn't be removed;)"
 msgstr "התיקייה %s לא ניתנת להסרה"
 
-#: /var/www/osclass-git/oc-admin/settings.php:54
-msgid "Number of moderate comments must only contain numeric characters"
-msgstr "מספר תגובות מתונות חייב להכין מספרים בלבד"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
+#, php-format
+msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
+msgstr ""
 
-#: /var/www/osclass-git/oc-admin/settings.php:57
-msgid "Comments per page must only contain numeric characters"
-msgstr "הערות לעמוד חייב להכיל מספרים בלבד"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
+msgid "The email/alert has been updated"
+msgstr "האימייל/התראה עודכנו"
 
-#: /var/www/osclass-git/oc-admin/settings.php:84
-msgid "Comment settings have been updated"
-msgstr "הגדרות הערה עודכן בהצלחה"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
+msgid "You can't repeat internal name"
+msgstr "לא ניתן לחזור על שם פנימי"
 
-#: /var/www/osclass-git/oc-admin/settings.php:1541
-#: /var/www/osclass-git/oc-admin/settings.php:1621
-msgid "%s can't be added"
-msgstr "לא ניתן להוסיף את %s"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
+msgid "The email couldn't be updated, at least one title should not be empty"
+msgstr "לא ניתן לעדכן את האימייל. חובה להזין לפחות כותרת אחת"
 
-#: /var/www/osclass-git/oc-admin/settings.php:761
-msgid "All fields are required."
-msgstr "חובה להזין את כל השדות"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
+msgid "The plugin folder is not writable"
+msgstr "תיקיית התוסף לא ניתנת לכתיבה"
 
-#: /var/www/osclass-git/oc-admin/settings.php:782
-#: /var/www/osclass-git/oc-admin/settings.php:792
-msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
-msgstr "הקובץ <b>.htaccess</b> כתוב לא נכון"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
+msgid "The plugin has been uploaded correctly"
+msgstr "התוסף הועלה בהצלחה"
 
-#: /var/www/osclass-git/oc-admin/settings.php:784
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
-msgstr "הנה התוכן הנכון שצריך להוסיף ל <b>.htaccess</b>. אם אתה לא יכול ליצור את הקובץ בדוק עצות ב <em>Friendly URLs</em>."
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
+msgid "There was a problem adding the plugin"
+msgstr "ארעה תקלה בהוספת התוסף"
 
-#: /var/www/osclass-git/oc-admin/settings.php:794
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "זה התוכן שאתה צריך לרשום בקובץ <b>.htaccess</b> אם אתה לא יכול ליצור את הקובץ, בבקשההשבת את אפשרות <em>Friendly URLs</em>."
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
+#, php-format
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
+msgstr ""
 
-#: /var/www/osclass-git/oc-admin/settings.php:976
-msgid "%s couldn't be deleted because it has listings associated to it"
-msgstr "לא ניתן למחוק את %s מכיוון שיש לו רישומים קשורים"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
+msgid "Plugin is already installed"
+msgstr "התוסף כבר מותק"
 
-#: /var/www/osclass-git/oc-admin/settings.php:978
-msgid "%s couldn't be deleted because it's the default currency"
-msgstr "לא ניתן למחוק את %s מכיוון שהוא מטבע ברירת מחדל"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
+msgid "Plugin couldn't be installed because their files are missing"
+msgstr "לא ניתן להתקין את התוסף מכיוון שחסרים לו קבצים"
 
-#: /var/www/osclass-git/oc-admin/settings.php:1367
-msgid "Number of listings in the RSS has to be a numeric value"
-msgstr "מספר הרישומים בRSS צריך להיות ערך מספרי"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
+#, php-format
+msgid "Plugin couldn't be installed because of: %s"
+msgstr "ההתקנה של התוסף נכשלה עקב: %s"
 
-#: /var/www/osclass-git/oc-admin/settings.php:1370
-msgid "Max latest listings has to be a numeric value"
-msgstr "מספר מקסימלי של רישומים חייב ערך מספרי"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
+msgid "Plugin couldn't be installed"
+msgstr "לא ניתן להתקין את התוסף"
 
-#: /var/www/osclass-git/oc-admin/settings.php:1373
-msgid "Number of listings on search has to be a numeric value"
-msgstr "מספר הרישומים על חיפוש חייב להיות ערך מספרי"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
+msgid "Plugin installed"
+msgstr "התוסף הותקן"
 
-#: /var/www/osclass-git/oc-admin/settings.php:1430
-msgid "Number of listings in the RSS must be an integer"
-msgstr "מספר הרישומים בRSS חייב להיות מספר שלם"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
+msgid "Plugin uninstalled"
+msgstr "התוסף הוסר"
 
-#: /var/www/osclass-git/oc-admin/settings.php:1440
-msgid "Number of recent listings displayed at home must be an integer"
-msgstr "מספר הרישומים האחרונים המוצגים בבית חייב להיות מספר שלם"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
+msgid "Plugin couldn't be uninstalled"
+msgstr "לא ניתן להסיר את התוסף"
 
-#: /var/www/osclass-git/oc-admin/tools.php:287
-#: /var/www/osclass-git/oc-admin/tools.php:323
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
+msgid "Plugin enabled"
+msgstr "התוסף מאופשר"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
+msgid "Plugin is already enabled"
+msgstr "התוסף כבר מאופשר"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
+msgid "Plugin disabled"
+msgstr "התוסף הושבת"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
+msgid "Plugin is already disabled"
+msgstr "התוסף כבר מושבת"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
+msgid "Configuration was saved"
+msgstr "ההגדרות נשמרו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
+msgid "No plugin selected"
+msgstr "לא נבחר תוסף"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
+msgid "The files were deleted"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
+#, php-format
+msgid "There were an error deleting the files, please check the permissions of the files in %s"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
+msgid "Invalid plugin file"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
+msgid "The username field is empty"
+msgstr "שדה שם משתמש ריק"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
+msgid "The password field is empty"
+msgstr "שדה הסיסמא ריק"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
+#, php-format
+msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "מצטערים, שם משתמש שגויי. <a href=\"%s\">שכחת סיסמא?</a>"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
+#, php-format
+msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "מצטערים, סיסמא שגוייה. <a href=\"%s\">שכחת את הסיסמא?</a>"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
+msgid "The reCAPTCHA code is wrong"
+msgstr "הקוד reCAPTCHA שגויי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
+msgid "A new password has been sent to your e-mail"
+msgstr "סיסמא חדשה נשלחה למייל שלך"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:271
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:319
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
+msgid "Sorry, the link is not valid"
+msgstr "סליחה, הקישור לא תקין"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:309
+msgid "The password has been changed"
+msgstr "הסיסמא שונתה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
+msgid "Error, the passwords don't match"
+msgstr "תקלה, סיסמא לא זהה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
+msgid "The theme folder is not writable"
+msgstr "התיקייה של ערכת הנושא לא ניתנת לכתיבה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
+msgid "The theme has been installed correctly"
+msgstr "ערכת הנושא עודכנה בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
+msgid "There was a problem adding the theme"
+msgstr "ארעה בעיה בהוספת ערכת הנושא"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
+msgid "Theme removed successfully"
+msgstr "ערכת הנושא הוסרה בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
+msgid "There was a problem removing the theme"
+msgstr "ארעה בעיה בהסרת ערכת הנושא"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
+msgid "Current theme can not be deleted"
+msgstr "ערכת נושא נוכחית לא ניתנת למחיקה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
+msgid "No theme selected"
+msgstr "לא נבחרה ערכת נושא"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
+msgid "Widget removed correctly"
+msgstr "יישומון (Widget) הוסר בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
+msgid "Description field is required"
+msgstr "שדה התיאור נדרש"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
+msgid "Widget updated correctly"
+msgstr "יישומון (Widget) עודכן בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
+msgid "Widget cannot be updated correctly"
+msgstr "היישומון לא יכול להתעדכן בצורה טובה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
+msgid "Widget added correctly"
+msgstr "היישומון נוסף בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
+msgid "Theme activated correctly"
+msgstr "ערכת הנושא הופעלה בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
+msgid "You have very few free space left, users will not be able to upload pictures"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
+msgid "Entered an invalid email"
+msgstr "הוכנסה כתובת מייל לא נכונה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
+msgid "You're already subscribed"
+msgstr "אתה כבר רשום"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
+msgid "Subscribed correctly"
+msgstr "הרשם בצורה נכונה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
+msgid "Error subscribing"
+msgstr "שגיאת מנויי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
+msgid "You have to set an internal name"
+msgstr "עליך להזין שם פנימי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
+msgid "You have to set a different internal name"
+msgstr "עליך לעדכן שם פנימי אחר"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
+msgid "The page has been updated"
+msgstr "העמוד עודכן"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
+msgid "The page couldn't be updated, at least one title should not be empty"
+msgstr "לא ניתן לעדכן את העמוד, חובה להזין לפחות כותרת אחת."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
+msgid "The page has been added"
+msgstr "העמוד נוסף"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
+msgid "The page couldn't be added, at least one title should not be empty"
+msgstr "לא ניתן להוסיף את העמוד. חובה להזין לפחות כותרת אחת."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
+msgid "Oops! That internal name is already in use. We can't make the changes"
+msgstr "אופס! השם הפנימי כבר בשימוש. לא ניתן לבצע את השינויים"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
+msgid "One page can't be deleted because it is indelible"
+msgstr "אי אפשר למחוק את הדף מפני שהוא מסומן כבלתי מחיק"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
+#, php-format
+msgid "%s pages couldn't be deleted because they are indelible"
+msgstr "העמודים %s לא ניתנים למחיקה מפני שהם מסומנים כבלתי מחיקים"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
+msgid "One page couldn't be deleted"
+msgstr "לא ניתן למחוק את הדף"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
+#, php-format
+msgid "%s pages couldn't be deleted"
+msgstr "הדפים %s בלתי ניתנים למחיקה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
+msgid "One page has been deleted correctly"
+msgstr "העמוד נמחק בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
+#, php-format
+msgid "%s pages have been deleted correctly"
+msgstr "העמודים %s נמחקו בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
+msgid "Import complete"
+msgstr "ייבוא הושלם"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
+msgid "There was a problem importing data to the database"
+msgstr "ארעה תקלה בייבוא המידע לדטה בייס"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
+msgid "Recount category stats has been successful"
+msgstr "ספירה מחדש של קטגוריית הסטטיסטיקות בוצעה בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
+msgid "Path is empty"
+msgstr "הנתיב ריק"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
+#, php-format
+msgid "Could not connect with the database. Error: %s"
+msgstr "לא ניתן להתחבר עם הדטה בייס. תקלה: %s"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:182
+msgid "There are no tables to back up"
+msgstr "אין טבלאות לגיבויי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:186
+msgid "The folder is not writable"
+msgstr "התיקייה לא ניתנת לכתיבה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:190
+msgid "Backup completed successfully"
+msgstr "הגיבוי בוצע בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:178
+#, php-format
+msgid "Could not select the database. Error: %s"
+msgstr "לא ניתן לבחור את הדטה בייס. תקלה: %s"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:216
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:254
 msgid "Archived successfully!"
 msgstr "ארכיון בהצלחה!"
 
-#: /var/www/osclass-git/oc-admin/tools.php:301
-#: /var/www/osclass-git/oc-admin/tools.php:326
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:231
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:257
 msgid "Error, the zip file was not created in the specified directory"
 msgstr "תקלה, קובץ ה zip לא נוצר בתיקייה הספציפית."
 
-#: /var/www/osclass-git/oc-admin/tools.php:346
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:274
+msgid "Maintenance mode is ON"
+msgstr "מצב תחזוקה : פעיל"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:277
 msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
 msgstr "ארעה תקלה ביצירת קובץ .maintenance, אנא צור אותו ידנית בתייקיה הראשית"
 
-#: /var/www/osclass-git/oc-admin/tools.php:355
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:287
+msgid "Maintenance mode is OFF"
+msgstr "מצב תחזוקה: כבויי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:290
 msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
 msgstr "ארעה תקלה בהסרת הקובץ .maintenance, אנא הסר אותו ידנית מהתקייה הראשית"
 
-#: /var/www/osclass-git/oc-admin/users.php:148
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
+msgid "There was a problem uploading the watermark image"
+msgstr "ארעה תקלה בהעלאת סימן מים על התמונה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
+msgid "The watermark image has to be a .PNG file"
+msgstr "סימן המיים חייב להיות מסוג קובץ PNG"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
+#, php-format
+msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
+msgstr "אינך יכול להגדיר גודל קובץ מקסימלי גדול מזה המאושר בהגדרות PHP <b>%d KB</b>"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
+msgid "Media config has been updated"
+msgstr "הגדרת מדיה עודכנה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
+msgid "Re-generation complete"
+msgstr "היצור מחדש הושלם"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
+#, php-format
+msgid "%s already was in the database"
+msgstr "%s כבר בדטה בייס"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#, php-format
+msgid "%s has been added as a new country"
+msgstr "%s נוסף כמדינה חדשה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
+msgid "Country name cannot be blank"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
+msgid "Country has been edited"
+msgstr "נעשתה עריכה במדינה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
+msgid "There were some problems editing the country"
+msgstr "ארעה תקלה בעריכת המדינה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
+msgid "There was a problem deleting locations"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
+msgid "No country was selected"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
+msgid "Region name cannot be blank"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#, php-format
+msgid "%s has been added as a new region"
+msgstr "%s נוסף כאזור חדש"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#, php-format
+msgid "%s has been edited"
+msgstr "%s נערך"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
+msgid "No region was selected"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
+msgid "New city name cannot be blank"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#, php-format
+msgid "%s has been added as a new city"
+msgstr "%s נוסף כעיר חדשה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
+msgid "City name cannot be blank"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
+msgid "No city was selected"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
+msgid "Location imported successfully"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
+msgid "There was a problem importing the selected location"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
+msgid "Your Akismet key has been cleared"
+msgstr "ה-Akisment key נוקה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
+msgid "Your Akismet key has been updated"
+msgstr "ה-Akismet key עודכן"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
+msgid "Your reCAPTCHA key has been cleared"
+msgstr "ה-reCAPTCHA key נוקה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
+msgid "Your reCAPTCHA key has been updated"
+msgstr "ה-reCAPTCHA key עודכן"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
+msgid "Advanced settings have been updated"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
+msgid "Cache flushed correctly"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
+msgid "The currency code is not in the correct format"
+msgstr "קוד המטבע לא בפורמט נכון"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
+msgid "Currency added"
+msgstr "מטבע נוסף"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
+msgid "Currency couldn't be added"
+msgstr "המטבע לא נוסף"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
+#, php-format
+msgid "The currency code '%s' doesn't exist"
+msgstr "קוד המטבע \"%s\" לא קיים"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
+msgid "Error: the currency code is not in the correct format"
+msgstr "תקלה: קוד המטבע לא בפורמט נכון"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
+msgid "Currency updated"
+msgstr "המטבע עודכן"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
+msgid "No changes were made"
+msgstr "לא בוצעו שינויים"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
+#, php-format
+msgid "%s couldn't be deleted because it has listings associated to it"
+msgstr "לא ניתן למחוק את %s מכיוון שיש לו רישומים קשורים"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
+#, php-format
+msgid "%s couldn't be deleted because it's the default currency"
+msgstr "לא ניתן למחוק את %s מכיוון שהוא מטבע ברירת מחדל"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
+msgid "No currencies have been deleted"
+msgstr "לא נמחקו מטבעות"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
+msgid "One currency has been deleted"
+msgstr "המטבע נמחק"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
+#, php-format
+msgid "%s currencies have been deleted"
+msgstr "המטבעות %s נמחקו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
+msgid "Custom number could not be left empty"
+msgstr "חובה להזין מספר מתואם אישית"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
+msgid "Last search settings have been updated"
+msgstr "הגדרות חיפוש אחרונות עודכנו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
+msgid "Last check"
+msgstr "בדיקה אחרונה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:95
+msgid "Page title field is required"
+msgstr "חובה להזין כותרת לעמוד"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:98
+msgid "Contact email field is required"
+msgstr "חובה להזין שדה מייל"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:101
+msgid "Number of listings in the RSS has to be a numeric value"
+msgstr "מספר הרישומים בRSS צריך להיות ערך מספרי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:104
+msgid "Max latest listings has to be a numeric value"
+msgstr "מספר מקסימלי של רישומים חייב ערך מספרי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:107
+msgid "Number of listings on search has to be a numeric value"
+msgstr "מספר הרישומים על חיפוש חייב להיות ערך מספרי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:133
+msgid "Number of listings in the RSS must be an integer"
+msgstr "מספר הרישומים בRSS חייב להיות מספר שלם"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:142
+msgid "Number of recent listings displayed at home must be an integer"
+msgstr "מספר הרישומים האחרונים המוצגים בבית חייב להיות מספר שלם"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:156
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
+msgid "General settings have been updated"
+msgstr "הגדרות כלליות עודכנו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
+msgid "Number of moderate comments must only contain numeric characters"
+msgstr "מספר תגובות מתונות חייב להכין מספרים בלבד"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
+msgid "Comments per page must only contain numeric characters"
+msgstr "הערות לעמוד חייב להכיל מספרים בלבד"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
+msgid "Comment settings have been updated"
+msgstr "הגדרות הערה עודכן בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
+msgid "All fields are required."
+msgstr "חובה להזין את כל השדות"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
+msgid "Permalinks structure updated"
+msgstr "עודכן מבנה Permalinks"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
+msgid "Permalinks structure updated."
+msgstr "עודכנו מבני Permalinks"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
+msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
+msgstr "עם זאת, לא ניתן לבדוק אם מודול אפצ'י <b>mod_rewrite</b> טעון. אם אתה חווה תקלות עם ה-URLs, עליך לכבות <em>Friendly URLs</em>"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
+msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
+msgstr "הקובץ <b>.htaccess</b> כתוב לא נכון"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
+msgstr "הנה התוכן הנכון שצריך להוסיף ל <b>.htaccess</b>. אם אתה לא יכול ליצור את הקובץ בדוק עצות ב <em>Friendly URLs</em>."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "זה התוכן שאתה צריך לרשום בקובץ <b>.htaccess</b> אם אתה לא יכול ליצור את הקובץ, בבקשההשבת את אפשרות <em>Friendly URLs</em>."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
+msgid "File <b>.htaccess</b> already exists and was not modified."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
+msgid "Friendly URLs successfully deactivated"
+msgstr "Friendly URLs הושבת בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
+msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
+msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
+msgid "Mail server type is incorrect"
+msgstr "סוג שרת המיילים לא תקין"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
+msgid "Mail server configuration has changed"
+msgstr "הגדרות שרת מיילים שונו"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
+msgid "Email invalid"
+msgstr "מייל שגויי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
+msgid "Username invalid"
+msgstr "שם משתמש לא חוקי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
+msgid "Name invalid"
+msgstr "שם לא חוקי"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
+msgid "Password invalid"
+msgstr "סיסמא לא חוקית"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
+msgid "Email already in use"
+msgstr "מייל כבר בשימוש"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
+msgid "Username already in use"
+msgstr "שם משתמש כבר שימוש"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
+msgid "Incorrent current password"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
+msgid "The admin has been added"
+msgstr "המנהל הוסיף"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
+msgid "There has been an error adding a new admin"
+msgstr "ארעה תקלה בהוספת מנהל חדש"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
+msgid "There is no admin with this id"
+msgstr "אין מנהל עם מזהה זה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
+msgid "This admin doesn't exist"
+msgstr "מנהל זה אינו קיים"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
+msgid "Existing email"
+msgstr "הדוא\"ל קיים"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
+msgid "Existing username"
+msgstr "שם משתמש קיים"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
+msgid "The password couldn't be updated. Passwords don't match"
+msgstr "הסיסמא לא יכולה להתעדכן. סיסמא לא זהה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
+msgid "The admin has been updated"
+msgstr "המנהל עדכן"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
+msgid "The admin id isn't in the correct format"
+msgstr "מזהה של האדמין לא בפורמט הנכון"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
+msgid "The operation hasn't been completed. You're trying to remove yourself!"
+msgstr "הפעולה לא בוצעה. אתה מנסה להסיר את עצמך!"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
+msgid "The admin has been deleted correctly"
+msgstr "המנהל הוסר בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
+msgid "The admin couldn't be deleted"
+msgstr "לא ניתן למחוק את המנהל"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
+msgid "The user has been created. We've sent an activation e-mail"
+msgstr "המשתמש נוצר. שלחנו מייל לאקטיבציה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
+msgid "The user has been created successfully"
+msgstr "המשתמש נוצר בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
+msgid "The user has been updated"
+msgstr "המשתמש עודכן"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
+msgid "The user has been updated and activated"
+msgstr "המשתמש עודכן והופעל"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:229
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:255
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:281
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:306
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:625
+msgid "User id isn't in the correct format"
+msgstr "מזהה המשתמש לא בפורמט נכון"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:186
 msgid "No users have been selected"
 msgstr "לא נבחרו משתמשים"
 
-#: /var/www/osclass-git/oc-admin/users.php:170
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
 msgid "No users have been activated"
 msgstr "אין משתמשים מחוברים"
 
-#: /var/www/osclass-git/oc-admin/users.php:193
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
 msgid "No users have been deactivated"
 msgstr "אין משתמשים מושבתים"
 
-#: /var/www/osclass-git/oc-admin/users.php:216
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
 msgid "No users have been enabled"
 msgstr "אף משתמש לא הופעל"
 
-#: /var/www/osclass-git/oc-admin/users.php:239
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
 msgid "No users have been disabled"
 msgstr "אף משתמש לא הושבת"
 
-#: /var/www/osclass-git/oc-admin/users.php:264
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
 msgid "No users have been deleted"
 msgstr "אף משתמש לא נמחק"
 
-#: /var/www/osclass-git/oc-admin/users.php:304
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
+msgid "Alert id isn't in the correct format"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
+msgid "No alerts have been deleted"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
+msgid "No alerts have been activated"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
+msgid "No alerts have been deactivated"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
 msgid "User settings have been updated"
 msgstr "הגדרות המשתמש עודכנו בהצלחה"
 
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:64
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:259
-msgid "Image with an incorrect extension."
-msgstr "סיומת לא חוקית לתמונה"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
+msgid "Both rules can not be empty"
+msgstr ""
 
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:67
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:262
-msgid "Image is too big. Max. size"
-msgstr "תמונה גדולה מדיי. גודל מירבי"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
+msgid "Rule updated correctly"
+msgstr ""
 
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:98
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:294
-msgid "Price must be a number."
-msgstr "ערך מחיר חייב להיות מספר"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
+msgid "Rule saved correctly"
+msgstr ""
 
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:796
-msgid "We just sent your message to %s"
-msgstr "שלחנו את הודעתך ל %s"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
+msgid "No rules have been deleted"
+msgstr ""
 
-#: /var/www/osclass-git/oc-includes/osclass/ItemActions.php:1243
-msgid "The file you tried to upload does not have a valid extension"
-msgstr "הסיומת עבור הקובץ שניסת להעלות אינה תקינה"
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:39
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:39
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:40
+msgid "Users not enabled"
+msgstr "משתמשים לא מאופשרים"
 
-#: /var/www/osclass-git/contact.php:50
-msgid "Please enter a correct email"
-msgstr "אנא הזן כתובת מייל תקינה"
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:103
+msgid "Your profile has been updated successfully"
+msgstr "הפרופיל שלך עודכן בהצלחה"
 
-#: /var/www/osclass-git/contact.php:77
-msgid "There have been some errors sending the message"
-msgstr "היו תקלות בשליחת ההודעה"
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:138
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:88
+msgid "The specified e-mail is already in use"
+msgstr "המייל שרשמת כבר נמצא במערכת"
 
-#: /var/www/osclass-git/contact.php:92
-msgid "Your email has been sent properly. Thank you for contacting us!"
-msgstr "המייל נשלח בהצלחה. תודה שיצרת עמנו קשר!"
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:170
+msgid "The specified e-mail is not valid"
+msgstr "הדואר האלקטרוני שצוין אינו חוקי"
 
-#: /var/www/osclass-git/item.php:134
-msgid "A user with that email address already exists, if it is you, please log in"
-msgstr "קיים משתמש עם כתובת מייל זהה. אם זה אתה בבקשה הכנס למערכת."
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:188
+msgid "The specified username is already in use"
+msgstr ""
 
-#: /var/www/osclass-git/item.php:182
-msgid "Sorry, we don't have any listings with that ID"
-msgstr "מצטערים, אין לנו רישום עם מזהה כזהה"
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:190
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:99
+msgid "The specified username is not valid, it contains some invalid words"
+msgstr ""
 
-#: /var/www/osclass-git/item.php:485
-msgid "The listing hasn't been validated. Please validate it in order to make it public"
-msgstr "אימות הרישום לא בוצע. בבקשה תאמת אותו על מנת להפוך אותו לציבורי."
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:196
+msgid "The username was updated"
+msgstr ""
 
-#: /var/www/osclass-git/login.php:113
-msgid "This should never happen"
-msgstr "זה אמור לא לקרות לעולם"
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:205
+msgid "The specified username could not be empty"
+msgstr ""
 
-#: /var/www/osclass-git/register.php:69
-msgid "The reCAPTCHA was not entered correctly"
-msgstr "ה-reCAPTCHA שגוייה"
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:221
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:280
+msgid "Password cannot be blank"
+msgstr "סיסמא לא יכולה להיות ריקה"
 
-#: /var/www/osclass-git/user-non-secure.php:75
-#: /var/www/osclass-git/user.php:191
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:230
+msgid "Current password doesn't match"
+msgstr "סיסמא נוכחית אינה תואמת את"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:235
+msgid "Passwords can't be empty"
+msgstr "סיסמאות לא יכולות להיות ריקות"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:242
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:69
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:307
+msgid "Passwords don't match"
+msgstr "הסיסמא לא תואמת"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:257
+msgid "Password has been changed"
+msgstr "הסיסמא שונתה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:296
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
+msgid "Alert activated"
+msgstr "התראות הופעלו"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:298
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
 msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
 msgstr "אופס! ארעה תקלה בהפעלת ההתראה. אנא צור קשר עם מפעיל האתר"
 
-#: /var/www/osclass-git/user-non-secure.php:87
-#: /var/www/osclass-git/user.php:203
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:317
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
+msgid "Unsubscribed correctly"
+msgstr "בטל את מנוי בצורה נכונה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:319
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
 msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
 msgstr "אופס! ארעה תקלה בהסרתך. אנא צור קשר עם מנהל האתר."
 
-#: /var/www/osclass-git/oc-includes/osclass/emails.php:460
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:349
+msgid "Your account have been deleted"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:352
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:356
+msgid "Oops! you can not do that"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:72
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:140
+msgid "Only registered users are allowed to post listings"
+msgstr "רק משתמשים רשומים יכולים להוסיף רישום"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:147
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:272
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:476
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:535
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:57
+msgid "The Recaptcha code is wrong"
+msgstr "הקוד שהזנת לא תואם"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:160
+msgid "A user with that email address already exists, if it is you, please log in"
+msgstr "קיים משתמש עם כתובת מייל זהה. אם זה אתה בבקשה הכנס למערכת."
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:167
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:550
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:111
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:72
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:69
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:81
+msgid "Your current email is not allowed"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:170
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:553
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:114
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:75
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:72
+msgid "Your current IP is not allowed"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:188
+msgid "Check your inbox to validate your listing"
+msgstr "בדוק את האינבוקס שלך כדי לאמת את הרישום"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:190
+msgid "Your listing will be published after an admin approves it."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:192
+msgid "Your listing has been published"
+msgstr "הרשומה שלך פורסמה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:228
+msgid "Sorry, we don't have any listings with that ID"
+msgstr "מצטערים, אין לנו רישום עם מזהה כזהה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:288
+msgid "Your listing will be published after an admin approves the changes."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:290
+msgid "Great! We've just updated your listing"
+msgstr "מעולה! עדכנו את הרשומה שלך"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:328
+msgid "The listing has been validated"
+msgstr "הרישום אומת"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:330
+msgid "The listing can't be validated"
+msgstr "לא ניתן לאמת את הרישום"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:333
+msgid "The listing has already been validated"
+msgstr "הרישום כבר בתוקף"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:352
+msgid "Your listing has been deleted"
+msgstr "הרישום שלך נמחק"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:354
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:362
+msgid "The listing you are trying to delete couldn't be deleted"
+msgstr "הרישום שאתה מנסה למחוק לא ניתן למחוק"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:383
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:128
+msgid "The selected photo couldn't be deleted, the url doesn't exist"
+msgstr "התמונות הנבחרות לא ניתנות למחיקה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:389
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:140
+msgid "The listing doesn't exist"
+msgstr "הרישום לא נמצא"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:395
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:402
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:150
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:161
+msgid "The listing doesn't belong to you"
+msgstr "הרישום לא שייך לך"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:427
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:107
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:203
+msgid "The selected photo has been successfully deleted"
+msgstr "התמונות שנבחרו נמחקו בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:429
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:206
+msgid "The selected photo does not belong to you"
+msgstr "התמונות הנבחרות לא שייכות לך"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:432
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:210
+msgid "The selected photo couldn't be deleted"
+msgstr "התמונות הנבחרות לא ניתנות למחיקה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:454
+msgid "Thanks! That's very helpful"
+msgstr "תודה! זה מאוד מועיל"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:499
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:641
+msgid "This listing doesn't exist"
+msgstr "רשימה זו אינה קיימת"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:506
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:559
+msgid "We're sorry, but the listing has expired. You can't contact the seller"
+msgstr "אנחנו מצטערים, אבל פג תוקפיו של הרישום. לא ניתן ליצור קשר עם המוכר"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:516
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:528
+msgid "You can't contact the seller, only registered users can"
+msgstr "אתה לא יכול ליצור קשר עם המוכר, רק משתמשים רשומים יכולים"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:518
+#, php-format
+msgid "<a href=\"%s\">Click here to sign-in</a>"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:573
+msgid "We've just sent an e-mail to the seller"
+msgstr "שלחנו מייל למוכר"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:591
+msgid "Sorry, we could not save your comment. Try again later"
+msgstr "מצטערים, לא יכולנו לשמור את התגובה שלך. נסה שוב מאוחר יותר"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:595
+msgid "Your comment is awaiting moderation"
+msgstr "התגובה שלך ממתינה למיון"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:599
+msgid "Your comment has been approved"
+msgstr "התגובה שלך אושרה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:603
+msgid "Please fill the required field (email)"
+msgstr "נא למלא את השדה הנדרש (דוא\"ל)"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:607
+msgid "Please type a comment"
+msgstr "אנא הקלד תגובה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:611
+msgid "Your comment has been marked as spam"
+msgstr "התגובה שלך סומנה כדואר זבל"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:615
+msgid "You need to be logged to comment"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:619
+msgid "Sorry, comments are disabled"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:648
+msgid "You must be logged in to delete a comment"
+msgstr "חייב להיות מחובר כדי למחוק תגובות"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:656
+msgid "The comment doesn't exist"
+msgstr "התגובה לא קיימת"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:661
+msgid "The comment is not active, you cannot delete it"
+msgstr "התגובה אינה פעילה, לא ניתן למחוק אותה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:666
+msgid "The comment was not added by you, you cannot delete it"
+msgstr "התגובה לא נוספה על ידך ולכן אתה לא יכול למחוק אותה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:702
+msgid "The listing hasn't been validated. Please validate it in order to make it public"
+msgstr "אימות הרישום לא בוצע. בבקשה תאמת אותו על מנת להפוך אותו לציבורי."
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:712
+msgid "The listing hasn't been enabled. Please enable it in order to make it public"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:718
+msgid "The listing has been blocked or is awaiting moderation from the admin"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:70
+msgid "Thank you very much for your donation"
+msgstr "תודה רבה על תרומתך"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:51
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:64
+msgid "Users are not enabled"
+msgstr "משתמשים לא אופשרו"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:62
+msgid "Please provide an email address"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:66
+msgid "Empty passwords are not allowed. Please provide a password"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:80
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:157
+msgid "The user doesn't exist"
+msgstr "המשתמש לא קיים"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:104
+msgid "The password is incorrect"
+msgstr "הסיסמא שגוייה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:161
+#, php-format
+msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:165
+msgid "The user has not been validated yet"
+msgstr "המשתמש לא אומת עדיין"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:168
+msgid "The user has been suspended"
+msgstr "משתמש הושעה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:197
+msgid "This should never happen"
+msgstr "זה אמור לא לקרות לעולם"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:213
+msgid "Incorrect link"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:227
+msgid "Validation email re-sent"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:229
+msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:243
+msgid "Invalid email address"
+msgstr "כתובת מייל לא חוקית"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:252
+msgid "We have sent you an email with the instructions to reset your password"
+msgstr "נשלח אליך דוא\"ל עם ההוראות לאיפוס הסיסמה."
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:256
+msgid "We were not able to identify you given the information provided"
+msgstr "לא הצלחנו לזהות אותך עם המידע שסיפקת"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:260
+msgid "The recaptcha code is wrong"
+msgstr "הקוד שגויי"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:312
+msgid "Error, the password don't match"
+msgstr "תקלה, הסיסמא לא תואמת"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
+msgid "Your email has been changed successfully"
+msgstr "כתובת האימייל שלך שונתה בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
+msgid "Your email has been sent properly."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:45
+msgid "User registration is not enabled"
+msgstr "לא ניתן לרשום משתמש"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:82
+msgid "The user has been created. An activation email has been sent"
+msgstr "המשתמש נוצר. אימייל עם אקטיבציה נשלח"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:85
+msgid "Your account has been created successfully"
+msgstr "החשבון שלך נוצר בהצלחה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:103
+msgid "The link is not valid anymore. Sorry for the inconvenience!"
+msgstr "הקישור לא זמין יותר. מצטערים על אי הנוחות"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:108
+msgid "Your account has already been validated"
+msgstr "החשבון שלך כבר אומת."
+
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:129
+msgid "Your account has been validated"
+msgstr "החשבון שלך אומת."
+
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:131
+msgid "Account validation failed"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:86
+msgid "Please enter a correct email"
+msgstr "אנא הזן כתובת מייל תקינה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:168
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:403
+msgid "The file you tried to upload does not have a valid extension"
+msgstr "הסיומת עבור הקובץ שניסת להעלות אינה תקינה"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:182
+msgid "Your email has been sent properly. Thank you for contacting us!"
+msgstr "המייל נשלח בהצלחה. תודה שיצרת עמנו קשר!"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:118
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:664
+msgid "Image with an incorrect extension."
+msgstr "סיומת לא חוקית לתמונה"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:121
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:667
+msgid "Image is too big. Max. size"
+msgstr "תמונה גדולה מדיי. גודל מירבי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:131
+#, php-format
+msgid "Title too short (%s)."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:133
+#, php-format
+msgid "Title too long (%s)."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:144
+#, php-format
+msgid "Description too short (%s)."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:147
+#, php-format
+msgid "Description too long (%s)."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:156
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:696
+msgid "Category invalid."
+msgstr "קטגוריה שגוייה"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:157
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:697
+msgid "Price must be a number."
+msgstr "ערך מחיר חייב להיות מספר"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:159
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:699
+msgid "Price too long."
+msgstr "מחיר ארוך מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:162
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:702
+msgid "Price must be positive number."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:163
+msgid "Name too long."
+msgstr "שם ארוך מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:164
+msgid "Email invalid."
+msgstr "מייל לא תקין"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:165
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:727
+msgid "Phone invalid."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:167
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:704
+msgid "Country too short."
+msgstr "מדינה קצרה מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:169
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:707
+msgid "Country too long."
+msgstr "מדינה ארוכה מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:171
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:709
+msgid "Region too short."
+msgstr "אזור קצר מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:173
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:712
+msgid "Region too long."
+msgstr "אזור ארוך מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:175
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:714
+msgid "City too short."
+msgstr "עיר קצרה מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:176
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:716
+msgid "City too long."
+msgstr "עיר ארוכה מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:178
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:718
+msgid "Municipality too short."
+msgstr "יישוב קצר מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:180
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:721
+msgid "Municipality too long."
+msgstr "יישוב ארוך מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:182
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:723
+msgid "Address too short."
+msgstr "כתובת קצרה מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:184
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:726
+msgid "Address too long."
+msgstr "כתובת אורכה מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:187
+msgid "Too fast. You should wait a little to publish your ad."
+msgstr "מהיר מדיי. עליך להמתין מעט בין פרסום מודעות"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:205
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:740
+#, php-format
+msgid "%s field is required."
+msgstr "%s שדות חובה."
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:431
+msgid "One of the files you tried to upload exceeds the maximum size"
+msgstr "אחד מהקבצים שהעלת עוברים את הגודל המקסימלי המותר"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:677
+msgid "Title too short."
+msgstr "כותרת קצרה מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:678
+msgid "Title too long."
+msgstr "כותרת ארוכה מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:690
+msgid "Description too short."
+msgstr "תיאור קצר מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:692
+msgid "Description too long."
+msgstr "תיאור ארוך מדיי"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:1275
+#, php-format
+msgid "We just sent your message to %s"
+msgstr "שלחנו את הודעתך ל %s"
+
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:59
+msgid "The reCAPTCHA was not entered correctly"
+msgstr "ה-reCAPTCHA שגוייה"
+
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:64
+msgid "The password cannot be empty"
+msgstr "הסיסמא לא יכולה להיות ריקה"
+
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:76
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:300
+msgid "The name cannot be empty"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:81
+msgid "The email is not valid"
+msgstr "כתובת האימייל אינה חוקית"
+
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:95
+msgid "Username is already taken"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:293
+#, php-format
+msgid "The specified e-mail is already used by %s"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/Csrf.php:170
+msgid "Probable invalid request."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/Csrf.php:173
+msgid "Invalid CSRF token."
+msgstr ""
+
+#: tmp/oc-includes/osclass/emails.php:861
 msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
 msgstr "נשלח אליך מייל. אנא עקוב אחר התהליכים במייל על מנת להפעיל את השינויים"
 
-#: /var/www/osclass-git/oc-includes/osclass/emails.php:462
+#: tmp/oc-includes/osclass/emails.php:864
 msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
 msgstr "הניסיון לשלוח לך מייל נכשל. אנא צור קשר עם מנהל האתר."
+
+#: tmp/oc-includes/osclass/emails.php:1122
+msgid "There has been some errors sending the message"
+msgstr "ארעו מספר שגיאות בשליחת ההודעה"
+

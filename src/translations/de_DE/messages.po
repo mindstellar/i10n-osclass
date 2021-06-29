@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-29 12:19\n"
+"POT-Creation-Date: 2021-06-29 18:32+0530\n"
+"PO-Revision-Date: 2021-06-29 13:58\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -17,1680 +17,1730 @@ msgstr ""
 "X-Crowdin-File: /master/src/templates/messages.pot\n"
 "X-Crowdin-File-ID: 8208\n"
 
-#: tmp/osclass/oc-admin/users.php:68
-msgid "The user has been created. We've sent an activation e-mail"
-msgstr "Der Benutzer wurde korrekt erstellt. Wir haben Ihnen einen Aktivierungs-Link zugesandt."
-
-#: tmp/osclass/oc-admin/users.php:70
-msgid "The user has been created successfully"
-msgstr "Benutzer wurde erfolgreich eingerichtet"
-
-#: tmp/osclass/oc-admin/users.php:125
-msgid "The user has been updated"
-msgstr "Benutzer wurde aktualisiert"
-
-#: tmp/osclass/oc-admin/users.php:127
-msgid "The user has been updated and activated"
-msgstr "Benutzer wurde aktualisiert und aktiviert "
-
-#: tmp/osclass/oc-admin/users.php:141 tmp/osclass/oc-admin/users.php:164
-#: tmp/osclass/oc-admin/users.php:189 tmp/osclass/oc-admin/users.php:213
-#: tmp/osclass/oc-admin/users.php:237 tmp/osclass/oc-admin/users.php:261
-#: tmp/osclass/oc-admin/users.php:559
-msgid "User id isn't in the correct format"
-msgstr "Benutzer-ID hat nicht das korrekt Format"
-
-#: tmp/osclass/oc-admin/users.php:151
-msgid "No users have been selected"
-msgstr "Es wurden keine Benutzer ausgewählt"
-
-#: tmp/osclass/oc-admin/users.php:174
-msgid "No users have been activated"
-msgstr "Es wurden keine Benutzer aktiviert"
-
-#: tmp/osclass/oc-admin/users.php:199
-msgid "No users have been deactivated"
-msgstr "Es wurden keine Benutzer deaktiviert"
-
-#: tmp/osclass/oc-admin/users.php:223
-msgid "No users have been enabled"
-msgstr "Es wurden keine Benutzer aktiviert"
-
-#: tmp/osclass/oc-admin/users.php:247
-msgid "No users have been disabled"
-msgstr "Es wurden keine Benutzer deaktiviert"
-
-#: tmp/osclass/oc-admin/users.php:274
-msgid "No users have been deleted"
-msgstr "Es wurden keine Benutzer gelöscht"
-
-#: tmp/osclass/oc-admin/users.php:287 tmp/osclass/oc-admin/users.php:321
-msgid "Alert id isn't in the correct format"
-msgstr "Benachrichtigungs-ID hat nicht das korrekte Format"
-
-#: tmp/osclass/oc-admin/users.php:302
-msgid "No alerts have been deleted"
-msgstr "Es wurden keine Benachrichtigungen gelöscht"
-
-#: tmp/osclass/oc-admin/users.php:341
-msgid "No alerts have been activated"
-msgstr "Es wurden keine Benachrichtigungen aktiviert"
-
-#: tmp/osclass/oc-admin/users.php:347
-msgid "No alerts have been deactivated"
-msgstr "Es wurden keine Benachrichtigungen deaktiviert"
-
-#: tmp/osclass/oc-admin/users.php:387
-msgid "User settings have been updated"
-msgstr "Benutzereinstellungen wurden aktualisiert"
-
-#: tmp/osclass/oc-admin/users.php:530 tmp/osclass/oc-admin/users.php:545
-msgid "Both rules can not be empty"
-msgstr "Beide Regeln können nicht leer sein"
-
-#: tmp/osclass/oc-admin/users.php:535
-msgid "Rule updated correctly"
-msgstr "Regel erfolgreich aktualisiert"
-
-#: tmp/osclass/oc-admin/users.php:550
-msgid "Rule saved correctly"
-msgstr "Regel erfolgreich gespeichert"
-
-#: tmp/osclass/oc-admin/users.php:571
-msgid "No rules have been deleted"
-msgstr "Es wurden keine Regeln gelöscht"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:50
-msgid "The currency code is not in the correct format"
-msgstr "Der Währungscode hat nicht das korrekte Format"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:63
-msgid "Currency added"
-msgstr "Währung wurde hinzugefügt"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:65
-msgid "Currency couldn't be added"
-msgstr "Währung konnte nicht hinzugefügt werden"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:75
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:82
-#, php-format
-msgid "The currency code '%s' doesn't exist"
-msgstr "Der Währungscode '%s' ist nicht bekannt"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:104
-msgid "Error: the currency code is not in the correct format"
-msgstr "Achtung! Der Währungs-Code hat nicht das korrekte Format"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:117
-msgid "Currency updated"
-msgstr "Währung wurde erfolgreich aktualisiert"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:119
-msgid "No changes were made"
-msgstr "Es wurden keine Änderungen vorgenommen"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:141
-#, php-format
-msgid "%s couldn't be deleted because it has listings associated to it"
-msgstr "%s konnte nicht gelöscht werden weil Angebote daran verknüpft sind"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:143
-#, php-format
-msgid "%s couldn't be deleted because it's the default currency"
-msgstr "%s konnte nicht gelöscht werden weil es die Standardwährung ist"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:151
-msgid "No currencies have been deleted"
-msgstr "Es wurden keine Währungen gelöscht"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:155
-msgid "One currency has been deleted"
-msgstr "Eine Währung wurde gelöscht"
-
-#: tmp/osclass/oc-admin/controller/settings/currencies.php:159
-#, php-format
-msgid "%s currencies have been deleted"
-msgstr "%s Währungen wurden gelöscht"
-
-#: tmp/osclass/oc-admin/controller/settings/spamnbots.php:56
-msgid "Your Akismet key has been cleared"
-msgstr "Ihr Akismet Passwort wurde gelöscht"
-
-#: tmp/osclass/oc-admin/controller/settings/spamnbots.php:58
-msgid "Your Akismet key has been updated"
-msgstr "Ihr Akismet Passwort wurde aktualisiert"
-
-#: tmp/osclass/oc-admin/controller/settings/spamnbots.php:78
-msgid "Your reCAPTCHA key has been cleared"
-msgstr "Ihr reCAPTCHA Passwort wurde gelöscht"
-
-#: tmp/osclass/oc-admin/controller/settings/spamnbots.php:80
-msgid "Your reCAPTCHA key has been updated"
-msgstr "Ihr reCAPTCHA Passwort wurde aktualisiert"
-
-#: tmp/osclass/oc-admin/controller/settings/mailserver.php:31
-#: tmp/osclass/oc-admin/controller/settings/advanced.php:32
-#: tmp/osclass/oc-admin/controller/settings/locations.php:33
-#: tmp/osclass/oc-admin/controller/settings/locations.php:59
-#: tmp/osclass/oc-admin/controller/settings/locations.php:108
-#: tmp/osclass/oc-admin/controller/settings/locations.php:141
-#: tmp/osclass/oc-admin/controller/settings/locations.php:180
-#: tmp/osclass/oc-admin/controller/settings/locations.php:244
-#: tmp/osclass/oc-admin/controller/settings/locations.php:286
-#: tmp/osclass/oc-admin/controller/settings/locations.php:328
-#: tmp/osclass/oc-admin/controller/settings/locations.php:391
-#: tmp/osclass/oc-admin/controller/settings/locations.php:432
-#: tmp/osclass/oc-admin/controller/settings/media.php:170
-#: tmp/osclass/oc-admin/plugins.php:40 tmp/osclass/oc-admin/plugins.php:77
-#: tmp/osclass/oc-admin/plugins.php:113 tmp/osclass/oc-admin/plugins.php:128
-#: tmp/osclass/oc-admin/plugins.php:143 tmp/osclass/oc-admin/login.php:112
-#: tmp/osclass/oc-admin/languages.php:46 tmp/osclass/oc-admin/admins.php:50
-#: tmp/osclass/oc-admin/admins.php:157 tmp/osclass/oc-admin/admins.php:265
-#: tmp/osclass/oc-admin/appearance.php:37
-#: tmp/osclass/oc-admin/appearance.php:74
-msgid "This action can't be done because it's a demo site"
-msgstr "Diese Aktion kann nicht ausgeführt werden, da es sich um eine Demoseite handelt"
-
-#: tmp/osclass/oc-admin/controller/settings/mailserver.php:52
-msgid "Mail server type is incorrect"
-msgstr "Mail Server Typ ist nicht korrekt"
-
-#: tmp/osclass/oc-admin/controller/settings/mailserver.php:68
-msgid "Mail server configuration has changed"
-msgstr "Mail Server Konfiguration hat sich geändert"
-
-#: tmp/osclass/oc-admin/controller/settings/comments.php:48
-msgid "Number of moderate comments must only contain numeric characters"
-msgstr "Anzahl der moderierten Kommentare darf nur aus numerischen Zeichen bestehen"
-
-#: tmp/osclass/oc-admin/controller/settings/comments.php:51
-msgid "Comments per page must only contain numeric characters"
-msgstr "Kommentare pro Seite darf nur aus numerischen Zeichen bestehen"
-
-#: tmp/osclass/oc-admin/controller/settings/comments.php:71
-msgid "Comment settings have been updated"
-msgstr "Kommentareinstellungen wurden aktualisiert"
-
-#: tmp/osclass/oc-admin/controller/settings/advanced.php:44
-msgid "Advanced settings have been updated"
-msgstr "Die fortgeschrittenen Einstellungen wurden aktualisiert!"
-
-#: tmp/osclass/oc-admin/controller/settings/advanced.php:51
-msgid "Cache flushed correctly"
-msgstr "Der Cache wurde erfolgreich geleert"
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:424
-msgid "All fields are required."
-msgstr "Alle Felder sind erforderlich."
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:427
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:475
-msgid "Permalinks structure updated"
-msgstr "Permalink Struktur aktualisiert"
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:436
-msgid "Permalinks structure updated."
-msgstr "Permalinks-Struktur wurde aktualisiert"
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:438
-msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
-msgstr "Wir können nicht überprüfen ob das Apache Modul <b>mod_rewrite</b> geladen wurde. Wenn Sie Probleme mit URLs haben, sollten Sie <em>Friendly URLs</em> deaktivieren"
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:445
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:455
-msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
-msgstr "Die Datei <b>.htaccess</b> konnte nicht mit dem richtigen Inhalt gefüllt werden."
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:447
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Hier ist der Inhalt den Sie zur <b>.htaccess</b> Datei hinzufügen müssen. Wenn Sie die Datei nicht erstellen können, deaktieren Sie bitte die <em>Friendly URLs</em> Option."
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:457
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Hier ist der Inhalt den Sie zur <b>.htaccess</b> Datei hinzufügen müssen. Wenn Sie die Datei nicht erstellen können oder Fehler mit URLs auftreten, deaktieren Sie bitte die <em>Friendly URLs</em> Option."
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:469
-msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr "Die Datei <b>.htaccess</b>  existiert bereits und wurde nicht modifiziert."
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:471
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Folgender Code muss in die Datei <b>.htaccess</b> eingefügt werden. Sollten Probleme beim Bearbeiten der Datei auftreten, deaktivieren Sie bitte <em>SEO-freundliche URLs</em>."
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:504
-msgid "Friendly URLs successfully deactivated"
-msgstr "Friendly URLs erfolgreich deaktiviert"
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:507
-msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr "SEO-freundliche URLs sind deaktiviert, jedoch existiert eine modifizierte .htaccess Datei außerhalb von Osclass, die noch nicht gelöscht werden konnte. Bitte löschen Sie diese manuell! "
-
-#: tmp/osclass/oc-admin/controller/settings/permalinks.php:509
-msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr "SEO-freundliche URLs wurden deaktiviert, jedoch existiert eine modifizierte .htaccess Datei außerhalb von Osclass, die noch nicht gelöscht wurde!"
-
-#: tmp/osclass/oc-admin/controller/settings/main.php:29
-msgid "Last check"
-msgstr "Letzte Überprüfung"
-
-#: tmp/osclass/oc-admin/controller/settings/main.php:72
-msgid "Page title field is required"
-msgstr "Feld für Titel (Seite) ist erforderlich"
-
-#: tmp/osclass/oc-admin/controller/settings/main.php:75
-msgid "Contact email field is required"
-msgstr "Feld für Kontakt-Email ist erforderlich"
-
-#: tmp/osclass/oc-admin/controller/settings/main.php:78
-msgid "Number of listings in the RSS has to be a numeric value"
-msgstr "Anzahl der Angebote im RSS muss ein numerischer Wert sein"
-
-#: tmp/osclass/oc-admin/controller/settings/main.php:81
-msgid "Max latest listings has to be a numeric value"
-msgstr "Max neueste Angebote muss ein numerischer Wert sein"
-
-#: tmp/osclass/oc-admin/controller/settings/main.php:84
-msgid "Number of listings on search has to be a numeric value"
-msgstr "Anzahl der Angebote in der Suche muss ein numerischer Wert sein"
-
-#: tmp/osclass/oc-admin/controller/settings/main.php:108
-msgid "Number of listings in the RSS must be an integer"
-msgstr "Anzahl der Angebote im RSS muss eine ganze Zahl sein"
-
-#: tmp/osclass/oc-admin/controller/settings/main.php:115
-msgid "Number of recent listings displayed at home must be an integer"
-msgstr "Anzahl der neuesten Angebote auf der Startseite muss eine ganze Zahl sein"
-
-#: tmp/osclass/oc-admin/controller/settings/main.php:125
-#: tmp/osclass/oc-admin/controller/settings/main.php:127
-msgid "General settings have been updated"
-msgstr "Allgemeine Einstellungen wurden aktualisiert"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:42
-#: tmp/osclass/oc-admin/controller/settings/locations.php:168
-#: tmp/osclass/oc-admin/controller/settings/locations.php:234
-#: tmp/osclass/oc-admin/controller/settings/locations.php:317
-#: tmp/osclass/oc-admin/controller/settings/locations.php:381
-#, php-format
-msgid "%s already was in the database"
-msgstr "%s besteht bereits in der Datenbank"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:49
-#, php-format
-msgid "%s has been added as a new country"
-msgstr "%s wurde als neues Land hinzugefügt"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:65
-msgid "Country name cannot be blank"
-msgstr "Ländername darf nicht leer sein"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:98
-msgid "Country has been edited"
-msgstr "Land wurde geändert"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:100
-msgid "There were some problems editing the country"
-msgstr "Fehler beim Ändern des Landes"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:131
-#: tmp/osclass/oc-admin/controller/settings/locations.php:274
-#: tmp/osclass/oc-admin/controller/settings/locations.php:420
-msgid "There was a problem deleting locations"
-msgstr "Es ist ein Fehler beim Löschen von Standorten aufgetreten"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:135
-msgid "No country was selected"
-msgstr "Es wurde kein Land ausgewählt"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:152
-#: tmp/osclass/oc-admin/controller/settings/locations.php:190
-msgid "Region name cannot be blank"
-msgstr "Bundesland darf nicht leer sein"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:165
-#, php-format
-msgid "%s has been added as a new region"
-msgstr "Bundesland %s wurde hinzugefügt"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:230
-#: tmp/osclass/oc-admin/controller/settings/locations.php:378
-#, php-format
-msgid "%s has been edited"
-msgstr "%s wurde geändert"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:278
-msgid "No region was selected"
-msgstr "Es wurde kein Bunesland ausgewählt"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:300
-msgid "New city name cannot be blank"
-msgstr "Neue Stadt darf nicht leer sein"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:314
-#, php-format
-msgid "%s has been added as a new city"
-msgstr "%s wurde als neue Stadt hinzugefügt"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:339
-msgid "City name cannot be blank"
-msgstr "Stadtname darf nicht leer sein"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:424
-msgid "No city was selected"
-msgstr "Es wurde keine Stadt ausgewählt"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:449
-msgid "Location imported successfully"
-msgstr "Standort erfolgreich importiert"
-
-#: tmp/osclass/oc-admin/controller/settings/locations.php:457
-msgid "There was a problem importing the selected location"
-msgstr "Beim Importieren des ausgewählten Standortes ist ein Problem aufgetreten"
-
-#: tmp/osclass/oc-admin/controller/settings/latestsearches.php:39
-msgid "Custom number could not be left empty"
-msgstr "Benutzerdefinierte Nummer kann nicht freigelassen werden"
-
-#: tmp/osclass/oc-admin/controller/settings/latestsearches.php:44
-msgid "Last search settings have been updated"
-msgstr "Last search Einstellungen wurden aktualisiert"
-
-#: tmp/osclass/oc-admin/controller/settings/media.php:83
-#: tmp/osclass/oc-admin/controller/settings/media.php:91
-msgid "There was a problem uploading the watermark image"
-msgstr "Es gab ein Problem beim Hochladen vom Wasserzeichen"
-
-#: tmp/osclass/oc-admin/controller/settings/media.php:87
-msgid "The watermark image has to be a .PNG file"
-msgstr "Das Bild des Wasserzeichens muss eine .png-Datei sein"
-
-#: tmp/osclass/oc-admin/controller/settings/media.php:138
-#, php-format
-msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
-msgstr "Die maximale Dateigröße darf nicht höher sein, als in der PHP Konfiguration angegeben: <b>%d KB</b>"
-
-#: tmp/osclass/oc-admin/controller/settings/media.php:163
-msgid "Media config has been updated"
-msgstr "Media Config wurde erfolgreich aktualisiert"
-
-#: tmp/osclass/oc-admin/controller/settings/media.php:223
-msgid "Re-generation complete"
-msgstr "Re-Generation vollständig"
-
-#: tmp/osclass/oc-admin/plugins.php:54
-msgid "The plugin folder is not writable"
-msgstr "Plugin-Ordner ist nicht beschreibbar"
-
-#: tmp/osclass/oc-admin/plugins.php:57
-msgid "The plugin has been uploaded correctly"
-msgstr "Plugin wurde korrekt hochgeladen"
-
-#: tmp/osclass/oc-admin/plugins.php:60 tmp/osclass/oc-admin/languages.php:75
-#: tmp/osclass/oc-admin/appearance.php:57
-msgid "The zip file is not valid"
-msgstr "Zip-Datei ist nicht gültig"
-
-#: tmp/osclass/oc-admin/plugins.php:63 tmp/osclass/oc-admin/tools.php:55
-#: tmp/osclass/oc-admin/languages.php:79 tmp/osclass/oc-admin/appearance.php:60
-msgid "No file was uploaded"
-msgstr "Es wurde keine Datei hochgeladen"
-
-#: tmp/osclass/oc-admin/plugins.php:68
-msgid "There was a problem adding the plugin"
-msgstr "Plugin konnte nicht hinzugefügt werden"
-
-#: tmp/osclass/oc-admin/plugins.php:90
-#, php-format
-msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr "Das Plugin hat %d Zeichen an <strong>unerwartetem Output</strong> während der Installation generiert. Output: \"%s\""
-
-#: tmp/osclass/oc-admin/plugins.php:93
-msgid "Plugin is already installed"
-msgstr "Plugin bereits installiert"
-
-#: tmp/osclass/oc-admin/plugins.php:96
-msgid "Plugin couldn't be installed because their files are missing"
-msgstr "Plugin konnte nicht korrekt installiert werden, da Dateien fehlen"
-
-#: tmp/osclass/oc-admin/plugins.php:99
-#, php-format
-msgid "Plugin couldn't be installed because of: %s"
-msgstr "Plugin konnte aufgrund %s nicht korrekt installiert werden "
-
-#: tmp/osclass/oc-admin/plugins.php:102
-msgid "Plugin couldn't be installed"
-msgstr "Plugin konnte nicht korrekt installiert werden"
-
-#: tmp/osclass/oc-admin/plugins.php:106
-msgid "Plugin installed"
-msgstr "Plugin wurde korrekt installiert"
-
-#: tmp/osclass/oc-admin/plugins.php:119
-msgid "Plugin uninstalled"
-msgstr "Plugin wurde korrekt deinstalliert"
-
-#: tmp/osclass/oc-admin/plugins.php:121
-msgid "Plugin couldn't be uninstalled"
-msgstr "Plugin konnte nicht korrekt deinstalliert werden"
-
-#: tmp/osclass/oc-admin/plugins.php:134
-msgid "Plugin enabled"
-msgstr "Plugin aktiviert"
-
-#: tmp/osclass/oc-admin/plugins.php:136
-msgid "Plugin is already enabled"
-msgstr "Plugin ist bereits aktiviert"
-
-#: tmp/osclass/oc-admin/plugins.php:149
-msgid "Plugin disabled"
-msgstr "Plugin wurde deaktiviert"
-
-#: tmp/osclass/oc-admin/plugins.php:151
-msgid "Plugin is already disabled"
-msgstr "Plugin ist bereits deaktiviert"
-
-#: tmp/osclass/oc-admin/plugins.php:218
-msgid "Configuration was saved"
-msgstr "Konfiguration wurde gespeichert"
-
-#: tmp/osclass/oc-admin/plugins.php:222 tmp/osclass/oc-admin/plugins.php:238
-msgid "No plugin selected"
-msgstr "Es wurde kein Plugin ausgewählt"
-
-#: tmp/osclass/oc-admin/plugins.php:231
-msgid "The files were deleted"
-msgstr "Die Dateien wurden gelöscht"
-
-#: tmp/osclass/oc-admin/plugins.php:233
-#, php-format
-msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr "Fehler beim Löschen der Dateien. Bitte prüfen Sie die Berechtigungen der Dateien in %s"
-
-#: tmp/osclass/oc-admin/plugins.php:245
-msgid "Invalid plugin file"
-msgstr "Ungültige Plugin-Datei"
-
-#: tmp/osclass/oc-admin/tools.php:36 tmp/osclass/oc-admin/tools.php:63
-#: tmp/osclass/oc-admin/tools.php:73 tmp/osclass/oc-admin/tools.php:83
-#: tmp/osclass/oc-admin/tools.php:94 tmp/osclass/oc-admin/tools.php:130
-#: tmp/osclass/oc-admin/tools.php:173 tmp/osclass/oc-admin/tools.php:200
-#: tmp/osclass/oc-admin/tools.php:229 tmp/osclass/oc-admin/upgrade.php:34
+#: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:209
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:237
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:264
 msgid "This action cannot be done because it is a demo site"
 msgstr "Diese Aktion kann nicht ausgeführt werden, weil es sich um eine Demoseite handelt"
 
-#: tmp/osclass/oc-admin/tools.php:50
-msgid "Import complete"
-msgstr "Import vollständig"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
+#: tmp/oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
+msgid "You don't have enough permissions"
+msgstr "Sie verfügen nicht über ausreichende Rechte"
 
-#: tmp/osclass/oc-admin/tools.php:52
-msgid "There was a problem importing data to the database"
-msgstr "Fehler beim Import der Daten in die Datenbank"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
+msgid "The listing has been deleted"
+msgstr "Das Angebot wurde gelöscht"
 
-#: tmp/osclass/oc-admin/tools.php:67
-msgid "Recount category stats has been successful"
-msgstr "Zählung Kategorie-Stats war erfolgreich"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:374
+msgid "The listing couldn't be deleted"
+msgstr "Das Angebot konnte nicht gelöscht werden"
 
-#: tmp/osclass/oc-admin/tools.php:110 tmp/osclass/oc-admin/tools.php:139
-msgid "Path is empty"
-msgstr "Pfad ist leer"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:405
+msgid "The listing has been activated"
+msgstr "Das Angebot wurde aktiviert"
 
-#: tmp/osclass/oc-admin/tools.php:113 tmp/osclass/oc-admin/tools.php:142
-#, php-format
-msgid "Could not connect with the database. Error: %s"
-msgstr "Fehler beim Verbinden mit der Datenbank: %s"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:407
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:421
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:430
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:439
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:471
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:500
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:668
+msgid "An error has occurred"
+msgstr "Es ist ein Fehler aufgetreten"
 
-#: tmp/osclass/oc-admin/tools.php:116 tmp/osclass/oc-admin/tools.php:148
-msgid "There are no tables to back up"
-msgstr "Es gibt keine Tabellen für einen Backup"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:410
+msgid "The listing can't be activated because it's blocked"
+msgstr "Das Angebot kann nicht aktiviert werden, weil es geblockt ist"
 
-#: tmp/osclass/oc-admin/tools.php:119 tmp/osclass/oc-admin/tools.php:151
-msgid "The folder is not writable"
-msgstr "Ordner ist nicht beschreibbar"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:419
+msgid "The listing has been deactivated"
+msgstr "Das Angebot wurde deaktiviert"
 
-#: tmp/osclass/oc-admin/tools.php:122 tmp/osclass/oc-admin/tools.php:154
-msgid "Backup completed successfully"
-msgstr "Backup erfolgreich abgeschlossen"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:428
+msgid "The listing has been enabled"
+msgstr "Das Angebot wurde aktiviert"
 
-#: tmp/osclass/oc-admin/tools.php:145
-#, php-format
-msgid "Could not select the database. Error: %s"
-msgstr "Fehler beim Auswählen der Datenbank: %s"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:437
+msgid "The listing has been disabled"
+msgstr "Das Angebot wurde deaktiviert"
 
-#: tmp/osclass/oc-admin/tools.php:180 tmp/osclass/oc-admin/tools.php:217
-msgid "Archived successfully!"
-msgstr "Erfolgreich archiviert!"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:469
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:498
+msgid "Changes have been applied"
+msgstr "Änderungen wurden bestätigt"
 
-#: tmp/osclass/oc-admin/tools.php:194 tmp/osclass/oc-admin/tools.php:220
-msgid "Error, the zip file was not created in the specified directory"
-msgstr "Fehler, die ZIP-Datei wurde nicht im festgelegten Verzeichnis erstellt"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:527
+msgid "The listing has been unmarked as"
+msgstr "Beim Angebot wurde die Markierung aufgehoben, als"
 
-#: tmp/osclass/oc-admin/tools.php:239
-msgid "Maintenance mode is ON"
-msgstr "Wartungsmodus ist aktiviert"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:529
+msgid "The listing hasn't been unmarked as"
+msgstr "Beim Angebot wurde die Markierung nicht entfernt, als"
 
-#: tmp/osclass/oc-admin/tools.php:241
-msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
-msgstr "Es ist ein Fehler beim Erstellen der .maintenance-Datei aufgetreten. Bitte erstellen Sie diese manuell im Root-Verzeichnis"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:632
+msgid "Changes saved correctly"
+msgstr "Änderungen wurden erfolgreich gespeichert"
 
-#: tmp/osclass/oc-admin/tools.php:249
-msgid "Maintenance mode is OFF"
-msgstr "Wartungsmodus ist ausgeschaltet"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
+msgid "Resource deleted"
+msgstr "Ressource wurde gelöscht"
 
-#: tmp/osclass/oc-admin/tools.php:251
-msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
-msgstr "Es ist ein Fehler beim Löschen der .maintenance-Datei aufgetreten. Bitte entfernen Sie diese manuell aus dem Root-Verzeichnis"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:719
+msgid "A new listing has been added"
+msgstr "Ein neues Angebot wurde hinzugefügt"
 
-#: tmp/osclass/oc-admin/login.php:44
-msgid "The username field is empty"
-msgstr "Benutzername wurde nicht eingetragen"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:772
+msgid "Wait time must only contain numeric characters"
+msgstr "Wartezeit darf nur numerische Zeichen enthalten"
 
-#: tmp/osclass/oc-admin/login.php:49
-msgid "The password field is empty"
-msgstr "Passwort wurde nicht eingetragen"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:777
+msgid "Number of moderated listings must only contain numeric characters"
+msgstr "Anzahl der moderierten Angebote darf nur numerische Zeichen enthalten"
 
-#: tmp/osclass/oc-admin/login.php:57
-#, php-format
-msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Benutzername nicht korrekt. <a href=\\\"%s\\\">Benutzername vergessen?</a>"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:780
+msgid "Images per listing must only contain numeric characters"
+msgstr "Anzahl der Bilder pro Angebot darf nur aus numerischen Zeichen bestehen"
 
-#: tmp/osclass/oc-admin/login.php:62
-#, php-format
-msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Passwort nicht korrekt. <a href=\\\"%s\\\">Passwort vergessen?</a>"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:783
+msgid "Number of expiration days has to be a numeric value"
+msgstr "Die Anzahl der Tage bis zum Ablauf der Anzeige muss eine numerische Zahl sein!"
 
-#: tmp/osclass/oc-admin/login.php:125
-msgid "The reCAPTCHA code is wrong"
-msgstr "Das reCAPTCHA ist falsch"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
+msgid "Title Length has to be a numeric value"
+msgstr "Die Länge des Titels muss als Zahl angegeben werden"
 
-#: tmp/osclass/oc-admin/login.php:143
-msgid "A new password has been sent to your e-mail"
-msgstr "Ein neues Passwort wurde an Ihre Email-Adresse versandt"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
+msgid "Description Length has to be a numeric value"
+msgstr "Die Länge der Beschreibung muss als Zahl angegeben werden"
 
-#: tmp/osclass/oc-admin/login.php:149 tmp/osclass/oc-admin/login.php:159
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:64
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:68
-#: tmp/osclass/oc-includes/osclass/controller/login.php:239
-#: tmp/osclass/oc-includes/osclass/controller/login.php:267
-msgid "Sorry, the link is not valid"
-msgstr "Dieser Link ist ungültig"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
+msgid "Listings' settings have been updated"
+msgstr "Angebotseinstellungen wurden aktualisiert"
 
-#: tmp/osclass/oc-admin/login.php:169
-#: tmp/osclass/oc-includes/osclass/controller/login.php:260
-msgid "The password has been changed"
-msgstr "Passwort wurde geändert"
-
-#: tmp/osclass/oc-admin/login.php:172
-msgid "Error, the passwords don't match"
-msgstr "Fehler, die Passwörter stimmen nicht überein"
-
-#: tmp/osclass/oc-admin/comments.php:52
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
 msgid "The comments have been deleted"
 msgstr "Kommentare wurden gelöscht"
 
-#: tmp/osclass/oc-admin/comments.php:65
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
 msgid "The comments have been approved"
 msgstr "Kommentare wurden freigeschaltet"
 
-#: tmp/osclass/oc-admin/comments.php:75
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
 msgid "The comments have been disapproved"
 msgstr "Kommentare wurden abgelehnt"
 
-#: tmp/osclass/oc-admin/comments.php:88
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
 msgid "The comments have been unblocked"
 msgstr "Die Kommentare wurden entsperrt"
 
-#: tmp/osclass/oc-admin/comments.php:98
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
 msgid "The comments have been blocked"
 msgstr "Die Kommentare wurden gesperrt"
 
-#: tmp/osclass/oc-admin/comments.php:128
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
 msgid "The comment has been approved"
 msgstr "Kommentar wurde freigeschaltet"
 
-#: tmp/osclass/oc-admin/comments.php:135
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
 msgid "The comment has been disapproved"
 msgstr "Kommentar wurde abgelehnt"
 
-#: tmp/osclass/oc-admin/comments.php:142
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
 msgid "The comment has been enabled"
 msgstr "Kommentar wurde aktiviert"
 
-#: tmp/osclass/oc-admin/comments.php:149
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
 msgid "The comment has been disabled"
 msgstr "Kommentar wurde deaktiviert"
 
-#: tmp/osclass/oc-admin/comments.php:164
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
 msgid "Email is not correct"
 msgstr "Email ist nicht korrekt"
 
-#: tmp/osclass/oc-admin/comments.php:167
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
 msgid "Comment is required"
 msgstr "Kommentar ist erforderlich"
 
-#: tmp/osclass/oc-admin/comments.php:189
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
 msgid "Great! We just updated your comment"
 msgstr "Wunderbar! Ihr Kommentar wurde aktualisiert"
 
-#: tmp/osclass/oc-admin/comments.php:195
-#: tmp/osclass/oc-includes/osclass/controller/item.php:576
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:229
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:671
 msgid "The comment has been deleted"
 msgstr "Kommentar wurde gelöscht."
 
-#: tmp/osclass/oc-admin/languages.php:62
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:110
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
+msgid "This action can't be done because it's a demo site"
+msgstr "Diese Aktion kann nicht ausgeführt werden, da es sich um eine Demoseite handelt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
 msgid "The translation folder is not writable"
 msgstr "Das Übersetzungsverzeichnis ist nicht beschreibbar"
 
-#: tmp/osclass/oc-admin/languages.php:67
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:83
 msgid "The language has been installed correctly"
 msgstr "Sprache wurde korrekt installiert"
 
-#: tmp/osclass/oc-admin/languages.php:70
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
 msgid "File uploaded but unable to activate the language"
 msgstr "Datei hochgeladen, aber die Sprache kann nicht aktiviert werden"
 
-#: tmp/osclass/oc-admin/languages.php:85
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
+msgid "The zip file is not valid"
+msgstr "Zip-Datei ist nicht gültig"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
+msgid "No file was uploaded"
+msgstr "Es wurde keine Datei hochgeladen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
 msgstr "Die Sprache konnte leider nicht hinzugefügt werden"
 
-#: tmp/osclass/oc-admin/languages.php:95 tmp/osclass/oc-admin/languages.php:128
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:153
+msgid "Language imported successfully"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:160
+msgid "There was a problem importing the selected language"
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:168
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:201
 msgid "Language id isn't in the correct format"
 msgstr "Sprach-ID hat nicht das korrekt Format"
 
-#: tmp/osclass/oc-admin/languages.php:102
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:175
 msgid "Language id doesn't exist"
 msgstr "Sprach-ID unbekannt"
 
-#: tmp/osclass/oc-admin/languages.php:151
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
 msgid "Language name field is required"
 msgstr "Feld für Sprachen ist erforderlich"
 
-#: tmp/osclass/oc-admin/languages.php:154
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:227
 msgid "Language short name field is required"
 msgstr "Feld für Sprachabkürzungen ist erforderlich"
 
-#: tmp/osclass/oc-admin/languages.php:157
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:230
 msgid "Language description field is required"
 msgstr "Feld für Sprachbeschreibung ist erforderlich"
 
-#: tmp/osclass/oc-admin/languages.php:160
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:233
 msgid "Currency format field is required"
 msgstr "Feld für Währungsformate ist erforderlich"
 
-#: tmp/osclass/oc-admin/languages.php:163
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:236
 msgid "Number of decimals must only contain numeric characters"
 msgstr "Zahl der Dezimalzahlen darf nur aus numerischen Zeichen bestehen"
 
-#: tmp/osclass/oc-admin/languages.php:186
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:259
 #, php-format
 msgid "%s has been updated"
 msgstr "%s wurde aktualisiert"
 
-#: tmp/osclass/oc-admin/languages.php:192
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:265
 msgid "Selected languages have been enabled for the website"
 msgstr "Ausgewählte Sprachen wurden für die Website aktiviert"
 
-#: tmp/osclass/oc-admin/languages.php:199
-#: tmp/osclass/oc-admin/languages.php:224
-#: tmp/osclass/oc-admin/languages.php:257
-#: tmp/osclass/oc-admin/languages.php:282
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:272
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:297
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:331
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:356
 msgid "The language ids aren't in the correct format"
 msgstr "Die Sprach-IDs haben nicht das korrekte Format"
 
-#: tmp/osclass/oc-admin/languages.php:216
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:289
 msgid "Selected languages have been disabled for the website"
 msgstr "Ausgewählte Sprachen wurden für die Website deaktiviert"
 
-#: tmp/osclass/oc-admin/languages.php:230
-#: tmp/osclass/oc-admin/languages.php:288
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:304
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:363
 #, php-format
 msgid "%s can't be disabled because it's the default language"
 msgstr "%s kann nicht deaktiviert werden, weil es die Standardsprache ist"
 
-#: tmp/osclass/oc-admin/languages.php:250
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:324
 msgid "Selected languages have been enabled for the backoffice (oc-admin)"
 msgstr "Ausgewählte Sprachen wurden für das Backoffice aktiviert (oc-admin)"
 
-#: tmp/osclass/oc-admin/languages.php:274
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:348
 msgid "Selected languages have been disabled for the backoffice (oc-admin)"
 msgstr "Ausgewählte Sprachen wurden für das Backoffice deaktiviert (oc-admin)"
 
-#: tmp/osclass/oc-admin/languages.php:314
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:390
 #, php-format
 msgid "Directory '%s' couldn't be removed"
 msgstr "Verzeichnis %s konnte nicht entfernt werden"
 
-#: tmp/osclass/oc-admin/languages.php:317
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:395
 #, php-format
 msgid "Directory \"%s\" has been successfully removed"
 msgstr "Das Verzeichnis \"%s\" wurde erfolgreich gelöscht"
 
-#: tmp/osclass/oc-admin/languages.php:322
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
 #, php-format
 msgid "Directory '%s' couldn't be removed;)"
 msgstr "Verzeichnis %s konnte nicht entfernt werden"
 
-#: tmp/osclass/oc-admin/languages.php:328
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
 msgstr "Verzeichnis '%s' konnte nicht entfernt werden, da es die Standardsprache ist. <a href=\"%s\">Legen Sie zuerst eine andere Sprache</a> als Standard ein und versuchen Sie es erneut"
 
-#: tmp/osclass/oc-admin/main.php:62
-msgid "You have very few free space left, users will not be able to upload pictures"
-msgstr "Sie habe nur noch sehr wenig Speicherplatz zur Verfügung. Den Benutzern wird es nicht mehr möglich sein Bilder hochzuladen"
-
-#: tmp/osclass/oc-admin/main.php:71
-msgid "Entered an invalid email"
-msgstr "Ungültige E-Mail eingegeben"
-
-#: tmp/osclass/oc-admin/main.php:74
-msgid "You're already subscribed"
-msgstr "Sie haben sich schon eingetragen"
-
-#: tmp/osclass/oc-admin/main.php:77
-msgid "Subscribed correctly"
-msgstr "Erfolgreich eingetragen"
-
-#: tmp/osclass/oc-admin/main.php:80
-msgid "Error subscribing"
-msgstr "Fehler beim Eintragen"
-
-#: tmp/osclass/oc-admin/media.php:51 tmp/osclass/oc-admin/media.php:74
-#: tmp/osclass/oc-admin/items.php:555
-msgid "Resource deleted"
-msgstr "Ressource wurde gelöscht"
-
-#: tmp/osclass/oc-admin/admins.php:30 tmp/osclass/oc-admin/items.php:38
-#: tmp/osclass/oc-includes/osclass/core/AdminSecBaseModel.php:42
-msgid "You don't have enough permissions"
-msgstr "Sie verfügen nicht über ausreichende Rechte"
-
-#: tmp/osclass/oc-admin/admins.php:76 tmp/osclass/oc-admin/admins.php:187
-msgid "Email invalid"
-msgstr "Email ungültig"
-
-#: tmp/osclass/oc-admin/admins.php:80 tmp/osclass/oc-admin/admins.php:191
-msgid "Username invalid"
-msgstr "Benutzer nicht gültig"
-
-#: tmp/osclass/oc-admin/admins.php:84 tmp/osclass/oc-admin/admins.php:195
-msgid "Name invalid"
-msgstr "Name nicht gültig"
-
-#: tmp/osclass/oc-admin/admins.php:88
-msgid "Password invalid"
-msgstr "Passwort nicht gültig"
-
-#: tmp/osclass/oc-admin/admins.php:93
-msgid "Email already in use"
-msgstr "Die Email-Adresse wird bereits genutzt"
-
-#: tmp/osclass/oc-admin/admins.php:98
-msgid "Username already in use"
-msgstr "Benutzername wird bereits genutzt"
-
-#: tmp/osclass/oc-admin/admins.php:108 tmp/osclass/oc-admin/admins.php:238
-msgid "Incorrent current password"
-msgstr "Incorrent aktuelles Passwort"
-
-#: tmp/osclass/oc-admin/admins.php:132
-msgid "The admin has been added"
-msgstr "Administrator wurde hinzugefügt"
-
-#: tmp/osclass/oc-admin/admins.php:134
-msgid "There has been an error adding a new admin"
-msgstr "Es ist ein Fehler beim Hinzufügen eines neuen Admin aufgetreten"
-
-#: tmp/osclass/oc-admin/admins.php:149
-msgid "There is no admin with this id"
-msgstr "Es ist kein Admin mit dieser ID vorhanden"
-
-#: tmp/osclass/oc-admin/admins.php:202
-msgid "This admin doesn't exist"
-msgstr "Admin nicht bekannt"
-
-#: tmp/osclass/oc-admin/admins.php:208
-msgid "Existing email"
-msgstr "Email wird bereits genutzt"
-
-#: tmp/osclass/oc-admin/admins.php:215
-msgid "Existing username"
-msgstr "Benutzername existiert bereits"
-
-#: tmp/osclass/oc-admin/admins.php:227
-msgid "The password couldn't be updated. Passwords don't match"
-msgstr "Passwort konnte nicht aktualisiert werden. Passwort stimmt nicht"
-
-#: tmp/osclass/oc-admin/admins.php:255
-msgid "The admin has been updated"
-msgstr "Admin wurde aktualisiert"
-
-#: tmp/osclass/oc-admin/admins.php:274
-msgid "The admin id isn't in the correct format"
-msgstr "Admin-ID ist nicht im richtigen Format"
-
-#: tmp/osclass/oc-admin/admins.php:280
-msgid "The operation hasn't been completed. You're trying to remove yourself!"
-msgstr "Der Vorgang konnte nicht vollständig abgeschlossen werden. Sie versuchen Ihr eigenes Profil zu löschen."
-
-#: tmp/osclass/oc-admin/admins.php:287
-msgid "The admin has been deleted correctly"
-msgstr "Admin wurde erfolgreich gelöscht"
-
-#: tmp/osclass/oc-admin/admins.php:289
-msgid "The admin couldn't be deleted"
-msgstr "Admin konnte nicht gelöscht werden"
-
-#: tmp/osclass/oc-admin/appearance.php:51
-msgid "The theme folder is not writable"
-msgstr "Layout (theme) Verzeichnis ist nicht beschreibbar"
-
-#: tmp/osclass/oc-admin/appearance.php:54
-msgid "The theme has been installed correctly"
-msgstr "Layout wurde korrekt installiert"
-
-#: tmp/osclass/oc-admin/appearance.php:65
-msgid "There was a problem adding the theme"
-msgstr "Fehler beim Hinzufügen des Layouts"
-
-#: tmp/osclass/oc-admin/appearance.php:86
-msgid "Theme removed successfully"
-msgstr "Theme erfolgreich gelöscht"
-
-#: tmp/osclass/oc-admin/appearance.php:88
-msgid "There was a problem removing the theme"
-msgstr "Es ist ein Problem beim Löschen des Themes aufgetreten"
-
-#: tmp/osclass/oc-admin/appearance.php:91
-msgid "Current theme can not be deleted"
-msgstr "Aktuelles Theme kann nicht gelöscht werden"
-
-#: tmp/osclass/oc-admin/appearance.php:94
-msgid "No theme selected"
-msgstr "Kein Theme ausgewählt"
-
-#: tmp/osclass/oc-admin/appearance.php:123
-msgid "Widget removed correctly"
-msgstr "Widget wurde korrekt entfernt"
-
-#: tmp/osclass/oc-admin/appearance.php:129
-#: tmp/osclass/oc-admin/appearance.php:151
-msgid "Description field is required"
-msgstr "Feld für Beschreibung ist erforderlich"
-
-#: tmp/osclass/oc-admin/appearance.php:142
-msgid "Widget updated correctly"
-msgstr "Widget wurde erfolgreich aktualisiert"
-
-#: tmp/osclass/oc-admin/appearance.php:144
-msgid "Widget cannot be updated correctly"
-msgstr "Widget konnte nicht korrekt aktualisiert werden"
-
-#: tmp/osclass/oc-admin/appearance.php:163
-msgid "Widget added correctly"
-msgstr "Das Widget wurde hinzugefügt"
-
-#: tmp/osclass/oc-admin/appearance.php:170
-msgid "Theme activated correctly"
-msgstr "Layout wurde korrekt aktiviert"
-
-#: tmp/osclass/oc-admin/emails.php:82
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
 msgid "The email/alert has been updated"
 msgstr "Email/Alarm wurde aktualisiert"
 
-#: tmp/osclass/oc-admin/emails.php:85 tmp/osclass/oc-admin/pages.php:102
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
 msgid "You can't repeat internal name"
 msgstr "Name kann nicht wiederholt werden"
 
-#: tmp/osclass/oc-admin/emails.php:87
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
 msgid "The email couldn't be updated, at least one title should not be empty"
 msgstr "Email-Adresse konnte nicht aktualisiert werden, mind. ein Feld muss ausgefüllt werden"
 
-#: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:106
-msgid "Current theme does not support widgets"
-msgstr "Aktuelles Theme unterstützt keine Widgets"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
+msgid "The plugin folder is not writable"
+msgstr "Plugin-Ordner ist nicht beschreibbar"
 
-#: tmp/osclass/oc-admin/items.php:95
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
+msgid "The plugin has been uploaded correctly"
+msgstr "Plugin wurde korrekt hochgeladen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
+msgid "There was a problem adding the plugin"
+msgstr "Plugin konnte nicht hinzugefügt werden"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
 #, php-format
-msgid "%d listing has been deactivated"
-msgstr "%d Angebot wurde deaktiviert"
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
+msgstr "Das Plugin hat %d Zeichen an <strong>unerwartetem Output</strong> während der Installation generiert. Output: \"%s\""
 
-#: tmp/osclass/oc-admin/items.php:289
-msgid "The listing has been deleted"
-msgstr "Das Angebot wurde gelöscht"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
+msgid "Plugin is already installed"
+msgstr "Plugin bereits installiert"
 
-#: tmp/osclass/oc-admin/items.php:291
-msgid "The listing couldn't be deleted"
-msgstr "Das Angebot konnte nicht gelöscht werden"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
+msgid "Plugin couldn't be installed because their files are missing"
+msgstr "Plugin konnte nicht korrekt installiert werden, da Dateien fehlen"
 
-#: tmp/osclass/oc-admin/items.php:320
-msgid "The listing has been activated"
-msgstr "Das Angebot wurde aktiviert"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
+#, php-format
+msgid "Plugin couldn't be installed because of: %s"
+msgstr "Plugin konnte aufgrund %s nicht korrekt installiert werden "
 
-#: tmp/osclass/oc-admin/items.php:322 tmp/osclass/oc-admin/items.php:334
-#: tmp/osclass/oc-admin/items.php:344 tmp/osclass/oc-admin/items.php:354
-#: tmp/osclass/oc-admin/items.php:383 tmp/osclass/oc-admin/items.php:409
-#: tmp/osclass/oc-admin/items.php:553
-msgid "An error has occurred"
-msgstr "Es ist ein Fehler aufgetreten"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
+msgid "Plugin couldn't be installed"
+msgstr "Plugin konnte nicht korrekt installiert werden"
 
-#: tmp/osclass/oc-admin/items.php:324
-msgid "The listing can't be activated because it's blocked"
-msgstr "Das Angebot kann nicht aktiviert werden, weil es geblockt ist"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
+msgid "Plugin installed"
+msgstr "Plugin wurde korrekt installiert"
 
-#: tmp/osclass/oc-admin/items.php:332
-msgid "The listing has been deactivated"
-msgstr "Das Angebot wurde deaktiviert"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
+msgid "Plugin uninstalled"
+msgstr "Plugin wurde korrekt deinstalliert"
 
-#: tmp/osclass/oc-admin/items.php:342
-msgid "The listing has been enabled"
-msgstr "Das Angebot wurde aktiviert"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
+msgid "Plugin couldn't be uninstalled"
+msgstr "Plugin konnte nicht korrekt deinstalliert werden"
 
-#: tmp/osclass/oc-admin/items.php:352
-msgid "The listing has been disabled"
-msgstr "Das Angebot wurde deaktiviert"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
+msgid "Plugin enabled"
+msgstr "Plugin aktiviert"
 
-#: tmp/osclass/oc-admin/items.php:381 tmp/osclass/oc-admin/items.php:407
-msgid "Changes have been applied"
-msgstr "Änderungen wurden bestätigt"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
+msgid "Plugin is already enabled"
+msgstr "Plugin ist bereits aktiviert"
 
-#: tmp/osclass/oc-admin/items.php:433
-msgid "The listing has been unmarked as"
-msgstr "Beim Angebot wurde die Markierung aufgehoben, als"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
+msgid "Plugin disabled"
+msgstr "Plugin wurde deaktiviert"
 
-#: tmp/osclass/oc-admin/items.php:435
-msgid "The listing hasn't been unmarked as"
-msgstr "Beim Angebot wurde die Markierung nicht entfernt, als"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
+msgid "Plugin is already disabled"
+msgstr "Plugin ist bereits deaktiviert"
 
-#: tmp/osclass/oc-admin/items.php:522
-msgid "Changes saved correctly"
-msgstr "Änderungen wurden erfolgreich gespeichert"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
+msgid "Configuration was saved"
+msgstr "Konfiguration wurde gespeichert"
 
-#: tmp/osclass/oc-admin/items.php:604
-msgid "A new listing has been added"
-msgstr "Ein neues Angebot wurde hinzugefügt"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
+msgid "No plugin selected"
+msgstr "Es wurde kein Plugin ausgewählt"
 
-#: tmp/osclass/oc-admin/items.php:653
-msgid "Wait time must only contain numeric characters"
-msgstr "Wartezeit darf nur numerische Zeichen enthalten"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
+msgid "The files were deleted"
+msgstr "Die Dateien wurden gelöscht"
 
-#: tmp/osclass/oc-admin/items.php:656
-msgid "Number of moderated listings must only contain numeric characters"
-msgstr "Anzahl der moderierten Angebote darf nur numerische Zeichen enthalten"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
+#, php-format
+msgid "There were an error deleting the files, please check the permissions of the files in %s"
+msgstr "Fehler beim Löschen der Dateien. Bitte prüfen Sie die Berechtigungen der Dateien in %s"
 
-#: tmp/osclass/oc-admin/items.php:659
-msgid "Images per listing must only contain numeric characters"
-msgstr "Anzahl der Bilder pro Angebot darf nur aus numerischen Zeichen bestehen"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
+msgid "Invalid plugin file"
+msgstr "Ungültige Plugin-Datei"
 
-#: tmp/osclass/oc-admin/items.php:662
-msgid "Number of expiration days has to be a numeric value"
-msgstr "Die Anzahl der Tage bis zum Ablauf der Anzeige muss eine numerische Zahl sein!"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
+msgid "The username field is empty"
+msgstr "Benutzername wurde nicht eingetragen"
 
-#: tmp/osclass/oc-admin/items.php:665
-msgid "Title Length has to be a numeric value"
-msgstr "Die Länge des Titels muss als Zahl angegeben werden"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
+msgid "The password field is empty"
+msgstr "Passwort wurde nicht eingetragen"
 
-#: tmp/osclass/oc-admin/items.php:668
-msgid "Description Length has to be a numeric value"
-msgstr "Die Länge der Beschreibung muss als Zahl angegeben werden"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
+#, php-format
+msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "Benutzername nicht korrekt. <a href=\\\"%s\\\">Benutzername vergessen?</a>"
 
-#: tmp/osclass/oc-admin/items.php:699
-msgid "Listings' settings have been updated"
-msgstr "Angebotseinstellungen wurden aktualisiert"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
+#, php-format
+msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "Passwort nicht korrekt. <a href=\\\"%s\\\">Passwort vergessen?</a>"
 
-#: tmp/osclass/oc-admin/pages.php:77 tmp/osclass/oc-admin/pages.php:142
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
+msgid "The reCAPTCHA code is wrong"
+msgstr "Das reCAPTCHA ist falsch"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
+msgid "A new password has been sent to your e-mail"
+msgstr "Ein neues Passwort wurde an Ihre Email-Adresse versandt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:271
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:319
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
+msgid "Sorry, the link is not valid"
+msgstr "Dieser Link ist ungültig"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:309
+msgid "The password has been changed"
+msgstr "Passwort wurde geändert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
+msgid "Error, the passwords don't match"
+msgstr "Fehler, die Passwörter stimmen nicht überein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
+msgid "The theme folder is not writable"
+msgstr "Layout (theme) Verzeichnis ist nicht beschreibbar"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
+msgid "The theme has been installed correctly"
+msgstr "Layout wurde korrekt installiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
+msgid "There was a problem adding the theme"
+msgstr "Fehler beim Hinzufügen des Layouts"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
+msgid "Theme removed successfully"
+msgstr "Theme erfolgreich gelöscht"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
+msgid "There was a problem removing the theme"
+msgstr "Es ist ein Problem beim Löschen des Themes aufgetreten"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
+msgid "Current theme can not be deleted"
+msgstr "Aktuelles Theme kann nicht gelöscht werden"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
+msgid "No theme selected"
+msgstr "Kein Theme ausgewählt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
+msgid "Widget removed correctly"
+msgstr "Widget wurde korrekt entfernt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
+msgid "Description field is required"
+msgstr "Feld für Beschreibung ist erforderlich"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
+msgid "Widget updated correctly"
+msgstr "Widget wurde erfolgreich aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
+msgid "Widget cannot be updated correctly"
+msgstr "Widget konnte nicht korrekt aktualisiert werden"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
+msgid "Widget added correctly"
+msgstr "Das Widget wurde hinzugefügt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
+msgid "Theme activated correctly"
+msgstr "Layout wurde korrekt aktiviert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
+msgid "You have very few free space left, users will not be able to upload pictures"
+msgstr "Sie habe nur noch sehr wenig Speicherplatz zur Verfügung. Den Benutzern wird es nicht mehr möglich sein Bilder hochzuladen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
+msgid "Entered an invalid email"
+msgstr "Ungültige E-Mail eingegeben"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
+msgid "You're already subscribed"
+msgstr "Sie haben sich schon eingetragen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
+msgid "Subscribed correctly"
+msgstr "Erfolgreich eingetragen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
+msgid "Error subscribing"
+msgstr "Fehler beim Eintragen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
 msgid "You have to set an internal name"
 msgstr "Bitte interner Namen festlegen"
 
-#: tmp/osclass/oc-admin/pages.php:82 tmp/osclass/oc-admin/pages.php:147
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
 msgid "You have to set a different internal name"
 msgstr "Bitte geben Sie einen anderen internen Namen ein"
 
-#: tmp/osclass/oc-admin/pages.php:99
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
 msgid "The page has been updated"
 msgstr "Website wurde aktualisiert"
 
-#: tmp/osclass/oc-admin/pages.php:104
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
 msgid "The page couldn't be updated, at least one title should not be empty"
 msgstr "Die Seite konnte nicht aktualisiert werden, mind. ein Feld muss ausgefüllt werden"
 
-#: tmp/osclass/oc-admin/pages.php:158
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
 msgid "The page has been added"
 msgstr "Seite wurde hinzugefügt"
 
-#: tmp/osclass/oc-admin/pages.php:161
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
 msgid "The page couldn't be added, at least one title should not be empty"
 msgstr "Die Seite konnte nicht hinzugefügt werden, mind. ein Feld muss ausgefüllt werden"
 
-#: tmp/osclass/oc-admin/pages.php:164
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
 msgid "Oops! That internal name is already in use. We can't make the changes"
 msgstr "Huch! Der interne Name wird schon benutzt. Wir können die Änderungen nicht ausführen"
 
-#: tmp/osclass/oc-admin/pages.php:195
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
 msgid "One page can't be deleted because it is indelible"
 msgstr "Eine Seite kann nicht gelöscht werden, da Sie unabdingbar ist."
 
-#: tmp/osclass/oc-admin/pages.php:197
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
 #, php-format
 msgid "%s pages couldn't be deleted because they are indelible"
 msgstr "%s Seiten konnten nicht gelöscht werden, weil sie unlöschbar sind"
 
-#: tmp/osclass/oc-admin/pages.php:202
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
 msgid "One page couldn't be deleted"
 msgstr "Eine Seite konnte nicht gelöscht werden"
 
-#: tmp/osclass/oc-admin/pages.php:204
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
 #, php-format
 msgid "%s pages couldn't be deleted"
 msgstr "%s Seiten konnten nicht gelöscht werden"
 
-#: tmp/osclass/oc-admin/pages.php:209
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
 msgid "One page has been deleted correctly"
 msgstr "Eine Seite wurde korrekt gelöscht"
 
-#: tmp/osclass/oc-admin/pages.php:211
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
 #, php-format
 msgid "%s pages have been deleted correctly"
 msgstr "%s Seiten wurden erfolgreich gelöscht"
 
-#: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:556
-msgid "Osclass has been updated successfully. <a href=\"https://github.com/navjottomer/osclass\">Need more help?</a>"
-msgstr "Osclass wurde erfolgreich aktualisiert. <a href=\"https://github.com/navjottomer/osclass\">Brauchen Sie mehr Hilfe?</a>"
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
+msgid "Import complete"
+msgstr "Import vollständig"
 
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:30
-#: tmp/osclass/oc-includes/osclass/controller/login.php:30
-#: tmp/osclass/oc-includes/osclass/controller/user.php:30
-#: tmp/osclass/oc-includes/osclass/controller/register.php:31
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
+msgid "There was a problem importing data to the database"
+msgstr "Fehler beim Import der Daten in die Datenbank"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
+msgid "Recount category stats has been successful"
+msgstr "Zählung Kategorie-Stats war erfolgreich"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
+msgid "Path is empty"
+msgstr "Pfad ist leer"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
+#, php-format
+msgid "Could not connect with the database. Error: %s"
+msgstr "Fehler beim Verbinden mit der Datenbank: %s"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:182
+msgid "There are no tables to back up"
+msgstr "Es gibt keine Tabellen für einen Backup"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:186
+msgid "The folder is not writable"
+msgstr "Ordner ist nicht beschreibbar"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:190
+msgid "Backup completed successfully"
+msgstr "Backup erfolgreich abgeschlossen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:178
+#, php-format
+msgid "Could not select the database. Error: %s"
+msgstr "Fehler beim Auswählen der Datenbank: %s"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:216
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:254
+msgid "Archived successfully!"
+msgstr "Erfolgreich archiviert!"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:231
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:257
+msgid "Error, the zip file was not created in the specified directory"
+msgstr "Fehler, die ZIP-Datei wurde nicht im festgelegten Verzeichnis erstellt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:274
+msgid "Maintenance mode is ON"
+msgstr "Wartungsmodus ist aktiviert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:277
+msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
+msgstr "Es ist ein Fehler beim Erstellen der .maintenance-Datei aufgetreten. Bitte erstellen Sie diese manuell im Root-Verzeichnis"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:287
+msgid "Maintenance mode is OFF"
+msgstr "Wartungsmodus ist ausgeschaltet"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:290
+msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
+msgstr "Es ist ein Fehler beim Löschen der .maintenance-Datei aufgetreten. Bitte entfernen Sie diese manuell aus dem Root-Verzeichnis"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
+msgid "There was a problem uploading the watermark image"
+msgstr "Es gab ein Problem beim Hochladen vom Wasserzeichen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
+msgid "The watermark image has to be a .PNG file"
+msgstr "Das Bild des Wasserzeichens muss eine .png-Datei sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
+#, php-format
+msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
+msgstr "Die maximale Dateigröße darf nicht höher sein, als in der PHP Konfiguration angegeben: <b>%d KB</b>"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
+msgid "Media config has been updated"
+msgstr "Media Config wurde erfolgreich aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
+msgid "Re-generation complete"
+msgstr "Re-Generation vollständig"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
+#, php-format
+msgid "%s already was in the database"
+msgstr "%s besteht bereits in der Datenbank"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#, php-format
+msgid "%s has been added as a new country"
+msgstr "%s wurde als neues Land hinzugefügt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
+msgid "Country name cannot be blank"
+msgstr "Ländername darf nicht leer sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
+msgid "Country has been edited"
+msgstr "Land wurde geändert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
+msgid "There were some problems editing the country"
+msgstr "Fehler beim Ändern des Landes"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
+msgid "There was a problem deleting locations"
+msgstr "Es ist ein Fehler beim Löschen von Standorten aufgetreten"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
+msgid "No country was selected"
+msgstr "Es wurde kein Land ausgewählt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
+msgid "Region name cannot be blank"
+msgstr "Bundesland darf nicht leer sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#, php-format
+msgid "%s has been added as a new region"
+msgstr "Bundesland %s wurde hinzugefügt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#, php-format
+msgid "%s has been edited"
+msgstr "%s wurde geändert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
+msgid "No region was selected"
+msgstr "Es wurde kein Bunesland ausgewählt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
+msgid "New city name cannot be blank"
+msgstr "Neue Stadt darf nicht leer sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#, php-format
+msgid "%s has been added as a new city"
+msgstr "%s wurde als neue Stadt hinzugefügt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
+msgid "City name cannot be blank"
+msgstr "Stadtname darf nicht leer sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
+msgid "No city was selected"
+msgstr "Es wurde keine Stadt ausgewählt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
+msgid "Location imported successfully"
+msgstr "Standort erfolgreich importiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
+msgid "There was a problem importing the selected location"
+msgstr "Beim Importieren des ausgewählten Standortes ist ein Problem aufgetreten"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
+msgid "Your Akismet key has been cleared"
+msgstr "Ihr Akismet Passwort wurde gelöscht"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
+msgid "Your Akismet key has been updated"
+msgstr "Ihr Akismet Passwort wurde aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
+msgid "Your reCAPTCHA key has been cleared"
+msgstr "Ihr reCAPTCHA Passwort wurde gelöscht"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
+msgid "Your reCAPTCHA key has been updated"
+msgstr "Ihr reCAPTCHA Passwort wurde aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
+msgid "Advanced settings have been updated"
+msgstr "Die fortgeschrittenen Einstellungen wurden aktualisiert!"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
+msgid "Cache flushed correctly"
+msgstr "Der Cache wurde erfolgreich geleert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
+msgid "The currency code is not in the correct format"
+msgstr "Der Währungscode hat nicht das korrekte Format"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
+msgid "Currency added"
+msgstr "Währung wurde hinzugefügt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
+msgid "Currency couldn't be added"
+msgstr "Währung konnte nicht hinzugefügt werden"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
+#, php-format
+msgid "The currency code '%s' doesn't exist"
+msgstr "Der Währungscode '%s' ist nicht bekannt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
+msgid "Error: the currency code is not in the correct format"
+msgstr "Achtung! Der Währungs-Code hat nicht das korrekte Format"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
+msgid "Currency updated"
+msgstr "Währung wurde erfolgreich aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
+msgid "No changes were made"
+msgstr "Es wurden keine Änderungen vorgenommen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
+#, php-format
+msgid "%s couldn't be deleted because it has listings associated to it"
+msgstr "%s konnte nicht gelöscht werden weil Angebote daran verknüpft sind"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
+#, php-format
+msgid "%s couldn't be deleted because it's the default currency"
+msgstr "%s konnte nicht gelöscht werden weil es die Standardwährung ist"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
+msgid "No currencies have been deleted"
+msgstr "Es wurden keine Währungen gelöscht"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
+msgid "One currency has been deleted"
+msgstr "Eine Währung wurde gelöscht"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
+#, php-format
+msgid "%s currencies have been deleted"
+msgstr "%s Währungen wurden gelöscht"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
+msgid "Custom number could not be left empty"
+msgstr "Benutzerdefinierte Nummer kann nicht freigelassen werden"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
+msgid "Last search settings have been updated"
+msgstr "Last search Einstellungen wurden aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
+msgid "Last check"
+msgstr "Letzte Überprüfung"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:95
+msgid "Page title field is required"
+msgstr "Feld für Titel (Seite) ist erforderlich"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:98
+msgid "Contact email field is required"
+msgstr "Feld für Kontakt-Email ist erforderlich"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:101
+msgid "Number of listings in the RSS has to be a numeric value"
+msgstr "Anzahl der Angebote im RSS muss ein numerischer Wert sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:104
+msgid "Max latest listings has to be a numeric value"
+msgstr "Max neueste Angebote muss ein numerischer Wert sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:107
+msgid "Number of listings on search has to be a numeric value"
+msgstr "Anzahl der Angebote in der Suche muss ein numerischer Wert sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:133
+msgid "Number of listings in the RSS must be an integer"
+msgstr "Anzahl der Angebote im RSS muss eine ganze Zahl sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:142
+msgid "Number of recent listings displayed at home must be an integer"
+msgstr "Anzahl der neuesten Angebote auf der Startseite muss eine ganze Zahl sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:156
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
+msgid "General settings have been updated"
+msgstr "Allgemeine Einstellungen wurden aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
+msgid "Number of moderate comments must only contain numeric characters"
+msgstr "Anzahl der moderierten Kommentare darf nur aus numerischen Zeichen bestehen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
+msgid "Comments per page must only contain numeric characters"
+msgstr "Kommentare pro Seite darf nur aus numerischen Zeichen bestehen"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
+msgid "Comment settings have been updated"
+msgstr "Kommentareinstellungen wurden aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
+msgid "All fields are required."
+msgstr "Alle Felder sind erforderlich."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
+msgid "Permalinks structure updated"
+msgstr "Permalink Struktur aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
+msgid "Permalinks structure updated."
+msgstr "Permalinks-Struktur wurde aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
+msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
+msgstr "Wir können nicht überprüfen ob das Apache Modul <b>mod_rewrite</b> geladen wurde. Wenn Sie Probleme mit URLs haben, sollten Sie <em>Friendly URLs</em> deaktivieren"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
+msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
+msgstr "Die Datei <b>.htaccess</b> konnte nicht mit dem richtigen Inhalt gefüllt werden."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Hier ist der Inhalt den Sie zur <b>.htaccess</b> Datei hinzufügen müssen. Wenn Sie die Datei nicht erstellen können, deaktieren Sie bitte die <em>Friendly URLs</em> Option."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Hier ist der Inhalt den Sie zur <b>.htaccess</b> Datei hinzufügen müssen. Wenn Sie die Datei nicht erstellen können oder Fehler mit URLs auftreten, deaktieren Sie bitte die <em>Friendly URLs</em> Option."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
+msgid "File <b>.htaccess</b> already exists and was not modified."
+msgstr "Die Datei <b>.htaccess</b>  existiert bereits und wurde nicht modifiziert."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Folgender Code muss in die Datei <b>.htaccess</b> eingefügt werden. Sollten Probleme beim Bearbeiten der Datei auftreten, deaktivieren Sie bitte <em>SEO-freundliche URLs</em>."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
+msgid "Friendly URLs successfully deactivated"
+msgstr "Friendly URLs erfolgreich deaktiviert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
+msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
+msgstr "SEO-freundliche URLs sind deaktiviert, jedoch existiert eine modifizierte .htaccess Datei außerhalb von Osclass, die noch nicht gelöscht werden konnte. Bitte löschen Sie diese manuell! "
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
+msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
+msgstr "SEO-freundliche URLs wurden deaktiviert, jedoch existiert eine modifizierte .htaccess Datei außerhalb von Osclass, die noch nicht gelöscht wurde!"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
+msgid "Mail server type is incorrect"
+msgstr "Mail Server Typ ist nicht korrekt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
+msgid "Mail server configuration has changed"
+msgstr "Mail Server Konfiguration hat sich geändert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
+msgid "Email invalid"
+msgstr "Email ungültig"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
+msgid "Username invalid"
+msgstr "Benutzer nicht gültig"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
+msgid "Name invalid"
+msgstr "Name nicht gültig"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
+msgid "Password invalid"
+msgstr "Passwort nicht gültig"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
+msgid "Email already in use"
+msgstr "Die Email-Adresse wird bereits genutzt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
+msgid "Username already in use"
+msgstr "Benutzername wird bereits genutzt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
+msgid "Incorrent current password"
+msgstr "Incorrent aktuelles Passwort"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
+msgid "The admin has been added"
+msgstr "Administrator wurde hinzugefügt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
+msgid "There has been an error adding a new admin"
+msgstr "Es ist ein Fehler beim Hinzufügen eines neuen Admin aufgetreten"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
+msgid "There is no admin with this id"
+msgstr "Es ist kein Admin mit dieser ID vorhanden"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
+msgid "This admin doesn't exist"
+msgstr "Admin nicht bekannt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
+msgid "Existing email"
+msgstr "Email wird bereits genutzt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
+msgid "Existing username"
+msgstr "Benutzername existiert bereits"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
+msgid "The password couldn't be updated. Passwords don't match"
+msgstr "Passwort konnte nicht aktualisiert werden. Passwort stimmt nicht"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
+msgid "The admin has been updated"
+msgstr "Admin wurde aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
+msgid "The admin id isn't in the correct format"
+msgstr "Admin-ID ist nicht im richtigen Format"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
+msgid "The operation hasn't been completed. You're trying to remove yourself!"
+msgstr "Der Vorgang konnte nicht vollständig abgeschlossen werden. Sie versuchen Ihr eigenes Profil zu löschen."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
+msgid "The admin has been deleted correctly"
+msgstr "Admin wurde erfolgreich gelöscht"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
+msgid "The admin couldn't be deleted"
+msgstr "Admin konnte nicht gelöscht werden"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
+msgid "The user has been created. We've sent an activation e-mail"
+msgstr "Der Benutzer wurde korrekt erstellt. Wir haben Ihnen einen Aktivierungs-Link zugesandt."
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
+msgid "The user has been created successfully"
+msgstr "Benutzer wurde erfolgreich eingerichtet"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
+msgid "The user has been updated"
+msgstr "Benutzer wurde aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
+msgid "The user has been updated and activated"
+msgstr "Benutzer wurde aktualisiert und aktiviert "
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:229
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:255
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:281
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:306
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:625
+msgid "User id isn't in the correct format"
+msgstr "Benutzer-ID hat nicht das korrekt Format"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:186
+msgid "No users have been selected"
+msgstr "Es wurden keine Benutzer ausgewählt"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
+msgid "No users have been activated"
+msgstr "Es wurden keine Benutzer aktiviert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
+msgid "No users have been deactivated"
+msgstr "Es wurden keine Benutzer deaktiviert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
+msgid "No users have been enabled"
+msgstr "Es wurden keine Benutzer aktiviert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
+msgid "No users have been disabled"
+msgstr "Es wurden keine Benutzer deaktiviert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
+msgid "No users have been deleted"
+msgstr "Es wurden keine Benutzer gelöscht"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
+msgid "Alert id isn't in the correct format"
+msgstr "Benachrichtigungs-ID hat nicht das korrekte Format"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
+msgid "No alerts have been deleted"
+msgstr "Es wurden keine Benachrichtigungen gelöscht"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
+msgid "No alerts have been activated"
+msgstr "Es wurden keine Benachrichtigungen aktiviert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
+msgid "No alerts have been deactivated"
+msgstr "Es wurden keine Benachrichtigungen deaktiviert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
+msgid "User settings have been updated"
+msgstr "Benutzereinstellungen wurden aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
+msgid "Both rules can not be empty"
+msgstr "Beide Regeln können nicht leer sein"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
+msgid "Rule updated correctly"
+msgstr "Regel erfolgreich aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
+msgid "Rule saved correctly"
+msgstr "Regel erfolgreich gespeichert"
+
+#: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
+msgid "No rules have been deleted"
+msgstr "Es wurden keine Regeln gelöscht"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:39
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:39
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:40
 msgid "Users not enabled"
 msgstr "Benutzer nicht aktiviert"
 
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:61
-msgid "Your email has been changed successfully"
-msgstr "Ihre Email-Adresse wurde erfolgreich geändert"
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:103
+msgid "Your profile has been updated successfully"
+msgstr "Profil wurde erfolgreich aktualisiert"
 
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:88
-#: tmp/osclass/oc-includes/osclass/controller/user.php:235
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:138
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:88
+msgid "The specified e-mail is already in use"
+msgstr "Die Email-Adresse wird bereits benutzt"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:170
+msgid "The specified e-mail is not valid"
+msgstr "Die angegebene Email-Adresse ist nicht gültig"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:188
+msgid "The specified username is already in use"
+msgstr "Der gewählte Benutzername wird schon verwendet"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:190
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:99
+msgid "The specified username is not valid, it contains some invalid words"
+msgstr "Der gewählte Benutzername ist nicht gültig. Er enhält ungültige Wörter"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:196
+msgid "The username was updated"
+msgstr "Der Benutzername wurde aktualisiert"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:205
+msgid "The specified username could not be empty"
+msgstr "Der Benutzername darf nicht leer sein"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:221
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:280
+msgid "Password cannot be blank"
+msgstr "Passwort darf nicht aus Leerzeichen bestehen"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:230
+msgid "Current password doesn't match"
+msgstr "Derzeitiges Passwort stimmt nicht"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:235
+msgid "Passwords can't be empty"
+msgstr "Passwortfeld darf nicht leer sein"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:242
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:69
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:307
+msgid "Passwords don't match"
+msgstr "Passwörter stimmen nicht überein"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:257
+msgid "Password has been changed"
+msgstr "Passwort wurde geändert"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:296
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
 msgid "Alert activated"
 msgstr "Alert aktiviert"
 
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:90
-#: tmp/osclass/oc-includes/osclass/controller/user.php:237
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:298
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
 msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
 msgstr "Huch! Es ist ein Problem beim Aktivieren Ihrer Benachrichtigung aufgetreten. Bitte kontaktieren Sie einen Administrator"
 
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:107
-#: tmp/osclass/oc-includes/osclass/controller/user.php:254
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:317
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
 msgid "Unsubscribed correctly"
 msgstr "Alert-Versand wurde erfolgreich eingestellt"
 
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:109
-#: tmp/osclass/oc-includes/osclass/controller/user.php:256
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:319
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
 msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
 msgstr "Huch! Es ist ein Problem beim Austragen aufgetreten. Bitte kontaktieren Sie einen Administrator"
 
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:165
-#: tmp/osclass/oc-includes/osclass/controller/item.php:123
-#: tmp/osclass/oc-includes/osclass/controller/item.php:232
-#: tmp/osclass/oc-includes/osclass/controller/item.php:402
-#: tmp/osclass/oc-includes/osclass/controller/item.php:454
-#: tmp/osclass/oc-includes/osclass/controller/contact.php:45
-msgid "The Recaptcha code is wrong"
-msgstr "Der reCaptcha-Code ist nicht korrekt"
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:349
+msgid "Your account have been deleted"
+msgstr "Ihr Account wurde gelöscht"
 
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:176
-#: tmp/osclass/oc-includes/osclass/controller/item.php:143
-#: tmp/osclass/oc-includes/osclass/controller/item.php:466
-#: tmp/osclass/oc-includes/osclass/controller/login.php:95
-#: tmp/osclass/oc-includes/osclass/controller/contact.php:57
-#: tmp/osclass/oc-includes/osclass/controller/contact.php:66
-#: tmp/osclass/oc-includes/osclass/controller/register.php:63
-msgid "Your current email is not allowed"
-msgstr "Ihre aktuelle E-Mail ist nicht zugelassen"
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:352
+#: tmp/oc-includes/osclass/classes/controller/CWebUser.php:356
+msgid "Oops! you can not do that"
+msgstr "Huch! Das können Sie nicht tun"
 
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:179
-#: tmp/osclass/oc-includes/osclass/controller/item.php:146
-#: tmp/osclass/oc-includes/osclass/controller/item.php:469
-#: tmp/osclass/oc-includes/osclass/controller/login.php:98
-#: tmp/osclass/oc-includes/osclass/controller/contact.php:60
-#: tmp/osclass/oc-includes/osclass/controller/register.php:66
-msgid "Your current IP is not allowed"
-msgstr "Ihre aktuelle IP ist nicht zugelassen"
-
-#: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:184
-msgid "Your email has been sent properly."
-msgstr "Ihre Mail wurde erfolgreich gesendet."
-
-#: tmp/osclass/oc-includes/osclass/controller/item.php:52
-#: tmp/osclass/oc-includes/osclass/controller/item.php:117
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:72
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:140
 msgid "Only registered users are allowed to post listings"
 msgstr "Nur registrierten Benutzern ist es erlaubt Angebote zu posten"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:136
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:147
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:272
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:476
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:535
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:57
+msgid "The Recaptcha code is wrong"
+msgstr "Der reCaptcha-Code ist nicht korrekt"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:160
 msgid "A user with that email address already exists, if it is you, please log in"
 msgstr "Es ist bereits ein Benutzer mit dieser E-Mailadresse vorhanden. Sollten es sich um Sie handeln, loggen Sie sich bitte ein "
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:164
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:167
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:550
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:111
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:72
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:69
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:81
+msgid "Your current email is not allowed"
+msgstr "Ihre aktuelle E-Mail ist nicht zugelassen"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:170
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:553
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:114
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:75
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:72
+msgid "Your current IP is not allowed"
+msgstr "Ihre aktuelle IP ist nicht zugelassen"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:188
 msgid "Check your inbox to validate your listing"
 msgstr "Überprüfen Sie Ihren Posteingang um Ihr Angebot zu bestätigen"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:166
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:190
+msgid "Your listing will be published after an admin approves it."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:192
 msgid "Your listing has been published"
 msgstr "Ihre Anzeige wurde veröffentlicht"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:195
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:228
 msgid "Sorry, we don't have any listings with that ID"
 msgstr "Entschuldigung, es sind keine Angebote mit dieser ID vorhanden"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:247
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:288
+msgid "Your listing will be published after an admin approves the changes."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:290
 msgid "Great! We've just updated your listing"
 msgstr "Toll! Wir haben Ihr Angebot aktualisiert"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:274
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:328
 msgid "The listing has been validated"
 msgstr "Das Angebot wurde bestätigt"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:276
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:330
 msgid "The listing can't be validated"
 msgstr "Das Angebot kann nicht bestätigt werden"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:279
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:333
 msgid "The listing has already been validated"
 msgstr "Das Angebot wurde schon bestätigt"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:292
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:352
 msgid "Your listing has been deleted"
 msgstr "Ihre Anzeige wurde gelöscht"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:294
-#: tmp/osclass/oc-includes/osclass/controller/item.php:302
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:354
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:362
 msgid "The listing you are trying to delete couldn't be deleted"
 msgstr "Die Anzeige konnte nicht gelöscht werden"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:321
-#: tmp/osclass/oc-includes/osclass/controller/ajax.php:110
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:383
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:128
 msgid "The selected photo couldn't be deleted, the url doesn't exist"
 msgstr "Das ausgewählte Foto konnte nicht gelöscht werden, da URL nicht bekannt"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:327
-#: tmp/osclass/oc-includes/osclass/controller/ajax.php:123
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:389
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:140
 msgid "The listing doesn't exist"
 msgstr "Diese Anzeige existiert nicht"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:333
-#: tmp/osclass/oc-includes/osclass/controller/item.php:338
-#: tmp/osclass/oc-includes/osclass/controller/ajax.php:132
-#: tmp/osclass/oc-includes/osclass/controller/ajax.php:140
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:395
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:402
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:150
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:161
 msgid "The listing doesn't belong to you"
 msgstr "Diese Anzeige gehört nicht Ihnen"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:352
-#: tmp/osclass/oc-includes/osclass/controller/ajax.php:94
-#: tmp/osclass/oc-includes/osclass/controller/ajax.php:163
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:427
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:107
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:203
 msgid "The selected photo has been successfully deleted"
 msgstr "Das ausgewählte Foto wurde gelöscht"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:354
-#: tmp/osclass/oc-includes/osclass/controller/ajax.php:166
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:429
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:206
 msgid "The selected photo does not belong to you"
 msgstr "Sie sind nicht der Besitzer des ausgewählten Fotos"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:357
-#: tmp/osclass/oc-includes/osclass/controller/ajax.php:170
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:432
+#: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:210
 msgid "The selected photo couldn't be deleted"
 msgstr "Das ausgewählte Foto konnte nicht gelöscht werden"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:379
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:454
 msgid "Thanks! That's very helpful"
 msgstr "Danke! Das ist sehr hilfreich."
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:425
-#: tmp/osclass/oc-includes/osclass/controller/item.php:546
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:499
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:641
 msgid "This listing doesn't exist"
 msgstr "Diese Anzeige existiert nicht"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:431
-#: tmp/osclass/oc-includes/osclass/controller/item.php:474
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:506
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:559
 msgid "We're sorry, but the listing has expired. You can't contact the seller"
 msgstr "Es tut uns leid, aber die Anzeige ist abgelaufen. Sie können den Anbieter nicht kontaktieren"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:438
-#: tmp/osclass/oc-includes/osclass/controller/item.php:446
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:516
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:528
 msgid "You can't contact the seller, only registered users can"
 msgstr "Nur registrierte Benutzer können den Anbieter kontaktieren"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:438
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:518
 #, php-format
 msgid "<a href=\"%s\">Click here to sign-in</a>"
 msgstr "<a href=\"%s\">Klicke hier, um dich anzumelden</a>"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:487
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:573
 msgid "We've just sent an e-mail to the seller"
 msgstr "Soeben wurde eine Email an den Anbieter versandt."
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:504
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:591
 msgid "Sorry, we could not save your comment. Try again later"
 msgstr "Uups, Ihr Kommentar konnte nicht gespeichert werden. Bitte versuchen Sie es später noch einmal."
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:507
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:595
 msgid "Your comment is awaiting moderation"
 msgstr "Kommentar wird in Kürze freigeschaltet"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:510
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:599
 msgid "Your comment has been approved"
 msgstr "Kommentar wurde freigeschaltet"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:513
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:603
 msgid "Please fill the required field (email)"
 msgstr "Bitte füllen Sie das benötigte Feld aus (Email)"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:516
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:607
 msgid "Please type a comment"
 msgstr "Bitte schreiben Sie einen Kommentar"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:519
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:611
 msgid "Your comment has been marked as spam"
 msgstr "Kommentar wurde als Spam markiert"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:522
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:615
 msgid "You need to be logged to comment"
 msgstr "Sie müssen eingeloggt sein, um Kommentare zu veröffentlichen"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:525
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:619
 msgid "Sorry, comments are disabled"
 msgstr "Die Kommentarfunktion ist derzeit deaktiviert"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:553
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:648
 msgid "You must be logged in to delete a comment"
 msgstr "Sie müssen angemeldet sein, um einen Kommentar zu löschen"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:561
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:656
 msgid "The comment doesn't exist"
 msgstr "Kommentar nicht bekannt"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:566
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:661
 msgid "The comment is not active, you cannot delete it"
 msgstr "Kommentar ist nicht aktiviert und kann daher nicht gelöscht werden"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:571
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:666
 msgid "The comment was not added by you, you cannot delete it"
 msgstr "Sie können nur Kommentare löschen, die Sie selbst verfasst haben"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:599
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:702
 msgid "The listing hasn't been validated. Please validate it in order to make it public"
 msgstr "Das Angebot wurde nicht bestätigt. Bitte bestätigen Sie es, damit es veröffentlicht werden kann"
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:606
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:712
 msgid "The listing hasn't been enabled. Please enable it in order to make it public"
 msgstr "Diese Anzeige wurde noch nicht freigeschalten. Bitte schalten Sie sie frei, um sie öffentlich zugänglich zu machen."
 
-#: tmp/osclass/oc-includes/osclass/controller/item.php:608
+#: tmp/oc-includes/osclass/classes/controller/CWebItem.php:718
 msgid "The listing has been blocked or is awaiting moderation from the admin"
 msgstr "Die Anzeige wurde gesperrt oder muss von einem Administrator geprüft werden"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:42
-#: tmp/osclass/oc-includes/osclass/controller/register.php:55
+#: tmp/oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:70
+msgid "Thank you very much for your donation"
+msgstr "Vielen Dank für Ihre Spende"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:51
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:64
 msgid "Users are not enabled"
 msgstr "Benutzer sind deaktiviert"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:53
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:62
 msgid "Please provide an email address"
 msgstr "Bitte geben Sie eine Mail-Adresse an"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:57
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:66
 msgid "Empty passwords are not allowed. Please provide a password"
 msgstr "Leere Passwörter sind nicht erlaubt. Bitte geben Sie ein Passwort ein"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:71
-#: tmp/osclass/oc-includes/osclass/controller/login.php:136
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:80
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:157
 msgid "The user doesn't exist"
 msgstr "Benutzer nicht bekannt"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:75
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:104
 msgid "The password is incorrect"
 msgstr "Passwort nicht korrekt"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:139
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:161
 #, php-format
 msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
 msgstr "Der Benutzer wurde noch nicht verifiziert. Möchten Sie die <a href=\"%s\">Aktivierungs-Mail</a> erneut senden?"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:141
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:165
 msgid "The user has not been validated yet"
 msgstr "Benutzer wurde noch nicht bestätigt"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:144
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:168
 msgid "The user has been suspended"
 msgstr "Benutzer wurde gesperrt"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:172
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:197
 msgid "This should never happen"
 msgstr "Das darf nicht passieren"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:186
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:213
 msgid "Incorrect link"
 msgstr "Ungültiger Link"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:197
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:227
 msgid "Validation email re-sent"
 msgstr "Die Verifizierungs-Mail wurde erneut gesendet"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:199
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:229
 msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
 msgstr "Wir haben Ihnen gerade eine Mail gesendet um Ihr Konto zu verifizieren. Sie müssen einige Minuten warten, um den Vorgang zu wiederholen"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:212
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:243
 msgid "Invalid email address"
 msgstr "Ungültige Email-Adresse"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:221
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:252
 msgid "We have sent you an email with the instructions to reset your password"
 msgstr "Es wurde Ihnen eine Email zugesandt, mit dem Sie Ihr Passwort zurücksetzen können"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:225
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:256
 msgid "We were not able to identify you given the information provided"
 msgstr "Ihre Angaben ermöglichten keine Identifizierung"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:229
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:260
 msgid "The recaptcha code is wrong"
 msgstr "Captcha-Code ist nicht korrekt"
 
-#: tmp/osclass/oc-includes/osclass/controller/login.php:246
-#: tmp/osclass/oc-includes/osclass/controller/user.php:183
-msgid "Password cannot be blank"
-msgstr "Passwort darf nicht aus Leerzeichen bestehen"
-
-#: tmp/osclass/oc-includes/osclass/controller/login.php:263
+#: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:312
 msgid "Error, the password don't match"
 msgstr "Passwort nicht korrekt"
 
-#: tmp/osclass/oc-includes/osclass/controller/contact.php:71
-msgid "Please enter a correct email"
-msgstr "Bitte geben Sie eine korrekte E-Mail ein"
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
+msgid "Your email has been changed successfully"
+msgstr "Ihre Email-Adresse wurde erfolgreich geändert"
 
-#: tmp/osclass/oc-includes/osclass/controller/contact.php:162
-msgid "Your email has been sent properly. Thank you for contacting us!"
-msgstr "Ihre E-Mail wurde erfolgreich versendet. Vielen Dank, dass Sie Kontakt mit uns aufgenommen haben!"
+#: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
+msgid "Your email has been sent properly."
+msgstr "Ihre Mail wurde erfolgreich gesendet."
 
-#: tmp/osclass/oc-includes/osclass/controller/contact.php:164
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:380
-msgid "The file you tried to upload does not have a valid extension"
-msgstr "Die Datei die Sie hochladen wollten hat eine ungültige Endung"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:87
-msgid "Your profile has been updated successfully"
-msgstr "Profil wurde erfolgreich aktualisiert"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:118
-msgid "The specified e-mail is not valid"
-msgstr "Die angegebene Email-Adresse ist nicht gültig"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:142
-#: tmp/osclass/oc-includes/osclass/UserActions.php:79
-msgid "The specified e-mail is already in use"
-msgstr "Die Email-Adresse wird bereits benutzt"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:157
-msgid "The specified username is already in use"
-msgstr "Der gewählte Benutzername wird schon verwendet"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:163
-msgid "The username was updated"
-msgstr "Der Benutzername wurde aktualisiert"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:167
-#: tmp/osclass/oc-includes/osclass/UserActions.php:90
-msgid "The specified username is not valid, it contains some invalid words"
-msgstr "Der gewählte Benutzername ist nicht gültig. Er enhält ungültige Wörter"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:171
-msgid "The specified username could not be empty"
-msgstr "Der Benutzername darf nicht leer sein"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:188
-msgid "Current password doesn't match"
-msgstr "Derzeitiges Passwort stimmt nicht"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:193
-msgid "Passwords can't be empty"
-msgstr "Passwortfeld darf nicht leer sein"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:198
-#: tmp/osclass/oc-includes/osclass/UserActions.php:60
-#: tmp/osclass/oc-includes/osclass/UserActions.php:189
-msgid "Passwords don't match"
-msgstr "Passwörter stimmen nicht überein"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:205
-msgid "Password has been changed"
-msgstr "Passwort wurde geändert"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:283
-msgid "Your account have been deleted"
-msgstr "Ihr Account wurde gelöscht"
-
-#: tmp/osclass/oc-includes/osclass/controller/user.php:286
-#: tmp/osclass/oc-includes/osclass/controller/user.php:290
-msgid "Oops! you can not do that"
-msgstr "Huch! Das können Sie nicht tun"
-
-#: tmp/osclass/oc-includes/osclass/controller/register.php:36
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:45
 msgid "User registration is not enabled"
 msgstr "Benutzerregistrierung ist deaktiviert"
 
-#: tmp/osclass/oc-includes/osclass/controller/register.php:74
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:82
 msgid "The user has been created. An activation email has been sent"
 msgstr "Der Benutzer wurde angelegt. Eine Aktivierungs-Email wurde versandt."
 
-#: tmp/osclass/oc-includes/osclass/controller/register.php:77
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:85
 msgid "Your account has been created successfully"
 msgstr "Konto wurde erfolgreich erstellt"
 
-#: tmp/osclass/oc-includes/osclass/controller/register.php:96
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:103
 msgid "The link is not valid anymore. Sorry for the inconvenience!"
 msgstr "Leider ist dieser Link nicht mehr gültig!"
 
-#: tmp/osclass/oc-includes/osclass/controller/register.php:101
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:108
 msgid "Your account has already been validated"
 msgstr "Account wurde bereits bestätigt"
 
-#: tmp/osclass/oc-includes/osclass/controller/register.php:122
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:129
 msgid "Your account has been validated"
 msgstr "Ihr Account wurde bestätigt"
 
-#: tmp/osclass/oc-includes/osclass/controller/register.php:124
+#: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:131
 msgid "Account validation failed"
 msgstr "Der Benutzer konnte nicht erfolgreich verifiziert werden"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:111
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:660
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:86
+msgid "Please enter a correct email"
+msgstr "Bitte geben Sie eine korrekte E-Mail ein"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:168
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:403
+msgid "The file you tried to upload does not have a valid extension"
+msgstr "Die Datei die Sie hochladen wollten hat eine ungültige Endung"
+
+#: tmp/oc-includes/osclass/classes/controller/CWebContact.php:182
+msgid "Your email has been sent properly. Thank you for contacting us!"
+msgstr "Ihre E-Mail wurde erfolgreich versendet. Vielen Dank, dass Sie Kontakt mit uns aufgenommen haben!"
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:118
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:664
 msgid "Image with an incorrect extension."
 msgstr "Bild mit einer ungültigen Dateiendung."
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:114
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:663
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:121
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:667
 msgid "Image is too big. Max. size"
 msgstr "Bild ist zu groß. Max. Größe"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:124
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:131
 #, php-format
 msgid "Title too short (%s)."
 msgstr "Der Titel ist zu kurz (%s)."
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:125
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:133
 #, php-format
 msgid "Title too long (%s)."
 msgstr "Der Titel ist zu lang (%s)."
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:136
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:144
 #, php-format
 msgid "Description too short (%s)."
 msgstr "Die Beschreibung ist zu kurz (%s)."
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:137
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:147
 #, php-format
 msgid "Description too long (%s)."
 msgstr "Die Beschreibung ist zu lang (%s)."
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:146
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:692
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:156
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:696
 msgid "Category invalid."
 msgstr "Kategorie nicht gültig"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:147
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:693
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:157
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:697
 msgid "Price must be a number."
 msgstr "Preis muss eine Zahl sein."
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:148
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:694
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:159
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:699
 msgid "Price too long."
 msgstr "Preis zu lang"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:151
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:697
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:162
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:702
 msgid "Price must be positive number."
 msgstr "Der Preis muss eine positive Zahl sein"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:152
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:163
 msgid "Name too long."
 msgstr "Name zu lang"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:153
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:164
 msgid "Email invalid."
 msgstr "Email ungültig"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:154
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:698
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:165
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:727
+msgid "Phone invalid."
+msgstr ""
+
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:167
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:704
 msgid "Country too short."
 msgstr "Name des Landes zu kurz"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:156
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:700
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:169
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:707
 msgid "Country too long."
 msgstr "Name des Landes zu lang"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:157
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:701
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:171
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:709
 msgid "Region too short."
 msgstr "Name des Bundeslands zu kurz"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:159
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:703
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:173
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:712
 msgid "Region too long."
 msgstr "Name des Bundeslands zu lang"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:160
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:704
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:175
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:714
 msgid "City too short."
 msgstr "Städtename zu kurz"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:161
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:705
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:176
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:716
 msgid "City too long."
 msgstr "Städtename zu lang"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:162
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:706
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:178
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:718
 msgid "Municipality too short."
 msgstr "Name des Stadtviertels zu kurz"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:164
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:708
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:180
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:721
 msgid "Municipality too long."
 msgstr "Name des Stadtviertels zu lang"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:165
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:709
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:182
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:723
 msgid "Address too short."
 msgstr "Adresse zu kurz"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:167
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:711
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:184
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:726
 msgid "Address too long."
 msgstr "Adresse zu lang"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:169
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:187
 msgid "Too fast. You should wait a little to publish your ad."
 msgstr "Bitte warten Sie einen kurzen Augenblick, um Ihre Anzeige zu veröffentlichen."
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:185
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:724
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:205
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:740
 #, php-format
 msgid "%s field is required."
 msgstr "Das Feld %s muss ausgefüllt werden"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:408
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:431
 msgid "One of the files you tried to upload exceeds the maximum size"
 msgstr "Eine der Dateien, die Sie hochladen möchten, überschreitet die zulässige Größe"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:673
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:677
 msgid "Title too short."
 msgstr "Titel zu kurz"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:674
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:678
 msgid "Title too long."
 msgstr "Titel zu lang"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:686
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:690
 msgid "Description too short."
 msgstr "Beschreibung zu kurz"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:688
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:692
 msgid "Description too long."
 msgstr "Beschreibung zu lang"
 
-#: tmp/osclass/oc-includes/osclass/ItemActions.php:1260
+#: tmp/oc-includes/osclass/classes/actions/ItemActions.php:1275
 #, php-format
 msgid "We just sent your message to %s"
 msgstr "Wir haben Ihre Nachricht an %s gesendet"
 
-#: tmp/osclass/oc-includes/osclass/helpers/hSecurity.php:79
-msgid "Probable invalid request."
-msgstr "Möglicherweise ist die Anfrage ungültig."
-
-#: tmp/osclass/oc-includes/osclass/helpers/hSecurity.php:85
-msgid "Invalid CSRF token."
-msgstr "Ungültiges CSRF token."
-
-#: tmp/osclass/oc-includes/osclass/UserActions.php:50
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:59
 msgid "The reCAPTCHA was not entered correctly"
 msgstr "Das reCAPTCHA wurde nicht korrekt eingegeben"
 
-#: tmp/osclass/oc-includes/osclass/UserActions.php:55
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:64
 msgid "The password cannot be empty"
 msgstr "Passwort-Feld darf nicht leer sein"
 
-#: tmp/osclass/oc-includes/osclass/UserActions.php:67
-#: tmp/osclass/oc-includes/osclass/UserActions.php:183
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:76
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:300
 msgid "The name cannot be empty"
 msgstr "\"Name\" darf nicht leer sein"
 
-#: tmp/osclass/oc-includes/osclass/UserActions.php:72
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:81
 msgid "The email is not valid"
 msgstr "Die Email-Adresse ist nicht gültig"
 
-#: tmp/osclass/oc-includes/osclass/UserActions.php:86
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:95
 msgid "Username is already taken"
 msgstr "Benutzername wird schon verwendet"
 
-#: tmp/osclass/oc-includes/osclass/UserActions.php:177
+#: tmp/oc-includes/osclass/classes/actions/UserActions.php:293
 #, php-format
 msgid "The specified e-mail is already used by %s"
 msgstr "Die angegebene E-Mail wird bereits von %s verwendet"
 
-#: tmp/osclass/oc-includes/osclass/core/AdminSecBaseModel.php:62
-msgid "Thank you very much for your donation"
-msgstr "Vielen Dank für Ihre Spende"
+#: tmp/oc-includes/osclass/classes/Csrf.php:170
+msgid "Probable invalid request."
+msgstr "Möglicherweise ist die Anfrage ungültig."
 
-#: tmp/osclass/oc-includes/osclass/emails.php:622
+#: tmp/oc-includes/osclass/classes/Csrf.php:173
+msgid "Invalid CSRF token."
+msgstr "Ungültiges CSRF token."
+
+#: tmp/oc-includes/osclass/emails.php:861
 msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
 msgstr "Wir haben Ihnen eine E-Mail geschickt. Bitte folgen Sie den Anweisungen um die Änderungen zu bestätigen"
 
-#: tmp/osclass/oc-includes/osclass/emails.php:624
+#: tmp/oc-includes/osclass/emails.php:864
 msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
 msgstr "Wir haben erfolglos versucht Ihnen eine E-Mail zu senden. Bitte kontaktieren Sie einen Administrator"
 
-#: tmp/osclass/oc-includes/osclass/emails.php:850
+#: tmp/oc-includes/osclass/emails.php:1122
 msgid "There has been some errors sending the message"
 msgstr "Fehler beim Versand der Nachricht"
 
