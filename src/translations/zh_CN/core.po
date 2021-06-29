@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-25 19:42\n"
+"PO-Revision-Date: 2021-06-29 12:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -121,17 +121,17 @@ msgstr "出错了发邮件的时候"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:505
 msgid "Version could not be checked"
-msgstr ""
+msgstr "无法检查版本"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:524
 #: tmp/osclass/oc-admin/ajax/ajax.php:528
 #: tmp/osclass/oc-admin/ajax/ajax.php:532
 msgid "Checked updates"
-msgstr ""
+msgstr "已检查更新"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:541
 msgid "This action cannot be done because it is a demo site"
-msgstr ""
+msgstr "此操作无法完成，因为它是一个演示网站"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:582
 msgid "No external sources are allowed"
@@ -204,7 +204,7 @@ msgstr "批动作"
 #: tmp/osclass/oc-admin/users.php:512
 #, php-format
 msgid "Are you sure you want to %s the selected ban rules?"
-msgstr ""
+msgstr "你确定你想要 %s 所选的禁止规则吗？"
 
 #: tmp/osclass/oc-admin/users.php:512 tmp/osclass/oc-admin/users.php:513
 #: tmp/osclass/oc-admin/users.php:647 tmp/osclass/oc-admin/plugins.php:338
@@ -302,19 +302,19 @@ msgstr "安装"
 #: tmp/osclass/oc-admin/plugins.php:343
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:72
 msgid "Problems with this plugin? Ask for support."
-msgstr ""
+msgstr "此插件有问题吗？请求支持。"
 
 #: tmp/osclass/oc-admin/plugins.php:347
 msgid "Plugins Site"
-msgstr ""
+msgstr "插件站点"
 
 #: tmp/osclass/oc-admin/plugins.php:350 tmp/osclass/oc-admin/plugins.php:352
 msgid "By"
-msgstr ""
+msgstr "由"
 
 #: tmp/osclass/oc-admin/plugins.php:356
 msgid "Version:"
-msgstr ""
+msgstr "版本："
 
 #: tmp/osclass/oc-admin/comments.php:257 tmp/osclass/oc-admin/comments.php:258
 #: tmp/osclass/oc-admin/comments.php:259 tmp/osclass/oc-admin/comments.php:260
@@ -360,7 +360,7 @@ msgstr "有效（后台）"
 
 #: tmp/osclass/oc-admin/languages.php:413
 msgid "Update here"
-msgstr ""
+msgstr "在这里更新"
 
 #: tmp/osclass/oc-admin/languages.php:420
 #: tmp/osclass/oc-admin/languages.php:421
@@ -430,7 +430,7 @@ msgstr "你确定选择%的管理人?"
 
 #: tmp/osclass/oc-admin/appearance.php:200
 msgid "Error loading theme custom file"
-msgstr ""
+msgstr "加载主题自定义文件时出错"
 
 #: tmp/osclass/oc-admin/themes/modern/stats/users.php:28
 #: tmp/osclass/oc-admin/themes/modern/stats/comments.php:25
@@ -568,36 +568,36 @@ msgstr "查看"
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:431
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:476
 msgid "Alerts"
-msgstr ""
+msgstr "提醒"
 
 #: tmp/osclass/oc-admin/themes/modern/stats/items.php:105
 msgid "Subscribers"
-msgstr ""
+msgstr "订阅者"
 
 #: tmp/osclass/oc-admin/themes/modern/parts/header.php:16
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:423
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:432
 msgid "No change expiration"
-msgstr ""
+msgstr "没有更改过期"
 
 #: tmp/osclass/oc-admin/themes/modern/parts/header.php:17
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:424
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:434
 msgid "Without expiration"
-msgstr ""
+msgstr "没有过期"
 
 #: tmp/osclass/oc-admin/themes/modern/parts/header.php:18
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:425
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:436
 msgid "1 day"
-msgstr ""
+msgstr "1天"
 
 #: tmp/osclass/oc-admin/themes/modern/parts/header.php:19
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:426
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:439
 #, php-format
 msgid "%d days"
-msgstr ""
+msgstr "%d 天"
 
 #: tmp/osclass/oc-admin/themes/modern/parts/header.php:20
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:253
@@ -606,21 +606,21 @@ msgstr "选择类别"
 
 #: tmp/osclass/oc-admin/themes/modern/parts/header.php:21
 msgid "No subcategory"
-msgstr ""
+msgstr "没有子类别"
 
 #: tmp/osclass/oc-admin/themes/modern/parts/header.php:22
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:254
 msgid "Select subcategory"
-msgstr ""
+msgstr "选择子类别"
 
 #: tmp/osclass/oc-admin/themes/modern/users/ban.php:19
 msgid "Add, edit or delete ban rules. Keep in mind that ban rules prevent users to register, publish or comment on listings."
-msgstr ""
+msgstr "添加、编辑或删除禁止规则。牢记禁止规则会阻止用户注册、发布或评论上的列表。"
 
 #: tmp/osclass/oc-admin/themes/modern/users/ban.php:35
 #, php-format
 msgid "Manage ban rules &raquo; %s"
-msgstr ""
+msgstr "管理封禁规则 &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/users/ban.php:126
 #: tmp/osclass/oc-admin/themes/modern/users/index.php:278
@@ -638,7 +638,7 @@ msgstr "保存"
 
 #: tmp/osclass/oc-admin/themes/modern/users/ban.php:168
 msgid "Delete rule"
-msgstr ""
+msgstr "删除规则"
 
 #: tmp/osclass/oc-admin/themes/modern/users/settings.php:19
 msgid "Manage the options related to users on your site. Here, you can decide if users must register or if email confirmation is necessary, among other options."
@@ -691,12 +691,12 @@ msgstr "用户名:必填"
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:151
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:80
 msgid "The username is available"
-msgstr ""
+msgstr "用户名可用"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:153
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:82
 msgid "The username is NOT available"
-msgstr ""
+msgstr "用户名不可用"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:205
 #, php-format
@@ -710,42 +710,42 @@ msgstr "（两次，需要）"
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:346
 #, php-format
 msgid "Alert #%d"
-msgstr ""
+msgstr "警告 #%d"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:349
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:107
 #, php-format
 msgid "<b>Pattern:</b> %s"
-msgstr ""
+msgstr "<b>模式：</b> %s"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:359
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:116
 msgid "...More"
-msgstr ""
+msgstr "...更多"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:362
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:119
 #, php-format
 msgid "<b>Categories:</b> %s"
-msgstr ""
+msgstr "<b>类别：</b> %s"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:393
 #: tmp/osclass/oc-admin/themes/modern/users/alerts.php:193
 msgid "Delete alert"
-msgstr ""
+msgstr "删除提醒"
 
 #: tmp/osclass/oc-admin/themes/modern/users/ban_frm.php:28
 msgid "Edit rule"
-msgstr ""
+msgstr "编辑规则"
 
 #: tmp/osclass/oc-admin/themes/modern/users/ban_frm.php:30
 msgid "Update rule"
-msgstr ""
+msgstr "更新规则"
 
 #: tmp/osclass/oc-admin/themes/modern/users/ban_frm.php:33
 #: tmp/osclass/oc-admin/themes/modern/users/ban_frm.php:35
 msgid "Add new ban rule"
-msgstr ""
+msgstr "添加新的禁止规则"
 
 #: tmp/osclass/oc-admin/themes/modern/users/index.php:19
 msgid "Add, edit or delete information associated to registered users. Keep in mind that deleting a user also deletes all the listings the user published."
@@ -772,7 +772,7 @@ msgstr "应用过滤器"
 #: tmp/osclass/oc-admin/themes/modern/users/index.php:257
 #, php-format
 msgid "%d Users"
-msgstr ""
+msgstr "%d 位用户"
 
 #: tmp/osclass/oc-admin/themes/modern/users/index.php:268
 #: tmp/osclass/oc-admin/themes/modern/users/alerts.php:135
@@ -786,19 +786,19 @@ msgstr "删除用户"
 
 #: tmp/osclass/oc-admin/themes/modern/users/alerts.php:19
 msgid "Add, edit or delete information associated to alerts."
-msgstr ""
+msgstr "添加、编辑或删除与警报相关的信息。"
 
 #: tmp/osclass/oc-admin/themes/modern/users/alerts.php:32
 #, php-format
 msgid "Manage alerts &raquo; %s"
-msgstr ""
+msgstr "管理警报 &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/users/alerts.php:148
 #: tmp/osclass/oc-admin/themes/modern/users/alerts.php:149
 #: tmp/osclass/oc-admin/themes/modern/users/alerts.php:150
 #, php-format
 msgid "Are you sure you want to %s the selected alerts?"
-msgstr ""
+msgstr "您确定要 %s 选定的提醒吗？"
 
 #: tmp/osclass/oc-admin/themes/modern/fields/iframe.php:83
 #: tmp/osclass/oc-admin/themes/modern/settings/currency_form.php:132
@@ -811,7 +811,7 @@ msgstr "取消"
 
 #: tmp/osclass/oc-admin/themes/modern/fields/iframe.php:110
 msgid "At least one option is required."
-msgstr ""
+msgstr "至少需要一个选项。"
 
 #: tmp/osclass/oc-admin/themes/modern/fields/iframe.php:140
 #: tmp/osclass/oc-admin/themes/modern/fields/index.php:115
@@ -886,7 +886,7 @@ msgstr "卸载插件"
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:160
 #, php-format
 msgid "%d plugins"
-msgstr ""
+msgstr "%d 个插件"
 
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:291
 msgid "The plugin has been downloaded correctly, proceed to install and configure."
@@ -909,7 +909,7 @@ msgstr "Osclass市场"
 
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:330
 msgid "You are about to delete the files of the plugin. Do you want to continue?"
-msgstr ""
+msgstr "您将要删除插件的文件。您想要继续吗？"
 
 #: tmp/osclass/oc-admin/themes/modern/comments/frm.php:25
 msgid "Edit comment"
@@ -995,7 +995,7 @@ msgstr "在%s合法的广告后，用户不需要再验证广告"
 #: tmp/osclass/oc-admin/themes/modern/items/settings.php:175
 #, php-format
 msgid "%s characters "
-msgstr ""
+msgstr "%s 个字符 "
 
 #: tmp/osclass/oc-admin/themes/modern/items/settings.php:194
 #, php-format
@@ -1108,7 +1108,7 @@ msgstr "添加主题 &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:23
 msgid "Modify your site's header or footer here."
-msgstr ""
+msgstr "在此修改网站的页眉或页脚。"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:42
 msgid "Delete widget"
@@ -1130,7 +1130,7 @@ msgstr "说明：%s"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:106
 msgid "Current theme does not support widgets"
-msgstr ""
+msgstr "当前主题不支持部件"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:32
 msgid "Delete theme"
@@ -1138,7 +1138,7 @@ msgstr "删除主题"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:48
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
-msgstr ""
+msgstr "激活可用的主题以改变您网站的外观和感觉。 <strong>小心</strong>: 如果您的主题已被定制, 如果您更改为一个新主题, 您将会失去所有更改。"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:193
 msgid "Please wait until the download is completed"
@@ -1296,22 +1296,22 @@ msgstr "把评论分，页每页%s条评论，"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:39
 msgid "Change advanced configuration of your Osclass. <strong>Be careful</strong> when modifying default values if you're not sure what you're doing!"
-msgstr ""
+msgstr "更改你的 Osclass 的高级配置。 <strong>如果你不知道你在做什么，请在修改默认值时小心</strong>！"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:55
 #, php-format
 msgid "Advanced Settings &raquo; %s"
-msgstr ""
+msgstr "高级设置 &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:76
 #: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:77
 msgid "Flush cache"
-msgstr ""
+msgstr "刷新缓存"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:108
 #, php-format
 msgid "Your current host is \"%s\". Add it without \"www\"."
-msgstr ""
+msgstr "您当前的主机是 \"%s\"。添加它时没有“www”。"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/spamNbots.php:23
 msgid "Keep spammers from publishing on your site by configuring reCAPTCHA and Akismet. Be careful: in order to use these services, you must register on their sites first and follow their instructions."
@@ -1518,7 +1518,7 @@ msgstr "更改电子邮件网址：此字段是必需的"
 #: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:314
 #: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:315
 msgid "Change username url: this field is required"
-msgstr ""
+msgstr "更改用户名 url: 此字段是必填项"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:318
 #: tmp/osclass/oc-admin/themes/modern/settings/permalinks.php:319
@@ -1584,7 +1584,7 @@ msgstr "添加新城市"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/locations.php:137
 msgid "Import a location"
-msgstr ""
+msgstr "导入位置"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/locations.php:152
 msgid "Add, edit or delete the countries, regions and cities installed on your Osclass. <strong>Be careful</strong>: modifying locations can cause your statistics to be incorrect until they're recalculated. Modify only if you're sure what you're doing!"
@@ -1732,7 +1732,7 @@ msgstr "删除媒体"
 
 #: tmp/osclass/oc-admin/themes/modern/emails/frm.php:58
 msgid "Send email"
-msgstr ""
+msgstr "发送电子邮件"
 
 #: tmp/osclass/oc-admin/themes/modern/emails/frm.php:92
 #, php-format
@@ -1823,7 +1823,7 @@ msgstr "语言 &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/languages/index.php:57
 msgid "Delete language"
-msgstr ""
+msgstr "删除语言"
 
 #: tmp/osclass/oc-admin/themes/modern/main/index.php:48
 #, php-format
@@ -1891,12 +1891,12 @@ msgstr "描述"
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:22
 #, php-format
 msgid "Osclass %s"
-msgstr ""
+msgstr "Osclass %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:30
 #, php-format
 msgid "Osclass %s &raquo; %s"
-msgstr ""
+msgstr "Osclass %s &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/locations.php:71
 #, php-format
@@ -1944,7 +1944,7 @@ msgstr "升级 &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:117
 msgid "Osclass Documentation"
-msgstr ""
+msgstr "Osclass 文档"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:25
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -2006,7 +2006,7 @@ msgstr "备份SQL（存储在服务器上）"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/backup.php:76
 msgid "Backup SQL (download file)"
-msgstr ""
+msgstr "备份 SQL (下载文件)"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/backup.php:77
 msgid "Backup files (store on server)"
@@ -2048,11 +2048,11 @@ msgstr "你确定要％s选定的页面吗？"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:122
 msgid "PHP version >= 5.6.x"
-msgstr ""
+msgstr "PHP 版本 >= 5.6.x"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:124
 msgid "At least PHP5.6 (PHP 7.0 or higher recommended) is required to run Osclass. You may talk with your hosting to upgrade your PHP version."
-msgstr ""
+msgstr "运行 Osclass需要至少 PHP5.6 (PHP 7.0 或更高) 。您可以与您的主机通话以升级您的 PHP 版本。"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:128
 msgid "MySQLi extension for PHP"
@@ -2086,29 +2086,29 @@ msgstr "<code>oc-content/uploads</code> 文件夹不可写"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:148
 #, php-format
 msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
-msgstr ""
+msgstr "<code>上传的</code> 文件夹必须是可写的，例如： <code>chmod 0755 %soc-content/uploads/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:152
 msgid "Folder <code>oc-content/downloads</code> exists"
-msgstr ""
+msgstr "文件夹 <code>oc-content/下载</code> 存在"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:154
 #, php-format
 msgid "You have to create <code>downloads</code> folder, i.e.: <code>mkdir %soc-content/downloads/</code>"
-msgstr ""
+msgstr "您必须创建 <code>下载</code> 文件夹，例如： <code>mkdir %soc-content/downloads/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:158
 msgid "<code>oc-content/downloads</code> folder is writable"
-msgstr ""
+msgstr "<code>oc-content/downloads</code> 文件夹可写"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:160
 #, php-format
 msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
-msgstr ""
+msgstr "<code>下载</code> 文件夹必须是可写的，例如： <code>chmod 0755 %soc-content/downloads/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:164
 msgid "Folder <code>oc-content/languages</code> folder exists"
-msgstr ""
+msgstr "文件夹 <code>oc-content/langues</code> 文件夹存在"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:166
 #, php-format
@@ -2117,12 +2117,12 @@ msgstr "你已创建 <code>languages</code> 文件夹，比如吧: <code>mkdir %
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:170
 msgid "<code>oc-content/languages</code> folder is writable"
-msgstr ""
+msgstr "<code>oc-content/languages</code> 文件夹可写"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:172
 #, php-format
 msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
-msgstr ""
+msgstr "<code>语言</code> 文件夹必须是可写的，例如： <code>chmod 0755 %soc-content/languages/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:184
 msgid "<code>config.php</code> file is writable"
@@ -2131,7 +2131,7 @@ msgstr "<code>config.php</code> 文件要设置成可写的"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:186
 #, php-format
 msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
-msgstr ""
+msgstr "<code>config.php</code> 文件必须是可写的，例如： <code>chmod 0755 %sconfig.php</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:193
 msgid "Root directory is writable"
@@ -2140,7 +2140,7 @@ msgstr "根目录是可写的"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:195
 #, php-format
 msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
-msgstr ""
+msgstr "根目录必须是可写的，例如： <code>chmod 0755 %s</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:202
 msgid "<code>config-sample.php</code> file exists"
@@ -2235,7 +2235,7 @@ msgstr "你可以修改你的用户名和密码，简单，你重新输入不就
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:950
 msgid "Loading..."
-msgstr ""
+msgstr "加载中..."
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:1021
 #, php-format
@@ -2253,7 +2253,7 @@ msgstr "更新数据库出了点毛病，如下："
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:35
 #, php-format
 msgid "These errors could be false-positive errors. If you're sure that is the case, you can <a href=\"%s\">continue with the upgrade</a>, or <a href=\"https://osclass.discourse.group\">ask in our forums</a>."
-msgstr ""
+msgstr "这些错误可能是错误的。 如果你确定情况确实如此，你可以 <a href=\"%s\">继续升级</a>， 或 <a href=\"https://osclass.discourse.group\">在我们的论坛中询问</a>"
 
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:270
 msgid "You need to calculate location stats, please go to admin panel, tools, recalculate location stats or click"
@@ -2269,7 +2269,7 @@ msgstr "Osclass &raquo; 更新成功"
 
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:561
 msgid "Osclass has been updated successfully. <a href=\"https://github.com/navjottomer/osclass\">Need more help?</a>"
-msgstr ""
+msgstr "Osclass 已成功更新。 <a href=\"https://github.com/navjottomer/osclass\">需要更多帮助吗？</a>"
 
 #: tmp/osclass/oc-includes/osclass/controller/search.php:610
 msgid "Latest listings added"
@@ -2283,32 +2283,32 @@ msgstr "最新帖子添加在"
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
-msgstr ""
+msgstr "姓名： %s"
 
 #: tmp/osclass/oc-includes/osclass/controller/contact.php:79
 #, php-format
 msgid "Email: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: tmp/osclass/oc-includes/osclass/controller/contact.php:80
 #, php-format
 msgid "Subject: %s"
-msgstr ""
+msgstr "主题： %s"
 
 #: tmp/osclass/oc-includes/osclass/controller/contact.php:81
 #, php-format
 msgid "Message: %s"
-msgstr ""
+msgstr "消息： %s"
 
 #: tmp/osclass/oc-includes/osclass/controller/contact.php:82
 #, php-format
 msgid "Date: %s at %s"
-msgstr ""
+msgstr "日期: %s 于 %s"
 
 #: tmp/osclass/oc-includes/osclass/controller/contact.php:83
 #, php-format
 msgid "IP Address: %s"
-msgstr ""
+msgstr "IP地址： %s"
 
 #: tmp/osclass/oc-includes/osclass/controller/contact.php:99
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:397
@@ -2332,22 +2332,22 @@ msgstr "信息：必填项"
 #: tmp/osclass/oc-includes/osclass/classes/Dependencies.php:71
 #, php-format
 msgid "ERROR: Some dependencies could not be loaded (%s)"
-msgstr ""
+msgstr "错误：无法加载一些依赖关系(%s)"
 
 #: tmp/osclass/oc-includes/osclass/classes/ImageProcessing.php:46
 #, php-format
 msgid "%s does not exist!"
-msgstr ""
+msgstr "%s 不存在！"
 
 #: tmp/osclass/oc-includes/osclass/classes/ImageProcessing.php:50
 #, php-format
 msgid "%s is not readable!"
-msgstr ""
+msgstr "%s 不可读！"
 
 #: tmp/osclass/oc-includes/osclass/classes/ImageProcessing.php:54
 #, php-format
 msgid "%s is corrupt or broken!"
-msgstr ""
+msgstr "%s 已损坏或损坏！"
 
 #: tmp/osclass/oc-includes/osclass/classes/Plugins.php:124
 #, php-format
@@ -2431,7 +2431,7 @@ msgstr "更改邮箱"
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:391
 #: tmp/osclass/oc-includes/osclass/functions.php:221
 msgid "Change my username"
-msgstr ""
+msgstr "更改我的用户名"
 
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:392
 #: tmp/osclass/oc-includes/osclass/functions.php:224
@@ -2461,172 +2461,172 @@ msgstr "创建账户"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:57
 msgid "User name"
-msgstr ""
+msgstr "用户名"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:58
 msgid "User email"
-msgstr ""
+msgstr "用户电子邮件"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:59
 msgid "Link for account validation."
-msgstr ""
+msgstr "帐户验证链接。"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:60
 msgid "Url for account validation."
-msgstr ""
+msgstr "帐号验证URL。"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:61
 msgid "List of listings, used when send alerts"
-msgstr ""
+msgstr "发送警报时使用的列表列表"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:62
 msgid "Unsubscribe link."
-msgstr ""
+msgstr "取消订阅链接。"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:63
 msgid "Site home page url."
-msgstr ""
+msgstr "网站首页 url。"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:64
 msgid "Site home page link."
-msgstr ""
+msgstr "网站主页链接。"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:65
 msgid "Title of your site"
-msgstr ""
+msgstr "您网站的标题"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:66
 msgid "Current date"
-msgstr ""
+msgstr "当前日期"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:67
 msgid "Hour"
-msgstr ""
+msgstr "小时"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:68
 msgid "User ip address"
-msgstr ""
+msgstr "用户IP地址"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:69
 msgid "Comment author name"
-msgstr ""
+msgstr "评论作者名称"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:70
 msgid "Comment author email"
-msgstr ""
+msgstr "评论作者电子邮件"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:71
 msgid "Comment title"
-msgstr ""
+msgstr "评论标题"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:72
 msgid "Comment text content"
-msgstr ""
+msgstr "评论文本内容"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:73
 msgid "Comment body"
-msgstr ""
+msgstr "评论内容"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:74
 msgid "Listing url"
-msgstr ""
+msgstr "地址列表"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:75
 msgid "Item expiration date"
-msgstr ""
+msgstr "项目过期日期"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:76
 msgid "Listing list"
-msgstr ""
+msgstr "列表列表"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:77
 msgid "Listing title"
-msgstr ""
+msgstr "列表标题"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:78
 msgid "Listing id"
-msgstr ""
+msgstr "上架ID"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:79
 msgid "Link for edit listing"
-msgstr ""
+msgstr "编辑列表链接"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:80
 msgid "Url for edit listing"
-msgstr ""
+msgstr "编辑列表的 Url"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:81
 msgid "Delete listing link"
-msgstr ""
+msgstr "删除列表链接"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:82
 msgid "Delete listing url"
-msgstr ""
+msgstr "删除列表网址"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:83
 msgid "Change user password link"
-msgstr ""
+msgstr "更改用户密码链接"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:84
 msgid "change user password url"
-msgstr ""
+msgstr "更改用户密码 url"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:85
 msgid "Date time"
-msgstr ""
+msgstr "日期时间"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:86
 msgid "Name of the friend who wants send"
-msgstr ""
+msgstr "想要发送的好友名称"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:87
 msgid "Email of the friend who wants send"
-msgstr ""
+msgstr "想要发送的朋友的电子邮件"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:88
 msgid "Question about your listing"
-msgstr ""
+msgstr "关于您的列表的问题"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:89
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:99
 msgid "Contact name"
-msgstr ""
+msgstr "联系人姓名"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:90
 msgid "User phone number"
-msgstr ""
+msgstr "用户电话号码"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:91
 msgid "Listing description"
-msgstr ""
+msgstr "列表描述"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:92
 msgid "Listing description in all languages"
-msgstr ""
+msgstr "列出所有语言的描述"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:93
 msgid "Listing price"
-msgstr ""
+msgstr "价格列表"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:94
 msgid "Listing country"
-msgstr ""
+msgstr "列出国家"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:95
 msgid "Listing region"
-msgstr ""
+msgstr "上市地区"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:96
 msgid "Listing city"
-msgstr ""
+msgstr "城市列表"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:97
 msgid "Seller name"
-msgstr ""
+msgstr "卖家名称"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:98
 msgid "Seller email"
-msgstr ""
+msgstr "卖家电子邮件"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:58
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:72
@@ -2635,7 +2635,7 @@ msgstr "邮箱"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:59
 msgid "Alert"
-msgstr ""
+msgstr "警告"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:80
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:70
@@ -2670,7 +2670,7 @@ msgstr "名称"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:77
 msgid "Update date"
-msgstr ""
+msgstr "更新日期"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:99
 #: tmp/osclass/oc-includes/osclass/functions.php:215
@@ -2683,23 +2683,23 @@ msgstr "重新发送激活邮件"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:59
 msgid "Ban name / Reason"
-msgstr ""
+msgstr "禁止名称 / 原因"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:60
 msgid "IP rule"
-msgstr ""
+msgstr "IP 规则"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:61
 msgid "E-mail rule"
-msgstr ""
+msgstr "电子邮件规则"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/MediaDataTable.php:81
 msgid "File"
-msgstr ""
+msgstr "文件"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/MediaDataTable.php:82
 msgid "Action"
-msgstr ""
+msgstr "行 动"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/MediaDataTable.php:83
 msgid "Attached to"
@@ -2742,7 +2742,7 @@ msgstr "定位"
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:157
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:235
 msgid "Expiration date"
-msgstr ""
+msgstr "过期日期"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:230
 msgid "Misclassified"
@@ -2759,7 +2759,7 @@ msgstr "查看媒体"
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:335
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:407
 msgid "Never expires"
-msgstr ""
+msgstr "永不过期"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:367
 msgid "Clear All"
@@ -2902,7 +2902,7 @@ msgstr "您的个人资料"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:101
 msgid "Ban rules"
-msgstr ""
+msgstr "禁止规则"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:103
 msgid "Tools"
@@ -3128,7 +3128,7 @@ msgstr "下午"
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:186
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:466
 msgid "Public Profile"
-msgstr ""
+msgstr "公开资料"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:188
 msgid "Manage your listings"
@@ -3161,12 +3161,12 @@ msgstr "免费"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hItems.php:1214
 msgid "From"
-msgstr ""
+msgstr "来自"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hItems.php:1215
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:293
 msgid "to"
-msgstr ""
+msgstr "到"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hCategories.php:291
 #: tmp/osclass/oc-includes/osclass/gui/item-post.php:62
@@ -3257,7 +3257,7 @@ msgstr "电脑 - 硬件"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:21
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:22
 msgid "Electronics"
@@ -3569,39 +3569,39 @@ msgstr "其他工作"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:104
 msgid "Example Ad"
-msgstr ""
+msgstr "示例广告"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:105
 msgid "Description of the example ad. Insert here some usefull description of your ad."
-msgstr ""
+msgstr "示例广告描述。请在此插入您的广告的使用完整描述。"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:106
 msgid "Example author"
-msgstr ""
+msgstr "示例作者"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:107
 msgid "osclass@example.com"
-msgstr ""
+msgstr "osclass@example.com"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:108
 msgid "Example country"
-msgstr ""
+msgstr "国家示例"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:109
 msgid "Example region"
-msgstr ""
+msgstr "示例区域"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:110
 msgid "Example city"
-msgstr ""
+msgstr "示例城市"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:115
 msgid "Example page title"
-msgstr ""
+msgstr "示例页面标题"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:116
 msgid "This is an example page description. This is a good place to put your Terms of Service or any other help information."
-msgstr ""
+msgstr "这是一个示例页面描述。这是一个很好的地方来放置您的服务条款或任何其他帮助信息。"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-alerts.php:51
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:982
@@ -3612,15 +3612,15 @@ msgstr "刚才的动作没有完成.您确定要继续吗？"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
-msgstr ""
+msgstr "您已成功订阅提醒"
 
 #: tmp/osclass/oc-includes/osclass/gui/alert-form.php:29
 msgid "There was a problem with the alert"
-msgstr ""
+msgstr "警告有问题"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_email.php:38
 msgid "Change e-mail"
-msgstr ""
+msgstr "更改电子邮件"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/settings.php:46
 msgid "Donate"
@@ -3628,165 +3628,165 @@ msgstr "捐赠"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:42
 msgid "Remove logo"
-msgstr ""
+msgstr "移除徽标"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:78
 #, php-format
 msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr ""
+msgstr "图像文件夹 <strong>%s</strong> 无法在您的服务器上写入"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:79
 msgid "Osclass can't upload the logo image from the administration panel."
-msgstr ""
+msgstr "Osclass 无法从管理面板上传徽标图像。"
 
 #: tmp/osclass/oc-includes/osclass/gui/admin/header.php:80
 msgid "Please make the aforementioned image folder writable."
-msgstr ""
+msgstr "请使上述图像文件夹可写入。"
 
 #: tmp/osclass/oc-includes/osclass/gui/loop-single-premium.php:69
 #: tmp/osclass/oc-includes/osclass/gui/loop-single.php:69
 msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr ""
+msgstr "此操作不能撤消。您确定要继续吗？"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:62
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr ""
+msgstr "<strong class=\"publish\">发布日期</strong>: %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item.php:65
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr ""
+msgstr "<strong class=\"update\">修改日期：</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:55
 msgid "Selected"
-msgstr ""
+msgstr "已选择"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:56
 msgid "Nothing selected, input was"
-msgstr ""
+msgstr "未选择任何内容，输入为"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:74
 #, php-format
 msgid "There are no results matching \"%s\""
-msgstr ""
+msgstr "没有匹配结果的“%s”"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:78
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
-msgstr ""
+msgstr "%1$d - %2$d 的 %3$d 列表"
 
 #: tmp/osclass/oc-includes/osclass/gui/search.php:136
 msgid "Premium listings"
-msgstr ""
+msgstr "高级列表"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:35
 #: tmp/osclass/oc-includes/osclass/gui/header.php:48
 #, php-format
 msgid "Hi %s"
-msgstr ""
+msgstr "Hi %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:72
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr ""
+msgstr "此网站自豪地使用 <a title=\"Osclass web\" href=\"%s\">分类脚本</a> 软件 <strong>Osclass</strong>"
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:55
 msgid "No file selected"
-msgstr ""
+msgstr "未选择文件"
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:56
 msgid "Choose File"
-msgstr ""
+msgstr "选择文件"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:432
 msgid "Update account"
-msgstr ""
+msgstr "更新帐户"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:90
 msgid "Previous image"
-msgstr ""
+msgstr "上一张图片"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:91
 msgid "Next image"
-msgstr ""
+msgstr "下一张图片"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:39
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:434
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:491
 msgid "Change username"
-msgstr ""
+msgstr "更改用户名"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
-msgstr ""
+msgstr "电子邮件: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:76
 #, php-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "电话: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-sidebar.php:28
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:501
 msgid "Delete account"
-msgstr ""
+msgstr "删除帐户"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:29
 msgid "ie. PHP Programmer"
-msgstr ""
+msgstr "ie. PHP 程序"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:433
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:486
 msgid "Change email"
-msgstr ""
+msgstr "更改电子邮件"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:437
 msgid "Recover password"
-msgstr ""
+msgstr "恢复密码"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:566
 msgid "Theme settings updated correctly"
-msgstr ""
+msgstr "主题设置已正确更新"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:581
 msgid "The logo image has been uploaded correctly"
-msgstr ""
+msgstr "徽标图片已正确上传"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:583
 msgid "An error has occurred, please try again"
-msgstr ""
+msgstr "发生错误，请重试"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:594
 msgid "The logo image has been removed"
-msgstr ""
+msgstr "徽标图像已被删除"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:596
 msgid "Image not found"
-msgstr ""
+msgstr "找不到图像"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:618
 msgid "Header logo"
-msgstr ""
+msgstr "页眉标志"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:619
 msgid "Theme settings"
-msgstr ""
+msgstr "主题设置"
 
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:692
 msgid "All categories"
-msgstr ""
+msgstr "所有类别"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:69
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
-msgstr ""
+msgstr "<strong>地址：</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-public-profile.php:72
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
-msgstr ""
+msgstr "<strong>位置：</strong> %1$s"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2359
 msgid "Everything looks good! Your Osclass installation is up-to-date"
@@ -3794,7 +3794,7 @@ msgstr "一切看起来都很好，安装正在更新"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2363
 msgid "Nearly everything looks good! Your Osclass installation is up-to-date, but there were some errors removing temporary files. Please manually remove the \"oc-content/downloads/oc-temp\" folder"
-msgstr ""
+msgstr "几乎一切都好！你的 Osclass 安装是最新的，但删除临时文件时出错。请手动删除 \"oc-content/downloads/oc-temp\" 文件夹"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2369
 msgid "Problems when upgrading the database"
@@ -3835,16 +3835,16 @@ msgstr "一切看起来都很好！"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2671
 msgid "Nearly everything looks good! but there were some errors removing temporary files. Please manually remove the \\\"oc-content/downloads/oc-temp\\\" folder"
-msgstr ""
+msgstr "几乎一切都好！但是删除临时文件时出错。请手动删除 \\\"oc-content/downloads/oc-temp\\\" 文件夹"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2681
 #, php-format
 msgid "NOTE: Web user and destination folder user is not the same, you might have an issue there. <br/>Do this in your console:<br/>chown -R %s:%s %s"
-msgstr ""
+msgstr "注意：Web 用户和目标文件夹用户不一样，您可能有问题。 <br/>在您的控制台中执行此操作：<br/>chown -R %s:%s %s"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2704
 msgid "This is a paid item, you need to buy it before you are able to download it"
-msgstr ""
+msgstr "这是一个付费商品，您需要先购买它才能下载"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2707
 msgid "Input code not valid"
@@ -3852,7 +3852,7 @@ msgstr "输入代码无效"
 
 #: tmp/osclass/oc-includes/osclass/model/Category.php:658
 msgid "Non-Existent Category"
-msgstr ""
+msgstr "不存在类别"
 
 #: tmp/osclass/oc-includes/osclass/model/Item.php:1144
 #, php-format
@@ -3878,7 +3878,7 @@ msgstr "安装"
 #: tmp/osclass/oc-includes/osclass/core/WebSecBaseModel.php:60
 #: tmp/osclass/oc-includes/osclass/core/AdminSecBaseModel.php:110
 msgid "Session timed out"
-msgstr ""
+msgstr "会话超时"
 
 #: tmp/osclass/oc-includes/osclass/frm/Page.form.class.php:90
 msgid "Body"
@@ -3890,27 +3890,27 @@ msgstr "输入邮箱"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:31
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:32
 msgid "Prev"
-msgstr ""
+msgstr "上一个"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:33
 msgid "Next"
-msgstr ""
+msgstr "下一个"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:34
 msgid "Today"
-msgstr ""
+msgstr "今日："
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:232
 msgid "Select"
-msgstr ""
+msgstr "选择"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:288
 msgid "from"
-msgstr ""
+msgstr "来自"
 
 #: tmp/osclass/oc-includes/osclass/frm/User.form.class.php:114
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:568
@@ -3946,7 +3946,7 @@ msgstr "所有"
 
 #: tmp/osclass/oc-includes/osclass/frm/Admin.form.class.php:80
 msgid "Administrator"
-msgstr ""
+msgstr "管理员"
 
 #: tmp/osclass/oc-includes/osclass/frm/Admin.form.class.php:81
 msgid "Moderator"
@@ -3956,12 +3956,12 @@ msgstr "主持人"
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:149
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:169
 msgid "Select Subcategory"
-msgstr ""
+msgstr "选择子类别"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:146
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:170
 msgid "No Subcategory"
-msgstr ""
+msgstr "没有子类别"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:881
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1163
@@ -4035,57 +4035,57 @@ msgstr "但是，你已达到了每个广告的最大图数量极限了"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1632
 msgid "Too many items ({netItems}) would be uploaded. Item limit is {itemLimit}."
-msgstr ""
+msgstr "太多项目 ({netItems}) 将被上传。项目限制是 {itemLimit}。"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1633
 msgid "The files are being uploaded, if you leave now the upload will be cancelled."
-msgstr ""
+msgstr "文件正在上传，如果您现在离开，上传将被取消。"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1634
 msgid "{file} has an invalid extension. Valid extension(s): {extensions}."
-msgstr ""
+msgstr "{file} 有一个无效的扩展。有效扩展(s)： {extensions}。"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1635
 msgid "{file} is too large, maximum file size is {sizeLimit}."
-msgstr ""
+msgstr "{file} 过大，最大文件大小为 {sizeLimit}。"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1636
 msgid "{file} is empty, please select files again without it."
-msgstr ""
+msgstr "{file} 为空，请再次选择没有它的文件。"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1649
 msgid "Click or Drop for upload images"
-msgstr ""
+msgstr "点击或拖放上传图像"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1650
 msgid "Processing..."
-msgstr ""
+msgstr "正在处理..."
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1651
 msgid "Retry"
-msgstr ""
+msgstr "重试"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1653
 msgid "Upload failed"
-msgstr ""
+msgstr "上传失败"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1655
 msgid "Deleting..."
-msgstr ""
+msgstr "正在删除..."
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1656
 #, php-format
 msgid "{percent}% of {total_size}"
-msgstr ""
+msgstr "{percent}的 {total_size}%"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1671
 msgid "Make primary image"
-msgstr ""
+msgstr "制作主图像"
 
 #: tmp/osclass/oc-includes/osclass/frm/Item.form.class.php:1711
 #, php-format
 msgid "Too many items were uploaded. Item limit is %d."
-msgstr ""
+msgstr "上传的项目太多。条目限制是 %d。"
 
 #: tmp/osclass/oc-includes/osclass/emails.php:106
 #: tmp/osclass/oc-includes/osclass/emails.php:170
@@ -4097,7 +4097,7 @@ msgstr "取消提示"
 #: tmp/osclass/oc-includes/osclass/emails.php:936
 #: tmp/osclass/oc-includes/osclass/emails.php:1147
 msgid "Admin"
-msgstr ""
+msgstr "管理员"
 
 #: tmp/osclass/oc-includes/osclass/emails.php:979
 #: tmp/osclass/oc-includes/osclass/emails.php:981
@@ -4110,23 +4110,23 @@ msgstr "语言"
 
 #: tmp/osclass/oc-includes/osclass/emails.php:1604
 msgid "<p>Dear {WEB_TITLE} admin,</p>"
-msgstr ""
+msgstr "<p>Dear {WEB_TITLE} admin,</p>"
 
 #: tmp/osclass/oc-includes/osclass/emails.php:1606
 msgid "{WEB_TITLE} - Your site has upgraded to Osclass {VERSION}"
-msgstr ""
+msgstr "{WEB_TITLE} - 您的网站已升级到 Osclass {VERSION}"
 
 #: tmp/osclass/oc-includes/osclass/emails.php:1607
 msgid "<p>Your site at {WEB_LINK} has been updated automatically to Osclass {VERSION}</p>"
-msgstr ""
+msgstr "<p>您在 {WEB_LINK} 的网站已自动更新到 Osclass {VERSION}</p>"
 
 #: tmp/osclass/oc-includes/osclass/emails.php:1609
 msgid "<p>There were some minor errors removing temporary files. Please manually remove the \"oc-content/downloads/oc-temp\" folder</p>"
-msgstr ""
+msgstr "<p>删除临时文件时出现一些小错误。请手动删除 \"oc-content/downloads/oc-temp\" 文件夹</p>"
 
 #: tmp/osclass/oc-includes/osclass/emails.php:1612
 msgid "{WEB_TITLE} - We failed trying to upgrade your site to Osclass {VERSION}"
-msgstr ""
+msgstr "{WEB_TITLE} - 我们试图将您的网站升级到 Osclass {VERSION} 失败"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:119
 msgid "Contact seller"
@@ -4163,7 +4163,7 @@ msgstr "新评论"
 #: tmp/osclass/oc-includes/osclass/functions.php:571
 #, php-format
 msgid "Osclass %s is available"
-msgstr ""
+msgstr "Ossclass %s 可用"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:639
 msgid "Plugin updates"
@@ -4175,12 +4175,12 @@ msgstr "主题更新"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:773
 msgid "Language updates"
-msgstr ""
+msgstr "语言更新"
 
 #: tmp/osclass/oc-includes/osclass/install-location.php:110
 #, php-format
 msgid "Hi %s,"
-msgstr ""
+msgstr "Hi %s,"
 
 #: tmp/osclass/oc-includes/osclass/install-location.php:111
 #, php-format
@@ -4200,18 +4200,18 @@ msgstr "密码：%s"
 #: tmp/osclass/oc-includes/osclass/install-location.php:116
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
-msgstr ""
+msgstr "请记住，为了任何疑问，您可以咨询我们的 <a href=\"%1$s\">文档</a>"
 
 #: tmp/osclass/oc-includes/osclass/install-location.php:117
 msgid "Cheers,"
-msgstr ""
+msgstr "谢谢，"
 
 #: tmp/osclass/oc-includes/osclass/install-location.php:118
 msgid "The <a href=\"https://github.com/navjottomer/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "<a href=\"https://github.com/navjottomer/osclass\">Ossclass</a> 团队"
 
 #: tmp/osclass/oc-includes/osclass/Themes.php:208
 #, php-format
 msgid "ERROR: Some scripts could not be loaded (%s)"
-msgstr ""
+msgstr "错误：无法加载一些脚本(%s)"
 
