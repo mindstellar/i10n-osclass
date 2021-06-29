@@ -1,0 +1,115 @@
+{
+  "language": "ar_AR",
+  "template": [
+    {
+      "fk_i_page_id": "1",
+      "s_title": "{WEB_TITLE} - شخص ما لديه سؤال حول قائمتك",
+      "s_description": "<p>مرحبا {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) تركك رسالة حول قائمتك <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>بغض النظر عن</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "2",
+      "s_title": "الرجاء التحقق من صحة حسابك في {WEB_TITLE}",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>الرجاء التحقق من صحة التسجيل الخاص بك بالنقر على الرابط التالي: {VALIDATION_LINK}</p><p>شكرا!</p><p>أطيب،</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "3",
+      "s_title": "{WEB_TITLE} - التسجيل ناجح!",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>لقد قمت بالتسجيل بنجاح لـ {WEB_LINK}.</p><p>شكرا!</p><p>بغض النظر ،</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "4",
+      "s_title": "انظر إلى ما اكتشفته في {WEB_TITLE}",
+      "s_description": "<p>مرحبا {FRIEND_NAME}،</p><p>صديقك {USER_NAME} يريد مشاركة هذه القائمة معك <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>رسالة:</p><p>{COMMENT}</p><p>بغض النظر</p><p>{WEB_TITLE}</p>"
+    },
+    {
+      "fk_i_page_id": "5",
+      "s_title": "{WEB_TITLE} - قوائم جديدة في آخر ساعة",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>تم نشر قوائم جديدة في آخر ساعة. ألقي نظرة عليهم:</p><p>{ADS}</p><p>-------------</p><p>لإلغاء الاشتراك في هذا التنبيه، انقر على: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "6",
+      "s_title": "{WEB_TITLE} - قوائم جديدة في اليوم الأخير",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>تم نشر قوائم جديدة في اليوم الأخير. ألقي نظرة عليهم:</p><p>{ADS}</p><p>-------------</p><p>لإلغاء الاشتراك في هذا التنبيه، انقر على: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "7",
+      "s_title": "{WEB_TITLE} - قوائم جديدة في الأسبوع الماضي",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>تم نشر قوائم جديدة في الأسبوع الماضي. ألقي نظرة عليهم:</p><p>{ADS}</p><p>-------------</p><p>لإلغاء الاشتراك في هذا التنبيه، انقر على: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "8",
+      "s_title": "{WEB_TITLE} - قوائم جديدة",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>تم نشر قائمة جديدة ، تحقق من ذلك!</p><p>{ADS}</p><p>-------------</p><p>لإلغاء الاشتراك في هذا التنبيه، انقر على: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "9",
+      "s_title": "{WEB_TITLE} - تعليق جديد",
+      "s_description": "<p>شخص ما علق على القائمة <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a></p><p>قائمة: {COMMENT_AUTHOR}<br />البريد الإلكتروني للقائمة: {COMMENT_EMAIL}<br />العنوان: {COMMENT_TITLE}<br />التعليق: {COMMENT_TEXT}</p>"
+    },
+    {
+      "fk_i_page_id": "10",
+      "s_title": "{WEB_TITLE} - تحرير خيارات القائمة {ITEM_TITLE}",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>أنت غير مسجل في {WEB_LINK}، ولكن لا يزال بإمكانك تحرير أو حذف القائمة <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> لفترة قصيرة من الوقت.</p><p>يمكنك تعديل القائمة الخاصة بك باتباع هذا الرابط: {EDIT_LINK}</p><p>يمكنك حذف القائمة الخاصة بك باتباع هذا الرابط: {DELETE_LINK}</p><p>إذا قمت بالتسجيل كمستخدم، سيكون لديك حق الوصول الكامل إلى خيارات التحرير.</p><p>أطيب،</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "11",
+      "s_title": "{WEB_TITLE} - التحقق من قائمتك",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>أنت تتلقى هذا البريد الإلكتروني لأنه تم نشر القائمة في {WEB_LINK}. الرجاء التحقق من صحة هذه القائمة بالنقر على الرابط التالي: {VALIDATION_LINK}. إذا لم تقم بنشر هذه القائمة، يرجى تجاهل هذا البريد الإلكتروني.</p><p>تفاصيل القائمة:</p><p>اسم جهة الاتصال: {USER_NAME}<br />البريد الإلكتروني جهة الاتصال: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>الرابط: {ITEM_URL}</p><p>مع الرغبات،</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "12",
+      "s_title": "{WEB_TITLE} - تم نشر قائمة جديدة",
+      "s_description": "<p>عزيزي {WEB_TITLE} المشرف،</p><p>أنت تتلقى هذا البريد الإلكتروني لأنه تم نشر القائمة في {WEB_LINK}.</p><p>تفاصيل القائمة:</p><p>اسم جهة الاتصال: {USER_NAME}<br />البريد الإلكتروني جهة الاتصال: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>الرابط: {ITEM_URL}</p><p>يمكنك تعديل هذه القائمة بالنقر على الرابط التالي: {EDIT_LINK}</p><p>بغض النظر عن ذلك،</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "13",
+      "s_title": "{WEB_TITLE} - استعادة كلمة المرور الخاصة بك",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>لقد أرسلنا لك هذا البريد الإلكتروني لأنك طلبت تذكير بكلمة مرور. اتبع هذا الرابط لاستعادته: {PASSWORD_LINK}</p><p>سيتم إلغاء تنشيط الرابط خلال 24 ساعة.</p><p>إذا لم تطلب تذكيرا بكلمة مرور، يرجى تجاهل هذه الرسالة. تم تقديم هذا الطلب من IP {IP_ADDRESS} على {DATE_TIME}</p><p>بغض النظر ،</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "14",
+      "s_title": "{WEB_TITLE} - لقد طلبت تغيير البريد الإلكتروني",
+      "s_description": "<p>مرحبا {USER_NAME}</p><p>أنت تتلقى هذا البريد الإلكتروني لأنك طلبت تغيير البريد الإلكتروني. الرجاء تأكيد عنوان البريد الإلكتروني الجديد هذا بالنقر على رابط التحقق التالي: {VALIDATION_LINK}</p><p>مع الرأي،</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "15",
+      "s_title": "{WEB_TITLE} - الرجاء التحقق من تنبيهك",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>الرجاء التحقق من صحة تسجيل التنبيه الخاص بك بالنقر على الرابط التالي: {VALIDATION_LINK}</p><p>شكرا!</p><p>أطيب،</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "16",
+      "s_title": "{WEB_TITLE} - تم الموافقة على تعليقك",
+      "s_description": "<p>مرحبا {COMMENT_AUTHOR}،</p><p>تم الموافقة على تعليقك على <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>بغض النظر ،</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "17",
+      "s_title": "{WEB_TITLE} - التحقق من قائمتك",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>أنت تتلقى هذا البريد الإلكتروني لأنك نشرت قائمة في {WEB_LINK}. الرجاء التحقق من صحة هذه القائمة بالنقر على الرابط التالي: {VALIDATION_LINK}. إذا لم تقم بنشر هذه القائمة، يرجى تجاهل هذا البريد الإلكتروني.</p><p>تفاصيل القائمة:</p><p>اسم جهة الاتصال: {USER_NAME}<br />البريد الإلكتروني جهة الاتصال: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>الرابط: {ITEM_URL}</p><p>حتى لو كنت غير مسجل في {WEB_LINK}، لا يزال بإمكانك تعديل أو حذف القائمة الخاصة بك:</p><p>يمكنك تعديل القائمة الخاصة بك باتباع هذا الرابط: {EDIT_LINK}</p><p>يمكنك حذف القائمة الخاصة بك باتباع هذا الرابط: {DELETE_LINK}</p><p>بغض النظر عن ذلك،</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "18",
+      "s_title": "{WEB_TITLE} - مستخدم جديد قام بالتسجيل",
+      "s_description": "<p>عزيزي {WEB_TITLE} المشرف،</p><p>أنت تتلقى هذا البريد الإلكتروني لأنه تم إنشاء مستخدم جديد في {WEB_LINK}.</p><p>تفاصيل المستخدم:</p><p>الاسم: {USER_NAME}<br />البريد الإلكتروني: {USER_EMAIL}</p><p>بغض النظر عن</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "19",
+      "s_title": "{WEB_TITLE} - شخص ما لديه سؤال لك",
+      "s_description": "<p>مرحبا {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) تركك رسالة:</p><p>{COMMENT}</p><p>بغض النظر</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "20",
+      "s_title": "{WEB_TITLE} - شخص ما علق على قائمتك",
+      "s_description": "<p>هناك تعليق جديد على القائمة: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>المؤلف: {COMMENT_AUTHOR}<br />البريد الإلكتروني للمؤلف: {COMMENT_EMAIL}<br />العنوان: {COMMENT_TITLE}<br />التعليق: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "21",
+      "s_title": "{WEB_TITLE} - نجاح إنشاء حساب المشرف!",
+      "s_description": "<p>مرحبا {ADMIN_NAME}،</p><p>مدير {WEB_LINK} قام بإنشاء حساب لك ،</p><ul><li>اسم المستخدم: {USERNAME}</li><li>كلمة المرور: {PASSWORD}</li></ul><p>يمكنك الوصول إلى لوحة الإدارة هنا {WEB_ADMIN_LINK}.</p><p>شكراً!</p><p>تحياً,</p>"
+    },
+    {
+      "fk_i_page_id": "22",
+      "s_title": "{WEB_TITLE} - إعلانك على وشك الانتهاء",
+      "s_description": "<p>مرحبا {USER_NAME}،</p><p>قائمتك <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> على وشك الانتهاء في {WEB_LINK}."
+    }
+  ]
+}
