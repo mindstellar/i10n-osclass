@@ -1,115 +1,115 @@
 {
-  "language": "en_US",
+  "language": "cs_CZ",
   "template": [
     {
       "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - Someone has a question about your listing",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Někdo má otázku ohledně tvého výpisu",
+      "s_description": "<p>Ahoj {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) vám zanechal zprávu o výpisu <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>S pozdravem,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "2",
-      "s_title": "Please validate your {WEB_TITLE} account",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "Potvrďte prosím svůj účet {WEB_TITLE}",
+      "s_description": "<p>Ahoj {USER_NAME}</p><p>Ověřte Vaši registraci kliknutím na následující odkaz: {VALIDATION_LINK}</p><p>Děkujeme!</p><p>Poklady,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - Registration successful!",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You've successfully registered for {WEB_LINK}.</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Registrace úspěšná!",
+      "s_description": "<p>Ahoj {USER_NAME},</p><p>Úspěšně jste se zaregistrovali pro {WEB_LINK}.</p><p>Děkujeme!</p><p>S pozdravem,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "4",
-      "s_title": "Look at what I discovered on {WEB_TITLE}",
-      "s_description": "<p>Hi {FRIEND_NAME},</p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
+      "s_title": "Podívejte se, co jsem objevil na {WEB_TITLE}",
+      "s_description": "<p>Ahoj {FRIEND_NAME}</p><p>Váš přítel {USER_NAME} se s Vámi chce podělit o tento seznam <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Zpráva:</p><p>{COMMENT}</p><p>Poklady,</p><p>{WEB_TITLE}</p>"
     },
     {
       "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - New listings in the last hour",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nové výpisy za poslední hodinu",
+      "s_description": "<p>Ahoj {USER_NAME},</p><p>Nové seznamy byly zveřejněny v poslední hodině. Podívejte se na ně:</p><p>{ADS}</p><p>-------------</p><p>Chcete-li se odhlásit z této výstrahy, kliknout: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - New listings in the last day",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nové výpisy za poslední den",
+      "s_description": "<p>Ahoj {USER_NAME},</p><p>Nové seznamy byly zveřejněny poslední den. Podívejte se na ně:</p><p>{ADS}</p><p>-------------</p><p>Chcete-li se odhlásit z této výstrahy, kliknout: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - New listings in the last week",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nové seznamy za poslední týden",
+      "s_description": "<p>Ahoj {USER_NAME},</p><p>Nové seznamy byly zveřejněny v minulém týdnu. Podívejte se na ně:</p><p>{ADS}</p><p>-------------</p><p>Chcete-li se odhlásit z této výstrahy, kliknout: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - New listings",
-      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nové seznamy",
+      "s_description": "<p>Ahoj {USER_NAME},</p><p>Nový seznam byl zveřejněn, podívejte se na to!</p><p>{ADS}</p><p>-------------</p><p>Chcete-li se odhlásit z této výstrahy, kliknout: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - New comment",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p>"
+      "s_title": "{WEB_TITLE} - Nový komentář",
+      "s_description": "<p>Někdo okomentoval seznam <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Komentář: {COMMENT_AUTHOR}<br />E-mail komentáře: {COMMENT_EMAIL}<br />Název: {COMMENT_TITLE}<br />Komentář: {COMMENT_TEXT}</p>"
     },
     {
       "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - Edit options for the listing {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> for a short period of time.</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>If you register as a user, you will have full access to editing options.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Upravit možnosti pro seznam {ITEM_TITLE}",
+      "s_description": "<p>Ahoj {USER_NAME},</p><p>Nejste registrováni na {WEB_LINK}, ale seznam <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> můžete ještě na krátkou dobu upravovat nebo odstranit.</p><p>Seznam můžete upravit následujícím odkazem: {EDIT_LINK}</p><p>Můžete svůj seznam odstranit následujícím odkazem: {DELETE_LINK}</p><p>Pokud se zaregistrujete jako uživatel, budete mít plný přístup k možnostem úprav.</p><p>Poklady,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Ověřte váš seznam",
+      "s_description": "<p>Ahoj {USER_NAME},</p><p>Tento e-mail jste obdrželi, protože seznam byl zveřejněn na {WEB_LINK}. Potvrďte prosím tento seznam kliknutím na následující odkaz: {VALIDATION_LINK}. Pokud jste tento seznam nezveřejnili, ignorujte prosím tento e-mail.</p><p>Podrobnosti o seznamu:</p><p>Jméno kontaktu: {USER_NAME}<br />Kontaktní e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>S pozdravem,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - A new listing has been published",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a listing has been published at {WEB_LINK}.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Byl zveřejněn nový seznam",
+      "s_description": "<p>Vážení {WEB_TITLE} admin,</p><p>Tento e-mail obdržíte, protože seznam byl zveřejněn na {WEB_LINK}.</p><p>Podrobnosti o výpisu:</p><p>Jméno kontaktu: {USER_NAME}<br />Kontaktní e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Tento výpis můžete upravit kliknutím na následující odkaz: {EDIT_LINK}</p><p>S pozdravem,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - Recover your password",
-      "s_description": "<p>Hi {USER_NAME},</p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}</p><p>The link will be deactivated in 24 hours.</p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Obnovte své heslo",
+      "s_description": "<p>Ahoj {USER_NAME},</p><p>Poslali jsme vám tento e-mail, protože jste požádali o připomenutí hesla. Následujte tento odkaz pro jeho obnovení: {PASSWORD_LINK}</p><p>Odkaz bude deaktivován za 24 hodin.</p><p>Pokud jste nepožádali o připomenutí hesla, ignorujte prosím tuto zprávu. Tato žádost byla podána od IP {IP_ADDRESS} dne {DATE_TIME}</p><p>Pokladů,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - You requested an email change",
-      "s_description": "<p>Hi {USER_NAME}</p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Požádali jste o změnu e-mailu",
+      "s_description": "<p>Ahoj {USER_NAME}</p><p>Tento e-mail jste obdrželi, protože jste požádali o změnu e-mailu. Potvrďte prosím tuto novou e-mailovou adresu kliknutím na následující ověřovací odkaz: {VALIDATION_LINK}</p><p>S pozdravem,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - Please validate your alert",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Ověřte prosím vaše upozornění",
+      "s_description": "<p>Ahoj {USER_NAME}</p><p>Ověřte registraci upozornění kliknutím na následující odkaz: {VALIDATION_LINK}</p><p>Děkujeme!</p><p>Poklady,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - Your comment has been approved",
-      "s_description": "<p>Hi {COMMENT_AUTHOR},</p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> has been approved.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Váš komentář byl schválen",
+      "s_description": "<p>Ahoj {COMMENT_AUTHOR},</p><p>Váš komentář k <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> byl schválen.</p><p>S pozdravem,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Ověřte váš seznam",
+      "s_description": "<p>Ahoj {USER_NAME},</p><p>Tento e-mail jste obdrželi, protože jste zveřejnili seznam na {WEB_LINK}. Potvrďte tento seznam kliknutím na následující odkaz: {VALIDATION_LINK}. Pokud jste tento seznam nezveřejnili, ignorujte prosím tento e-mail.</p><p>Podrobnosti o seznamu:</p><p>Jméno kontaktu: {USER_NAME}<br />Kontaktní e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>I když nejste registrováni na {WEB_LINK}, můžete stále upravovat nebo smazat svůj seznam:</p><p>Seznam můžete upravit podle tohoto odkazu: {EDIT_LINK}</p><p>Seznam můžete odstranit následujícím odkazem: {DELETE_LINK}</p><p>S pozdravem,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - A new user has registered",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nový uživatel se zaregistroval",
+      "s_description": "<p>Vážení {WEB_TITLE} admin,</p><p>Tento e-mail obdržíte, protože nový uživatel byl vytvořen na {WEB_LINK}.</p><p>Údaje o uživateli:</p><p>Název: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>S pozdravem,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - Someone has a question for you",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Někdo má na vás otázku",
+      "s_description": "<p>Ahoj {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) vám zanechal zprávu:</p><p>{COMMENT}</p><p>S pozdravem,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - Someone has commented on your listing",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Author: {COMMENT_AUTHOR}<br />Author's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Někdo okomentoval váš výpis",
+      "s_description": "<p>Je zde nový komentář k seznamu: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Autor: {COMMENT_AUTHOR}<br />E-mail autora: {COMMENT_EMAIL}<br />Název: {COMMENT_TITLE}<br />Komentář: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - Success creating admin account!",
-      "s_description": "<p>Hi {ADMIN_NAME},</p><p>The admin of {WEB_LINK} has created an account for you,</p><ul><li>Username: {USERNAME}</li><li>Password: {PASSWORD}</li></ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.</p><p>Thank you!</p><p>Regards,</p>"
+      "s_title": "{WEB_TITLE} - Vytvoření admin účtu úspěšné!",
+      "s_description": "<p>Ahoj {ADMIN_NAME},</p><p>Administrátor {WEB_LINK} pro Vás vytvořil účet.</p><ul><li>Uživatelské jméno: {USERNAME}</li><li>Heslo: {PASSWORD}</li></ul><p>Přístup k admin panelu zde {WEB_ADMIN_LINK}.</p><p>Děkujeme!</p><p>S pozdravem,</p>"
     },
     {
       "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - Your ad is about to expire",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> is about to expire at {WEB_LINK}."
+      "s_title": "{WEB_TITLE} - Vaše reklama brzy vyprší",
+      "s_description": "<p>Ahoj {USER_NAME},</p><p>Váš seznam <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> brzy vyprší v {WEB_LINK}."
     }
   ]
 }
