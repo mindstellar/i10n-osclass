@@ -1,115 +1,115 @@
 {
-  "language": "en_US",
+  "language": "da_DK",
   "template": [
     {
       "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - Someone has a question about your listing",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nogen har et spørgsmål om din liste",
+      "s_description": "<p>Hej {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) efterlod dig en besked om din liste <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "2",
-      "s_title": "Please validate your {WEB_TITLE} account",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "Godkend venligst din {WEB_TITLE} konto",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Godkend din registrering ved at klikke på følgende link: {VALIDATION_LINK}</p><p>Tak!</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - Registration successful!",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You've successfully registered for {WEB_LINK}.</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Registrering lykkedes!",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Du har registreret {WEB_LINK}.</p><p>Tak!</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "4",
-      "s_title": "Look at what I discovered on {WEB_TITLE}",
-      "s_description": "<p>Hi {FRIEND_NAME},</p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
+      "s_title": "Kig på, hvad jeg opdagede den {WEB_TITLE}",
+      "s_description": "<p>Hej {FRIEND_NAME},</p><p>Din ven {USER_NAME} ønsker at dele denne liste med dig <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Besked:</p><p>{COMMENT}</p><p>Hilsen,</p><p>{WEB_TITLE}</p>"
     },
     {
       "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - New listings in the last hour",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nye lister i den seneste time",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Nye lister er blevet offentliggjort i den sidste time. Tag et kig på dem:</p><p>{ADS}</p><p>-------------</p><p>For at afmelde denne advarsel, klik på: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - New listings in the last day",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nye lister den sidste dag",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Nye lister er blevet offentliggjort den sidste dag. Tag et kig på dem:</p><p>{ADS}</p><p>-------------</p><p>For at afmelde denne advarsel, klik på: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - New listings in the last week",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nye lister i den sidste uge",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Nye lister er blevet offentliggjort i den sidste uge. Tag et kig på dem:</p><p>{ADS}</p><p>-------------</p><p>For at afmelde denne advarsel, klik på: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - New listings",
-      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nye lister",
+      "s_description": "<p>Hej {USER_NAME},</p><p>En ny liste er blevet offentliggjort, tjek det!</p><p>{ADS}</p><p>-------------</p><p>For at afmelde denne advarsel klik på: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - New comment",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p>"
+      "s_title": "{WEB_TITLE} - Ny kommentar",
+      "s_description": "<p>Nogen kommenterede listen <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Kommentarer: {COMMENT_AUTHOR}<br />Kommentens e-mail: {COMMENT_EMAIL}<br />Titel: {COMMENT_TITLE}<br />Kommentar: {COMMENT_TEXT}</p>"
     },
     {
       "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - Edit options for the listing {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> for a short period of time.</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>If you register as a user, you will have full access to editing options.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Rediger muligheder for listning {ITEM_TITLE}",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Du er ikke registreret hos {WEB_LINK}, men du kan stadig redigere eller slette listen <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> i en kort periode.</p><p>Du kan redigere din liste ved at følge dette link: {EDIT_LINK}</p><p>Du kan slette din liste ved at følge dette link: {DELETE_LINK}</p><p>Hvis du registrerer dig som bruger, du vil have fuld adgang til redigeringsmuligheder.</p><p>Hilsen</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Validér din liste",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Du modtager denne e-mail, fordi en liste er blevet offentliggjort på {WEB_LINK}. Godkend venligst denne liste ved at klikke på følgende link: {VALIDATION_LINK}. Hvis du ikke offentliggjorde denne liste, bedes du ignorere denne e-mail.</p><p>Liste detaljer:</p><p>Kontaktnavn: {USER_NAME}<br />Kontakt e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - A new listing has been published",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a listing has been published at {WEB_LINK}.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - En ny liste er blevet offentliggjort",
+      "s_description": "<p>Kære {WEB_TITLE} admin,</p><p>Du modtager denne e-mail, fordi en liste er blevet offentliggjort på {WEB_LINK}.</p><p>Liste detaljer:</p><p>Kontaktnavn: {USER_NAME}<br />Kontakt e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Du kan redigere denne liste ved at klikke på følgende link: {EDIT_LINK}</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - Recover your password",
-      "s_description": "<p>Hi {USER_NAME},</p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}</p><p>The link will be deactivated in 24 hours.</p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Gendan din adgangskode",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Vi har sendt dig denne e-mail, fordi du har anmodet om en adgangskodepåmindelse. Følg dette link for at gendanne det: {PASSWORD_LINK}</p><p>Linket vil blive deaktiveret om 24 timer.</p><p>Hvis du ikke anmodede om en adgangskodepåmindelse, bedes du ignorere denne besked. Denne anmodning blev fremsat fra IP {IP_ADDRESS} den {DATE_TIME}</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - You requested an email change",
-      "s_description": "<p>Hi {USER_NAME}</p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Du har anmodet om en ændring af din e-mail",
+      "s_description": "<p>Hej {USER_NAME}</p><p>Du modtager denne e-mail, fordi du har anmodet om en e-mail-ændring. Bekræft venligst denne nye e-mail-adresse ved at klikke på følgende valideringslink: {VALIDATION_LINK}</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - Please validate your alert",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Godkend venligst din advarsel",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Godkend venligst din advarselsregistrering ved at klikke på følgende link: {VALIDATION_LINK}</p><p>Tak!</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - Your comment has been approved",
-      "s_description": "<p>Hi {COMMENT_AUTHOR},</p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> has been approved.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Din kommentar er blevet godkendt",
+      "s_description": "<p>Hej {COMMENT_AUTHOR},</p><p>Din kommentar til <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> er blevet godkendt.</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Validér din liste",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Du modtager denne e-mail, fordi du har offentliggjort en liste på {WEB_LINK}. Godkend venligst denne liste ved at klikke på følgende link: {VALIDATION_LINK}. Hvis du ikke offentliggjorde denne liste, bedes du ignorere denne e-mail.</p><p>Liste detaljer:</p><p>Kontaktnavn: {USER_NAME}<br />Kontakt e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Selv hvis du ikke er registreret på {WEB_LINK}, du kan stadig redigere eller slette din liste:</p><p>Du kan redigere din liste ved at følge dette link: {EDIT_LINK}</p><p>Du kan slette din liste ved at følge dette link: {DELETE_LINK}</p><p>Hilsen</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - A new user has registered",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - En ny bruger er registreret",
+      "s_description": "<p>Kære {WEB_TITLE} administrator,</p><p>Du modtager denne e-mail, fordi en ny bruger er blevet oprettet på {WEB_LINK}.</p><p>Brugerdetaljer:</p><p>Navn: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - Someone has a question for you",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nogen har et spørgsmål til dig",
+      "s_description": "<p>Hej {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) efterlod dig en besked:</p><p>{COMMENT}</p><p>Hilsen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - Someone has commented on your listing",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Author: {COMMENT_AUTHOR}<br />Author's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nogen har kommenteret din liste",
+      "s_description": "<p>Der er en ny kommentar på listen: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Forfatter: {COMMENT_AUTHOR}<br />Forfatterens e-mail: {COMMENT_EMAIL}<br />Titel: {COMMENT_TITLE}<br />Kommentar: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - Success creating admin account!",
-      "s_description": "<p>Hi {ADMIN_NAME},</p><p>The admin of {WEB_LINK} has created an account for you,</p><ul><li>Username: {USERNAME}</li><li>Password: {PASSWORD}</li></ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.</p><p>Thank you!</p><p>Regards,</p>"
+      "s_title": "{WEB_TITLE} - Succes med at oprette administratorkonto!",
+      "s_description": "<p>Hej {ADMIN_NAME},</p><p>Administratoren af {WEB_LINK} har oprettet en konto til dig,</p><ul><li>Brugernavn: {USERNAME}</li><li>Adgangskode: {PASSWORD}</li></ul><p>Du kan få adgang til admin panelet her {WEB_ADMIN_LINK}.</p><p>Tak!</p><p>Hilsen,</p>"
     },
     {
       "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - Your ad is about to expire",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> is about to expire at {WEB_LINK}."
+      "s_title": "{WEB_TITLE} - Din annonce er ved at udløbe",
+      "s_description": "<p>Hej {USER_NAME},</p><p>Din liste <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> er ved at udløbe {WEB_LINK}."
     }
   ]
 }
