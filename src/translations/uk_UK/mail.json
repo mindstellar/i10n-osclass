@@ -1,0 +1,115 @@
+{
+  "language": "uk_UA",
+  "template": [
+    {
+      "fk_i_page_id": "1",
+      "s_title": "{WEB_TITLE} - Хтось має питання про ваш список",
+      "s_description": "<p>Привіт {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) залишив вам повідомлення про ваш список <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Збачення,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "2",
+      "s_title": "Будь ласка, підтвердіть ваш обліковий запис на {WEB_TITLE}",
+      "s_description": "<p>Привіт {USER_NAME},</p><p>Будь ласка, підтвердіть вашу реєстрацію, натиснувши на наступне посилання: {VALIDATION_LINK}</p><p>Дякуємо!</p></p> Відгуки<p>,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "3",
+      "s_title": "{WEB_TITLE} - Реєстрація успішна!",
+      "s_description": "<p>Привіт, {USER_NAME},</p><p>Ви успішно зареєструвалися за {WEB_LINK}.</p><p>Дякуємо!</p><p>Згода,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "4",
+      "s_title": "Подивіться, що я відкрив на {WEB_TITLE}",
+      "s_description": "<p>Привіт {FRIEND_NAME},</p><p>Ваш друг {USER_NAME} хоче поділитися цим списком з вами <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Повідомлення:</p><p>{COMMENT}</p><p>Коресування,</p><p>{WEB_TITLE}</p>"
+    },
+    {
+      "fk_i_page_id": "5",
+      "s_title": "{WEB_TITLE} - Нові списки за останню годину",
+      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "6",
+      "s_title": "{WEB_TITLE} - Нові списки за останній день",
+      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "7",
+      "s_title": "{WEB_TITLE} - Нові списки за останній тиждень",
+      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "8",
+      "s_title": "{WEB_TITLE} - Нові списки",
+      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "9",
+      "s_title": "{WEB_TITLE} - новий коментар",
+      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p>"
+    },
+    {
+      "fk_i_page_id": "10",
+      "s_title": "{WEB_TITLE} - Редагування опцій для списку {ITEM_TITLE}",
+      "s_description": "<p>Hi {USER_NAME},</p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> for a short period of time.</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>If you register as a user, you will have full access to editing options.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "11",
+      "s_title": "{WEB_TITLE} - Перевірте ваш список",
+      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "12",
+      "s_title": "{WEB_TITLE} - Новий список був опублікований",
+      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a listing has been published at {WEB_LINK}.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "13",
+      "s_title": "{WEB_TITLE} - Відновити пароль",
+      "s_description": "<p>Привіт {USER_NAME},</p><p>Ми надіслали вам цю електронну пошту, оскільки ви подали запит на нагадування про пароль. Перейдіть за цим посиланням, щоб відновити його: {PASSWORD_LINK}</p><p>Посилання буде відключено через 24 години.</p><p>Якщо ви не запитували нагадування паролю, будь ласка, проігноруйте це повідомлення. Цей запит був зроблений з IP {IP_ADDRESS} на {DATE_TIME}</p><p>Здання,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "14",
+      "s_title": "{WEB_TITLE} - Ви запросили зміну електронної пошти",
+      "s_description": "<p>Hi {USER_NAME}</p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "15",
+      "s_title": "{WEB_TITLE} - Будь ласка, підтвердіть ваше оповіщення",
+      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "16",
+      "s_title": "{WEB_TITLE} - Ваш коментар було схвалено",
+      "s_description": "<p>Привіт {COMMENT_AUTHOR},</p><p>Ваш коментар на <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> було затверджено.</p><p>Згоди,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "17",
+      "s_title": "{WEB_TITLE} - Перевірте ваш список",
+      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "18",
+      "s_title": "{WEB_TITLE} - Новий користувач зареєструвався",
+      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "19",
+      "s_title": "{WEB_TITLE} - Хтось має питання до вас",
+      "s_description": "<p>Привіт {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) залишило вам повідомлення:</p><p>{COMMENT}</p><p>Повстання,</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "20",
+      "s_title": "{WEB_TITLE} - Хтось прокоментував у вашому списку",
+      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Author: {COMMENT_AUTHOR}<br />Author's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
+    },
+    {
+      "fk_i_page_id": "21",
+      "s_title": "{WEB_TITLE} - Успішне створення облікового запису адміністратора!",
+      "s_description": "<p>Привіт {ADMIN_NAME},</p><p>Адміністратор {WEB_LINK} створив обліковий запис для вас,</p><ul><li>Ім'я користувача: {USERNAME}</li><li>Пароль: {PASSWORD}</li></ul><p>Ви можете отримати доступ до панелі адміністратора тут {WEB_ADMIN_LINK}.</p><p>Дякую!</p><p>Незалежно від того,</p>"
+    },
+    {
+      "fk_i_page_id": "22",
+      "s_title": "{WEB_TITLE} - Термін дії вашого оголошення закінчиться",
+      "s_description": "<p>Привіт, {USER_NAME},</p><p>Ваш список <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> закінчується {WEB_LINK}."
+    }
+  ]
+}
