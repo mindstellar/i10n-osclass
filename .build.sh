@@ -66,8 +66,8 @@ find tmp/osclass/oc-content/themes/bender -type f -name '*.php' |
 
 echo 'theme.pot is created in /src/templates directory'
 echo 'Cleaning temporary files'
-# Not needed mail.sql will not be used now.
-#cp src/mail.sql src/templates/mail.sql
+
+cp src/mail.json src/templates/mail.json
 # Remove temporary files
 rm -r ./tmp
 
