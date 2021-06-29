@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-24 12:47\n"
+"PO-Revision-Date: 2021-06-29 12:19\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -214,11 +214,11 @@ msgstr "As definições de comentários foram atualizadas"
 
 #: tmp/osclass/oc-admin/controller/settings/advanced.php:44
 msgid "Advanced settings have been updated"
-msgstr ""
+msgstr "As configurações avançadas foram atualizadas"
 
 #: tmp/osclass/oc-admin/controller/settings/advanced.php:51
 msgid "Cache flushed correctly"
-msgstr ""
+msgstr "Cache limpada corretamente"
 
 #: tmp/osclass/oc-admin/controller/settings/permalinks.php:424
 msgid "All fields are required."
@@ -227,11 +227,11 @@ msgstr "Todos os campos são obrigatórios"
 #: tmp/osclass/oc-admin/controller/settings/permalinks.php:427
 #: tmp/osclass/oc-admin/controller/settings/permalinks.php:475
 msgid "Permalinks structure updated"
-msgstr ""
+msgstr "Estrutura de permalinks atualizada"
 
 #: tmp/osclass/oc-admin/controller/settings/permalinks.php:436
 msgid "Permalinks structure updated."
-msgstr ""
+msgstr "Estrutura de permalinks atualizada."
 
 #: tmp/osclass/oc-admin/controller/settings/permalinks.php:438
 msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
@@ -252,11 +252,11 @@ msgstr "Este é o conteúdo que foi adicionado ao ficheiro <b>.htaccess</b>. Se 
 
 #: tmp/osclass/oc-admin/controller/settings/permalinks.php:469
 msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr ""
+msgstr "Arquivo <b>.htaccess</b> já existe e não foi modificado."
 
 #: tmp/osclass/oc-admin/controller/settings/permalinks.php:471
 msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr ""
+msgstr "Aqui está o conteúdo que você deve adicionar ao arquivo <b>. htaccess</b> . Se você não pode modificar o arquivo ou experimentar alguns problemas com os URLs, por favor desative a opção de <em>URLs amigáveis</em>."
 
 #: tmp/osclass/oc-admin/controller/settings/permalinks.php:504
 msgid "Friendly URLs successfully deactivated"
@@ -264,11 +264,11 @@ msgstr "URLs amigáveis desativados com sucesso"
 
 #: tmp/osclass/oc-admin/controller/settings/permalinks.php:507
 msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr ""
+msgstr "URLs amigáveis desativadas, mas o arquivo .htaccess não pode ser excluído. Por favor, remova-o manualmente"
 
 #: tmp/osclass/oc-admin/controller/settings/permalinks.php:509
 msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr ""
+msgstr "URLs amigáveis desativadas, mas o arquivo .htaccess foi modificado fora de Osclass e não foi excluído"
 
 #: tmp/osclass/oc-admin/controller/settings/main.php:29
 msgid "Last check"
@@ -382,11 +382,11 @@ msgstr "Nenhuma cidade selecionada"
 
 #: tmp/osclass/oc-admin/controller/settings/locations.php:449
 msgid "Location imported successfully"
-msgstr ""
+msgstr "Localização importada com sucesso"
 
 #: tmp/osclass/oc-admin/controller/settings/locations.php:457
 msgid "There was a problem importing the selected location"
-msgstr ""
+msgstr "Houve um problema ao importar o local selecionado"
 
 #: tmp/osclass/oc-admin/controller/settings/latestsearches.php:39
 msgid "Custom number could not be left empty"
@@ -443,7 +443,7 @@ msgstr "Houve um problema a adicionar o plugin"
 #: tmp/osclass/oc-admin/plugins.php:90
 #, php-format
 msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr ""
+msgstr "O plugin gerou %d caracteres de <strong>saída inesperada</strong> durante a instalação. Saída: \"%s\""
 
 #: tmp/osclass/oc-admin/plugins.php:93
 msgid "Plugin is already installed"
@@ -500,16 +500,16 @@ msgstr "Nenhum plugin selecionado"
 
 #: tmp/osclass/oc-admin/plugins.php:231
 msgid "The files were deleted"
-msgstr ""
+msgstr "Os arquivos foram apagados"
 
 #: tmp/osclass/oc-admin/plugins.php:233
 #, php-format
 msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr ""
+msgstr "Houve um erro ao excluir os arquivos, por favor, verifique as permissões dos arquivos em %s"
 
 #: tmp/osclass/oc-admin/plugins.php:245
 msgid "Invalid plugin file"
-msgstr ""
+msgstr "Arquivo de plugin inválido"
 
 #: tmp/osclass/oc-admin/tools.php:36 tmp/osclass/oc-admin/tools.php:63
 #: tmp/osclass/oc-admin/tools.php:73 tmp/osclass/oc-admin/tools.php:83
@@ -687,7 +687,7 @@ msgstr "O idioma foi instalado correctamente"
 
 #: tmp/osclass/oc-admin/languages.php:70
 msgid "File uploaded but unable to activate the language"
-msgstr ""
+msgstr "Arquivo carregado, mas não foi possível ativar o idioma"
 
 #: tmp/osclass/oc-admin/languages.php:85
 msgid "There was a problem adding the language"
@@ -773,7 +773,7 @@ msgstr "Diretório '%s' não pode ser removido;)"
 #: tmp/osclass/oc-admin/languages.php:328
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
-msgstr ""
+msgstr "O diretório '%s' não pôde ser removido porque é o idioma padrão. <a href=\"%s\">Defina outro idioma</a> primeiro e tente novamente"
 
 #: tmp/osclass/oc-admin/main.php:62
 msgid "You have very few free space left, users will not be able to upload pictures"
@@ -831,7 +831,7 @@ msgstr "O utilizador já se encontra em uso"
 
 #: tmp/osclass/oc-admin/admins.php:108 tmp/osclass/oc-admin/admins.php:238
 msgid "Incorrent current password"
-msgstr ""
+msgstr "Senha atual inconsistente"
 
 #: tmp/osclass/oc-admin/admins.php:132
 msgid "The admin has been added"
@@ -948,7 +948,7 @@ msgstr "O e-mail não pôde ser atualizado, pelo menos, um título não deve est
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:106
 msgid "Current theme does not support widgets"
-msgstr ""
+msgstr "O tema atual não suporta widgets"
 
 #: tmp/osclass/oc-admin/items.php:95
 #, php-format
@@ -1024,15 +1024,15 @@ msgstr "Imagens por anúncios deve conter apenas carateres numéricos"
 
 #: tmp/osclass/oc-admin/items.php:662
 msgid "Number of expiration days has to be a numeric value"
-msgstr ""
+msgstr "Número de dias de expiração deve ser um valor numérico"
 
 #: tmp/osclass/oc-admin/items.php:665
 msgid "Title Length has to be a numeric value"
-msgstr ""
+msgstr "Comprimento do título deve ser um valor numérico"
 
 #: tmp/osclass/oc-admin/items.php:668
 msgid "Description Length has to be a numeric value"
-msgstr ""
+msgstr "Comprimento da descrição deve ser um valor numérico"
 
 #: tmp/osclass/oc-admin/items.php:699
 msgid "Listings' settings have been updated"
@@ -1095,7 +1095,7 @@ msgstr "%s páginas apagadas corretamente"
 
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:556
 msgid "Osclass has been updated successfully. <a href=\"https://github.com/navjottomer/osclass\">Need more help?</a>"
-msgstr ""
+msgstr "Osclass foi atualizado com sucesso. <a href=\"https://github.com/navjottomer/osclass\">Precisa de mais ajuda?</a>"
 
 #: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:30
 #: tmp/osclass/oc-includes/osclass/controller/login.php:30
@@ -1158,7 +1158,7 @@ msgstr "O seu IP não está autrizado"
 
 #: tmp/osclass/oc-includes/osclass/controller/user-non-secure.php:184
 msgid "Your email has been sent properly."
-msgstr ""
+msgstr "Seu e-mail foi enviado corretamente."
 
 #: tmp/osclass/oc-includes/osclass/controller/item.php:52
 #: tmp/osclass/oc-includes/osclass/controller/item.php:117
@@ -1261,7 +1261,7 @@ msgstr "Não pode contactar o vendedor, só utilizadores registados o podem faze
 #: tmp/osclass/oc-includes/osclass/controller/item.php:438
 #, php-format
 msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Clique aqui para entrar</a>"
 
 #: tmp/osclass/oc-includes/osclass/controller/item.php:487
 msgid "We've just sent an e-mail to the seller"
@@ -1293,11 +1293,11 @@ msgstr "O teu comentário foi marcado como spam"
 
 #: tmp/osclass/oc-includes/osclass/controller/item.php:522
 msgid "You need to be logged to comment"
-msgstr ""
+msgstr "Você precisa estar logado para comentar"
 
 #: tmp/osclass/oc-includes/osclass/controller/item.php:525
 msgid "Sorry, comments are disabled"
-msgstr ""
+msgstr "Desculpe, os comentários estão desativados"
 
 #: tmp/osclass/oc-includes/osclass/controller/item.php:553
 msgid "You must be logged in to delete a comment"
@@ -1321,11 +1321,11 @@ msgstr "O anuncio não foi validado. Por favor valide para assim o tornar públi
 
 #: tmp/osclass/oc-includes/osclass/controller/item.php:606
 msgid "The listing hasn't been enabled. Please enable it in order to make it public"
-msgstr ""
+msgstr "O anúncio não foi habilitado. Por favor, habilite-o para torná-lo público"
 
 #: tmp/osclass/oc-includes/osclass/controller/item.php:608
 msgid "The listing has been blocked or is awaiting moderation from the admin"
-msgstr ""
+msgstr "A listagem foi bloqueada ou está aguardando moderação do administrador"
 
 #: tmp/osclass/oc-includes/osclass/controller/login.php:42
 #: tmp/osclass/oc-includes/osclass/controller/register.php:55
@@ -1334,11 +1334,11 @@ msgstr "Utilizadores não estão habilitados"
 
 #: tmp/osclass/oc-includes/osclass/controller/login.php:53
 msgid "Please provide an email address"
-msgstr ""
+msgstr "Por favor, forneça um endereço de e-mail"
 
 #: tmp/osclass/oc-includes/osclass/controller/login.php:57
 msgid "Empty passwords are not allowed. Please provide a password"
-msgstr ""
+msgstr "Senhas vazias não são permitidas. Por favor, forneça uma senha"
 
 #: tmp/osclass/oc-includes/osclass/controller/login.php:71
 #: tmp/osclass/oc-includes/osclass/controller/login.php:136
@@ -1352,7 +1352,7 @@ msgstr "A password não está correcta"
 #: tmp/osclass/oc-includes/osclass/controller/login.php:139
 #, php-format
 msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
-msgstr ""
+msgstr "O usuário ainda não foi validado. Você gostaria de reenviar a sua <a href=\"%s\">ativação?</a>"
 
 #: tmp/osclass/oc-includes/osclass/controller/login.php:141
 msgid "The user has not been validated yet"
@@ -1368,15 +1368,15 @@ msgstr "Isto não pode acontecer"
 
 #: tmp/osclass/oc-includes/osclass/controller/login.php:186
 msgid "Incorrect link"
-msgstr ""
+msgstr "Link incorreto"
 
 #: tmp/osclass/oc-includes/osclass/controller/login.php:197
 msgid "Validation email re-sent"
-msgstr ""
+msgstr "E-mail de validação reenviado"
 
 #: tmp/osclass/oc-includes/osclass/controller/login.php:199
 msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
-msgstr ""
+msgstr "Acabamos de enviar um e-mail para validar a sua conta, você terá que esperar alguns minutos para reenviá-lo novamente"
 
 #: tmp/osclass/oc-includes/osclass/controller/login.php:212
 msgid "Invalid email address"
@@ -1499,7 +1499,7 @@ msgstr "A sua conta foi validada"
 
 #: tmp/osclass/oc-includes/osclass/controller/register.php:124
 msgid "Account validation failed"
-msgstr ""
+msgstr "Validação da conta falhou"
 
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:111
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:660
@@ -1514,22 +1514,22 @@ msgstr "Imagem muito grande. Tamanho Max."
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:124
 #, php-format
 msgid "Title too short (%s)."
-msgstr ""
+msgstr "Título muito curto (%s)."
 
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:125
 #, php-format
 msgid "Title too long (%s)."
-msgstr ""
+msgstr "Título muito longo (%s)."
 
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:136
 #, php-format
 msgid "Description too short (%s)."
-msgstr ""
+msgstr "Descrição muito curta (%s)."
 
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:137
 #, php-format
 msgid "Description too long (%s)."
-msgstr ""
+msgstr "Descrição muito longa (%s)."
 
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:146
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:692
@@ -1549,7 +1549,7 @@ msgstr "Preço muito longo"
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:151
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:697
 msgid "Price must be positive number."
-msgstr ""
+msgstr "O preço deve ser um número positivo."
 
 #: tmp/osclass/oc-includes/osclass/ItemActions.php:152
 msgid "Name too long."
@@ -1646,11 +1646,11 @@ msgstr "Enviamos uma mensagem para %s"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hSecurity.php:79
 msgid "Probable invalid request."
-msgstr ""
+msgstr "Solicitação provavelmente inválida."
 
 #: tmp/osclass/oc-includes/osclass/helpers/hSecurity.php:85
 msgid "Invalid CSRF token."
-msgstr ""
+msgstr "Token CSRF inválido."
 
 #: tmp/osclass/oc-includes/osclass/UserActions.php:50
 msgid "The reCAPTCHA was not entered correctly"
@@ -1663,7 +1663,7 @@ msgstr "A password não pode estar vazia"
 #: tmp/osclass/oc-includes/osclass/UserActions.php:67
 #: tmp/osclass/oc-includes/osclass/UserActions.php:183
 msgid "The name cannot be empty"
-msgstr ""
+msgstr "O nome não pode estar vazio"
 
 #: tmp/osclass/oc-includes/osclass/UserActions.php:72
 msgid "The email is not valid"
@@ -1676,7 +1676,7 @@ msgstr "Nome de utilizador já em utilização"
 #: tmp/osclass/oc-includes/osclass/UserActions.php:177
 #, php-format
 msgid "The specified e-mail is already used by %s"
-msgstr ""
+msgstr "O e-mail especificado já está em uso por %s"
 
 #: tmp/osclass/oc-includes/osclass/core/AdminSecBaseModel.php:62
 msgid "Thank you very much for your donation"
