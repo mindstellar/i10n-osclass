@@ -2,4 +2,4 @@ files:
   - source: /src/templates/*.pot
     translation: /src/translations/%locale_with_underscore%/%file_name%.po
   - source: /src/templates/mail.json
-    translation: /src/translations/%two_letters_code%/mail.json
+    translation: /src/translations/%locale_with_underscore%/mail.json
