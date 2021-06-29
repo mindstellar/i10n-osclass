@@ -1,7 +1,7 @@
 # i10n-osclass
 Osclass localization project
 
-## Building Template files
+## Building or updating template files with latest Osclass release
 
 Run this command in your bash aware terminal
 ```
