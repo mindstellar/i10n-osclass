@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-29 11:20\n"
+"PO-Revision-Date: 2021-06-29 12:19\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -121,17 +121,17 @@ msgstr "メール送信時にエラーが発生しました"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:505
 msgid "Version could not be checked"
-msgstr ""
+msgstr "バージョンを確認できませんでした"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:524
 #: tmp/osclass/oc-admin/ajax/ajax.php:528
 #: tmp/osclass/oc-admin/ajax/ajax.php:532
 msgid "Checked updates"
-msgstr ""
+msgstr "チェックされた更新"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:541
 msgid "This action cannot be done because it is a demo site"
-msgstr ""
+msgstr "デモサイトであるため、この操作はできません"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:582
 msgid "No external sources are allowed"
@@ -430,7 +430,7 @@ msgstr "選択された管理者を本当に %s しますか？"
 
 #: tmp/osclass/oc-admin/appearance.php:200
 msgid "Error loading theme custom file"
-msgstr ""
+msgstr "テーマのカスタムファイルの読み込みに失敗しました"
 
 #: tmp/osclass/oc-admin/themes/modern/stats/users.php:28
 #: tmp/osclass/oc-admin/themes/modern/stats/comments.php:25
@@ -909,7 +909,7 @@ msgstr "Osclass マーケット"
 
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:330
 msgid "You are about to delete the files of the plugin. Do you want to continue?"
-msgstr ""
+msgstr "プラグインのファイルを削除しようとしています。続行しますか？"
 
 #: tmp/osclass/oc-admin/themes/modern/comments/frm.php:25
 msgid "Edit comment"
@@ -1108,7 +1108,7 @@ msgstr "テーマを追加 &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:23
 msgid "Modify your site's header or footer here."
-msgstr ""
+msgstr "ここでサイトのヘッダーまたはフッターを変更します。"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:42
 msgid "Delete widget"
@@ -1138,7 +1138,7 @@ msgstr "テーマを削除"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:48
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
-msgstr ""
+msgstr "利用可能なテーマの中からテーマを有効にすることで、サイトの外観と雰囲気を変更できます。 <strong>注意してください</strong>: テーマがカスタマイズされている場合、新しいテーマに変更するとすべての変更が失われます。"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:193
 msgid "Please wait until the download is completed"
@@ -1308,7 +1308,7 @@ msgstr "上級者向け設定 &raquo; %s"
 #: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:76
 #: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:77
 msgid "Flush cache"
-msgstr ""
+msgstr "キャッシュをフラッシュする"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/advanced.php:108
 #, php-format
@@ -1586,7 +1586,7 @@ msgstr "新しい都市の追加"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/locations.php:137
 msgid "Import a location"
-msgstr ""
+msgstr "場所をインポート"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/locations.php:152
 msgid "Add, edit or delete the countries, regions and cities installed on your Osclass. <strong>Be careful</strong>: modifying locations can cause your statistics to be incorrect until they're recalculated. Modify only if you're sure what you're doing!"
@@ -1893,12 +1893,12 @@ msgstr "詳細"
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:22
 #, php-format
 msgid "Osclass %s"
-msgstr ""
+msgstr "Osclass %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:30
 #, php-format
 msgid "Osclass %s &raquo; %s"
-msgstr ""
+msgstr "Osclass %s &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/locations.php:71
 #, php-format
@@ -1946,7 +1946,7 @@ msgstr "アップグレード &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:117
 msgid "Osclass Documentation"
-msgstr ""
+msgstr "Osclass ドキュメント"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:25
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -2050,11 +2050,11 @@ msgstr "選択したページを%sしてよろしいですか?"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:122
 msgid "PHP version >= 5.6.x"
-msgstr ""
+msgstr "PHP バージョン >= 5.6.x"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:124
 msgid "At least PHP5.6 (PHP 7.0 or higher recommended) is required to run Osclass. You may talk with your hosting to upgrade your PHP version."
-msgstr ""
+msgstr "Osclassを実行するには、PHP5.6（PHP 7.0以上推奨）以上が必要です。PHPのバージョンをアップグレードするには、ホスティングと相談してください。"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:128
 msgid "MySQLi extension for PHP"
@@ -2088,7 +2088,7 @@ msgstr "<code>oc-content/uploads</code> フォルダは書き込み可能です"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:148
 #, php-format
 msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
-msgstr ""
+msgstr "<code>アップロード</code> フォルダを書き込み可能にする必要があります。例: <code>chmod 0755 %soc-content/uploads/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:152
 msgid "Folder <code>oc-content/downloads</code> exists"
@@ -2106,7 +2106,7 @@ msgstr "<code>oc-content/downloads</code> フォルダが書き込み可能で�
 #: tmp/osclass/oc-includes/osclass/install-functions.php:160
 #, php-format
 msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
-msgstr ""
+msgstr "<code>downloads</code> フォルダは書き込み可能でなければなりません。例: <code>chmod 0755 %soc-content/downloads/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:164
 msgid "Folder <code>oc-content/languages</code> folder exists"
@@ -2125,7 +2125,7 @@ msgstr "<code>oc-content/languages</code> フォルダが書き込み可能で�
 #: tmp/osclass/oc-includes/osclass/install-functions.php:172
 #, php-format
 msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
-msgstr ""
+msgstr "<code>言語</code> フォルダは書き込み可能でなければなりません。例: <code>chmod 0755 %soc-content/languages/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:184
 msgid "<code>config.php</code> file is writable"
@@ -2134,7 +2134,7 @@ msgstr "<code>config.php</code> ファイルは書き込み可能です"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:186
 #, php-format
 msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
-msgstr ""
+msgstr "<code>config.php</code> ファイルは書き込み可能でなければなりません。例: <code>chmod 0755 %sconfig.php</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:193
 msgid "Root directory is writable"
@@ -2143,7 +2143,7 @@ msgstr "ルートディレクトリは書き込み可能です"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:195
 #, php-format
 msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
-msgstr ""
+msgstr "ルートフォルダは書き込み可能でなければなりません。例えば: <code>chmod 0755 %s</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:202
 msgid "<code>config-sample.php</code> file exists"
@@ -2272,7 +2272,7 @@ msgstr "Osclass &raquo; 正常にアップデートされました"
 
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:561
 msgid "Osclass has been updated successfully. <a href=\"https://github.com/navjottomer/osclass\">Need more help?</a>"
-msgstr ""
+msgstr "Osclass が正常に更新されました。 <a href=\"https://github.com/navjottomer/osclass\">詳しい情報が必要ですか？</a>"
 
 #: tmp/osclass/oc-includes/osclass/controller/search.php:610
 msgid "Latest listings added"
@@ -2536,7 +2536,7 @@ msgstr "広告URL"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:75
 msgid "Item expiration date"
-msgstr ""
+msgstr "アイテムの有効期限"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:76
 msgid "Listing list"
@@ -2625,11 +2625,11 @@ msgstr "広告される市区町村"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:97
 msgid "Seller name"
-msgstr ""
+msgstr "販売者名"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:98
 msgid "Seller email"
-msgstr ""
+msgstr "販売者のメールアドレス"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:58
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:72
@@ -3114,19 +3114,19 @@ msgstr "日曜"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
 msgid "AM"
-msgstr ""
+msgstr "午前"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
 msgid "am"
-msgstr ""
+msgstr "午前"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
 msgid "pm"
-msgstr ""
+msgstr "午後"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:186
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:466
@@ -3164,12 +3164,12 @@ msgstr "無料"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hItems.php:1214
 msgid "From"
-msgstr ""
+msgstr "差出人:"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hItems.php:1215
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:293
 msgid "to"
-msgstr ""
+msgstr "to"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hCategories.php:291
 #: tmp/osclass/oc-includes/osclass/gui/item-post.php:62
@@ -3260,7 +3260,7 @@ msgstr "コンピューター、各種ハードウェア"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:21
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:22
 msgid "Electronics"
@@ -3584,7 +3584,7 @@ msgstr "投稿者の例"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:107
 msgid "osclass@example.com"
-msgstr ""
+msgstr "osclass@example.com"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:108
 msgid "Example country"
@@ -3692,15 +3692,15 @@ msgstr "%s さん、こんにちわ。"
 #: tmp/osclass/oc-includes/osclass/gui/footer.php:72
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr ""
+msgstr "このウェブサイトは誇らしげに <a title=\"Osclass web\" href=\"%s\">スクリプト</a> ソフトウェア <strong>Osclass</strong>を使用しています。"
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:55
 msgid "No file selected"
-msgstr ""
+msgstr "ファイルが選択されていません"
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:56
 msgid "Choose File"
-msgstr ""
+msgstr "ファイルを選択"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:432
@@ -3709,11 +3709,11 @@ msgstr "アカウントを更新する"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:90
 msgid "Previous image"
-msgstr ""
+msgstr "前の画像"
 
 #: tmp/osclass/oc-includes/osclass/gui/common/head.php:91
 msgid "Next image"
-msgstr ""
+msgstr "次の画像"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-change_username.php:39
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:434
@@ -3724,7 +3724,7 @@ msgstr "ユーザー名を変更する"
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
-msgstr ""
+msgstr "メールアドレス: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:76
 #, php-format
@@ -3847,7 +3847,7 @@ msgstr "注意：ウェブユーザーと目的フォルダのユーザーが異
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2704
 msgid "This is a paid item, you need to buy it before you are able to download it"
-msgstr ""
+msgstr "これは有料アイテムです。ダウンロードする前に購入する必要があります"
 
 #: tmp/osclass/oc-includes/osclass/utils.php:2707
 msgid "Input code not valid"
@@ -3855,7 +3855,7 @@ msgstr "入力コードが不正です"
 
 #: tmp/osclass/oc-includes/osclass/model/Category.php:658
 msgid "Non-Existent Category"
-msgstr ""
+msgstr "存在しないカテゴリ"
 
 #: tmp/osclass/oc-includes/osclass/model/Item.php:1144
 #, php-format
@@ -3885,7 +3885,7 @@ msgstr "セッションタイムアウト"
 
 #: tmp/osclass/oc-includes/osclass/frm/Page.form.class.php:90
 msgid "Body"
-msgstr ""
+msgstr "本文"
 
 #: tmp/osclass/oc-includes/osclass/frm/Alert.form.class.php:46
 msgid "Enter your e-mail"
@@ -3909,7 +3909,7 @@ msgstr "今日"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:232
 msgid "Select"
-msgstr ""
+msgstr "選択"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:288
 msgid "from"
@@ -4101,7 +4101,7 @@ msgstr "アラートを中止する"
 #: tmp/osclass/oc-includes/osclass/emails.php:936
 #: tmp/osclass/oc-includes/osclass/emails.php:1147
 msgid "Admin"
-msgstr ""
+msgstr "管理者"
 
 #: tmp/osclass/oc-includes/osclass/emails.php:979
 #: tmp/osclass/oc-includes/osclass/emails.php:981
@@ -4167,7 +4167,7 @@ msgstr "新コメント"
 #: tmp/osclass/oc-includes/osclass/functions.php:571
 #, php-format
 msgid "Osclass %s is available"
-msgstr ""
+msgstr "Osclass %s が利用可能です"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:639
 msgid "Plugin updates"
@@ -4204,7 +4204,7 @@ msgstr "パスワード: %s"
 #: tmp/osclass/oc-includes/osclass/install-location.php:116
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
-msgstr ""
+msgstr "疑問がある場合は、 <a href=\"%1$s\">ドキュメント</a> を参照してください。"
 
 #: tmp/osclass/oc-includes/osclass/install-location.php:117
 msgid "Cheers,"
@@ -4212,7 +4212,7 @@ msgstr "ごきげんよう"
 
 #: tmp/osclass/oc-includes/osclass/install-location.php:118
 msgid "The <a href=\"https://github.com/navjottomer/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "<a href=\"https://github.com/navjottomer/osclass\">Osclass</a> チーム"
 
 #: tmp/osclass/oc-includes/osclass/Themes.php:208
 #, php-format

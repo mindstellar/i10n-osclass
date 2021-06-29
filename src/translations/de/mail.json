@@ -1,115 +1,115 @@
 {
-  "language": "en_US",
+  "language": "de_DE",
   "template": [
     {
       "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - Someone has a question about your listing",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Jemand hat eine Frage zu Ihrem Angebot",
+      "s_description": "<p>Hallo {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) hat Ihnen eine Nachricht über Ihren Eintrag hinterlassen: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Mit freundlichen Grüßen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "2",
-      "s_title": "Please validate your {WEB_TITLE} account",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "Bitte validieren Sie Ihr {WEB_TITLE} -Konto",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Bitte bestätigen Sie Ihre Registrierung, indem Sie auf den folgenden Link klicken: {VALIDATION_LINK}</p><p>Vielen Dank!</p><p>Grüße,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - Registration successful!",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You've successfully registered for {WEB_LINK}.</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Registrierung erfolgreich!",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Sie haben sich erfolgreich für {WEB_LINK}registriert.</p><p>Vielen Dank!</p><p>Mit freundlichen Grüßen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "4",
-      "s_title": "Look at what I discovered on {WEB_TITLE}",
-      "s_description": "<p>Hi {FRIEND_NAME},</p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
+      "s_title": "Schau dir an, was ich auf {WEB_TITLE} entdeckt habe",
+      "s_description": "<p>Hallo {FRIEND_NAME},</p><p>Ihr Freund {USER_NAME} möchte diesen Eintrag mit Ihnen teilen <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Nachricht:</p><p>{COMMENT}</p><p>Grüße,</p><p>{WEB_TITLE}</p>"
     },
     {
       "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - New listings in the last hour",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Neue Angebote in der letzten Stunde",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Neue Angebote wurden in der letzten Stunde veröffentlicht. Werfen Sie einen Blick auf sie:</p><p>{ADS}</p><p>-------------</p><p>Um diese Benachrichtigung abzubestellen, klicken: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - New listings in the last day",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Neue Angebote am letzten Tag",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Neue Angebote wurden am letzten Tag veröffentlicht. Werfen Sie einen Blick auf sie:</p><p>{ADS}</p><p>-------------</p><p>Um diese Benachrichtigung abzubestellen, klicken: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - New listings in the last week",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Neue Angebote der letzten Woche",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Neue Angebote wurden in der letzten Woche veröffentlicht. Werfen Sie einen Blick auf sie:</p><p>{ADS}</p><p>-------------</p><p>Um diese Benachrichtigung abzubestellen, klicken: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - New listings",
-      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Neue Angebote",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Ein neues Angebot wurde veröffentlicht, schaue es an!</p><p>{ADS}</p><p>-------------</p><p>Um diese Benachrichtigung abzubestellen, klicken: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - New comment",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p>"
+      "s_title": "{WEB_TITLE} - Neuer Kommentar",
+      "s_description": "<p>Jemand hat die Auflistung <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>kommentiert.</p><p>Kommentar: {COMMENT_AUTHOR}<br />Kommentar E-Mail: {COMMENT_EMAIL}<br />Titel: {COMMENT_TITLE}<br />Kommentar: {COMMENT_TEXT}</p>"
     },
     {
       "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - Edit options for the listing {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> for a short period of time.</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>If you register as a user, you will have full access to editing options.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Optionen für das Angebot {ITEM_TITLE} bearbeiten",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Sie sind nicht registriert bei {WEB_LINK}, aber Sie können das Angebot noch bearbeiten oder löschen <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> für einen kurzen Zeitraum.</p><p>Sie können Ihr Angebot unter folgendem Link bearbeiten: {EDIT_LINK}</p><p>Sie können Ihr Angebot unter folgendem Link löschen: {DELETE_LINK}</p><p>Wenn Sie sich als Benutzer registrieren, Sie haben vollen Zugriff auf die Bearbeitungsoptionen.</p><p>Grüße,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Bestätigen Sie Ihr Angebot",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Sie erhalten diese E-Mail, weil ein Eintrag auf {WEB_LINK}veröffentlicht wurde. Bitte bestätigen Sie diese Eintragung, indem Sie auf folgenden Link klicken: {VALIDATION_LINK}. Wenn Sie diese Liste nicht veröffentlicht haben, ignorieren Sie bitte diese E-Mail.</p><p>Details:</p><p>Kontaktname: {USER_NAME}<br />Kontakt-E-Mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Grüße,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - A new listing has been published",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a listing has been published at {WEB_LINK}.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Eine neue Auflistung wurde veröffentlicht",
+      "s_description": "<p>Lieber {WEB_TITLE} Admin,</p><p>Sie erhalten diese E-Mail, weil ein Eintrag auf {WEB_LINK}veröffentlicht wurde.</p><p>Listing Details:</p><p>Kontaktname: {USER_NAME}<br />Kontakt-E-Mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Sie können diese Liste durch Klicken auf den folgenden Link bearbeiten: {EDIT_LINK}</p><p>Mit freundlichen Grüßen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - Recover your password",
-      "s_description": "<p>Hi {USER_NAME},</p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}</p><p>The link will be deactivated in 24 hours.</p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Passwort wiederherstellen",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Wir haben Ihnen diese E-Mail geschickt, weil Sie eine Passwort-Erinnerung angefordert haben. Folgen Sie diesem Link, um ihn wiederherzustellen: {PASSWORD_LINK}</p><p>Der Link wird in 24 Stunden deaktiviert.</p><p>Wenn Sie keine Passwort-Erinnerung angefordert haben, ignorieren Sie bitte diese Nachricht. Diese Anfrage wurde von IP {IP_ADDRESS} am {DATE_TIME}gestellt</p><p>Mit freundlichen Grüßen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - You requested an email change",
-      "s_description": "<p>Hi {USER_NAME}</p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Sie haben eine Änderung der E-Mail angefordert",
+      "s_description": "<p>Hallo {USER_NAME}</p><p>Sie erhalten diese E-Mail, weil Sie eine Änderung per E-Mail angefordert haben. Bitte bestätigen Sie diese neue E-Mail-Adresse, indem Sie auf den folgenden Bestätigungslink klicken: {VALIDATION_LINK}</p><p>Mit freundlichen Grüßen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - Please validate your alert",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Bitte bestätigen Sie Ihren Alarm",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Bitte bestätigen Sie Ihre Alarm-Registrierung, indem Sie auf folgenden Link klicken: {VALIDATION_LINK}</p><p>Vielen Dank!</p><p>Grüße,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - Your comment has been approved",
-      "s_description": "<p>Hi {COMMENT_AUTHOR},</p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> has been approved.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Ihr Kommentar wurde genehmigt",
+      "s_description": "<p>Hallo {COMMENT_AUTHOR},</p><p>Ihr Kommentar auf <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> wurde genehmigt.</p><p>Mit freundlichen Grüßen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Bestätigen Sie Ihr Angebot",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Sie erhalten diese E-Mail, weil Sie eine Auflistung unter {WEB_LINK}veröffentlicht haben. Bitte bestätigen Sie diese Eintragung, indem Sie auf den folgenden Link klicken: {VALIDATION_LINK}. Wenn Sie diese Liste nicht veröffentlicht haben, ignorieren Sie bitte diese E-Mail.</p><p>Listing details:</p><p>Kontaktname: {USER_NAME}<br />Kontakt-E-Mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Auch wenn Sie nicht bei {WEB_LINK}registriert sind, Sie können Ihre Listung noch bearbeiten oder löschen:</p><p>Sie können Ihre Listung bearbeiten, indem Sie diesem Link folgen: {EDIT_LINK}</p><p>Sie können Ihre Listung löschen, indem Sie diesem Link folgen: {DELETE_LINK}</p><p>Mit freundlichen Grüßen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - A new user has registered",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Ein neuer Benutzer hat sich registriert",
+      "s_description": "<p>Lieber {WEB_TITLE} Admin,</p><p>Sie erhalten diese E-Mail, weil ein neuer Benutzer unter {WEB_LINK}erstellt wurde.</p><p>Benutzerdetails:</p><p>Name: {USER_NAME}<br />E-Mail: {USER_EMAIL}</p><p>Mit freundlichen Grüßen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - Someone has a question for you",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Jemand hat eine Frage für Sie",
+      "s_description": "<p>Hallo {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) hat Ihnen eine Nachricht hinterlassen:</p><p>{COMMENT}</p><p>Mit freundlichen Grüßen,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - Someone has commented on your listing",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Author: {COMMENT_AUTHOR}<br />Author's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Jemand hat Ihr Angebot kommentiert",
+      "s_description": "<p>Es gibt einen neuen Kommentar in der Liste: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Autor: {COMMENT_AUTHOR}<br />E-Mail des Autors: {COMMENT_EMAIL}<br />Titel: {COMMENT_TITLE}<br />Kommentar: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - Success creating admin account!",
-      "s_description": "<p>Hi {ADMIN_NAME},</p><p>The admin of {WEB_LINK} has created an account for you,</p><ul><li>Username: {USERNAME}</li><li>Password: {PASSWORD}</li></ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.</p><p>Thank you!</p><p>Regards,</p>"
+      "s_title": "{WEB_TITLE} - Erfolgreich Administratorkonto erstellt!",
+      "s_description": "<p>Hallo {ADMIN_NAME},</p><p>Der Administrator von {WEB_LINK} hat ein Konto für Sie erstellt</p><ul><li>Benutzername: {USERNAME}</li><li>Passwort: {PASSWORD}</li></ul><p>Sie können das Admin-Panel hier {WEB_ADMIN_LINK}aufrufen.</p><p>Vielen Dank!</p><p>Grüße,</p>"
     },
     {
       "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - Your ad is about to expire",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> is about to expire at {WEB_LINK}."
+      "s_title": "{WEB_TITLE} - Ihre Anzeige läuft bald ab",
+      "s_description": "<p>Hallo {USER_NAME},</p><p>Ihr Angebot <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> läuft in Kürze unter {WEB_LINK} ab."
     }
   ]
 }

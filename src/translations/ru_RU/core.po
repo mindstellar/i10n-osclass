@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-25 19:42\n"
+"PO-Revision-Date: 2021-06-29 12:19\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -121,17 +121,17 @@ msgstr "Ошибка отправки сообщения"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:505
 msgid "Version could not be checked"
-msgstr ""
+msgstr "Не удалось проверить версию"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:524
 #: tmp/osclass/oc-admin/ajax/ajax.php:528
 #: tmp/osclass/oc-admin/ajax/ajax.php:532
 msgid "Checked updates"
-msgstr ""
+msgstr "Проверенные обновления"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:541
 msgid "This action cannot be done because it is a demo site"
-msgstr ""
+msgstr "Это действие не может быть выполнено, потому что это демо сайт"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:582
 msgid "No external sources are allowed"
@@ -701,7 +701,7 @@ msgstr "Это имя пользователя НЕ ДОСТУПНО"
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:205
 #, php-format
 msgid "%s on %s"
-msgstr ""
+msgstr "%s на %s"
 
 #: tmp/osclass/oc-admin/themes/modern/users/frm.php:298
 msgid "(twice, required)"
@@ -905,7 +905,7 @@ msgstr "Закрыть"
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:320
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:231
 msgid "Osclass Market"
-msgstr ""
+msgstr "Рынок Осмара"
 
 #: tmp/osclass/oc-admin/themes/modern/plugins/index.php:330
 msgid "You are about to delete the files of the plugin. Do you want to continue?"
@@ -1108,7 +1108,7 @@ msgstr "Добавить тему &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:23
 msgid "Modify your site's header or footer here."
-msgstr ""
+msgstr "Здесь вы можете изменить заголовок или нижний колонтитул сайта."
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:42
 msgid "Delete widget"
@@ -1138,7 +1138,7 @@ msgstr "Удалить тему"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:48
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
-msgstr ""
+msgstr "Измените внешний вид вашего сайта, активировав тему среди доступных. <strong>Будьте внимательны</strong>: если ваш шаблон был настроен, вы потеряете все изменения, если вы измените на новый шаблон."
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:193
 msgid "Please wait until the download is completed"
@@ -1154,7 +1154,7 @@ msgstr "Тема успешно загружена, перейдите для а
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:202
 msgid "Ok"
-msgstr ""
+msgstr "Ок"
 
 #: tmp/osclass/oc-admin/themes/modern/admins/frm.php:26
 msgid "Edit admin"
@@ -1584,7 +1584,7 @@ msgstr "Добавить новый город"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/locations.php:137
 msgid "Import a location"
-msgstr ""
+msgstr "Импорт местоположения"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/locations.php:152
 msgid "Add, edit or delete the countries, regions and cities installed on your Osclass. <strong>Be careful</strong>: modifying locations can cause your statistics to be incorrect until they're recalculated. Modify only if you're sure what you're doing!"
@@ -1891,12 +1891,12 @@ msgstr "Описание"
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:22
 #, php-format
 msgid "Osclass %s"
-msgstr ""
+msgstr "Osclass %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:30
 #, php-format
 msgid "Osclass %s &raquo; %s"
-msgstr ""
+msgstr "Osclass %s &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/locations.php:71
 #, php-format
@@ -1944,7 +1944,7 @@ msgstr "Обновление &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:117
 msgid "Osclass Documentation"
-msgstr ""
+msgstr "Документация Осорта"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:25
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -2048,11 +2048,11 @@ msgstr "Вы уверены, что хотите %s выбранные стра�
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:122
 msgid "PHP version >= 5.6.x"
-msgstr ""
+msgstr "Версия PHP >= 5.6.x"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:124
 msgid "At least PHP5.6 (PHP 7.0 or higher recommended) is required to run Osclass. You may talk with your hosting to upgrade your PHP version."
-msgstr ""
+msgstr "Для запуска Osclass требуется хотя бы PHP5.6 (PHP 7.0 или выше). Вы можете поговорить с вашим хостингом для обновления вашей версии PHP."
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:128
 msgid "MySQLi extension for PHP"
@@ -2086,7 +2086,7 @@ msgstr "<code>oc-content/uploads</code> папка перезаписываем�
 #: tmp/osclass/oc-includes/osclass/install-functions.php:148
 #, php-format
 msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
-msgstr ""
+msgstr "<code>загружает</code> папку должна быть доступна для записи: <code>chmod 0755 %soc-content/uploads/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:152
 msgid "Folder <code>oc-content/downloads</code> exists"
@@ -2104,7 +2104,7 @@ msgstr "Папка <code>oc-content/downloads</code> доступна для з�
 #: tmp/osclass/oc-includes/osclass/install-functions.php:160
 #, php-format
 msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
-msgstr ""
+msgstr "<code>папка загрузок</code> должна быть доступна для записи: <code>chmod 0755 %soc-content/downloads/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:164
 msgid "Folder <code>oc-content/languages</code> folder exists"
@@ -2122,7 +2122,7 @@ msgstr "Папка <code>oc-content/languages</code> существует"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:172
 #, php-format
 msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
-msgstr ""
+msgstr "<code>Языки</code> должны быть доступны для записи: <code>chmod 0755 %soc-content/langues/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:184
 msgid "<code>config.php</code> file is writable"
@@ -2131,7 +2131,7 @@ msgstr "Файл <code>config.php</code> доступен для записи"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:186
 #, php-format
 msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
-msgstr ""
+msgstr "<code>Файл config.php</code> должен быть доступен для записи, например: <code>chmod 0755 %sconfig.php</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:193
 msgid "Root directory is writable"
@@ -2140,7 +2140,7 @@ msgstr "Корневая директория доступна для запис
 #: tmp/osclass/oc-includes/osclass/install-functions.php:195
 #, php-format
 msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
-msgstr ""
+msgstr "Корневая папка должна быть доступна для записи.например: <code>chmod 0755 %s</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:202
 msgid "<code>config-sample.php</code> file exists"
@@ -2253,7 +2253,7 @@ msgstr "Мы столкнулись с некоторыми проблемами
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:35
 #, php-format
 msgid "These errors could be false-positive errors. If you're sure that is the case, you can <a href=\"%s\">continue with the upgrade</a>, or <a href=\"https://osclass.discourse.group\">ask in our forums</a>."
-msgstr ""
+msgstr "Эти ошибки могут быть неверно положительными ошибками. Если вы уверены, что это так, вы можете <a href=\"%s\">продолжить обновление</a>, или <a href=\"https://osclass.discourse.group\">спросите на наших форумах</a>."
 
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:270
 msgid "You need to calculate location stats, please go to admin panel, tools, recalculate location stats or click"
@@ -2269,7 +2269,7 @@ msgstr "Osclass &raquo; успешно обновлен"
 
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:561
 msgid "Osclass has been updated successfully. <a href=\"https://github.com/navjottomer/osclass\">Need more help?</a>"
-msgstr ""
+msgstr "Osclass был успешно обновлен. <a href=\"https://github.com/navjottomer/osclass\">Нужна дополнительная помощь?</a>"
 
 #: tmp/osclass/oc-includes/osclass/controller/search.php:610
 msgid "Latest listings added"
@@ -2533,7 +2533,7 @@ msgstr "Url объявления"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:75
 msgid "Item expiration date"
-msgstr ""
+msgstr "Срок действия товара"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:76
 msgid "Listing list"
@@ -2622,11 +2622,11 @@ msgstr "Город"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:97
 msgid "Seller name"
-msgstr ""
+msgstr "Имя продавца"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:98
 msgid "Seller email"
-msgstr ""
+msgstr "Email продавца"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:58
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:72
@@ -3119,11 +3119,11 @@ msgstr "РМ"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
 msgid "am"
-msgstr ""
+msgstr "утра"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
 msgid "pm"
-msgstr ""
+msgstr "вечера"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:186
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:466
@@ -3257,7 +3257,7 @@ msgstr "Компьютеры - Комплектующие"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:21
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:22
 msgid "Electronics"
@@ -3581,7 +3581,7 @@ msgstr "Пример автора"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:107
 msgid "osclass@example.com"
-msgstr ""
+msgstr "osclass@example.com"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:108
 msgid "Example country"
@@ -3693,11 +3693,11 @@ msgstr "Наш сайт с гордостью использует <a title=\"Os
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:55
 msgid "No file selected"
-msgstr ""
+msgstr "Файл не выбран"
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:56
 msgid "Choose File"
-msgstr ""
+msgstr "Выберите файл"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:432
@@ -3852,7 +3852,7 @@ msgstr "Введенный код не действителен"
 
 #: tmp/osclass/oc-includes/osclass/model/Category.php:658
 msgid "Non-Existent Category"
-msgstr ""
+msgstr "несуществующая категория"
 
 #: tmp/osclass/oc-includes/osclass/model/Item.php:1144
 #, php-format
@@ -3906,7 +3906,7 @@ msgstr "Сегодня"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:232
 msgid "Select"
-msgstr ""
+msgstr "Выбрать"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:288
 msgid "from"
@@ -4097,7 +4097,7 @@ msgstr "Отписаться от оповещений"
 #: tmp/osclass/oc-includes/osclass/emails.php:936
 #: tmp/osclass/oc-includes/osclass/emails.php:1147
 msgid "Admin"
-msgstr ""
+msgstr "Админ"
 
 #: tmp/osclass/oc-includes/osclass/emails.php:979
 #: tmp/osclass/oc-includes/osclass/emails.php:981
@@ -4200,7 +4200,7 @@ msgstr "пароль: %s"
 #: tmp/osclass/oc-includes/osclass/install-location.php:116
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
-msgstr ""
+msgstr "Помните, что по любым сомнениям вы можете ознакомиться с нашей <a href=\"%1$s\">документацией</a>"
 
 #: tmp/osclass/oc-includes/osclass/install-location.php:117
 msgid "Cheers,"
@@ -4208,7 +4208,7 @@ msgstr "Преветствуем,"
 
 #: tmp/osclass/oc-includes/osclass/install-location.php:118
 msgid "The <a href=\"https://github.com/navjottomer/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "Команда <a href=\"https://github.com/navjottomer/osclass\">Osclass</a>"
 
 #: tmp/osclass/oc-includes/osclass/Themes.php:208
 #, php-format

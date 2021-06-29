@@ -1,115 +1,115 @@
 {
-  "language": "en_US",
+  "language": "ro_RO",
   "template": [
     {
       "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - Someone has a question about your listing",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Cineva are o întrebare despre listarea ta",
+      "s_description": "<p>Bună {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) ți-a lăsat un mesaj despre lista ta <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "2",
-      "s_title": "Please validate your {WEB_TITLE} account",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "Vă rugăm să vă validați contul {WEB_TITLE}",
+      "s_description": "<p>Bună {USER_NAME},</p><p>Vă rugăm să validați înregistrarea făcând clic pe următorul link: {VALIDATION_LINK}</p><p>Vă mulțumim!</p><p>Regine,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - Registration successful!",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You've successfully registered for {WEB_LINK}.</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Înregistrare reușită!",
+      "s_description": "<p>Bună {USER_NAME},</p><p>Ați înregistrat cu succes pentru {WEB_LINK}.</p><p>Mulțumesc!</p><p>Regine,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "4",
-      "s_title": "Look at what I discovered on {WEB_TITLE}",
-      "s_description": "<p>Hi {FRIEND_NAME},</p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
+      "s_title": "Uitați-vă la ce am descoperit pe {WEB_TITLE}",
+      "s_description": "<p>Bună {FRIEND_NAME},</p><p>Prietenul tău {USER_NAME} dorește să partajeze această listă cu tine <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Mesaj:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
     },
     {
       "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - New listings in the last hour",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Listări noi în ultima oră",
+      "s_description": "<p>Bună {USER_NAME},</p><p>Noi liste au fost publicate în ultima oră. Aruncă o privire la ele:</p><p>{ADS}</p><p>-------------</p><p>Pentru a te dezabona de la această alertă, click pe: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - New listings in the last day",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Listări noi în ultima zi",
+      "s_description": "<p>Bună {USER_NAME},</p><p>Noi liste au fost publicate în ultima zi. Aruncă o privire la ele:</p><p>{ADS}</p><p>-------------</p><p>Pentru a te dezabona de la această alertă, click pe: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - New listings in the last week",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Listări noi în ultima săptămână",
+      "s_description": "<p>Bună {USER_NAME},</p><p>Noi liste au fost publicate în ultima săptămână. Aruncă o privire la ele:</p><p>{ADS}</p><p>-------------</p><p>Pentru a te dezabona de la această alertă, click pe: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - New listings",
-      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Listări noi",
+      "s_description": "<p>Bună {USER_NAME},</p><p>A fost publicată o nouă listă, verificați!</p><p>{ADS}</p><p>-------------</p><p>Pentru a se dezabona de la această alertă, click pe: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - New comment",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p>"
+      "s_title": "{WEB_TITLE} - comentariu nou",
+      "s_description": "<p>Cineva a comentat pe listarea <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Comentariu: {COMMENT_AUTHOR}<br />Commenter e-mail: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comentariu: {COMMENT_TEXT}</p>"
     },
     {
       "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - Edit options for the listing {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> for a short period of time.</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>If you register as a user, you will have full access to editing options.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Editare opțiuni pentru listarea {ITEM_TITLE}",
+      "s_description": "<p>Bună {USER_NAME},</p><p>Nu ești înregistrat la {WEB_LINK}, dar încă puteți edita sau șterge listarea <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> pentru o perioadă scurtă de timp.</p><p>Puteți edita listarea urmând acest link: {EDIT_LINK}</p><p>Puteți șterge listarea urmând acest link: {DELETE_LINK}</p><p>Dacă vă înregistrați ca utilizator, veți avea acces deplin la opțiunile de editare.</p><p>Regine,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Validați lista dvs.",
+      "s_description": "<p>Bună {USER_NAME},</p><p>Primiți acest e-mail deoarece o listă a fost publicată la {WEB_LINK}. Vă rugăm să validați această listare făcând clic pe următorul link: {VALIDATION_LINK}. Dacă nu ați publicat această listă, vă rugăm să ignorați acest e-mail.</p><p>Detalii listă:</p><p>Numele contactului: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - A new listing has been published",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a listing has been published at {WEB_LINK}.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - A fost publicată o nouă listare",
+      "s_description": "<p>Stimate {WEB_TITLE} admin,</p><p>Primiți acest e-mail deoarece o listă a fost publicată la {WEB_LINK}.</p><p>Detalii listă:</p><p>Numele contactului: {USER_NAME}<br />Contact: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Poți edita această listare făcând clic pe următorul link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - Recover your password",
-      "s_description": "<p>Hi {USER_NAME},</p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}</p><p>The link will be deactivated in 24 hours.</p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Recuperează-ți parola",
+      "s_description": "<p>Bună {USER_NAME},</p><p>Ți-am trimis acest e-mail deoarece ai solicitat reamintirea parolei. Urmați acest link pentru a-l recupera: {PASSWORD_LINK}</p><p>Link-ul va fi dezactivat în 24 de ore.</p><p>Dacă nu ați solicitat reamintirea parolei, ignorați acest mesaj. Această cerere a fost făcută de IP {IP_ADDRESS} pe {DATE_TIME}</p><p>Regimuri,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - You requested an email change",
-      "s_description": "<p>Hi {USER_NAME}</p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Ați solicitat o modificare a e-mailului",
+      "s_description": "<p>Bună {USER_NAME}</p><p>Primiți acest e-mail deoarece ați solicitat o modificare la adresa de e-mail. Vă rugăm să confirmaţi această nouă adresă de e-mail făcând clic pe următorul link de validare: {VALIDATION_LINK}</p><p>Regste,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - Please validate your alert",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Te rugăm să validezi alerta",
+      "s_description": "<p>Bună {USER_NAME},</p><p>Vă rugăm să validați înregistrarea alertei făcând clic pe următorul link: {VALIDATION_LINK}</p><p>Vă mulțumim!</p><p>Regine,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - Your comment has been approved",
-      "s_description": "<p>Hi {COMMENT_AUTHOR},</p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> has been approved.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Comentariul tău a fost aprobat",
+      "s_description": "<p>Bună, {COMMENT_AUTHOR},</p><p>Comentariul tău la <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> a fost aprobat.</p><p>Regste,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Validați lista dvs.",
+      "s_description": "<p>Bună {USER_NAME},</p><p>Primiți acest e-mail deoarece ați publicat o listă la {WEB_LINK}. Vă rugăm să validați această listare făcând clic pe următorul link: {VALIDATION_LINK}. Dacă nu ați publicat această listă, vă rugăm să ignorați acest e-mail.</p><p>Detalii listă:</p><p>Numele contactului: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Chiar dacă nu ești înregistrat la {WEB_LINK}, încă puteți edita sau șterge listarea:</p><p>Puteți edita listarea urmând acest link: {EDIT_LINK}</p><p>Puteți șterge listarea urmând acest link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - A new user has registered",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - S-a înregistrat un utilizator nou",
+      "s_description": "<p>Stimate {WEB_TITLE} admin,</p><p>Primiți acest e-mail deoarece un utilizator nou a fost creat la {WEB_LINK}.</p><p>Detalii utilizator:</p><p>Nume: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - Someone has a question for you",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Cineva are o întrebare pentru tine",
+      "s_description": "<p>Bună {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) ți-a lăsat un mesaj:</p><p>{COMMENT}</p><p>Regre,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - Someone has commented on your listing",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Author: {COMMENT_AUTHOR}<br />Author's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Cineva a comentat la listarea ta",
+      "s_description": "<p>Există un nou comentariu pe listă: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Autor: {COMMENT_AUTHOR}<br />E-mailul autorului: {COMMENT_EMAIL}<br />Titlu: {COMMENT_TITLE}<br />Comentariu: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - Success creating admin account!",
-      "s_description": "<p>Hi {ADMIN_NAME},</p><p>The admin of {WEB_LINK} has created an account for you,</p><ul><li>Username: {USERNAME}</li><li>Password: {PASSWORD}</li></ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.</p><p>Thank you!</p><p>Regards,</p>"
+      "s_title": "{WEB_TITLE} - Succes la crearea contului de administrator!",
+      "s_description": "<p>Bună {ADMIN_NAME},</p><p>Administratorul {WEB_LINK} a creat un cont pentru tine,</p><ul><li>Nume utilizator: {USERNAME}</li><li>Parolă: {PASSWORD}</li></ul><p>Puteți accesa panoul de administrare aici {WEB_ADMIN_LINK}.</p><p>Mulțumesc!</p><p>Regards,</p>"
     },
     {
       "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - Your ad is about to expire",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> is about to expire at {WEB_LINK}."
+      "s_title": "{WEB_TITLE} - Anunțul tău este pe cale să expire",
+      "s_description": "<p>Bună, {USER_NAME},</p><p>Listarea ta <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> este pe cale să expire la {WEB_LINK}."
     }
   ]
 }

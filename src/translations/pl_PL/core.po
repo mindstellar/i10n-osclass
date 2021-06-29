@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-23 17:36+0530\n"
-"PO-Revision-Date: 2021-06-25 19:42\n"
+"PO-Revision-Date: 2021-06-29 12:19\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -121,17 +121,17 @@ msgstr "Wystąpił błąd podczas wysyłania emaila"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:505
 msgid "Version could not be checked"
-msgstr ""
+msgstr "Nie można sprawdzić wersji"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:524
 #: tmp/osclass/oc-admin/ajax/ajax.php:528
 #: tmp/osclass/oc-admin/ajax/ajax.php:532
 msgid "Checked updates"
-msgstr ""
+msgstr "Sprawdzone aktualizacje"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:541
 msgid "This action cannot be done because it is a demo site"
-msgstr ""
+msgstr "Ta akcja nie może zostać wykonana, ponieważ jest witryną demonstracyjną"
 
 #: tmp/osclass/oc-admin/ajax/ajax.php:582
 msgid "No external sources are allowed"
@@ -199,7 +199,7 @@ msgstr "Odblokuj"
 #: tmp/osclass/oc-admin/media.php:134 tmp/osclass/oc-admin/admins.php:369
 #: tmp/osclass/oc-admin/items.php:821 tmp/osclass/oc-admin/pages.php:276
 msgid "Bulk actions"
-msgstr ""
+msgstr "Działania zbiorcze"
 
 #: tmp/osclass/oc-admin/users.php:512
 #, php-format
@@ -522,7 +522,7 @@ msgstr "Raport statystyki &raquo; %s"
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:595
 #: tmp/osclass/oc-includes/osclass/functions.php:547
 msgid "Spam"
-msgstr ""
+msgstr "Spam"
 
 #: tmp/osclass/oc-admin/themes/modern/stats/reports.php:73
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:231
@@ -1108,7 +1108,7 @@ msgstr "Dodaj motyw %s"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:23
 msgid "Modify your site's header or footer here."
-msgstr ""
+msgstr "Zmodyfikuj nagłówek lub stopkę witryny."
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/widgets.php:42
 msgid "Delete widget"
@@ -1138,7 +1138,7 @@ msgstr "Usuń motyw"
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:48
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
-msgstr ""
+msgstr "Zmień wygląd swojej witryny poprzez aktywowanie motywu wśród dostępnych stron. <strong>Zachowaj ostrożność</strong>: jeśli szablon został dostosowany, stracisz wszystkie zmiany, jeśli zmienisz się na nowy motyw."
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:193
 msgid "Please wait until the download is completed"
@@ -1154,7 +1154,7 @@ msgstr "Motyw został pobrany poprawnie, przystąp do jego aktywacji i podglądu
 
 #: tmp/osclass/oc-admin/themes/modern/appearance/index.php:202
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: tmp/osclass/oc-admin/themes/modern/admins/frm.php:26
 msgid "Edit admin"
@@ -1584,7 +1584,7 @@ msgstr "Dodaj miasto"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/locations.php:137
 msgid "Import a location"
-msgstr ""
+msgstr "Importuj lokalizację"
 
 #: tmp/osclass/oc-admin/themes/modern/settings/locations.php:152
 msgid "Add, edit or delete the countries, regions and cities installed on your Osclass. <strong>Be careful</strong>: modifying locations can cause your statistics to be incorrect until they're recalculated. Modify only if you're sure what you're doing!"
@@ -1724,7 +1724,7 @@ msgstr "Zarządzaj obrazami, które publikują użytkownicy wraz z ogłoszeniami
 #: tmp/osclass/oc-admin/themes/modern/media/index.php:33
 #, php-format
 msgid "Media &raquo; %s"
-msgstr ""
+msgstr "Media &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/media/index.php:57
 msgid "Delete media"
@@ -1891,12 +1891,12 @@ msgstr "Opis"
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:22
 #, php-format
 msgid "Osclass %s"
-msgstr ""
+msgstr "Osclass %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:30
 #, php-format
 msgid "Osclass %s &raquo; %s"
-msgstr ""
+msgstr "Osclass %s &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/locations.php:71
 #, php-format
@@ -1944,7 +1944,7 @@ msgstr "Aktualizacja &raquo; %s "
 
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:117
 msgid "Osclass Documentation"
-msgstr ""
+msgstr "Dokumentacja Osclass"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:25
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -2048,11 +2048,11 @@ msgstr "Czy jesteś pewien, że chcesz %s zaznaczone strony? "
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:122
 msgid "PHP version >= 5.6.x"
-msgstr ""
+msgstr "Wersja PHP >= 5.6.x"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:124
 msgid "At least PHP5.6 (PHP 7.0 or higher recommended) is required to run Osclass. You may talk with your hosting to upgrade your PHP version."
-msgstr ""
+msgstr "Wymagane jest co najmniej PHP5.6 (PHP 7.0 lub wyższe) do uruchomienia Osclass. Możesz porozmawiać z hostingiem, aby zaktualizować swoją wersję PHP."
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:128
 msgid "MySQLi extension for PHP"
@@ -2086,7 +2086,7 @@ msgstr "Folder <code>oc-content/uploads</code> jest zapisywalny"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:148
 #, php-format
 msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
-msgstr ""
+msgstr "<code>uploads</code> folder musi być zapisywalny, np.: <code>chmod 0755 %soc-content/uploads/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:152
 msgid "Folder <code>oc-content/downloads</code> exists"
@@ -2104,7 +2104,7 @@ msgstr "Folder <code>oc-content/downloads</code> jest zapisywalny"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:160
 #, php-format
 msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
-msgstr ""
+msgstr "<code>pobrań</code> folder musi być zapisywalny, tj.: <code>chmod 0755 %soc-content/downloads/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:164
 msgid "Folder <code>oc-content/languages</code> folder exists"
@@ -2122,7 +2122,7 @@ msgstr "Folder <code>oc-content/languages</code> jest zapisywalny"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:172
 #, php-format
 msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
-msgstr ""
+msgstr "<code>język</code> katalog musi być zapisywalny, tj.: <code>chmod 0755 %soc-content/languages/</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:184
 msgid "<code>config.php</code> file is writable"
@@ -2131,7 +2131,7 @@ msgstr "Plik <code>config.php</code> jest zapisywalny"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:186
 #, php-format
 msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
-msgstr ""
+msgstr "<code>config.php</code> plik musi być zapisywalny, tj.: <code>chmod 0755 %sconfig.php</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:193
 msgid "Root directory is writable"
@@ -2140,7 +2140,7 @@ msgstr "Główny katalog jest zapisywalny"
 #: tmp/osclass/oc-includes/osclass/install-functions.php:195
 #, php-format
 msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
-msgstr ""
+msgstr "Katalog główny musi być zapisywalny, tj.: <code>chmod 0755 %s</code>"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:202
 msgid "<code>config-sample.php</code> file exists"
@@ -2253,7 +2253,7 @@ msgstr "Wystąpił błąd podczas aktualizowania struktury bazy danych. Nie powi
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:35
 #, php-format
 msgid "These errors could be false-positive errors. If you're sure that is the case, you can <a href=\"%s\">continue with the upgrade</a>, or <a href=\"https://osclass.discourse.group\">ask in our forums</a>."
-msgstr ""
+msgstr "Błędy te mogą być błędami fałszywie pozytywnymi. Jeśli jesteś pewien, że tak jest, możesz <a href=\"%s\">kontynuować aktualizację</a>, lub <a href=\"https://osclass.discourse.group\">zapytaj na naszych forach</a>."
 
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:270
 msgid "You need to calculate location stats, please go to admin panel, tools, recalculate location stats or click"
@@ -2269,7 +2269,7 @@ msgstr "Osclass &raquo; zostało zaktualizowane poprawnie"
 
 #: tmp/osclass/oc-includes/osclass/upgrade-funcs.php:561
 msgid "Osclass has been updated successfully. <a href=\"https://github.com/navjottomer/osclass\">Need more help?</a>"
-msgstr ""
+msgstr "Osclass został pomyślnie zaktualizowany. <a href=\"https://github.com/navjottomer/osclass\">Potrzebujesz więcej pomocy?</a>"
 
 #: tmp/osclass/oc-includes/osclass/controller/search.php:610
 msgid "Latest listings added"
@@ -2288,7 +2288,7 @@ msgstr "Imię: %s"
 #: tmp/osclass/oc-includes/osclass/controller/contact.php:79
 #, php-format
 msgid "Email: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: tmp/osclass/oc-includes/osclass/controller/contact.php:80
 #, php-format
@@ -2533,7 +2533,7 @@ msgstr "URL ogłoszenia"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:75
 msgid "Item expiration date"
-msgstr ""
+msgstr "Data wygaśnięcia produktu"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:76
 msgid "Listing list"
@@ -2622,16 +2622,16 @@ msgstr "Miasto ogłoszenia"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:97
 msgid "Seller name"
-msgstr ""
+msgstr "Nazwa sprzedawcy"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:98
 msgid "Seller email"
-msgstr ""
+msgstr "Adres e-mail sprzedawcy"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:58
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:72
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/AlertsDataTable.php:59
 msgid "Alert"
@@ -2641,7 +2641,7 @@ msgstr "Powiadomienie"
 #: tmp/osclass/oc-includes/osclass/classes/datatables/UsersDataTable.php:70
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:150
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/CommentsDataTable.php:82
 msgid "Author"
@@ -2787,7 +2787,7 @@ msgstr "Usuń wygasłe"
 
 #: tmp/osclass/oc-includes/osclass/classes/datatables/ItemsDataTable.php:616
 msgid "Premium"
-msgstr ""
+msgstr "Premia"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:58
 msgid "Manage listings"
@@ -2858,7 +2858,7 @@ msgstr "Języki "
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:85
 msgid "Permalinks"
-msgstr ""
+msgstr "Bezpośrednie odnośniki"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:86
 msgid "Spam and bots"
@@ -2874,7 +2874,7 @@ msgstr "Serwer poczty"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:89
 msgid "Media"
-msgstr ""
+msgstr "Media"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:90
 msgid "Latest searches"
@@ -3111,19 +3111,19 @@ msgstr "Ndz."
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
 msgid "AM"
-msgstr ""
+msgstr "Pr"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
 msgid "am"
-msgstr ""
+msgstr "o"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:149
 msgid "pm"
-msgstr ""
+msgstr "godz."
 
 #: tmp/osclass/oc-includes/osclass/helpers/hUtils.php:186
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:466
@@ -3257,7 +3257,7 @@ msgstr "Komputery i hardware"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:21
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:22
 msgid "Electronics"
@@ -3521,7 +3521,7 @@ msgstr "Kadry"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:87
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:88
 msgid "Legal"
@@ -3581,7 +3581,7 @@ msgstr "Przykładowy autor"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:107
 msgid "osclass@example.com"
-msgstr ""
+msgstr "osclass@example.com"
 
 #: tmp/osclass/oc-includes/osclass/installer/basic_data.php:108
 msgid "Example country"
@@ -3693,11 +3693,11 @@ msgstr "Z dumą używamy oprogramowania <a title=\"Osclass web\" href=\"%s\">cla
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:55
 msgid "No file selected"
-msgstr ""
+msgstr "Nie wybrano pliku"
 
 #: tmp/osclass/oc-includes/osclass/gui/head.php:56
 msgid "Choose File"
-msgstr ""
+msgstr "Wybierz plik"
 
 #: tmp/osclass/oc-includes/osclass/gui/user-profile.php:37
 #: tmp/osclass/oc-includes/osclass/gui/functions.php:432
@@ -3721,7 +3721,7 @@ msgstr "Zmień nazwę użytkownika"
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
-msgstr ""
+msgstr "E-mail: %s"
 
 #: tmp/osclass/oc-includes/osclass/gui/item-sidebar.php:76
 #, php-format
@@ -3852,7 +3852,7 @@ msgstr "Kod dostępu nieprawidłowy "
 
 #: tmp/osclass/oc-includes/osclass/model/Category.php:658
 msgid "Non-Existent Category"
-msgstr ""
+msgstr "Kategoria nieistniejąca"
 
 #: tmp/osclass/oc-includes/osclass/model/Item.php:1144
 #, php-format
@@ -3906,7 +3906,7 @@ msgstr "Dzisiaj"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:232
 msgid "Select"
-msgstr ""
+msgstr "Wybierz"
 
 #: tmp/osclass/oc-includes/osclass/frm/Field.form.class.php:288
 msgid "from"
@@ -4097,7 +4097,7 @@ msgstr "Zrezygnuj z powiadomień"
 #: tmp/osclass/oc-includes/osclass/emails.php:936
 #: tmp/osclass/oc-includes/osclass/emails.php:1147
 msgid "Admin"
-msgstr ""
+msgstr "Administrator"
 
 #: tmp/osclass/oc-includes/osclass/emails.php:979
 #: tmp/osclass/oc-includes/osclass/emails.php:981
@@ -4200,7 +4200,7 @@ msgstr "hasło: %s"
 #: tmp/osclass/oc-includes/osclass/install-location.php:116
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
-msgstr ""
+msgstr "Pamiętaj, że w związku z wszelkimi wątpliwościami możesz zapoznać się z naszą <a href=\"%1$s\">dokumentacją</a>"
 
 #: tmp/osclass/oc-includes/osclass/install-location.php:117
 msgid "Cheers,"
@@ -4208,7 +4208,7 @@ msgstr "Pozdrawiamy,"
 
 #: tmp/osclass/oc-includes/osclass/install-location.php:118
 msgid "The <a href=\"https://github.com/navjottomer/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "Zespół <a href=\"https://github.com/navjottomer/osclass\">Oclass</a>"
 
 #: tmp/osclass/oc-includes/osclass/Themes.php:208
 #, php-format

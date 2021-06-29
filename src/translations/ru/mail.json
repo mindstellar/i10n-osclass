@@ -1,115 +1,115 @@
 {
-  "language": "en_US",
+  "language": "ru_RU",
   "template": [
     {
       "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - Someone has a question about your listing",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Кто-то задал вопрос о вашем объявлении",
+      "s_description": "<p>Привет, {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) оставил вам сообщение о вашем листинге <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "2",
-      "s_title": "Please validate your {WEB_TITLE} account",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "Пожалуйста, подтвердите свою учётную запись {WEB_TITLE}",
+      "s_description": "<p>Привет {USER_NAME},</p><p>Пожалуйста, подтвердите вашу регистрацию, нажав на следующую ссылку: {VALIDATION_LINK}</p><p>Спасибо!</p><p>С уважением,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - Registration successful!",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You've successfully registered for {WEB_LINK}.</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Регистрация успешна!",
+      "s_description": "<p>Привет {USER_NAME},</p><p>Вы успешно зарегистрировались на {WEB_LINK}.</p><p>Спасибо!</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "4",
-      "s_title": "Look at what I discovered on {WEB_TITLE}",
-      "s_description": "<p>Hi {FRIEND_NAME},</p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
+      "s_title": "Посмотрите на то, что я обнаружил на сайте {WEB_TITLE}",
+      "s_description": "<p>Привет {FRIEND_NAME},</p><p>Ваш друг {USER_NAME} хочет поделиться этим списком с вами <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Сообщение:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
     },
     {
       "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - New listings in the last hour",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Новые объявления за последний час",
+      "s_description": "<p>Привет {USER_NAME},</p><p>Новые списки были опубликованы в последний час. Взгляните на них:</p><p>{ADS}</p><p>-------------</p><p>Чтобы отписаться от этого предупреждения, нажмите на: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - New listings in the last day",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Новые объявления за последний день",
+      "s_description": "<p>Привет {USER_NAME},</p><p>Новые списки были опубликованы в последний день. Взгляните на них:</p><p>{ADS}</p><p>-------------</p><p>Чтобы отписаться от этого предупреждения, нажмите на: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - New listings in the last week",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Новые объявления за последнюю неделю",
+      "s_description": "<p>Привет {USER_NAME},</p><p>Новые списки были опубликованы на прошлой неделе. Взгляните на них:</p><p>{ADS}</p><p>-------------</p><p>Чтобы отписаться от этого предупреждения, нажмите на: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - New listings",
-      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Новые объявления",
+      "s_description": "<p>Здравствуйте, {USER_NAME},</p><p>Был опубликован новый листинг, проверьте!</p><p>{ADS}</p><p>-------------</p><p>Чтобы отписаться от этого оповещения, нажмите на: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - New comment",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p>"
+      "s_title": "{WEB_TITLE} - Новый комментарий",
+      "s_description": "<p>Кто-то прокомментировал объявление <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Комментарий: {COMMENT_AUTHOR}<br />Адрес электронной почты комментатора: {COMMENT_EMAIL}<br />Название: {COMMENT_TITLE}<br />Комментарий: {COMMENT_TEXT}</p>"
     },
     {
       "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - Edit options for the listing {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> for a short period of time.</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>If you register as a user, you will have full access to editing options.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Изменить параметры для объявления {ITEM_TITLE}",
+      "s_description": "<p>Привет {USER_NAME},</p><p>Вы не зарегистрированы в {WEB_LINK}, но вы все еще можете редактировать или удалять объявление <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> на короткий промежуток времени.</p><p>Вы можете изменить свой листинг по этой ссылке: {EDIT_LINK}</p><p>Вы можете удалить ваш листинг по этой ссылке: {DELETE_LINK}</p><p>Если вы зарегистрируетесь как пользователь, вы получите полный доступ к настройкам редактирования.</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Утвердить ваше объявление",
+      "s_description": "<p>Привет {USER_NAME},</p><p>Вы получили это письмо, потому что список был опубликован на {WEB_LINK}. Пожалуйста, подтвердите этот список, нажав на следующую ссылку: {VALIDATION_LINK}. Если вы не публиковали этот список, пожалуйста, игнорируйте это письмо.</p><p><p> Детали листинга:</p><p>Имя контакта: {USER_NAME}<br />Контактный e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - A new listing has been published",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a listing has been published at {WEB_LINK}.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Было опубликовано новое объявление",
+      "s_description": "<p>Уважаемый администратор {WEB_TITLE} ,</p><p>Вы получили это письмо, потому что список был опубликован на {WEB_LINK}.</p><p>Детали листинга:</p><p>Имя контакта: {USER_NAME}<br />Контактный email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Вы можете изменить это объявление, нажав на ссылку: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - Recover your password",
-      "s_description": "<p>Hi {USER_NAME},</p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}</p><p>The link will be deactivated in 24 hours.</p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Восстановление пароля",
+      "s_description": "<p>Здравствуйте, {USER_NAME},</p><p>Мы отправили вам это письмо, потому что вы запросили напоминание пароля. Перейдите по этой ссылке, чтобы восстановить её: {PASSWORD_LINK}</p><p>Ссылка будет отключена через 24 часа.</p><p>Если вы не запрашивали напоминание пароля, проигнорируйте это сообщение. Этот запрос был сделан с IP {IP_ADDRESS} {DATE_TIME}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - You requested an email change",
-      "s_description": "<p>Hi {USER_NAME}</p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Вы запросили изменение адреса электронной почты",
+      "s_description": "<p>Здравствуйте, {USER_NAME}</p><p>Вы получили это письмо, потому что Вы запросили смену электронной почты. Пожалуйста, подтвердите этот новый адрес электронной почты, нажав на следующую ссылку подтверждения: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - Please validate your alert",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Пожалуйста, проверьте ваше оповещение",
+      "s_description": "<p>Привет {USER_NAME},</p><p>Пожалуйста, подтвердите вашу регистрацию оповещения, нажав на следующую ссылку: {VALIDATION_LINK}</p><p>Спасибо!</p><p>С уважением,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - Your comment has been approved",
-      "s_description": "<p>Hi {COMMENT_AUTHOR},</p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> has been approved.</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Ваш комментарий был одобрен",
+      "s_description": "<p>Привет {COMMENT_AUTHOR},</p><p>Ваш комментарий к <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> был одобрен.</p><p>Регламенты,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Утвердить ваше объявление",
+      "s_description": "<p>Привет {USER_NAME},</p><p>Вы получили это письмо, потому что Вы опубликовали список на {WEB_LINK}. Пожалуйста, проверьте этот список, нажав на следующую ссылку: {VALIDATION_LINK}. Если вы не публиковали этот список, пожалуйста, игнорируйте это письмо.</p><p><p> Информация о листинге:</p><p>Контактное имя: {USER_NAME}<br />Контактный e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Даже если вы не зарегистрированы на {WEB_LINK}, вы все еще можете редактировать или удалять свой список:</p><p>Вы можете изменить свой список, следуя по этой ссылке: {EDIT_LINK}</p><p>Вы можете удалить список, следуя по этой ссылке: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - A new user has registered",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Зарегистрирован новый пользователь",
+      "s_description": "<p>Уважаемый администратор {WEB_TITLE} ,</p><p>Вы получили это письмо, потому что был создан новый пользователь на сайте {WEB_LINK}.</p><p>Информация о пользователе:</p><p>Имя: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - Someone has a question for you",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - у кого-то есть вопрос для вас",
+      "s_description": "<p>Привет, {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) оставил вам сообщение:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - Someone has commented on your listing",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Author: {COMMENT_AUTHOR}<br />Author's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Кто-то прокомментировал вашу рассылку",
+      "s_description": "<p>Есть новый комментарий к листингу: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Автор: {COMMENT_AUTHOR}<br />Адрес электронной почты: {COMMENT_EMAIL}<br />Название: {COMMENT_TITLE}<br />Комментарий: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - Success creating admin account!",
-      "s_description": "<p>Hi {ADMIN_NAME},</p><p>The admin of {WEB_LINK} has created an account for you,</p><ul><li>Username: {USERNAME}</li><li>Password: {PASSWORD}</li></ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.</p><p>Thank you!</p><p>Regards,</p>"
+      "s_title": "{WEB_TITLE} - учётная запись администратора успешно создана!",
+      "s_description": "<p>Здравствуйте, {ADMIN_NAME},</p><p>Админ {WEB_LINK} создал учетную запись для вас,</p><ul><li>Имя пользователя: {USERNAME}</li><li>Пароль: {PASSWORD}</li></ul><p>Вы можете получить доступ к панели администратора здесь {WEB_ADMIN_LINK}.</p><p>Спасибо!</p><p>Regards,</p>"
     },
     {
       "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - Your ad is about to expire",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> is about to expire at {WEB_LINK}."
+      "s_title": "{WEB_TITLE} - Ваша реклама скоро истечет",
+      "s_description": "<p>Здравствуйте, {USER_NAME},</p><p>Ваша реклама <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> скоро истечет в {WEB_LINK}."
     }
   ]
 }
