@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-29 18:32+0530\n"
-"PO-Revision-Date: 2021-06-29 13:57\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2021-07-28 16:50+0200\n"
+"Last-Translator: defected.dev\n"
 "Language-Team: Croatian\n"
 "Language: hr_HR\n"
 "MIME-Version: 1.0\n"
@@ -16,10 +16,11 @@ msgstr ""
 "X-Crowdin-Language: hr\n"
 "X-Crowdin-File: /master/src/templates/core.pot\n"
 "X-Crowdin-File-ID: 8206\n"
+"X-Generator: Poedit 3.0\n"
 
 #: tmp/oc-admin/gui/forgot_password.php:54
 msgid "Change password"
-msgstr "Promijeni lozinku"
+msgstr "Promijeni zaporku"
 
 #: tmp/oc-admin/gui/forgot_password.php:56
 #: tmp/oc-admin/gui/forgot_password.php:57 tmp/oc-admin/gui/login.php:81
@@ -27,11 +28,11 @@ msgstr "Promijeni lozinku"
 #: tmp/oc-admin/gui/recover.php:50
 #, php-format
 msgid "Back to %s"
-msgstr "Povratak na%s"
+msgstr "Povratak na %s"
 
 #: tmp/oc-admin/gui/login.php:74
 msgid "Forgot your password?"
-msgstr "Izgubili ste lozinku?"
+msgstr "Zaboravili ste zaporku?"
 
 #: tmp/oc-admin/gui/login.php:79
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:225
@@ -40,7 +41,7 @@ msgstr "Prijava"
 
 #: tmp/oc-admin/gui/recover.php:47
 msgid "Get new password"
-msgstr "Zatraži novu lozinku"
+msgstr "Zatraži novu zaporku"
 
 #: tmp/oc-admin/themes/modern/stats/users.php:41
 #: tmp/oc-admin/themes/modern/stats/users.php:229
@@ -77,7 +78,7 @@ msgstr "Posljednjih 10 dana"
 
 #: tmp/oc-admin/themes/modern/stats/users.php:63
 msgid "Stay up-to-date on the number of users registered on your site. You can also see a breakdown of the countries and regions where users live among those available on your site."
-msgstr "Ostanite pravovremeno obaviješteni o broju registracija na stranici. Možete također vidjeti razloženo na regije gdje korisnici žive. "
+msgstr "Ostanite obaviješteni o broju registracija na stranici. Također možete vidjeti podjelu korisnika na države i regije."
 
 #: tmp/oc-admin/themes/modern/stats/users.php:89
 #, php-format
@@ -132,7 +133,7 @@ msgstr "Komentari"
 
 #: tmp/oc-admin/themes/modern/stats/reports.php:56
 msgid "See how many listings from your site have been reported as spam, expired, duplicate, etc."
-msgstr "Pogledajte koliko je oglasa na vašoj stranici označeno kao spam, istekao, duplikat, itd."
+msgstr "Pogledajte koliko je oglasa na vašoj stranici označeno kao isteklo, duplikat, spam itd."
 
 #: tmp/oc-admin/themes/modern/stats/reports.php:81
 #, php-format
@@ -144,31 +145,31 @@ msgstr "Statističko izvješće &raquo; %s"
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:589
 #: tmp/oc-includes/osclass/functions.php:571
 msgid "Spam"
-msgstr ""
+msgstr "Spam"
 
 #: tmp/oc-admin/themes/modern/stats/reports.php:107
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:594
 msgid "Duplicated"
-msgstr "Dupli"
+msgstr "Duplikat"
 
 #: tmp/oc-admin/themes/modern/stats/reports.php:108
 msgid "Bad category"
-msgstr "Kriva kategorija"
+msgstr "Neispravna kategorija"
 
 #: tmp/oc-admin/themes/modern/stats/reports.php:109
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:596
 msgid "Offensive"
-msgstr "Uvredljivi"
+msgstr "Uvredljiv"
 
 #: tmp/oc-admin/themes/modern/stats/reports.php:110
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:417
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:595
 msgid "Expired"
-msgstr "Istekli"
+msgstr "Istekao"
 
 #: tmp/oc-admin/themes/modern/stats/items.php:68
 msgid "Quickly find out how many new listings have been published on your site and how many visits each of the listings gets."
-msgstr "Brzo pronađi koliko je novih oglasa objavljeno i koliko posjeta svaki oglas ima."
+msgstr "Lako pogledajte koliko je novih oglasa objavljeno na vašoj stranici te koliko pregleda svaki oglas ima."
 
 #: tmp/oc-admin/themes/modern/stats/items.php:93
 #, php-format
@@ -178,16 +179,16 @@ msgstr "Statitika oglasa &raquo; %s"
 #: tmp/oc-admin/themes/modern/stats/items.php:130
 #: tmp/oc-includes/osclass/classes/datatables/UsersDataTable.php:92
 msgid "Items"
-msgstr "Artikli"
+msgstr "Oglasi"
 
 #: tmp/oc-admin/themes/modern/stats/items.php:132
 msgid "Views"
-msgstr "Pogledi"
+msgstr "Pregledi"
 
 #: tmp/oc-admin/themes/modern/stats/items.php:138
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:292
 msgid "Alerts"
-msgstr "Alarmi"
+msgstr "Spremljene pretrage"
 
 #: tmp/oc-admin/themes/modern/stats/items.php:140
 msgid "Subscribers"
@@ -197,13 +198,13 @@ msgstr "Pretplatnici"
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:509
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:528
 msgid "No change expiration"
-msgstr "Nema promjene isteka"
+msgstr "Bez promjene isteka oglasa"
 
 #: tmp/oc-admin/themes/modern/parts/header.php:19
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:512
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:533
 msgid "Without expiration"
-msgstr "Bez isteka:"
+msgstr "Ne istječe"
 
 #: tmp/oc-admin/themes/modern/parts/header.php:20
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:515
@@ -221,7 +222,7 @@ msgstr "%d dana"
 #: tmp/oc-admin/themes/modern/parts/header.php:22
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:342
 msgid "Select category"
-msgstr "Odaberi kategoriju"
+msgstr "Odaberite kategoriju"
 
 #: tmp/oc-admin/themes/modern/parts/header.php:23
 msgid "No subcategory"
@@ -230,11 +231,11 @@ msgstr "Nema podkategorije"
 #: tmp/oc-admin/themes/modern/parts/header.php:24
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:345
 msgid "Select subcategory"
-msgstr "Odaberi podkategoriju"
+msgstr "Odaberite podkategoriju"
 
 #: tmp/oc-admin/themes/modern/users/ban.php:34
 msgid "Add, edit or delete ban rules. Keep in mind that ban rules prevent users to register, publish or comment on listings."
-msgstr "Dodajte, uredite ili obrišite pravila zabrane (ban). Imajte na umu da pravila zabrane sprečavaju korisnike da se registriraju, objavljuju oglase ili komentriraju"
+msgstr "Dodajte, uredite ili obrišite pravila zabrane kako bi spriječili korisnike da se registriraju, objavljuju oglase ili komentiraju."
 
 #: tmp/oc-admin/themes/modern/users/ban.php:65
 #, php-format
@@ -324,7 +325,7 @@ msgstr "Obriši"
 
 #: tmp/oc-admin/themes/modern/users/settings.php:34
 msgid "Manage the options related to users on your site. Here, you can decide if users must register or if email confirmation is necessary, among other options."
-msgstr "Uredite opcije vezane za korisnike. Možete odlučiti da li se korisnik mora registrirati ili da li mora potvrditi registraciju email-om, i neke druge opcije."
+msgstr "Promijenite postavke vezane uz korisnike. Odaberite želite li obaveznu registraciju, moraju li korisnici potvrditi svoju email adresu, itd."
 
 #: tmp/oc-admin/themes/modern/users/settings.php:60
 #, php-format
@@ -358,7 +359,7 @@ msgstr "Uredi korisnika"
 
 #: tmp/oc-admin/themes/modern/users/frm.php:51
 msgid "Update user"
-msgstr "Ažuriraj korisnika"
+msgstr "Spremi promjene"
 
 #: tmp/oc-admin/themes/modern/users/frm.php:55
 #: tmp/oc-admin/themes/modern/users/frm.php:57
@@ -367,15 +368,15 @@ msgstr "Dodaj novog korisnika"
 
 #: tmp/oc-admin/themes/modern/users/frm.php:162
 msgid "Username: this field is required"
-msgstr "Korisničko ime: polje je obavezno"
+msgstr "Korisničko ime ne može biti prazno"
 
 #: tmp/oc-admin/themes/modern/users/frm.php:187
 msgid "The username is available"
-msgstr "Korisničko ime je slobodno"
+msgstr "Korisničko ime je dostupno"
 
 #: tmp/oc-admin/themes/modern/users/frm.php:190
 msgid "The username is NOT available"
-msgstr "Korisničko ime NIJE slobodno"
+msgstr "Korisničko ime nije dostupno"
 
 #: tmp/oc-admin/themes/modern/users/frm.php:243
 #, php-format
@@ -389,7 +390,7 @@ msgstr "(dvaput, obavezno)"
 #: tmp/oc-admin/themes/modern/users/frm.php:387
 #, php-format
 msgid "Alert #%d"
-msgstr "Alarm #%d"
+msgstr "Spremljena pretraga #%d"
 
 #: tmp/oc-admin/themes/modern/users/frm.php:390
 #: tmp/oc-includes/osclass/classes/datatables/AlertsDataTable.php:181
@@ -411,7 +412,7 @@ msgstr "<b>Kategorije:</b> %s"
 #: tmp/oc-admin/themes/modern/users/frm.php:442
 #: tmp/oc-admin/themes/modern/users/alerts.php:250
 msgid "Delete alert"
-msgstr "Obriši alarm"
+msgstr "Obriši pretragu"
 
 #: tmp/oc-admin/themes/modern/users/ban_frm.php:45
 msgid "Edit rule"
@@ -419,21 +420,21 @@ msgstr "Uredi pravilo"
 
 #: tmp/oc-admin/themes/modern/users/ban_frm.php:47
 msgid "Update rule"
-msgstr "Obnovi pravilo"
+msgstr "Spremi promjene"
 
 #: tmp/oc-admin/themes/modern/users/ban_frm.php:50
 #: tmp/oc-admin/themes/modern/users/ban_frm.php:52
 msgid "Add new ban rule"
-msgstr "Dodaj novo pravilo zabrane (ban)"
+msgstr "Dodaj novo pravilo zabrane"
 
 #: tmp/oc-admin/themes/modern/users/index.php:34
 msgid "Add, edit or delete information associated to registered users. Keep in mind that deleting a user also deletes all the listings the user published."
-msgstr "Dodajte, uredite ili obrišite informacije vezane za registrirane korisnike. Imajte na umu da brisanjem korisnika ćete obrisati i sve oglase koje je korisnik objavio. "
+msgstr "Dodajte, uredite ili obrišite podatke registriranih korisnika. Brisanjem korisnika brišu se i svi njihovi oglasi."
 
 #: tmp/oc-admin/themes/modern/users/index.php:65
 #, php-format
 msgid "Manage users &raquo; %s"
-msgstr "Administriraj korisnike &raquo; %s"
+msgstr "Upravljaj korisnicima &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/users/index.php:119
 #: tmp/oc-admin/themes/modern/items/index.php:159
@@ -451,7 +452,7 @@ msgstr "Primjeni filtere"
 #: tmp/oc-admin/themes/modern/users/index.php:323
 #, php-format
 msgid "%d Users"
-msgstr "%d Korisnici"
+msgstr "%d Korisnika"
 
 #: tmp/oc-admin/themes/modern/users/index.php:340
 #: tmp/oc-admin/themes/modern/users/alerts.php:169
@@ -465,19 +466,19 @@ msgstr "Obriši korisnika"
 
 #: tmp/oc-admin/themes/modern/users/alerts.php:31
 msgid "Add, edit or delete information associated to alerts."
-msgstr "Dodajte, uredite ili obrišite informacije vezane za alarm."
+msgstr "Dodajte, uredite ili obrišite spremljene pretrage."
 
 #: tmp/oc-admin/themes/modern/users/alerts.php:56
 #, php-format
 msgid "Manage alerts &raquo; %s"
-msgstr "Uredi alarme &raquo; %s"
+msgstr "Uredi spremljene pretrage &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/users/alerts.php:183
 #: tmp/oc-admin/themes/modern/users/alerts.php:186
 #: tmp/oc-admin/themes/modern/users/alerts.php:189
 #, php-format
 msgid "Are you sure you want to %s the selected alerts?"
-msgstr "Jeste sigurni da želite %s odabrane alarme?"
+msgstr "Jeste sigurni da želite %s odabrane pretrage?"
 
 #: tmp/oc-admin/themes/modern/users/alerts.php:184
 #: tmp/oc-admin/themes/modern/comments/frm.php:123
@@ -523,18 +524,18 @@ msgstr "Odustani"
 
 #: tmp/oc-admin/themes/modern/fields/iframe.php:135
 msgid "At least one option is required."
-msgstr "Bar jedna opcija je obavezna."
+msgstr "Odaberite bar jednu opciju."
 
 #: tmp/oc-admin/themes/modern/fields/iframe.php:165
 #: tmp/oc-admin/themes/modern/fields/index.php:144
 #: tmp/oc-admin/themes/modern/categories/index.php:252
 #: tmp/oc-admin/themes/modern/categories/index.php:349
 msgid "Ajax error, try again."
-msgstr "Greška ajaxa, pokušajte ponovo."
+msgstr "AJAX greška, pokušajte ponovno."
 
 #: tmp/oc-admin/themes/modern/fields/index.php:40
 msgid "Create new fields for users to fill out when they publish a listing. You can require extra  information such as the number of bedrooms in real estate listings or fuel type in car listings, for example."
-msgstr "Stvorite novo polje za korisnike da ga popune prilikom objave oglasa. Možete zatražiti dodatne informacije kao što su broj soba u nekretnini ili tip goriva u autu, naprimjer."
+msgstr "Dodajte nova polja na predaju oglasa. Naprimjer, za kategoriju Nekretnine možete dodati polja za broj soba, kupaonica itd."
 
 #: tmp/oc-admin/themes/modern/fields/index.php:167
 #: tmp/oc-admin/themes/modern/appearance/widgets.php:128
@@ -559,11 +560,11 @@ msgstr "Polje ne može biti dodano"
 #: tmp/oc-admin/themes/modern/fields/index.php:225
 #, php-format
 msgid "Custom fields &raquo; %s"
-msgstr "Prilagođeno polje &raquo; %s"
+msgstr "Dodatna polja &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/fields/index.php:274
 msgid "Delete custom field"
-msgstr "Obriši polje po narudžbi"
+msgstr "Obriši polje"
 
 #: tmp/oc-admin/themes/modern/plugins/view.php:35
 #: tmp/oc-admin/themes/modern/plugins/configuration.php:41
@@ -584,7 +585,7 @@ msgstr "Ažuriraj"
 
 #: tmp/oc-admin/themes/modern/plugins/add.php:34
 msgid "Manually upload Osclass plugins in .zip format. If you prefer, you can manually upload the decompressed plugin to <em>oc-content/plugins</em>."
-msgstr "Ručno prenesite dodatak u .zip formatu. Ako preferirate, možete ručno prenijeti i nekopresirani dodatak u  <em>oc-content/plugins</em>."
+msgstr "Prenesite dodatak u .zip formatu. Također možete dodati mapu dodatka u <em>oc-content/plugins</em>."
 
 #: tmp/oc-admin/themes/modern/plugins/add.php:60
 #, php-format
@@ -599,7 +600,7 @@ msgstr "Prenesi"
 
 #: tmp/oc-admin/themes/modern/plugins/index.php:34
 msgid "Install or uninstall the plugins available in your installation. In some cases, you'll have to configure the plugin in order to get it to work."
-msgstr "Instaliraj ili deinstaliraj dodatke u vašoj instalaciji. U nekim slučajevima, morati ćete konfigurirati dodatak da bi proradio."
+msgstr "Instalirajte ili deinstalirajte dodatke na vašoj stranici. Ponekad će dodatak trebati dodatnu konfiguraciju da bi radio."
 
 #: tmp/oc-admin/themes/modern/plugins/index.php:102
 msgid "Uninstall plugin"
@@ -608,7 +609,7 @@ msgstr "Deinstaliraj dodatak"
 #: tmp/oc-admin/themes/modern/plugins/index.php:106
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:398
 msgid "Problems with this plugin? Ask for support."
-msgstr "Problemi sa dodatkom? Tražite podršku"
+msgstr "Problemi sa dodatkom? Zatražite pomoć."
 
 #: tmp/oc-admin/themes/modern/plugins/index.php:210
 #: tmp/oc-admin/themes/modern/plugins/index.php:213
@@ -626,7 +627,7 @@ msgstr "Deinstaliraj"
 
 #: tmp/oc-admin/themes/modern/plugins/index.php:346
 msgid "You are about to delete the files of the plugin. Do you want to continue?"
-msgstr "Čini se da ćete obrisati datoteke dodatka. Da li želite nastaviti?"
+msgstr "Jeste li sigurni da želite obrisati sve datoteke dodatka?"
 
 #: tmp/oc-admin/themes/modern/comments/frm.php:38
 msgid "Edit comment"
@@ -634,7 +635,7 @@ msgstr "Uredi komentar"
 
 #: tmp/oc-admin/themes/modern/comments/frm.php:40
 msgid "Update comment"
-msgstr "Ažuriranje komentara"
+msgstr "Spremi promjene"
 
 #: tmp/oc-admin/themes/modern/comments/frm.php:43
 msgid "Add comment"
@@ -649,25 +650,25 @@ msgstr "Dodaj"
 #: tmp/oc-admin/themes/modern/comments/frm.php:65
 #, php-format
 msgid "Edit comment &raquo; %s"
-msgstr "Uredi komentar »%s"
+msgstr "Uredi komentar &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/comments/frm.php:119
 #: tmp/oc-includes/osclass/classes/datatables/CommentsDataTable.php:254
 #: tmp/oc-includes/osclass/classes/datatables/UsersDataTable.php:323
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:423
 msgid "Active"
-msgstr "Aktivno"
+msgstr "Aktivan"
 
 #: tmp/oc-admin/themes/modern/comments/frm.php:119
 #: tmp/oc-includes/osclass/classes/datatables/CommentsDataTable.php:248
 #: tmp/oc-includes/osclass/classes/datatables/UsersDataTable.php:317
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:403
 msgid "Inactive"
-msgstr "Neaktivno"
+msgstr "Neaktivan"
 
 #: tmp/oc-admin/themes/modern/comments/frm.php:131
 msgid "Unblocked"
-msgstr "deblokiran"
+msgstr "Deblokiran"
 
 #: tmp/oc-admin/themes/modern/comments/frm.php:131
 #: tmp/oc-includes/osclass/classes/datatables/CommentsDataTable.php:241
@@ -708,7 +709,7 @@ msgstr "Odblokiraj"
 
 #: tmp/oc-admin/themes/modern/comments/index.php:34
 msgid "Manage the comments that users publish on the listings on your site. You can also edit, delete, activate or block comments."
-msgstr "Gestiona los comentarios que los usuarios publican en los anuncios. También puedes editar, eliminar, activar o bloquear los comentarios."
+msgstr "Upravljajte komentarima na vašoj stranici. Možete ih urediti, izbrisati, blokirati..."
 
 #: tmp/oc-admin/themes/modern/comments/index.php:63
 #, php-format
@@ -717,11 +718,11 @@ msgstr "Komentari &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/comments/index.php:225
 msgid "Delete comment"
-msgstr "Brisanje komentara"
+msgstr "Obriši komentar"
 
 #: tmp/oc-admin/themes/modern/items/settings.php:34
 msgid "Modify the general settings for your listings. Decide if users have to register in order to publish something, the number of pictures allowed for each listing, etc."
-msgstr "Uredite opće postavke za vaš oglas. Birajte da li korisnik mora da se registrira  da bi bio u mogućnosti objavljivati oglase, broj dozvoljenih slika za svaki oglas, itd. "
+msgstr "Uredite osnovne postavke za predaju oglasa. Odaberite je li registracija potrebna za predaju oglasa, koliki je najveći broj fotografija po oglasu, itd."
 
 #: tmp/oc-admin/themes/modern/items/settings.php:94
 #, php-format
@@ -731,23 +732,23 @@ msgstr "Postavke oglasa &raquo; %s"
 #: tmp/oc-admin/themes/modern/items/settings.php:121
 #, php-format
 msgid "An user has to wait %s seconds between each listing added"
-msgstr "Korisnik mora pričekati %s sekundi između dvije objave oglasa."
+msgstr "Korisnik mora pričekati %s sekundi između objava oglasa"
 
 #: tmp/oc-admin/themes/modern/items/settings.php:153
 #, php-format
 msgid "After %s validated listings the user doesn't need to validate the listings any more"
-msgstr "Nakon %s odobrenih oglasa korisnik više ne mora čekati odobrenje oglasa."
+msgstr "Nakon %s odobrenih oglasa korisnik više ne mora čekati odobrenje"
 
 #: tmp/oc-admin/themes/modern/items/settings.php:237
 #: tmp/oc-admin/themes/modern/items/settings.php:247
 #, php-format
 msgid "%s characters "
-msgstr "%s karaktera"
+msgstr "%s znakova "
 
 #: tmp/oc-admin/themes/modern/items/settings.php:282
 #, php-format
 msgid "Attach %s images per listing"
-msgstr "Priloži %s slika po oglasu"
+msgstr "Dopusti %s fotografija po oglasu"
 
 #: tmp/oc-admin/themes/modern/items/frm.php:50
 #: tmp/oc-admin/themes/modern/items/frm.php:54
@@ -767,21 +768,21 @@ msgstr "Uredi oglas"
 
 #: tmp/oc-admin/themes/modern/items/frm.php:56
 msgid "Update listing"
-msgstr "Ažuriraj oglas"
+msgstr "Spremi promjene"
 
 #: tmp/oc-admin/themes/modern/items/reported.php:34
 msgid "From here, you can edit or delete the listings reported by users (spam, misclassified, duplicate, expired, offensive). You can also delete the report if you consider it mistaken."
-msgstr "Ovdje možete urediti ili obrisati oglase koje su prijavili drugi korisnici(spam, krivo kategorizirani, duplikati, istekli, uvredljivi). Također možete obrisati prijavu ako ju smatrate pogrešnom."
+msgstr "Uredite ili obrišite oglase koje su korisnici prijavili (istekao, duplikat, spam)."
 
 #: tmp/oc-admin/themes/modern/items/reported.php:60
 #, php-format
 msgid "Reported listings &raquo; %s"
-msgstr "Prijavljeni oglasi  &raquo; %s"
+msgstr "Prijavljeni oglasi &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/items/reported.php:89
 #: tmp/oc-admin/themes/modern/items/index.php:118
 msgid "Delete listing"
-msgstr "Obriši oglas"
+msgstr "Izbriši oglas"
 
 #: tmp/oc-admin/themes/modern/items/reported.php:158
 #: tmp/oc-admin/themes/modern/items/reported.php:161
@@ -793,16 +794,16 @@ msgstr "Obriši oglas"
 #: tmp/oc-admin/themes/modern/items/index.php:371
 #, php-format
 msgid "%d Listings"
-msgstr "%d Oglasi"
+msgstr "%d Oglasa"
 
 #: tmp/oc-admin/themes/modern/items/reported.php:184
 #, php-format
 msgid "Are you sure you want to %s the selected items?"
-msgstr "Jeste sigurni da želite %s odabrane artikle?"
+msgstr "Jeste sigurni da želite %s odabrane oglase?"
 
 #: tmp/oc-admin/themes/modern/items/index.php:36
 msgid "Manage all the listings on your site: edit, delete or block the latest listings published. You can also filter by several parameters: user, region, city, etc."
-msgstr "Administra todos los anuncios de tu página: edita, elimina o bloquea los últimos anuncios publicados. También puedes filtrarlos según diversos parámetros: usuario, región, ciudad, etc."
+msgstr "Upravljajte oglasima na vašoj stranici. Možete ih urediti, izbrisati, blokirati... Također možete filtrirati oglase po korisniku, lokaciji, kategoriji itd."
 
 #: tmp/oc-admin/themes/modern/items/index.php:66
 #, php-format
@@ -838,24 +839,24 @@ msgstr "Uredi widget"
 #: tmp/oc-admin/themes/modern/appearance/add_widget.php:82
 #: tmp/oc-admin/themes/modern/appearance/add_widget.php:84
 msgid "Add widget"
-msgstr "Dodaj Widget"
+msgstr "Dodaj widget"
 
 #: tmp/oc-admin/themes/modern/appearance/add_widget.php:123
 msgid "Description: this field is required"
-msgstr "Opis: ovo polje je obavezno"
+msgstr "Opis ne može biti prazno"
 
 #: tmp/oc-admin/themes/modern/appearance/add.php:34
 msgid "Manually add Osclass themes in .zip format. If you prefer, you can manually upload the decompressed theme to <em>oc-content/themes</em>."
-msgstr "Ručno dodajte temu u zip formatu. Ako više volite, možete ručno prenijeti nekompresiranu temu u <em>oc-content/themes</em>."
+msgstr "Prenesite temu u .zip formatu. Također možete dodati mapu teme u <em>oc-content/themes</em>."
 
 #: tmp/oc-admin/themes/modern/appearance/add.php:60
 #, php-format
 msgid "Add theme &raquo; %s"
-msgstr "Dodaj temu &raquo;  %s"
+msgstr "Dodaj temu &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/appearance/widgets.php:37
 msgid "Modify your site's header or footer here."
-msgstr ""
+msgstr "Uredite zaglavlje i podnožje vaše stranice."
 
 #: tmp/oc-admin/themes/modern/appearance/widgets.php:63
 msgid "Delete widget"
@@ -868,7 +869,7 @@ msgstr "Sekcija: %s"
 
 #: tmp/oc-admin/themes/modern/appearance/widgets.php:124
 msgid "Widget"
-msgstr ""
+msgstr "Widget"
 
 #: tmp/oc-admin/themes/modern/appearance/widgets.php:125
 #, php-format
@@ -881,7 +882,7 @@ msgstr "Obriši temu"
 
 #: tmp/oc-admin/themes/modern/appearance/index.php:67
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
-msgstr ""
+msgstr "Promijenite izgled vaše stranice dodavanjem druge teme. <strong>Oprezno</strong>! Ako ste uredili temu i promijenite ju, izgubit ćete promjene."
 
 #: tmp/oc-admin/themes/modern/admins/frm.php:43
 msgid "Edit admin"
@@ -889,7 +890,7 @@ msgstr "Uredi administratora"
 
 #: tmp/oc-admin/themes/modern/admins/frm.php:45
 msgid "Save"
-msgstr "Spremi"
+msgstr "Spremi promjene"
 
 #: tmp/oc-admin/themes/modern/admins/frm.php:48
 msgid "Add admin"
@@ -897,42 +898,42 @@ msgstr "Dodaj administratora"
 
 #: tmp/oc-admin/themes/modern/admins/index.php:34
 msgid "Add users who can manage your page. You can add admins or moderators: admins have access to the whole admin panel while moderators can only modify listings and see stats."
-msgstr "Dodaj korisnike koji će upravljati vašom stranicom: možete dodavati administratore ili moderatore. Administratori imaju pristup cijelom panelu, dok je moderatorima dopušteno samo mjenjati oglase i gledati statistike,"
+msgstr "Dodajte korisnike mogu upravljati vašom stranicom. Administratori imaju pristup cijeloj stranici, a moderatori mogu samo uređivati oglase."
 
 #: tmp/oc-admin/themes/modern/admins/index.php:49
 #, php-format
 msgid "Admins &raquo; %s"
-msgstr "Administradori &raquo; %s"
+msgstr "Administratori &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/admins/index.php:212
 msgid "Delete admin"
-msgstr "Izbrišite adminsitratora"
+msgstr "Izbriši administratora"
 
 #: tmp/oc-admin/themes/modern/settings/searches.php:60
 msgid "Custom number: this field must only contain numeric characters"
-msgstr "Prilagođeni broj: smije biti samo broj"
+msgstr "Broj mora biti ispravan broj"
 
 #: tmp/oc-admin/themes/modern/settings/searches.php:62
 msgid "Custom number: this field cannot be left empty"
-msgstr "Prilagođeni broj: polje ne smije biti prazno"
+msgstr "Broj ne može biti prazan"
 
 #: tmp/oc-admin/themes/modern/settings/searches.php:95
 msgid "Save the searches users do on your site. In this way, you can get information on what they're most interested in. From here, you can manage the options on how much information you want to save."
-msgstr "Spremi pretrage koje su korisnici tražili na vašoj stranici. Tako ćete imati informacije šta vaše korisnike najviše zanima. Ovdje možete upravljati opcijama koliko informacija da se pohrani."
+msgstr "Spremite pretrage vaših korisnika kako bi vidjeli što ih najviše zanima."
 
 #: tmp/oc-admin/themes/modern/settings/searches.php:121
 #, php-format
 msgid "Latest searches Settings &raquo; %s"
-msgstr "Postavke za posljednje traženo &raquo; %s"
+msgstr "Postavke spremanja pretraga &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/settings/searches.php:198
 #, php-format
 msgid "Store %s queries"
-msgstr "Spremi %s zahtjeva"
+msgstr "Spremi %s pretraga"
 
 #: tmp/oc-admin/themes/modern/settings/currencies.php:34
 msgid "Add new currencies or edit existing currencies so users can publish listings in their country's currency."
-msgstr "Dodaj novu valutu ili uredi postojeće valute da korisnici mogu objavljivati oglase u valuti svoje države."
+msgstr "Dodajte ili uredite valute."
 
 #: tmp/oc-admin/themes/modern/settings/currencies.php:62
 #, php-format
@@ -952,12 +953,12 @@ msgstr "Obriši valutu"
 #: tmp/oc-admin/themes/modern/settings/currency_form.php:55
 #: tmp/oc-admin/themes/modern/settings/currency_form.php:56
 msgid "Currency code: this field is required"
-msgstr "Kod valute: polje je obavezno"
+msgstr "Kod valute ne može biti prazan"
 
 #: tmp/oc-admin/themes/modern/settings/currency_form.php:59
 #: tmp/oc-admin/themes/modern/settings/currency_form.php:60
 msgid "Name: this field is required"
-msgstr "Ime: polje je obavezno"
+msgstr "Ime ne može biti prazno"
 
 #: tmp/oc-admin/themes/modern/settings/currency_form.php:106
 #: tmp/oc-admin/themes/modern/settings/currency_form.php:107
@@ -970,41 +971,41 @@ msgstr "Uredi valutu"
 
 #: tmp/oc-admin/themes/modern/settings/currency_form.php:111
 msgid "Update currency"
-msgstr "Ažuriraj valutu"
+msgstr "Spremi promjene"
 
 #: tmp/oc-admin/themes/modern/settings/currency_form.php:164
 #, php-format
 msgid "Must be a three-character code according to the <a href=\"%s\" target=\"_blank\">ISO 4217</a>"
-msgstr " Mora biti kod od tri slova prema <a href=\"%s\" target=\"_blank\">ISO 4217</a>"
+msgstr "3-znakovni kod po <a href=\"%s\" target=\"_blank\">ISO 4217</a> standardu"
 
 #: tmp/oc-admin/themes/modern/settings/mailserver.php:87
 msgid "Modify the settings of the mail server from which your site's emails are sent. <strong>Be careful</strong>: these settings can vary depending on your hosting or server. If you run into any issues, check your hosting's help section."
-msgstr "Uredi postavke mail servera sa kojeg će email-ovi biti slani. <strong>Oprez</strong>: ove postavke mogu varirati ovisno o poslužiteljskom serveru. Ako naiđete na probleme, provjerite stranice za pomoć poslužitelja"
+msgstr "Uredi postavke email servera. <strong>Info</strong>: ove postavke ovise o vašem hostingu."
 
 #: tmp/oc-admin/themes/modern/settings/mailserver.php:114
 #, php-format
 msgid "Mail Settings &raquo; %s"
-msgstr "Postavke e-maila &raquo; %s"
+msgstr "Postavke emailova &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/settings/comments.php:53
 msgid "Moderated comments: this field is required"
-msgstr "Uređivani komentari: ovo polje je obavezno"
+msgstr "Broj odobrenih komentara ne može biti prazan"
 
 #: tmp/oc-admin/themes/modern/settings/comments.php:54
 msgid "Moderated comments: this field must only contain numeric characters"
-msgstr "Moderirani komentari: smije sadržavati samo brojeve"
+msgstr "Broj odobrenih komentara mora biti ispravan broj"
 
 #: tmp/oc-admin/themes/modern/settings/comments.php:57
 msgid "Comments per page: this field is required"
-msgstr "Komentara po stranici: polje je obavezno"
+msgstr "Broj komentara po stranici ne može biti prazan"
 
 #: tmp/oc-admin/themes/modern/settings/comments.php:58
 msgid "Comments per page: this field must only contain numeric characters"
-msgstr "Komentara po stranici: smije sadržavati samo brojeve"
+msgstr "Broj komentara po stranici mora biti ispravan broj"
 
 #: tmp/oc-admin/themes/modern/settings/comments.php:102
 msgid "Modify the options that allow your users to publish comments on your site's listings."
-msgstr "Uredi opcije koje omogućavaju korisnicima da objavljuju komentare na oglasu"
+msgstr "Uredi opcije koje omogućavaju korisnicima da objavljuju komentare na oglasu."
 
 #: tmp/oc-admin/themes/modern/settings/comments.php:126
 #, php-format
@@ -1014,16 +1015,17 @@ msgstr "Postavke komentara &raquo; %s"
 #: tmp/oc-admin/themes/modern/settings/comments.php:167
 #, php-format
 msgid "Before a comment appears, comment author must have at least %s previously approved comments"
-msgstr "Prije nego se komentar pojavi, autor mora imati barem %s prethodno odobrenih komentara"
+msgstr "Prije nego komentar postane vidljiv, autor mora imati barem %s prethodno odobrenih komentara"
 
 #: tmp/oc-admin/themes/modern/settings/comments.php:178
 #, php-format
 msgid "Break comments into pages with %s comments per page"
-msgstr "Podjeli komntare na stranice %s komentara po stranici."
+msgstr "Pokaži do %s komentara po stranici"
 
 #: tmp/oc-admin/themes/modern/settings/advanced.php:59
+#, fuzzy
 msgid "Change advanced configuration of your Osclass. <strong>Be careful</strong> when modifying default values if you're not sure what you're doing!"
-msgstr "Promjeni napredne postavke. <strong>PAŽNJA</strong>prilikom mijenjanja zadanih vrijednosti ako niste sigurni što radite!"
+msgstr "Promijenite napredne postavke vaše stranice. <strong>Oprezno</strong>! Ako niste sigurni što radite..."
 
 #: tmp/oc-admin/themes/modern/settings/advanced.php:86
 #, php-format
@@ -1032,16 +1034,16 @@ msgstr "Napredne postavke &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/settings/advanced.php:110
 msgid "Flush cache"
-msgstr "Isprazni cache"
+msgstr "Očisti predmemoriju"
 
 #: tmp/oc-admin/themes/modern/settings/advanced.php:158
 #, php-format
 msgid "Your current host is \"%s\". Add it without \"www\"."
-msgstr "Vaš trenutni poslužitelj je \"%s\".Dodaj bez \"www\"."
+msgstr "Vaš trenutni poslužitelj je \"%s\". Unesite podatak bez \"www\"."
 
 #: tmp/oc-admin/themes/modern/settings/spamNbots.php:43
 msgid "Keep spammers from publishing on your site by configuring reCAPTCHA and Akismet. Be careful: in order to use these services, you must register on their sites first and follow their instructions."
-msgstr "Zapriječite spamere da objavljuju oglase podešavanjem reCAPTCHA i Akismet konfiguracijom. Oprez: da bi ovo radilo možda ćete se morati registrirati na stranicama ovih usluga i pratiti njihove upute."
+msgstr "Spriječite botove i spammere na vašoj stranici konfiguriranjem reCAPTCHA i Akismet dodataka."
 
 #: tmp/oc-admin/themes/modern/settings/spamNbots.php:69
 #, php-format
@@ -1049,212 +1051,214 @@ msgid "Spam and bots &raquo; %s"
 msgstr "Spam i botovi %s"
 
 #: tmp/oc-admin/themes/modern/settings/spamNbots.php:99
+#, fuzzy
 msgid "This key is valid"
-msgstr "Ključ nije ispravan"
+msgstr "Key je ispravan"
 
 #: tmp/oc-admin/themes/modern/settings/spamNbots.php:103
+#, fuzzy
 msgid "The key you entered is invalid. Please double-check it"
 msgstr "Upisani ključ nije ispravan. Provjerite ga"
 
 #: tmp/oc-admin/themes/modern/settings/spamNbots.php:108
 #, php-format
 msgid "Akismet is disabled, please enter an API key. <a href=\"%s\" target=\"_blank\">(Get your key)</a>"
-msgstr "Akismet je onemogućen, molimo un esite API ključ. <a href=\"%s\" target=\"_blank\">(Traži ključ)</a>"
+msgstr "Akismet je onemogućen. Unesite API key. <a href=\"%s\" target=\"_blank\">(više informacija)</a>"
 
 #: tmp/oc-admin/themes/modern/settings/spamNbots.php:128
 #, php-format
 msgid "reCAPTCHA helps prevent automated abuse of your site by using a CAPTCHA to ensure that only humans perform certain actions. <a href=\"%s\" target=\"_blank\">Get your key</a>"
-msgstr "reCAPTCHA pomaže spriječiti automatske napade na strenicu. Korištenjem se osigurajte da samo ljudi mogu odraditi neke akcije. <a href=\"%s\" target=\"_blank\">Zatražite svoj ključ.</a>"
+msgstr "reCAPTCHA zaustavlja botove i spammere na vašoj stranici. <a href=\"%s\" target=\"_blank\">(više informacija)</a>"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:189
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:190
 msgid "Listings url: this field is required"
-msgstr "URL oglasa: polje je obavezno"
+msgstr "Poveznica za oglas ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:193
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:194
 msgid "Page url: this field is required"
-msgstr "URL stranice: polje je obavezno"
+msgstr "Poveznica za podstranicu ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:197
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:198
 msgid "Categories url: this field is required"
-msgstr "URL kategotije: polje je obavezno"
+msgstr "Poveznica za pretragu (kategorija) ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:201
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:202
 msgid "Search url: this field is required"
-msgstr "URL pretrage: polje je obavezno"
+msgstr "Poveznica za pretragu ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:205
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:206
 msgid "Search country: this field is required"
-msgstr "Pretraga države: polje je obavezno"
+msgstr "Poveznica za pretragu (država) ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:209
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:210
 msgid "Search region: this field is required"
-msgstr "Pretrga regije: polje je obavezno"
+msgstr "Poveznica za pretragu (regija) ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:213
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:214
 msgid "Search city: this field is required"
-msgstr "Pretrga grada: polje je obavezno"
+msgstr "Poveznica za pretragu (grad) ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:217
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:218
 msgid "Search city area: this field is required"
-msgstr "Pretraga gradske zone: polje je obavezno"
+msgstr "Poveznica za pretragu (kvart) ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:221
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:222
 msgid "Search category: this field is required"
-msgstr "Pretraga kategorije: polje je obavezno"
+msgstr "Poveznica za pretragu (kategorija) ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:225
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:226
 msgid "Search user: this field is required"
-msgstr "Pretraga korisnika: polje je obavezno"
+msgstr "Poveznica za pretragu (korisnik) ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:229
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:230
 msgid "Search pattern: this field is required"
-msgstr "Pretraga uzorka: polje je obavezno"
+msgstr "Poveznica za pretragu (ključna riječ) ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:233
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:234
 msgid "Contact url: this field is required"
-msgstr "Kontakt URL: polje je obavezno"
+msgstr "Poveznica za kontakt ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:237
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:238
 msgid "Feed url: this field is required"
-msgstr "Feed URL: polje je obavezno"
+msgstr "Poveznica za RSS feed ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:241
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:242
 msgid "Language url: this field is required"
-msgstr "URL jezika: polje je obavezno"
+msgstr "Poveznica za jezik ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:245
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:246
 msgid "Listing mark url: this field is required"
-msgstr "URL oznake oglasa: polje je obavezno"
+msgstr "Poveznica za prijavljivanje oglasa ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:249
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:250
 msgid "Listing send friend url: this field is required"
-msgstr "URL oglasa poslanog prijatelju: polje je obavezno"
+msgstr "Poveznica za dijeljenje oglasa ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:253
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:254
 msgid "Listing contact url: this field is required"
-msgstr "URL kontakta oglasa: polje je obavezno"
+msgstr "Poveznica za kontaktiranje oglasa ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:257
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:258
 msgid "New listing url: this field is required"
-msgstr "URL novog oglasa: polje je obavezno"
+msgstr "Poveznica za predaju oglasa ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:261
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:262
 msgid "Activate listing url: this field is required"
-msgstr "URL oglasa za aktivaciju:polje je obavezno"
+msgstr "Poveznica oglasa za aktivaciju:polje je obavezno"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:265
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:266
 msgid "Edit listing url: this field is required"
-msgstr "URL za uređivanje oglasa: polje je obavezno"
+msgstr "Poveznica za uređivanje oglasa ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:269
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:270
 msgid "Delete listing url: this field is required"
-msgstr "Url za brisanje oglasa: polje je obavezno"
+msgstr "Poveznica za brisanje oglasa ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:273
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:274
 msgid "Delete listing resource url: this field is required"
-msgstr "URL brisanja izvora oglasa: polje je obavezno"
+msgstr "Poveznica za brisanje fotografija ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:277
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:278
 msgid "Login url: this field is required"
-msgstr "Login URL: polje je obavezno"
+msgstr "Poveznica za prijavu ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:281
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:282
 msgid "User dashboard url: this field is required"
-msgstr "URL korisničkog sučelja: polje je obavezno"
+msgstr "Poveznica za profil ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:285
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:286
 msgid "Logout url: this field is required"
-msgstr "Logout URL: polje je obavezno"
+msgstr "Poveznica za odjavu ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:289
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:290
 msgid "User register url: this field is required"
-msgstr "URL registracije korisnika: polje je obavezno"
+msgstr "Poveznica za registraciju ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:293
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:294
 msgid "Activate user url: this field is required"
-msgstr "URL aktivacije korisnika: polje je obavezno"
+msgstr "Poveznica za aktivaciju korisnika ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:297
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:298
 msgid "Activate alert url: this field is required"
-msgstr "URL aktivacije alarma: polje je obavezno"
+msgstr "Poveznica za spremanje pretrage ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:301
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:302
 msgid "User profile url: this field is required"
-msgstr "URL korisničkog profila: polje je obavezno"
+msgstr "Poveznica za profil ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:305
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:306
 msgid "User listings url: this field is required"
-msgstr "URL korisikovih oglasa: polje je obavezno"
+msgstr "Poveznica za korisnikove oglase ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:309
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:310
 msgid "User alerts url: this field is required"
-msgstr "URL korisnikovih alarma: polje je obavezno"
+msgstr "Poveznica za korisnikove spremljene pretrage ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:313
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:314
 msgid "Recover user url: this field is required"
-msgstr "URL oporavka korisnika: polje je obavezno"
+msgstr "Poveznica za promjenu zaporke ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:317
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:318
 msgid "User forgot url: this field is required"
-msgstr "URL za zaboravljeni korisnik: polje je obavezno"
+msgstr "Poveznica za zaboravljeni korisnik ne može biti prazno"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:321
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:322
 msgid "Change password url: this field is required"
-msgstr "URL za promjenu lozinke: polje je obavezno"
+msgstr "Poveznica za promjenu lozinke ne može biti prazno"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:325
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:326
 msgid "Change email url: this field is required"
-msgstr "URL za promjenu emaila: polje je obavezno"
+msgstr "Poveznica za promjenu emaila ne može biti prazno"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:329
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:330
 msgid "Change username url: this field is required"
-msgstr "Promjeni putanju (url) korisničkog imena: polje je obavezno"
+msgstr "Poveznica za promjenu korisničkog imena ne može biti prazno"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:333
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:334
 msgid "Change email confirm url: this field is required"
-msgstr "URL za potvrdu promjene emaila: polje je obavezno"
+msgstr "Poveznica za potvrdu promjene emaila ne može biti prazno"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:351
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:355
 msgid "Show rules"
-msgstr "Prikaži pravila"
+msgstr "Pokaži pravila"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:352
 msgid "Hide rules"
@@ -1262,19 +1266,19 @@ msgstr "Sakrij pravila"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:385
 msgid "Activate this option if you want your site's URLs to be more attractive to search engines and intelligible for users. <strong>Be careful</strong>: depending on your hosting service, this might not work correctly."
-msgstr "Aktivirajte ovu opciju ako želite da putanja vaše stranice bude atraktivnija za tražilice i razumljiva za korisnike.  <strong>Oprez</strong>: ovisno o vašoj usluzi poslužitelja, ovo možda neće raditi ispravno."
+msgstr "Aktivirajte ovo kako bi linkovi na vašoj stranici bili bolje prilagođeni tražilicama i korisnicima. <strong>Oprezno</strong>! Ovo možda neće raditi, ovisno o vašem posljužitelju."
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:410
 #, php-format
 msgid "Permalinks &raquo; %s"
-msgstr ""
+msgstr "Friendly URLs &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:451
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:462
 #: tmp/oc-admin/themes/modern/settings/permalinks.php:473
 #, php-format
 msgid "Accepted keywords: %s"
-msgstr "Prihvatljive ključne riječi: %s"
+msgstr "Dopuštene ključne riječi: %s"
 
 #: tmp/oc-admin/themes/modern/settings/locations.php:45
 msgid "Delete location"
@@ -1288,7 +1292,7 @@ msgstr "Zatvori"
 
 #: tmp/oc-admin/themes/modern/settings/locations.php:143
 msgid "View more"
-msgstr "Prikaži više"
+msgstr "Vidi više"
 
 #: tmp/oc-admin/themes/modern/settings/locations.php:147
 msgid "Edit country"
@@ -1316,11 +1320,11 @@ msgstr "Dodaj novi grad"
 
 #: tmp/oc-admin/themes/modern/settings/locations.php:153
 msgid "Import a location"
-msgstr ""
+msgstr "Uvezi bazu lokacija"
 
 #: tmp/oc-admin/themes/modern/settings/locations.php:172
 msgid "Add, edit or delete the countries, regions and cities installed on your Osclass. <strong>Be careful</strong>: modifying locations can cause your statistics to be incorrect until they're recalculated. Modify only if you're sure what you're doing!"
-msgstr "Dodajte, uredite ili obrišite države, regije i gradove instalirane na oglasniku. <strong>Oprez </strong>: uređivanje lokacija može prouzročiti netočnost statistički podataka: Uredit samo ako znate šta radite"
+msgstr "Dodajte, uredite ili obrišite države, regije i gradove. <strong>Oprezno</strong>! Uređivanje lokacija može poremetiti oglase i statistike."
 
 #: tmp/oc-admin/themes/modern/settings/locations.php:199
 #, php-format
@@ -1334,58 +1338,58 @@ msgstr "Uvezi"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:48
 msgid "Size is not in the correct format"
-msgstr "Veličina nije u dobrom formatu"
+msgstr "Veličina nije u ispravnom formatu"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:71
 msgid "Thumbnail size: this field is required"
-msgstr "Slika prikaza (thumbnail): polje je obavezno"
+msgstr "Veličina minijature ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:72
 msgid "Thumbnail size: is not in the correct format"
-msgstr "Slika prikaza (thumbnail): nije u dobrom formatu"
+msgstr "Veličina minijature je nevaljana"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:75
 msgid "Preview size: this field is required"
-msgstr "Veličina prikaza (preview): polje je obavezno"
+msgstr "Veličina pretpregleda ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:76
 msgid "Preview size: is not in the correct format"
-msgstr "Veličina prikaza (preview): nije u dobrom formatu"
+msgstr "Veličina pretpregleda je nevaljana"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:79
 msgid "Normal size: this field is required"
-msgstr "Normalna veličina: polje je obavezno"
+msgstr "Veličina slike ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:80
 msgid "Normal size: is not in the correct format"
-msgstr "Normalna veličina: nije u dobrom formatu"
+msgstr "Veličina slike je nevaljana"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:83
 msgid "Maximum size: this field is required"
-msgstr "Ovo polje je obavezno."
+msgstr "Najveća dopuštena veličina ne može biti prazna"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:84
 msgid "Maximum size: this field must only contain numeric characters"
-msgstr "Najveća veličina: smiju biti samo brojevi"
+msgstr "Najveća veličina treba biti ispravan broj"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:172
 msgid "Manage the options for the images users can upload along with their listings. You can limit their size, the number of images per ad, include a watermark, etc."
-msgstr "Uredi opcije za prijenos slika koje korisnik može prenijeti zajedno sa oglasom. Možete ograničiti veličinu, broj slika po oglasu, dodavanje vodenog žiga, itd."
+msgstr "Uredite opcije za fotografije oglasa. Možete postaviti maksimalni broj fotografija po oglasu, maksimalnu veličinu fotografije, itd."
 
 #: tmp/oc-admin/themes/modern/settings/media.php:198
 #, php-format
 msgid "Media Settings &raquo; %s"
-msgstr "Postavke medija &raquo; %s"
+msgstr "Postavke fotografija &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:279
 #, php-format
 msgid "Maximum size PHP configuration allows: %d KB"
-msgstr "Maksimalna veličina PHP konfiguracije dozvoljava"
+msgstr "Maksimalna veličina PHP konfiguracije dozvoljava: %d KB"
 
 #: tmp/oc-admin/themes/modern/settings/media.php:322
 #, php-format
 msgid "Freetype library is required. How to <a target=\"_blank\" href=\"%s\">install/configure</a>"
-msgstr "Freetype knjižnica je neophodna. Kako <a target=\\\"_blank\\\" href=\\\"%s\\\">instalirati/kofigurirati</a>"
+msgstr "Freetype library je obavezan <a target=\"_blank\" href=\"%s\">(više informacija)</a>."
 
 #: tmp/oc-admin/themes/modern/settings/media.php:527
 msgid "Recommendation"
@@ -1394,13 +1398,13 @@ msgstr "Preporuka"
 #: tmp/oc-admin/themes/modern/settings/index.php:73
 #: tmp/oc-admin/themes/modern/settings/index.php:74
 msgid "Page title: this field is required"
-msgstr "Naslov stranice: polje je obavezno"
+msgstr "Naslov stranice ne može biti prazan"
 
 #: tmp/oc-admin/themes/modern/settings/index.php:77
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1236
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1551
 msgid "Email: this field is required"
-msgstr "E-mail: polje je obavezno"
+msgstr "Email ne može biti prazan"
 
 #: tmp/oc-admin/themes/modern/settings/index.php:78
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1237
@@ -1411,31 +1415,31 @@ msgstr "Neispravna email adresa"
 
 #: tmp/oc-admin/themes/modern/settings/index.php:81
 msgid "Listings shown in RSS feed: this field is required"
-msgstr "Oglasi prikazani u RSS ponudi: polje je obavezno"
+msgstr "Broj oglasa u RSS feedu ne može biti prazan"
 
 #: tmp/oc-admin/themes/modern/settings/index.php:82
 msgid "Listings shown in RSS feed: this field must only contain numeric characters"
-msgstr "Oglasi prikazani u RSS ponudi: polje smije sadržavati samo brojeve"
+msgstr "Broj oglasa u RSS feedu mora biti ispravan broj"
 
 #: tmp/oc-admin/themes/modern/settings/index.php:85
 msgid "Latest listings shown: this field is required"
-msgstr "Posljednje prikazani oglasi: polje je obavezno"
+msgstr "Broj posljednjih prikazanih oglasa ne može biti prazan"
 
 #: tmp/oc-admin/themes/modern/settings/index.php:86
 msgid "Latest listings shown: this field must only contain numeric characters"
-msgstr "Posljednje prikazani oglasi: polje smije sadržavati samo brojeve"
+msgstr "Broj posljednjih prikazanih oglasa mora biti ispravan broj"
 
 #: tmp/oc-admin/themes/modern/settings/index.php:89
 msgid "The search page shows: this field is required"
-msgstr "Stranica pretrage prikazuje: polje je obavezno"
+msgstr "Broj oglasa po stranici ne može biti prazan"
 
 #: tmp/oc-admin/themes/modern/settings/index.php:90
 msgid "The search page shows: this field must only contain numeric characters"
-msgstr "Stranica za pretragu prikazuje: polje smije sadržavati samo brojeve"
+msgstr "Broj oglasa po stranici mora biti ispravan broj"
 
 #: tmp/oc-admin/themes/modern/settings/index.php:152
 msgid "Change the basic configuration of your Osclass. From here, you can modify variables such as the site’s name, the default currency or how lists of listings are displayed. <strong>Be careful</strong> when modifying default values if you're not sure what you're doing!"
-msgstr "Promjenite osnovnu konfiguraciju oglasnika. Ovdje možete uređivati parametre kao ime stranice, zadanu valutu ili kako le lista oglasa prikazana. <strong>Oprezl</strong> ako mijenjate vrijednosti koje niste sigurni da znate!"
+msgstr "Promijenite opće postavke stranice. Možete urediti ime stranice, zadanu valutu, način prikaza oglasa, itd."
 
 #: tmp/oc-admin/themes/modern/settings/index.php:179
 #, php-format
@@ -1445,20 +1449,20 @@ msgstr "Opće postavke &raquo; %s"
 #: tmp/oc-admin/themes/modern/settings/index.php:416
 #, php-format
 msgid "Allow Osclass to run a built-in <a href=\"%s\" target=\"_blank\">cron</a> automatically without setting crontab"
-msgstr "Dozcoli Osclass da pokrene ugrađeni <a href=\"%s\" target=\"_blank\">cron</a>automatski bez postavljanja crontaba."
+msgstr "Dozvoli stranici da koristi ugrađeni <a href=\"%s\" target=\"_blank\">cron sustav</a> bez dodatne konfiguracije"
 
 #: tmp/oc-admin/themes/modern/media/index.php:34
 msgid "Manage the images that users have uploaded along with their listings. You can delete them without deleting the whole listing if the image is inappropriate or doesn’t match the listing."
-msgstr "Uredi slike koje su korisnici pohranili zajedno sa svojim oglasima. Možete ih obrisati bez da brišete cijeli oglas, ako slika nije valjana ili se ne poklapa sa oglasom."
+msgstr "Uredite fotografije dodane uz oglase. Možete ih individualno brisati ako su neprimjerene ili ne odgovaraju ostatku oglasa."
 
 #: tmp/oc-admin/themes/modern/media/index.php:63
 #, php-format
 msgid "Media &raquo; %s"
-msgstr ""
+msgstr "Fotografije &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/media/index.php:91
 msgid "Delete media"
-msgstr "Obriši medij (sliku ili video)"
+msgstr "Obriši fotografiju"
 
 #: tmp/oc-admin/themes/modern/emails/frm.php:77
 msgid "Send email"
@@ -1471,7 +1475,7 @@ msgstr "Uredi predložak e-maila &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/emails/index.php:34
 msgid "Modify the emails your site's users receive when they join your site, when someone shows interest in their ad, to recover their password... <strong>Be careful</strong>: don't modify any of the words that appear within brackets."
-msgstr "Promjenite emailove koje vaši korisnici primaju kada pristupaju vašoj stranici, kada netko pokaže interes za njihov oglas, da prime lozinku. <strong>Budete oprezni</strong>: nemojte mijenjati riječi unutar zagrada."
+msgstr "Promijenite tekst emailova koji se šalju korisnicima prilikom registracije, predaje oglasa, itd. <strong>Oprezno</strong>! Ne mijenjate riječi unutar zagrada {}."
 
 #: tmp/oc-admin/themes/modern/emails/index.php:62
 #, php-format
@@ -1481,11 +1485,11 @@ msgstr "Email predložak &raquo; %s"
 #: tmp/oc-admin/themes/modern/categories/iframe.php:108
 #: tmp/oc-admin/themes/modern/categories/index.php:192
 msgid "Ajax error, please try again."
-msgstr "Greška u ajaxu, pokušajte ponovo"
+msgstr "AJAX greška, pokušajte ponovno."
 
 #: tmp/oc-admin/themes/modern/categories/index.php:41
 msgid "Add, edit or delete the categories or subcategories in which users can post listings. Reorder sections by dragging and dropping, or nest a subcategory in an expanded category. <strong>Be careful</strong>: If you delete a category, all listings associated will also be deleted!"
-msgstr "Uređuj kategorije i podkategorije u kojima korisnik može dodavati oglase. Ako obrišete kategoriju to će obrisati i sve oglase vezane za nju."
+msgstr "Dodajte, uredite ili obrišite kategorije i podkategorije. Možete promijeniti redoslijed kategorija. <strong>Oprezno</strong>! Brisanjem kategorije brišu se i svi oglasi u njoj."
 
 #: tmp/oc-admin/themes/modern/categories/index.php:69
 #, php-format
@@ -1494,12 +1498,12 @@ msgstr "Kategorije &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/categories/index.php:139
 msgid "Note: You must expand the category in order to make it a subcategory."
-msgstr "Obavijest: Morate proširiti kategoriju da bi ju učinili podkategorijom"
+msgstr "Napomena: Morate proširiti kategoriju kako bi ju učinili podkategorijom."
 
 #: tmp/oc-admin/themes/modern/categories/index.php:145
 #: tmp/oc-admin/themes/modern/categories/index.php:296
 msgid "This action could take a while."
-msgstr "Može potrajati"
+msgstr "Ovo bi moglo potrajati."
 
 #: tmp/oc-admin/themes/modern/categories/index.php:438
 msgid "Delete category"
@@ -1507,7 +1511,7 @@ msgstr "Obriši kategoriju"
 
 #: tmp/oc-admin/themes/modern/pages/frm.php:51
 msgid "Edit page"
-msgstr "Ažuriraj stranicu"
+msgstr "Uredi stranicu"
 
 #: tmp/oc-admin/themes/modern/pages/frm.php:56
 #: tmp/oc-admin/themes/modern/pages/frm.php:58
@@ -1516,7 +1520,7 @@ msgstr "Dodaj stranicu"
 
 #: tmp/oc-admin/themes/modern/pages/index.php:34
 msgid "With Osclass you can create static pages on which information can be stored, such as \"About Us\" or \"Info\" pages. From here you can create, edit or delete your site's static pages."
-msgstr "Možete stvoriti stranice o informacijama, kao što su \"O nama\" ili \"Informacije\". Ovdje možete stvarati, uređivati i brisati statične stranice."
+msgstr "Dodajte, uredite ili izbrišite podstranice na kojima možete prikazati informacije poput \"O nama\" ili \"Uvjeti korištenja\"."
 
 #: tmp/oc-admin/themes/modern/pages/index.php:63
 #, php-format
@@ -1530,39 +1534,39 @@ msgstr "Brisanje stranice"
 #: tmp/oc-admin/themes/modern/upgrade/index.php:47
 #: tmp/oc-admin/themes/modern/tools/upgrade.php:34
 msgid "Upgrade"
-msgstr "Nadogradi sustav"
+msgstr "Ažuriranje"
 
 #: tmp/oc-admin/themes/modern/languages/frm.php:51
 #, php-format
 msgid "Edit language &raquo; %s"
-msgstr "Uredi jezik &raquo; %s"
+msgstr "Uredi prijevod &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/languages/add.php:47
 #, php-format
 msgid "Add language &raquo; %s"
-msgstr "Dodaj jezik &raquo; %s"
+msgstr "Dodaj prijevod &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/languages/index.php:34
 msgid "Add, edit or delete the language in which your Osclass is displayed, both the part that's viewable by users and the admin panel."
-msgstr "Dodaj, uredi ili obriši jezik u kojem je oglasnik prikazan, i vidljivo za korisnike i administracijski panel."
+msgstr "Dodajte, uredite ili izbrišite prijevode podržane na vašoj stranici."
 
 #: tmp/oc-admin/themes/modern/languages/index.php:58
 #, php-format
 msgid "Languages &raquo; %s"
-msgstr "Jezici &raquo; %s"
+msgstr "Prijevodi &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/languages/index.php:86
 msgid "Add official languages."
-msgstr ""
+msgstr "Uvezi postojeće prijevode."
 
 #: tmp/oc-admin/themes/modern/languages/index.php:94
 msgid "Delete language"
-msgstr "Obriši jezik"
+msgstr "Obriši prijevod"
 
 #: tmp/oc-admin/themes/modern/main/index.php:68
 #, php-format
 msgid "Dashboard &raquo; %s"
-msgstr "Korisničko sučelje &raquo; %s"
+msgstr "Nadzorna ploča &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/main/index.php:242
 #: tmp/oc-admin/themes/modern/main/index.php:255
@@ -1584,12 +1588,12 @@ msgstr "Ukupan broj korisnika: %s"
 #: tmp/oc-admin/themes/modern/functions.php:85
 #, php-format
 msgid "Thank you for using <a href=\"%s\" target=\"_blank\">Osclass</a>"
-msgstr "Hvala na korištenju <a href=\"%s\" target=\"_blank\">Osclass</a>"
+msgstr "Hvala vam što koristite <a href=\"%s\" target=\"_blank\">Osclass</a>"
 
 #: tmp/oc-admin/themes/modern/functions.php:155
 #: tmp/oc-admin/themes/modern/functions.php:207
 msgid "Enter title here"
-msgstr "Upiši naslov ovdje"
+msgstr "Unesite naslov ovdje"
 
 #: tmp/oc-admin/themes/modern/functions.php:190
 #: tmp/oc-includes/osclass/classes/form/PageForm.php:96
@@ -1604,7 +1608,7 @@ msgstr "Upiši naslov ovdje"
 #: tmp/oc-includes/osclass/emails.php:1495
 #: tmp/oc-includes/osclass/emails.php:1500
 msgid "Title"
-msgstr "Naziv"
+msgstr "Naslov"
 
 #: tmp/oc-admin/themes/modern/functions.php:235
 #: tmp/oc-admin/themes/modern/functions.php:281
@@ -1621,45 +1625,45 @@ msgstr "Opis"
 
 #: tmp/oc-admin/themes/modern/tools/phpinfo.php:33
 msgid "Show PHP info."
-msgstr ""
+msgstr "Prikaži PHP informacije."
 
 #: tmp/oc-admin/themes/modern/tools/phpinfo.php:54
 #, php-format
 msgid "PHP info &raquo; %s"
-msgstr ""
+msgstr "PHP informacije &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/tools/version.php:33
 #, php-format
 msgid "Osclass %s"
-msgstr ""
+msgstr "Osclass %s"
 
 #: tmp/oc-admin/themes/modern/tools/version.php:41
 #, php-format
 msgid "Osclass %s &raquo; %s"
-msgstr ""
+msgstr "Osclass %s &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/tools/locations.php:106
 #, php-format
 msgid "Location stats &raquo; %s"
-msgstr "Statistika lokacije &raquo; %s"
+msgstr "Statistike lokacija &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/tools/locations.php:132
 msgid "Calculate location stats"
-msgstr "Izračunaj statistiku prema lokaciji"
+msgstr "Izračunaj statistike lokacija"
 
 #: tmp/oc-admin/themes/modern/tools/category.php:56
 #, php-format
 msgid "Category stats &raquo; %s"
-msgstr "Statistika kategorije &raquo; %s"
+msgstr "Statistike kategorija &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/tools/category.php:77
 msgid "Calculate category stats"
-msgstr "Izračunaj statistiku kategorije"
+msgstr "Izračunaj statistike kategorija"
 
 #: tmp/oc-admin/themes/modern/tools/upgrade.php:31
 #, php-format
 msgid "Upgrade is available for (Current version %s)"
-msgstr ""
+msgstr "Dostupno je ažuriranje (trenutna verzija je %s)"
 
 #: tmp/oc-admin/themes/modern/tools/upgrade.php:33
 msgid "New version to update:"
@@ -1667,33 +1671,41 @@ msgstr "Nova verzija za ažuriranje:"
 
 #: tmp/oc-admin/themes/modern/tools/upgrade.php:39
 msgid "Upgrading your Osclass installation (this could take a while):"
-msgstr "Unaprjeđujemo vašu instalaciju (može potrajati):"
+msgstr "Ažuriramo Osclass (ovo može potrajati):"
 
 #: tmp/oc-admin/themes/modern/tools/upgrade.php:52
 msgid "Congratulations! Your Osclass installation is up to date!"
-msgstr "Čestitamo. Imate zadnju verziju oglasnika."
+msgstr "Čestitamo! Instalirana je najnovija Osclass verzija."
 
 #: tmp/oc-admin/themes/modern/tools/upgrade.php:75
-msgid "Check to see if you're using the latest version of Osclass. If you're not, \n"
+msgid ""
+"Check to see if you're using the latest version of Osclass. If you're not, \n"
 "        the system will let you know so you can update and use the newest features."
 msgstr ""
+"Provjerite koristite li posljednju Osclass verziju. Ako ne,\n"
+"       ovdje ju možete ažurirati."
 
 #: tmp/oc-admin/themes/modern/tools/upgrade.php:101
 #, php-format
 msgid "Upgrade &raquo; %s"
-msgstr "Nadogradi &raquo; %s"
+msgstr "Ažuriraj &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/tools/upgrade.php:120
 #, php-format
-msgid "Your Osclass installation can be auto-upgraded. \n"
+msgid ""
+"Your Osclass installation can be auto-upgraded. \n"
 "                                        Please, back up your database and the folder oc-content before attempting to \n"
 "                                        upgrade your Osclass installation. \n"
 "                                        You can also upgrade Osclass manually, more information in the %s"
 msgstr ""
+"Osclass je spreman za automatsku nadogradnju. \n"
+"                                        Napravite kopiju vaše baze podataka i oc-content foldera prije \n"
+"                                        ažuriranja. \n"
+"                                        Ukoliko želite ažurirati ručno, pogledajte ovdje %s"
 
 #: tmp/oc-admin/themes/modern/tools/maintenance.php:45
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
-msgstr "Prikaži poruku \"Održavanje stranice\" korisnicima kada radite nadogradnju ili uređujete konfiguraciju."
+msgstr "Prikaži poruku \"Održavanje\" korisnicima prilikom ažuriranja ili uređivanja stranice."
 
 #: tmp/oc-admin/themes/modern/tools/maintenance.php:70
 #, php-format
@@ -1703,28 +1715,28 @@ msgstr "Održavanje &raquo; %s"
 #: tmp/oc-admin/themes/modern/tools/maintenance.php:88
 #, php-format
 msgid "Maintenance mode is: <strong>%s</strong>"
-msgstr "Mod za održavanje: <strong>%s</strong>"
+msgstr "Status održavanja: <strong>%s</strong>"
 
 #: tmp/oc-admin/themes/modern/tools/maintenance.php:89
 msgid "ON"
-msgstr "AKTIVNO"
+msgstr "aktivno"
 
 #: tmp/oc-admin/themes/modern/tools/maintenance.php:89
 msgid "OFF"
-msgstr "NEAKTIVNO"
+msgstr "neaktivno"
 
 #: tmp/oc-admin/themes/modern/tools/maintenance.php:94
 msgid "Disable maintenance mode"
-msgstr "Onemogući mod za održavanje"
+msgstr "Onemogući održavanje"
 
 #: tmp/oc-admin/themes/modern/tools/maintenance.php:95
 msgid "Enable maintenance mode"
-msgstr "Omogući mod za održavanje"
+msgstr "Omogući održavanje"
 
 #: tmp/oc-admin/themes/modern/tools/import.php:46
 #, php-format
 msgid "Upload registers from other Osclass installations or upload new geographic information to your site. <strong>Be careful</strong>: don’t use this option if you're not 100% sure what you're doing."
-msgstr "Postavi registre iz drugih instalacija ili prenesi nove geografske informacije na svoje stranice.  <strong>Pažnja</strong>: nemojte koristiti ove opcije ako niste 100% sigurni što radite"
+msgstr "Uvezite podatke iz drugih Osclass stranica. <strong>Oprezno</strong>! Koristite ovo samo ako ste sigurni da znate što radite. %s"
 
 #: tmp/oc-admin/themes/modern/tools/import.php:71
 #, php-format
@@ -1738,56 +1750,56 @@ msgstr "Uvezi podatke"
 
 #: tmp/oc-admin/themes/modern/tools/backup.php:59
 msgid "Save a backup of all of your site's information: listings, users and configuration. You can save a backup on your server or on your computer."
-msgstr "Spremite rezervu (backup) svih informacija: oglasi, korisnici i konfiguracija. Možete pohraniti rezervu na server ili na vaše računalo."
+msgstr "Spremite kopiju svih podataka na vašoj stranici (oglasi, korisnici, postavke). Kopija može biti spremljena na vaš server ili vaše računalo."
 
 #: tmp/oc-admin/themes/modern/tools/backup.php:85
 #, php-format
 msgid "Backup &raquo; %s"
-msgstr "Rezerva (Backup) &raquo; %s"
+msgstr "Backup &raquo; %s"
 
 #: tmp/oc-admin/themes/modern/tools/backup.php:116
 msgid "Backup SQL (store on server)"
-msgstr "Backup SQL (pohrana na serveru)"
+msgstr "Spremi kopiju baze na serveru"
 
 #: tmp/oc-admin/themes/modern/tools/backup.php:120
 msgid "Backup SQL (download file)"
-msgstr "SQL Backup (preuzmi datoteku)"
+msgstr "Preuzmi kopiju baze"
 
 #: tmp/oc-admin/themes/modern/tools/backup.php:123
 msgid "Backup files (store on server)"
-msgstr "Backup datoteka (pohrana na serveru)"
+msgstr "Spremi kopiju podataka na serveru"
 
 #: tmp/oc-includes/osclass/install-functions.php:145
 msgid "PHP version >= 5.6.x"
-msgstr ""
+msgstr "PHP verzija >= 5.6.x"
 
 #: tmp/oc-includes/osclass/install-functions.php:147
 msgid "At least PHP5.6 (PHP 7.0 or higher recommended) is required to run Osclass. You may talk with your hosting to upgrade your PHP version."
-msgstr ""
+msgstr "PHP 5.6 je najmanja dopuštena verzija, dok je PHP 7 preporučen."
 
 #: tmp/oc-includes/osclass/install-functions.php:152
 msgid "MySQLi extension for PHP"
-msgstr "MySQLi ekstenzija za PHP"
+msgstr "MySQLi dodatak za PHP"
 
 #: tmp/oc-includes/osclass/install-functions.php:154
 msgid "MySQLi extension is required. How to <a target=\"_blank\" href=\"http://www.php.net/manual/en/mysqli.setup.php\">install/configure</a>."
-msgstr "MySQLi ekstenzija je obavezna. Kako  <a target=\"_blank\" href=\"http://www.php.net/manual/en/mysqli.setup.php\">instalirati/konfigurirati</a>."
+msgstr "MySQLi dodatak je obavezan <a target=\"_blank\" href=\"http://www.php.net/manual/en/mysqli.setup.php\">(više informacija)</a>."
 
 #: tmp/oc-includes/osclass/install-functions.php:159
 msgid "GD extension for PHP"
-msgstr "GD ekstenzija za PHP"
+msgstr "GD dodatak za PHP"
 
 #: tmp/oc-includes/osclass/install-functions.php:161
 msgid "GD extension is required. How to <a target=\"_blank\" href=\"http://www.php.net/manual/en/image.setup.php\">install/configure</a>."
-msgstr "GD ekstenzija je obavezna. Kako  <a target=\"_blank\" href=\"http://www.php.net/manual/en/image.setup.php\">instalirati/konfigurirati</a>."
+msgstr "GD dodatak je obavezan <a target=\"_blank\" href=\"http://www.php.net/manual/en/image.setup.php\">(više informacija)</a>."
 
 #: tmp/oc-includes/osclass/install-functions.php:165
 msgid "cURL extension for PHP"
-msgstr ""
+msgstr "cURL dodatak za PHP"
 
 #: tmp/oc-includes/osclass/install-functions.php:167
 msgid "cURL extension is required. How to <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">install/configure</a>."
-msgstr ""
+msgstr "cURL dodatak je obavezan <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">(više informacija)</a>."
 
 #: tmp/oc-includes/osclass/install-functions.php:171
 msgid "Folder <code>oc-content/uploads</code> exists"
@@ -1796,16 +1808,16 @@ msgstr "Mapa <code>oc-content/uploads</code> postoji"
 #: tmp/oc-includes/osclass/install-functions.php:174
 #, php-format
 msgid "You have to create <code>uploads</code> folder, i.e.: <code>mkdir %soc-content/uploads/</code>"
-msgstr "Morate napraviti <code>uploads</code> mapu, npr.: <code>mkdir %soc-content/uploads/</code>"
+msgstr "Stvorite <code>uploads</code> mapu, npr.: <code>mkdir %soc-content/uploads/</code>"
 
 #: tmp/oc-includes/osclass/install-functions.php:180
 msgid "<code>oc-content/uploads</code> folder is writable"
-msgstr "<code>oc-content/uploads</code> mapa je spremna za pisanje"
+msgstr "<code>oc-content/uploads</code> mapa je ispravna"
 
 #: tmp/oc-includes/osclass/install-functions.php:183
 #, php-format
 msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
-msgstr ""
+msgstr "<code>uploads</code> mapi treba popraviti dozvole, npr.: <code>chmod 0755 %soc-content/uploads/</code>"
 
 #: tmp/oc-includes/osclass/install-functions.php:190
 msgid "Folder <code>oc-content/downloads</code> exists"
@@ -1814,16 +1826,16 @@ msgstr "Mapa <code>oc-content/downloads</code> postoji"
 #: tmp/oc-includes/osclass/install-functions.php:193
 #, php-format
 msgid "You have to create <code>downloads</code> folder, i.e.: <code>mkdir %soc-content/downloads/</code>"
-msgstr "Trebate napraviti <code>downloads</code> mapu, naprimjer: <code>mkdir %soc-content/downloads/</code>"
+msgstr "Stvorite <code>downloads</code> mapu, npr: <code>mkdir %soc-content/downloads/</code>"
 
 #: tmp/oc-includes/osclass/install-functions.php:200
 msgid "<code>oc-content/downloads</code> folder is writable"
-msgstr "<code>oc-content/downloads</code> mapa je spremna za pisanje"
+msgstr "<code>oc-content/downloads</code> mapa je ispravna"
 
 #: tmp/oc-includes/osclass/install-functions.php:203
 #, php-format
 msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
-msgstr ""
+msgstr "<code>downloads</code> mapi treba popraviti dozvole, npr.: <code>chmod 0755 %soc-content/downloads/</code>"
 
 #: tmp/oc-includes/osclass/install-functions.php:210
 msgid "Folder <code>oc-content/languages</code> folder exists"
@@ -1832,42 +1844,42 @@ msgstr "Mapa <code>oc-content/languages</code> postoji"
 #: tmp/oc-includes/osclass/install-functions.php:213
 #, php-format
 msgid "You have to create the <code>languages</code> folder, i.e.: <code>mkdir %soc-content/languages/</code>"
-msgstr "Trebate napraviti <code>languages</code> mapu, naprimjer: <code>mkdir %soc-content/languages/</code>"
+msgstr "Stvorite <code>languages</code> mapu, npr: <code>mkdir %soc-content/languages/</code>"
 
 #: tmp/oc-includes/osclass/install-functions.php:220
 msgid "<code>oc-content/languages</code> folder is writable"
-msgstr "<code>oc-content/languages</code> mapa je spremna za pisanje"
+msgstr "<code>oc-content/languages</code> mapa je ispravna"
 
 #: tmp/oc-includes/osclass/install-functions.php:223
 #, php-format
 msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
-msgstr ""
+msgstr "<code>languages</code> mapi treba popraviti dozvole, npr.: <code>chmod 0755 %soc-content/languages/</code>"
 
 #: tmp/oc-includes/osclass/install-functions.php:238
 msgid "<code>config.php</code> file is writable"
-msgstr "<code>config.php</code> datoteka je spremna za pisanje"
+msgstr "<code>config.php</code> datoteka je ispravna"
 
 #: tmp/oc-includes/osclass/install-functions.php:241
 #, php-format
 msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
-msgstr ""
+msgstr "<code>config.php</code> datoteki treba popraviti dozvole, npr.: <code>chmod 0755 %sconfig.php</code>"
 
 #: tmp/oc-includes/osclass/install-functions.php:250
 msgid "Root directory is writable"
-msgstr "Root mapa je otvorena za pisanje"
+msgstr "Glavna mapa je spremna"
 
 #: tmp/oc-includes/osclass/install-functions.php:253
 #, php-format
 msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
-msgstr ""
+msgstr "Glavnoj mapi treba popraviti dozvole, npr.: <code>chmod 0755 %s</code>"
 
 #: tmp/oc-includes/osclass/install-functions.php:262
 msgid "<code>config-sample.php</code> file exists"
-msgstr "<code>config-sample.php</code> datoteka postoji"
+msgstr "<code>config-sample.php</code> datoteka je ispravna"
 
 #: tmp/oc-includes/osclass/install-functions.php:264
 msgid "<code>config-sample.php</code> file is required, you should re-download Osclass."
-msgstr "<code>config-sample.php</code> datoteka je neophodna, trebali bi ponovo preuzeti oglasnik"
+msgstr "<code>config-sample.php</code> datoteka nije pronađena, ponovno preuzmite Osclass."
 
 #: tmp/oc-includes/osclass/install-functions.php:357
 #: tmp/oc-includes/osclass/install-functions.php:378
@@ -1875,62 +1887,62 @@ msgstr "<code>config-sample.php</code> datoteka je neophodna, trebali bi ponovo 
 #: tmp/oc-includes/osclass/install-functions.php:454
 #, php-format
 msgid "Cannot connect to the database. Error number: %s"
-msgstr "Ne mogu se spojiti na bazu podataka. Greška broj: %s"
+msgstr "Greška %s prilikom povezivanja s bazom podataka."
 
 #: tmp/oc-includes/osclass/install-functions.php:365
 #: tmp/oc-includes/osclass/install-functions.php:435
 msgid "The database doesn't exist. You should check the \"Create DB\" checkbox and fill in a username and password with the right privileges"
-msgstr "Baza podataka ne postoji. Trebate označiti \"Napravi bazu\" kvačicom i upisati korisničko ime i lozinku koji imaju privilegije stvaranja baze."
+msgstr "Baza podataka ne postoji. Kliknite na \"Napravi bazu podataka\" i unesite podatke korisnika koji ima potrebne dozvole."
 
 #: tmp/oc-includes/osclass/install-functions.php:369
 #: tmp/oc-includes/osclass/install-functions.php:440
 msgid "Cannot connect to the database. Check if the user has privileges."
-msgstr "Ne mogu se spojiti na bazu podataka. Provjeri da li korisnik ima dopuštenja."
+msgstr "Greška prilikom povezivanja s bazom podataka. Provjerite ima li korisnik potrebne dozvole."
 
 #: tmp/oc-includes/osclass/install-functions.php:372
 #: tmp/oc-includes/osclass/install-functions.php:444
 msgid "Cannot connect to the database. Check if the username and password are correct."
-msgstr "Ne mogu se spojiti na bazu podataka. Provjeri da li je dobro korisničko ime i lozinka"
+msgstr "Greška prilikom povezivanja s bazom podataka. Provjerite jesu li korisničko ime i zaporka ispravni."
 
 #: tmp/oc-includes/osclass/install-functions.php:375
 #: tmp/oc-includes/osclass/install-functions.php:449
 msgid "Can't resolve MySQL host. Check if the host is correct."
-msgstr "Nemoguće pronaći MySQL poslužitelja. Provjerite da li je poslužitelj ispravno upisan"
+msgstr "Greška prilikom povezivanja s bazom podataka. Provjerite je li MySQL adresa ispravna."
 
 #: tmp/oc-includes/osclass/install-functions.php:396
 #: tmp/oc-includes/osclass/install-functions.php:409
 #, php-format
 msgid "Can't create the database. Error number: %s"
-msgstr "Nemoguće napraviti bazu. Greška broj: %s"
+msgstr "Greška %s prilikom stvaranja baze podataka."
 
 #: tmp/oc-includes/osclass/install-functions.php:403
 msgid "Can't create the database. Check if the admin username and password are correct."
-msgstr "Nemoguće napraviti bazu. Provjerite korisničko ime administratora i lozinku."
+msgstr "Greška prilikom stvaranja baze podataka. Provjerite jesu li korisničko ime i zaporka ispravni."
 
 #: tmp/oc-includes/osclass/install-functions.php:467
 #: tmp/oc-includes/osclass/install-functions.php:472
 msgid "Can't write in config.php file. Check if the file is writable."
-msgstr "Nemoguće pisati u  config.php datoteku. Provjerite da li je otvorena za pisanje."
+msgstr "Greška prilikom uređivanja config.php datoteke. Provjerite dozvole datoteke."
 
 #: tmp/oc-includes/osclass/install-functions.php:480
 #: tmp/oc-includes/osclass/install-functions.php:486
 msgid "config-sample.php doesn't exist. Check if everything is decompressed correctly."
-msgstr "config-sample.php ne postoji. Provjerite da li je sve dobro raspakovano."
+msgstr "<code>config-sample.php</code> datoteka nije pronađena, ponovno preuzmite Osclass."
 
 #: tmp/oc-includes/osclass/install-functions.php:494
 #: tmp/oc-includes/osclass/install-functions.php:499
 msgid "Can't copy config-sample.php. Check if the root directory is writable."
-msgstr "Ne mogu kopirati config-sample.php. Provjeri je li root mapa otvorena za pisanje"
+msgstr "Greška prilikom kopiranja config-sample.php. Provjerite ima li mapa potrebne dozvole."
 
 #: tmp/oc-includes/osclass/install-functions.php:518
 #: tmp/oc-includes/osclass/install-functions.php:532
 #, php-format
 msgid "Can't create the database structure. Error number: %s"
-msgstr "Nemoguće napraviti strukturu baze. Greška broj: %s"
+msgstr "Greška prilikom unosa strukture podataka u bazu: %s"
 
 #: tmp/oc-includes/osclass/install-functions.php:525
 msgid "There are tables with the same name in the database. Change the table prefix or the database and try again."
-msgstr "Postoje tablice sa istim imenom u bazi podataka. Promijeni prefiks tablica ili bazu podataka i pokušaj ponovo. "
+msgstr "U bazi podataka već postoje istoimene tablice. Promijenite bazu podataka ili prefiks tablica."
 
 #: tmp/oc-includes/osclass/install-functions.php:580
 #: tmp/oc-includes/osclass/install-functions.php:585
@@ -1942,30 +1954,30 @@ msgstr "Datoteka %s ne postoji"
 #: tmp/oc-includes/osclass/install-functions.php:613
 #, php-format
 msgid "Can't insert basic configuration. Error number: %s"
-msgstr "Nemoguće ubaciti osnovnu konfiguraciju. Greška broj: %s"
+msgstr "Greška prilikom unosa osnovnih podataka u bazu: %s"
 
 #: tmp/oc-includes/osclass/install-functions.php:606
 msgid "Can't insert basic configuration. This user has no privileges to 'INSERT' into the database."
-msgstr "Nemoguće ubaciti osnovnu konfiguraciju. Korisnik treba imat privilegije za 'INSERT' u bazu"
+msgstr "Greška prilikom unosa osnovnih podataka u bazu. Korisnik nema 'INSERT' dozvolu."
 
 #: tmp/oc-includes/osclass/install-functions.php:1046
 msgid "You can modify username and password if you like, just change the input value."
-msgstr "Možete promijeniti korisničko ime i lozinku, samo promijenite ulaznu vrijednost."
+msgstr "Ako želite, možete promijeniti korisničko ime i zaporku."
 
 #: tmp/oc-includes/osclass/install-functions.php:1193
 #, php-format
 msgid "An e-mail with the password for oc-admin has been sent to: %s"
-msgstr "E-mail sa lozinkom za oc-admon je poslan za: %s"
+msgstr "Email sa zaporkom poslan je na %s"
 
 #: tmp/oc-includes/osclass/install-functions.php:1257
 #, php-format
 msgid "Hi %s,"
-msgstr "Dobar dan %s,"
+msgstr "Pozdrav %s,"
 
 #: tmp/oc-includes/osclass/install-functions.php:1258
 #, php-format
 msgid "Your Osclass installation at %s is up and running. You can access the administration panel with these details:"
-msgstr "Vaša instalacije na %s je spremna i pokrenuta. Možete pristupiti administracijskom panelu sa ovim detaljima"
+msgstr "Vaša stranica %s je spremna. Podaci za administraciju:"
 
 #: tmp/oc-includes/osclass/install-functions.php:1262
 #, php-format
@@ -1975,12 +1987,12 @@ msgstr "korisničko ime: %s"
 #: tmp/oc-includes/osclass/install-functions.php:1263
 #, php-format
 msgid "password: %s"
-msgstr "lozinka: %s"
+msgstr "zaporka: %s"
 
 #: tmp/oc-includes/osclass/install-functions.php:1266
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
-msgstr ""
+msgstr "Ako imate bilo kakvih nedoumica, provjerite našu <a href=\"%1$s\">dokumentaciju</a>"
 
 #: tmp/oc-includes/osclass/install-functions.php:1269
 msgid "Cheers,"
@@ -1988,7 +2000,7 @@ msgstr "Živjeli,"
 
 #: tmp/oc-includes/osclass/install-functions.php:1270
 msgid "The <a href=\"https://github.com/mindstellar/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "<a href=\"https://github.com/mindstellar/osclass\">Osclass</a> tim"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebSearch.php:625
 msgid "Latest listings added"
@@ -2006,11 +2018,11 @@ msgstr "Nema rezultata"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:149
 msgid "An error occurred"
-msgstr "Došlo je do pogreške."
+msgstr "Došlo je do pogreške"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:151
 msgid "Order saved"
-msgstr "Narudžba je spremljena."
+msgstr "Narudžba je spremljena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:249
 msgid "An error occurred while updating."
@@ -2018,7 +2030,7 @@ msgstr "Došlo je do pogreške prilikom ažuriranja."
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:253
 msgid "Sorry, you already have a field with that name"
-msgstr "Oprostite, ali već imate polje sa ovom stavkom."
+msgstr "Već postoji polje s ovim imenom"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:260
 msgid "Saved"
@@ -2031,7 +2043,7 @@ msgstr "Polje je obrisano"
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:276
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:389
 msgid "An error occurred while deleting"
-msgstr "Došlo je do pogreške prilikom brisanja."
+msgstr "Došlo je do pogreške prilikom brisanja"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:283
 msgid "NEW custom field"
@@ -2040,19 +2052,19 @@ msgstr "Novo polje"
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:320
 #, php-format
 msgid "No category with id %d exists"
-msgstr "Kategorija nije pronađena s ID:% d"
+msgstr "Kategorija s ID %d ne postoji"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:343
 msgid "The category as well as its subcategories have been enabled"
-msgstr "Kategorija i podkategorije su omogućene"
+msgstr "Kategorija i njezine podkategorije su omogućene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:347
 msgid "The category as well as its subcategories have been disabled"
-msgstr "Kategorija i podkategorije su omogućene"
+msgstr "Kategorija i njezine podkategorije su onemogućene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:358
 msgid "Parent category is disabled, you can not enable that category"
-msgstr "Nadkategorija je onemogućena, ne možete omogućiti ovu kategoriju"
+msgstr "Kateogrija je onemogućena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:366
 msgid "The subcategory has been enabled"
@@ -2068,71 +2080,71 @@ msgstr "Kategorije su obrisane"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:454
 msgid "Category updated correctly"
-msgstr "Kategorija ispravno ažurirana"
+msgstr "Kategorija je ažurirana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:458
 msgid "Category updated correctly, but some titles are empty"
-msgstr "Kategorija ispravno ažuriran, ali neki naslovi su prazni"
+msgstr "Kategorija je ažuriran, ali su neka imena ostala prazna"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:460
 msgid "Sorry, including at least a title is mandatory"
-msgstr "*Naslov (obavezno)"
+msgstr "Ime ne može biti prazno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:463
 msgid "An error occurred while updating"
-msgstr "Došlo je do pogreške prilikom ažuriranja."
+msgstr "Došlo je do pogreške prilikom ure"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:499
 #, php-format
 msgid "Test email, %s"
-msgstr ""
+msgstr "Test email, %s"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:500
 msgid "Test email"
-msgstr ""
+msgstr "Test email"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:512
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:534
 msgid "Email sent successfully"
-msgstr "Hvala, vaš e-mail je uspješno poslan."
+msgstr "Email poslan uspješno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:514
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:536
 msgid "An error occurred while sending email"
-msgstr "Greška kod slanja emaila"
+msgstr "Greška prilikom slanja emaila"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:572
 msgid "Update available"
-msgstr ""
+msgstr "Dostupno je ažuriranje"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:575
 msgid "No update available"
-msgstr ""
+msgstr "Nema dostupnih ažuriranja"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:586
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:590
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:594
 msgid "Checked updates"
-msgstr ""
+msgstr "Provjera ažuriranja"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:603
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:627
 msgid "This action cannot be done because it is a demo site"
-msgstr ""
+msgstr "Ova radnja je nedostupna jer je ovo demo stranica"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:612
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:636
 msgid "Osclass upgraded successfully."
-msgstr ""
+msgstr "Osclass je uspješno ažuriran."
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:619
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:643
 msgid "Error occurred while upgrading osclass Database."
-msgstr ""
+msgstr "Greška prilikom ažuriranja baze podataka."
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:693
 msgid "You don't have the necessary permissions"
-msgstr "Nemate dozvolu!"
+msgstr "Nemate potrebne dozvole"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:696
 #: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:434
@@ -2144,28 +2156,28 @@ msgstr "nema zadane akcije"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:994
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:275
 msgid "Unmark as premium"
-msgstr "Makni oznaku premium"
+msgstr "Ukloni premium"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:568
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:984
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:986
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:280
 msgid "Mark as premium"
-msgstr "Označi kao premium"
+msgstr "Dodaj premium"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:573
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:1008
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:1010
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:286
 msgid "Unmark as spam"
-msgstr "Makni oznaku spam"
+msgstr "Ukloni spam"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:577
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:1000
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:1002
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:291
 msgid "Mark as spam"
-msgstr "Označi kao spam"
+msgstr "Dodaj spam"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:939
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:287
@@ -2175,6 +2187,7 @@ msgstr "Označi kao spam"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminMedia.php:151
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:563
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:709
+#, fuzzy
 msgid "Bulk actions"
 msgstr "Skupne akcije"
 
@@ -2189,7 +2202,7 @@ msgstr "Skupne akcije"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:1007
 #, php-format
 msgid "Are you sure you want to %s the selected listings?"
-msgstr "Zaista želite %s odabrane oglase?"
+msgstr "Jeste li sigurni da želite %s odabrane oglase?"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:291
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:299
@@ -2202,23 +2215,23 @@ msgstr "Jeste li sigurni da želite %s odabrane komentare?"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:476
 msgid "Disable (website)"
-msgstr "Onemogući (web)"
+msgstr "Onemogući (stranica)"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:476
 msgid "Enable (website)"
-msgstr "Omogući ( web)"
+msgstr "Omogući (stranica)"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:481
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:571
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:573
 msgid "Disable (oc-admin)"
-msgstr "Onemogući (oc-admin)"
+msgstr "Onemogući (administracija)"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:482
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:565
 msgid "Enable (oc-admin)"
-msgstr "Omogući (oc-admin)"
+msgstr "Omogući (administracija)"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:503
 msgid "Update here"
@@ -2241,17 +2254,17 @@ msgstr "Ne"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:578
 #, php-format
 msgid "Are you sure you want to %s the selected languages?"
-msgstr "Jeste li sigurni da želite na%s odabranih jezika?"
+msgstr "Jeste li sigurni da želite %s odabrane prijevode?"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:547
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:549
 msgid "Enable (Website)"
-msgstr "Omogući (web)"
+msgstr "Omogući (stranica)"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:555
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:557
 msgid "Disable (Website)"
-msgstr "Onemogući (web)"
+msgstr "Onemogući (stranica)"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:353
 msgid "There's a new update available"
@@ -2259,7 +2272,7 @@ msgstr "Dostupno je ažuriranje"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:360
 msgid "Configure"
-msgstr "Konfiguriraj..."
+msgstr "Konfiguriraj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:368
 msgid "Disable"
@@ -2271,16 +2284,16 @@ msgstr "Omogući"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:384
 msgid "Install"
-msgstr "Pokreni instalaciju"
+msgstr "Instaliraj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:403
 msgid "Plugins Site"
-msgstr "Stranica sa dodatcima"
+msgstr "D"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:407
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:410
 msgid "By"
-msgstr "Od"
+msgstr "Autor"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:416
 msgid "Version:"
@@ -2288,31 +2301,31 @@ msgstr "Verzija:"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:147
 msgid "Lost your password"
-msgstr ""
+msgstr "Zaboravili ste zaporku?"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:192
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:80
 msgid "Change your password"
-msgstr "Promena lozinke"
+msgstr "Promijenite zaporku"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:219
 msgid "Error loading theme custom file"
-msgstr "Pogreška pri učitavanju tema prilagođenih datoteka"
+msgstr "Greška prilikom učitavanja datoteka teme"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:325
 #, php-format
 msgid "Are you sure you want to %s the selected pages?"
-msgstr "Jeste li sigurni da želite na%s odabrane stranice?"
+msgstr "Jeste li sigurni da želite %s odabrane stranice?"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:399
 #, php-format
 msgid "Are you sure you want to %s the selected admins?"
-msgstr "Jeste li sigurni da želite %s izabrane administratore?"
+msgstr "Jeste li sigurni da želite %s odabrane administratore?"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminMedia.php:155
 #, php-format
 msgid "Are you sure you want to %s the selected media files?"
-msgstr "Jeste li sigurni da želite na%s odabrane medijske datoteke?"
+msgstr "Jeste li sigurni da želite %s odabrane fotografije?"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:567
 #, php-format
@@ -2331,16 +2344,16 @@ msgstr "Jeste sigurni da želite %s odabrane korisnike?"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:756
 msgid "Resend the activation to"
-msgstr "Ponovo pošalji aktivaciju "
+msgstr "Ponovno pošalji aktivacijski email"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:758
 msgid "Resend activation"
-msgstr "Ponovo pošalji aktivaciju"
+msgstr "Ponovno pošalji aktivacijski email"
 
 #: tmp/oc-includes/osclass/classes/controller/base/WebSecBaseModel.php:64
 #: tmp/oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:129
 msgid "Session timed out"
-msgstr "Sesija pauzirana"
+msgstr "Sesija je istekla"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebContact.php:93
 #, php-format
@@ -2350,12 +2363,12 @@ msgstr "Ime: %s"
 #: tmp/oc-includes/osclass/classes/controller/CWebContact.php:94
 #, php-format
 msgid "Email: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebContact.php:95
 #, php-format
 msgid "Subject: %s"
-msgstr "Tema: %s"
+msgstr "Naslov: %s"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebContact.php:96
 #, php-format
@@ -2381,7 +2394,7 @@ msgstr "Kontakt"
 #: tmp/oc-includes/osclass/classes/Dependencies.php:100
 #, php-format
 msgid "ERROR: Some dependencies could not be loaded (%s)"
-msgstr "GREŠKA: Neke ovisnosti ne mogu biti učitane (%s)"
+msgstr "Greška: Neki obavezni dodaci ne mogu biti učitani (%s)"
 
 #: tmp/oc-includes/osclass/classes/ImageProcessing.php:55
 #, php-format
@@ -2391,22 +2404,22 @@ msgstr "%s ne postoji!"
 #: tmp/oc-includes/osclass/classes/ImageProcessing.php:59
 #, php-format
 msgid "%s is not readable!"
-msgstr "%s nije čitljivo!"
+msgstr "%s nema ispravne dozvole!"
 
 #: tmp/oc-includes/osclass/classes/ImageProcessing.php:63
 #, php-format
 msgid "%s is corrupt or broken!"
-msgstr "%s je korumpirana ili pokvarena!"
+msgstr "%s je neispravna!"
 
 #: tmp/oc-includes/osclass/classes/Plugins.php:191
 #, php-format
 msgid "Plugin %s is missing the index.php file %s"
-msgstr "Dodatak \"%s\" nema index.php ( %s )"
+msgstr "Dodatak %s nema index.php datoteku %s "
 
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:63
 #: tmp/oc-includes/osclass/functions.php:124
 msgid "Publish a listing"
-msgstr "Objavi oglas"
+msgstr "Predaj oglas"
 
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:64
 #: tmp/oc-includes/osclass/functions.php:127
@@ -2416,7 +2429,7 @@ msgstr "Uredi oglas"
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:65
 #: tmp/oc-includes/osclass/functions.php:130
 msgid "Send to a friend"
-msgstr "Pošalji prijatelju"
+msgstr "Podijeli"
 
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:66
 msgid "Contact publisher"
@@ -2455,12 +2468,12 @@ msgstr "Moji oglasi"
 
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:73
 msgid "My alerts"
-msgstr "Moja upozorenja"
+msgstr "Moje spremljene pretrage"
 
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:74
 #: tmp/oc-includes/osclass/functions.php:226
 msgid "Update my profile"
-msgstr "Ažuriraj moj profil"
+msgstr "Uredi moj račun"
 
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:75
 #: tmp/oc-includes/osclass/functions.php:232
@@ -2470,12 +2483,12 @@ msgstr "Promijeni email"
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:76
 #: tmp/oc-includes/osclass/functions.php:235
 msgid "Change my username"
-msgstr "Promjeni moje korisničko ime"
+msgstr "Promjeni korisničko ime"
 
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:77
 #: tmp/oc-includes/osclass/functions.php:238
 msgid "Change my password"
-msgstr "Promijeni lozinku"
+msgstr "Promijeni zaporku"
 
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:78
 #: tmp/oc-includes/osclass/functions.php:207
@@ -2485,20 +2498,20 @@ msgstr "Prijava"
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:79
 #: tmp/oc-includes/osclass/functions.php:201
 msgid "Recover your password"
-msgstr "Oporavi lozinku"
+msgstr "Zatraži novu zaporku"
 
 #: tmp/oc-includes/osclass/classes/Breadcrumb.php:81
 #: tmp/oc-includes/osclass/functions.php:211
 msgid "Create a new account"
-msgstr "Napravi novi korisnički račun"
+msgstr "Registracija"
 
 #: tmp/oc-includes/osclass/classes/utility/Utils.php:52
 msgid "Is allow_url_fopen enabled?"
-msgstr ""
+msgstr "Je li allow_url_fopen uključen?"
 
 #: tmp/oc-includes/osclass/classes/utility/Utils.php:265
 msgid "Category id is not a valid integer"
-msgstr ""
+msgstr "ID kategorije nije ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:55
 msgid "User name"
@@ -2510,35 +2523,35 @@ msgstr "Email korisnika"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:57
 msgid "Link for account validation."
-msgstr "Poveznica za provjeru vjerodostojnosti korisničkog računa"
+msgstr "Poveznica za potvrdu korisničkog računa."
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:58
 msgid "Url for account validation."
-msgstr "URL za provjeru korisničkog računa."
+msgstr "Poveznica za aktivaciju korisničkog računa."
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:59
 msgid "List of listings, used when send alerts"
-msgstr "Lista oglasa, korištena kada šalje alarm"
+msgstr "Popis oglasa korišten za spremljene pretrage"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:60
 msgid "Unsubscribe link."
-msgstr "Poveznica za prekid pretplate."
+msgstr "Poveznica za brisanje pretrage."
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:61
 msgid "Site home page url."
-msgstr "Početna stranica - url."
+msgstr "Poveznica naslovnice."
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:62
 msgid "Site home page link."
-msgstr "Početna stranica - poveznica."
+msgstr "Poveznica naslovnice."
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:63
 msgid "Title of your site"
-msgstr "Naslov vaše stranice"
+msgstr "Naslov stranice"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:64
 msgid "Current date"
-msgstr "Aktualni datum / vrijeme:"
+msgstr "Trenutni datum"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:65
 msgid "Hour"
@@ -2562,19 +2575,19 @@ msgstr "Naslov komentara"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:70
 msgid "Comment text content"
-msgstr "Text komentara"
+msgstr "Sadržaj komentara"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:71
 msgid "Comment body"
-msgstr "Tijelo komentara"
+msgstr "Sadržaj komentara"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:72
 msgid "Listing url"
-msgstr "Oglas url"
+msgstr "Poveznica oglasa"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:73
 msgid "Item expiration date"
-msgstr ""
+msgstr "Datum isteka oglasa"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:74
 msgid "Listing list"
@@ -2590,27 +2603,27 @@ msgstr "ID oglasa"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:77
 msgid "Link for edit listing"
-msgstr "Uredi Oglas link"
+msgstr "Poveznica za uređivanje oglasa"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:78
 msgid "Url for edit listing"
-msgstr "Uredi Oglas Url"
+msgstr "Poveznica za uređivanje oglasa"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:79
 msgid "Delete listing link"
-msgstr "Izbrišite link oglasa"
+msgstr "Poveznica za brisanje oglasa"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:80
 msgid "Delete listing url"
-msgstr "Izbrišite url oglasa"
+msgstr "Poveznica za brisanje oglasa"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:81
 msgid "Change user password link"
-msgstr "Promena linka lozinke"
+msgstr "Poveznica za promjenu zaporke"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:82
 msgid "change user password url"
-msgstr "Promena url-a lozinke"
+msgstr "Poveznica za promjenu zaporke"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:83
 msgid "Date time"
@@ -2618,11 +2631,11 @@ msgstr "Datum vrijeme"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:84
 msgid "Name of the friend who wants send"
-msgstr "Ime prijatelja za slanje"
+msgstr "Ime osobe"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:85
 msgid "Email of the friend who wants send"
-msgstr "Email prijatelja za slanje"
+msgstr "Email osobe"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:86
 msgid "Question about your listing"
@@ -2631,11 +2644,11 @@ msgstr "Pitanje o vašem oglasu"
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:87
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:97
 msgid "Contact name"
-msgstr "Ime za kontakt"
+msgstr "Kontakt ime"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:88
 msgid "User phone number"
-msgstr "Telefon korisnika"
+msgstr "Broj mobitela korisnika"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:89
 msgid "Listing description"
@@ -2643,7 +2656,7 @@ msgstr "Opis oglasa"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:90
 msgid "Listing description in all languages"
-msgstr "Opis oglasa u svim jezicima"
+msgstr "Opis oglasa na svim jezicima"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:91
 msgid "Listing price"
@@ -2663,15 +2676,15 @@ msgstr "Grad oglasa"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:95
 msgid "Seller name"
-msgstr ""
+msgstr "Ime oglašivača"
 
 #: tmp/oc-includes/osclass/classes/EmailVariables.php:96
 msgid "Seller email"
-msgstr ""
+msgstr "Email oglašivača"
 
 #: tmp/oc-includes/osclass/classes/form/AlertForm.php:75
 msgid "Enter your e-mail"
-msgstr "Pošalji email prijatelju"
+msgstr "Unesite svoj email"
 
 #: tmp/oc-includes/osclass/classes/form/CategoryForm.php:214
 #: tmp/oc-includes/osclass/classes/datatables/UsersDataTable.php:90
@@ -2680,23 +2693,23 @@ msgstr "Ime"
 
 #: tmp/oc-includes/osclass/classes/form/CategoryForm.php:218
 msgid "Slug"
-msgstr ""
+msgstr "Identifikator"
 
 #: tmp/oc-includes/osclass/classes/form/PageForm.php:112
 msgid "Body"
-msgstr "Tijelo"
+msgstr "Sadržaj"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:83
 #: tmp/oc-includes/osclass/classes/form/ManageItemsForm.php:66
 #: tmp/oc-includes/osclass/helpers/hCategories.php:344
 msgid "Select a category"
-msgstr "Odaberi kategoriju"
+msgstr "Odaberite kategoriju"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:204
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:217
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:243
 msgid "Select Subcategory"
-msgstr "Odaberi podkategoriju"
+msgstr "Odaberite podkategoriju"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:213
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:246
@@ -2706,7 +2719,7 @@ msgstr "Nema podkategorije"
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:721
 #: tmp/oc-includes/osclass/classes/form/UserForm.php:245
 msgid "Select a country..."
-msgstr "Odaberi državu..."
+msgstr "Odaberite državu..."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:805
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1347
@@ -2715,7 +2728,7 @@ msgstr "Odaberi državu..."
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1391
 #: tmp/oc-includes/osclass/classes/form/UserForm.php:280
 msgid "Select a region..."
-msgstr "Odaberi regiju..."
+msgstr "Odaberite regiju..."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:853
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1371
@@ -2725,115 +2738,115 @@ msgstr "Odaberi regiju..."
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1432
 #: tmp/oc-includes/osclass/classes/form/UserForm.php:311
 msgid "Select a city..."
-msgstr "Odaberi grad..."
+msgstr "Odaberite grad..."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1171
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1480
 msgid "Description needs to be longer"
-msgstr "Opis treba biti duži"
+msgstr "Opis: prekratak"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1215
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1530
 msgid "Choose one category"
-msgstr "Izaberi jednu kategoriju"
+msgstr "Kategorija ne može biti prazna"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1218
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1533
 msgid "Price: no more than 50 characters"
-msgstr "Cijena: ne više od 50 znakova"
+msgstr "Cijena: do 50 znakova"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1220
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1535
 msgid "Currency: make your selection"
-msgstr "Valuta: izaberi"
+msgstr "Valuta ne može biti prazna"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1225
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1540
 #, php-format
 msgid "Photo: must be %s"
-msgstr "Fotografija: mora biti %s"
+msgstr "Fotografija: %s"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1232
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1547
 msgid "Name: enter at least 3 characters"
-msgstr "Ime: ne manje od 3 znaka"
+msgstr "Ime: barem 3 znakova"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1233
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1548
 msgid "Name: no more than 35 characters"
-msgstr "Ime: ne više od 35 znakova"
+msgstr "Ime: do 35 znakova"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1241
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1562
 msgid "Address: enter at least 3 characters"
-msgstr "Adresa: ne manje od 3 znaka"
+msgstr "Adresa: barem 3 znaka"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1242
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1563
 msgid "Address: no more than 100 characters"
-msgstr "Adresa: ne više od 100 znakova"
+msgstr "Adresa: do 100 znakova"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1284
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1605
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1909
 msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Ova akcija se ne može vratiti. Jeste sigurni da želite nastaviti?"
+msgstr "Jeste li sigurni da želite nastaviti?"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1555
 msgid "Select a region"
-msgstr "Izaberi regiju"
+msgstr "Odaberite regiju..."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1556
 msgid "Select a city"
-msgstr "Izaberi grad"
+msgstr "Odaberite grad..."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1558
 msgid "City area: enter at least 3 characters"
-msgstr "Kvart: ne manje od 3 znaka"
+msgstr "Kvart: barem 3 znaka"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1559
 msgid "City area: no more than 50 characters"
-msgstr "Kvart: ne više od 50 znakova"
+msgstr "Kvart: do 50 znakova"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1703
 msgid "Remove"
-msgstr "Obriši"
+msgstr "Ukloni"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:1715
 msgid "Sorry, you have reached the maximum number of images per listing"
-msgstr "Žao nam je, dosegli ste maksimalni broj slika po oglasu"
+msgstr "Dosegli ste limit fotografija po oglasu"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2009
 msgid "Too many items ({netItems}) would be uploaded. Item limit is {itemLimit}."
-msgstr "Previše artikala ({netItems}) bi bilo prenešeno. Ograničenje artikala je {itemLimit}."
+msgstr "Previše fotografija ({netItems}) bi bilo dodano. Možete dodati do {itemLimit} fotografija."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2011
 msgid "The files are being uploaded, if you leave now the upload will be cancelled."
-msgstr "Datoteke se još prenose, ako sada napustite prijenos će biti prekinut."
+msgstr "Datoteke se još prenose, ako sada otiđete, prijenos će biti prekinut."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2012
 msgid "{file} has an invalid extension. Valid extension(s): {extensions}."
-msgstr "{file} ima krivu ekstenziju. Dozvoljene ekstenzije su: {extensions}."
+msgstr "{file} je datoteka nepodržanog formata. Podržani formati su: {extensions}."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2013
 msgid "{file} is too large, maximum file size is {sizeLimit}."
-msgstr "{file} je prevelik, maksimalna veličina je {sizeLimit}."
+msgstr "{file} je prevelika datoteka. Maksimalna veličina je {sizeLimit}."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2014
 msgid "{file} is empty, please select files again without it."
-msgstr "{file} je prazan, odaberite ponovo datoteke bez ove datoteke."
+msgstr "{file} je datoteka nepodržanog formata."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2028
 msgid "Click or Drop for upload images"
-msgstr "Kliknite ili navucite za prijenos slika"
+msgstr "Kliknite ili ispustite fotografije ovdje"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2029
 msgid "Processing..."
-msgstr "Obrađujem..."
+msgstr "Obrada..."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2030
 msgid "Retry"
-msgstr "Ponovi"
+msgstr "Pokušaj ponovno"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2032
 msgid "Upload failed"
@@ -2841,7 +2854,7 @@ msgstr "Prijenos nije uspio"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2034
 msgid "Deleting..."
-msgstr "Brišem..."
+msgstr "Brisanje..."
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2035
 #, php-format
@@ -2851,12 +2864,12 @@ msgstr "{percent}% od {total_size}"
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2052
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2054
 msgid "Make primary image"
-msgstr "Učini glavnom slikom"
+msgstr "Postavi kao glavnu sliku"
 
 #: tmp/oc-includes/osclass/classes/form/ItemForm.php:2101
 #, php-format
 msgid "Too many items were uploaded. Item limit is %d."
-msgstr "Previše artikala je prenešeno. Limit je %d."
+msgstr "Previše fotografija je dodano. Možete dodati do %d fotografija."
 
 #: tmp/oc-includes/osclass/classes/form/FieldForm.php:42
 msgid "Done"
@@ -2972,7 +2985,7 @@ msgstr "Subota"
 
 #: tmp/oc-includes/osclass/classes/form/FieldForm.php:332
 msgid "Select"
-msgstr ""
+msgstr "Odaberite"
 
 #: tmp/oc-includes/osclass/classes/form/FieldForm.php:413
 msgid "from"
@@ -2999,7 +3012,7 @@ msgstr "Korisnik"
 
 #: tmp/oc-includes/osclass/classes/form/UserForm.php:369
 msgid "Company"
-msgstr "Društvo (firma)"
+msgstr "Tvrtka"
 
 #: tmp/oc-includes/osclass/classes/form/UserForm.php:387
 msgid "All"
@@ -3007,7 +3020,7 @@ msgstr "Sve"
 
 #: tmp/oc-includes/osclass/classes/model/Category.php:919
 msgid "Non-Existent Category"
-msgstr ""
+msgstr "Nepostojeća kategorija"
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:114
 msgid "Anonymous"
@@ -3015,26 +3028,26 @@ msgstr "Anonimno"
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:1357
 msgid "Your name: this field is required"
-msgstr "Vaše ime: polje je obvavezno"
+msgstr "Vaše ime ne može biti prazno"
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:1363
 msgid "Message: this field is required"
-msgstr "Poruka: polje je obavezno"
+msgstr "Poruka ne može biti prazna"
 
 #: tmp/oc-includes/osclass/classes/datatables/AlertsDataTable.php:75
 #: tmp/oc-includes/osclass/classes/datatables/UsersDataTable.php:88
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: tmp/oc-includes/osclass/classes/datatables/AlertsDataTable.php:76
 msgid "Alert"
-msgstr "Alarm"
+msgstr "Spremljena pretraga"
 
 #: tmp/oc-includes/osclass/classes/datatables/CommentsDataTable.php:96
 #: tmp/oc-includes/osclass/classes/datatables/UsersDataTable.php:86
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:95
 msgid "Status"
-msgstr ""
+msgstr "Stanje"
 
 #: tmp/oc-includes/osclass/classes/datatables/CommentsDataTable.php:98
 msgid "Author"
@@ -3050,7 +3063,7 @@ msgstr "Komentar"
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:314
 #: tmp/oc-includes/osclass/helpers/hAdminMenu.php:181
 msgid "Show more"
-msgstr "Prikaži više"
+msgstr "Vidi više"
 
 #: tmp/oc-includes/osclass/classes/datatables/UsersDataTable.php:89
 msgid "Username"
@@ -3058,7 +3071,7 @@ msgstr "Korisničko ime"
 
 #: tmp/oc-includes/osclass/classes/datatables/UsersDataTable.php:93
 msgid "Update date"
-msgstr "Datum obnove"
+msgstr "Datum uređivanja"
 
 #: tmp/oc-includes/osclass/classes/datatables/UsersDataTable.php:220
 #: tmp/oc-includes/osclass/functions.php:229
@@ -3071,15 +3084,15 @@ msgstr "Ponovo pošalji aktivacijski email"
 
 #: tmp/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:80
 msgid "Ban name / Reason"
-msgstr "Zabrani korisničko ime  / Razlog"
+msgstr "Ime pravila"
 
 #: tmp/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:81
 msgid "IP rule"
-msgstr "IP pravilo"
+msgstr "IP zabrana"
 
 #: tmp/oc-includes/osclass/classes/datatables/BanRulesDataTable.php:82
 msgid "E-mail rule"
-msgstr "E-mail pravilo"
+msgstr "E-mail zabrana"
 
 #: tmp/oc-includes/osclass/classes/datatables/MediaDataTable.php:104
 msgid "File"
@@ -3087,15 +3100,15 @@ msgstr "Datoteka"
 
 #: tmp/oc-includes/osclass/classes/datatables/MediaDataTable.php:105
 msgid "Action"
-msgstr "Akcija"
+msgstr "Radnja"
 
 #: tmp/oc-includes/osclass/classes/datatables/MediaDataTable.php:108
 msgid "Attached to"
-msgstr "Zakačeno za"
+msgstr "Pridruženo uz"
 
 #: tmp/oc-includes/osclass/classes/datatables/PagesDataTable.php:72
 msgid "Internal name"
-msgstr "Interno ime"
+msgstr "Identifikator"
 
 #: tmp/oc-includes/osclass/classes/datatables/PagesDataTable.php:74
 msgid "Order"
@@ -3103,7 +3116,7 @@ msgstr "Poredak"
 
 #: tmp/oc-includes/osclass/classes/datatables/PagesDataTable.php:101
 msgid "View page"
-msgstr "Pregledaj stranicu"
+msgstr "Vidi stranicu"
 
 #: tmp/oc-includes/osclass/classes/datatables/PagesDataTable.php:123
 msgid "Up"
@@ -3128,11 +3141,11 @@ msgstr "Datum isteka"
 
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:304
 msgid "View comments"
-msgstr "Pregledaj komentare"
+msgstr "Vidi komentare"
 
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:308
 msgid "View media"
-msgstr "Pregledaj medije"
+msgstr "Vidi fotografije"
 
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:357
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:686
@@ -3141,15 +3154,15 @@ msgstr "Nikad ne ističe"
 
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:410
 msgid "Premium"
-msgstr ""
+msgstr "Premium"
 
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:592
 msgid "Misclassified"
-msgstr "Pogrešno kategorizirani"
+msgstr "Pogrešno kategoriziran"
 
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:627
 msgid "Clear All"
-msgstr "Očistiti sve"
+msgstr "Očisti sve"
 
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:630
 msgid "Clear Spam"
@@ -3157,7 +3170,7 @@ msgstr "Očisti spam"
 
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:634
 msgid "Clear Misclassified"
-msgstr "Obriši pogrešno klasificiran"
+msgstr "Obriši pogrešno kategorizirane"
 
 #: tmp/oc-includes/osclass/classes/datatables/ItemsDataTable.php:640
 msgid "Clear Duplicated"
@@ -3173,70 +3186,76 @@ msgstr "Očisti istekle"
 
 #: tmp/oc-includes/osclass/classes/upgrade/Plugin.php:77
 msgid "Invalid plugin name."
-msgstr ""
+msgstr "Neispravno ime dodatka."
 
 #: tmp/oc-includes/osclass/classes/upgrade/Plugin.php:88
 msgid "Invalid plugin update uri"
-msgstr ""
+msgstr "Neispravna poveznica za ažuriranje dodatka."
 
 #: tmp/oc-includes/osclass/classes/upgrade/Theme.php:77
 msgid "Invalid theme name."
-msgstr ""
+msgstr "Neispravno ime teme."
 
 #: tmp/oc-includes/osclass/classes/upgrade/Theme.php:88
 msgid "Invalid theme update uri"
-msgstr ""
+msgstr "Neispravna poveznica za ažuriranje teme."
 
 #: tmp/oc-includes/osclass/classes/upgrade/Osclass.php:96
 msgid "Osclass &raquo; Has some errors"
-msgstr "Dilaj.hr &raquo; Ima neke greške"
+msgstr "Osclass &raquo; Greška"
 
 #: tmp/oc-includes/osclass/classes/upgrade/Osclass.php:97
-msgid "We've encountered some problems while updating the database structure. \n"
+msgid ""
+"We've encountered some problems while updating the database structure. \n"
 "            The following queries failed:"
 msgstr ""
+"Došlo je do greške prilikom ažuriranja strukture baze. \n"
+"            Sljedeće naredbe nisu uspjele:"
 
 #: tmp/oc-includes/osclass/classes/upgrade/Osclass.php:101
 #, php-format
-msgid "These errors could be false-positive errors. If you're sure that is the case, you can \n"
+msgid ""
+"These errors could be false-positive errors. If you're sure that is the case, you can \n"
 "                    <a href=\"%s\">continue with the upgrade</a>, or <a href=\"https://osclass.discourse.group\">ask in our forums</a>."
 msgstr ""
+"Ove greške su možda lažne uzbune. Možete\n"
+"                    <a href=\"%s\">nastaviti s ažuriranjem</a> ili zatražiti pomoć na <a href=\"https://osclass.discourse.group\">našem forumu</a>."
 
 #: tmp/oc-includes/osclass/classes/upgrade/Osclass.php:119
 msgid "Osclass DB Upgraded Successfully"
-msgstr ""
+msgstr "Osclass baza podataka je uspješno ažurirana"
 
 #: tmp/oc-includes/osclass/classes/upgrade/UpgradePackage.php:133
 msgid "s_source_file is not a valid url"
-msgstr ""
+msgstr "s_source_file nije ispravna poveznica."
 
 #: tmp/oc-includes/osclass/classes/upgrade/UpgradePackage.php:147
 msgid "Invalid s_target_directory."
-msgstr ""
+msgstr "Neispravan s_target_directory."
 
 #: tmp/oc-includes/osclass/classes/upgrade/UpgradePackage.php:152
 msgid "Invalid a_filtered_files."
-msgstr ""
+msgstr "Neispravan a_filtered_files."
 
 #: tmp/oc-includes/osclass/classes/upgrade/UpgradePackage.php:161
 msgid "Invalid upgrade package info"
-msgstr ""
+msgstr "Neispravni podaci o ažuriranju."
 
 #: tmp/oc-includes/osclass/classes/upgrade/Upgrade.php:102
 msgid "Unable to follow upgrade, invalid package info"
-msgstr ""
+msgstr "Ažuriranje se ne može nastaviti, podaci nisu ispravni."
 
 #: tmp/oc-includes/osclass/classes/upgrade/Upgrade.php:134
 msgid "doesn't exists, unknown error occurred while downloading and extracting package."
-msgstr ""
+msgstr "ne postoji, došlo je do nepoznate greške prilikom preuzimanja i raspakiravanja datoteke."
 
 #: tmp/oc-includes/osclass/classes/upgrade/Upgrade.php:170
 msgid "Unable to unzip package file."
-msgstr ""
+msgstr "Došlo je do greške prilikom raspakiravanja datoteke."
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:70
 msgid "Manage listings"
-msgstr "Upravljaj oglasima"
+msgstr "Upravljanje oglasima"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:77
 msgid "Reported listings"
@@ -3244,11 +3263,11 @@ msgstr "Prijavljeni oglasi"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:84
 msgid "Manage media"
-msgstr "Upravljanje medijima"
+msgstr "Upravljanje fotografijama"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:98
 msgid "Custom fields"
-msgstr "Prilagođeno polje"
+msgstr "Dodatna polja"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:105
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:166
@@ -3299,11 +3318,11 @@ msgstr "Email predlošci"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:204
 msgid "Languages"
-msgstr "Jezici"
+msgstr "Prijevodi"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:211
 msgid "Permalinks"
-msgstr ""
+msgstr "Friendly URLs"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:218
 msgid "Spam and bots"
@@ -3315,15 +3334,15 @@ msgstr "Valute"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:232
 msgid "Mail server"
-msgstr "email server"
+msgstr "Email server"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:239
 msgid "Media"
-msgstr "Mediji (slike i video)"
+msgstr "Fotografije"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:246
 msgid "Latest searches"
-msgstr "Posljednje traženo"
+msgstr "Posljednje pretrage"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:253
 msgid "Advanced"
@@ -3347,7 +3366,7 @@ msgstr "Vaš profil"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:299
 msgid "Ban rules"
-msgstr "Pravila zabrane (ban)"
+msgstr "Pravila zabrane"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:305
 msgid "Tools"
@@ -3355,11 +3374,11 @@ msgstr "Alati"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:315
 msgid "Backup data"
-msgstr "Rezervni podatci (backup)"
+msgstr "Backup"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:322
 msgid "Upgrade Osclass"
-msgstr "Nadogradi oglasnik"
+msgstr "Ažuriranja"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:329
 msgid "Maintenance mode"
@@ -3367,23 +3386,23 @@ msgstr "Održavanje"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:336
 msgid "Renew location stats"
-msgstr ""
+msgstr "Izračun statistike lokacija"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:343
 msgid "Renew category stats"
-msgstr ""
+msgstr "Izračun statistike kategorija"
 
 #: tmp/oc-includes/osclass/classes/AdminMenu.php:350
 msgid "PHP info"
-msgstr ""
+msgstr "PHP info"
 
 #: tmp/oc-includes/osclass/timezones.php:31
 msgid "Use native php function for timezones list."
-msgstr ""
+msgstr "Koristi nativne PHP funkcije za vremenske zone."
 
 #: tmp/oc-includes/osclass/helpers/hSearch.php:63
 msgid "Relevance"
-msgstr ""
+msgstr "Relevantnost"
 
 #: tmp/oc-includes/osclass/helpers/hSearch.php:66
 msgid "Newly listed"
@@ -3391,11 +3410,11 @@ msgstr "Posljednje dodano"
 
 #: tmp/oc-includes/osclass/helpers/hSearch.php:69
 msgid "Lower price first"
-msgstr "Prvo najniža cijena"
+msgstr "Prvo najjeftinije"
 
 #: tmp/oc-includes/osclass/helpers/hSearch.php:71
 msgid "Higher price first"
-msgstr "Prvo najviša cijena"
+msgstr "Prvo najskuplje"
 
 #: tmp/oc-includes/osclass/helpers/hUtils.php:205
 msgid "Jan"
@@ -3479,7 +3498,7 @@ msgstr "Popodne"
 
 #: tmp/oc-includes/osclass/helpers/hUtils.php:229
 msgid "am"
-msgstr "Prijepodne"
+msgstr "prijepodne"
 
 #: tmp/oc-includes/osclass/helpers/hUtils.php:229
 msgid "pm"
@@ -3491,11 +3510,11 @@ msgstr "Javni profil"
 
 #: tmp/oc-includes/osclass/helpers/hUtils.php:279
 msgid "Manage your listings"
-msgstr "Upravljenje oglasima"
+msgstr "Upravljanje oglasima"
 
 #: tmp/oc-includes/osclass/helpers/hUtils.php:280
 msgid "Manage your alerts"
-msgstr "Upravljanje upozorenjima"
+msgstr "Upravljanje spremljenim pretragama"
 
 #: tmp/oc-includes/osclass/helpers/hUtils.php:281
 msgid "My profile"
@@ -3512,7 +3531,7 @@ msgstr "Kompaktno"
 
 #: tmp/oc-includes/osclass/helpers/hItems.php:1406
 msgid "Check with seller"
-msgstr "Provjerite sa prodavačem"
+msgstr "Pitaj za cijenu"
 
 #: tmp/oc-includes/osclass/helpers/hItems.php:1409
 msgid "Free"
@@ -3534,11 +3553,11 @@ msgstr "Prikazuje %s do %s od %s rezultata"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:4
 msgid "For sale"
-msgstr "Rasprodaja"
+msgstr "Prodaja"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:5
 msgid "Vehicles"
-msgstr "Auto-moto"
+msgstr "Vozila"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:6
 msgid "Classes"
@@ -3558,7 +3577,7 @@ msgstr "Zajednica"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:10
 msgid "Personals"
-msgstr "Osobno"
+msgstr "Osobni kontakti"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:11
 msgid "Jobs"
@@ -3602,7 +3621,7 @@ msgstr "Računala - Hardware"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:21
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:22
 msgid "Electronics"
@@ -3710,7 +3729,7 @@ msgstr "Kuće - apartmani za iznajmljivanje"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:48
 msgid "Rooms for Rent - Shared"
-msgstr "Alquiler de Habitaciones - Pisos compartidos"
+msgstr "Sobe za najam"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:49
 msgid "Housing Swap"
@@ -3774,7 +3793,7 @@ msgstr "Popravci"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:64
 msgid "Writing - Editing - Translating"
-msgstr ""
+msgstr "Pisanje - Lektoriranje - Prevođenje"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:65
 msgid "Other Services"
@@ -3794,7 +3813,7 @@ msgstr "Događaji"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:69
 msgid "Musicians - Artists - Bands"
-msgstr "Glazbenici - umjetnici - sastavi"
+msgstr "Glazbenici - Umjetnici - Sastavi"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:70
 msgid "Volunteers"
@@ -3830,11 +3849,11 @@ msgstr "Propuštene veze"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:78
 msgid "Accounting - Finance"
-msgstr "Računovodstvo - financije"
+msgstr "Računovodstvo - Financije"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:79
 msgid "Advertising - Public Relations"
-msgstr "Oglašavanje - odnosi s javnošću"
+msgstr "Oglašavanje - Odnosi s javnošću"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:80
 msgid "Arts - Entertainment - Publishing"
@@ -3866,11 +3885,11 @@ msgstr "Ljudski resursi"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:87
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:88
 msgid "Legal"
-msgstr "Legalno"
+msgstr "Pravo"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:89
 msgid "Manual Labor"
@@ -3882,7 +3901,7 @@ msgstr "Proizvodnja"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:91
 msgid "Marketing"
-msgstr ""
+msgstr "Marketing"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:92
 msgid "Non-profit - Volunteer"
@@ -3918,15 +3937,15 @@ msgstr "Primjer oglasa"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:105
 msgid "Description of the example ad. Insert here some usefull description of your ad."
-msgstr "Opis oglasa za primjer. Upišite ovdje korisne opise oglasa."
+msgstr "Opis vašeg oglasa. Unesite neke informacije o oglasu."
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:106
 msgid "Example author"
-msgstr "Primjer Autora"
+msgstr "Primjer korisnika"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:107
 msgid "osclass@example.com"
-msgstr "example@example.com"
+msgstr "osclass@example.com"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:108
 msgid "Example country"
@@ -3946,11 +3965,11 @@ msgstr "Primjer naziva stranice"
 
 #: tmp/oc-includes/osclass/installer/basic_data.php:116
 msgid "This is an example page description. This is a good place to put your Terms of Service or any other help information."
-msgstr "Ovo je primjer stranice za opis. Ovo je dobro mjesto za staviti vaše Uvjete pružanja usluge i ostale korisne informacije."
+msgstr "Ovo je primjer sadržaja stranice. Ovdje možete staviti uvjete korištenja ili neke druge informacije."
 
 #: tmp/oc-includes/osclass/install.php:93
 msgid "Looks like you've already installed Osclass. To reinstall please clear your old database tables first."
-msgstr "Izgleda da ste već instalirali oglasnik. Za reinstalaciju prvo očistite tablice iz stare baze"
+msgstr "Osclass je već instaliran. Izbrišite tablice iz svoje baze podataka kako bi mogli reinstalirati."
 
 #: tmp/oc-includes/osclass/install.php:267
 msgid "Try again"
@@ -3965,12 +3984,12 @@ msgstr "Pokreni instalaciju"
 #: tmp/oc-includes/osclass/emails.php:360
 #: tmp/oc-includes/osclass/emails.php:463
 msgid "unsubscribe alert"
-msgstr "alarm za odjavu predbilježbe"
+msgstr "izbriši pretragu"
 
 #: tmp/oc-includes/osclass/emails.php:1219
 #: tmp/oc-includes/osclass/emails.php:1448
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
 #: tmp/oc-includes/osclass/emails.php:1261
 #: tmp/oc-includes/osclass/emails.php:1263
@@ -3983,23 +4002,23 @@ msgstr "Jezik"
 
 #: tmp/oc-includes/osclass/emails.php:1997
 msgid "<p>Dear {WEB_TITLE} admin,</p>"
-msgstr "<p>Poštovani {WEB_TITLE} administradore,</p>"
+msgstr "<p>Poštovani {WEB_TITLE} administratore,</p>"
 
 #: tmp/oc-includes/osclass/emails.php:1999
 msgid "{WEB_TITLE} - Your site has upgraded to Osclass {VERSION}"
-msgstr "{WEB_TITLE} - Vaša stranice je nadograđena na Osclass {VERSION}"
+msgstr "{WEB_TITLE} - Vaša stranica je ažurirana na Osclass {VERSION}"
 
 #: tmp/oc-includes/osclass/emails.php:2000
 msgid "<p>Your site at {WEB_LINK} has been updated automatically to Osclass {VERSION}</p>"
-msgstr "<p>Vaša stranica {WEB_LINK} je automatski nadograđena na Osclass {VERSION}</p>"
+msgstr "<p>Vaša stranica {WEB_LINK} je automatski ažurirana na Osclass {VERSION}</p>"
 
 #: tmp/oc-includes/osclass/emails.php:2002
 msgid "<p>There were some minor errors removing temporary files. Please manually remove the \"oc-content/downloads/oc-temp\" folder</p>"
-msgstr "<p>Bilo je manjih poteškoća prilikom brisanja privremenih datoteka. Molimo vas da ručno obrišete mapu \"oc-content/downloads/oc-temp\"</p>"
+msgstr "<p>Bilo je manjih poteškoća prilikom brisanja predmemorije. Molimo vas da obrišete mapu \"oc-content/downloads/oc-temp\"</p>"
 
 #: tmp/oc-includes/osclass/emails.php:2006
 msgid "{WEB_TITLE} - We failed trying to upgrade your site to Osclass {VERSION}"
-msgstr "{WEB_TITLE} - Nismo uspjelu nadograditi vašu stranicu na Osclass {VERSION}"
+msgstr "{WEB_TITLE} - Došlo je do greške prilikom ažuriranja na Osclass {VERSION}"
 
 #: tmp/oc-includes/osclass/functions.php:133
 msgid "Contact seller"
@@ -4011,11 +4030,11 @@ msgstr "Greška"
 
 #: tmp/oc-includes/osclass/functions.php:155
 msgid "Page"
-msgstr ""
+msgstr "Stranica"
 
 #: tmp/oc-includes/osclass/functions.php:166
 msgid "Show all listings"
-msgstr "Prikaži sve oglase"
+msgstr "Vidi sve oglase"
 
 #: tmp/oc-includes/osclass/functions.php:204
 msgid "Recover my password"
@@ -4023,11 +4042,11 @@ msgstr "Oporavi lozinku"
 
 #: tmp/oc-includes/osclass/functions.php:220
 msgid "Manage my listings"
-msgstr "Administriraj oglase"
+msgstr "Upravljaj oglasima"
 
 #: tmp/oc-includes/osclass/functions.php:223
 msgid "Manage my alerts"
-msgstr "Administriraj alarme"
+msgstr "Upravljaj spremljenim pretragama"
 
 #: tmp/oc-includes/osclass/functions.php:553
 msgid "New comments"
@@ -4035,11 +4054,11 @@ msgstr "Novi komentari"
 
 #: tmp/oc-includes/osclass/functions.php:596
 msgid "Osclass "
-msgstr ""
+msgstr "Osclass "
 
 #: tmp/oc-includes/osclass/functions.php:596
 msgid " is available"
-msgstr ""
+msgstr "je dostupan"
 
 #: tmp/oc-includes/osclass/functions.php:670
 msgid "Plugin updates"
@@ -4047,9 +4066,8 @@ msgstr "Ažuriranja dodataka"
 
 #: tmp/oc-includes/osclass/functions.php:741
 msgid "Theme updates"
-msgstr "Obnova teme"
+msgstr "Ažuriranja tema"
 
 #: tmp/oc-includes/osclass/functions.php:814
 msgid "Language updates"
-msgstr "Obnova jezika"
-
+msgstr "Ažuriranja prijevoda"

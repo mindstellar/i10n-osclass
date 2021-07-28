@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-29 18:32+0530\n"
-"PO-Revision-Date: 2021-06-29 13:56\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2021-07-28 16:51+0200\n"
+"Last-Translator: defected.dev\n"
 "Language-Team: Croatian\n"
 "Language: hr_HR\n"
 "MIME-Version: 1.0\n"
@@ -16,20 +16,21 @@ msgstr ""
 "X-Crowdin-Language: hr\n"
 "X-Crowdin-File: /master/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8210\n"
+"X-Generator: Poedit 3.0\n"
 
 #: tmp/oc-content/themes/bender/user-alerts.php:32
 #: tmp/oc-content/themes/bender/functions.php:444
 #: tmp/oc-content/themes/bender/functions.php:491
 msgid "Alerts"
-msgstr "Alarmi"
+msgstr "Spremljene pretrage"
 
 #: tmp/oc-content/themes/bender/user-alerts.php:46
 msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Ova akcija se ne može vratiti. Jeste sigurni da želite nastaviti?"
+msgstr "Jeste sigurni da želite nastaviti?"
 
 #: tmp/oc-content/themes/bender/alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
-msgstr "Uspješno ste se predbilježili za alarm"
+msgstr "Pretraga je uspješno spremljena"
 
 #: tmp/oc-content/themes/bender/alert-form.php:28
 #: tmp/oc-content/themes/bender/user-change_email.php:77
@@ -38,15 +39,15 @@ msgstr "Neispravna email adresa"
 
 #: tmp/oc-content/themes/bender/alert-form.php:29
 msgid "There was a problem with the alert"
-msgstr "Postoji problem sa alarmom"
+msgstr "Došlo je do greške prilikom učitavanja pretrage"
 
 #: tmp/oc-content/themes/bender/user-change_email.php:33
 msgid "Change e-mail"
-msgstr "Promijeni e-mail"
+msgstr "Promijeni email"
 
 #: tmp/oc-content/themes/bender/user-change_email.php:76
 msgid "Email: this field is required"
-msgstr ""
+msgstr "Email ne može biti prazan"
 
 #: tmp/oc-content/themes/bender/admin/settings.php:42
 msgid "Donate"
@@ -54,7 +55,7 @@ msgstr "Doniraj"
 
 #: tmp/oc-content/themes/bender/admin/header.php:42
 msgid "Remove logo"
-msgstr "Ukloni logo"
+msgstr "Ukloni logotip"
 
 #: tmp/oc-content/themes/bender/admin/header.php:69
 msgid "Upload"
@@ -63,20 +64,20 @@ msgstr "Prenesi"
 #: tmp/oc-content/themes/bender/admin/header.php:78
 #, php-format
 msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "Mapa za slike <strong>%s</strong> nije otvorena za pisanje na vašem serveru"
+msgstr "Mapa za slike <strong>%s</strong> nema ispravne dozvole"
 
 #: tmp/oc-content/themes/bender/admin/header.php:79
 msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Sustav ne može prenijeti sliku za logo kroz administracijsko sušelje"
+msgstr "Greška prilikom spremanja logotipa. Provjerite dozvole mape."
 
 #: tmp/oc-content/themes/bender/admin/header.php:80
 msgid "Please make the aforementioned image folder writable."
-msgstr "Molimo provjerite da li se u navedenu mapu slika može pisati."
+msgstr "Popravite dozvole na navedenoj mapi."
 
 #: tmp/oc-content/themes/bender/loop-single-premium.php:48
 #: tmp/oc-content/themes/bender/loop-single.php:48
 msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Ova akcija se ne može vratiti. Jeste sigurni da želite nastaviti?"
+msgstr "Jeste sigurni da želite nastaviti?"
 
 #: tmp/oc-content/themes/bender/item.php:59
 #, php-format
@@ -94,12 +95,12 @@ msgstr "Odabrano"
 
 #: tmp/oc-content/themes/bender/search.php:56
 msgid "Nothing selected, input was"
-msgstr "Ništa nije odabrano, ulazni podatci su bili"
+msgstr "Ništa nije odabrano, podaci su"
 
 #: tmp/oc-content/themes/bender/search.php:71
 #, php-format
 msgid "There are no results matching \"%s\""
-msgstr "Nema razulatata koje se podudaraju s \"%s\""
+msgstr "Nema pronađenih rezultata za pretragu \"%s\""
 
 #: tmp/oc-content/themes/bender/search.php:75
 #, php-format
@@ -121,32 +122,32 @@ msgstr "Oglasi"
 #: tmp/oc-content/themes/bender/functions.php:451
 #: tmp/oc-content/themes/bender/functions.php:511
 msgid "Change password"
-msgstr "Promijeni lozinku"
+msgstr "Promijeni zaporku"
 
 #: tmp/oc-content/themes/bender/footer.php:35
 #: tmp/oc-content/themes/bender/header.php:48
 #, php-format
 msgid "Hi %s"
-msgstr "Dobar dan %s"
+msgstr "Pozdrav %s"
 
 #: tmp/oc-content/themes/bender/footer.php:69
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr ""
+msgstr "Ova stranica ponosno koristi <a title=\"Osclass web\" href=\"%s\">Osclass</strong>"
 
 #: tmp/oc-content/themes/bender/item-post.php:61
 #: tmp/oc-content/themes/bender/header.php:74
 msgid "Select a category"
-msgstr "Odaberi kategoriju"
+msgstr "Odaberite kategoriju"
 
 #: tmp/oc-content/themes/bender/user-profile.php:32
 #: tmp/oc-content/themes/bender/functions.php:445
 msgid "Update account"
-msgstr "Ažuriraj korisnički račun"
+msgstr "Spremi promjene"
 
 #: tmp/oc-content/themes/bender/common/head.php:25
 msgid "Delete"
-msgstr "Obriši"
+msgstr "Izbriši"
 
 #: tmp/oc-content/themes/bender/common/head.php:26
 msgid "Cancel"
@@ -154,33 +155,33 @@ msgstr "Odustani"
 
 #: tmp/oc-content/themes/bender/common/head.php:72
 msgid "Previous image"
-msgstr ""
+msgstr "Prethodna slika"
 
 #: tmp/oc-content/themes/bender/common/head.php:73
 msgid "Next image"
-msgstr ""
+msgstr "Sljedeća slika"
 
 #: tmp/oc-content/themes/bender/common/head.php:74
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: tmp/oc-content/themes/bender/user-change_username.php:34
 #: tmp/oc-content/themes/bender/functions.php:447
 #: tmp/oc-content/themes/bender/functions.php:506
 msgid "Change username"
-msgstr "promijeni korisničko ime"
+msgstr "Promijeni korisničko ime"
 
 #: tmp/oc-content/themes/bender/user-change_username.php:50
 msgid "Username: this field is required"
-msgstr "Korisničko ime: polje je obavezno"
+msgstr "Korisničko ime ne može biti prazno"
 
 #: tmp/oc-content/themes/bender/user-change_username.php:75
 msgid "The username is available"
-msgstr "Korisničko ime je slobodno"
+msgstr "Korisničko ime je dostupno"
 
 #: tmp/oc-content/themes/bender/user-change_username.php:77
 msgid "The username is NOT available"
-msgstr "Korisničko ime NIJE slobodno"
+msgstr "Korisničko ime nije dostupno"
 
 #: tmp/oc-content/themes/bender/item-sidebar.php:70
 #, php-format
@@ -190,12 +191,12 @@ msgstr "Ime: %s"
 #: tmp/oc-content/themes/bender/item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: tmp/oc-content/themes/bender/item-sidebar.php:76
 #, php-format
 msgid "Phone: %s"
-msgstr "Telefon: %s"
+msgstr "Mobitel: %s"
 
 #: tmp/oc-content/themes/bender/user-sidebar.php:28
 #: tmp/oc-content/themes/bender/functions.php:516
@@ -204,11 +205,11 @@ msgstr "Obriši korisnički račun"
 
 #: tmp/oc-content/themes/bender/functions.php:28
 msgid "ie. PHP Programmer"
-msgstr "npr. PHP programer"
+msgstr "Unesi pojam za pretragu"
 
 #: tmp/oc-content/themes/bender/functions.php:434
 msgid "Publish a listing"
-msgstr "Objavi oglas"
+msgstr "Predaj oglas"
 
 #: tmp/oc-content/themes/bender/functions.php:435
 msgid "Edit your listing"
@@ -216,7 +217,7 @@ msgstr "Uredi oglas"
 
 #: tmp/oc-content/themes/bender/functions.php:436
 msgid "Send to a friend"
-msgstr "Pošalji prijatelju"
+msgstr "Podijeli"
 
 #: tmp/oc-content/themes/bender/functions.php:437
 msgid "Contact publisher"
@@ -256,11 +257,11 @@ msgstr "Prijava"
 
 #: tmp/oc-content/themes/bender/functions.php:450
 msgid "Recover password"
-msgstr "Oporavi lozinku"
+msgstr "Zatraži novu zaporku"
 
 #: tmp/oc-content/themes/bender/functions.php:452
 msgid "Create a new account"
-msgstr "Napravi novi korisnički račun"
+msgstr "Registracija"
 
 #: tmp/oc-content/themes/bender/functions.php:453
 msgid "Contact"
@@ -272,19 +273,19 @@ msgstr "Javni profil"
 
 #: tmp/oc-content/themes/bender/functions.php:608
 msgid "Theme settings updated correctly"
-msgstr "Postavke teme ispravno ažurirane"
+msgstr "Postavke teme su uspješno spremljene"
 
 #: tmp/oc-content/themes/bender/functions.php:623
 msgid "The logo image has been uploaded correctly"
-msgstr "Logo slika ispravno prenesena"
+msgstr "Logotip je uspješno dodan"
 
 #: tmp/oc-content/themes/bender/functions.php:625
 msgid "An error has occurred, please try again"
-msgstr "Greška se pojavila, pokušajte ponovo"
+msgstr "Došlo je do greške, pokušajte ponovno"
 
 #: tmp/oc-content/themes/bender/functions.php:636
 msgid "The logo image has been removed"
-msgstr "Logo slika je uklonjena"
+msgstr "Logotip je uspješno uklonjen"
 
 #: tmp/oc-content/themes/bender/functions.php:638
 msgid "Image not found"
@@ -292,7 +293,7 @@ msgstr "Slika nije pronađena"
 
 #: tmp/oc-content/themes/bender/functions.php:666
 msgid "Header logo"
-msgstr ""
+msgstr "Logotip"
 
 #: tmp/oc-content/themes/bender/functions.php:668
 msgid "Theme settings"
@@ -311,4 +312,3 @@ msgstr "<strong>Adresa:</strong> %1$s"
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>Lokacija:</strong> %1$s"
-
