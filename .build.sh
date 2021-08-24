@@ -29,7 +29,7 @@ echo 'Downloading latest osclass theme'
 
 #Create Fresh gettext pot file for core
 # shellcheck disable=SC2038
-find tmp/oc-admin/ tmp/oc-includes/osclass/ -type f -name '*.php' |
+find tmp/osclass/oc-admin/ tmp/osclass/oc-includes/osclass/ -type f -name '*.php' |
     xargs xgettext \
         --keyword=__ -k=_e -k=_n:1,2 \
         --language=PHP \
@@ -42,7 +42,7 @@ echo 'core.pot is created in /src/templates directory'
 
 #Create Fresh gettext pot file for messages
 # shellcheck disable=SC2038
-find tmp/oc-admin/ tmp/oc-includes/osclass/ -type f -name '*.php' |
+find tmp/osclass/oc-admin/ tmp/osclass/oc-includes/osclass/ -type f -name '*.php' |
     xargs xgettext \
         --keyword=_m -k=_mn:1,2 \
         --language=PHP \
@@ -55,7 +55,7 @@ echo 'messages.pot is created in /src/templates directory'
 
 #Create Fresh gettext pot file messages
 # shellcheck disable=SC2038
-find tmp/oc-content/themes/bender -type f -name '*.php' |
+find tmp/osclass/oc-content/themes/bender -type f -name '*.php' |
     xargs xgettext \
         --keyword=__ -k=_e -k=_m -k=_mn:1,2 \
         --language=PHP \
