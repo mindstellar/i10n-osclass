@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-29 18:32+0530\n"
-"PO-Revision-Date: 2021-06-29 13:57\n"
+"PO-Revision-Date: 2021-08-24 17:44\n"
 "Last-Translator: \n"
 "Language-Team: Croatian\n"
 "Language: hr_HR\n"
@@ -28,25 +28,25 @@ msgstr ""
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:237
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:264
 msgid "This action cannot be done because it is a demo site"
-msgstr "Ovo se ne može izvršiti jer je stranica za demonstraciju"
+msgstr "Ova radnja je nedostupna jer je ovo demo stranica"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
 #: tmp/oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
 msgid "You don't have enough permissions"
-msgstr "Nemate dovoljno dozvola"
+msgstr "Nemate ispravne dozvole"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
 msgid "The listing has been deleted"
-msgstr "Oglas je obrisan"
+msgstr "Oglas je uspješno izbrisan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:374
 msgid "The listing couldn't be deleted"
-msgstr "Oglas ne može biti obrisan"
+msgstr "Oglas ne može biti izbrisan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:405
 msgid "The listing has been activated"
-msgstr "Oglas je aktiviran"
+msgstr "Oglas je uspješno aktiviran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:407
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:421
@@ -56,7 +56,7 @@ msgstr "Oglas je aktiviran"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:500
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:668
 msgid "An error has occurred"
-msgstr "Pojavila se greška"
+msgstr "Došlo je do greške"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:410
 msgid "The listing can't be activated because it's blocked"
@@ -64,110 +64,110 @@ msgstr "Oglas ne može biti aktiviran jer je blokiran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:419
 msgid "The listing has been deactivated"
-msgstr "Oglas je deaktiviran"
+msgstr "Oglas je uspješno deaktiviran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:428
 msgid "The listing has been enabled"
-msgstr "Oglas je omogućen"
+msgstr "Oglas je uspješno blokiran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:437
 msgid "The listing has been disabled"
-msgstr "Oglas je onemogućen"
+msgstr "Oglas je uspješno deblokiran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:469
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:498
 msgid "Changes have been applied"
-msgstr "Promjene su primjenjene"
+msgstr "Promjene su uspješno spremljene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:527
 msgid "The listing has been unmarked as"
-msgstr "Oglasu je uklonjena oznaka za"
+msgstr "Oglasu je uspješno uklonjena oznaka"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:529
 msgid "The listing hasn't been unmarked as"
-msgstr "Oglasu nije uklonjena oznaka za"
+msgstr "Oglasu nije uklonjena oznaka"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:632
 msgid "Changes saved correctly"
-msgstr "Promjene su spremljene"
+msgstr "Promjene su uspješno spremljene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
 msgid "Resource deleted"
-msgstr "Izvor je obrisan"
+msgstr "Fotografija je uspješno izbrisana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:719
 msgid "A new listing has been added"
-msgstr "Novi oglas je dodan"
+msgstr "Oglas je uspješno predan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:772
 msgid "Wait time must only contain numeric characters"
-msgstr "Vrijeme čekanja smije sadržavati samo numeričke znakove"
+msgstr "Vrijeme čekanja mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:777
 msgid "Number of moderated listings must only contain numeric characters"
-msgstr "Broj ispravljenih oglasa smije sadržavati samo numeričke znakove"
+msgstr "Broj odobrenih oglasa mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:780
 msgid "Images per listing must only contain numeric characters"
-msgstr "Broj slika po oglasu mora sadržavati samo numeričke znakove"
+msgstr "Broj fotografija mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:783
 msgid "Number of expiration days has to be a numeric value"
-msgstr "Broj isteka dana mora biti numerička vrijednost"
+msgstr "Broj dana isteka mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
 msgid "Title Length has to be a numeric value"
-msgstr "Dužina mora biti numerička vrijednost"
+msgstr "Dužina naslova mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
 msgid "Description Length has to be a numeric value"
-msgstr "Dužina opisa mora biti numerička vrijednost"
+msgstr "Dužina opisa mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
 msgid "Listings' settings have been updated"
-msgstr "Postavke oglasa su ažurirane"
+msgstr "Postavke oglasa su uspješno spremljene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
 msgid "The comments have been deleted"
-msgstr "Komentari su obrisani"
+msgstr "Komentari su uspješno obrisani"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
 msgid "The comments have been approved"
-msgstr "Komentari su odobreni"
+msgstr "Komentari su uspješno odobreni"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
 msgid "The comments have been disapproved"
-msgstr "Komentari su označeni kao neodobreni"
+msgstr "Komentari su uspješno označeni kao neodobreni"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
 msgid "The comments have been unblocked"
-msgstr "Komentari su odblokirani"
+msgstr "Komentari su uspješno deblokirani"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
 msgid "The comments have been blocked"
-msgstr "Komentari su blokirani"
+msgstr "Komentari su uspješno blokirani"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
 msgid "The comment has been approved"
-msgstr "Komentar je odobren"
+msgstr "Komentar je uspješno odobren"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
 msgid "The comment has been disapproved"
-msgstr "Komentar je označen kao neodobren"
+msgstr "Komentar je uspješno označen kao neodobren"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
 msgid "The comment has been enabled"
-msgstr "Komentar je omogućen"
+msgstr "Komentar je uspješno omogućen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
 msgid "The comment has been disabled"
-msgstr "Komentar je onemogućen"
+msgstr "Komentar je uspješno onemogućen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
 msgid "Email is not correct"
-msgstr "Email nije ispravan"
+msgstr "Email je neispravan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
 msgid "Comment is required"
@@ -175,12 +175,12 @@ msgstr "Komentar je obavezan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
 msgid "Great! We just updated your comment"
-msgstr "Bravo! Upravo smo ažurirali vaš komentar"
+msgstr "Komentar je uspješno uređen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:229
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:671
 msgid "The comment has been deleted"
-msgstr "Komentar je obrisan"
+msgstr "Komentar je uspješno izbrisan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:110
@@ -209,49 +209,49 @@ msgstr "Komentar je obrisan"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
 msgid "This action can't be done because it's a demo site"
-msgstr "Ovo se ne može izvršiti jer je demo stranica"
+msgstr "Ova radnja je nedostupna jer je ovo demo stranica"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
 msgid "The translation folder is not writable"
-msgstr "Mapa prijevoda nije otvorena za pisanje"
+msgstr "Mapa prijevoda (translations) nema ispravne dozvole"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:83
 msgid "The language has been installed correctly"
-msgstr "Jezik je ispravno instaliran"
+msgstr "Prijevod je uspješno instaliran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
 msgid "File uploaded but unable to activate the language"
-msgstr ""
+msgstr "Prijenos je instaliran, ali ne može biti aktiviran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
 msgid "The zip file is not valid"
-msgstr "Zip datoteka nije valjana"
+msgstr "Datoteka nije ispravna"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
 msgid "No file was uploaded"
-msgstr "Nije prenešena niti jedna datoteka"
+msgstr "Datoteka nije prenesena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
-msgstr "Došlo je do problema prilikom dodavanja jezika"
+msgstr "Došlo je do greške kod instaliranja prijevoda"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:153
 msgid "Language imported successfully"
-msgstr ""
+msgstr "Prijevod je uspješno instaliran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:160
 msgid "There was a problem importing the selected language"
-msgstr ""
+msgstr "Došlo je do greške kod instaliranja prijevoda"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:168
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:201
 msgid "Language id isn't in the correct format"
-msgstr "Jezik id nije u ispravnom formatu"
+msgstr "ID jezika je neispravan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:175
 msgid "Language id doesn't exist"
@@ -259,32 +259,32 @@ msgstr "ID jezika ne postoji"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
 msgid "Language name field is required"
-msgstr "Ime jezika je obavezno"
+msgstr "Ime jezika ne može biti prazno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:227
 msgid "Language short name field is required"
-msgstr "Kratko ime jezika je obavezno"
+msgstr "Kratko ime jezika ne može biti prazno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:230
 msgid "Language description field is required"
-msgstr "Opis jezika je obavezan"
+msgstr "Opis jezika ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:233
 msgid "Currency format field is required"
-msgstr "Format valute je obavezan"
+msgstr "Format valute ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:236
 msgid "Number of decimals must only contain numeric characters"
-msgstr "Broj decimalnih mjesta mora biti numerička vrijednost"
+msgstr "Broj decimalnih mjesta mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:259
 #, php-format
 msgid "%s has been updated"
-msgstr "%s je promjenjeno"
+msgstr "%s je uspješno ažuriran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:265
 msgid "Selected languages have been enabled for the website"
-msgstr "Odabrani jezici su omogućeni za web stranicu"
+msgstr "Odabrani jezici su uspješno omogućeni na stranici"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:272
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:297
@@ -295,7 +295,7 @@ msgstr "ID-jevi jezika nisu u ispravnom formatu"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:289
 msgid "Selected languages have been disabled for the website"
-msgstr "Odabrani jezici su onemogućeni za web stranicu"
+msgstr "Odabrani jezici su uspješno onemogućeni na stranici"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:304
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:363
@@ -305,11 +305,11 @@ msgstr "%s ne može biti onemogućen jer je zadani jezik"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:324
 msgid "Selected languages have been enabled for the backoffice (oc-admin)"
-msgstr "Odabrani jezici su omogućeni za administracijsko sučelje"
+msgstr "Odabrani jezici su uspješno omogućeni za administraciju"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:348
 msgid "Selected languages have been disabled for the backoffice (oc-admin)"
-msgstr "Odabrani jezici su onemogućeni za administracijsko sučelje"
+msgstr "Odabrani jezici su uspješno onemogućeni za administraciju"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:390
 #, php-format
@@ -329,37 +329,37 @@ msgstr "Mapa '%s' ne može biti uklonjena"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
-msgstr ""
+msgstr "Mapa '%s' ne može biti uklonjena jer sadrži zadani jezik. <a href=\"%s\">Promijenite zadani jezik</a> i pokušajte ponovno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
 msgid "The email/alert has been updated"
-msgstr "Email/alarm je ažuriran"
+msgstr "Email/pretraga je uspješno ažurirana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
 msgid "You can't repeat internal name"
-msgstr "Ne možete ponoviti interno ime"
+msgstr "Identifikator je zauzet"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
 msgid "The email couldn't be updated, at least one title should not be empty"
-msgstr "Email nemože biti ažuriran, barem jedan naslov bi trebao biiti popunjen"
+msgstr "Email ne može biti ažuriran, barem jedan naslov bi trebao biti popunjen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
 msgid "The plugin folder is not writable"
-msgstr "Mapa dodataka nije otvorena za pisanje"
+msgstr "Mapa dodataka (plugins) nema ispravne dozvole"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
 msgid "The plugin has been uploaded correctly"
-msgstr "Dodatak je ispravno prenesen"
+msgstr "Dodatak je uspješno prenesen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
 msgid "There was a problem adding the plugin"
-msgstr "Pojavio se problem pri dodavanju dodatka"
+msgstr "Došlo je do greške kod dodavanja dodatka"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
 #, php-format
 msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr "Dodatak je generirao %d znakova <strong>neočekivanog rezultata</strong> za vrijeme instalacije . Rezultat: \"%s\""
+msgstr "Dodatak je ispisao %d neočekivanih znakova prilikom instalacije: \"%s\""
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
 msgid "Plugin is already installed"
@@ -367,12 +367,12 @@ msgstr "Dodatak je već instaliran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
 msgid "Plugin couldn't be installed because their files are missing"
-msgstr "Dodatak ne može biti instaliran jer nedostaju datoteke."
+msgstr "Dodatak ne može biti instaliran jer neke datoteke nedostaju"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
 #, php-format
 msgid "Plugin couldn't be installed because of: %s"
-msgstr "Dodatak ne može biti instaliran zbog: %s"
+msgstr "Dodatak ne može biti instaliran jer %s"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
 msgid "Plugin couldn't be installed"
@@ -380,11 +380,11 @@ msgstr "Dodatak ne može biti instaliran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
 msgid "Plugin installed"
-msgstr "Dodatak je instaliran"
+msgstr "Dodatak je uspješno instaliran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
 msgid "Plugin uninstalled"
-msgstr "Dodatak je deinstaliran"
+msgstr "Dodatak je uspješno deinstaliran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
 msgid "Plugin couldn't be uninstalled"
@@ -392,7 +392,7 @@ msgstr "Dodatak ne može biti deinstaliran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
 msgid "Plugin enabled"
-msgstr "Dodatak je omogućen"
+msgstr "Dodatak je uspješno omogućen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
 msgid "Plugin is already enabled"
@@ -400,7 +400,7 @@ msgstr "Dodatak je već omogućen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
 msgid "Plugin disabled"
-msgstr "Dodatak je onemogućen"
+msgstr "Dodatak je uspješno onemogućen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
 msgid "Plugin is already disabled"
@@ -408,7 +408,7 @@ msgstr "Dodatak je već onemogućen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
 msgid "Configuration was saved"
-msgstr "Konfiguracija spremljena"
+msgstr "Konfiguracija je uspješno spremljena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
@@ -417,42 +417,42 @@ msgstr "Nije odabran niti jedan dodatak"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
 msgid "The files were deleted"
-msgstr ""
+msgstr "Datoteke su uspješno izbrisane"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
 #, php-format
 msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr ""
+msgstr "Došlo je do greške kod brisanja datoteka, provjerite dozvole u %s"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
 msgid "Invalid plugin file"
-msgstr ""
+msgstr "Neispravna datoteka dodatka"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
 msgid "The username field is empty"
-msgstr "Korisničko ime je prazno"
+msgstr "Korisničko ime ne može biti prazno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
 msgid "The password field is empty"
-msgstr "Lozinka je prazna"
+msgstr "Zaporka ne može biti prazna"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
 #, php-format
 msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Žao nam je, neispravno korisničko ime <a href=\"%s\">Jeste li zaboravili svoju lozinku?</a>"
+msgstr "Korisničko ime nije ispravno. <a href=\"%s\">Jeste li zaboravili zaporku?</a>"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
 #, php-format
 msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Žao nam je, neispravna lozinka <a href=\"%s\">Jeste li zaboravili svoju lozinku?</a>"
+msgstr "Zaporka nije ispravna. <a href=\"%s\">Promijeni zaporku</a>"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
 msgid "The reCAPTCHA code is wrong"
-msgstr "reCAPTCHA kod je pogrešan"
+msgstr "reCAPTCHA kod je neispravan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
 msgid "A new password has been sent to your e-mail"
-msgstr "Nova lozinka je poslana na vaš email"
+msgstr "Nova zaporka je poslana na vaš email"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
@@ -461,28 +461,28 @@ msgstr "Nova lozinka je poslana na vaš email"
 #: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
 #: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
 msgid "Sorry, the link is not valid"
-msgstr "Žao nam je, poveznica nije valjana"
+msgstr "Poveznica je neispravna"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:309
 msgid "The password has been changed"
-msgstr "Lozinka je promijenjena"
+msgstr "Zaporka je uspješno promijenjena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
 msgid "Error, the passwords don't match"
-msgstr "Greška, lozinke se ne podudaraju"
+msgstr "Zaporke se ne podudaraju"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
 msgid "The theme folder is not writable"
-msgstr "Mapa teme nije otvorena za pisanje"
+msgstr "Mapa tema (themes) nema ispravne dozvole"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
 msgid "The theme has been installed correctly"
-msgstr "Tema je ispravno instalirana"
+msgstr "Tema je uspješno instalirana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
 msgid "There was a problem adding the theme"
-msgstr "Pojavio se problem pri dodavanju teme"
+msgstr "Došlo je do greške kod instaliranja teme"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
 msgid "Theme removed successfully"
@@ -490,7 +490,7 @@ msgstr "Tema je uspješno uklonjena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
 msgid "There was a problem removing the theme"
-msgstr "Pojavio se problem pri uklanjanju teme"
+msgstr "Došlo je do greške kod deinstaliranja teme"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
 msgid "Current theme can not be deleted"
@@ -507,82 +507,82 @@ msgstr "Widget uspješno uklonjen"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
 msgid "Description field is required"
-msgstr "Polje za opis je obavezno"
+msgstr "Opis ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
 msgid "Widget updated correctly"
-msgstr "Widget uspješno ažuriran"
+msgstr "Widget je uspješno uređen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
 msgid "Widget cannot be updated correctly"
-msgstr "Widget ne može biti ispravno ažuriran"
+msgstr "Došlo je do greške kod uređivanja widgeta"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
 msgid "Widget added correctly"
-msgstr "Widget ispravno dodan"
+msgstr "Widget je uspješno dodan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
 msgid "Theme activated correctly"
-msgstr "Tema ispravno aktivirana"
+msgstr "Tema je uspješno aktivirana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
 msgid "You have very few free space left, users will not be able to upload pictures"
-msgstr "Imate vrlo malo preostalog mjesta, korisnici neće moći prenositi slike."
+msgstr "Ponestaje prostora na serveru, korisnici će možda imati poteškoća s dodavanjem fotografija"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
 msgid "Entered an invalid email"
-msgstr "Neispravan email je unešen"
+msgstr "Email je nevaljan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
 msgid "You're already subscribed"
-msgstr "Već ste pretplaćeni"
+msgstr "Već ste spremili ovu pretragu"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
 msgid "Subscribed correctly"
-msgstr "Zahtjev za pretplatu uspio"
+msgstr "Pretraga je uspješno spremljena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
 msgid "Error subscribing"
-msgstr "Greška kod pretplaćivanja"
+msgstr "Došlo je do greške kod spremanja pretrage"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
 msgid "You have to set an internal name"
-msgstr "Morate postaviti interno ime"
+msgstr "Identifikator ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
 msgid "You have to set a different internal name"
-msgstr "Morate postaviti drugačije interno ime"
+msgstr "Identifikator je nevaljan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
 msgid "The page has been updated"
-msgstr "Stranica je ažurirana"
+msgstr "Stranica je uspješno uređena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
 msgid "The page couldn't be updated, at least one title should not be empty"
-msgstr "Stranica nemože biti ažuriran, barem jedan naslov bi trebao biiti popunjen"
+msgstr "Naslov ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
 msgid "The page has been added"
-msgstr "Stranica je dodana"
+msgstr "Stranica je uspješno dodana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
 msgid "The page couldn't be added, at least one title should not be empty"
-msgstr "Stranica nemože biti dodana, barem jedan naslov bi trebao biiti popunjen"
+msgstr "Naslov ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
 msgid "Oops! That internal name is already in use. We can't make the changes"
-msgstr "Uh! To interno ime je već u uporabi. Ne mogu napraviti izmjene"
+msgstr "Identifikator je zauzet"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
 msgid "One page can't be deleted because it is indelible"
-msgstr "Jedna stranica se ne može izbrisati jer je neizbrisiva"
+msgstr "Greška prilikom brisanja stranice"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
 #, php-format
 msgid "%s pages couldn't be deleted because they are indelible"
-msgstr "%s stranica nije mogao biti izbrisana jer su neizbrisive"
+msgstr "%s stranica nije moglo biti izbrisano"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
 msgid "One page couldn't be deleted"
@@ -595,24 +595,24 @@ msgstr "%s stranica nije mogla biti izbrisana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
 msgid "One page has been deleted correctly"
-msgstr "Jedna stranica je ispravno izbrisana"
+msgstr "Stranica je uspješno izbrisana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
 #, php-format
 msgid "%s pages have been deleted correctly"
-msgstr "%s stranice pravilno izbrisane"
+msgstr "%s stranica je uspješno izbrisano"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
 msgid "Import complete"
-msgstr "Uvoz završio"
+msgstr "Uvoz je završio"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
 msgid "There was a problem importing data to the database"
-msgstr "Došlo je do problema kod uvoza podataka u bazu"
+msgstr "Došlo je do greške kod uvoza podataka u bazu"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
 msgid "Recount category stats has been successful"
-msgstr "Preračunavanje statistike kategorije uspjelo."
+msgstr "Statistike kategorija su uspješno obnovljene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
@@ -623,27 +623,27 @@ msgstr "Putanja je prazna"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
 #, php-format
 msgid "Could not connect with the database. Error: %s"
-msgstr "Nemoguće se spojiti na bazu podataka. Greška: %s"
+msgstr "Greška prilikom povezivanja s bazom podataka: %s"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:182
 msgid "There are no tables to back up"
-msgstr "Nema tablica za rezervu (backup)"
+msgstr "Nema tablica u bazi za backup"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:186
 msgid "The folder is not writable"
-msgstr "Mapa nije otvorena za pisanje"
+msgstr "Mapa nema ispravne dozvole"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:190
 msgid "Backup completed successfully"
-msgstr "Rezerva (backup) uspješno završio"
+msgstr "Backup je uspješno završio"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:178
 #, php-format
 msgid "Could not select the database. Error: %s"
-msgstr "Nemoguće odabrati bazu podataka. Greška: %s"
+msgstr "Došlo je do greške kod povezivanja s bazom podataka: %s"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:216
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:254
@@ -653,45 +653,45 @@ msgstr "Uspješno arhivirano!"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:231
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:257
 msgid "Error, the zip file was not created in the specified directory"
-msgstr "Greška, zip datoteka nije kreirana u zadanoj mapi"
+msgstr "Greška, ZIP datoteka nije kreirana u zadanoj mapi"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:274
 msgid "Maintenance mode is ON"
-msgstr "Mod za održavanje je UKLJUČEN"
+msgstr "Održavanje je uključeno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:277
 msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
-msgstr "Pojavila se greška prilikom kreiranja .maintenance datoteke, molimo vas da ručno napravite datoteku u root mapi"
+msgstr "Došlo je do greške kod stvaranja .maintenance datoteke"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:287
 msgid "Maintenance mode is OFF"
-msgstr "Mod za održavanje je ISKLJUČEN"
+msgstr "Održavanje je  uspješno isključeno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminTools.php:290
 msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
-msgstr "Pojavila se greška prilikom uklanjanja .maintenance datoteke, molimo vas da ručno uklonite datoteku iz root mape"
+msgstr "Došlo je do greške kod uklanjanja .maintenance datoteke"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
 msgid "There was a problem uploading the watermark image"
-msgstr "Pojavio se problem pri prijenosu slike vodenog žiga"
+msgstr "Došlo je do greške kod prijenosa watermark slike"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
 msgid "The watermark image has to be a .PNG file"
-msgstr "Vodeni žig mora biti .PNG"
+msgstr "Watermark slika mora biti u .png formatu"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
 #, php-format
 msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
-msgstr "Ne možete zadati maksimalnu veličinu datoteke veću nego što je dozvoljeno u PHP konfiguraciji: <b>%d KB</b>"
+msgstr "Maksimalna veličina zadana u PHP konfigurafiji je <b>%d KB</b>"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
 msgid "Media config has been updated"
-msgstr "Konfiguracija medija je ažurirana"
+msgstr "Postavke fotografija su uspješno uređene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
 msgid "Re-generation complete"
-msgstr "Ponovno generiranje je završeno"
+msgstr "Fotografije su uspješno regenerirane"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
@@ -700,12 +700,12 @@ msgstr "Ponovno generiranje je završeno"
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
 #, php-format
 msgid "%s already was in the database"
-msgstr "%s već bilo u bazi podataka"
+msgstr "%s već postoji u bazi podataka"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
 #, php-format
 msgid "%s has been added as a new country"
-msgstr "%s je dodano kao nova država"
+msgstr "%s je uspješno dodan kao nova država"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
 msgid "Country name cannot be blank"
@@ -713,17 +713,17 @@ msgstr "Ime države ne može biti prazno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
 msgid "Country has been edited"
-msgstr "Država je uređena/promjenjena"
+msgstr "Država je uspješno uređena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
 msgid "There were some problems editing the country"
-msgstr "Bilo je nekih problema pri uređenju/promjeni države"
+msgstr "Došlo je do pogreške kod uređivanja države"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
 msgid "There was a problem deleting locations"
-msgstr "Pojavio se problem pri brisanju lokacije"
+msgstr "Došlo je do pogreške kod brisanja lokacija"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
 msgid "No country was selected"
@@ -737,13 +737,13 @@ msgstr "Ime regije ne može biti prazno"
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
 #, php-format
 msgid "%s has been added as a new region"
-msgstr "%s je dodano kao nova regija"
+msgstr "%s je uspješno dodan kao nova država"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
 #, php-format
 msgid "%s has been edited"
-msgstr "%s je promjenjeno"
+msgstr "%s je uspješno uređen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
 msgid "No region was selected"
@@ -756,7 +756,7 @@ msgstr "Ime grada ne može biti prazno"
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
 #, php-format
 msgid "%s has been added as a new city"
-msgstr "%s je dodan kao novi grad"
+msgstr "%s je uspješno dodan kao novi grad"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
 msgid "City name cannot be blank"
@@ -768,61 +768,61 @@ msgstr "Nije odabran niti jedan grad"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
 msgid "Location imported successfully"
-msgstr ""
+msgstr "Lokacija je uspješno dodana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
 msgid "There was a problem importing the selected location"
-msgstr ""
+msgstr "Došlo je do greške kod dodavanja lokacije"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
 msgid "Your Akismet key has been cleared"
-msgstr "Aksimet ključ je očišćen"
+msgstr "Aksimet ključ je uspješno uklonjen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
 msgid "Your Akismet key has been updated"
-msgstr "Aksimet ključ je ažuriran"
+msgstr "Aksimet ključ je uspješno uređen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
 msgid "Your reCAPTCHA key has been cleared"
-msgstr "reCAPTCHA ključ je očišćen"
+msgstr "reCAPTCHA ključ je uspješno uklonjen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
 msgid "Your reCAPTCHA key has been updated"
-msgstr "reCAPTCHA ključ je ažuriran"
+msgstr "reCAPTCHA ključ je uspješno uređen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
 msgid "Advanced settings have been updated"
-msgstr "Napredne postavke su ažurirane"
+msgstr "Napredne postavke su uspješno uređene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
 msgid "Cache flushed correctly"
-msgstr ""
+msgstr "Predmemorija je uspješno očišćena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
 msgid "The currency code is not in the correct format"
-msgstr "Valutni kod nije formatiran u skladu sa zahtjevima."
+msgstr "Kod valute je neispravan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
 msgid "Currency added"
-msgstr "Valuta dodana"
+msgstr "Valuta je uspješno dodana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
 msgid "Currency couldn't be added"
-msgstr "Valuta ne može biti dodana"
+msgstr "Došlo je do greške kod dodavanja valute"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
 #, php-format
 msgid "The currency code '%s' doesn't exist"
-msgstr "Valutni kod '%s' ne postoji"
+msgstr "Kod valute '%s' ne postoji"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
 msgid "Error: the currency code is not in the correct format"
-msgstr "Greška: Valutni kod nije formatiran u skladu sa zahtjevima."
+msgstr "Kod valute je neispravan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
 msgid "Currency updated"
-msgstr "Valuta ažurirana"
+msgstr "Valuta je uspješno uređena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
 msgid "No changes were made"
@@ -831,33 +831,33 @@ msgstr "Nisu napravljene nikakve izmjene"
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
 #, php-format
 msgid "%s couldn't be deleted because it has listings associated to it"
-msgstr "%s ne može biti obrisano jer ima vezanih oglasa"
+msgstr "Valuta %s ne može biti obrisana jer postoje oglasi vezani uz nju"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
 #, php-format
 msgid "%s couldn't be deleted because it's the default currency"
-msgstr "%s ne može biti obrisano jer je to zadana valuta"
+msgstr "Valuta %s ne može biti obrisana jer je zadana valuta"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
 msgid "No currencies have been deleted"
-msgstr "Nema obrisanih valuta"
+msgstr "Nijedna valuta nije obrisana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
 msgid "One currency has been deleted"
-msgstr "Jedna valuta je obrisana"
+msgstr "Valuta je uspješno obrisana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
 #, php-format
 msgid "%s currencies have been deleted"
-msgstr "%s valute su obrisane"
+msgstr "%s valute su uspješno obrisane"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
 msgid "Custom number could not be left empty"
-msgstr "Prilagođeni broj ne može ostati prazan"
+msgstr "Prilagođeni broj ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
 msgid "Last search settings have been updated"
-msgstr "Postavke zadnje pretrage su ažurirane"
+msgstr "Postavke posljednjih pretraga su uspješno uređene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
 msgid "Last check"
@@ -865,98 +865,98 @@ msgstr "Zadnja provjera"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:95
 msgid "Page title field is required"
-msgstr "Polje naslova stranice je obavezno"
+msgstr "Naslov stranice ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:98
 msgid "Contact email field is required"
-msgstr "Polje kontakt e-maila je obavezno"
+msgstr "Kontakt email ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:101
 msgid "Number of listings in the RSS has to be a numeric value"
-msgstr "Broj oglasa u RSS-u mora biti numerička vrijednost"
+msgstr "Broj RSS oglasa mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:104
 msgid "Max latest listings has to be a numeric value"
-msgstr "Maksimalan broj zadnjih oglasa mora biti numerička vrijednost"
+msgstr "Broj posljednjih oglasa mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:107
 msgid "Number of listings on search has to be a numeric value"
-msgstr "Broj oglasa u pretrazi mora biti numerička vrijednost"
+msgstr "Broj oglasa u pretrazi mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:133
 msgid "Number of listings in the RSS must be an integer"
-msgstr "Broj oglasa u RSS-u mora biti cijeli broj"
+msgstr "Broj RSS oglasa mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:142
 msgid "Number of recent listings displayed at home must be an integer"
-msgstr "Broj nedavnih oglasa prikazanih na početnoj stranici mora biti cijeli broj"
+msgstr "Broj posljednjih oglasa mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:156
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
 msgid "General settings have been updated"
-msgstr "Opće postavke su ažurirane"
+msgstr "Opće postavke su uspješno uređene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
 msgid "Number of moderate comments must only contain numeric characters"
-msgstr "Broj komentara mora sadržavati samo numeričke znakove"
+msgstr "Broj komentara mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
 msgid "Comments per page must only contain numeric characters"
-msgstr "Broj komentara po stranici mora sadržavati samo numeričke znakove"
+msgstr "Broj komentara po stranici mora biti ispravan broj"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
 msgid "Comment settings have been updated"
-msgstr "Postavke komentara su uažurirane"
+msgstr "Postavke komentara su uspješno uređene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
 msgid "All fields are required."
-msgstr "Sva polja su obavezna"
+msgstr "Sva polja su obavezna."
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
 msgid "Permalinks structure updated"
-msgstr "Struktura permalinkova je ažurirana"
+msgstr "Struktura \"Friendly URL-ova\" je uspješno uređena"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
 msgid "Permalinks structure updated."
-msgstr "Struktura permalinkova je ažurirana."
+msgstr "Struktura \"Friendly URL-ova\" je uspješno uređena."
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
 msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
-msgstr "Kakogod, ne možemo provjeriti da li je Apache modul <b>mod_rewrite</b> učitan. Ako primjetite probleme sa URL-ovima, trebali bi deaktivirati <em>Friendly URLs</em>"
+msgstr "Ne znamo je li Apache dodatak <b>mod_rewrite</b> učitan. Ako primjetite probleme sa poveznicama, trebali bi deaktivirati <em>Friendly URLs</em>"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
 msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
-msgstr "Datoteka <b>.htaccess</b> ne može biti popunjena sa ispravnim sadržajem."
+msgstr "Došlo je do greške kod pisanja u <b>.htaccess</b> datoteku."
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
 msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Evo sadržaj koji trebate dodati u <b>.htaccess</b> datoteku. Ako ne možete napraviti datoteku, molimo vas da deaktivirate <em>Friendly URLs</em> opciju."
+msgstr "Evo sadržaja koji trebate dodati u <b>.htaccess</b> datoteku. Ako ne možete napraviti datoteku, molimo vas da deaktivirate <em>Friendly URLs</em>."
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
 msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Evo sadržaj koji trebate dodati u <b>.htaccess</b> datoteku. Ako ne možete napraviti datoteku ili primjetite probleme sa URL-ovima, molimo vas da deaktivirate <em>Friendly URLs</em> opciju."
+msgstr "Evo sadržaja koji trebate dodati u <b>.htaccess</b> datoteku. Ako ne možete napraviti datoteku, molimo vas da deaktivirate <em>Friendly URLs</em>."
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
 msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr "Datoteka <b>.htaccess</b> već postoji i nije promjenjena."
+msgstr "Datoteka <b>.htaccess</b> već postoji i nije promijenjena."
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
 msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Evo sadržaj koji trebate dodati u <b>.htaccess</b> datoteku. Ako ne možete mijenjati datoteku ili primjetite probleme sa URL-ovima, molimo vas da deaktivirate <em>Friendly URLs</em> opciju."
+msgstr "Evo sadržaja koji trebate dodati u <b>.htaccess</b> datoteku. Ako ne možete napraviti datoteku, molimo vas da deaktivirate <em>Friendly URLs</em>."
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
 msgid "Friendly URLs successfully deactivated"
-msgstr "Friendly URLs uspješno deaktivirani"
+msgstr "\"Friendly URLs\" su uspješno deaktivirani"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
 msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr "Friendly URLs su deaktivirani, ali ne možemo obrisati .htaccess datoteku. Molimo vas da ju ručno uklonite "
+msgstr "\"Friendly URLs\" su deaktivirani, ali je došlo do greške prilikom brisanja .htaccess datoteke. Uklonite ju ručno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
 msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr "Friendly URLs su deaktivirani, ali .htaccess datoteka je bila mijenjana izvan Osclass sustava, stoga nije obrisana "
+msgstr "\"Friendly URLs\" su deaktivirani, ali .htaccess datoteka nije izbrisana jer je uređivana"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
 msgid "Mail server type is incorrect"
@@ -964,30 +964,30 @@ msgstr "Neispravan tip e-mail servera"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
 msgid "Mail server configuration has changed"
-msgstr "Konfiguracija Mail servera je promjenjena"
+msgstr "Postavke mail servera su uspješno uređene"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
 msgid "Email invalid"
-msgstr "Neispravan Email"
+msgstr "Email je neispravan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
 msgid "Username invalid"
-msgstr "Neispravnop korisničko ime"
+msgstr "Korisničko ime je neispravno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
 msgid "Name invalid"
-msgstr "Neispravno ime"
+msgstr "Ime je neispravno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
 msgid "Password invalid"
-msgstr "Neispravna lozinka"
+msgstr "Zaporka je neispravna"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
 msgid "Email already in use"
-msgstr "E mail je već registriran"
+msgstr "Email se već koristii"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
 msgid "Username already in use"
@@ -996,19 +996,19 @@ msgstr "Korisničko ime se već koristi"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
 msgid "Incorrent current password"
-msgstr ""
+msgstr "Trenutna zaporka se ne podudara"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
 msgid "The admin has been added"
-msgstr "Dodan je administrator"
+msgstr "Administrator je uspješno dodan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
 msgid "There has been an error adding a new admin"
-msgstr "Došlo je do greške pri dodavanju administratora"
+msgstr "Došlo je do greške kod dodavanja administratora"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
 msgid "There is no admin with this id"
-msgstr "Ne postoji administrator sa ovim ID-om"
+msgstr "Ovaj administrator ne postoji"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
 msgid "This admin doesn't exist"
@@ -1024,23 +1024,23 @@ msgstr "Postojeće korisničko ime"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
 msgid "The password couldn't be updated. Passwords don't match"
-msgstr "Lozinka ne može biti ažurirana. Lozinke se ne podudaraju"
+msgstr "Zaporke se ne podudaraju"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
 msgid "The admin has been updated"
-msgstr "Administrator je ažuriran"
+msgstr "Administrator je uspješno uređen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
 msgid "The admin id isn't in the correct format"
-msgstr "ID administratora nije u dobrom formatu"
+msgstr "ID administratora je nevaljan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
 msgid "The operation hasn't been completed. You're trying to remove yourself!"
-msgstr "Operacije nije završena. Pokušavete obrisati sami sebe."
+msgstr "Ne možete izbrisati sami sebe!"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
 msgid "The admin has been deleted correctly"
-msgstr "Administrator je obrisan"
+msgstr "Administrator je uspješno obrisan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
 msgid "The admin couldn't be deleted"
@@ -1048,7 +1048,7 @@ msgstr "Administrator ne može biti obrisan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
 msgid "The user has been created. We've sent an activation e-mail"
-msgstr "Korisnik je kreiran. Poslali smo aktivacijski e-mail. NAPOMENA: Provjerite neželjenu poštu (spam)"
+msgstr "Uspješno ste se registrirali. Potvrdite svoj račun klikom na poveznicu u aktivacijskom mailu"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
 msgid "The user has been created successfully"
@@ -1056,11 +1056,11 @@ msgstr "Korisnik je uspješno kreiran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
 msgid "The user has been updated"
-msgstr "Korisnik je ažuriran"
+msgstr "Korisnik je uspješno uređen"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
 msgid "The user has been updated and activated"
-msgstr "Korisnik je ažuriran i aktiviran"
+msgstr "Korisnik je uspješno uređen i aktiviran"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
@@ -1099,7 +1099,7 @@ msgstr "Nije obrisan niti jedan korisnik"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
 msgid "Alert id isn't in the correct format"
-msgstr "ID alarma nije u dobrom formatu"
+msgstr "ID alarma je nevaljan"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
 msgid "No alerts have been deleted"
@@ -1120,113 +1120,113 @@ msgstr "Postavke korisnika su ažurirane"
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
 msgid "Both rules can not be empty"
-msgstr "Oba pravila ne smiju biti prazna"
+msgstr "Unesite barem jedno pravilo zabrane"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
 msgid "Rule updated correctly"
-msgstr "Pravilo ispravno ažurirano"
+msgstr "Pravilo je uspješno uređeno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
 msgid "Rule saved correctly"
-msgstr "Pravilo ispravno spremljeno"
+msgstr "Pravilo je uspješno spremljeno"
 
 #: tmp/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
 msgid "No rules have been deleted"
-msgstr "Nije obrisano niti jedano pravilo"
+msgstr "Nije obrisano niti jedno pravilo"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:39
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:39
 #: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
 #: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:40
 msgid "Users not enabled"
-msgstr "Korisnici nisu omogućeni"
+msgstr "Registracija je onemogućena"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:103
 msgid "Your profile has been updated successfully"
-msgstr "Vaš profil je uspješno ažuriran"
+msgstr "Prom"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:138
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:88
 msgid "The specified e-mail is already in use"
-msgstr "Taj e-mail se već koristi"
+msgstr "Email je zauzet"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:170
 msgid "The specified e-mail is not valid"
-msgstr "Izabrani e-mail nije valjan"
+msgstr "Email je nevaljan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:188
 msgid "The specified username is already in use"
-msgstr "Odabrano korisničko ime se već koristi"
+msgstr "Korisničko ime je zauzeto"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:190
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:99
 msgid "The specified username is not valid, it contains some invalid words"
-msgstr "Izabrano korisničko ime nije valjano, sadrži neispravne znakove"
+msgstr "Korisničko ime sadrži nedopuštene izraze"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:196
 msgid "The username was updated"
-msgstr "Korisničko ime ja ažurirano"
+msgstr "Korisničko ime je uspješno promijenjeno"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:205
 msgid "The specified username could not be empty"
-msgstr "Odabrano korisničko ime ne može biti prazno"
+msgstr "Korisničko ime ne može biti prazno"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:221
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:280
 msgid "Password cannot be blank"
-msgstr "Lozinka ne može biti prazna"
+msgstr "Zaporka ne može biti prazna"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:230
 msgid "Current password doesn't match"
-msgstr "Trenutna lozinka se ne podudara"
+msgstr "Trenutna zaporka se ne podudara"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:235
 msgid "Passwords can't be empty"
-msgstr "Lozinka ne može biti prazna"
+msgstr "Zaporka ne može biti prazna"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:242
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:69
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:307
 msgid "Passwords don't match"
-msgstr "Lozinke se ne podudaraju"
+msgstr "Zaporke se ne podudaraju"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:257
 msgid "Password has been changed"
-msgstr "Lozinka je promijenjena"
+msgstr "Zaporka je uspješno promijenjena"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:296
 #: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
 msgid "Alert activated"
-msgstr "Alarm aktiviran"
+msgstr "Pretraga je uspješno spremljena"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:298
 #: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
 msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
-msgstr "Ups! Došlo je do problema prilikom aktivacije alarma. Molimo vas da kontaktirate administratora"
+msgstr "Došlo je do greške kod spremanja pretrage"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:317
 #: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
 msgid "Unsubscribed correctly"
-msgstr "Odjavili ste predbilježbu"
+msgstr "Pretraga je uspješno izbrisana"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:319
 #: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
 msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
-msgstr "Ups! Došlo je do problema prilikom odjave predbilježbe. Molimo vas da kontaktirate administratora"
+msgstr "Došlo je do greške kod brisanja pretrage"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:349
 msgid "Your account have been deleted"
-msgstr "Vaš korisnički račun je obrisan"
+msgstr "Vaš korisnički račun je uspješno obrisan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:352
 #: tmp/oc-includes/osclass/classes/controller/CWebUser.php:356
 msgid "Oops! you can not do that"
-msgstr "Ups! Ne možete to napraviti"
+msgstr "Nedopuštena radnja"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:72
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:140
 msgid "Only registered users are allowed to post listings"
-msgstr "Samo registrirani korisnici mogu upisivati oglase"
+msgstr "Prijavite se kako bi predali oglas"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:147
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:272
@@ -1235,11 +1235,11 @@ msgstr "Samo registrirani korisnici mogu upisivati oglase"
 #: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
 #: tmp/oc-includes/osclass/classes/controller/CWebContact.php:57
 msgid "The Recaptcha code is wrong"
-msgstr "Recaptcha kod je pogrešan "
+msgstr "reCAPTCHA kod je neispravan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:160
 msgid "A user with that email address already exists, if it is you, please log in"
-msgstr "Korisnik sa tim emailom već postoji. ako ste to vi, molimo da se ulogirate"
+msgstr "Korisnim s navedenim emailom već postoji. Ako ste to vi, prijavite se"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:167
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:550
@@ -1249,7 +1249,7 @@ msgstr "Korisnik sa tim emailom već postoji. ako ste to vi, molimo da se ulogir
 #: tmp/oc-includes/osclass/classes/controller/CWebContact.php:69
 #: tmp/oc-includes/osclass/classes/controller/CWebContact.php:81
 msgid "Your current email is not allowed"
-msgstr "Vaš trenutni email nije dozvoljen"
+msgstr "Korisnički račun je suspendiran"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:170
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:553
@@ -1258,121 +1258,121 @@ msgstr "Vaš trenutni email nije dozvoljen"
 #: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:75
 #: tmp/oc-includes/osclass/classes/controller/CWebContact.php:72
 msgid "Your current IP is not allowed"
-msgstr "Vaša trenutni IP adresa nije dozvoljena"
+msgstr "Korisnički račun je suspendiran"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:188
 msgid "Check your inbox to validate your listing"
-msgstr "Provjerite dolaznu poštu da potvrdite svoj oglas."
+msgstr "Potvrdite oglas klikom na poveznicu u emailu koji vam je poslan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:190
 msgid "Your listing will be published after an admin approves it."
-msgstr ""
+msgstr "Oglas će biti objavljen nakon odobrenja administratora."
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:192
 msgid "Your listing has been published"
-msgstr "Vaš oglas je objavljen"
+msgstr "Oglas je uspješno objavljen"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:228
 msgid "Sorry, we don't have any listings with that ID"
-msgstr "Žao nam je, ne postoji niti jedan oglas sa tim ID-jem"
+msgstr "Ne možemo pronaći ovaj oglas"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:288
 msgid "Your listing will be published after an admin approves the changes."
-msgstr ""
+msgstr "Promjene će biti vidljive nakon odobrenja administratora."
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:290
 msgid "Great! We've just updated your listing"
-msgstr "Bravo! Upravo smo ažurirali vaš oglas"
+msgstr "Oglas je uspješno uređen"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:328
 msgid "The listing has been validated"
-msgstr "Oglas je važeći"
+msgstr "Oglas je uspješno aktiviran"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:330
 msgid "The listing can't be validated"
-msgstr "Oglas ne može postati važeći"
+msgstr "Došlo je do greške kod aktiviranja oglasa"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:333
 msgid "The listing has already been validated"
-msgstr "Oglas je već važeći"
+msgstr "Oglas je već aktiviran"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:352
 msgid "Your listing has been deleted"
-msgstr "vaš oglas je obrisan"
+msgstr "Oglas je uspješno izbrisan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:354
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:362
 msgid "The listing you are trying to delete couldn't be deleted"
-msgstr "Oglas koji pokušavate obrisati ne može se obrisati"
+msgstr "Došlo je do greške kod brisanja oglasa"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:383
 #: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:128
 msgid "The selected photo couldn't be deleted, the url doesn't exist"
-msgstr "Odabrana fotografija ne može biti obrisana, URL ne postoji"
+msgstr "Došlo je do greške kod brisanja fotografije"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:389
 #: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:140
 msgid "The listing doesn't exist"
-msgstr "Oglas ne postoji"
+msgstr "Ne možemo pronaći ovaj oglas"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:395
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:402
 #: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:150
 #: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:161
 msgid "The listing doesn't belong to you"
-msgstr "Oglas ne pripada vama"
+msgstr "Ovo nije vaš oglas, ne možete ga urediti"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:427
 #: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:107
 #: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:203
 msgid "The selected photo has been successfully deleted"
-msgstr "Odabrana fotografija je uspješno obrisana"
+msgstr "Fotografija je uspješno izbrisana"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:429
 #: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:206
 msgid "The selected photo does not belong to you"
-msgstr "Odabrana fotografija ne pripada vama"
+msgstr "Ovo nije vaša fotografija, ne možete ju izbrisati"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:432
 #: tmp/oc-includes/osclass/classes/controller/CWebAjax.php:210
 msgid "The selected photo couldn't be deleted"
-msgstr "Odabrana fotografija ne može biti obrisana"
+msgstr "Došlo je do greške kod brisanja fotografije"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:454
 msgid "Thanks! That's very helpful"
-msgstr "Hvala! Ovo je bilo korisno"
+msgstr "Hvala vam na prijavi"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:499
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:641
 msgid "This listing doesn't exist"
-msgstr "Oglas ne postoji"
+msgstr "Ne možemo pronaći ovaj oglas"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:506
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:559
 msgid "We're sorry, but the listing has expired. You can't contact the seller"
-msgstr "Žao nam je, oglas je istekao. Ne možete kontaktirati oglašivača."
+msgstr "Oglas je istekao, ne možete kontaktirati oglašivača"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:516
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:528
 msgid "You can't contact the seller, only registered users can"
-msgstr "Ne možete kontaktirati oglašivača, samo registrirani korisnici to mogu"
+msgstr "Prijavite se kako bi kontaktirali oglašivača"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:518
 #, php-format
 msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Prijava</a>"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:573
 msgid "We've just sent an e-mail to the seller"
-msgstr "Upravo smo poslali email oglašivaču"
+msgstr "Email je uspješno poslan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:591
 msgid "Sorry, we could not save your comment. Try again later"
-msgstr "Žao nam je, ne možemo spremiti vaš komentar. Pokušajte kasnije"
+msgstr "Došlo je do greške kod spremanja komentara"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:595
 msgid "Your comment is awaiting moderation"
-msgstr "Vaš komentar čeka moderiranje"
+msgstr "Vaš komentar čeka odobrenje administratora"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:599
 msgid "Your comment has been approved"
@@ -1380,11 +1380,11 @@ msgstr "Vaš komentar je odobren"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:603
 msgid "Please fill the required field (email)"
-msgstr "Molimo da ispunite obavezno polje (email)"
+msgstr "Email ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:607
 msgid "Please type a comment"
-msgstr "Molimo upišite komentar"
+msgstr "Komentar ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:611
 msgid "Your comment has been marked as spam"
@@ -1392,43 +1392,43 @@ msgstr "Vaš komentar je označen kao spam"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:615
 msgid "You need to be logged to comment"
-msgstr "Morate se logirati da bi komentirali"
+msgstr "Prijavite se kako bi komentirali"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:619
 msgid "Sorry, comments are disabled"
-msgstr "Žao nam je, komentari su onemogućeni"
+msgstr "Komentari su onemogućeni"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:648
 msgid "You must be logged in to delete a comment"
-msgstr "Morate se logirati da bi obrisali komentar"
+msgstr "Prijavite se kako bi izbrisali komentar"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:656
 msgid "The comment doesn't exist"
-msgstr "Komentar ne postoji"
+msgstr "Ne možemo pronaći ovaj komentar"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:661
 msgid "The comment is not active, you cannot delete it"
-msgstr "Komentar nije aktivan, ne možete ga obrisati"
+msgstr "Komentar je neaktivan, ne možete ga izbrisati"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:666
 msgid "The comment was not added by you, you cannot delete it"
-msgstr "Komentar niste vi dodali, ne možete ga obrisati"
+msgstr "Ovo nije vaš komentar, ne možete ga izbrisati"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:702
 msgid "The listing hasn't been validated. Please validate it in order to make it public"
-msgstr "Oglas nije potvrđen. Molimo vas da potvrdite oglas da bi ga mogli objaviti javno"
+msgstr "Aktivirajte oglas kako bi bio vidljiv drugim korisnicima"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:712
 msgid "The listing hasn't been enabled. Please enable it in order to make it public"
-msgstr "Oglas nije omogućen. Molimo vas da omogućite oglas da bi ga mogli objaviti javno"
+msgstr "Aktivirajte oglas kako bi bio vidljiv drugim korisnicima"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebItem.php:718
 msgid "The listing has been blocked or is awaiting moderation from the admin"
-msgstr ""
+msgstr "Oglas je blokiran ili čeka odobrenje administratora"
 
 #: tmp/oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:70
 msgid "Thank you very much for your donation"
-msgstr "Hvala vam za vaš dobrovoljni prilog"
+msgstr "Hvala vam na donaciji"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:51
 #: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:64
@@ -1437,105 +1437,105 @@ msgstr "Korisnici nisu omogućeni"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:62
 msgid "Please provide an email address"
-msgstr ""
+msgstr "Email ne može biti prazan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:66
 msgid "Empty passwords are not allowed. Please provide a password"
-msgstr ""
+msgstr "Zaporka ne može biti prazna"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:80
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:157
 msgid "The user doesn't exist"
-msgstr "Korisnik ne postoji"
+msgstr "Korisnički račun ne postoji"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:104
 msgid "The password is incorrect"
-msgstr "Lozinka nije točna"
+msgstr "Zaporka je netočna"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:161
 #, php-format
 msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
-msgstr "Korisnik još nije potvrđen. Želite li da vam ponovo pošaljemo email za <a href=\"%s\">activaciju?</a>"
+msgstr "Korisnički račun još nije aktiviran. Želite li da <a href=\"%s\">ponovo pošaljemo</a> aktivacijski email?"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:165
 msgid "The user has not been validated yet"
-msgstr "Korisnik još nije potvrđen"
+msgstr "Korisnički račun još nije aktiviran"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:168
 msgid "The user has been suspended"
-msgstr "Korisnik je suspendiran"
+msgstr "Korisnički račun je suspendiran"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:197
 msgid "This should never happen"
-msgstr "Ovo se nikad ne bi trebalo dogoditi"
+msgstr "Nepoznata greška"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:213
 msgid "Incorrect link"
-msgstr "Notečan link"
+msgstr "Neispravna poveznica"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:227
 msgid "Validation email re-sent"
-msgstr "Email za potvrđivanje je ponovo poslan"
+msgstr "Aktivacijski email je ponovno poslan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:229
 msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
-msgstr "Upravo smo vam poslali email da potvrdite vaš korisnički račun, trebate pričekati nekoliko minuta da bi ga mogli ponovo zatražiti."
+msgstr "Email za aktivaciju je već poslan. Pričekajte nekoliko minuta kako bi ga ponovno zatražili"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:243
 msgid "Invalid email address"
-msgstr "Neispravna "
+msgstr "Neispravna email adresa"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:252
 msgid "We have sent you an email with the instructions to reset your password"
-msgstr "Poslali smo vam email sa uputstvima za obnovu lozinke"
+msgstr "Poslali smo vam email s uputama za promjenu zaporke"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:256
 msgid "We were not able to identify you given the information provided"
-msgstr "Nismo u mogućnosti da vas identificiramo sa danim informacijama."
+msgstr "Ne možemo vas identificirati"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:260
 msgid "The recaptcha code is wrong"
-msgstr "Recaptcha kod je pogrešan"
+msgstr "reCAPTCHA kod je neispravan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebLogin.php:312
 msgid "Error, the password don't match"
-msgstr "Greška, lozinka se ne podudara"
+msgstr "Zaporke se ne podudaraju"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
 msgid "Your email has been changed successfully"
-msgstr "Vaš email je uspješno promijenjen"
+msgstr "Email je uspješno promijenjen"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
 msgid "Your email has been sent properly."
-msgstr "Vaš email je poslan pravilno."
+msgstr "Email je uspješno poslan."
 
 #: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:45
 msgid "User registration is not enabled"
-msgstr "Registracija korisnika je onemogućena"
+msgstr "Registracija je onemogućena"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:82
 msgid "The user has been created. An activation email has been sent"
-msgstr "Korisnik je kreiran. Poslali smo aktivacijski e-mail. NAPOMENA: Provjerite neželjenu poštu (spam)"
+msgstr "Uspješno ste se registrirali. Potvrdite svoj račun klikom na poveznicu u aktivacijskom mailu"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:85
 msgid "Your account has been created successfully"
-msgstr "Korisnik je uspješno kreiran"
+msgstr "Uspješno ste se registrirali"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:103
 msgid "The link is not valid anymore. Sorry for the inconvenience!"
-msgstr "Link više nije dobar. Žao nam je zbog neugodnosti!"
+msgstr "Poveznica je istekla!"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:108
 msgid "Your account has already been validated"
-msgstr "Vaš korisnički račun je već potvrđen"
+msgstr "Korisnički račun je već aktivan"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:129
 msgid "Your account has been validated"
-msgstr "Vaš korisnički račun je potvrđen"
+msgstr "Korisnički račun je uspješno aktiviran"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebRegister.php:131
 msgid "Account validation failed"
-msgstr ""
+msgstr "Došlo je do greške kod aktivacije računa"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebContact.php:86
 msgid "Please enter a correct email"
@@ -1548,12 +1548,12 @@ msgstr "Pokušavate prenijeti datoteku sa nedozvoljenom ekstenzijom"
 
 #: tmp/oc-includes/osclass/classes/controller/CWebContact.php:182
 msgid "Your email has been sent properly. Thank you for contacting us!"
-msgstr "Vaš email je ispravno poslan. Hvala što ste nas kontaktirali!"
+msgstr "Email je uspješno poslan. Hvala vam što ste nas kontaktirali!"
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:118
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:664
 msgid "Image with an incorrect extension."
-msgstr "Slika sa neispravnom ekstenzijom."
+msgstr "Format fotografije ne nevaljan."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:121
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:667
@@ -1563,148 +1563,148 @@ msgstr "Slika je prevelika. Maksimalna veličina"
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:131
 #, php-format
 msgid "Title too short (%s)."
-msgstr "Naslov prekratak (%s)."
+msgstr "Naslov je prekratak (%s)."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:133
 #, php-format
 msgid "Title too long (%s)."
-msgstr "Naslov predugačak (%s)."
+msgstr "Naslov je predugačak (%s)."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:144
 #, php-format
 msgid "Description too short (%s)."
-msgstr "Opis prekratak (%s)."
+msgstr "Opis je prekratak (%s)."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:147
 #, php-format
 msgid "Description too long (%s)."
-msgstr "Opis predugačak (%s)."
+msgstr "Opis je predugačak (%s)."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:156
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:696
 msgid "Category invalid."
-msgstr "Neispravna kategorija."
+msgstr "Kategorija je neispravna."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:157
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:697
 msgid "Price must be a number."
-msgstr "Cijena mora biti broj."
+msgstr "Cijena mora biti ispravan broj."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:159
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:699
 msgid "Price too long."
-msgstr "Cijena predugačka."
+msgstr "Cijena je predugačka."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:162
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:702
 msgid "Price must be positive number."
-msgstr "Cijena mora biti pozitivan broj."
+msgstr "Cijena je nevaljana."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:163
 msgid "Name too long."
-msgstr "Ime predugačko."
+msgstr "Ime je predugačko."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:164
 msgid "Email invalid."
-msgstr "Neispravan email."
+msgstr "Email je nevaljan."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:165
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:727
 msgid "Phone invalid."
-msgstr ""
+msgstr "Broj mobitela je nevaljan."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:167
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:704
 msgid "Country too short."
-msgstr "Država prekratka."
+msgstr "Država je prekratka."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:169
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:707
 msgid "Country too long."
-msgstr "Država predugačka."
+msgstr "Država je predugačka."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:171
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:709
 msgid "Region too short."
-msgstr "Regija prekratka."
+msgstr "Regija je prekratka."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:173
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:712
 msgid "Region too long."
-msgstr "Regija predugačka."
+msgstr "Regija je predugačka."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:175
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:714
 msgid "City too short."
-msgstr "Grad prekratak."
+msgstr "Grad je prekratak."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:176
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:716
 msgid "City too long."
-msgstr "Grad predugačak."
+msgstr "Grad je predugačak."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:178
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:718
 msgid "Municipality too short."
-msgstr "Općina predugačka."
+msgstr "Općina je predugačka."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:180
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:721
 msgid "Municipality too long."
-msgstr "Općina prekratka."
+msgstr "Općina je prekratka."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:182
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:723
 msgid "Address too short."
-msgstr "Adresa prekratka."
+msgstr "Adresa je prekratka."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:184
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:726
 msgid "Address too long."
-msgstr "Adresa predugačka."
+msgstr "Adresa je predugačka."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:187
 msgid "Too fast. You should wait a little to publish your ad."
-msgstr "Prebrzo. Trebate malo pričekati prije objave oglasa."
+msgstr "Predajete oglase prebrzo."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:205
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:740
 #, php-format
 msgid "%s field is required."
-msgstr "&s polje je obavezno."
+msgstr "%s ne može biti prazno."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:431
 msgid "One of the files you tried to upload exceeds the maximum size"
-msgstr "Jedna od datoteka koje pokušavate prenijeti je prekoračila maksimalnu veličinu"
+msgstr "Jedna od prenesenih datoteka je prevelika"
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:677
 msgid "Title too short."
-msgstr "Naslov prekratak."
+msgstr "Naslov je prekratak."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:678
 msgid "Title too long."
-msgstr "Naslov predugačak."
+msgstr "Naslov je predugačak."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:690
 msgid "Description too short."
-msgstr "Opis prekratak"
+msgstr "Opis je prekratak."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:692
 msgid "Description too long."
-msgstr "Opis predugačak."
+msgstr "Opis je predugačak."
 
 #: tmp/oc-includes/osclass/classes/actions/ItemActions.php:1275
 #, php-format
 msgid "We just sent your message to %s"
-msgstr "Upravo smo poslali poruku za %s"
+msgstr "Vaša poruka je uspješno poslana %s"
 
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:59
 msgid "The reCAPTCHA was not entered correctly"
-msgstr "Recaptcha kod nije ispravno unešen"
+msgstr "reCAPTCHA kod je neispravan"
 
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:64
 msgid "The password cannot be empty"
-msgstr "Lozinka ne može biti prazna"
+msgstr "Zaporka ne može biti prazna"
 
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:76
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:300
@@ -1713,34 +1713,34 @@ msgstr "Ime ne može biti prazno"
 
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:81
 msgid "The email is not valid"
-msgstr "Neispravan Email"
+msgstr "Email je nevaljan"
 
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:95
 msgid "Username is already taken"
-msgstr "Korisničko ime je već zauzeto"
+msgstr "Korisničko ime je zauzeto"
 
 #: tmp/oc-includes/osclass/classes/actions/UserActions.php:293
 #, php-format
 msgid "The specified e-mail is already used by %s"
-msgstr ""
+msgstr "Navedeni email već koristi %s"
 
 #: tmp/oc-includes/osclass/classes/Csrf.php:170
 msgid "Probable invalid request."
-msgstr "Vjerovatno krivi zahtjev"
+msgstr "Nevaljani zahtjev."
 
 #: tmp/oc-includes/osclass/classes/Csrf.php:173
 msgid "Invalid CSRF token."
-msgstr "Krivi CSRF token"
+msgstr "CSRF token je neispravan."
 
 #: tmp/oc-includes/osclass/emails.php:861
 msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
-msgstr "Poslali smo vam email ali nije prošao. Slijedite upute da potvrdite promjene."
+msgstr "Slijedite upute u emailu koji smo vam upravo poslali"
 
 #: tmp/oc-includes/osclass/emails.php:864
 msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
-msgstr "Poslali smo vam email ali nije prošao. Molimo vas da kontaktirate administratora"
+msgstr "Došlo je do greške kod slanja emaila. Kontaktirajte vlasnika stranice"
 
 #: tmp/oc-includes/osclass/emails.php:1122
 msgid "There has been some errors sending the message"
-msgstr "Bilo je grešaka kod slanja poruke"
+msgstr "Došlo je do pogreške kod slanja poruke"
 
