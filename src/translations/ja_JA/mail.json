@@ -1,115 +1,137 @@
 {
-  "language": "ja_JP",
-  "template": [
-    {
-      "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - あなたのリスティングに関する質問があります",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "2",
-      "s_title": "{WEB_TITLE} アカウントを認証してください",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - 登録が完了しました！",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You've successfully registered for {WEB_LINK}.</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "4",
-      "s_title": "{WEB_TITLE} で発見したことを見てください",
-      "s_description": "<p>Hi {FRIEND_NAME},</p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
-    },
-    {
-      "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - 過去1時間以内の新規リスト",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - 最終日に新しい一覧",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - 先週の新規リスト",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - 新しい一覧",
-      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - 新しいコメント",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p>"
-    },
-    {
-      "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - {ITEM_TITLE} のオプションを編集",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> for a short period of time.</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>If you register as a user, you will have full access to editing options.</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - リスティングを検証する",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - 新しい商品が公開されました",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a listing has been published at {WEB_LINK}.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - パスワードを回復する",
-      "s_description": "<p>Hi {USER_NAME},</p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}</p><p>The link will be deactivated in 24 hours.</p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - メールアドレスの変更をリクエストしました",
-      "s_description": "<p>Hi {USER_NAME}</p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - 警告を確認してください",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - あなたのコメントが承認されました",
-      "s_description": "<p>Hi {COMMENT_AUTHOR},</p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> has been approved.</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - リスティングを検証する",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - 新しいユーザーが登録されました",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - あなたに質問があります",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - 誰かがあなたのリスティングにコメントしました",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Author: {COMMENT_AUTHOR}<br />Author's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - 管理者アカウントの作成に成功！",
-      "s_description": "<p>Hi {ADMIN_NAME},</p><p>The admin of {WEB_LINK} has created an account for you,</p><ul><li>Username: {USERNAME}</li><li>Password: {PASSWORD}</li></ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.</p><p>Thank you!</p><p>Regards,</p>"
-    },
-    {
-      "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - あなたの広告はもうすぐ期限切れです",
-      "s_description": "<p>こんにちは {USER_NAME}、</p><p>あなたのリスティング <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> は {WEB_LINK} で期限切れになります。"
-    }
-  ]
+    "language": "ja_JA",
+    "template": [
+        {
+            "fk_i_page_id": 1,
+            "s_internal_name": "email_item_inquiry",
+            "s_title": "{WEB_TITLE} - あなたの広告に関して質問が寄せられています",
+            "s_description": "<p>こんにちわ {CONTACT_NAME}さん!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) があなたの広告<a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>に関してメッセージを残しています。:<\/p><p>{COMMENT}<\/p><p>よろしくお願いします。<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 2,
+            "s_internal_name": "email_user_validation",
+            "s_title": "あなたの{WEB_TITLE} アカウントの認証をしてください。",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>こちらのリンクをクリックしてアカウントを認証してください: {VALIDATION_LINK}<\/p><p>ありがとうございました!<\/p><p>よろしくお願いします。<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 3,
+            "s_internal_name": "email_user_registration",
+            "s_title": "{WEB_TITLE} - 登録に成功しました",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 4,
+            "s_internal_name": "email_send_friend",
+            "s_title": "{WEB_TITLE}でこんなものを見つけましたので、ぜひご覧ください。",
+            "s_description": "<p>こんにちわ、 {FRIEND_NAME}さん,<\/p><p>あなたの友達である {USER_NAME} さんがこちらの広告をシェアしました。 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>本文:<\/p><p>{COMMENT}<\/p><p>よろしくお願いします。<\/p><p>{WEB_TITLE}<\/p>"
+        },
+        {
+            "fk_i_page_id": 5,
+            "s_internal_name": "alert_email_hourly",
+            "s_title": "{WEB_TITLE} - 新規広告 in the last hour",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>新しい広告が直近1時間の間に公開されました。確認はこちらから。:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>通知機能をオフにするには、こちらのリンクをクリックしてください。: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 6,
+            "s_internal_name": "alert_email_daily",
+            "s_title": "{WEB_TITLE} - 新規広告 in the last day",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>新しい広告が前の日に公開されました。確認はこちらから。:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>通知機能をオフにするには、こちらのリンクをクリックしてください。: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 7,
+            "s_internal_name": "alert_email_weekly",
+            "s_title": "{WEB_TITLE} - 新規広告 in the last week",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>新しい広告が前の週に公開されました。確認はこちらから。:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>通知機能をオフにするには、こちらのリンクをクリックしてください。: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 8,
+            "s_internal_name": "alert_email_instant",
+            "s_title": "{WEB_TITLE} - 新規広告",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>新しい広告が公開されました。確認はこちらから。:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>通知機能をオフにするには、こちらのリンクをクリックしてください。: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 9,
+            "s_internal_name": "email_new_comment_admin",
+            "s_title": "{WEB_TITLE} - 新規コメント",
+            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+        },
+        {
+            "fk_i_page_id": 10,
+            "s_internal_name": "email_new_item_non_register_user",
+            "s_title": "{WEB_TITLE} - 広告{ITEM_TITLE}の編集オプション",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 11,
+            "s_internal_name": "email_item_validation",
+            "s_title": "広告を認証してください",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 12,
+            "s_internal_name": "email_admin_new_item",
+            "s_title": "{WEB_TITLE} - 新しい広告が公開されました",
+            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 13,
+            "s_internal_name": "email_user_forgot_password",
+            "s_title": "{WEB_TITLE} - パスワードを復旧する",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 14,
+            "s_internal_name": "email_new_email",
+            "s_title": "{WEB_TITLE} - メールアドレスの変更リクエストがありました",
+            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 15,
+            "s_internal_name": "email_alert_validation",
+            "s_title": "{WEB_TITLE} - アラートを認証してください",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>こちらのリンクをクリックして、アラート登録の認証を行ってください: {VALIDATION_LINK}<\/p><p>ありがとうございます!<\/p><p>よろしくお願いいたします。<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 16,
+            "s_internal_name": "email_comment_validated",
+            "s_title": "{WEB_TITLE} - コメントが承認されました",
+            "s_description": "<p>こんにちわ、 {COMMENT_AUTHOR}さん。<\/p><p>広告 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> に対するコメントが承認されました。<\/p><p>よろしくお願いします。<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 17,
+            "s_internal_name": "email_item_validation_non_register_user",
+            "s_title": "広告を認証してください",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 18,
+            "s_internal_name": "email_admin_new_user",
+            "s_title": "{WEB_TITLE} - 新しいユーザーの登録がありました",
+            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 19,
+            "s_internal_name": "email_contact_user",
+            "s_title": "{WEB_TITLE} - 質問が寄せられています",
+            "s_description": "<p>こんにちわ、 {CONTACT_NAME}さん!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) からのメッセージがあります。:<\/p><p>{COMMENT}<\/p><p>よろしくお願いします。<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 20,
+            "s_internal_name": "email_new_comment_user",
+            "s_title": "{WEB_TITLE} - あなたの広告に関してコメントがつけられました",
+            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 21,
+            "s_internal_name": "email_new_admin",
+            "s_title": "{WEB_TITLE} - 管理者アカウントを作成しました！",
+            "s_description": "<p>こんにちわ、{ADMIN_NAME}、<\/p><p>{WEB_LINK}の管理者があなた用のアカウントを作成しました。<\/p><ul><li>ユーザー名: {USERNAME}<\/li><li>パスワード: {PASSWORD}<\/li><\/ul><p>管理パネルへのアクセスはこちらから。{WEB_ADMIN_LINK}.<\/p><p>ありがとうございました!<\/p><p>よろしくお願いします。<\/p>"
+        },
+        {
+            "fk_i_page_id": 22,
+            "s_internal_name": "email_warn_expiration",
+            "s_title": "{WEB_TITLE} - 広告はまもなく期限が切れます",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>あなたの広告 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> はまもなく掲載期限を向かえます。こちらから確認してください。 {WEB_LINK}."
+        }
+    ]
 }
