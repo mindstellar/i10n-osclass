@@ -1,115 +1,137 @@
 {
-  "language": "ca_ES",
-  "template": [
-    {
-      "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - Someone has a question about your listing",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "2",
-      "s_title": "Please validate your {WEB_TITLE} account",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - Registration successful!",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You've successfully registered for {WEB_LINK}.</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "4",
-      "s_title": "Look at what I discovered on {WEB_TITLE}",
-      "s_description": "<p>Hi {FRIEND_NAME},</p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
-    },
-    {
-      "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - New listings in the last hour",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - New listings in the last day",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - New listings in the last week",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - New listings",
-      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - New comment",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p>"
-    },
-    {
-      "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - Edit options for the listing {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> for a short period of time.</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>If you register as a user, you will have full access to editing options.</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - A new listing has been published",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a listing has been published at {WEB_LINK}.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - Recover your password",
-      "s_description": "<p>Hi {USER_NAME},</p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}</p><p>The link will be deactivated in 24 hours.</p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - You requested an email change",
-      "s_description": "<p>Hi {USER_NAME}</p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - Please validate your alert",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - Your comment has been approved",
-      "s_description": "<p>Hi {COMMENT_AUTHOR},</p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> has been approved.</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - A new user has registered",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - Someone has a question for you",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - Someone has commented on your listing",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Author: {COMMENT_AUTHOR}<br />Author's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - Success creating admin account!",
-      "s_description": "<p>Hi {ADMIN_NAME},</p><p>The admin of {WEB_LINK} has created an account for you,</p><ul><li>Username: {USERNAME}</li><li>Password: {PASSWORD}</li></ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.</p><p>Thank you!</p><p>Regards,</p>"
-    },
-    {
-      "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - Your ad is about to expire",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> is about to expire at {WEB_LINK}."
-    }
-  ]
+    "language": "ca_ES",
+    "template": [
+        {
+            "fk_i_page_id": 1,
+            "s_internal_name": "email_item_inquiry",
+            "s_title": "{WEB_TITLE} - Alg\u00fa t\u00e9 una pregunta sobre el teu anunci",
+            "s_description": "<p>Hola, {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) t'ha deixat un missatge sobre el teu anunci <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 2,
+            "s_internal_name": "email_user_validation",
+            "s_title": "Si us plau, confirma el teu compte de {WEB_TITLE}",
+            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>Si us plau, valida el teu registre fent clic a l'enlla\u00e7 seg\u00fcent: {VALIDATION_LINK}<\/p><p>Gr\u00e0cies!<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 3,
+            "s_internal_name": "email_user_registration",
+            "s_title": "{WEB_TITLE} - T'has registrat correctament!",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 4,
+            "s_internal_name": "email_send_friend",
+            "s_title": "Mira qu\u00e8 he descobert a {WEB_TITLE}",
+            "s_description": "<p>Hola, {FRIEND_NAME}!<\/p><p>El teu amic {USER_NAME} vol compartir aquest anunci amb tu <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Missatge:<\/p><p>{COMMENT}<\/p><p>Salutacions,<\/p><p>{WEB_TITLE}<\/p>"
+        },
+        {
+            "fk_i_page_id": 5,
+            "s_internal_name": "alert_email_hourly",
+            "s_title": "{WEB_TITLE} - Nous anuncis in the last hour",
+            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'han publicat nous anuncis al llarg de l'\u00faltima hora. D\u00f3na'ls un cop d'ull:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aqu\u00ed:{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 6,
+            "s_internal_name": "alert_email_daily",
+            "s_title": "{WEB_TITLE} - Nous anuncis in the last day",
+            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'han publicat nous anuncis al llarg d'ahir. D\u00f3na'ls un cop d'ull:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aqu\u00ed:{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 7,
+            "s_internal_name": "alert_email_weekly",
+            "s_title": "{WEB_TITLE} - Nous anuncis in the last week",
+            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'han publicat nous anuncis al llarg d'aquesta setmana. D\u00f3na'ls un cop d'ull:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aqu\u00ed: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 8,
+            "s_internal_name": "alert_email_instant",
+            "s_title": "{WEB_TITLE} - Nous anuncis",
+            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'ha publicat un nou anunci, d\u00f3na-li un cop d'ull!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aqu\u00ed: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 9,
+            "s_internal_name": "email_new_comment_admin",
+            "s_title": "{WEB_TITLE} - Nou comentari",
+            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+        },
+        {
+            "fk_i_page_id": 10,
+            "s_internal_name": "email_new_item_non_register_user",
+            "s_title": "{WEB_TITLE} - Edita les opcions de l'anunci {ITEM_TITLE}",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 11,
+            "s_internal_name": "email_item_validation",
+            "s_title": "{WEB_TITLE} - Confirma el teu anunci",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 12,
+            "s_internal_name": "email_admin_new_item",
+            "s_title": "{WEB_TITLE} - S'ha publicat un nou anunci",
+            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 13,
+            "s_internal_name": "email_user_forgot_password",
+            "s_title": "{WEB_TITLE} - Recupera la teva contrasenya",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 14,
+            "s_internal_name": "email_new_email",
+            "s_title": "{WEB_TITLE} - Has sol\u00b7licitat un canvi d'adre\u00e7a de correu electr\u00f2nic",
+            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 15,
+            "s_internal_name": "email_alert_validation",
+            "s_title": "{WEB_TITLE} - Si us plau, confirma el teu av\u00eds",
+            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>Si us plau, confirma el teu registre a les alertes fent clic a l'enlla\u00e7 seg\u00fcent: {VALIDATION_LINK}<\/p><p>Gr\u00e0cies!<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 16,
+            "s_internal_name": "email_comment_validated",
+            "s_title": "{WEB_TITLE} - El teu comentari ha estat acceptat",
+            "s_description": "<p>Hola, {COMMENT_AUTHOR}!<\/p><p>El teu comentari a <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> ha estat aprovat.<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 17,
+            "s_internal_name": "email_item_validation_non_register_user",
+            "s_title": "{WEB_TITLE} - Confirma el teu anunci",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 18,
+            "s_internal_name": "email_admin_new_user",
+            "s_title": "{WEB_TITLE} - Un nou usuari s'ha registrat",
+            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 19,
+            "s_internal_name": "email_contact_user",
+            "s_title": "{WEB_TITLE} - Alg\u00fa t\u00e9 una pregunta per a tu",
+            "s_description": "<p>Hola, {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) t'ha deixat un missatge:<\/p><p>{COMMENT}<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 20,
+            "s_internal_name": "email_new_comment_user",
+            "s_title": "{WEB_TITLE} - Alg\u00fa ha comentat el teu anunci",
+            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 21,
+            "s_internal_name": "email_new_admin",
+            "s_title": "{WEB_TITLE} - Compte d'administrador creat amb \u00e8xit!",
+            "s_description": "<p>Hola, {ADMIN_NAME}!<\/p><p>L'administrador de {WEB_LINK} ha creat un compte per a tu,<\/p><ul><li>Nom d'usuari: {USERNAME}<\/li><li>Contrasenya: {PASSWORD}<\/li><\/ul><p>Pots accedir al tauler d'administraci\u00f3 aqu\u00ed {WEB_ADMIN_LINK}.<\/p><p>Gr\u00e0cies!<\/p><p>Salutacions,<\/p>"
+        },
+        {
+            "fk_i_page_id": 22,
+            "s_internal_name": "email_warn_expiration",
+            "s_title": "{WEB_TITLE} - El teu anunci est\u00e0 a punt de caducar",
+            "s_description": "<p>Hola, {USER_NAME}! <\/p><p>El teu anunci <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> est\u00e0 a punt de caducar a {WEB_LINK}."
+        }
+    ]
 }

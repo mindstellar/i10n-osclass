@@ -1,115 +1,137 @@
 {
-  "language": "el_US",
-  "template": [
-    {
-      "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - Κάποιος έχει μια ερώτηση σχετικά με την καταχώρισή σας",
-      "s_description": "<p>Γεια σας {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) σας άφησε ένα μήνυμα σχετικά με την καταχώρισή σας <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Χαιρετισμούς,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "2",
-      "s_title": "Παρακαλώ επικυρώστε τον λογαριασμό {WEB_TITLE} σας",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Παρακαλώ επικυρώστε την εγγραφή σας κάνοντας κλικ στον παρακάτω σύνδεσμο: {VALIDATION_LINK}</p><p>Ευχαριστούμε!</p><p>Χαιρετισμούς,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - Επιτυχής εγγραφή!",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Έχετε εγγραφεί με επιτυχία για {WEB_LINK}.</p><p>Ευχαριστούμε!</p><p>Χαιρετισμούς,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "4",
-      "s_title": "Κοιτάξτε τι ανακάλυψα στο {WEB_TITLE}",
-      "s_description": "<p>Γεια σας {FRIEND_NAME},</p><p>Ο φίλος σας {USER_NAME} θέλει να μοιραστεί αυτή την καταχώρηση με εσάς <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Μήνυμα:</p><p>{COMMENT}</p><p>Χαιρετισμούς,</p><p>{WEB_TITLE}</p>"
-    },
-    {
-      "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - Νέες καταχωρήσεις την τελευταία ώρα",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Νέες καταχωρήσεις έχουν δημοσιευθεί την τελευταία ώρα. Ρίξτε μια ματιά σε αυτά:</p><p>{ADS}</p><p>-------------</p><p>Για να διαγραφείτε από αυτήν την ειδοποίηση, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - Νέες καταχωρήσεις την τελευταία μέρα",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Νέες καταχωρήσεις έχουν δημοσιευθεί την τελευταία ημέρα. Ρίξτε μια ματιά σε αυτά:</p><p>{ADS}</p><p>-------------</p><p>Για να διαγραφείτε από αυτήν την ειδοποίηση, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - Νέες καταχωρήσεις την προηγούμενη εβδομάδα",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Νέες καταχωρήσεις έχουν δημοσιευθεί την τελευταία εβδομάδα. Ρίξτε μια ματιά σε αυτά:</p><p>{ADS}</p><p>-------------</p><p>Για να διαγραφείτε από αυτήν την ειδοποίηση, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - Νέες καταχωρήσεις",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Μια νέα καταχώρηση έχει δημοσιευτεί, ελέγξτε το!</p><p>{ADS}</p><p>-------------</p><p>Για να διαγραφείτε από αυτή την ειδοποίηση, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - Νέο σχόλιο",
-      "s_description": "<p>Κάποιος σχολίασε την καταχώρηση <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Σχόλιο: {COMMENT_AUTHOR}<br />Email του σχολιαστή: {COMMENT_EMAIL}<br />Τίτλος: {COMMENT_TITLE}<br />Σχόλιο: {COMMENT_TEXT}</p>"
-    },
-    {
-      "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - Επιλογές επεξεργασίας για την καταχώρηση {ITEM_TITLE}",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Δεν έχετε εγγραφεί στο {WEB_LINK}, αλλά μπορείτε ακόμα να επεξεργαστείτε ή να διαγράψετε την καταχώρηση <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> για σύντομο χρονικό διάστημα.</p><p>Μπορείτε να επεξεργαστείτε την καταχώρισή σας ακολουθώντας αυτόν τον σύνδεσμο: {EDIT_LINK}</p><p>Μπορείτε να διαγράψετε την καταχώρισή σας ακολουθώντας αυτόν τον σύνδεσμο: {DELETE_LINK}</p><p>Αν εγγραφείτε ως χρήστης, θα έχετε πλήρη πρόσβαση στις επιλογές επεξεργασίας.</p><p>Χαιρετισμούς,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - Επικυρώστε την καταχώρησή σας",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Λαμβάνετε αυτό το e-mail επειδή μια καταχώρηση έχει δημοσιευθεί στις {WEB_LINK}. Παρακαλώ επικυρώστε αυτή την καταχώρηση κάνοντας κλικ στον παρακάτω σύνδεσμο: {VALIDATION_LINK}. Αν δεν δημοσιεύσατε αυτήν την καταχώρηση, παρακαλούμε αγνοήστε αυτό το email.</p><p>Λεπτομέρειες καταχώρησης:</p><p>Όνομα επαφής: {USER_NAME}<br />E-mail επικοινωνίας: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Αναφορές,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - Μια νέα καταχώρηση έχει δημοσιευθεί",
-      "s_description": "<p>Αγαπητέ {WEB_TITLE} διαχειριστή,</p><p>Λαμβάνετε αυτό το email επειδή μια καταχώρηση έχει δημοσιευθεί στις {WEB_LINK}.</p><p>Λεπτομέρειες καταχώρησης:</p><p>Όνομα επαφής: {USER_NAME}<br />Μήνυμα επικοινωνίας: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Μπορείτε να επεξεργαστείτε αυτήν την καταχώρηση κάνοντας κλικ στον παρακάτω σύνδεσμο: {EDIT_LINK}</p><p>Σχετικά με:</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - Ανάκτηση κωδικού πρόσβασης",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Σας στείλαμε αυτό το e-mail επειδή ζητήσατε υπενθύμιση κωδικού πρόσβασης. Ακολουθήστε αυτόν τον σύνδεσμο για να τον ανακτήσετε: {PASSWORD_LINK}</p><p>Ο σύνδεσμος θα απενεργοποιηθεί σε 24 ώρες.</p><p>Αν δεν ζητήσατε υπενθύμιση κωδικού πρόσβασης, παρακαλούμε αγνοήστε αυτό το μήνυμα. Αυτό το αίτημα έγινε από την IP {IP_ADDRESS} στις {DATE_TIME}</p><p>Αναφορές,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - Ζητήσατε αλλαγή email",
-      "s_description": "<p>Γεια σας {USER_NAME}</p><p>Λαμβάνετε αυτό το e-mail επειδή ζητήσατε αλλαγή ηλεκτρονικού ταχυδρομείου. Παρακαλώ επιβεβαιώστε αυτή τη νέα διεύθυνση ηλεκτρονικού ταχυδρομείου κάνοντας κλικ στον παρακάτω σύνδεσμο επικύρωσης: {VALIDATION_LINK}</p><p></p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - Παρακαλώ επικυρώστε την ειδοποίησή σας",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Παρακαλώ επικυρώστε την εγγραφή σας κάνοντας κλικ στον παρακάτω σύνδεσμο: {VALIDATION_LINK}</p><p>Ευχαριστούμε!</p><p>Χαιρετισμούς,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - Το σχόλιό σας έχει εγκριθεί",
-      "s_description": "<p>Γεια σας {COMMENT_AUTHOR},</p><p>Το σχόλιό σας στο <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> έχει εγκριθεί.</p><p>Αναφορικά,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - Επικυρώστε την καταχώρησή σας",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Λαμβάνετε αυτό το e-mail επειδή έχετε δημοσιεύσει μια καταχώρηση στο {WEB_LINK}. Παρακαλώ επικυρώστε αυτή την καταχώρηση κάνοντας κλικ στον παρακάτω σύνδεσμο: {VALIDATION_LINK}. Αν δεν δημοσιεύσατε αυτήν την καταχώρηση, παρακαλούμε αγνοήστε αυτό το e-mail.</p><p>Λεπτομέρειες καταχώρησης:</p><p>Όνομα επαφής: {USER_NAME}<br />Επικοινωνήστε με e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Ακόμα και αν δεν έχετε εγγραφεί στο {WEB_LINK}, μπορείτε ακόμα να επεξεργαστείτε ή να διαγράψετε την καταχώρισή σας:</p><p>Μπορείτε να επεξεργαστείτε την καταχώρισή σας ακολουθώντας αυτόν τον σύνδεσμο: {EDIT_LINK}</p><p>Μπορείτε να διαγράψετε την καταχώρισή σας ακολουθώντας αυτόν τον σύνδεσμο: {DELETE_LINK}</p><p></p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - Ένας νέος χρήστης έχει εγγραφεί",
-      "s_description": "<p>Αγαπητέ {WEB_TITLE} διαχειριστή,</p><p>Λαμβάνετε αυτό το email επειδή ένας νέος χρήστης έχει δημιουργηθεί στο {WEB_LINK}.</p><p>Λεπτομέρειες χρήστη:</p><p>Όνομα: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Σχετικά με:</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - Κάποιος έχει μια ερώτηση για εσάς",
-      "s_description": "<p>Γεια σας {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) σας άφησε ένα μήνυμα:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - Κάποιος έχει σχολιάσει στην καταχώρισή σας",
-      "s_description": "<p>Υπάρχει ένα νέο σχόλιο στη λίστα: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Συγγραφέας: {COMMENT_AUTHOR}<br />Email συγγραφέα: {COMMENT_EMAIL}<br />Τίτλος: {COMMENT_TITLE}<br />Σχόλιο: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - Επιτυχία δημιουργία λογαριασμού διαχείρισης!",
-      "s_description": "<p>Γεια σας {ADMIN_NAME},</p><p>Ο διαχειριστής του {WEB_LINK} έχει δημιουργήσει ένα λογαριασμό για εσάς,</p><ul><li>Όνομα χρήστη: {USERNAME}</li><li>Κωδικός: {PASSWORD}</li></ul><p>Μπορείτε να αποκτήσετε πρόσβαση στον πίνακα διαχείρισης εδώ {WEB_ADMIN_LINK}.</p><p>Ευχαριστούμε!</p><p>Χαιρετισμοί,</p>"
-    },
-    {
-      "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - Η διαφήμισή σας πρόκειται να λήξει",
-      "s_description": "<p>Γεια σας {USER_NAME},</p><p>Η καταχώρισή σας <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> πρόκειται να λήξει στις {WEB_LINK}."
-    }
-  ]
+    "language": "el_GR",
+    "template": [
+        {
+            "fk_i_page_id": 1,
+            "s_internal_name": "email_item_inquiry",
+            "s_title": "{WEB_TITLE} - \u039a\u03ac\u03c0\u03bf\u03b9\u03bf\u03c2 \u03c7\u03c1\u03ae\u03c3\u03c4\u03b7\u03c2 \u03ad\u03c7\u03b5\u03b9 \u03bc\u03af\u03b1 \u03b5\u03c1\u03ce\u03c4\u03b7\u03c3\u03b7, \u03c3\u03c7\u03b5\u03c4\u03b9\u03ba\u03ac \u03bc\u03b5 \u03c4\u03b7 \u03ba\u03b1\u03c4\u03b1\u03c7\u03ce\u03c1\u03b7\u03c3\u03b7 \u03c3\u03b1\u03c2",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5 {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u03ac\u03c6\u03b7\u03c3\u03b5 \u03ad\u03bd\u03b1 \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1 \u03c3\u03c7\u03b5\u03c4\u03b9\u03ba\u03ac \u03bc\u03b5 \u03c4\u03b7 \u03ba\u03b1\u03c4\u03b1\u03c7\u03ce\u03c1\u03b7\u03c3\u03b7 \u03c3\u03b1\u03c2 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>\u03a6\u03b9\u03bb\u03b9\u03ba\u03bf\u03af \u03c7\u03b1\u03b9\u03c1\u03b5\u03c4\u03b9\u03c3\u03bc\u03bf\u03af,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 2,
+            "s_internal_name": "email_user_validation",
+            "s_title": "\u03a0\u03b1\u03c1\u03b1\u03ba\u03b1\u03bb\u03ce \u03b5\u03c0\u03b9\u03ba\u03c5\u03c1\u03ce\u03c3\u03c4\u03b5 \u03c4\u03bf\u03bd  {WEB_TITLE} \u03bb\u03bf\u03b3\u03b1\u03c1\u03b9\u03b1\u03c3\u03bc\u03cc",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5 {USER_NAME},<\/p><p>\u03a0\u03b1\u03c1\u03b1\u03ba\u03b1\u03bb\u03ce \u03b5\u03c0\u03b9\u03ba\u03c5\u03c1\u03ce\u03c3\u03c4\u03b5 \u03c4\u03b7\u03bd \u03b5\u03b3\u03b3\u03c1\u03b1\u03c6\u03ae \u03c3\u03b1\u03c2, \u03c0\u03b1\u03c4\u03ce\u03bd\u03c4\u03b1\u03c2 \u03c3\u03c4\u03bf\u03bd \u03b1\u03ba\u03cc\u03bb\u03bf\u03c5\u03b8\u03bf \u03b7\u03bb\u03b5\u03ba\u03c4\u03c1\u03bf\u03bd\u03b9\u03ba\u03cc \u03c3\u03cd\u03bd\u03b4\u03b5\u03c3\u03bc\u03bf: {VALIDATION_LINK}<\/p><p>\u0395\u03c5\u03c7\u03b1\u03c1\u03b9\u03c3\u03c4\u03bf\u03cd\u03bc\u03b5 \u03c0\u03bf\u03bb\u03cd!<\/p><p>\u03a6\u03b9\u03bb\u03b9\u03ba\u03bf\u03af \u03c7\u03b1\u03b9\u03c1\u03b5\u03c4\u03b9\u03c3\u03bc\u03bf\u03af,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 3,
+            "s_internal_name": "email_user_registration",
+            "s_title": "{WEB_TITLE} - \u0395\u03c0\u03b9\u03c4\u03c5\u03c7\u03ae\u03c2 \u03b5\u03b3\u03b3\u03c1\u03b1\u03c6\u03ae!",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 4,
+            "s_internal_name": "email_send_friend",
+            "s_title": "\u039a\u03bf\u03af\u03c4\u03b1 \u03c4\u03b9 \u03b1\u03bd\u03b1\u03ba\u03ac\u03bb\u03c5\u03c8\u03b1 \u03c3\u03c4\u03bf {WEB_TITLE}",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5 {FRIEND_NAME},<\/p><p>\u039f \u03c6\u03af\u03bb\u03bf\u03c2 \u03c3\u03b1\u03c2 {USER_NAME} \u03b8\u03ad\u03bb\u03b5\u03b9 \u03bd\u03b1 \u03bc\u03bf\u03b9\u03c1\u03b1\u03c3\u03c4\u03b5\u03af \u03b1\u03c5\u03c4\u03ae \u03c4\u03b7 \u03ba\u03b1\u03c4\u03b1\u03c7\u03ce\u03c1\u03b7\u03c3\u03b7 \u03bc\u03b5 \u03b5\u03c3\u03ac\u03c2 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>\u039c\u03ae\u03bd\u03c5\u03bc\u03b1:<\/p><p>{COMMENT}<\/p><p>\u03a6\u03b9\u03bb\u03b9\u03ba\u03bf\u03af \u03c7\u03b1\u03b9\u03c1\u03b5\u03c4\u03b9\u03c3\u03bc\u03bf\u03af,<\/p><p>{WEB_TITLE}<\/p>"
+        },
+        {
+            "fk_i_page_id": 5,
+            "s_internal_name": "alert_email_hourly",
+            "s_title": "{WEB_TITLE} - \u039d\u03ad\u03b5\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c7\u03c9\u03c1\u03ae\u03c3\u03b5\u03b9\u03c2 in the last hour",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5 {USER_NAME},<\/p><p>\u039d\u03ad\u03b5\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c7\u03c9\u03c1\u03ae\u03c3\u03b5\u03b9\u03c2 \u03ad\u03c7\u03bf\u03c5\u03bd \u03b4\u03b7\u03bc\u03bf\u03c3\u03b9\u03b5\u03c5\u03c4\u03b5\u03af \u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03b7\u03b3\u03bf\u03cd\u03bc\u03b5\u03bd\u03b7 \u03ce\u03c1\u03b1. \u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c4\u03b5 \u03bd\u03b1 \u03c4\u03b9\u03c2 \u03b4\u03b5\u03af\u03c4\u03b5 \u03b5\u03b4\u03ce:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0393\u03b9\u03b1 \u03bd\u03b1 \u03b4\u03b9\u03b1\u03b3\u03c1\u03b1\u03c6\u03b5\u03af\u03c4\u03b5 \u03b1\u03c0\u03bf \u03b1\u03c5\u03c4\u03ae \u03c4\u03b7\u03bd \u03b5\u03b9\u03b4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7, \u03c0\u03b1\u03c4\u03ae\u03c3\u03c4\u03b5 \u03b5\u03b4\u03ce: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 6,
+            "s_internal_name": "alert_email_daily",
+            "s_title": "{WEB_TITLE} - \u039d\u03ad\u03b5\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c7\u03c9\u03c1\u03ae\u03c3\u03b5\u03b9\u03c2 in the last day",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5 {USER_NAME},<\/p><p>\u039d\u03ad\u03b5\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c7\u03c9\u03c1\u03ae\u03c3\u03b5\u03b9\u03c2 \u03ad\u03c7\u03bf\u03c5\u03bd \u03b4\u03b7\u03bc\u03bf\u03c3\u03b9\u03b5\u03c5\u03c4\u03b5\u03af \u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03b7\u03b3\u03bf\u03cd\u03bc\u03b5\u03bd\u03b7 \u03b7\u03bc\u03ad\u03c1\u03b1. \u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c4\u03b5 \u03bd\u03b1 \u03c4\u03b9\u03c2 \u03b4\u03b5\u03af\u03c4\u03b5 \u03b5\u03b4\u03ce:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0393\u03b9\u03b1 \u03bd\u03b1 \u03b4\u03b9\u03b1\u03b3\u03c1\u03b1\u03c6\u03b5\u03af\u03c4\u03b5 \u03b1\u03c0\u03bf \u03b1\u03c5\u03c4\u03ae \u03c4\u03b7\u03bd \u03b5\u03b9\u03b4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7, \u03c0\u03b1\u03c4\u03ae\u03c3\u03c4\u03b5 \u03b5\u03b4\u03ce: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 7,
+            "s_internal_name": "alert_email_weekly",
+            "s_title": "{WEB_TITLE} - \u039d\u03ad\u03b5\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c7\u03c9\u03c1\u03ae\u03c3\u03b5\u03b9\u03c2 in the last week",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5 {USER_NAME},<\/p><p>\u039d\u03ad\u03b5\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c7\u03c9\u03c1\u03ae\u03c3\u03b5\u03b9\u03c2 \u03ad\u03c7\u03bf\u03c5\u03bd \u03b4\u03b7\u03bc\u03bf\u03c3\u03b9\u03b5\u03c5\u03c4\u03b5\u03af \u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03b7\u03b3\u03bf\u03cd\u03bc\u03b5\u03bd\u03b7 \u03b5\u03b2\u03b4\u03bf\u03bc\u03ac\u03b4\u03b1. \u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c4\u03b5 \u03bd\u03b1 \u03c4\u03b9\u03c2 \u03b4\u03b5\u03af\u03c4\u03b5 \u03b5\u03b4\u03ce:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0393\u03b9\u03b1 \u03bd\u03b1 \u03b4\u03b9\u03b1\u03b3\u03c1\u03b1\u03c6\u03b5\u03af\u03c4\u03b5 \u03b1\u03c0\u03bf \u03b1\u03c5\u03c4\u03ae \u03c4\u03b7\u03bd \u03b5\u03b9\u03b4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7, \u03c0\u03b1\u03c4\u03ae\u03c3\u03c4\u03b5 \u03b5\u03b4\u03ce: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 8,
+            "s_internal_name": "alert_email_instant",
+            "s_title": "{WEB_TITLE} - \u039d\u03ad\u03b5\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c7\u03c9\u03c1\u03ae\u03c3\u03b5\u03b9\u03c2",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5{USER_NAME},<\/p><p>\u039c\u03af\u03b1 \u03bd\u03ad\u03b1 \u03ba\u03b1\u03c4\u03b1\u03c7\u03ce\u03c1\u03b7\u03c3\u03b7 \u03b4\u03b7\u03bc\u03bf\u03c3\u03b9\u03b5\u03cd\u03c4\u03b7\u03ba\u03b5, \u03b5\u03bb\u03ad\u03b3\u03be\u03c4\u03b5 \u03c4\u03bf!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0393\u03b9\u03b1 \u03bd\u03b1 \u03b4\u03b9\u03b1\u03b3\u03c1\u03b1\u03c6\u03b5\u03af\u03c4\u03b5 \u03b1\u03c0\u03bf \u03b1\u03c5\u03c4\u03ae \u03c4\u03b7\u03bd \u03b5\u03b9\u03b4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7, \u03c0\u03b1\u03c4\u03ae\u03c3\u03c4\u03b5 \u03b5\u03b4\u03ce: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 9,
+            "s_internal_name": "email_new_comment_admin",
+            "s_title": "{WEB_TITLE} - \u039d\u03ad\u03bf \u03c3\u03c7\u03cc\u03bb\u03b9\u03bf",
+            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+        },
+        {
+            "fk_i_page_id": 10,
+            "s_internal_name": "email_new_item_non_register_user",
+            "s_title": "{WEB_TITLE} - \u0394\u03b9\u03b1\u03c7\u03b5\u03af\u03c1\u03b9\u03c3\u03b7 \u03b5\u03c0\u03b9\u03bb\u03bf\u03b3\u03ce\u03bd \u03b3\u03b9\u03b1 \u03c4\u03b7 \u03ba\u03b1\u03c4\u03b1\u03c7\u03ce\u03c1\u03b7\u03c3\u03b7 {ITEM_TITLE}",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 11,
+            "s_internal_name": "email_item_validation",
+            "s_title": "{WEB_TITLE} - \u0395\u03c0\u03b9\u03ba\u03c5\u03c1\u03ce\u03c3\u03c4\u03b5 \u03c4\u03b7\u03bd \u03b5\u03b9\u03b4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 12,
+            "s_internal_name": "email_admin_new_item",
+            "s_title": "{WEB_TITLE} - \u039c\u03af\u03b1 \u03bd\u03ad\u03b1 \u03ba\u03b1\u03c4\u03b1\u03c7\u03ce\u03c3\u03b7\u03c3\u03b7 \u03b4\u03b7\u03bc\u03bf\u03c3\u03b9\u03b5\u03cd\u03c4\u03b7\u03ba\u03b5",
+            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 13,
+            "s_internal_name": "email_user_forgot_password",
+            "s_title": "{WEB_TITLE} - \u0391\u03bd\u03b1\u03ba\u03c4\u03ae\u03c3\u03c4\u03b5 \u03c4\u03bf\u03bd \u03ba\u03c9\u03b4\u03b9\u03ba\u03cc \u03c0\u03c1\u03cc\u03c3\u03b2\u03b1\u03c3\u03b7\u03c2 \u03c3\u03b1\u03c2. ",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 14,
+            "s_internal_name": "email_new_email",
+            "s_title": "{WEB_TITLE} - \u0396\u03b7\u03c4\u03ae\u03c3\u03b1\u03c4\u03b5 \u03b1\u03bb\u03bb\u03b1\u03b3\u03ae e-mail.",
+            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 15,
+            "s_internal_name": "email_alert_validation",
+            "s_title": "{WEB_TITLE} - \u03a0\u03b1\u03c1\u03b1\u03ba\u03b1\u03bb\u03ce \u03ba\u03b1\u03c4\u03b1\u03c7\u03c9\u03c1\u03ae\u03c3\u03c4\u03b5 \u03c4\u03b7\u03bd \u03b5\u03b9\u03b4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03c3\u03b1\u03c2. ",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5 {USER_NAME},<\/p><p>\u03a0\u03b1\u03c1\u03b1\u03ba\u03b1\u03bb\u03ce \u03ba\u03b1\u03c4\u03b1\u03c7\u03c9\u03c1\u03b5\u03af\u03c3\u03c4\u03b5 \u03c4\u03b7\u03bd \u03b5\u03b9\u03b4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03c3\u03b1\u03c2, \u03c0\u03b1\u03c4\u03ce\u03bd\u03c4\u03b1\u03c2 \u03c3\u03c4\u03bf \u03c0\u03b1\u03c1\u03b1\u03ba\u03ac\u03c4\u03c9 \u03c3\u03cd\u03bd\u03b4\u03b5\u03c3\u03bc\u03bf: {VALIDATION_LINK}<\/p><p>\u0395\u03c5\u03c7\u03b1\u03c1\u03b9\u03c3\u03c4\u03bf\u03cd\u03bc\u03b5 \u03c0\u03bf\u03bb\u03cd!<\/p><p>\u03a6\u03b9\u03bb\u03b9\u03ba\u03bf\u03af \u03c7\u03b1\u03b9\u03c1\u03b5\u03c4\u03b9\u03c3\u03bc\u03bf\u03af,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 16,
+            "s_internal_name": "email_comment_validated",
+            "s_title": "{WEB_TITLE} - \u03a4\u03bf \u03c3\u03c7\u03cc\u03bb\u03b9\u03bf \u03c3\u03b1\u03c2, \u03b5\u03b3\u03ba\u03c1\u03af\u03b8\u03b7\u03ba\u03b5",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5 {COMMENT_AUTHOR},<\/p><p>\u03a4\u03bf \u03c3\u03c7\u03cc\u03bb\u03b9\u03cc \u03c3\u03b1\u03c2 \u03c3\u03c4\u03bf <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u03ad\u03c7\u03b5\u03b9 \u03b5\u03b3\u03ba\u03c1\u03b9\u03b8\u03b5\u03af.<\/p><p>\u039c\u03b5 \u03b5\u03ba\u03c4\u03af\u03bc\u03b7\u03c3\u03b7,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 17,
+            "s_internal_name": "email_item_validation_non_register_user",
+            "s_title": "{WEB_TITLE} - \u0395\u03c0\u03b9\u03ba\u03c5\u03c1\u03ce\u03c3\u03c4\u03b5 \u03c4\u03b7\u03bd \u03b5\u03b9\u03b4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 18,
+            "s_internal_name": "email_admin_new_user",
+            "s_title": "{WEB_TITLE} - \u0388\u03bd\u03b1\u03c2 \u03bd\u03ad\u03bf\u03c2 \u03c7\u03c1\u03ae\u03c3\u03c4\u03b7\u03c2 \u03b5\u03b3\u03b3\u03c1\u03ac\u03c6\u03b7\u03ba\u03b5",
+            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 19,
+            "s_internal_name": "email_contact_user",
+            "s_title": "{WEB_TITLE} - \u039a\u03ac\u03c0\u03bf\u03b9\u03bf\u03c2 \u03c7\u03c1\u03ae\u03c3\u03c4\u03b7\u03c2 \u03ad\u03c7\u03b5\u03b9 \u03bc\u03af\u03b1 \u03b5\u03c1\u03ce\u03c4\u03b7\u03c3\u03b7 \u03b3\u03b9\u03b1 \u03b5\u03c3\u03ac\u03c2",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5{CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u03ac\u03c6\u03b7\u03c3\u03b5 \u03ad\u03bd\u03b1 \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1:<\/p><p>{COMMENT}<\/p><p>\u03a6\u03b9\u03bb\u03b9\u03ba\u03bf\u03af \u03c7\u03b1\u03b9\u03c1\u03b5\u03c4\u03b9\u03c3\u03bc\u03bf\u03af,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 20,
+            "s_internal_name": "email_new_comment_user",
+            "s_title": "{WEB_TITLE} - \u039a\u03ac\u03c0\u03bf\u03b9\u03bf\u03c2 \u03c7\u03c1\u03ae\u03c3\u03c4\u03b7\u03c2 \u03c3\u03c7\u03bf\u03bb\u03af\u03b1\u03c3\u03b5 \u03c4\u03b7 \u03ba\u03b1\u03c4\u03b1\u03c7\u03ce\u03c1\u03b7\u03c3\u03b7 \u03c3\u03b1\u03c2",
+            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 21,
+            "s_internal_name": "email_new_admin",
+            "s_title": "{WEB_TITLE} - \u0395\u03c0\u03b9\u03c4\u03c5\u03c7\u03ae\u03c2 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03af\u03b1 \u03bb\u03bf\u03b3\u03b1\u03c1\u03b9\u03b1\u03c3\u03bc\u03bf\u03cd \u03b4\u03b9\u03b1\u03c7\u03b5\u03b9\u03c1\u03b9\u03c3\u03c4\u03ae!",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5 {ADMIN_NAME},<\/p><p>\u039f \u03b4\u03b9\u03b1\u03c7\u03b5\u03b9\u03c1\u03b9\u03c3\u03c4\u03ae\u03c2 \u03c4\u03bf\u03c5 {WEB_LINK} \u03ad\u03c7\u03b5\u03b9 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03ae\u03c3\u03b5\u03b9 \u03ad\u03bd\u03b1 \u03bb\u03bf\u03b3\u03b1\u03c1\u03b9\u03b1\u03c3\u03bc\u03cc \u03b3\u03b9\u03b1 \u03b5\u03c3\u03ad\u03bd\u03b1 \u03bc\u03b5 ,<\/p><ul><li>\u038c\u03bd\u03bf\u03bc\u03b1 \u03c7\u03c1\u03ae\u03c3\u03c4\u03b7: {USERNAME}<\/li><li>\u039a\u03c9\u03b4\u03b9\u03ba\u03cc\u03c2: {PASSWORD}<\/li><\/ul><p>\u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c2 \u03bd\u03b1 \u03b5\u03b9\u03c3\u03ad\u03bb\u03b8\u03b5\u03b9\u03c2 \u03c3\u03c4\u03bf \u03ba\u03ad\u03bd\u03c4\u03c1\u03bf \u03b4\u03b9\u03b1\u03c7\u03b5\u03af\u03c1\u03b9\u03c3\u03b7\u03c2 \u03b5\u03b4\u03ce {WEB_ADMIN_LINK}.<\/p><p>\u0395\u03c5\u03c7\u03b1\u03c1\u03b9\u03c3\u03c4\u03bf\u03cd\u03bc\u03b5 \u03c0\u03bf\u03bb\u03cd!<\/p><p>\u03a6\u03b9\u03bb\u03b9\u03ba\u03bf\u03af \u03c7\u03b1\u03b9\u03c1\u03b5\u03c4\u03b9\u03c3\u03bc\u03bf\u03af,<\/p>"
+        },
+        {
+            "fk_i_page_id": 22,
+            "s_internal_name": "email_warn_expiration",
+            "s_title": "{WEB_TITLE} - \u0397 \u03b4\u03b9\u03b1\u03c6\u03ae\u03bc\u03b9\u03c3\u03b7 \u03c3\u03b1\u03c2, \u03b5\u03af\u03bd\u03b1\u03b9 \u03ad\u03c4\u03bf\u03b9\u03bc\u03b7 \u03bd\u03b1 \u03bb\u03ae\u03be\u03b5\u03b9.",
+            "s_description": "<p>\u0393\u03b5\u03b9\u03ac \u03c3\u03bf\u03c5 {USER_NAME},<\/p><p>\u0397 \u03ba\u03b1\u03c4\u03b1\u03c7\u03ce\u03c1\u03b7\u03c3\u03b7 \u03c3\u03b1\u03c2 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u03b8\u03b1 \u03bb\u03ae\u03be\u03b5\u03b9 \u03c3\u03c4\u03b9\u03c2 {WEB_LINK}."
+        }
+    ]
 }

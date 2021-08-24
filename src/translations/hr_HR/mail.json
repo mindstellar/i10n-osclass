@@ -1,115 +1,137 @@
 {
-  "language": "hr_HR",
-  "template": [
-    {
-      "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - Someone has a question about your listing",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "2",
-      "s_title": "Please validate your {WEB_TITLE} account",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - Registration successful!",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You've successfully registered for {WEB_LINK}.</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "4",
-      "s_title": "Look at what I discovered on {WEB_TITLE}",
-      "s_description": "<p>Hi {FRIEND_NAME},</p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
-    },
-    {
-      "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - New listings in the last hour",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - New listings in the last day",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - New listings in the last week",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - New listings",
-      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - New comment",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p>"
-    },
-    {
-      "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - Edit options for the listing {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> for a short period of time.</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>If you register as a user, you will have full access to editing options.</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - A new listing has been published",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a listing has been published at {WEB_LINK}.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - Recover your password",
-      "s_description": "<p>Hi {USER_NAME},</p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}</p><p>The link will be deactivated in 24 hours.</p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - You requested an email change",
-      "s_description": "<p>Hi {USER_NAME}</p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - Please validate your alert",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - Your comment has been approved",
-      "s_description": "<p>Hi {COMMENT_AUTHOR},</p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> has been approved.</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - A new user has registered",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - Someone has a question for you",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - Someone has commented on your listing",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Author: {COMMENT_AUTHOR}<br />Author's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - Success creating admin account!",
-      "s_description": "<p>Hi {ADMIN_NAME},</p><p>The admin of {WEB_LINK} has created an account for you,</p><ul><li>Username: {USERNAME}</li><li>Password: {PASSWORD}</li></ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.</p><p>Thank you!</p><p>Regards,</p>"
-    },
-    {
-      "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - Your ad is about to expire",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> is about to expire at {WEB_LINK}."
-    }
-  ]
+    "language": "hr_HR",
+    "template": [
+        {
+            "fk_i_page_id": 1,
+            "s_internal_name": "email_item_inquiry",
+            "s_title": "{WEB_TITLE} - Netko ima pitanje vezano za va\u0161 oglas",
+            "s_description": "<p>Po\u0161tovanje {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) je ostavio poruku <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 2,
+            "s_internal_name": "email_user_validation",
+            "s_title": "Molimo potvrdite va\u0161 {WEB_TITLE} ra\u010dun",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Molimo potvrdite va\u0161 ra\u010dun klikom na sljede\u0107u poveznicu: {VALIDATION_LINK}<\/p><p>Thank you!<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 3,
+            "s_internal_name": "email_user_registration",
+            "s_title": "{WEB_TITLE} - Registracija uspjela!",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Uspje\u0161no ste se registrirali za {WEB_LINK}.<\/p><p>Hvala vam!<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 4,
+            "s_internal_name": "email_send_friend",
+            "s_title": "Pogledaj \u0161to sam prona\u0161ao na {WEB_TITLE}",
+            "s_description": "<p>Dobar dan {FRIEND_NAME},<\/p><p>Va\u0161 prijatelj {USER_NAME} \u017eeli da pogledate sljede\u0107i oglas <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Poruka:<\/p><p>{COMMENT}<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_TITLE}<\/p>"
+        },
+        {
+            "fk_i_page_id": 5,
+            "s_internal_name": "alert_email_hourly",
+            "s_title": "{WEB_TITLE} - Novi oglasi u posljednjih sat vremena",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Novi oglasi su objavljeni u posljednjih sat vremena:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Ako ne \u017eelite primati ove poruke kliknite na ovu poveznicu: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 6,
+            "s_internal_name": "alert_email_daily",
+            "s_title": "{WEB_TITLE} - Novi oglasi posljednjih 24 sata",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Novi oglasi su objavljeni u posljednja 24 sata. Pogledajte koji:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Ako ne \u017eelite primati ove poruke kliknite na ovu poveznicu: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 7,
+            "s_internal_name": "alert_email_weekly",
+            "s_title": "{WEB_TITLE} - Novi oglasi posljednjih tjedan dana",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Novi oglasi su objavljeni u posljednjih tjedan dana. Pogledajte koji:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Ako ne \u017eelite primati ove poruke kliknite na ovu poveznicu: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 8,
+            "s_internal_name": "alert_email_instant",
+            "s_title": "{WEB_TITLE} - Novi oglasi",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Novi oglasi su objavljeni, pogledajte ih!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Ako ne \u017eelite primati ove poruke kliknite na ovu poveznicu: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 9,
+            "s_internal_name": "email_new_comment_admin",
+            "s_title": "{WEB_TITLE} - Novi komentar",
+            "s_description": "<p>Netko je komentirao va\u0161 oglas <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Kometar: {COMMENT_AUTHOR}<br \/>Komentatorov email: {COMMENT_EMAIL}<br \/>Naslov: {COMMENT_TITLE}<br \/>Kometar: {COMMENT_TEXT}<\/p>"
+        },
+        {
+            "fk_i_page_id": 10,
+            "s_internal_name": "email_new_item_non_register_user",
+            "s_title": "{WEB_TITLE} - Uredite opcije za oglas {ITEM_TITLE}",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Niste registrirani na {WEB_LINK}, ali jo\u0161 uvijek mo\u017eete urediti ili obrisati oglas <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> kratko vrijeme.<\/p><p>Mo\u017eete urediti va\u0161 oglas pomo\u0107u sljede\u0107e poveznice: {EDIT_LINK}<\/p><p>Mo\u017eete obrisati oglas pomo\u0107u sljede\u0107e poveznice: {DELETE_LINK}<\/p><p>Ako se registrirate imat \u0107ete potpuni pristup.<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 11,
+            "s_internal_name": "email_item_validation",
+            "s_title": "{WEB_TITLE} - Potvrdite va\u0161 oglas",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Dobili ste ovaj e-mail jer je oglas objavljen na {WEB_LINK}. Molimo potvrdite da \u017eelite objaviti oglas sljede\u0107i ovu poveznicu: {VALIDATION_LINK}. Ako vi niste objavili ovaj oglas molimo da zanemarite ovaj e-mail.<\/p><p>Detalji oglasa:<\/p><p>Ime kontakta: {USER_NAME}<br \/>Kontakt e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 12,
+            "s_internal_name": "email_admin_new_item",
+            "s_title": "{WEB_TITLE} - Novi oglas je objavljen",
+            "s_description": "<p>Po\u0161tovani {WEB_TITLE} administratore,<\/p><p>Dobili ste ovaj e-mail jer je objavljen oglas na {WEB_LINK}.<\/p><p>Detalji oglasa:<\/p><p>Ime za kontakt: {USER_NAME}<br \/>Kontakt  email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Mo\u017eete urediti oglas prate\u0107i sljede\u0107u poveznicu: {EDIT_LINK}<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 13,
+            "s_internal_name": "email_user_forgot_password",
+            "s_title": "{WEB_TITLE} - Obnovite lozinku",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>\u0160aljemo vam ovaj e-mail jer ste zatra\u017eili obnovu lozinke. Pratite sljede\u0107u poveznicu da obnovite lozinku: {PASSWORD_LINK}<\/p><p>Poveznica va\u017ei 24 sata i nakon toga bit \u0107e obrisana.<\/p><p>Ako niste zatra\u017eili obnovu lozinke, molimo da zanemarite ovaj e-mail. Zahtjev za obnovu do\u0161ao je sa ove IP adrese {IP_ADDRESS} u {DATE_TIME}<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 14,
+            "s_internal_name": "email_new_email",
+            "s_title": "{WEB_TITLE} - Zatra\u017eili ste promjenu e-maila",
+            "s_description": "<p>Dobar dan {USER_NAME}<\/p><p>Dobili ste ovaj e-mail jer ste zatra\u017eili promjenu e-mail adrese. Sljedite ovu poveznicu da potvrdite promjenu e-mail adrese: {VALIDATION_LINK}<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 15,
+            "s_internal_name": "email_alert_validation",
+            "s_title": "{WEB_TITLE} - Molimo potvrdite alarm",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Molimo potvrdite va\u0161 registracijski alarm: {VALIDATION_LINK}<\/p><p>Hvala vam!<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 16,
+            "s_internal_name": "email_comment_validated",
+            "s_title": "{WEB_TITLE} - Va\u0161 komentar je odobren",
+            "s_description": "<p>Dobar dan {COMMENT_AUTHOR},<\/p><p>Va\u0161 komentar na <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> je odobren.<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 17,
+            "s_internal_name": "email_item_validation_non_register_user",
+            "s_title": "{WEB_TITLE} - Potvrdite va\u0161 oglas",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Dobili ste ovaj e-mail jer ste objavili oglas na {WEB_LINK}. Molimo vas da potvrdite objavu oglasa sljede\u0107om poveznicom: {VALIDATION_LINK}. Ako vi niste objavili ovaj oglas molimo veas da zanemarite ovaj e-mail.<\/p><p>Detalji oglasa:<\/p><p>Ime za kontakt: {USER_NAME}<br \/>Kontakt e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>\u010cak i ako niste registrirani {WEB_LINK}, mo\u017eete urediti ili obrisati oglas:<\/p><p>YMo\u017eete urediti oglas prate\u0107i sljede\u0107u poveznicu: {EDIT_LINK}<\/p><p>Mo\u017eete obrisati oglas prate\u0107i sljede\u0107u poveznicu: {DELETE_LINK}<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 18,
+            "s_internal_name": "email_admin_new_user",
+            "s_title": "{WEB_TITLE} - Novi korisnik se registrirao",
+            "s_description": "<p>Po\u0161tovani {WEB_TITLE} administratore,<\/p><p>Dobili ste ovaje-mail jer je napravljen novi korisnik  {WEB_LINK}.<\/p><p>Detealji o korisniku:<\/p><p>Ime: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 19,
+            "s_internal_name": "email_contact_user",
+            "s_title": "{WEB_TITLE} - Netko ima pitanje za vas",
+            "s_description": "<p>Dobar dan {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) vam je ostavio poruku:<\/p><p>{COMMENT}<\/p><p>Sa \u0161tovanjem,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 20,
+            "s_internal_name": "email_new_comment_user",
+            "s_title": "{WEB_TITLE} - Netko je komentirao va\u0161 oglas",
+            "s_description": "<p>Novi kometar va\u0161eg oglasa: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Napisao: {COMMENT_AUTHOR}<br \/>Autorov email: {COMMENT_EMAIL}<br \/>Naslov: {COMMENT_TITLE}<br \/>Komentar: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 21,
+            "s_internal_name": "email_new_admin",
+            "s_title": "{WEB_TITLE} - Uspje\u0161no napravljen ra\u010dun administratora!",
+            "s_description": "<p>Dobar dan {ADMIN_NAME},<\/p><p>Administrator  {WEB_LINK} je napravio ra\u010dun za vas,<\/p><ul><li>Korisni\u010dko ime: {USERNAME}<\/li><li>Lozinka: {PASSWORD}<\/li><\/ul><p>Ovdje mo\u017eete u\u0107i u adminstracijsko su\u010delje {WEB_ADMIN_LINK}.<\/p><p>Hvala vam!<\/p><p>Sa \u0161tovanjem,<\/p>"
+        },
+        {
+            "fk_i_page_id": 22,
+            "s_internal_name": "email_warn_expiration",
+            "s_title": "{WEB_TITLE} - Va\u0161 oglas \u0107e uskoro iste\u0107i",
+            "s_description": "<p>Dobar dan {USER_NAME},<\/p><p>Va\u0161 oglas <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> iste\u0107i \u0107e {WEB_LINK}."
+        }
+    ]
 }

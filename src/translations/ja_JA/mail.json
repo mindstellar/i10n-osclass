@@ -1,115 +1,137 @@
 {
-  "language": "ja_JP",
-  "template": [
-    {
-      "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - あなたのリスティングに関する質問があります",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "2",
-      "s_title": "{WEB_TITLE} アカウントを認証してください",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - 登録が完了しました！",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You've successfully registered for {WEB_LINK}.</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "4",
-      "s_title": "{WEB_TITLE} で発見したことを見てください",
-      "s_description": "<p>Hi {FRIEND_NAME},</p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
-    },
-    {
-      "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - 過去1時間以内の新規リスト",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - 最終日に新しい一覧",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - 先週の新規リスト",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - 新しい一覧",
-      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - 新しいコメント",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p>"
-    },
-    {
-      "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - {ITEM_TITLE} のオプションを編集",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> for a short period of time.</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>If you register as a user, you will have full access to editing options.</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - リスティングを検証する",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - 新しい商品が公開されました",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a listing has been published at {WEB_LINK}.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact email: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - パスワードを回復する",
-      "s_description": "<p>Hi {USER_NAME},</p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}</p><p>The link will be deactivated in 24 hours.</p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - メールアドレスの変更をリクエストしました",
-      "s_description": "<p>Hi {USER_NAME}</p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - 警告を確認してください",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - あなたのコメントが承認されました",
-      "s_description": "<p>Hi {COMMENT_AUTHOR},</p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> has been approved.</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - リスティングを検証する",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.</p><p>Listing details:</p><p>Contact name: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:</p><p>You can edit your listing by following this link: {EDIT_LINK}</p><p>You can delete your listing by following this link: {DELETE_LINK}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - 新しいユーザーが登録されました",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - あなたに質問があります",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - 誰かがあなたのリスティングにコメントしました",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Author: {COMMENT_AUTHOR}<br />Author's email: {COMMENT_EMAIL}<br />Title: {COMMENT_TITLE}<br />Comment: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - 管理者アカウントの作成に成功！",
-      "s_description": "<p>Hi {ADMIN_NAME},</p><p>The admin of {WEB_LINK} has created an account for you,</p><ul><li>Username: {USERNAME}</li><li>Password: {PASSWORD}</li></ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.</p><p>Thank you!</p><p>Regards,</p>"
-    },
-    {
-      "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - あなたの広告はもうすぐ期限切れです",
-      "s_description": "<p>こんにちは {USER_NAME}、</p><p>あなたのリスティング <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> は {WEB_LINK} で期限切れになります。"
-    }
-  ]
+    "language": "ja_JA",
+    "template": [
+        {
+            "fk_i_page_id": 1,
+            "s_internal_name": "email_item_inquiry",
+            "s_title": "{WEB_TITLE} - \u3042\u306a\u305f\u306e\u5e83\u544a\u306b\u95a2\u3057\u3066\u8cea\u554f\u304c\u5bc4\u305b\u3089\u308c\u3066\u3044\u307e\u3059",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f {CONTACT_NAME}\u3055\u3093!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u304c\u3042\u306a\u305f\u306e\u5e83\u544a<a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>\u306b\u95a2\u3057\u3066\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u6b8b\u3057\u3066\u3044\u307e\u3059\u3002:<\/p><p>{COMMENT}<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 2,
+            "s_internal_name": "email_user_validation",
+            "s_title": "\u3042\u306a\u305f\u306e{WEB_TITLE} \u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u8a8d\u8a3c\u3092\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u8a8d\u8a3c\u3057\u3066\u304f\u3060\u3055\u3044: {VALIDATION_LINK}<\/p><p>\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f!<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 3,
+            "s_internal_name": "email_user_registration",
+            "s_title": "{WEB_TITLE} - \u767b\u9332\u306b\u6210\u529f\u3057\u307e\u3057\u305f",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 4,
+            "s_internal_name": "email_send_friend",
+            "s_title": "{WEB_TITLE}\u3067\u3053\u3093\u306a\u3082\u306e\u3092\u898b\u3064\u3051\u307e\u3057\u305f\u306e\u3067\u3001\u305c\u3072\u3054\u89a7\u304f\u3060\u3055\u3044\u3002",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {FRIEND_NAME}\u3055\u3093,<\/p><p>\u3042\u306a\u305f\u306e\u53cb\u9054\u3067\u3042\u308b {USER_NAME} \u3055\u3093\u304c\u3053\u3061\u3089\u306e\u5e83\u544a\u3092\u30b7\u30a7\u30a2\u3057\u307e\u3057\u305f\u3002 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>\u672c\u6587:<\/p><p>{COMMENT}<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p><p>{WEB_TITLE}<\/p>"
+        },
+        {
+            "fk_i_page_id": 5,
+            "s_internal_name": "alert_email_hourly",
+            "s_title": "{WEB_TITLE} - \u65b0\u898f\u5e83\u544a in the last hour",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u65b0\u3057\u3044\u5e83\u544a\u304c\u76f4\u8fd11\u6642\u9593\u306e\u9593\u306b\u516c\u958b\u3055\u308c\u307e\u3057\u305f\u3002\u78ba\u8a8d\u306f\u3053\u3061\u3089\u304b\u3089\u3002:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u901a\u77e5\u6a5f\u80fd\u3092\u30aa\u30d5\u306b\u3059\u308b\u306b\u306f\u3001\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 6,
+            "s_internal_name": "alert_email_daily",
+            "s_title": "{WEB_TITLE} - \u65b0\u898f\u5e83\u544a in the last day",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u65b0\u3057\u3044\u5e83\u544a\u304c\u524d\u306e\u65e5\u306b\u516c\u958b\u3055\u308c\u307e\u3057\u305f\u3002\u78ba\u8a8d\u306f\u3053\u3061\u3089\u304b\u3089\u3002:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u901a\u77e5\u6a5f\u80fd\u3092\u30aa\u30d5\u306b\u3059\u308b\u306b\u306f\u3001\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 7,
+            "s_internal_name": "alert_email_weekly",
+            "s_title": "{WEB_TITLE} - \u65b0\u898f\u5e83\u544a in the last week",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u65b0\u3057\u3044\u5e83\u544a\u304c\u524d\u306e\u9031\u306b\u516c\u958b\u3055\u308c\u307e\u3057\u305f\u3002\u78ba\u8a8d\u306f\u3053\u3061\u3089\u304b\u3089\u3002:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u901a\u77e5\u6a5f\u80fd\u3092\u30aa\u30d5\u306b\u3059\u308b\u306b\u306f\u3001\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 8,
+            "s_internal_name": "alert_email_instant",
+            "s_title": "{WEB_TITLE} - \u65b0\u898f\u5e83\u544a",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u65b0\u3057\u3044\u5e83\u544a\u304c\u516c\u958b\u3055\u308c\u307e\u3057\u305f\u3002\u78ba\u8a8d\u306f\u3053\u3061\u3089\u304b\u3089\u3002:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u901a\u77e5\u6a5f\u80fd\u3092\u30aa\u30d5\u306b\u3059\u308b\u306b\u306f\u3001\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 9,
+            "s_internal_name": "email_new_comment_admin",
+            "s_title": "{WEB_TITLE} - \u65b0\u898f\u30b3\u30e1\u30f3\u30c8",
+            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+        },
+        {
+            "fk_i_page_id": 10,
+            "s_internal_name": "email_new_item_non_register_user",
+            "s_title": "{WEB_TITLE} - \u5e83\u544a{ITEM_TITLE}\u306e\u7de8\u96c6\u30aa\u30d7\u30b7\u30e7\u30f3",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 11,
+            "s_internal_name": "email_item_validation",
+            "s_title": "\u5e83\u544a\u3092\u8a8d\u8a3c\u3057\u3066\u304f\u3060\u3055\u3044",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 12,
+            "s_internal_name": "email_admin_new_item",
+            "s_title": "{WEB_TITLE} - \u65b0\u3057\u3044\u5e83\u544a\u304c\u516c\u958b\u3055\u308c\u307e\u3057\u305f",
+            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 13,
+            "s_internal_name": "email_user_forgot_password",
+            "s_title": "{WEB_TITLE} - \u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5fa9\u65e7\u3059\u308b",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 14,
+            "s_internal_name": "email_new_email",
+            "s_title": "{WEB_TITLE} - \u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u306e\u5909\u66f4\u30ea\u30af\u30a8\u30b9\u30c8\u304c\u3042\u308a\u307e\u3057\u305f",
+            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 15,
+            "s_internal_name": "email_alert_validation",
+            "s_title": "{WEB_TITLE} - \u30a2\u30e9\u30fc\u30c8\u3092\u8a8d\u8a3c\u3057\u3066\u304f\u3060\u3055\u3044",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u3001\u30a2\u30e9\u30fc\u30c8\u767b\u9332\u306e\u8a8d\u8a3c\u3092\u884c\u3063\u3066\u304f\u3060\u3055\u3044: {VALIDATION_LINK}<\/p><p>\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059!<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 16,
+            "s_internal_name": "email_comment_validated",
+            "s_title": "{WEB_TITLE} - \u30b3\u30e1\u30f3\u30c8\u304c\u627f\u8a8d\u3055\u308c\u307e\u3057\u305f",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {COMMENT_AUTHOR}\u3055\u3093\u3002<\/p><p>\u5e83\u544a <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u306b\u5bfe\u3059\u308b\u30b3\u30e1\u30f3\u30c8\u304c\u627f\u8a8d\u3055\u308c\u307e\u3057\u305f\u3002<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 17,
+            "s_internal_name": "email_item_validation_non_register_user",
+            "s_title": "\u5e83\u544a\u3092\u8a8d\u8a3c\u3057\u3066\u304f\u3060\u3055\u3044",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 18,
+            "s_internal_name": "email_admin_new_user",
+            "s_title": "{WEB_TITLE} - \u65b0\u3057\u3044\u30e6\u30fc\u30b6\u30fc\u306e\u767b\u9332\u304c\u3042\u308a\u307e\u3057\u305f",
+            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 19,
+            "s_internal_name": "email_contact_user",
+            "s_title": "{WEB_TITLE} - \u8cea\u554f\u304c\u5bc4\u305b\u3089\u308c\u3066\u3044\u307e\u3059",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {CONTACT_NAME}\u3055\u3093!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u304b\u3089\u306e\u30e1\u30c3\u30bb\u30fc\u30b8\u304c\u3042\u308a\u307e\u3059\u3002:<\/p><p>{COMMENT}<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 20,
+            "s_internal_name": "email_new_comment_user",
+            "s_title": "{WEB_TITLE} - \u3042\u306a\u305f\u306e\u5e83\u544a\u306b\u95a2\u3057\u3066\u30b3\u30e1\u30f3\u30c8\u304c\u3064\u3051\u3089\u308c\u307e\u3057\u305f",
+            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 21,
+            "s_internal_name": "email_new_admin",
+            "s_title": "{WEB_TITLE} - \u7ba1\u7406\u8005\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u4f5c\u6210\u3057\u307e\u3057\u305f\uff01",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001{ADMIN_NAME}\u3001<\/p><p>{WEB_LINK}\u306e\u7ba1\u7406\u8005\u304c\u3042\u306a\u305f\u7528\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u4f5c\u6210\u3057\u307e\u3057\u305f\u3002<\/p><ul><li>\u30e6\u30fc\u30b6\u30fc\u540d: {USERNAME}<\/li><li>\u30d1\u30b9\u30ef\u30fc\u30c9: {PASSWORD}<\/li><\/ul><p>\u7ba1\u7406\u30d1\u30cd\u30eb\u3078\u306e\u30a2\u30af\u30bb\u30b9\u306f\u3053\u3061\u3089\u304b\u3089\u3002{WEB_ADMIN_LINK}.<\/p><p>\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f!<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p>"
+        },
+        {
+            "fk_i_page_id": 22,
+            "s_internal_name": "email_warn_expiration",
+            "s_title": "{WEB_TITLE} - \u5e83\u544a\u306f\u307e\u3082\u306a\u304f\u671f\u9650\u304c\u5207\u308c\u307e\u3059",
+            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u3042\u306a\u305f\u306e\u5e83\u544a <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u306f\u307e\u3082\u306a\u304f\u63b2\u8f09\u671f\u9650\u3092\u5411\u304b\u3048\u307e\u3059\u3002\u3053\u3061\u3089\u304b\u3089\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002 {WEB_LINK}."
+        }
+    ]
 }

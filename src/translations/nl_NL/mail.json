@@ -1,115 +1,137 @@
 {
-  "language": "nl_NL",
-  "template": [
-    {
-      "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - Iemand heeft een vraag over uw lijst",
-      "s_description": "<p>Hallo {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) heeft een bericht geplaatst over uw aanbieding <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>groeten,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "2",
-      "s_title": "Gelieve je {WEB_TITLE} -account te valideren",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>Gelieve uw registratie te valideren door op de volgende link te klikken: {VALIDATION_LINK}</p><p>Bedankt!</p><p>Met vriendelijke groet,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - Registratie succesvol!",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>U heeft zich succesvol geregistreerd voor {WEB_LINK}.</p><p>Bedankt!</p><p>Met vriendelijke groeten,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "4",
-      "s_title": "Kijk wat ik ontdekte op {WEB_TITLE}",
-      "s_description": "<p>Hallo {FRIEND_NAME},</p><p>Uw vriend {USER_NAME} wil deze aanbieding met u delen <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Bericht:</p><p>{COMMENT}</p><p>groeten,</p><p>{WEB_TITLE}</p>"
-    },
-    {
-      "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - Nieuwe vermeldingen in het afgelopen uur",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>Nieuwe lijsten zijn gepubliceerd in het laatste uur. Neem een kijkje op:</p><p>{ADS}</p><p>-------------</p><p>Om af te melden van deze waarschuwing klik op: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - Nieuwe aanbiedingen van de laatste dag",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>nieuwe lijsten zijn gepubliceerd in de laatste dag. Neem een kijkje op:</p><p>{ADS}</p><p>-------------</p><p>Om af te melden van deze waarschuwing klik op: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - Nieuwe aanbiedingen van de afgelopen week",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>Nieuwe lijsten zijn gepubliceerd in de afgelopen week. Neem een kijkje op:</p><p>{ADS}</p><p>-------------</p><p>Om af te melden van deze waarschuwing klik op: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - Nieuwe vermeldingen",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>Er is een nieuwe aanbieding gepubliceerd, check it out!</p><p>{ADS}</p><p>-------------</p><p>Om te stoppen met deze waarschuwing, klik op: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "9",
-      "s_title": "{WEB_TITLE} - Nieuwe reactie",
-      "s_description": "<p>Iemand heeft commentaar gegeven op de aanbieding <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Commenter: {COMMENT_AUTHOR}<br />Commenter's e-mail: {COMMENT_EMAIL}<br />Titel: {COMMENT_TITLE}<br />Commenter: {COMMENT_TEXT}</p>"
-    },
-    {
-      "fk_i_page_id": "10",
-      "s_title": "{WEB_TITLE} - Opties voor de aanbieding {ITEM_TITLE} bewerken",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>Je bent niet geregistreerd bij {WEB_LINK}, maar u kunt de aanbieding <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> nog steeds bewerken of verwijderen voor een korte periode.</p><p>U kunt uw aanbieding bewerken door deze link te volgen: {EDIT_LINK}</p><p>U kunt uw aanbieding verwijderen door deze link te volgen: {DELETE_LINK}</p><p>Als u zich als gebruiker aanmeldt, je krijgt volledige rechten om de opties te bewerken.</p><p>Met vriendelijke groeten,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "11",
-      "s_title": "{WEB_TITLE} - Valideer uw aanbieding",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>U ontvangt deze e-mail omdat een aanbieding is gepubliceerd op {WEB_LINK}. Valideer deze vermelding alstublieft door te klikken op de volgende link: {VALIDATION_LINK}. Als u deze lijst niet hebt gepubliceerd, negeer dan deze e-mail.</p><p>Vermelding details:</p><p>Contactnaam: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>groeten,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "12",
-      "s_title": "{WEB_TITLE} - Een nieuwe aanbieding is gepubliceerd",
-      "s_description": "<p>Beste {WEB_TITLE} admin,</p><p>Je ontvangt deze e-mail omdat een aanbieding is gepubliceerd op {WEB_LINK}.</p><p>Lijstdetails:</p><p>Contactnaam: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p>Je kunt deze aanbieding bewerken door te klikken op de volgende link: {EDIT_LINK}</p><p>groeten,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "13",
-      "s_title": "{WEB_TITLE} - Uw wachtwoord herstellen",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>We hebben u deze e-mail gestuurd omdat u een wachtwoordherinnering hebt aangevraagd. Volg deze link om deze te herstellen: {PASSWORD_LINK}</p><p>De link wordt binnen 24 uur gedeactiveerd.</p><p>Als u geen wachtwoordherinnering heeft aangevraagd, negeer dan dit bericht. Dit verzoek is gemaakt vanaf IP {IP_ADDRESS} op {DATE_TIME}</p><p>Met vriendelijke groeten,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "14",
-      "s_title": "{WEB_TITLE} - U heeft een e-mailwijziging aangevraagd",
-      "s_description": "<p>Hallo {USER_NAME}</p><p>U ontvangt deze e-mail omdat u een e-mail heeft aangevraagd. Bevestig dit nieuwe e-mailadres door op de volgende validatielink te klikken: {VALIDATION_LINK}</p><p>Met vriendelijke groeten,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "15",
-      "s_title": "{WEB_TITLE} - Gelieve uw melding te valideren",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>Gelieve uw meldingsregistratie te valideren door op de volgende link te klikken: {VALIDATION_LINK}</p><p>Bedankt!</p><p>Met vriendelijke groet,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "16",
-      "s_title": "{WEB_TITLE} - Uw opmerking is goedgekeurd",
-      "s_description": "<p>Hallo {COMMENT_AUTHOR},</p><p>Uw opmerking op <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> is goedgekeurd.</p><p>Met vriendelijke groet</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "17",
-      "s_title": "{WEB_TITLE} - Valideer uw aanbieding",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>U ontvangt deze e-mail omdat u een lijst op {WEB_LINK}hebt gepubliceerd. Valideer deze aanbieding door op de volgende link {VALIDATION_LINK}te klikken. Als u deze lijst niet hebt gepubliceerd, kunt u deze e-mail negeren.</p><p>Vermelding details:</p><p>Contactnaam: {USER_NAME}<br />Contact e-mail: {USER_EMAIL}</p><p>{ITEM_DESCRIPTION}</p><p>Url: {ITEM_URL}</p><p></p>Zelfs als je niet geregistreerd bent bij {WEB_LINK}, je kan je lijst nog steeds bewerken of verwijderen:</p><p>Je kunt je lijst bewerken door deze link te volgen: {EDIT_LINK}</p><p>Je kunt je lijst verwijderen door deze link te volgen: {DELETE_LINK}</p><p>groeten,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "18",
-      "s_title": "{WEB_TITLE} - Een nieuwe gebruiker heeft zich geregistreerd",
-      "s_description": "<p>Dear {WEB_TITLE} admin,</p><p>You're receiving this email because a new user has been created at {WEB_LINK}.</p><p>User details:</p><p>Name: {USER_NAME}<br />E-mail: {USER_EMAIL}</p><p>Regards,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "19",
-      "s_title": "{WEB_TITLE} - Iemand heeft een vraag voor jou",
-      "s_description": "<p>Hallo {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) heeft een bericht voor u achtergelaten:</p><p>{COMMENT}</p><p>groeten,</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "20",
-      "s_title": "{WEB_TITLE} - Iemand heeft gereageerd op uw lijst",
-      "s_description": "<p>Er is een nieuwe opmerking op de lijst: <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Auteur: {COMMENT_AUTHOR}<br />Auteur's e-mail: {COMMENT_EMAIL}<br />titel: {COMMENT_TITLE}<br />opmerking: {COMMENT_TEXT}</p><p>{WEB_LINK}</p>"
-    },
-    {
-      "fk_i_page_id": "21",
-      "s_title": "{WEB_TITLE} - Aanmaken admin account gelukt!",
-      "s_description": "<p>Hi {ADMIN_NAME},</p><p>The admin of {WEB_LINK} has created an account for you,</p><ul><li>Username: {USERNAME}</li><li>Password: {PASSWORD}</li></ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.</p><p>Thank you!</p><p>Regards,</p>"
-    },
-    {
-      "fk_i_page_id": "22",
-      "s_title": "{WEB_TITLE} - Uw advertentie zal bijna verlopen",
-      "s_description": "<p>Hallo {USER_NAME},</p><p>Uw lijst <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a> zal bijna verlopen om {WEB_LINK}."
-    }
-  ]
+    "language": "nl_NL",
+    "template": [
+        {
+            "fk_i_page_id": 1,
+            "s_internal_name": "email_item_inquiry",
+            "s_title": "{WEB_TITLE} - Iemand heeft een vraag over uw advertentie",
+            "s_description": "<p>Hallo {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) heeft een bericht achter gelaten over advertentie <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Vriendelijke groet,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 2,
+            "s_internal_name": "email_user_validation",
+            "s_title": "Valideer uw registratie bij {WEB_TITLE}",
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Valideer uw registratie door op de volgende link te klikken: {VALIDATION_LINK}<\/p><p>Bedankt!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 3,
+            "s_internal_name": "email_user_registration",
+            "s_title": "{WEB_TITLE} - Succesvol aangemeld!",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 4,
+            "s_internal_name": "email_send_friend",
+            "s_title": "Kijk wat ik op gevonden heb op {WEB_TITLE}",
+            "s_description": "<p>Hallo {FRIEND_NAME},<\/p><p>{USER_NAME} wil de volgend eadvertentie graag met u delen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Bericht:<\/p><p>{COMMENT}<\/p><p>Vriendelijke groet,<\/p><p>{WEB_TITLE}<\/p>"
+        },
+        {
+            "fk_i_page_id": 5,
+            "s_internal_name": "alert_email_hourly",
+            "s_title": "{WEB_TITLE} - Nieuwe advertenties in the last hour",
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Nieuwe advertenties van het afgelopen uur. Klik hier om ze te bekijken:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Klik op de volgende link voor afmelding van deze alerts: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 6,
+            "s_internal_name": "alert_email_daily",
+            "s_title": "{WEB_TITLE} - Nieuwe advertenties in the last day",
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Nieuwe advertenties van de afgelopen dag. Bekijk ze hier:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Klik op de volgende link om deze alerts niet meer te ontvangen: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 7,
+            "s_internal_name": "alert_email_weekly",
+            "s_title": "{WEB_TITLE} - Nieuwe advertenties in the last week",
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Nieuwe advertenties van de afgelopen week. Bekijk ze hier:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Klik op de volgende link indien u deze alerts niet meer wilt ontvangen: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 8,
+            "s_internal_name": "alert_email_instant",
+            "s_title": "{WEB_TITLE} - Nieuwe advertenties",
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Er is een nieuwe advertentie gepubliceerd, bekijk de advertentie!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Klik op de volgende link als u deze alerts niet meer wilt ontvangen: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 9,
+            "s_internal_name": "email_new_comment_admin",
+            "s_title": "{WEB_TITLE} - Nieuwe reactie",
+            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+        },
+        {
+            "fk_i_page_id": 10,
+            "s_internal_name": "email_new_item_non_register_user",
+            "s_title": "{WEB_TITLE} - Wijzig opties voor advertentie {ITEM_TITLE}",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 11,
+            "s_internal_name": "email_item_validation",
+            "s_title": "{WEB_TITLE} - Valideer uw advertentie",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 12,
+            "s_internal_name": "email_admin_new_item",
+            "s_title": "{WEB_TITLE} - Er is een nieuwe advertentie gepubliceerd",
+            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 13,
+            "s_internal_name": "email_user_forgot_password",
+            "s_title": "{WEB_TITLE} - Herstel uw wachtwoord",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 14,
+            "s_internal_name": "email_new_email",
+            "s_title": "{WEB_TITLE} - Verzoek wijziging emailadres",
+            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 15,
+            "s_internal_name": "email_alert_validation",
+            "s_title": "{WEB_TITLE} - Valideer uw alert",
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Valideer uw alert registratie door op de volgende link te klikken: {VALIDATION_LINK}<\/p><p>Bedankt!<\/p><p>Vriendelijke groet,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 16,
+            "s_internal_name": "email_comment_validated",
+            "s_title": "{WEB_TITLE} - Uw reactie is geaccordeerd",
+            "s_description": "<p>Hallo {COMMENT_AUTHOR},<\/p><p>Uw commentaar op  <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> is goedgekeurd.<\/p><p>Groeten,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 17,
+            "s_internal_name": "email_item_validation_non_register_user",
+            "s_title": "{WEB_TITLE} - Valideer uw advertentie",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 18,
+            "s_internal_name": "email_admin_new_user",
+            "s_title": "{WEB_TITLE} - Er is een nieuwe gebruiker aangemeld",
+            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 19,
+            "s_internal_name": "email_contact_user",
+            "s_title": "{WEB_TITLE} - Iemand heeft een vraag",
+            "s_description": "<p>Hallo {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) heeft het volgende bericht achter gelaten:<\/p><p>{COMMENT}<\/p><p>Vriendelijke groet,<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 20,
+            "s_internal_name": "email_new_comment_user",
+            "s_title": "{WEB_TITLE} - Iemand heeft een reactie op uw advertentie",
+            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+        },
+        {
+            "fk_i_page_id": 21,
+            "s_internal_name": "email_new_admin",
+            "s_title": "{WEB_TITLE} - Succes cre\u00ebren admin account!",
+            "s_description": "<p>Hallo {ADMIN_NAME},<\/p><p>De admin van {WEB_LINK} heeft met succes een account voor u,<\/p><ul><li>Gebruikersnaam: {USERNAME}<\/li><li>Wachtwoord:  {PASSWORD}<\/li><\/ul><p>U kunt nu gebruik maken van het admin panneel hier  {WEB_ADMIN_LINK}.<\/p><p>Hartelijk dank!!<\/p><p>gegroet,<\/p>"
+        },
+        {
+            "fk_i_page_id": 22,
+            "s_internal_name": "email_warn_expiration",
+            "s_title": "{WEB_TITLE} - U advertentie staat op het punt af te lopen",
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>U advertentie <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> staat op het punt af te lopen bij {WEB_LINK}."
+        }
+    ]
 }
