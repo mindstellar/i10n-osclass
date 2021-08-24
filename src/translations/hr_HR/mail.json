@@ -3,43 +3,43 @@
   "template": [
     {
       "fk_i_page_id": "1",
-      "s_title": "{WEB_TITLE} - Someone has a question about your listing",
-      "s_description": "<p>Hi {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Nova poruka",
+      "s_description": "<p>Pozdrav {CONTACT_NAME}!</p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) vam šalje poruku vezano uz vaš oglas <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>:</p><p>{COMMENT}</p><p>Lijep pozdrav,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "2",
-      "s_title": "Please validate your {WEB_TITLE} account",
-      "s_description": "<p>Hi {USER_NAME},</p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Aktivacija računa",
+      "s_description": "<p>Pozdrav {USER_NAME}!</p><p>Aktivirajte vaš račun klikom na sljedeću poveznicu: {VALIDATION_LINK}</p><p>Lijep pozdrav,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "3",
-      "s_title": "{WEB_TITLE} - Registration successful!",
-      "s_description": "<p>Hi {USER_NAME},</p><p>You've successfully registered for {WEB_LINK}.</p><p>Thank you!</p><p>Regards,</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Registracija!",
+      "s_description": "<p>Pozdrav {USER_NAME}!</p><p>Uspješno ste se registrirali na {WEB_LINK}.</p><p>Lijep pozdrav,</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "4",
-      "s_title": "Look at what I discovered on {WEB_TITLE}",
-      "s_description": "<p>Hi {FRIEND_NAME},</p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Message:</p><p>{COMMENT}</p><p>Regards,</p><p>{WEB_TITLE}</p>"
+      "s_title": "Vidi što sam pronašao na {WEB_TITLE}",
+      "s_description": "<p>Pozdrav {FRIEND_NAME},</p><p>Vaš prijatelj {USER_NAME} želi da pogledate sljedeći oglas <a href=\"{ITEM_URL}\">{ITEM_TITLE}</a>.</p><p>Poruka:</p><p>{COMMENT}</p><p>Lijep pozdrav,</p><p>{WEB_TITLE}</p>"
     },
     {
       "fk_i_page_id": "5",
-      "s_title": "{WEB_TITLE} - New listings in the last hour",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last hour. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Novi oglasi u posljednjih sat vremena",
+      "s_description": "<p>Pozdrav {USER_NAME},</p><p>Novi oglasi su objavljeni u posljednjih sat vremena:</p><p>{ADS}</p><p>-------------</p><p>Ako ne želite primati ove poruke kliknite na ovu poveznicu: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "6",
-      "s_title": "{WEB_TITLE} - New listings in the last day",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last day. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Novi oglasi u posljednja 24 sata",
+      "s_description": "<p>Pozdrav {USER_NAME},</p><p>Novi oglasi su objavljeni u posljednja 24 sata.</p><p>{ADS}</p><p>-------------</p><p>Ako ne želite primati ove poruke kliknite na ovu poveznicu: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "7",
-      "s_title": "{WEB_TITLE} - New listings in the last week",
-      "s_description": "<p>Hi {USER_NAME},</p><p>New listings have been published in the last week. Take a look at them:</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Novi oglasi u posljednjih tjedan dana",
+      "s_description": "<p>Pozdrav {USER_NAME},</p><p>Novi oglasi su objavljeni u posljednjih tjedan dana.</p><p>{ADS}</p><p>-------------</p><p>Ako ne želite primati ove poruke kliknite na ovu poveznicu: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "8",
-      "s_title": "{WEB_TITLE} - New listings",
-      "s_description": "<p>Hi {USER_NAME},</p><p>A new listing has been published, check it out!</p><p>{ADS}</p><p>-------------</p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
+      "s_title": "{WEB_TITLE} - Novi oglasi",
+      "s_description": "<p>Pozdrav {USER_NAME},</p><p>Novi oglasi su objavljeni, pogledajte ih!</p><p>{ADS}</p><p>-------------</p><p>Ako ne želite primati ove poruke kliknite na ovu poveznicu: {UNSUB_LINK}</p><p>{WEB_LINK}</p>"
     },
     {
       "fk_i_page_id": "9",
