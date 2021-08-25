@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-08-24 22:41\n"
+"PO-Revision-Date: 2021-08-25 07:11\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -1554,7 +1554,7 @@ msgstr "Idiomas &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/languages/index.php:86
 msgid "Add official languages."
-msgstr ""
+msgstr "Adicionar idiomas oficiais."
 
 #: tmp/osclass/oc-admin/themes/modern/languages/index.php:94
 msgid "Delete language"
@@ -1622,12 +1622,12 @@ msgstr "Descrição"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/phpinfo.php:33
 msgid "Show PHP info."
-msgstr ""
+msgstr "Show PHP info."
 
 #: tmp/osclass/oc-admin/themes/modern/tools/phpinfo.php:54
 #, php-format
 msgid "PHP info &raquo; %s"
-msgstr ""
+msgstr "PHP info &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:33
 #, php-format
@@ -1660,7 +1660,7 @@ msgstr "Calcular estatísticas das categorias"
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:31
 #, php-format
 msgid "Upgrade is available for (Current version %s)"
-msgstr ""
+msgstr "A atualização está disponível para (versão atual %s)"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:33
 msgid "New version to update:"
@@ -1677,7 +1677,8 @@ msgstr "Parabéns! A sua instalação Osclass está atualizada!"
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:75
 msgid "Check to see if you're using the latest version of Osclass. If you're not, \n"
 "        the system will let you know so you can update and use the newest features."
-msgstr ""
+msgstr "Marque para ver se você está usando a versão mais recente de Osclass. Se você não é, \n"
+"        o sistema lhe informará para que possa atualizar e utilizar os recursos mais recentes."
 
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:101
 #, php-format
@@ -1690,7 +1691,10 @@ msgid "Your Osclass installation can be auto-upgraded. \n"
 "                                        Please, back up your database and the folder oc-content before attempting to \n"
 "                                        upgrade your Osclass installation. \n"
 "                                        You can also upgrade Osclass manually, more information in the %s"
-msgstr ""
+msgstr "Sua instalação Osclass pode ser atualizada automaticamente. \n"
+"                                        Por Favor, faça backup do seu banco de dados e da pasta oc-content antes de tentar \n"
+"                                        atualizar a sua instalação Osclasse. \n"
+"                                        Você também pode melhorar Osclass manualmente mais informação no %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:45
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -1784,11 +1788,11 @@ msgstr "A extensão GD é necessária. Como <a target=\"_blank\" href=\"http://w
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:165
 msgid "cURL extension for PHP"
-msgstr ""
+msgstr "Extensão cURL para PHP"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:167
 msgid "cURL extension is required. How to <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">install/configure</a>."
-msgstr ""
+msgstr "Extensão cURL é necessária. Como <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">instalar/configurar</a>."
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:171
 msgid "Folder <code>oc-content/uploads</code> exists"
@@ -1989,7 +1993,7 @@ msgstr "Cordialmente,"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:1270
 msgid "The <a href=\"https://github.com/mindstellar/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "A <a href=\"https://github.com/mindstellar/osclass\">Equipe Osclass</a>"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/CWebSearch.php:625
 msgid "Latest listings added"
@@ -2104,11 +2108,11 @@ msgstr "Ocorreu um erro ao enviar o email"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:572
 msgid "Update available"
-msgstr ""
+msgstr "Atualização disponível"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:575
 msgid "No update available"
-msgstr ""
+msgstr "Nenhuma atualização disponível"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:586
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:590
@@ -2124,12 +2128,12 @@ msgstr "Esta ação não pode ser feita porque é um site de demonstração"
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:612
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:636
 msgid "Osclass upgraded successfully."
-msgstr ""
+msgstr "Osclasse atualizada com sucesso."
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:619
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:643
 msgid "Error occurred while upgrading osclass Database."
-msgstr ""
+msgstr "Ocorreu um erro ao atualizar o banco de dados osclasse."
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:693
 msgid "You don't have the necessary permissions"
@@ -2289,7 +2293,7 @@ msgstr "Versão:"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:147
 msgid "Lost your password"
-msgstr ""
+msgstr "Perdeu sua senha"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:192
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:80
@@ -2495,11 +2499,11 @@ msgstr "Criar uma nova conta"
 
 #: tmp/osclass/oc-includes/osclass/classes/utility/Utils.php:52
 msgid "Is allow_url_fopen enabled?"
-msgstr ""
+msgstr "allow_url_fopen está habilitado?"
 
 #: tmp/osclass/oc-includes/osclass/classes/utility/Utils.php:265
 msgid "Category id is not a valid integer"
-msgstr ""
+msgstr "Id da categoria não é um inteiro válido"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:55
 msgid "User name"
@@ -2681,7 +2685,7 @@ msgstr "Nome"
 
 #: tmp/osclass/oc-includes/osclass/classes/form/CategoryForm.php:218
 msgid "Slug"
-msgstr ""
+msgstr "Permalink"
 
 #: tmp/osclass/oc-includes/osclass/classes/form/PageForm.php:112
 msgid "Body"
@@ -3174,19 +3178,19 @@ msgstr "Apagar Expirado"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Plugin.php:77
 msgid "Invalid plugin name."
-msgstr ""
+msgstr "Nome de plugin inválido."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Plugin.php:88
 msgid "Invalid plugin update uri"
-msgstr ""
+msgstr "Uri de atualização de plugin inválido"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Theme.php:77
 msgid "Invalid theme name."
-msgstr ""
+msgstr "Nome do tema inválido."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Theme.php:88
 msgid "Invalid theme update uri"
-msgstr ""
+msgstr "URI de atualização de tema inválido"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Osclass.php:96
 msgid "Osclass &raquo; Has some errors"
@@ -3195,45 +3199,47 @@ msgstr "O Osclass &raquo; Tem alguns erros"
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Osclass.php:97
 msgid "We've encountered some problems while updating the database structure. \n"
 "            The following queries failed:"
-msgstr ""
+msgstr "Encontramos alguns problemas ao atualizar a estrutura do banco de dados. \n"
+"            As seguintes consultas falharam:"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Osclass.php:101
 #, php-format
 msgid "These errors could be false-positive errors. If you're sure that is the case, you can \n"
 "                    <a href=\"%s\">continue with the upgrade</a>, or <a href=\"https://osclass.discourse.group\">ask in our forums</a>."
-msgstr ""
+msgstr "Estes erros podem ser falsos e positivos. Se tiver certeza de que é esse o caso, você pode \n"
+"                    <a href=\"%s\">continuar com a atualização</a>, ou <a href=\"https://osclass.discourse.group\">perguntar em nossos fóruns</a>."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Osclass.php:119
 msgid "Osclass DB Upgraded Successfully"
-msgstr ""
+msgstr "BD Osclass atualizado com sucesso"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/UpgradePackage.php:133
 msgid "s_source_file is not a valid url"
-msgstr ""
+msgstr "_source_file não é uma url válida"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/UpgradePackage.php:147
 msgid "Invalid s_target_directory."
-msgstr ""
+msgstr "Invalid s_target_directory."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/UpgradePackage.php:152
 msgid "Invalid a_filtered_files."
-msgstr ""
+msgstr "Arquivos a_filtrados_inválidos."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/UpgradePackage.php:161
 msgid "Invalid upgrade package info"
-msgstr ""
+msgstr "Informação de pacote de atualização inválida"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Upgrade.php:102
 msgid "Unable to follow upgrade, invalid package info"
-msgstr ""
+msgstr "Não é possível acompanhar a atualização, informações inválidas do pacote"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Upgrade.php:134
 msgid "doesn't exists, unknown error occurred while downloading and extracting package."
-msgstr ""
+msgstr "não existe, erro desconhecido ocorreu durante o download e extração do pacote."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Upgrade.php:170
 msgid "Unable to unzip package file."
-msgstr ""
+msgstr "Não foi possível descompactar arquivo do pacote."
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:70
 msgid "Manage listings"
@@ -3368,23 +3374,23 @@ msgstr "Modo de manutenção"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:336
 msgid "Renew location stats"
-msgstr ""
+msgstr "Renovar estatísticas de localização"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:343
 msgid "Renew category stats"
-msgstr ""
+msgstr "Renovar estatísticas da categoria"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:350
 msgid "PHP info"
-msgstr ""
+msgstr "PHP info"
 
 #: tmp/osclass/oc-includes/osclass/timezones.php:31
 msgid "Use native php function for timezones list."
-msgstr ""
+msgstr "Use a função de php nativa para a lista de fusos horários."
 
 #: tmp/osclass/oc-includes/osclass/helpers/hSearch.php:63
 msgid "Relevance"
-msgstr ""
+msgstr "Relevância"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hSearch.php:66
 msgid "Newly listed"
@@ -4012,7 +4018,7 @@ msgstr "Erro"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:155
 msgid "Page"
-msgstr ""
+msgstr "Página"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:166
 msgid "Show all listings"
@@ -4036,11 +4042,11 @@ msgstr "Novos comentários"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:596
 msgid "Osclass "
-msgstr ""
+msgstr "Osclass "
 
 #: tmp/osclass/oc-includes/osclass/functions.php:596
 msgid " is available"
-msgstr ""
+msgstr " está disponível"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:670
 msgid "Plugin updates"
