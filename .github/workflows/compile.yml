@@ -1,0 +1,23 @@
+name: Compile translations
+
+on:
+  push:
+    branches: [ master ]
+    paths: "src/translations/**"
+  pull_request:
+    branches: [ master ]
+    paths: "src/translations/**"
+
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out under $GITHUB_WORKSPACE, so our job can access it
+      - uses: actions/checkout@v2
+
+      # Compile all po file to binary format
+      - name: Run a one-line script
+        run: |
+           find src/translations/* -name \*.po \
+                -print -execdir sh -c 'msgfmt -f -o "$(basename "$0" .po).mo" "$0"' '{}' \;
