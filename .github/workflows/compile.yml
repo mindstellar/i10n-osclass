@@ -16,7 +16,7 @@ jobs:
       # Checks-out under $GITHUB_WORKSPACE, so our job can access it
       - uses: actions/checkout@v2
       - name: Install gettext
-        run: apt-get install gettext -y
+        run: sudo apt-get install gettext -y
       # Compile all po file to binary format
       - name: Run a one-line script
         run: |
