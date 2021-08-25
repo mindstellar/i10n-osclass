@@ -18,7 +18,15 @@ jobs:
       - name: Install gettext
         run: sudo apt-get install gettext -y
       # Compile all po file to binary format
-      - name: Run a one-line script
+      - name: Compile
         run: |
            find src/translations/* -name \*.po \
                 -print -execdir sh -c 'msgfmt -f -o "$(basename "$0" .po).mo" "$0"' '{}' \;
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: update binary translations
+          title: Update .mo files
+          body: Update binary translations
+          branch: update-binary-translation
+          base: master
