@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-08-24 22:41\n"
+"PO-Revision-Date: 2021-08-25 07:11\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -1554,7 +1554,7 @@ msgstr "Překlady &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/languages/index.php:86
 msgid "Add official languages."
-msgstr ""
+msgstr "Přidat oficiální jazyky."
 
 #: tmp/osclass/oc-admin/themes/modern/languages/index.php:94
 msgid "Delete language"
@@ -1622,12 +1622,12 @@ msgstr "Popis"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/phpinfo.php:33
 msgid "Show PHP info."
-msgstr ""
+msgstr "Show PHP info."
 
 #: tmp/osclass/oc-admin/themes/modern/tools/phpinfo.php:54
 #, php-format
 msgid "PHP info &raquo; %s"
-msgstr ""
+msgstr "PHP info &raquo; %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/version.php:33
 #, php-format
@@ -1660,7 +1660,7 @@ msgstr "Přepočítat statistiky kategorií"
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:31
 #, php-format
 msgid "Upgrade is available for (Current version %s)"
-msgstr ""
+msgstr "Aktualizace je k dispozici pro (aktuální verze %s)"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:33
 msgid "New version to update:"
@@ -1677,7 +1677,8 @@ msgstr "Blahopřejeme! Vaše instalace Osclass je aktuální!"
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:75
 msgid "Check to see if you're using the latest version of Osclass. If you're not, \n"
 "        the system will let you know so you can update and use the newest features."
-msgstr ""
+msgstr "Zkontrolujte, zda používáte nejnovější verzi Osclass. Pokud ne, \n"
+"        systém vám dá vědět, abyste mohli aktualizovat a používat nejnovější funkce."
 
 #: tmp/osclass/oc-admin/themes/modern/tools/upgrade.php:101
 #, php-format
@@ -1690,7 +1691,10 @@ msgid "Your Osclass installation can be auto-upgraded. \n"
 "                                        Please, back up your database and the folder oc-content before attempting to \n"
 "                                        upgrade your Osclass installation. \n"
 "                                        You can also upgrade Osclass manually, more information in the %s"
-msgstr ""
+msgstr "Vaše instalace Osclass může být automaticky aktualizována. \n"
+"                                        Prosím, Zálohujte databázi a obsah složky před pokusem \n"
+"                                        o aktualizaci vaší Osclass instalace. \n"
+"                                        Můžete také vylepšit Osclass ručně, více informací v %s"
 
 #: tmp/osclass/oc-admin/themes/modern/tools/maintenance.php:45
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -1784,7 +1788,7 @@ msgstr "GD rozšíření je vyžadováno.  Návod na <a target=\\\"_blank\\\" hr
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:165
 msgid "cURL extension for PHP"
-msgstr ""
+msgstr "rozšíření cURL pro PHP"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:167
 msgid "cURL extension is required. How to <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">install/configure</a>."
@@ -1989,7 +1993,7 @@ msgstr "Zdravíčko,"
 
 #: tmp/osclass/oc-includes/osclass/install-functions.php:1270
 msgid "The <a href=\"https://github.com/mindstellar/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "<a href=\"https://github.com/mindstellar/osclass\">Ostřída</a> tým"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/CWebSearch.php:625
 msgid "Latest listings added"
@@ -2104,11 +2108,11 @@ msgstr "Vyskytla se chyba při odesílání emailu"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:572
 msgid "Update available"
-msgstr ""
+msgstr "K dispozici je aktualizace"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:575
 msgid "No update available"
-msgstr ""
+msgstr "Žádná aktualizace není k dispozici"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:586
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:590
@@ -2124,12 +2128,12 @@ msgstr "Tuto akci nelze provést, protože se jedná o demo web"
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:612
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:636
 msgid "Osclass upgraded successfully."
-msgstr ""
+msgstr "Osclass byla úspěšně aktualizována."
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:619
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:643
 msgid "Error occurred while upgrading osclass Database."
-msgstr ""
+msgstr "Při aktualizaci databáze osclass se vyskytla chyba."
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:693
 msgid "You don't have the necessary permissions"
@@ -2289,7 +2293,7 @@ msgstr "Verze:"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:147
 msgid "Lost your password"
-msgstr ""
+msgstr "Zapomenuté heslo"
 
 #: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:192
 #: tmp/osclass/oc-includes/osclass/classes/Breadcrumb.php:80
@@ -2495,11 +2499,11 @@ msgstr "Vytvořit nový účet"
 
 #: tmp/osclass/oc-includes/osclass/classes/utility/Utils.php:52
 msgid "Is allow_url_fopen enabled?"
-msgstr ""
+msgstr "Je povoleno_allow_url_fopen povolen?"
 
 #: tmp/osclass/oc-includes/osclass/classes/utility/Utils.php:265
 msgid "Category id is not a valid integer"
-msgstr ""
+msgstr "ID kategorie není platné celé číslo"
 
 #: tmp/osclass/oc-includes/osclass/classes/EmailVariables.php:55
 msgid "User name"
@@ -2681,7 +2685,7 @@ msgstr "Jméno"
 
 #: tmp/osclass/oc-includes/osclass/classes/form/CategoryForm.php:218
 msgid "Slug"
-msgstr ""
+msgstr "URL adresa"
 
 #: tmp/osclass/oc-includes/osclass/classes/form/PageForm.php:112
 msgid "Body"
@@ -3174,19 +3178,19 @@ msgstr "Pročistit expirované"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Plugin.php:77
 msgid "Invalid plugin name."
-msgstr ""
+msgstr "Neplatný název pluginu."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Plugin.php:88
 msgid "Invalid plugin update uri"
-msgstr ""
+msgstr "Neplatná aktualizace pluginu uri"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Theme.php:77
 msgid "Invalid theme name."
-msgstr ""
+msgstr "Neplatný název šablony."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Theme.php:88
 msgid "Invalid theme update uri"
-msgstr ""
+msgstr "Neplatná aktualizace uri šablony"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Osclass.php:96
 msgid "Osclass &raquo; Has some errors"
@@ -3195,45 +3199,47 @@ msgstr "Osclass &raquo; vyskytly se nějaké chyby"
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Osclass.php:97
 msgid "We've encountered some problems while updating the database structure. \n"
 "            The following queries failed:"
-msgstr ""
+msgstr "Při aktualizaci struktury databáze jsme narazili na problémy. \n"
+"            Následující dotazy selhaly:"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Osclass.php:101
 #, php-format
 msgid "These errors could be false-positive errors. If you're sure that is the case, you can \n"
 "                    <a href=\"%s\">continue with the upgrade</a>, or <a href=\"https://osclass.discourse.group\">ask in our forums</a>."
-msgstr ""
+msgstr "Tyto chyby by mohly být falešně pozitivní. Pokud jste si jisti, že tomu tak je, můžete \n"
+"                    <a href=\"%s\">pokračovat upgradem</a>, nebo <a href=\"https://osclass.discourse.group\">zeptejte se na našich fórech</a>."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Osclass.php:119
 msgid "Osclass DB Upgraded Successfully"
-msgstr ""
+msgstr "Osclass DB úspěšně aktualizováno"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/UpgradePackage.php:133
 msgid "s_source_file is not a valid url"
-msgstr ""
+msgstr "s_source_file není platná adresa URL"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/UpgradePackage.php:147
 msgid "Invalid s_target_directory."
-msgstr ""
+msgstr "Invalid s_target_directory."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/UpgradePackage.php:152
 msgid "Invalid a_filtered_files."
-msgstr ""
+msgstr "Neplatné a_filtered_files."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/UpgradePackage.php:161
 msgid "Invalid upgrade package info"
-msgstr ""
+msgstr "Neplatné informace o balíčku aktualizace"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Upgrade.php:102
 msgid "Unable to follow upgrade, invalid package info"
-msgstr ""
+msgstr "Nelze sledovat aktualizaci, neplatné informace o balíčku"
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Upgrade.php:134
 msgid "doesn't exists, unknown error occurred while downloading and extracting package."
-msgstr ""
+msgstr "neexistuje neznámá chyba při stahování a extrahování balíčku."
 
 #: tmp/osclass/oc-includes/osclass/classes/upgrade/Upgrade.php:170
 msgid "Unable to unzip package file."
-msgstr ""
+msgstr "Soubor balíčku nelze rozbalit."
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:70
 msgid "Manage listings"
@@ -3368,23 +3374,23 @@ msgstr "Mód údržby"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:336
 msgid "Renew location stats"
-msgstr ""
+msgstr "Obnovit statistiky polohy"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:343
 msgid "Renew category stats"
-msgstr ""
+msgstr "Obnovit statistiky kategorie"
 
 #: tmp/osclass/oc-includes/osclass/classes/AdminMenu.php:350
 msgid "PHP info"
-msgstr ""
+msgstr "PHP info"
 
 #: tmp/osclass/oc-includes/osclass/timezones.php:31
 msgid "Use native php function for timezones list."
-msgstr ""
+msgstr "Použít nativní php funkci pro seznam časových pásem."
 
 #: tmp/osclass/oc-includes/osclass/helpers/hSearch.php:63
 msgid "Relevance"
-msgstr ""
+msgstr "Význam"
 
 #: tmp/osclass/oc-includes/osclass/helpers/hSearch.php:66
 msgid "Newly listed"
@@ -4012,7 +4018,7 @@ msgstr "Chyba"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:155
 msgid "Page"
-msgstr ""
+msgstr "Stránka"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:166
 msgid "Show all listings"
@@ -4036,11 +4042,11 @@ msgstr "Nové komentáře"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:596
 msgid "Osclass "
-msgstr ""
+msgstr "Osclass "
 
 #: tmp/osclass/oc-includes/osclass/functions.php:596
 msgid " is available"
-msgstr ""
+msgstr " je k dispozici"
 
 #: tmp/osclass/oc-includes/osclass/functions.php:670
 msgid "Plugin updates"
