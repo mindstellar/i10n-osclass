@@ -4,134 +4,134 @@
         {
             "fk_i_page_id": 1,
             "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - \u3042\u306a\u305f\u306e\u5e83\u544a\u306b\u95a2\u3057\u3066\u8cea\u554f\u304c\u5bc4\u305b\u3089\u308c\u3066\u3044\u307e\u3059",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f {CONTACT_NAME}\u3055\u3093!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u304c\u3042\u306a\u305f\u306e\u5e83\u544a<a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>\u306b\u95a2\u3057\u3066\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u6b8b\u3057\u3066\u3044\u307e\u3059\u3002:<\/p><p>{COMMENT}<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - あなたの広告に関して質問が寄せられています",
+            "s_description": "<p>こんにちわ {CONTACT_NAME}さん!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) があなたの広告<a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>に関してメッセージを残しています。:<\/p><p>{COMMENT}<\/p><p>よろしくお願いします。<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 2,
             "s_internal_name": "email_user_validation",
-            "s_title": "\u3042\u306a\u305f\u306e{WEB_TITLE} \u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u8a8d\u8a3c\u3092\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u8a8d\u8a3c\u3057\u3066\u304f\u3060\u3055\u3044: {VALIDATION_LINK}<\/p><p>\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f!<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "あなたの{WEB_TITLE} アカウントの認証をしてください。",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>こちらのリンクをクリックしてアカウントを認証してください: {VALIDATION_LINK}<\/p><p>ありがとうございました!<\/p><p>よろしくお願いします。<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 3,
             "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - \u767b\u9332\u306b\u6210\u529f\u3057\u307e\u3057\u305f",
+            "s_title": "{WEB_TITLE} - 登録に成功しました",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 4,
             "s_internal_name": "email_send_friend",
-            "s_title": "{WEB_TITLE}\u3067\u3053\u3093\u306a\u3082\u306e\u3092\u898b\u3064\u3051\u307e\u3057\u305f\u306e\u3067\u3001\u305c\u3072\u3054\u89a7\u304f\u3060\u3055\u3044\u3002",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {FRIEND_NAME}\u3055\u3093,<\/p><p>\u3042\u306a\u305f\u306e\u53cb\u9054\u3067\u3042\u308b {USER_NAME} \u3055\u3093\u304c\u3053\u3061\u3089\u306e\u5e83\u544a\u3092\u30b7\u30a7\u30a2\u3057\u307e\u3057\u305f\u3002 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>\u672c\u6587:<\/p><p>{COMMENT}<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p><p>{WEB_TITLE}<\/p>"
+            "s_title": "{WEB_TITLE}でこんなものを見つけましたので、ぜひご覧ください。",
+            "s_description": "<p>こんにちわ、 {FRIEND_NAME}さん,<\/p><p>あなたの友達である {USER_NAME} さんがこちらの広告をシェアしました。 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>本文:<\/p><p>{COMMENT}<\/p><p>よろしくお願いします。<\/p><p>{WEB_TITLE}<\/p>"
         },
         {
             "fk_i_page_id": 5,
             "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - \u65b0\u898f\u5e83\u544a in the last hour",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u65b0\u3057\u3044\u5e83\u544a\u304c\u76f4\u8fd11\u6642\u9593\u306e\u9593\u306b\u516c\u958b\u3055\u308c\u307e\u3057\u305f\u3002\u78ba\u8a8d\u306f\u3053\u3061\u3089\u304b\u3089\u3002:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u901a\u77e5\u6a5f\u80fd\u3092\u30aa\u30d5\u306b\u3059\u308b\u306b\u306f\u3001\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 新規広告 in the last hour",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>新しい広告が直近1時間の間に公開されました。確認はこちらから。:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>通知機能をオフにするには、こちらのリンクをクリックしてください。: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 6,
             "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - \u65b0\u898f\u5e83\u544a in the last day",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u65b0\u3057\u3044\u5e83\u544a\u304c\u524d\u306e\u65e5\u306b\u516c\u958b\u3055\u308c\u307e\u3057\u305f\u3002\u78ba\u8a8d\u306f\u3053\u3061\u3089\u304b\u3089\u3002:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u901a\u77e5\u6a5f\u80fd\u3092\u30aa\u30d5\u306b\u3059\u308b\u306b\u306f\u3001\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 新規広告 in the last day",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>新しい広告が前の日に公開されました。確認はこちらから。:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>通知機能をオフにするには、こちらのリンクをクリックしてください。: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 7,
             "s_internal_name": "alert_email_weekly",
-            "s_title": "{WEB_TITLE} - \u65b0\u898f\u5e83\u544a in the last week",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u65b0\u3057\u3044\u5e83\u544a\u304c\u524d\u306e\u9031\u306b\u516c\u958b\u3055\u308c\u307e\u3057\u305f\u3002\u78ba\u8a8d\u306f\u3053\u3061\u3089\u304b\u3089\u3002:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u901a\u77e5\u6a5f\u80fd\u3092\u30aa\u30d5\u306b\u3059\u308b\u306b\u306f\u3001\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 新規広告 in the last week",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>新しい広告が前の週に公開されました。確認はこちらから。:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>通知機能をオフにするには、こちらのリンクをクリックしてください。: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 8,
             "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - \u65b0\u898f\u5e83\u544a",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u65b0\u3057\u3044\u5e83\u544a\u304c\u516c\u958b\u3055\u308c\u307e\u3057\u305f\u3002\u78ba\u8a8d\u306f\u3053\u3061\u3089\u304b\u3089\u3002:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u901a\u77e5\u6a5f\u80fd\u3092\u30aa\u30d5\u306b\u3059\u308b\u306b\u306f\u3001\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 新規広告",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>新しい広告が公開されました。確認はこちらから。:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>通知機能をオフにするには、こちらのリンクをクリックしてください。: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 9,
             "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - \u65b0\u898f\u30b3\u30e1\u30f3\u30c8",
+            "s_title": "{WEB_TITLE} - 新規コメント",
             "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
         },
         {
             "fk_i_page_id": 10,
             "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - \u5e83\u544a{ITEM_TITLE}\u306e\u7de8\u96c6\u30aa\u30d7\u30b7\u30e7\u30f3",
+            "s_title": "{WEB_TITLE} - 広告{ITEM_TITLE}の編集オプション",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 11,
             "s_internal_name": "email_item_validation",
-            "s_title": "\u5e83\u544a\u3092\u8a8d\u8a3c\u3057\u3066\u304f\u3060\u3055\u3044",
+            "s_title": "広告を認証してください",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 12,
             "s_internal_name": "email_admin_new_item",
-            "s_title": "{WEB_TITLE} - \u65b0\u3057\u3044\u5e83\u544a\u304c\u516c\u958b\u3055\u308c\u307e\u3057\u305f",
+            "s_title": "{WEB_TITLE} - 新しい広告が公開されました",
             "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 13,
             "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - \u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5fa9\u65e7\u3059\u308b",
+            "s_title": "{WEB_TITLE} - パスワードを復旧する",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 14,
             "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} - \u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u306e\u5909\u66f4\u30ea\u30af\u30a8\u30b9\u30c8\u304c\u3042\u308a\u307e\u3057\u305f",
+            "s_title": "{WEB_TITLE} - メールアドレスの変更リクエストがありました",
             "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 15,
             "s_internal_name": "email_alert_validation",
-            "s_title": "{WEB_TITLE} - \u30a2\u30e9\u30fc\u30c8\u3092\u8a8d\u8a3c\u3057\u3066\u304f\u3060\u3055\u3044",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u3001\u30a2\u30e9\u30fc\u30c8\u767b\u9332\u306e\u8a8d\u8a3c\u3092\u884c\u3063\u3066\u304f\u3060\u3055\u3044: {VALIDATION_LINK}<\/p><p>\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059!<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - アラートを認証してください",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>こちらのリンクをクリックして、アラート登録の認証を行ってください: {VALIDATION_LINK}<\/p><p>ありがとうございます!<\/p><p>よろしくお願いいたします。<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 16,
             "s_internal_name": "email_comment_validated",
-            "s_title": "{WEB_TITLE} - \u30b3\u30e1\u30f3\u30c8\u304c\u627f\u8a8d\u3055\u308c\u307e\u3057\u305f",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {COMMENT_AUTHOR}\u3055\u3093\u3002<\/p><p>\u5e83\u544a <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u306b\u5bfe\u3059\u308b\u30b3\u30e1\u30f3\u30c8\u304c\u627f\u8a8d\u3055\u308c\u307e\u3057\u305f\u3002<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - コメントが承認されました",
+            "s_description": "<p>こんにちわ、 {COMMENT_AUTHOR}さん。<\/p><p>広告 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> に対するコメントが承認されました。<\/p><p>よろしくお願いします。<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 17,
             "s_internal_name": "email_item_validation_non_register_user",
-            "s_title": "\u5e83\u544a\u3092\u8a8d\u8a3c\u3057\u3066\u304f\u3060\u3055\u3044",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "広告を認証してください",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 18,
             "s_internal_name": "email_admin_new_user",
-            "s_title": "{WEB_TITLE} - \u65b0\u3057\u3044\u30e6\u30fc\u30b6\u30fc\u306e\u767b\u9332\u304c\u3042\u308a\u307e\u3057\u305f",
+            "s_title": "{WEB_TITLE} - 新しいユーザーの登録がありました",
             "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 19,
             "s_internal_name": "email_contact_user",
-            "s_title": "{WEB_TITLE} - \u8cea\u554f\u304c\u5bc4\u305b\u3089\u308c\u3066\u3044\u307e\u3059",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {CONTACT_NAME}\u3055\u3093!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u304b\u3089\u306e\u30e1\u30c3\u30bb\u30fc\u30b8\u304c\u3042\u308a\u307e\u3059\u3002:<\/p><p>{COMMENT}<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 質問が寄せられています",
+            "s_description": "<p>こんにちわ、 {CONTACT_NAME}さん!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) からのメッセージがあります。:<\/p><p>{COMMENT}<\/p><p>よろしくお願いします。<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 20,
             "s_internal_name": "email_new_comment_user",
-            "s_title": "{WEB_TITLE} - \u3042\u306a\u305f\u306e\u5e83\u544a\u306b\u95a2\u3057\u3066\u30b3\u30e1\u30f3\u30c8\u304c\u3064\u3051\u3089\u308c\u307e\u3057\u305f",
+            "s_title": "{WEB_TITLE} - あなたの広告に関してコメントがつけられました",
             "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 21,
             "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - \u7ba1\u7406\u8005\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u4f5c\u6210\u3057\u307e\u3057\u305f\uff01",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001{ADMIN_NAME}\u3001<\/p><p>{WEB_LINK}\u306e\u7ba1\u7406\u8005\u304c\u3042\u306a\u305f\u7528\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u4f5c\u6210\u3057\u307e\u3057\u305f\u3002<\/p><ul><li>\u30e6\u30fc\u30b6\u30fc\u540d: {USERNAME}<\/li><li>\u30d1\u30b9\u30ef\u30fc\u30c9: {PASSWORD}<\/li><\/ul><p>\u7ba1\u7406\u30d1\u30cd\u30eb\u3078\u306e\u30a2\u30af\u30bb\u30b9\u306f\u3053\u3061\u3089\u304b\u3089\u3002{WEB_ADMIN_LINK}.<\/p><p>\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f!<\/p><p>\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002<\/p>"
+            "s_title": "{WEB_TITLE} - 管理者アカウントを作成しました！",
+            "s_description": "<p>こんにちわ、{ADMIN_NAME}、<\/p><p>{WEB_LINK}の管理者があなた用のアカウントを作成しました。<\/p><ul><li>ユーザー名: {USERNAME}<\/li><li>パスワード: {PASSWORD}<\/li><\/ul><p>管理パネルへのアクセスはこちらから。{WEB_ADMIN_LINK}.<\/p><p>ありがとうございました!<\/p><p>よろしくお願いします。<\/p>"
         },
         {
             "fk_i_page_id": 22,
             "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - \u5e83\u544a\u306f\u307e\u3082\u306a\u304f\u671f\u9650\u304c\u5207\u308c\u307e\u3059",
-            "s_description": "<p>\u3053\u3093\u306b\u3061\u308f\u3001 {USER_NAME}\u3055\u3093\u3002<\/p><p>\u3042\u306a\u305f\u306e\u5e83\u544a <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u306f\u307e\u3082\u306a\u304f\u63b2\u8f09\u671f\u9650\u3092\u5411\u304b\u3048\u307e\u3059\u3002\u3053\u3061\u3089\u304b\u3089\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002 {WEB_LINK}."
+            "s_title": "{WEB_TITLE} - 広告はまもなく期限が切れます",
+            "s_description": "<p>こんにちわ、 {USER_NAME}さん。<\/p><p>あなたの広告 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> はまもなく掲載期限を向かえます。こちらから確認してください。 {WEB_LINK}."
         }
     ]
 }

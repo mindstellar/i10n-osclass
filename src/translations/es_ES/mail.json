@@ -5,91 +5,91 @@
             "fk_i_page_id": 1,
             "s_internal_name": "email_item_inquiry",
             "s_title": "{WEB_TITLE} - Alguien tiene una pregunta acerca de tu anuncio",
-            "s_description": "<p>\u00a1Hola {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) te ha dejado un mensaje acerca de tu anuncio <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>¡Hola {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) te ha dejado un mensaje acerca de tu anuncio <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 2,
             "s_internal_name": "email_user_validation",
             "s_title": "Por favor, valida tu cuenta en {WEB_TITLE}",
-            "s_description": "<p>Hola {USER_NAME},<\/p><p>Por favor, valida tu registro haciendo clic en el siguiente enlace:  {VALIDATION_LINK}<\/p><p>\u00a1Gracias!<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>Por favor, valida tu registro haciendo clic en el siguiente enlace:  {VALIDATION_LINK}<\/p><p>¡Gracias!<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 3,
             "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - \u00a1Te has registrado correctamente!",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - ¡Te has registrado correctamente!",
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>Te has registrado correctamente en {WEB_LINK}.<\/p><p>¡Gracias!<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 4,
             "s_internal_name": "email_send_friend",
-            "s_title": "\u00a1Mira lo que he descubierto en {WEB_TITLE}!",
+            "s_title": "¡Mira lo que he descubierto en {WEB_TITLE}!",
             "s_description": "<p>Hola {FRIEND_NAME},<\/p><p>Tu amigo {USER_NAME} quiere compartir este anuncio contigo <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Mensaje: <\/p><p>{COMMENT}<\/p><p>Saludos,<\/p><p>{WEB_TITLE}<\/p>"
         },
         {
             "fk_i_page_id": 5,
             "s_internal_name": "alert_email_hourly",
             "s_title": "{WEB_TITLE} - Nuevos anuncios in the last hour",
-            "s_description": "<p>Hola {USER_NAME},<\/p><p>Se han publicado nuevos anuncios en la \u00faltima hora. \u00c9chales un vistazo:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haz clic en:  {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>Se han publicado nuevos anuncios en la última hora. Échales un vistazo:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haz clic en:  {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 6,
             "s_internal_name": "alert_email_daily",
             "s_title": "{WEB_TITLE} - Nuevos anuncios in the last day",
-            "s_description": "<p>Hola {USER_NAME},<\/p><p>Se han publicados anuncios nuevos durante el d\u00eda de hoy. \u00c9chales un vistazo: <\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haz clic en: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>Se han publicados anuncios nuevos durante el día de hoy. Échales un vistazo: <\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haz clic en: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 7,
             "s_internal_name": "alert_email_weekly",
             "s_title": "{WEB_TITLE} - Nuevos anuncios in the last week",
-            "s_description": "<p>Hola {USER_NAME},<\/p><p>Se han publicado nuevos anuncios en la \u00faltima semana. \u00c9chales un vistazo: <\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haz clic en:  {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>Se han publicado nuevos anuncios en la última semana. Échales un vistazo: <\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haz clic en:  {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 8,
             "s_internal_name": "alert_email_instant",
             "s_title": "{WEB_TITLE} - Nuevos anuncios",
-            "s_description": "<p>Hola {USER_NAME},<\/p><p>Se ha publicado un nuevo anuncio, \u00a1\u00e9chale un vistazo!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haz clic en: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>Se ha publicado un nuevo anuncio, ¡échale un vistazo!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haz clic en: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 9,
             "s_internal_name": "email_new_comment_admin",
             "s_title": "{WEB_TITLE} - Nuevo comentario",
-            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+            "s_description": "<p>Alguien comentó en la lista <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Comentario: {COMMENT_AUTHOR}<br \/>Comentario de correo electrónico: {COMMENT_EMAIL}<br \/>Título: {COMMENT_TITLE}<br \/>Comentario: {COMMENT_TEXT}<\/p>"
         },
         {
             "fk_i_page_id": 10,
             "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - Opciones de edici\u00f3n del anuncio {ITEM_TITLE}",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Opciones de edición del anuncio {ITEM_TITLE}",
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>No estás registrado en {WEB_LINK}, pero todavía puede editar o eliminar el listado <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> durante un corto periodo de tiempo.<\/p><p>Puede editar su listado siguiendo este enlace: {EDIT_LINK}<\/p><p>Puede eliminar su listado siguiendo este enlace: {DELETE_LINK}<\/p><p>Si se registra como usuario, tendrás acceso total a las opciones de edición.<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 11,
             "s_internal_name": "email_item_validation",
             "s_title": "{WEB_TITLE} - Valida tu anuncio",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>Usted recibe este correo electrónico porque un listado ha sido publicado en {WEB_LINK}. Por favor, valide este listado haciendo clic en el siguiente enlace: {VALIDATION_LINK}. Si no has publicado este anuncio, por favor ignora este correo electrónico.<\/p><p>Detalles de lista:<\/p><p>Nombre de contacto: {USER_NAME}<br \/>correo electrónico de contacto: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 12,
             "s_internal_name": "email_admin_new_item",
             "s_title": "{WEB_TITLE} - Se ha publicado un anuncio nuevo",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Estimado administrador de {WEB_TITLE} ,<\/p><p>Usted está recibiendo este correo electrónico porque un listado ha sido publicado en {WEB_LINK}.<\/p><p>Detalles de lista:<\/p><p>Nombre de contacto: {USER_NAME}<br \/>Correo electrónico de contacto: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Puede editar este anuncio haciendo clic en el siguiente enlace: {EDIT_LINK}<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 13,
             "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - Recuperar contrase\u00f1a",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Recuperar contraseña",
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>Te hemos enviado este correo electrónico porque has solicitado un recordatorio de contraseña. Sigue este enlace para recuperarlo: {PASSWORD_LINK}<\/p><p>El enlace se desactivará en 24 horas.<\/p><p>Si no has solicitado un recordatorio de contraseña, por favor ignora este mensaje. Esta solicitud se hizo desde la IP {IP_ADDRESS} el {DATE_TIME}<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 14,
             "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} - Has solicitado un cambio de correo electr\u00f3nico",
-            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Has solicitado un cambio de correo electrónico",
+            "s_description": "<p>Hola {USER_NAME}<\/p><p>Has recibido este correo electrónico porque has solicitado un cambio de correo electrónico. Por favor, confirma esta nueva dirección de correo electrónico haciendo clic en el siguiente enlace de validación: {VALIDATION_LINK}<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 15,
             "s_internal_name": "email_alert_validation",
             "s_title": "{WEB_TITLE} - Por favor, confirma tu alerta",
-            "s_description": "<p>Hola {USER_NAME},<\/p><p>Por favor, valida tu registro de alerta. Haz clic en el siguiente enlace: {VALIDATION_LINK}<\/p><p>\u00a1Gracias!<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p> "
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>Por favor, valida tu registro de alerta. Haz clic en el siguiente enlace: {VALIDATION_LINK}<\/p><p>¡Gracias!<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p> "
         },
         {
             "fk_i_page_id": 16,
@@ -101,13 +101,13 @@
             "fk_i_page_id": 17,
             "s_internal_name": "email_item_validation_non_register_user",
             "s_title": "{WEB_TITLE} - Valida tu anuncio",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 18,
             "s_internal_name": "email_admin_new_user",
             "s_title": "{WEB_TITLE} - Se ha registrado un nuevo usuario",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Estimado administrador de {WEB_TITLE} ,<\/p><p>Usted está recibiendo este correo electrónico porque un nuevo usuario ha sido creado en {WEB_LINK}.<\/p><p>Datos del usuario:<\/p><p>Nombre: {USER_NAME}<br \/>Correo electrónico: {USER_EMAIL}<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 19,
@@ -119,19 +119,19 @@
             "fk_i_page_id": 20,
             "s_internal_name": "email_new_comment_user",
             "s_title": "{WEB_TITLE} - Alguien ha comentado tu anuncio",
-            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hay un nuevo comentario en la lista: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Autor: {COMMENT_AUTHOR}<br \/>Correo electrónico del autor: {COMMENT_EMAIL}<br \/>Título: {COMMENT_TITLE}<br \/>Comentario: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 21,
             "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - \u00a1Cuenta de administrador creada con \u00e9xito!",
-            "s_description": "<p>Hola {ADMIN_NAME},<\/p><p>El administrador de {WEB_LINK} ha creado una cuenta para ti,<\/p><ul><li>Nombre de usuario: {USERNAME}<\/li><li>Contrase\u00f1a: {PASSWORD}<\/li><\/ul><p>Puedes acceder al panel de administraci\u00f3n aqu\u00ed {WEB_ADMIN_LINK}.<\/p><p>\u00a1Gracias!<\/p><p>Saludos,<\/p>"
+            "s_title": "{WEB_TITLE} - ¡Cuenta de administrador creada con éxito!",
+            "s_description": "<p>Hola {ADMIN_NAME},<\/p><p>El administrador de {WEB_LINK} ha creado una cuenta para ti,<\/p><ul><li>Nombre de usuario: {USERNAME}<\/li><li>Contraseña: {PASSWORD}<\/li><\/ul><p>Puedes acceder al panel de administración aquí {WEB_ADMIN_LINK}.<\/p><p>¡Gracias!<\/p><p>Saludos,<\/p>"
         },
         {
             "fk_i_page_id": 22,
             "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - Tu anuncio est\u00e1 a punto de caducar",
-            "s_description": "<p>Hola {USER_NAME},<\/p><p>Tu anuncio <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> est\u00e1 a punto de caducar en {WEB_LINK}."
+            "s_title": "{WEB_TITLE} - Tu anuncio está a punto de caducar",
+            "s_description": "<p>Hola {USER_NAME},<\/p><p>Tu anuncio <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> está a punto de caducar en {WEB_LINK}."
         }
     ]
 }

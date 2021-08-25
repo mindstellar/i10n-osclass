@@ -4,134 +4,134 @@
         {
             "fk_i_page_id": 1,
             "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - \u0423 \u043a\u043e\u0433\u043e-\u0442\u043e \u0435\u0441\u0442\u044c \u0432\u043e\u043f\u0440\u043e\u0441 \u043e \u0432\u0430\u0448\u0435\u043c \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0438",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u043d\u0430\u043f\u0438\u0441\u0430\u043b \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043f\u043e \u043f\u043e\u0432\u043e\u0434\u0443 \u0412\u0430\u0448\u0435\u0433\u043e \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>\u0421 \u0443\u0432\u0430\u0436\u0435\u043d\u0438\u0435\u043c,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - У кого-то есть вопрос о вашем объявлении",
+            "s_description": "<p>Привет {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) написал сообщение по поводу Вашего объявления <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>С уважением,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 2,
             "s_internal_name": "email_user_validation",
-            "s_title": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043d\u0430 \u0441\u0430\u0439\u0442\u0435 {WEB_TITLE}",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {USER_NAME},<\/p><p>\u041f\u0440\u043e\u0441\u044c\u0431\u0430 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c \u0412\u0430\u0448\u0443 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044e, \u043d\u0430\u0436\u0430\u0432 \u043d\u0430 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0443\u044e \u0441\u0441\u044b\u043b\u043a\u0443: {VALIDATION_LINK}<\/p><p>\u0421\u043f\u0430\u0441\u0438\u0431\u043e!<\/p><p>\u0421 \u0443\u0432\u0430\u0436\u0435\u043d\u0438\u0435\u043c,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "Подтверждение регистрации на сайте {WEB_TITLE}",
+            "s_description": "<p>Привет {USER_NAME},<\/p><p>Просьба подтвердить Вашу регистрацию, нажав на следующую ссылку: {VALIDATION_LINK}<\/p><p>Спасибо!<\/p><p>С уважением,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 3,
             "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - \u0423\u0441\u043f\u0435\u0448\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f!",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Успешная регистрация!",
+            "s_description": "<p>Привет {USER_NAME},<\/p><p>Вы успешно зарегистрировались на {WEB_LINK}.<\/p><p>Спасибо!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 4,
             "s_internal_name": "email_send_friend",
-            "s_title": "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0438, \u0447\u0442\u043e \u044f \u043e\u0431\u043d\u0430\u0440\u0443\u0436\u0438\u043b \u043d\u0430 {WEB_TITLE}",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {FRIEND_NAME},<\/p><p>\u0412\u0430\u0448 \u0434\u0440\u0443\u0433 {USER_NAME} \u0445\u043e\u0447\u0435\u0442 \u043f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0441 \u0412\u0430\u043c\u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0435\u0439 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435:<\/p><p>{COMMENT}<\/p><p>\u0421 \u0443\u0432\u0430\u0436\u0435\u043d\u0438\u0435\u043c,<\/p><p>{WEB_TITLE}<\/p>"
+            "s_title": "Посмотри, что я обнаружил на {WEB_TITLE}",
+            "s_description": "<p>Привет {FRIEND_NAME},<\/p><p>Ваш друг {USER_NAME} хочет поделиться с Вами информацией <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Сообщение:<\/p><p>{COMMENT}<\/p><p>С уважением,<\/p><p>{WEB_TITLE}<\/p>"
         },
         {
             "fk_i_page_id": 5,
             "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - \u041d\u043e\u0432\u043e\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0435 in the last hour",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {USER_NAME},<\/p><p>\u041d\u043e\u0432\u044b\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u043e\u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439 \u0447\u0430\u0441. \u0412\u0437\u0433\u043b\u044f\u043d\u0438\u0442\u0435 \u043d\u0430 \u043d\u0438\u0445:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0427\u0442\u043e\u0431\u044b \u043e\u0442\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u044d\u0442\u043e\u0439 \u0440\u0430\u0441\u0441\u044b\u043b\u043a\u0438 , \u043f\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u043f\u043e \u0441\u0441\u044b\u043b\u043a\u0435: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Новое объявление in the last hour",
+            "s_description": "<p>Привет {USER_NAME},<\/p><p>Новые объявления опубликованные за последний час. Взгляните на них:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Чтобы отписаться от этой рассылки , перейдите по ссылке: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 6,
             "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - \u041d\u043e\u0432\u043e\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0435 in the last day",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {USER_NAME},<\/p><p>\u041d\u043e\u0432\u044b\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u0437\u0430 \u043f\u0440\u043e\u0448\u0435\u0434\u0448\u0438\u0439 \u0434\u0435\u043d\u044c. \u0412\u0437\u0433\u043b\u044f\u043d\u0438\u0442\u0435 \u043d\u0430 \u043d\u0438\u0445:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0427\u0442\u043e\u0431\u044b \u043e\u0442\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u044d\u0442\u043e\u0439 \u0440\u0430\u0441\u0441\u044b\u043b\u043a\u0438, \u043f\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u043f\u043e \u0441\u0441\u044b\u043b\u043a\u0435: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Новое объявление in the last day",
+            "s_description": "<p>Привет {USER_NAME},<\/p><p>Новые объявления за прошедший день. Взгляните на них:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Чтобы отписаться от этой рассылки, перейдите по ссылке: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 7,
             "s_internal_name": "alert_email_weekly",
-            "s_title": "{WEB_TITLE} - \u041d\u043e\u0432\u043e\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0435 in the last week",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {USER_NAME},<\/p><p>\u041d\u043e\u0432\u044b\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u043e\u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043d\u0430 \u043f\u0440\u043e\u0448\u043b\u043e\u0439 \u043d\u0435\u0434\u0435\u043b\u0435. \u0412\u0437\u0433\u043b\u044f\u043d\u0438\u0442\u0435 \u043d\u0430 \u043d\u0438\u0445:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0427\u0442\u043e\u0431\u044b \u043e\u0442\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u044d\u0442\u043e\u0439 \u0440\u0430\u0441\u0441\u044b\u043b\u043a\u0438, \u043f\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u043f\u043e \u0441\u0441\u044b\u043b\u043a\u0435: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Новое объявление in the last week",
+            "s_description": "<p>Привет {USER_NAME},<\/p><p>Новые объявления опубликованные на прошлой неделе. Взгляните на них:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Чтобы отписаться от этой рассылки, перейдите по ссылке: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 8,
             "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - \u041d\u043e\u0432\u043e\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0435",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {USER_NAME},<\/p><p>\u041e\u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u043d\u043e \u043d\u043e\u0432\u043e\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0435!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0414\u043b\u044f \u0442\u043e\u0433\u043e \u0447\u0442\u043e\u0431\u044b \u043e\u0442\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u044d\u0442\u043e\u0439 \u0440\u0430\u0441\u0441\u044b\u043b\u043a\u0438, \u043f\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u043f\u043e \u0441\u0441\u044b\u043b\u043a\u0435: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Новое объявление",
+            "s_description": "<p>Привет {USER_NAME},<\/p><p>Опубликовано новое объявление!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Для того чтобы отписаться от этой рассылки, перейдите по ссылке: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 9,
             "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - \u041d\u043e\u0432\u044b\u0439 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439",
-            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+            "s_title": "{WEB_TITLE} - Новый комментарий",
+            "s_description": "<p>Кто-то прокомментировал объявление <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Комментарий: {COMMENT_AUTHOR}<br \/>Адрес электронной почты комментатора: {COMMENT_EMAIL}<br \/>Название: {COMMENT_TITLE}<br \/>Комментарий: {COMMENT_TEXT}<\/p>"
         },
         {
             "fk_i_page_id": 10,
             "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - \u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f {ITEM_TITLE}",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Возможности редактирования для объявления {ITEM_TITLE}",
+            "s_description": "<p>Привет {USER_NAME},<\/p><p>Вы не зарегистрированы в {WEB_LINK}, но вы все еще можете редактировать или удалять объявление <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> на короткий промежуток времени.<\/p><p>Вы можете изменить свой листинг по этой ссылке: {EDIT_LINK}<\/p><p>Вы можете удалить ваш листинг по этой ссылке: {DELETE_LINK}<\/p><p>Если вы зарегистрируетесь как пользователь, вы получите полный доступ к настройкам редактирования.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 11,
             "s_internal_name": "email_item_validation",
-            "s_title": "{WEB_TITLE} - \u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Подтверждение объявления",
+            "s_description": "<p>Привет {USER_NAME},<\/p><p>Вы получили это письмо, потому что список был опубликован на {WEB_LINK}. Пожалуйста, подтвердите этот список, нажав на следующую ссылку: {VALIDATION_LINK}. Если вы не публиковали этот список, пожалуйста, игнорируйте это письмо.<\/p><p><p> Детали листинга:<\/p><p>Имя контакта: {USER_NAME}<br \/>Контактный e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 12,
             "s_internal_name": "email_admin_new_item",
-            "s_title": "{WEB_TITLE} - \u041e\u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u043d\u043e \u043d\u043e\u0432\u043e\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0435",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Опубликовано новое объявление",
+            "s_description": "<p>Уважаемый администратор {WEB_TITLE} ,<\/p><p>Вы получили это письмо, потому что список был опубликован на {WEB_LINK}.<\/p><p>Детали листинга:<\/p><p>Имя контакта: {USER_NAME}<br \/>Контактный email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Вы можете изменить это объявление, нажав на ссылку: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 13,
             "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0430\u0440\u043e\u043b\u044f",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Восстановления пароля",
+            "s_description": "<p>Здравствуйте, {USER_NAME},<\/p><p>Мы отправили вам это письмо, потому что вы запросили напоминание пароля. Перейдите по этой ссылке, чтобы восстановить её: {PASSWORD_LINK}<\/p><p>Ссылка будет отключена через 24 часа.<\/p><p>Если вы не запрашивали напоминание пароля, проигнорируйте это сообщение. Этот запрос был сделан с IP {IP_ADDRESS} {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 14,
             "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} - \u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0441\u043c\u0435\u043d\u0443 \u0430\u0434\u0440\u0435\u0441\u0430 \u043f\u043e\u0447\u0442\u044b",
-            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Запрос на смену адреса почты",
+            "s_description": "<p>Здравствуйте, {USER_NAME}<\/p><p>Вы получили это письмо, потому что Вы запросили смену электронной почты. Пожалуйста, подтвердите этот новый адрес электронной почты, нажав на следующую ссылку подтверждения: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 15,
             "s_internal_name": "email_alert_validation",
-            "s_title": "{WEB_TITLE} - \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0443",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {USER_NAME},<\/p><p> \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044e, \u043d\u0430\u0436\u0430\u0432 \u043d\u0430 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0443\u044e \u0441\u0441\u044b\u043b\u043a\u0443: {VALIDATION_LINK}<\/p><p>\u0421\u043f\u0430\u0441\u0438\u0431\u043e!<\/p><p>\u0421 \u0443\u0432\u0430\u0436\u0435\u043d\u0438\u0435\u043c,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Пожалуйста, подтвердите подписку",
+            "s_description": "<p>Привет {USER_NAME},<\/p><p> подтвердите регистрацию, нажав на следующую ссылку: {VALIDATION_LINK}<\/p><p>Спасибо!<\/p><p>С уважением,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 16,
             "s_internal_name": "email_comment_validated",
-            "s_title": "{WEB_TITLE} - \u0412\u0430\u0448 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043e\u0434\u043e\u0431\u0440\u0435\u043d",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {COMMENT_AUTHOR},<\/p><p>\u0412\u0430\u0448 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043d\u0430 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d.<\/p><p>\u0421 \u0443\u0432\u0430\u0436\u0435\u043d\u0438\u0435\u043c,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Ваш комментарий одобрен",
+            "s_description": "<p>Привет {COMMENT_AUTHOR},<\/p><p>Ваш комментарий на <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> успешно утвержден.<\/p><p>С уважением,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 17,
             "s_internal_name": "email_item_validation_non_register_user",
-            "s_title": "{WEB_TITLE} - \u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Подтверждение объявления",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 18,
             "s_internal_name": "email_admin_new_user",
-            "s_title": "{WEB_TITLE} - \u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043d\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Регистрация нового пользователя",
+            "s_description": "<p>Уважаемый администратор {WEB_TITLE} ,<\/p><p>Вы получили это письмо, потому что был создан новый пользователь на сайте {WEB_LINK}.<\/p><p>Информация о пользователе:<\/p><p>Имя: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 19,
             "s_internal_name": "email_contact_user",
-            "s_title": "{WEB_TITLE} - \u0423 \u043a\u043e\u0433\u043e \u0442\u043e \u0435\u0441\u0442\u044c \u0432\u043e\u043f\u0440\u043e\u0441 \u043a \u0412\u0430\u043c",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u043e\u0441\u0442\u0430\u0432\u0438\u043b \u0412\u0430\u043c \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435:<\/p><p>{COMMENT}<\/p><p>\u0421 \u0443\u0432\u0430\u0436\u0435\u043d\u0438\u0435\u043c,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - У кого то есть вопрос к Вам",
+            "s_description": "<p>Привет {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) оставил Вам сообщение:<\/p><p>{COMMENT}<\/p><p>С уважением,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 20,
             "s_internal_name": "email_new_comment_user",
-            "s_title": "{WEB_TITLE} - \u041a\u0442\u043e \u0442\u043e \u043e\u0441\u0442\u0430\u0432\u0438\u043b \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u043d\u0430 \u0412\u0430\u0448\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0435",
-            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Кто то оставил комментарий на Ваше объявление",
+            "s_description": "<p>Есть новый комментарий к листингу: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Автор: {COMMENT_AUTHOR}<br \/>Адрес электронной почты: {COMMENT_EMAIL}<br \/>Название: {COMMENT_TITLE}<br \/>Комментарий: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 21,
             "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - \u0423\u0441\u043f\u0435\u0448\u043d\u043e\u0435 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0443\u0447\u0435\u0442\u043d\u043e\u0439 \u0437\u0430\u043f\u0438\u0441\u0438 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0430!",
-            "s_description": "<p>\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435 {ADMIN_NAME},<\/p><p>\u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440 {WEB_LINK} \u0441\u043e\u0437\u0434\u0430\u043b \u0434\u043b\u044f \u0412\u0430\u0441 \u043b\u0438\u0447\u043d\u044b\u0439 \u043a\u0430\u0431\u0438\u043d\u0435\u0442,<\/p><ul><li>\u0418\u043c\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f: {USERNAME}<\/li><li>\u041f\u0430\u0440\u043e\u043b\u044c: {PASSWORD}<\/li><\/ul><p>\u0414\u043b\u044f \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0432\u0430\u0448\u0438\u043c \u043b\u0438\u0447\u043d\u044b\u043c \u043a\u0430\u0431\u0438\u043d\u0435\u0442\u043e\u043c \u043f\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u043f\u043e \u0441\u0441\u044b\u043b\u043a\u0435 {WEB_ADMIN_LINK}.<\/p><p>\u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u0438\u043c \u0412\u0430\u0441!<\/p><p>\u0421 \u0443\u0432\u0430\u0436\u0435\u043d\u0438\u0435\u043c,<\/p>"
+            "s_title": "{WEB_TITLE} - Успешное создание учетной записи администратора!",
+            "s_description": "<p>Здравствуйте {ADMIN_NAME},<\/p><p>Администратор {WEB_LINK} создал для Вас личный кабинет,<\/p><ul><li>Имя пользователя: {USERNAME}<\/li><li>Пароль: {PASSWORD}<\/li><\/ul><p>Для управления вашим личным кабинетом перейдите по ссылке {WEB_ADMIN_LINK}.<\/p><p>Благодарим Вас!<\/p><p>С уважением,<\/p>"
         },
         {
             "fk_i_page_id": 22,
             "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - \u0412\u0430\u0448\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u043a\u043e\u0440\u043e \u0441\u0442\u0430\u043d\u0435\u0442 \u043d\u0435 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u043c",
-            "s_description": "<p>\u041f\u0440\u0438\u0432\u0435\u0442 {USER_NAME},<\/p><p> \u0412\u0430\u0448\u0435 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0435 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> - \u0443\u0436\u0435 \u043d\u0435 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e {WEB_LINK}."
+            "s_title": "{WEB_TITLE} - Ваше объявление скоро станет не актуальным",
+            "s_description": "<p>Привет {USER_NAME},<\/p><p> Ваше объявление <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> - уже не актуально {WEB_LINK}."
         }
     ]
 }

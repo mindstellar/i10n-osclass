@@ -4,134 +4,134 @@
         {
             "fk_i_page_id": 1,
             "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - \u6709\u8a2a\u5ba2\u5c0d\u4f60\u7684\u6e05\u55ae\u767c\u8868\u4e86\u56de\u61c9",
-            "s_description": "<p>{CONTACT_NAME} \u4f60\u597d\uff1b<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u5728\u4f60\u7684\u6e05\u55ae\u4e2d\u767c\u8868\u4e86\u8a0a\u606f\uff1a<a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>\u795d\u597d<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 有訪客對你的清單發表了回應",
+            "s_description": "<p>{CONTACT_NAME} 你好；<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) 在你的清單中發表了訊息：<a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>祝好<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 2,
             "s_internal_name": "email_user_validation",
-            "s_title": "\u8acb\u9a57\u8b49\u4f60\u7684 {WEB_TITLE} \u5e33\u865f",
-            "s_description": "<p>{USER_NAME} \u4f60\u597d\uff1b<\/p><p>\u8acb\u9a57\u8b49\u4f60\u7684\u8a3b\u518a\u662f\u5426\u70ba\u4f60\u672c\u4eba\uff0c\u8acb\u6309\u4e00\u4e0b\u53f3\u5074\u8d85\u9023\u7d50\uff1a{VALIDATION_LINK}<\/p><p>\u8b1d\u8b1d\u4f60\uff01<\/p><p>\u795d\u597d<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "請驗證你的 {WEB_TITLE} 帳號",
+            "s_description": "<p>{USER_NAME} 你好；<\/p><p>請驗證你的註冊是否為你本人，請按一下右側超連結：{VALIDATION_LINK}<\/p><p>謝謝你！<\/p><p>祝好<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 3,
             "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - \u8a3b\u518a\u6210\u529f\uff01",
+            "s_title": "{WEB_TITLE} - 註冊成功！",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 4,
             "s_internal_name": "email_send_friend",
-            "s_title": "\u770b\u770b\u6211\u5728 {WEB_TITLE} \u767c\u73fe\u4e86\u4ec0\u9ebc",
-            "s_description": "<p>{FRIEND_NAME} \u4f60\u597d\uff1b<\/p><p>\u4f60\u7684\u670b\u53cb {USER_NAME} \u5206\u4eab\u9019\u500b\u5ee3\u544a\u6e05\u55ae\u7d66\u4f60 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>\u5167\u5bb9\uff1a<\/p><p>{COMMENT}<\/p><p>\u795d\u597d<\/p><p>{WEB_TITLE}<\/p>"
+            "s_title": "看看我在 {WEB_TITLE} 發現了什麼",
+            "s_description": "<p>{FRIEND_NAME} 你好；<\/p><p>你的朋友 {USER_NAME} 分享這個廣告清單給你 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>內容：<\/p><p>{COMMENT}<\/p><p>祝好<\/p><p>{WEB_TITLE}<\/p>"
         },
         {
             "fk_i_page_id": 5,
             "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - \u65b0\u6e05\u55ae in the last hour",
-            "s_description": "<p>{USER_NAME} \u4f60\u597d\uff1b<\/p><p>\u6700\u8fd1\u4e00\u500b\u5c0f\u6642\u767c\u4f48\u7684\u65b0\u6e05\u55ae\uff0c\u53bb\u77a7\u4e00\u77a7\u5427\uff01<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u82e5\u4e0d\u60f3\u8a02\u95b1\u9019\u985e\u901a\u77e5\uff0c\u8acb\u6309\u4e00\u4e0b\u53f3\u5074\u8d85\u9023\u7d50\uff1a{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 新清單 in the last hour",
+            "s_description": "<p>{USER_NAME} 你好；<\/p><p>最近一個小時發佈的新清單，去瞧一瞧吧！<\/p><p>{ADS}<\/p><p>-------------<\/p><p>若不想訂閱這類通知，請按一下右側超連結：{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 6,
             "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - \u65b0\u6e05\u55ae in the last day",
-            "s_description": "<p>{USER_NAME} \u4f60\u597d\uff1b<\/p><p>\u6700\u8fd1\u4e00\u5929\u767c\u4f48\u7684\u65b0\u6e05\u55ae\uff0c\u53bb\u77a7\u4e00\u77a7\u5427\uff01<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u82e5\u4e0d\u60f3\u8a02\u95b1\u9019\u985e\u901a\u77e5\uff0c\u8acb\u6309\u4e00\u4e0b\u53f3\u5074\u8d85\u9023\u7d50\uff1a{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 新清單 in the last day",
+            "s_description": "<p>{USER_NAME} 你好；<\/p><p>最近一天發佈的新清單，去瞧一瞧吧！<\/p><p>{ADS}<\/p><p>-------------<\/p><p>若不想訂閱這類通知，請按一下右側超連結：{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 7,
             "s_internal_name": "alert_email_weekly",
-            "s_title": "{WEB_TITLE} - \u65b0\u6e05\u55ae in the last week",
-            "s_description": "<p>{USER_NAME} \u4f60\u597d\uff1b<\/p><p>\u6700\u8fd1\u4e00\u9031\u767c\u4f48\u7684\u65b0\u6e05\u55ae\uff0c\u53bb\u77a7\u4e00\u77a7\u5427\uff01<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u82e5\u4e0d\u60f3\u8a02\u95b1\u9019\u985e\u901a\u77e5\uff0c\u8acb\u6309\u4e00\u4e0b\u53f3\u5074\u8d85\u9023\u7d50\uff1a{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 新清單 in the last week",
+            "s_description": "<p>{USER_NAME} 你好；<\/p><p>最近一週發佈的新清單，去瞧一瞧吧！<\/p><p>{ADS}<\/p><p>-------------<\/p><p>若不想訂閱這類通知，請按一下右側超連結：{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 8,
             "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - \u65b0\u6e05\u55ae",
-            "s_description": "<p>{USER_NAME} \u4f60\u597d\uff1b<\/p><p>\u6709\u65b0\u7684\u6e05\u55ae\u767c\u4f48\uff0c\u8acb\u67e5\u770b\uff01<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u82e5\u4e0d\u60f3\u8a02\u95b1\u9019\u985e\u901a\u77e5\uff0c\u8acb\u6309\u4e00\u4e0b\u53f3\u5074\u8d85\u9023\u7d50\uff1a{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 新清單",
+            "s_description": "<p>{USER_NAME} 你好；<\/p><p>有新的清單發佈，請查看！<\/p><p>{ADS}<\/p><p>-------------<\/p><p>若不想訂閱這類通知，請按一下右側超連結：{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 9,
             "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - \u65b0\u7684\u7dda\u4e0a\u7559\u8a00",
+            "s_title": "{WEB_TITLE} - 新的線上留言",
             "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
         },
         {
             "fk_i_page_id": 10,
             "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - \u7de8\u8f2f\u6e05\u55ae\u7684\u529f\u80fd\u9078\u9805 {ITEM_TITLE}",
+            "s_title": "{WEB_TITLE} - 編輯清單的功能選項 {ITEM_TITLE}",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 11,
             "s_internal_name": "email_item_validation",
-            "s_title": "{WEB_TITLE} - \u9a57\u8b49\u4f60\u7684\u5ee3\u544a\u6e05\u55ae",
+            "s_title": "{WEB_TITLE} - 驗證你的廣告清單",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 12,
             "s_internal_name": "email_admin_new_item",
-            "s_title": "{WEB_TITLE} - \u6709\u65b0\u7684\u5ee3\u544a\u6e05\u55ae\u767c\u4f48",
+            "s_title": "{WEB_TITLE} - 有新的廣告清單發佈",
             "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 13,
             "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - \u627e\u56de\u4f60\u7684\u5bc6\u78bc",
+            "s_title": "{WEB_TITLE} - 找回你的密碼",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 14,
             "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} - \u4f60\u8981\u6c42\u8b8a\u66f4\u96fb\u5b50\u90f5\u4ef6",
+            "s_title": "{WEB_TITLE} - 你要求變更電子郵件",
             "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 15,
             "s_internal_name": "email_alert_validation",
-            "s_title": "{WEB_TITLE} - \u8acb\u9a57\u8b49\u4f60\u7684\u901a\u77e5\u529f\u80fd",
-            "s_description": "<p>{USER_NAME} \u4f60\u597d\uff1b<\/p><p>\u4f60\u958b\u555f\u901a\u77e5\u529f\u80fd\uff0c\u9808\u9a57\u8b49\u5f8c\u555f\u7528\uff0c\u8acb\u6309\u4e00\u4e0b\u53f3\u5074\u8d85\u9023\u7d50\uff1a{VALIDATION_LINK}<\/p><p>\u8b1d\u8b1d\uff01<\/p><p>\u795d\u597d<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 請驗證你的通知功能",
+            "s_description": "<p>{USER_NAME} 你好；<\/p><p>你開啟通知功能，須驗證後啟用，請按一下右側超連結：{VALIDATION_LINK}<\/p><p>謝謝！<\/p><p>祝好<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 16,
             "s_internal_name": "email_comment_validated",
-            "s_title": "{WEB_TITLE} - \u4f60\u7684\u7dda\u4e0a\u7559\u8a00\u5df2\u7d93\u6838\u51c6",
-            "s_description": "<p>{COMMENT_AUTHOR} \u4f60\u597d\uff1b<\/p><p>\u4f60\u5728 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u767c\u8868\u7684\u7dda\u4e0a\u7559\u8a00\u5df2\u7d93\u6838\u51c6\u3002<\/p><p>\u795d\u597d<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 你的線上留言已經核准",
+            "s_description": "<p>{COMMENT_AUTHOR} 你好；<\/p><p>你在 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> 發表的線上留言已經核准。<\/p><p>祝好<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 17,
             "s_internal_name": "email_item_validation_non_register_user",
-            "s_title": "{WEB_TITLE} - \u9a57\u8b49\u4f60\u7684\u5ee3\u544a\u6e05\u55ae",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 驗證你的廣告清單",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 18,
             "s_internal_name": "email_admin_new_user",
-            "s_title": "{WEB_TITLE} - \u6709\u65b0\u7684\u4f7f\u7528\u8005\u8a3b\u518a",
+            "s_title": "{WEB_TITLE} - 有新的使用者註冊",
             "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 19,
             "s_internal_name": "email_contact_user",
-            "s_title": "{WEB_TITLE} - \u6709\u4eba\u7559\u8a00\u7d66\u4f60",
-            "s_description": "<p>{CONTACT_NAME} \u4f60\u597d\uff1b<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u7559\u8a00\u7d66\u4f60\uff1a<\/p><p>{COMMENT}<\/p><p>\u795d\u597d<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - 有人留言給你",
+            "s_description": "<p>{CONTACT_NAME} 你好；<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) 留言給你：<\/p><p>{COMMENT}<\/p><p>祝好<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 20,
             "s_internal_name": "email_new_comment_user",
-            "s_title": "{WEB_TITLE} - \u6709\u4eba\u5728\u4f60\u7684\u5ee3\u544a\u6e05\u55ae\u4e2d\u7559\u8a00",
+            "s_title": "{WEB_TITLE} - 有人在你的廣告清單中留言",
             "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 21,
             "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - \u6210\u529f\u5efa\u7acb\u7ba1\u7406\u54e1\u5e33\u865f\uff01",
-            "s_description": "<p>\u4f60\u597d {ADMIN_NAME}\uff0c<\/p><p>{WEB_LINK} \u7684\u7ba1\u7406\u54e1\u5df2\u7d93\u70ba\u4f60\u5efa\u7acb\u5e33\u865f\uff0c<\/p><ul><li>\u4f7f\u7528\u8005\u540d\u7a31\uff1a{USERNAME}<\/li><li>\u5bc6\u78bc\uff1a {PASSWORD}<\/li><\/ul><p>\u4f60\u53ef\u4ee5\u9032\u5165\u7ba1\u7406\u54e1\u63a7\u5236\u9762\u677f\uff0c\u8acb\u6309\u4e00\u4e0b {WEB_ADMIN_LINK}\u3002<\/p><p>\u8b1d\u8b1d\uff01<\/p><p>\u795d\u597d\uff0c<\/p>"
+            "s_title": "{WEB_TITLE} - 成功建立管理員帳號！",
+            "s_description": "<p>你好 {ADMIN_NAME}，<\/p><p>{WEB_LINK} 的管理員已經為你建立帳號，<\/p><ul><li>使用者名稱：{USERNAME}<\/li><li>密碼： {PASSWORD}<\/li><\/ul><p>你可以進入管理員控制面板，請按一下 {WEB_ADMIN_LINK}。<\/p><p>謝謝！<\/p><p>祝好，<\/p>"
         },
         {
             "fk_i_page_id": 22,
             "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - \u4f60\u7684\u5ee3\u544a\u5feb\u8981\u5230\u671f",
-            "s_description": "<p>\u4f60\u597d {USER_NAME}\uff0c<\/p><p>\u4f60\u5728 {WEB_LINK} \u7684\u5ee3\u544a <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u5df2\u7d93\u5feb\u8981\u5230\u671f\u3002"
+            "s_title": "{WEB_TITLE} - 你的廣告快要到期",
+            "s_description": "<p>你好 {USER_NAME}，<\/p><p>你在 {WEB_LINK} 的廣告 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> 已經快要到期。"
         }
     ]
 }

@@ -17,7 +17,7 @@
             "fk_i_page_id": 3,
             "s_internal_name": "email_user_registration",
             "s_title": "{WEB_TITLE} - Succesvol aangemeld!",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>U heeft zich succesvol geregistreerd voor {WEB_LINK}.<\/p><p>Bedankt!<\/p><p>Met vriendelijke groeten,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 4,
@@ -53,37 +53,37 @@
             "fk_i_page_id": 9,
             "s_internal_name": "email_new_comment_admin",
             "s_title": "{WEB_TITLE} - Nieuwe reactie",
-            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+            "s_description": "<p>Iemand heeft commentaar gegeven op de aanbieding <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's e-mail: {COMMENT_EMAIL}<br \/>Titel: {COMMENT_TITLE}<br \/>Commenter: {COMMENT_TEXT}<\/p>"
         },
         {
             "fk_i_page_id": 10,
             "s_internal_name": "email_new_item_non_register_user",
             "s_title": "{WEB_TITLE} - Wijzig opties voor advertentie {ITEM_TITLE}",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Je bent niet geregistreerd bij {WEB_LINK}, maar u kunt de aanbieding <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> nog steeds bewerken of verwijderen voor een korte periode.<\/p><p>U kunt uw aanbieding bewerken door deze link te volgen: {EDIT_LINK}<\/p><p>U kunt uw aanbieding verwijderen door deze link te volgen: {DELETE_LINK}<\/p><p>Als u zich als gebruiker aanmeldt, je krijgt volledige rechten om de opties te bewerken.<\/p><p>Met vriendelijke groeten,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 11,
             "s_internal_name": "email_item_validation",
             "s_title": "{WEB_TITLE} - Valideer uw advertentie",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>U ontvangt deze e-mail omdat een aanbieding is gepubliceerd op {WEB_LINK}. Valideer deze vermelding alstublieft door te klikken op de volgende link: {VALIDATION_LINK}. Als u deze lijst niet hebt gepubliceerd, negeer dan deze e-mail.<\/p><p>Vermelding details:<\/p><p>Contactnaam: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>groeten,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 12,
             "s_internal_name": "email_admin_new_item",
             "s_title": "{WEB_TITLE} - Er is een nieuwe advertentie gepubliceerd",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Beste {WEB_TITLE} admin,<\/p><p>Je ontvangt deze e-mail omdat een aanbieding is gepubliceerd op {WEB_LINK}.<\/p><p>Lijstdetails:<\/p><p>Contactnaam: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Je kunt deze aanbieding bewerken door te klikken op de volgende link: {EDIT_LINK}<\/p><p>groeten,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 13,
             "s_internal_name": "email_user_forgot_password",
             "s_title": "{WEB_TITLE} - Herstel uw wachtwoord",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hallo {USER_NAME},<\/p><p>We hebben u deze e-mail gestuurd omdat u een wachtwoordherinnering hebt aangevraagd. Volg deze link om deze te herstellen: {PASSWORD_LINK}<\/p><p>De link wordt binnen 24 uur gedeactiveerd.<\/p><p>Als u geen wachtwoordherinnering heeft aangevraagd, negeer dan dit bericht. Dit verzoek is gemaakt vanaf IP {IP_ADDRESS} op {DATE_TIME}<\/p><p>Met vriendelijke groeten,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 14,
             "s_internal_name": "email_new_email",
             "s_title": "{WEB_TITLE} - Verzoek wijziging emailadres",
-            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hallo {USER_NAME}<\/p><p>U ontvangt deze e-mail omdat u een e-mail heeft aangevraagd. Bevestig dit nieuwe e-mailadres door op de volgende validatielink te klikken: {VALIDATION_LINK}<\/p><p>Met vriendelijke groeten,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 15,
@@ -101,7 +101,7 @@
             "fk_i_page_id": 17,
             "s_internal_name": "email_item_validation_non_register_user",
             "s_title": "{WEB_TITLE} - Valideer uw advertentie",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 18,
@@ -119,12 +119,12 @@
             "fk_i_page_id": 20,
             "s_internal_name": "email_new_comment_user",
             "s_title": "{WEB_TITLE} - Iemand heeft een reactie op uw advertentie",
-            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Er is een nieuwe opmerking op de lijst: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Auteur: {COMMENT_AUTHOR}<br \/>Auteur's e-mail: {COMMENT_EMAIL}<br \/>titel: {COMMENT_TITLE}<br \/>opmerking: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 21,
             "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - Succes cre\u00ebren admin account!",
+            "s_title": "{WEB_TITLE} - Succes creëren admin account!",
             "s_description": "<p>Hallo {ADMIN_NAME},<\/p><p>De admin van {WEB_LINK} heeft met succes een account voor u,<\/p><ul><li>Gebruikersnaam: {USERNAME}<\/li><li>Wachtwoord:  {PASSWORD}<\/li><\/ul><p>U kunt nu gebruik maken van het admin panneel hier  {WEB_ADMIN_LINK}.<\/p><p>Hartelijk dank!!<\/p><p>gegroet,<\/p>"
         },
         {

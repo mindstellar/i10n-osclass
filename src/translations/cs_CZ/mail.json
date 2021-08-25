@@ -4,134 +4,134 @@
         {
             "fk_i_page_id": 1,
             "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - Nov\u00fd dotaz u va\u0161\u00ed polo\u017eky",
-            "s_description": "<p>Dobr\u00fd den {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) v\u00e1m zanechal\/a zpr\u00e1vu t\u00fdkaj\u00edc\u00ed se va\u0161\u00ed polo\u017eky <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Nový dotaz u vaší položky",
+            "s_description": "<p>Dobrý den {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) vám zanechal\/a zprávu týkající se vaší položky <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 2,
             "s_internal_name": "email_user_validation",
-            "s_title": "Pros\u00edm potvr\u010fte v\u00e1\u0161 {WEB_TITLE} \u00fa\u010det",
-            "s_description": "<p>Dobr\u00fd den {USER_NAME},<\/p><p>Pros\u00edm potvr\u010fte va\u0161i registraci kliknut\u00edm na n\u00e1sleduj\u00edc\u00ed odkaz: {VALIDATION_LINK}<\/p><p>D\u011bkujeme!<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "Prosím potvrďte váš {WEB_TITLE} účet",
+            "s_description": "<p>Dobrý den {USER_NAME},<\/p><p>Prosím potvrďte vaši registraci kliknutím na následující odkaz: {VALIDATION_LINK}<\/p><p>Děkujeme!<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 3,
             "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - Registrace prob\u011bhla \u00fasp\u011b\u0161n\u011b!",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Registrace proběhla úspěšně!",
+            "s_description": "<p>Ahoj {USER_NAME},<\/p><p>Úspěšně jste se zaregistrovali pro {WEB_LINK}.<\/p><p>Děkujeme!<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 4,
             "s_internal_name": "email_send_friend",
-            "s_title": "Pod\u00edvej, co jsem objevil\/a na {WEB_TITLE}",
-            "s_description": "<p>Dobr\u00fd den {FRIEND_NAME},<\/p><p>V\u00e1\u0161 p\u0159\u00edtel {USER_NAME} v\u00e1m pos\u00edl\u00e1 odkaz na n\u00e1sleduj\u00edc\u00ed polo\u017eku <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Zpr\u00e1va:<\/p><p>{COMMENT}<\/p><p>S pozdravem,<\/p><p>{WEB_TITLE}<\/p>"
+            "s_title": "Podívej, co jsem objevil\/a na {WEB_TITLE}",
+            "s_description": "<p>Dobrý den {FRIEND_NAME},<\/p><p>Váš přítel {USER_NAME} vám posílá odkaz na následující položku <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Zpráva:<\/p><p>{COMMENT}<\/p><p>S pozdravem,<\/p><p>{WEB_TITLE}<\/p>"
         },
         {
             "fk_i_page_id": 5,
             "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - Nov\u00e1 polo\u017eka in the last hour",
-            "s_description": "<p>Dobr\u00fd den {USER_NAME},<\/p><p>Behem posledn\u00ed hodiny byly vystaveny nov\u00e9 polo\u017eky. Prohl\u00e9dn\u011bte si nov\u00e9 nab\u00eddky:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pro zru\u0161en\u00ed odb\u011bru klikn\u011bte na n\u00e1sleduj\u00edc\u00ed odkaz: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Nová položka in the last hour",
+            "s_description": "<p>Dobrý den {USER_NAME},<\/p><p>Behem poslední hodiny byly vystaveny nové položky. Prohlédněte si nové nabídky:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pro zrušení odběru klikněte na následující odkaz: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 6,
             "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - Nov\u00e1 polo\u017eka in the last day",
-            "s_description": "<p>Dobr\u00fd den {USER_NAME},<\/p><p>Behem posledn\u00edho dne byly vystaveny nov\u00e9 polo\u017eky. Prohl\u00e9dn\u011bte si nov\u00e9 nab\u00eddky:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pro zru\u0161en\u00ed odb\u011bru klikn\u011bte na n\u00e1sleduj\u00edc\u00ed odkaz: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Nová položka in the last day",
+            "s_description": "<p>Dobrý den {USER_NAME},<\/p><p>Behem posledního dne byly vystaveny nové položky. Prohlédněte si nové nabídky:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pro zrušení odběru klikněte na následující odkaz: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 7,
             "s_internal_name": "alert_email_weekly",
-            "s_title": "{WEB_TITLE} - Nov\u00e1 polo\u017eka in the last week",
-            "s_description": "<p>Dobr\u00fd den {USER_NAME},<\/p><p>Behem posledn\u00edho t\u00fddne byly vystaveny nov\u00e9 polo\u017eky. Prohl\u00e9dn\u011bte si nov\u00e9 nab\u00eddky:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pro zru\u0161en\u00ed odb\u011bru klikn\u011bte na n\u00e1sleduj\u00edc\u00ed odkaz: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Nová položka in the last week",
+            "s_description": "<p>Dobrý den {USER_NAME},<\/p><p>Behem posledního týdne byly vystaveny nové položky. Prohlédněte si nové nabídky:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pro zrušení odběru klikněte na následující odkaz: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 8,
             "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - Nov\u00e1 polo\u017eka",
-            "s_description": "<p>Dobr\u00fd den {USER_NAME},<\/p><p>Byla p\u0159id\u00e1na nov\u00e1 polo\u017eka!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pro zru\u0161en\u00ed odb\u011br\u016f klikn\u011bte na: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Nová položka",
+            "s_description": "<p>Dobrý den {USER_NAME},<\/p><p>Byla přidána nová položka!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pro zrušení odběrů klikněte na: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 9,
             "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - Nov\u00fd koment\u00e1\u0159",
-            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+            "s_title": "{WEB_TITLE} - Nový komentář",
+            "s_description": "<p>Někdo okomentoval seznam <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Komentář: {COMMENT_AUTHOR}<br \/>E-mail komentáře: {COMMENT_EMAIL}<br \/>Název: {COMMENT_TITLE}<br \/>Komentář: {COMMENT_TEXT}<\/p>"
         },
         {
             "fk_i_page_id": 10,
             "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - Spr\u00e1va polo\u017eky {ITEM_TITLE}",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Správa položky {ITEM_TITLE}",
+            "s_description": "<p>Ahoj {USER_NAME},<\/p><p>Nejste registrováni na {WEB_LINK}, ale seznam <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> můžete ještě na krátkou dobu upravovat nebo odstranit.<\/p><p>Seznam můžete upravit následujícím odkazem: {EDIT_LINK}<\/p><p>Můžete svůj seznam odstranit následujícím odkazem: {DELETE_LINK}<\/p><p>Pokud se zaregistrujete jako uživatel, budete mít plný přístup k možnostem úprav.<\/p><p>Poklady,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 11,
             "s_internal_name": "email_item_validation",
-            "s_title": "{WEB_TITLE} - Potvrzen\u00ed va\u0161\u00ed nab\u00eddky",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Potvrzení vaší nabídky",
+            "s_description": "<p>Ahoj {USER_NAME},<\/p><p>Tento e-mail jste obdrželi, protože seznam byl zveřejněn na {WEB_LINK}. Potvrďte prosím tento seznam kliknutím na následující odkaz: {VALIDATION_LINK}. Pokud jste tento seznam nezveřejnili, ignorujte prosím tento e-mail.<\/p><p>Podrobnosti o seznamu:<\/p><p>Jméno kontaktu: {USER_NAME}<br \/>Kontaktní e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 12,
             "s_internal_name": "email_admin_new_item",
-            "s_title": "{WEB_TITLE} - Byla vlo\u017eena nov\u00e1 nab\u00eddka",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Byla vložena nová nabídka",
+            "s_description": "<p>Vážení {WEB_TITLE} admin,<\/p><p>Tento e-mail obdržíte, protože seznam byl zveřejněn na {WEB_LINK}.<\/p><p>Podrobnosti o výpisu:<\/p><p>Jméno kontaktu: {USER_NAME}<br \/>Kontaktní e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Tento výpis můžete upravit kliknutím na následující odkaz: {EDIT_LINK}<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 13,
             "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - Obnova va\u0161eho hesla",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Obnova vašeho hesla",
+            "s_description": "<p>Ahoj {USER_NAME},<\/p><p>Poslali jsme vám tento e-mail, protože jste požádali o připomenutí hesla. Následujte tento odkaz pro jeho obnovení: {PASSWORD_LINK}<\/p><p>Odkaz bude deaktivován za 24 hodin.<\/p><p>Pokud jste nepožádali o připomenutí hesla, ignorujte prosím tuto zprávu. Tato žádost byla podána od IP {IP_ADDRESS} dne {DATE_TIME}<\/p><p>Pokladů,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 14,
             "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} - \u017d\u00e1dost o zm\u011bnu emailu",
-            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Žádost o změnu emailu",
+            "s_description": "<p>Ahoj {USER_NAME}<\/p><p>Tento e-mail jste obdrželi, protože jste požádali o změnu e-mailu. Potvrďte prosím tuto novou e-mailovou adresu kliknutím na následující ověřovací odkaz: {VALIDATION_LINK}<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 15,
             "s_internal_name": "email_alert_validation",
-            "s_title": "{WEB_TITLE} - Pros\u00edm potvr\u010fte va\u0161e upozorn\u011bn\u00ed",
-            "s_description": "<p>Dobr\u00fd den {USER_NAME},<\/p><p>pros\u00edm potvr\u010fte registraci upozorn\u011bn\u00ed kliknut\u00edm na n\u00e1sleduj\u00edc\u00ed odkaz: {VALIDATION_LINK}<\/p><p>D\u011bkujeme!<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Prosím potvrďte vaše upozornění",
+            "s_description": "<p>Dobrý den {USER_NAME},<\/p><p>prosím potvrďte registraci upozornění kliknutím na následující odkaz: {VALIDATION_LINK}<\/p><p>Děkujeme!<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 16,
             "s_internal_name": "email_comment_validated",
-            "s_title": "{WEB_TITLE} - V\u00e1\u0161 koment\u00e1\u0159 byl schv\u00e1len",
-            "s_description": "<p> Ahoj {COMMENT_AUTHOR}, <\/p><p> V\u00e1\u0161 koment\u00e1\u0159 k <a href=\"{ITEM_URL}\"> {ITEM_TITLE} <\/a> byl schv\u00e1len. <\/p><p> S pozdravem,<\/p><p> {WEB_LINK} <\/p>"
+            "s_title": "{WEB_TITLE} - Váš komentář byl schválen",
+            "s_description": "<p> Ahoj {COMMENT_AUTHOR}, <\/p><p> Váš komentář k <a href=\"{ITEM_URL}\"> {ITEM_TITLE} <\/a> byl schválen. <\/p><p> S pozdravem,<\/p><p> {WEB_LINK} <\/p>"
         },
         {
             "fk_i_page_id": 17,
             "s_internal_name": "email_item_validation_non_register_user",
-            "s_title": "{WEB_TITLE} - Potvrzen\u00ed va\u0161\u00ed nab\u00eddky",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Potvrzení vaší nabídky",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 18,
             "s_internal_name": "email_admin_new_user",
-            "s_title": "{WEB_TITLE} - Registroval se nov\u00fd u\u017eivatel",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Registroval se nový uživatel",
+            "s_description": "<p>Vážení {WEB_TITLE} admin,<\/p><p>Tento e-mail obdržíte, protože nový uživatel byl vytvořen na {WEB_LINK}.<\/p><p>Údaje o uživateli:<\/p><p>Název: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 19,
             "s_internal_name": "email_contact_user",
-            "s_title": "{WEB_TITLE} - Nov\u00fd dotaz",
-            "s_description": "<p>Dobr\u00fd den {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) v\u00e1m zanechal zpr\u00e1vu:<\/p><p>{COMMENT}<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Nový dotaz",
+            "s_description": "<p>Dobrý den {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) vám zanechal zprávu:<\/p><p>{COMMENT}<\/p><p>S pozdravem,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 20,
             "s_internal_name": "email_new_comment_user",
-            "s_title": "{WEB_TITLE} - Nov\u00fd koment\u00e1\u0159 u va\u0161\u00ed polo\u017eky",
-            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Nový komentář u vaší položky",
+            "s_description": "<p>Je zde nový komentář k seznamu: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Autor: {COMMENT_AUTHOR}<br \/>E-mail autora: {COMMENT_EMAIL}<br \/>Název: {COMMENT_TITLE}<br \/>Komentář: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 21,
             "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - \u00dasp\u011bch s vytvo\u0159en\u00edm administr\u00e1torsk\u00e9ho \u00fa\u010dtu!",
-            "s_description": "<p> Ahoj {ADMIN_NAME},<\/p><p> Admin {WEB_LINK} vytvo\u0159il pro tebe \u00fa\u010det , <\/p> <ul> <li> U\u017eivatelsk\u00e9 jm\u00e9no: {USERNAME} <\/li> <li> Heslo:.! {PASSWORD} <\/li> <\/ul> <p> zde m\u016f\u017eete otev\u0159\u00edt admin panel {WEB_ADMIN_LINK} <\/p><p> D\u011bkujeme!<\/p><p> S pozdravem, <\/p>"
+            "s_title": "{WEB_TITLE} - Úspěch s vytvořením administrátorského účtu!",
+            "s_description": "<p> Ahoj {ADMIN_NAME},<\/p><p> Admin {WEB_LINK} vytvořil pro tebe účet , <\/p> <ul> <li> Uživatelské jméno: {USERNAME} <\/li> <li> Heslo:.! {PASSWORD} <\/li> <\/ul> <p> zde můžete otevřít admin panel {WEB_ADMIN_LINK} <\/p><p> Děkujeme!<\/p><p> S pozdravem, <\/p>"
         },
         {
             "fk_i_page_id": 22,
             "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - Va\u0161e reklama brzy skon\u010d\u00ed",
-            "s_description": "<p>Dobr\u00fd den {USER_NAME}, <\/p><p> V\u00e1\u0161e polo\u017eky <a href=\"{ITEM_URL}\"> {ITEM_TITLE} <\/a> na webu {WEB_LINK} brzy vypr\u0161\u00ed."
+            "s_title": "{WEB_TITLE} - Vaše reklama brzy skončí",
+            "s_description": "<p>Dobrý den {USER_NAME}, <\/p><p> Váše položky <a href=\"{ITEM_URL}\"> {ITEM_TITLE} <\/a> na webu {WEB_LINK} brzy vyprší."
         }
     ]
 }

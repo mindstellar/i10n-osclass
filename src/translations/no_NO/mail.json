@@ -4,26 +4,26 @@
         {
             "fk_i_page_id": 1,
             "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - Du har f\u00e5tt en melding",
+            "s_title": "{WEB_TITLE} - Du har fått en melding",
             "s_description": "<p>Hei {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) sendte deg en melding om <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Vennlig hilsen<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 2,
             "s_internal_name": "email_user_validation",
             "s_title": "Bekreft din {WEB_TITLE} konto",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Bekreft din registrering ved \u00e5 klikke p\u00e5 linken: {VALIDATION_LINK}<\/p><p>Tusen takk!<\/p><p>Vennlig hilsen<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hei {USER_NAME},<\/p><p>Bekreft din registrering ved å klikke på linken: {VALIDATION_LINK}<\/p><p>Tusen takk!<\/p><p>Vennlig hilsen<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 3,
             "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - Registrering fullf\u00f8rt",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Registrering fullført",
+            "s_description": "<p>Hei {USER_NAME},<\/p><p>Du har registrert deg for {WEB_LINK}.<\/p><p>Takk!<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 4,
             "s_internal_name": "email_send_friend",
-            "s_title": "Se hva jeg fant p\u00e5 {WEB_TITLE}",
-            "s_description": "<p>Hei {FRIEND_NAME},<\/p><p>Din venn {USER_NAME} \u00f8nsket \u00e5 vise deg denne annonsen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Melding:<\/p><p>{COMMENT}<\/p><p>Vennlig hilsen<\/p><p>{WEB_TITLE}<\/p>"
+            "s_title": "Se hva jeg fant på {WEB_TITLE}",
+            "s_description": "<p>Hei {FRIEND_NAME},<\/p><p>Din venn {USER_NAME} ønsket å vise deg denne annonsen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Melding:<\/p><p>{COMMENT}<\/p><p>Vennlig hilsen<\/p><p>{WEB_TITLE}<\/p>"
         },
         {
             "fk_i_page_id": 5,
@@ -53,61 +53,61 @@
             "fk_i_page_id": 9,
             "s_internal_name": "email_new_comment_admin",
             "s_title": "{WEB_TITLE} - Ny kommentar",
-            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+            "s_description": "<p>Noen har kommentert oppføringen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Kommentarer: {COMMENT_AUTHOR}<br \/>Kommentarers e-post: {COMMENT_EMAIL}<br \/>Tittel: {COMMENT_TITLE}<br \/>Kommentar: {COMMENT_TEXT}<\/p>"
         },
         {
             "fk_i_page_id": 10,
             "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - alternativer for \u00e5 endre annonse {ITEM_TITLE}",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - alternativer for å endre annonse {ITEM_TITLE}",
+            "s_description": "<p>Hei {USER_NAME},<\/p><p>Du er ikke registrert hos {WEB_LINK}, men du kan fremdeles redigere eller slette oppføringen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for en kort periode.<\/p><p>Du kan redigere din liste med følgende lenke: {EDIT_LINK}<\/p><p>Du kan slette din liste ved å følge denne lenken: {DELETE_LINK}<\/p><p>Hvis du registrerer deg som bruker, du vil ha full tilgang til å redigere alternativer.<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 11,
             "s_internal_name": "email_item_validation",
             "s_title": "{WEB_TITLE} - bekreft din annonse",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hei {USER_NAME},<\/p><p>Du mottar denne e-posten fordi en oppføring er publisert i {WEB_LINK}. Vennligst bekreft denne listingen ved å klikke på følgende link: {VALIDATION_LINK}. Hvis du ikke har publisert denne listen, kan du ignorere denne e-posten.<\/p><p>Listedetaljer:<\/p><p>Kontaktnavn: {USER_NAME}<br \/>Kontakt e-post: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p><\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 12,
             "s_internal_name": "email_admin_new_item",
             "s_title": "{WEB_TITLE} - en ny annonse er publisert",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Kjære {WEB_TITLE} admin,<\/p><p>Du mottar denne e-posten fordi en oppføring er publisert på {WEB_LINK}.<\/p><p>Listedetaljer:<\/p><p>Kontaktnavn: {USER_NAME}<br \/>Kontakt e-post: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Du kan redigere denne listen ved å klikke på følgende lenke: {EDIT_LINK}<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 13,
             "s_internal_name": "email_user_forgot_password",
             "s_title": "{WEB_TITLE} - hent ditt passord",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>Vi har sendt deg denne e-posten fordi du har bedt om en påminnelse om passord. Følg denne linken for å gjenopprette: {PASSWORD_LINK}<\/p><p>Lenken blir deaktivert i løpet av 24 timer.<\/p><p>Hvis du ikke har bedt om en påminnelse for passordet, kan du ignorere denne meldingen. Denne forespørselen ble laget av IP {IP_ADDRESS} den {DATE_TIME}<\/p><\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 14,
             "s_internal_name": "email_new_email",
             "s_title": "{WEB_TITLE} - endring av e-post adresse",
-            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hei {USER_NAME}<\/p><p>Du mottar denne e-posten fordi du ba om en endring i e-post. Bekreft denne nye e-postadressen ved å klikke på følgende valideringslenke: {VALIDATION_LINK}<\/p><p>Reguleringer,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 15,
             "s_internal_name": "email_alert_validation",
             "s_title": "{WEB_TITLE} - Bekrefte varsling",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Du m\u00e5 bekrefte din varsling ved \u00e5 klikke p\u00e5 linken: {VALIDATION_LINK}<\/p><p>Takk!<\/p><p>Vennlig hilsen,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hei {USER_NAME},<\/p><p>Du må bekrefte din varsling ved å klikke på linken: {VALIDATION_LINK}<\/p><p>Takk!<\/p><p>Vennlig hilsen,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 16,
             "s_internal_name": "email_comment_validated",
             "s_title": "{WEB_TITLE} - Din kommentar er godkjent",
-            "s_description": "<p>Hei {COMMENT_AUTHOR},<\/p><p>Din kommentar p\u00e5 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> har blitt godkjent.<\/p><p>Hilsen,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hei {COMMENT_AUTHOR},<\/p><p>Din kommentar på <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> har blitt godkjent.<\/p><p>Hilsen,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 17,
             "s_internal_name": "email_item_validation_non_register_user",
             "s_title": "{WEB_TITLE} - bekreft din annonse",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 18,
             "s_internal_name": "email_admin_new_user",
             "s_title": "{WEB_TITLE} - En ny bruker er registrert",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Kjære {WEB_TITLE} admin,<\/p><p>Du mottar denne e-posten fordi en ny bruker er laget i {WEB_LINK}.<\/p><p>Brukerdetaljer:<\/p><p>Navn: {USER_NAME}<br \/>E-post: {USER_EMAIL}<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 19,
@@ -119,19 +119,19 @@
             "fk_i_page_id": 20,
             "s_internal_name": "email_new_comment_user",
             "s_title": "{WEB_TITLE} - Du har mottatt en ny kommentar",
-            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>Det finnes en ny kommentar på listen: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Forfatter: {COMMENT_AUTHOR}<br \/>Forfatterens e-post: {COMMENT_EMAIL}<br \/>Tittel: {COMMENT_TITLE}<br \/>Kommentar: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 21,
             "s_internal_name": "email_new_admin",
             "s_title": "{WEB_TITLE} - Administratorkonto opprettet!",
-            "s_description": "<p>Hei {ADMIN_NAME},<\/p><p>Administratoren av {WEB_LINK} har opprettet en konto til deg,<\/p><ul><li>Brukernavn: {USERNAME}<\/li><li>Passord: {PASSWORD}<\/li><\/ul><p>Du kan logge deg p\u00e5 administrasjonspanelet her {WEB_ADMIN_LINK}.<\/p><p>Takk!<\/p><p>Hilsen,<\/p>"
+            "s_description": "<p>Hei {ADMIN_NAME},<\/p><p>Administratoren av {WEB_LINK} har opprettet en konto til deg,<\/p><ul><li>Brukernavn: {USERNAME}<\/li><li>Passord: {PASSWORD}<\/li><\/ul><p>Du kan logge deg på administrasjonspanelet her {WEB_ADMIN_LINK}.<\/p><p>Takk!<\/p><p>Hilsen,<\/p>"
         },
         {
             "fk_i_page_id": 22,
             "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - Din annonse er i ferd med \u00e5 utl\u00f8pe",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Din oppf\u00f8ring <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> er i ferd med \u00e5 utl\u00f8pe p\u00e5 {WEB_LINK}."
+            "s_title": "{WEB_TITLE} - Din annonse er i ferd med å utløpe",
+            "s_description": "<p>Hei {USER_NAME},<\/p><p>Din oppføring <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> er i ferd med å utløpe på {WEB_LINK}."
         }
     ]
 }

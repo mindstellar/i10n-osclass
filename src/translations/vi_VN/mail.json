@@ -4,134 +4,134 @@
         {
             "fk_i_page_id": 1,
             "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - C\u00f3 c\u00e2u h\u1ecfi v\u1ec1 tin \u0111\u0103ng c\u1ee7a b\u1ea1n",
-            "s_description": "<p>Ch\u00e0o {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) g\u1eedi b\u1ea1n 1 tin nh\u1eafn v\u1ec1 tin \u0111\u0103ng c\u1ee7a b\u1ea1n <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Th\u00e2n,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Có câu hỏi về tin đăng của bạn",
+            "s_description": "<p>Chào {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) gửi bạn 1 tin nhắn về tin đăng của bạn <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Thân,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 2,
             "s_internal_name": "email_user_validation",
-            "s_title": "B\u1ea1n h\u00e3y x\u00e1c th\u1ef1c t\u00e0i kho\u1ea3n t\u1ea1i {WEB_TITLE} ",
-            "s_description": "<p>Ch\u00e0o {USER_NAME},<\/p><p>B\u1ea1n h\u00e3y x\u00e1c th\u1ef1c \u0111\u0103ng k\u00fd b\u1eb1ng c\u00e1ch nh\u1ea5p chu\u1ed9t v\u00e0o li\u00ean k\u1ebft sau: {VALIDATION_LINK}<\/p><p>Xin c\u00e1m \u01a1n!<\/p><p>Th\u00e2n,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "Bạn hãy xác thực tài khoản tại {WEB_TITLE} ",
+            "s_description": "<p>Chào {USER_NAME},<\/p><p>Bạn hãy xác thực đăng ký bằng cách nhấp chuột vào liên kết sau: {VALIDATION_LINK}<\/p><p>Xin cám ơn!<\/p><p>Thân,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 3,
             "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - \u0110\u0103ng k\u00fd th\u00e0nh c\u00f4ng!",
+            "s_title": "{WEB_TITLE} - Đăng ký thành công!",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 4,
             "s_internal_name": "email_send_friend",
-            "s_title": "Xem nh\u1eefng g\u00ec t\u00f4i kh\u00e1m ph\u00e1 \u0111\u01b0\u1ee3c tr\u00ean {WEB_TITLE}",
-            "s_description": "<p>Ch\u00e0o {FRIEND_NAME},<\/p><p>B\u1ea1n c\u1ee7a b\u1ea1n, {USER_NAME} mu\u1ed1n g\u1eedi cho b\u1ea1n n\u1ed9i dung tin rao <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Th\u00f4ng \u0111i\u1ec7p:<\/p><p>{COMMENT}<\/p><p>Th\u00e2n,<\/p><p>{WEB_TITLE}<\/p>"
+            "s_title": "Xem những gì tôi khám phá được trên {WEB_TITLE}",
+            "s_description": "<p>Chào {FRIEND_NAME},<\/p><p>Bạn của bạn, {USER_NAME} muốn gửi cho bạn nội dung tin rao <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Thông điệp:<\/p><p>{COMMENT}<\/p><p>Thân,<\/p><p>{WEB_TITLE}<\/p>"
         },
         {
             "fk_i_page_id": 5,
             "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - Tin rao m\u1edbi in the last hour",
-            "s_description": "<p>Ch\u00e0o {USER_NAME},<\/p><p>Tin rao m\u1edbi nh\u1ea5t trong 1 gi\u1edd v\u1eeba qua. H\u00e3y xem ch\u00fang:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0110\u1ec3 h\u1ee7y nh\u1eadn tin th\u00f4ng b\u00e1o n\u00e0y, b\u1ea1n h\u00e3y nh\u1ea5p v\u00e0o : {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Tin rao mới in the last hour",
+            "s_description": "<p>Chào {USER_NAME},<\/p><p>Tin rao mới nhất trong 1 giờ vừa qua. Hãy xem chúng:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Để hủy nhận tin thông báo này, bạn hãy nhấp vào : {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 6,
             "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - Tin rao m\u1edbi in the last day",
-            "s_description": "<p>Ch\u00e0o {USER_NAME},<\/p><p>Nh\u1eefng tin rao m\u1edbi nh\u1ea5t trong ng\u00e0y. H\u00e3y xem ch\u00fang:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0110\u1ec3 h\u1ee7y nh\u1eadn tin th\u00f4ng b\u00e1o n\u00e0y, b\u1ea1n h\u00e3y nh\u1ea5p v\u00e0o: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Tin rao mới in the last day",
+            "s_description": "<p>Chào {USER_NAME},<\/p><p>Những tin rao mới nhất trong ngày. Hãy xem chúng:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Để hủy nhận tin thông báo này, bạn hãy nhấp vào: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 7,
             "s_internal_name": "alert_email_weekly",
-            "s_title": "{WEB_TITLE} - Tin rao m\u1edbi in the last week",
-            "s_description": "<p>Ch\u00e0o {USER_NAME},<\/p><p>Nh\u1eefng tin rao m\u1edbi nh\u1ea5t trong tu\u1ea7n. H\u00e3y xem ch\u00fang:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0110\u1ec3 h\u1ee7y nh\u1eadn tin th\u00f4ng b\u00e1o n\u00e0y, b\u1ea1n h\u00e3y nh\u1ea5p v\u00e0o: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Tin rao mới in the last week",
+            "s_description": "<p>Chào {USER_NAME},<\/p><p>Những tin rao mới nhất trong tuần. Hãy xem chúng:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Để hủy nhận tin thông báo này, bạn hãy nhấp vào: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 8,
             "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - Tin rao m\u1edbi",
-            "s_description": "<p>Ch\u00e0o {USER_NAME},<\/p><p>C\u00f3 tin \u0111\u0103ng m\u1edbi \u0111\u01b0\u1ee3c c\u00f4ng b\u1ed1. H\u00e3y xem n\u00f3!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0110\u1ec3 h\u1ee7y nh\u1eadn tin th\u00f4ng b\u00e1o, b\u1ea1n nh\u1ea5p v\u00e0o li\u00ean k\u1ebft sau: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Tin rao mới",
+            "s_description": "<p>Chào {USER_NAME},<\/p><p>Có tin đăng mới được công bố. Hãy xem nó!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Để hủy nhận tin thông báo, bạn nhấp vào liên kết sau: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 9,
             "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - C\u00f3 b\u00ecnh lu\u1eadn m\u1edbi",
+            "s_title": "{WEB_TITLE} - Có bình luận mới",
             "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
         },
         {
             "fk_i_page_id": 10,
             "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - Hi\u1ec7u ch\u1ec9nh tin \u0111\u0103ng: {ITEM_TITLE}",
+            "s_title": "{WEB_TITLE} - Hiệu chỉnh tin đăng: {ITEM_TITLE}",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 11,
             "s_internal_name": "email_item_validation",
-            "s_title": "{WEB_TITLE} - X\u00e1c th\u1ef1c tin \u0111\u0103ng",
+            "s_title": "{WEB_TITLE} - Xác thực tin đăng",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 12,
             "s_internal_name": "email_admin_new_item",
-            "s_title": "{WEB_TITLE} - C\u00f3 1 tin \u0111\u0103ng m\u1edbi tr\u00ean website",
+            "s_title": "{WEB_TITLE} - Có 1 tin đăng mới trên website",
             "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 13,
             "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - Kh\u00f4i ph\u1ee5c m\u1eadt kh\u1ea9u",
+            "s_title": "{WEB_TITLE} - Khôi phục mật khẩu",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 14,
             "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} - B\u1ea1n y\u00eau c\u1ea7u \u0111\u1ed5i email",
+            "s_title": "{WEB_TITLE} - Bạn yêu cầu đổi email",
             "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 15,
             "s_internal_name": "email_alert_validation",
-            "s_title": "{WEB_TITLE} - B\u1ea1n h\u00e3y x\u00e1c nh\u1eadn th\u00f4ng b\u00e1o nh\u1eadn tin",
-            "s_description": "<p>Ch\u00e0o {USER_NAME},<\/p><p>B\u1ea1n h\u00e3y x\u00e1c nh\u1eadn \u0111\u0103ng k\u00fd nh\u1eadn th\u00f4ng b\u00e1o b\u1eb1ng c\u00e1ch nh\u1ea5p v\u00e0o li\u00ean k\u1ebft sau: {VALIDATION_LINK}<\/p><p>Xin c\u00e1m \u01a1n!<\/p><p>Th\u00e2n,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Bạn hãy xác nhận thông báo nhận tin",
+            "s_description": "<p>Chào {USER_NAME},<\/p><p>Bạn hãy xác nhận đăng ký nhận thông báo bằng cách nhấp vào liên kết sau: {VALIDATION_LINK}<\/p><p>Xin cám ơn!<\/p><p>Thân,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 16,
             "s_internal_name": "email_comment_validated",
-            "s_title": "{WEB_TITLE} - B\u00ecnh lu\u1eadn \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c nh\u1eadn",
-            "s_description": "<p>Hi {COMMENT_AUTHOR},<\/p><p>Nh\u1eadn x\u00e9t c\u1ee7a b\u1ea1n v\u1ec1 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u0111\u00e3 \u0111\u01b0\u1ee3c ch\u1ea5p thu\u1eadn.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Bình luận đã được xác nhận",
+            "s_description": "<p>Hi {COMMENT_AUTHOR},<\/p><p>Nhận xét của bạn về <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> đã được chấp thuận.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 17,
             "s_internal_name": "email_item_validation_non_register_user",
-            "s_title": "{WEB_TITLE} - X\u00e1c th\u1ef1c tin \u0111\u0103ng",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Xác thực tin đăng",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 18,
             "s_internal_name": "email_admin_new_user",
-            "s_title": "{WEB_TITLE} - M\u1ed9t th\u00e0nh vi\u00ean m\u1edbi \u0111\u0103ng k\u00fd",
+            "s_title": "{WEB_TITLE} - Một thành viên mới đăng ký",
             "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 19,
             "s_internal_name": "email_contact_user",
-            "s_title": "{WEB_TITLE} - C\u00f3 c\u00e2u h\u1ecfi d\u00e0nh cho b\u1ea1n",
-            "s_description": "<p>Ch\u00e0o {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) g\u1eedi cho b\u1ea1n tin nh\u1eafn:<\/p><p>{COMMENT}<\/p><p>Th\u00e2n,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - Có câu hỏi dành cho bạn",
+            "s_description": "<p>Chào {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) gửi cho bạn tin nhắn:<\/p><p>{COMMENT}<\/p><p>Thân,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 20,
             "s_internal_name": "email_new_comment_user",
-            "s_title": "{WEB_TITLE} - C\u00f3 l\u1eddi b\u00ecnh cho tin \u0111\u0103ng c\u1ee7a b\u1ea1n",
+            "s_title": "{WEB_TITLE} - Có lời bình cho tin đăng của bạn",
             "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 21,
             "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - T\u1ea1o t\u00e0i kho\u1ea3n admin th\u00e0nh c\u00f4ng!",
-            "s_description": "<p>Hi {ADMIN_NAME},<\/p><p>Admin c\u1ee7a {WEB_LINK} \u0111\u00e3 t\u1ea1o cho b\u1ea1n m\u1ed9t t\u00e0i kho\u1ea3n,<\/p><ul><li>T\u00ean \u0111\u0103ng nh\u1eadp: {USERNAME}<\/li><li>M\u1eadt kh\u1ea9u: {PASSWORD}<\/li><\/ul><p>B\u1ea1n c\u00f3 th\u1ec3 truy xu\u1ea5t t\u1edbi trang admin t\u1eeb \u0111\u00e2y {WEB_ADMIN_LINK}.<\/p><p>Thank you!<\/p><p>Tr\u00e2n tr\u1ecdng,<\/p>"
+            "s_title": "{WEB_TITLE} - Tạo tài khoản admin thành công!",
+            "s_description": "<p>Hi {ADMIN_NAME},<\/p><p>Admin của {WEB_LINK} đã tạo cho bạn một tài khoản,<\/p><ul><li>Tên đăng nhập: {USERNAME}<\/li><li>Mật khẩu: {PASSWORD}<\/li><\/ul><p>Bạn có thể truy xuất tới trang admin từ đây {WEB_ADMIN_LINK}.<\/p><p>Thank you!<\/p><p>Trân trọng,<\/p>"
         },
         {
             "fk_i_page_id": 22,
             "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - Tin \u0111\u0103ng c\u1ee7a b\u1ea1n s\u1eafp h\u1ebft h\u1ea1n",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>Tin \u0111\u0103ng c\u1ee7a b\u1ea1n v\u1ec1 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> s\u1eafp h\u1ebft h\u1ea1n t\u1ea1i {WEB_LINK}."
+            "s_title": "{WEB_TITLE} - Tin đăng của bạn sắp hết hạn",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>Tin đăng của bạn về <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> sắp hết hạn tại {WEB_LINK}."
         }
     ]
 }

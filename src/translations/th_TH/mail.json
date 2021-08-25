@@ -4,134 +4,134 @@
         {
             "fk_i_page_id": 1,
             "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - \u0e1a\u0e32\u0e07\u0e04\u0e19\u0e21\u0e35\u0e04\u0e33\u0e16\u0e32\u0e21\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e1b\u0e23\u0e30\u0e01\u0e32\u0e28\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u0e2a\u0e48\u0e07\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21\u0e2b\u0e32\u0e04\u0e38\u0e13\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>\u0e14\u0e49\u0e27\u0e22\u0e04\u0e27\u0e32\u0e21\u0e19\u0e31\u0e1a\u0e16\u0e37\u0e2d,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - บางคนมีคำถามเกี่ยวกับรายการประกาศของคุณ",
+            "s_description": "<p>สวัสดี {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) ส่งข้อความหาคุณเกี่ยวกับรายการ <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>ด้วยความนับถือ,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 2,
             "s_internal_name": "email_user_validation",
-            "s_title": "\u0e01\u0e23\u0e39\u0e23\u0e32\u0e22\u0e37\u0e19\u0e22\u0e31\u0e19\u0e1a\u0e31\u0e0d\u0e0a\u0e35\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e02\u0e2d\u0e07  {WEB_TITLE} ",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {USER_NAME},<\/p><p>\u0e01\u0e23\u0e38\u0e13\u0e32\u0e22\u0e37\u0e19\u0e22\u0e31\u0e19\u0e01\u0e32\u0e23\u0e2a\u0e21\u0e31\u0e04\u0e23\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e42\u0e14\u0e22\u0e04\u0e25\u0e34\u0e4a\u0e01\u0e17\u0e35\u0e48\u0e25\u0e34\u0e49\u0e07\u0e04\u0e4c\u0e19\u0e35\u0e49 : {VALIDATION_LINK}<\/p><p>\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13 !<\/p><p>\u0e14\u0e49\u0e27\u0e22\u0e04\u0e27\u0e32\u0e21\u0e19\u0e31\u0e1a\u0e16\u0e37\u0e2d,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "กรูรายืนยันบัญชีผู้ใช้ของ  {WEB_TITLE} ",
+            "s_description": "<p>สวัสดี {USER_NAME},<\/p><p>กรุณายืนยันการสมัครของคุณโดยคลิ๊กที่ลิ้งค์นี้ : {VALIDATION_LINK}<\/p><p>ขอบคุณ !<\/p><p>ด้วยความนับถือ,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 3,
             "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - \u0e01\u0e32\u0e23\u0e2a\u0e21\u0e31\u0e04\u0e23\u0e2a\u0e21\u0e32\u0e0a\u0e34\u0e01\u0e40\u0e2a\u0e23\u0e47\u0e08\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c!",
+            "s_title": "{WEB_TITLE} - การสมัครสมาชิกเสร็จสมบูรณ์!",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 4,
             "s_internal_name": "email_send_friend",
-            "s_title": "\u0e14\u0e39\u0e27\u0e48\u0e32\u0e21\u0e35\u0e2d\u0e30\u0e44\u0e23\u0e43\u0e2b\u0e21\u0e48 \u0e46 \u0e17\u0e35\u0e48 {WEB_TITLE}",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {FRIEND_NAME},<\/p><p>\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13 {USER_NAME} \u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e17\u0e35\u0e48\u0e08\u0e30\u0e17\u0e33\u0e01\u0e32\u0e23\u0e41\u0e1a\u0e48\u0e07\u0e1b\u0e31\u0e19\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e1b\u0e23\u0e30\u0e01\u0e32\u0e28\u0e19\u0e35\u0e49\u0e01\u0e31\u0e1a\u0e04\u0e38\u0e13 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21:<\/p><p>{COMMENT}<\/p><p>\u0e14\u0e49\u0e27\u0e22\u0e04\u0e27\u0e32\u0e21\u0e19\u0e31\u0e1a\u0e16\u0e37\u0e2d,<\/p><p>{WEB_TITLE}<\/p>"
+            "s_title": "ดูว่ามีอะไรใหม่ ๆ ที่ {WEB_TITLE}",
+            "s_description": "<p>สวัสดี {FRIEND_NAME},<\/p><p>เพื่อนของคุณ {USER_NAME} ต้องการที่จะทำการแบ่งปันรายการประกาศนี้กับคุณ <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>ข้อความ:<\/p><p>{COMMENT}<\/p><p>ด้วยความนับถือ,<\/p><p>{WEB_TITLE}<\/p>"
         },
         {
             "fk_i_page_id": 5,
             "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - \u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48 in the last hour",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {USER_NAME},<\/p><p>\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48\u0e17\u0e35\u0e48\u0e44\u0e14\u0e49\u0e16\u0e39\u0e01\u0e40\u0e1c\u0e22\u0e41\u0e1e\u0e23\u0e48\u0e43\u0e19\u0e0a\u0e31\u0e48\u0e27\u0e42\u0e21\u0e07\u0e17\u0e35\u0e48\u0e1c\u0e48\u0e32\u0e19\u0e21\u0e32. \u0e14\u0e39\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e40\u0e2b\u0e25\u0e48\u0e32\u0e19\u0e35\u0e49:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01\u0e01\u0e32\u0e23\u0e23\u0e31\u0e1a\u0e2a\u0e21\u0e31\u0e04\u0e23\u0e01\u0e32\u0e23\u0e41\u0e08\u0e49\u0e07\u0e40\u0e15\u0e37\u0e2d\u0e19\u0e19\u0e35\u0e49, \u0e04\u0e25\u0e34\u0e4a\u0e01\u0e17\u0e35\u0e48: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - รายการใหม่ in the last hour",
+            "s_description": "<p>สวัสดี {USER_NAME},<\/p><p>รายการใหม่ที่ได้ถูกเผยแพร่ในชั่วโมงที่ผ่านมา. ดูรายการเหล่านี้:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>ยกเลิกการรับสมัครการแจ้งเตือนนี้, คลิ๊กที่: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 6,
             "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - \u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48 in the last day",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {USER_NAME},<\/p><p>\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48\u0e17\u0e35\u0e48\u0e44\u0e14\u0e49\u0e16\u0e39\u0e01\u0e40\u0e1c\u0e22\u0e41\u0e1e\u0e23\u0e48\u0e43\u0e19\u0e23\u0e30\u0e22\u0e30\u0e40\u0e27\u0e25\u0e32\u0e17\u0e35\u0e48\u0e1c\u0e48\u0e32\u0e19\u0e21\u0e32. \u0e14\u0e39\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e40\u0e2b\u0e25\u0e48\u0e32\u0e19\u0e35\u0e49\u0e17\u0e35\u0e48:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01\u0e01\u0e32\u0e23\u0e23\u0e31\u0e1a\u0e2a\u0e21\u0e31\u0e04\u0e23\u0e01\u0e32\u0e23\u0e41\u0e08\u0e49\u0e07\u0e40\u0e15\u0e37\u0e2d\u0e19\u0e19\u0e35\u0e49, \u0e04\u0e25\u0e34\u0e4a\u0e01\u0e17\u0e35\u0e48: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - รายการใหม่ in the last day",
+            "s_description": "<p>สวัสดี {USER_NAME},<\/p><p>รายการใหม่ที่ได้ถูกเผยแพร่ในระยะเวลาที่ผ่านมา. ดูรายการเหล่านี้ที่:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>ยกเลิกการรับสมัครการแจ้งเตือนนี้, คลิ๊กที่: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 7,
             "s_internal_name": "alert_email_weekly",
-            "s_title": "{WEB_TITLE} - \u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48 in the last week",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {USER_NAME},<\/p><p>\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48\u0e17\u0e35\u0e48\u0e44\u0e14\u0e49\u0e16\u0e39\u0e01\u0e40\u0e1c\u0e22\u0e41\u0e1e\u0e23\u0e48\u0e43\u0e19\u0e2a\u0e31\u0e1b\u0e14\u0e32\u0e2b\u0e4c\u0e19\u0e35\u0e49. \u0e14\u0e39\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e40\u0e2b\u0e25\u0e48\u0e32\u0e19\u0e35\u0e49:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01\u0e01\u0e32\u0e23\u0e41\u0e08\u0e49\u0e07\u0e40\u0e15\u0e37\u0e2d\u0e19\u0e19\u0e35\u0e49 , \u0e04\u0e25\u0e34\u0e4a\u0e01\u0e17\u0e35\u0e48: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - รายการใหม่ in the last week",
+            "s_description": "<p>สวัสดี {USER_NAME},<\/p><p>รายการใหม่ที่ได้ถูกเผยแพร่ในสัปดาห์นี้. ดูรายการเหล่านี้:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>เพื่อยกเลิกการแจ้งเตือนนี้ , คลิ๊กที่: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 8,
             "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - \u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {USER_NAME},<\/p><p>\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48\u0e44\u0e14\u0e49\u0e16\u0e39\u0e01\u0e40\u0e1c\u0e22\u0e41\u0e1e\u0e23\u0e48, \u0e15\u0e23\u0e27\u0e08\u0e2a\u0e2d\u0e1a\u0e44\u0e14\u0e49\u0e17\u0e35\u0e48\u0e19\u0e35\u0e48 !<\/p><p>{ADS}<\/p><p>-------------<\/p><p>\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01\u0e01\u0e32\u0e23\u0e41\u0e08\u0e49\u0e07\u0e40\u0e15\u0e37\u0e2d\u0e19\u0e19\u0e35\u0e49 , \u0e04\u0e25\u0e34\u0e4a\u0e01\u0e17\u0e35\u0e48: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - รายการใหม่",
+            "s_description": "<p>สวัสดี {USER_NAME},<\/p><p>รายการใหม่ได้ถูกเผยแพร่, ตรวจสอบได้ที่นี่ !<\/p><p>{ADS}<\/p><p>-------------<\/p><p>เพื่อยกเลิกการแจ้งเตือนนี้ , คลิ๊กที่: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 9,
             "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - \u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e04\u0e34\u0e14\u0e40\u0e2b\u0e47\u0e19\u0e43\u0e2b\u0e21\u0e48",
+            "s_title": "{WEB_TITLE} - การแสดงความคิดเห็นใหม่",
             "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
         },
         {
             "fk_i_page_id": 10,
             "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - \u0e41\u0e01\u0e49\u0e44\u0e02\u0e15\u0e31\u0e27\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23 {ITEM_TITLE}",
+            "s_title": "{WEB_TITLE} - แก้ไขตัวเลือกสำหรับรายการ {ITEM_TITLE}",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 11,
             "s_internal_name": "email_item_validation",
-            "s_title": "{WEB_TITLE} - \u0e15\u0e23\u0e27\u0e08\u0e2a\u0e2d\u0e1a\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13",
+            "s_title": "{WEB_TITLE} - ตรวจสอบรายการของคุณ",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 12,
             "s_internal_name": "email_admin_new_item",
-            "s_title": "{WEB_TITLE} - \u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48\u0e44\u0e14\u0e49\u0e16\u0e39\u0e01\u0e40\u0e1c\u0e22\u0e41\u0e1e\u0e23\u0e48",
+            "s_title": "{WEB_TITLE} - รายการใหม่ได้ถูกเผยแพร่",
             "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 13,
             "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - \u0e01\u0e39\u0e49\u0e04\u0e37\u0e19\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19",
+            "s_title": "{WEB_TITLE} - กู้คืนรหัสผ่าน",
             "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 14,
             "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} -\u0e04\u0e38\u0e13\u0e23\u0e49\u0e2d\u0e07\u0e02\u0e2d\u0e01\u0e32\u0e23\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e41\u0e1b\u0e25\u0e07\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e25\u0e4c",
+            "s_title": "{WEB_TITLE} -คุณร้องขอการเปลี่ยนแปลงอีเมลล์",
             "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 15,
             "s_internal_name": "email_alert_validation",
-            "s_title": "{WEB_TITLE} - \u0e01\u0e23\u0e38\u0e13\u0e32\u0e22\u0e37\u0e19\u0e22\u0e31\u0e19\u0e43\u0e19\u0e01\u0e32\u0e23\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e41\u0e08\u0e49\u0e07\u0e40\u0e15\u0e37\u0e2d\u0e19",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {USER_NAME},<\/p><p>\u0e01\u0e23\u0e38\u0e13\u0e32\u0e17\u0e33\u0e01\u0e32\u0e23\u0e22\u0e37\u0e19\u0e22\u0e31\u0e19\u0e01\u0e32\u0e23\u0e2a\u0e21\u0e31\u0e04\u0e23\u0e42\u0e14\u0e22\u0e04\u0e25\u0e34\u0e01\u0e04\u0e4c\u0e17\u0e35\u0e48\u0e25\u0e34\u0e07\u0e04\u0e4c\u0e19\u0e35\u0e49: {VALIDATION_LINK}<\/p><p>\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13!<\/p><p>\u0e14\u0e49\u0e27\u0e22\u0e04\u0e27\u0e32\u0e21\u0e19\u0e31\u0e1a\u0e16\u0e37\u0e2d,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - กรุณายืนยันในการรับการแจ้งเตือน",
+            "s_description": "<p>สวัสดี {USER_NAME},<\/p><p>กรุณาทำการยืนยันการสมัครโดยคลิกค์ที่ลิงค์นี้: {VALIDATION_LINK}<\/p><p>ขอบคุณ!<\/p><p>ด้วยความนับถือ,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 16,
             "s_internal_name": "email_comment_validated",
-            "s_title": "{WEB_TITLE} - \u0e04\u0e27\u0e32\u0e21\u0e04\u0e34\u0e14\u0e40\u0e2b\u0e47\u0e19\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e15\u0e23\u0e27\u0e08\u0e2a\u0e2d\u0e1a\u0e41\u0e25\u0e49\u0e27",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {COMMENT_AUTHOR},<\/p><p>\u0e04\u0e27\u0e32\u0e21\u0e04\u0e34\u0e14\u0e40\u0e2b\u0e47\u0e19\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e17\u0e35\u0e48 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e2d\u0e19\u0e38\u0e21\u0e31\u0e15\u0e34\u0e41\u0e25\u0e49\u0e27.<\/p><p>\u0e14\u0e49\u0e27\u0e22\u0e04\u0e27\u0e32\u0e21\u0e19\u0e31\u0e1a\u0e16\u0e37\u0e2d,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - ความคิดเห็นของคุณได้รับการตรวจสอบแล้ว",
+            "s_description": "<p>สวัสดี {COMMENT_AUTHOR},<\/p><p>ความคิดเห็นของคุณที่ <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> ได้รับการอนุมัติแล้ว.<\/p><p>ด้วยความนับถือ,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 17,
             "s_internal_name": "email_item_validation_non_register_user",
-            "s_title": "{WEB_TITLE} - \u0e15\u0e23\u0e27\u0e08\u0e2a\u0e2d\u0e1a\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - ตรวจสอบรายการของคุณ",
+            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 18,
             "s_internal_name": "email_admin_new_user",
-            "s_title": "{WEB_TITLE} - \u0e21\u0e35\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u0e43\u0e2b\u0e21\u0e48\u0e44\u0e14\u0e49\u0e17\u0e33\u0e01\u0e32\u0e23\u0e2a\u0e21\u0e31\u0e04\u0e23\u0e2a\u0e21\u0e32\u0e0a\u0e34\u0e01",
+            "s_title": "{WEB_TITLE} - มีผู้ใช้งานใหม่ได้ทำการสมัครสมาชิก",
             "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 19,
             "s_internal_name": "email_contact_user",
-            "s_title": "{WEB_TITLE} - \u0e1a\u0e32\u0e07\u0e04\u0e19\u0e21\u0e35\u0e04\u0e33\u0e16\u0e32\u0e21\u0e01\u0e31\u0e1a\u0e04\u0e38\u0e13",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) \u0e2a\u0e48\u0e07\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21\u0e43\u0e2b\u0e49\u0e04\u0e38\u0e13:<\/p><p>{COMMENT}<\/p><p>\u0e14\u0e49\u0e27\u0e22\u0e04\u0e27\u0e32\u0e21\u0e19\u0e31\u0e1a\u0e16\u0e37\u0e2d,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - บางคนมีคำถามกับคุณ",
+            "s_description": "<p>สวัสดี {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) ส่งข้อความให้คุณ:<\/p><p>{COMMENT}<\/p><p>ด้วยความนับถือ,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 20,
             "s_internal_name": "email_new_comment_user",
-            "s_title": "{WEB_TITLE} - \u0e21\u0e35\u0e1a\u0e32\u0e07\u0e04\u0e19\u0e44\u0e14\u0e49\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e04\u0e34\u0e14\u0e40\u0e2b\u0e47\u0e19\u0e43\u0e19\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13",
+            "s_title": "{WEB_TITLE} - มีบางคนได้แสดงความคิดเห็นในรายการของคุณ",
             "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 21,
             "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e1a\u0e31\u0e0d\u0e0a\u0e35\u0e41\u0e2d\u0e14\u0e21\u0e34\u0e19\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08\u0e41\u0e25\u0e49\u0e27 !",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {ADMIN_NAME},<\/p><p>\u0e41\u0e2d\u0e14\u0e21\u0e34\u0e19\u0e02\u0e2d\u0e07 {WEB_LINK} \u0e44\u0e14\u0e49\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e41\u0e2d\u0e14\u0e21\u0e34\u0e19\u0e43\u0e2b\u0e49\u0e04\u0e38\u0e13,<\/p><ul><li>\u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49: {USERNAME}<\/li><li>\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19: {PASSWORD}<\/li><\/ul><p>\u0e04\u0e38\u0e13\u0e2a\u0e32\u0e23\u0e16\u0e40\u0e02\u0e49\u0e32\u0e2a\u0e39\u0e48\u0e2b\u0e19\u0e49\u0e32\u0e41\u0e2d\u0e14\u0e21\u0e34\u0e19\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e08\u0e31\u0e14\u0e01\u0e32\u0e23\u0e23\u0e30\u0e1a\u0e44\u0e14\u0e49\u0e17\u0e35\u0e48\u0e19\u0e35\u0e48 {WEB_ADMIN_LINK}.<\/p><p>\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13 !<\/p><p>\u0e14\u0e49\u0e27\u0e22\u0e04\u0e27\u0e32\u0e21\u0e19\u0e31\u0e1a\u0e16\u0e37\u0e2d,<\/p>"
+            "s_title": "{WEB_TITLE} - สร้างบัญชีแอดมินสำเร็จแล้ว !",
+            "s_description": "<p>สวัสดี {ADMIN_NAME},<\/p><p>แอดมินของ {WEB_LINK} ได้สร้างผู้ใช้แอดมินให้คุณ,<\/p><ul><li>ชื่อผู้ใช้: {USERNAME}<\/li><li>รหัสผ่าน: {PASSWORD}<\/li><\/ul><p>คุณสารถเข้าสู่หน้าแอดมินเพื่อจัดการระบได้ที่นี่ {WEB_ADMIN_LINK}.<\/p><p>ขอบคุณ !<\/p><p>ด้วยความนับถือ,<\/p>"
         },
         {
             "fk_i_page_id": 22,
             "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - \u0e42\u0e06\u0e29\u0e13\u0e32\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e30\u0e2b\u0e21\u0e14\u0e2d\u0e32\u0e22\u0e38",
-            "s_description": "<p>\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 {USER_NAME},<\/p><p>\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> \u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e30\u0e2b\u0e21\u0e14\u0e2d\u0e32\u0e22\u0e38 {WEB_LINK}."
+            "s_title": "{WEB_TITLE} - โฆษณาของคุณกำลังจะหมดอายุ",
+            "s_description": "<p>สวัสดี {USER_NAME},<\/p><p>รายการของคุณ <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> กำลังจะหมดอายุ {WEB_LINK}."
         }
     ]
 }
