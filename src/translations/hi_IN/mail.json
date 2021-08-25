@@ -1,59 +1,59 @@
 {
-    "language": "en_US",
+    "language": "hi_IN",
     "template": [
         {
             "fk_i_page_id": 1,
             "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - Someone has a question about your listing",
-            "s_description": "<p>Hi {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - आपकी लिस्टिंग के बारे में किसी के मन में कोई सवाल है",
+            "s_description": "<p>नमस्ते {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) ने आपको अपनी लिस्टिंग <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a के बारे में एक संदेश छोड़ा है >:<\/p><p>{COMMENT}<\/p><p>सादर,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 2,
             "s_internal_name": "email_user_validation",
-            "s_title": "Please validate your {WEB_TITLE} account",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "कृपया अपने {WEB_TITLE} खाते की पुष्टि करें",
+            "s_description": "<P> नमस्ते {USER_NAME} <\/ p> <p> नीचे दिए गए लिंक पर क्लिक करके अपने पंजीकरण का सत्यापन करें: {VALIDATION_LINK} <\/p> <p> धन्यवाद <\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 3,
             "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - Registration successful!",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - पंजीकरण सफल!",
+            "s_description": "<p>नमस्ते {USER_NAME},<\/p><p>आपने {WEB_LINK} के लिए सफलतापूर्वक पंजीकरण कर लिया है।<\/p><p>धन्यवाद!<\/p><p>सादर,<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 4,
             "s_internal_name": "email_send_friend",
-            "s_title": "Look at what I discovered on {WEB_TITLE}",
-            "s_description": "<p>Hi {FRIEND_NAME},<\/p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Message:<\/p><p>{COMMENT}<\/p><p>Regards,<\/p><p>{WEB_TITLE}<\/p>"
+            "s_title": "देखें मुझे {WEB_TITLE} पर क्या मिला",
+            "s_description": "<p>नमस्कार {FRIEND_NAME},<\/p><p>आपका मित्र {USER_NAME} इस लिस्टिंग को आपके साथ <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> साझा करना चाहता है।<\/p><p>संदेश:<\/p><p>{COMMENT}<\/p><p>सादर,<\/p><p>{WEB_TITLE}<\/p>"
         },
         {
             "fk_i_page_id": 5,
             "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - New listings in the last hour",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>New listings have been published in the last hour. Take a look at them:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - आखिरी घंटे में नई लिस्टिंग",
+            "s_description": "<p>नमस्कार {USER_NAME},<\/p><p>पिछले घंटे में नई सूचियां प्रकाशित की गई हैं। उन पर एक नज़र डालें:<\/p><p>{ADS}<\/p><p>---------------<\/p><p>इस अलर्ट से सदस्यता समाप्त करने के लिए, क्लिक करें चालू: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 6,
             "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - New listings in the last day",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>New listings have been published in the last day. Take a look at them:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - अंतिम दिन में नई प्रविष्टियां",
+            "s_description": "<p>नमस्कार {USER_NAME},<\/p><p>अंतिम दिन में नई प्रविष्टियां प्रकाशित की गई हैं। उन पर एक नज़र डालें:<\/p><p>{ADS}<\/p><p>---------------<\/p><p>इस अलर्ट से सदस्यता समाप्त करने के लिए, क्लिक करें चालू: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 7,
             "s_internal_name": "alert_email_weekly",
             "s_title": "{WEB_TITLE} - New listings in the last week",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>New listings have been published in the last week. Take a look at them:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_description": "<p>नमस्कार {USER_NAME},<\/p><p>पिछले सप्ताह नई प्रविष्टियां प्रकाशित की गई हैं। उन पर एक नज़र डालें:<\/p><p>{ADS}<\/p><p>---------------<\/p><p>इस अलर्ट से सदस्यता समाप्त करने के लिए, क्लिक करें: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 8,
             "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - New listings",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>A new listing has been published, check it out!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+            "s_title": "{WEB_TITLE} - नई प्रविष्टियां",
+            "s_description": "<p>नमस्कार {USER_NAME},<\/p><p>एक नई सूची प्रकाशित की गई है, इसे देखें!<\/p><p>{ADS}<\/p><p>------- ------<\/p><p>इस अलर्ट से सदस्यता समाप्त करने के लिए, इस पर क्लिक करें: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
         },
         {
             "fk_i_page_id": 9,
             "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - New comment",
-            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+            "s_title": "{WEB_TITLE} - नई टिप्पणी",
+            "s_description": "<p>किसी ने लिस्टिंग पर टिप्पणी की <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>।<\/p><p>टिप्पणीकर्ता: {COMMENT_AUTHOR}<br \/>टिप्पणीकर्ता का ईमेल: {COMMENT_EMAIL}<br \/>शीर्षक: {COMMENT_TITLE}<br \/>टिप्पणी: {COMMENT_TEXT}<\/p>"
         },
         {
             "fk_i_page_id": 10,
