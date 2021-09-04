@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-08-25 07:09\n"
+"PO-Revision-Date: 2021-09-04 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -14,18 +14,18 @@ msgstr ""
 "X-Crowdin-Project: osclass-v2\n"
 "X-Crowdin-Project-ID: 376123\n"
 "X-Crowdin-Language: th\n"
-"X-Crowdin-File: /master/src/templates/theme.pot\n"
-"X-Crowdin-File-ID: 8210\n"
+"X-Crowdin-File: /develop/src/templates/theme.pot\n"
+"X-Crowdin-File-ID: 8225\n"
 
 #: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
 #: tmp/osclass/oc-content/themes/bender/functions.php:444
 #: tmp/osclass/oc-content/themes/bender/functions.php:491
 msgid "Alerts"
-msgstr "แจ้งเตือน"
+msgstr "การแจ้งเตือน"
 
 #: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
 msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "การกระทำนี้ไม่สามารถย้อนกลับได้ คุณแน่ใจหรือไม่ทำจะดำเนินการต่อ"
+msgstr "การกระทำนี้ไม่สามารถยกเลิกได้ คุณแน่ใจหรือไม่ ว่าต้องการดำเนินการต่อ"
 
 #: tmp/osclass/oc-content/themes/bender/alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
@@ -34,7 +34,7 @@ msgstr "คุณทำการสมัครบริการแจ้งเ
 #: tmp/osclass/oc-content/themes/bender/alert-form.php:28
 #: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
 msgid "Invalid email address"
-msgstr "อีเมลล์ไม่ถูกต้อง"
+msgstr "ที่อยู่อีเมลล์ไม่ถูกต้อง"
 
 #: tmp/osclass/oc-content/themes/bender/alert-form.php:29
 msgid "There was a problem with the alert"
@@ -58,7 +58,7 @@ msgstr "ลบโลโก้"
 
 #: tmp/osclass/oc-content/themes/bender/admin/header.php:69
 msgid "Upload"
-msgstr "อัพโหลด"
+msgstr "อัปโหลด"
 
 #: tmp/osclass/oc-content/themes/bender/admin/header.php:78
 #, php-format
@@ -172,20 +172,20 @@ msgstr "เปลี่ยนชื่อผู้ใช้งาน"
 
 #: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
 msgid "Username: this field is required"
-msgstr "ชื่อผู้ใช้งาน: ฟีลล์นี้จำเป็นต้องกรอก"
+msgstr "ชื่อผู้ใช้ : ฟิลล์นี้จำเป็น"
 
 #: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
 msgid "The username is available"
-msgstr "ชื่อผู้ใช้งานนี้สามารถใช้งานได้"
+msgstr "ชื่อผู้ใช้นี้สามารถใช้งานได้"
 
 #: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
 msgid "The username is NOT available"
-msgstr "ชื่อผู้ใช้งานนี้ไม่สามารถใช้ได้"
+msgstr "ชื่อผู้ใช้นี้ไม่สามารถใช้งานได้"
 
 #: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
-msgstr "ชื่อ: %s"
+msgstr "ชื่อ : %s"
 
 #: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
 #, php-format
@@ -208,11 +208,11 @@ msgstr "ยกตัวอย่างเช่น. นักบัญชี"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:434
 msgid "Publish a listing"
-msgstr "เผยแพร่รายการโฆษณา"
+msgstr "เผยแพร่รายการ"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:435
 msgid "Edit your listing"
-msgstr "แก้ไขรายการโฆษณา"
+msgstr "แก้ไขรายการของคุณ"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:436
 msgid "Send to a friend"
@@ -220,30 +220,30 @@ msgstr "ส่งให้เพื่อน"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:437
 msgid "Contact publisher"
-msgstr "ติดต่อผู้ลงประกาศ"
+msgstr "ติดต่อผู้ประกาศ"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:438
 msgid "Search results"
-msgstr "ผลลัพธ์ในการค้นหา"
+msgstr "ผลลัพธ์การค้นหา"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:439
 #, php-format
 msgid "Search results: %s"
-msgstr "ผลลัพธ์ในการค้นหา: %s"
+msgstr "ผลลัพธ์การค้นหา : %s"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:440
 msgid "Dashboard"
-msgstr "หน้าควบคุมหลัก"
+msgstr "แดชบอร์ด"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:441
 #, php-format
 msgid "%s's profile"
-msgstr "บัญชีผู้ใช้งานของ %s"
+msgstr "โปรไฟล์ของ %s"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:442
 #: tmp/osclass/oc-content/themes/bender/functions.php:496
 msgid "Account"
-msgstr "บัญชีผู้ใช้งาน"
+msgstr "บัญชี"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:446
 #: tmp/osclass/oc-content/themes/bender/functions.php:501
@@ -264,7 +264,7 @@ msgstr "สร้างบัญชีใหม่"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:453
 msgid "Contact"
-msgstr "ติดต่อเรา"
+msgstr "ติดต่อ"
 
 #: tmp/osclass/oc-content/themes/bender/functions.php:481
 msgid "Public Profile"
