@@ -32,8 +32,10 @@ last_commit=$(git rev-parse --short HEAD)
 # check if there is a .last_commit file in root directory compare it with last commit hash
 if [ -f "$ROOT_DIR/.last_commit" ]; then
   # if there is a .last_commit file in root directory compare it with last commit hash if same stop script gracefully
-  if [ "$(cat "$ROOT_DIR/.last_commit")" == "$last_commit" ]; then
+  if [ "$(cat "$ROOT_DIR/.last_commit")" = "$last_commit" ]; then
     echo "No changes in the repo"
+    # delete tmp directory
+    rm -rf tmp
     exit
   fi
 fi

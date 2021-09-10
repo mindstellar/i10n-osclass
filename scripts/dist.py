@@ -31,6 +31,7 @@ def get_translations():
         "stop_words": ""
     }
     '''
+    # Create empty list
     translations = []
     for dir in os.listdir(translations_dir):
         if os.path.isdir(translations_dir + dir):
@@ -50,10 +51,33 @@ def get_translations():
                     # Read locale.json
                     with open(translations_dir + dir + '/locale.json') as f:
                         translation = json.load(f)
-                        # Add maile.json path to translation
-                        translation['mail_json'] = translations_dir + dir + '/mail.json'
+                        # mail.json relative path
+                        translation['mail_json'] = dir + '/mail.json'
                     # Add translation to list
                     translations.append(translation)
+
+                    # Check if md5sum.txt file exists, if exists, read it and get the md5sum
+                    if os.path.isfile(translations_dir + dir + '/.md5sum'):
+                        with open(translations_dir + dir + '/.md5sum', 'r') as f:
+                            md5sum_file = f.read().strip()
+                    else:
+                        md5sum_file = ''
+                    # Calculate the md5sum of all required files
+                    md5sum_new = ''
+                    for file in required_files:
+                        md5sum_new += str(os.path.getsize(translations_dir + dir + '/' + file))
+                        md5sum_new += str(os.path.getmtime(translations_dir + dir + '/' + file))
+                    # Check if md5sum_file is same as md5sum_new
+                    if md5sum_file == md5sum_new:
+                        # Skip Zip file creation
+                        print('Skipping ' + dir + ' because md5sum is same')
+                        continue
+                    # Save md5sum_new to md5sum.txt and unset md5sum_new, md5sum_file
+                    with open(translations_dir + dir + '/.md5sum', 'w') as f:
+                        f.write(md5sum_new)
+                        md5sum_new = ''
+                        md5sum_file = ''
+
                     # Now create dist zip file with all .mo, .po and .json files in  root dist
                     print('Creating dist zip file for ' + dir)
                     # Create dist directory if it does not exist
@@ -66,7 +90,7 @@ def get_translations():
                     os.system('zip -r dist/' + dir + '.zip ' + translations_dir + dir)
     # Return list of translations                
     return translations
-
+# 
 # Remove old locale_list.json if it exists
 if os.path.isfile('locale_list.json'):
     os.remove('locale_list.json')
