@@ -25,7 +25,7 @@ branch=$(git rev-parse --abbrev-ref HEAD)
 # change directory to tmp
 cd tmp || exit
 # clone git@github.com:mindstellar/osclass and checkout same branch name in tmp directory
-git clone --branch "$branch" git@github.com:mindstellar/Osclass.git
+git clone --branch "$branch" https://github.com/mindstellar/Osclass.git
 cd Osclass || exit
 #Create Fresh gettext pot file for core
 # shellcheck disable=SC2038
@@ -53,7 +53,7 @@ echo 'messages.pot is created in /src/templates directory'
 cd ..
 rm -rf Osclass
 # Now clone https://github.com/mindstellar/theme-bender repo and change directory to it
-git clone git@github.com:mindstellar/theme-bender.git
+git clone https://github.com/mindstellar/theme-bender.git
 cd theme-bender || exit
 #Create Fresh gettext pot file for theme-bender
 # shellcheck disable=SC2038
