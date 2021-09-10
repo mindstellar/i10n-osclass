@@ -16,7 +16,7 @@ fi
 # save root directory to variable ROOT_DIR
 ROOT_DIR=$(pwd)
 # Change directory to root directory
-cd $ROOT_DIR
+cd "$ROOT_DIR" || exit
 ###  Make directory in ROOT_DIR
 mkdir tmp
 # clone the git@github.com:mindstellar/osclass repo and change directory to it
