@@ -12,20 +12,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run build
         run: sh scripts/build.sh
-      - name: compile-translations
       - name: Install gettext
         run: sudo apt-get install gettext -y
       - name: Compile po files
         run: sh scripts/compile.sh
       - name: Run dist
         run: python3 scripts/dist.py
-      - name: Create a pull request
-        uses: actions/create-pull-request@v2
-        with:
-          title: "Update dist"
-          body: "{{ github.workflow.event.head_label }}"
-          head: "{{ github.workflow.event.head_ref }}"
-          base: "{{ github.workflow.event.base_ref }}"
-          maintainer_can_modify: true
-          delete_branch_on_merge: true
-          draft: false
