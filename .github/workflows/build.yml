@@ -8,6 +8,11 @@ on:
 jobs:
   update-template:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        # Set the working directory to the root of the repository
+        working-directory: "${{ github.repository }}"
     steps:
       - uses: actions/checkout@v2
       - name: Run build
