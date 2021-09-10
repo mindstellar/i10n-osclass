@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-09-04 09:37\n"
+"POT-Creation-Date: 2021-09-10 20:32+0000\n"
+"PO-Revision-Date: 2021-09-10 21:28\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -17,298 +17,282 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:444
-#: tmp/osclass/oc-content/themes/bender/functions.php:491
-msgid "Alerts"
-msgstr "Alerte"
-
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Această acţiune nu este reversibilă. Eşti sigur că vrei să continui?"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:27
+#: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
 msgstr "Te-ai abonat cu succes la alertă"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:28
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
+#: alert-form.php:28 user-change_email.php:77
 msgid "Invalid email address"
 msgstr "Adresă de e-mail invalidă"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:29
+#: alert-form.php:29
 msgid "There was a problem with the alert"
 msgstr "Se pare că există o problemă cu alerta"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:33
+#: user-change_email.php:33
 msgid "Change e-mail"
 msgstr "Modifică e-mail"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:76
+#: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "E-mail: acest câmp este obligatoriu"
 
-#: tmp/osclass/oc-content/themes/bender/admin/settings.php:42
-msgid "Donate"
-msgstr "Donează"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:42
-msgid "Remove logo"
-msgstr "Şterge logo"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:69
-msgid "Upload"
-msgstr "Încarcă"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "Dosarul imaginilor <strong>%s</strong> nu poate fi scris pe serverul tău"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass nu poate încărca logo-ul din panoul de administrare."
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Te rog să modifici permisiunea de scriere a dosarului imaginilor precizat anterior"
-
-#: tmp/osclass/oc-content/themes/bender/loop-single-premium.php:48
-#: tmp/osclass/oc-content/themes/bender/loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Această acţiune nu este reversibilă. Eşti sigur că doreşti să continui?"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Data publicării:</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Data modificării:</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:55
+#: search.php:55
 msgid "Selected"
 msgstr "Selectate"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:56
+#: search.php:56
 msgid "Nothing selected, input was"
 msgstr "Nimic selectat, intrarea a fost"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:71
+#: search.php:71
 #, php-format
 msgid "There are no results matching \"%s\""
 msgstr "Nu au fost găsite rezultate corespunzătoare criteriului \"%s\""
 
-#: tmp/osclass/oc-content/themes/bender/search.php:75
+#: search.php:75
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
 msgstr "%1$d - %2$d din %3$d anunţuri"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:121
+#: search.php:121
 msgid "Premium listings"
 msgstr "Anunţuri premium"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:129
-#: tmp/osclass/oc-content/themes/bender/functions.php:443
-#: tmp/osclass/oc-content/themes/bender/functions.php:486
+#: search.php:129 functions.php:443 functions.php:486
 msgid "Listings"
 msgstr "Anunţuri"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_password.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:448
-#: tmp/osclass/oc-content/themes/bender/functions.php:451
-#: tmp/osclass/oc-content/themes/bender/functions.php:511
+#: common/head.php:25
+msgid "Delete"
+msgstr "Şterge"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Anulează"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Imaginea anterioară"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Imaginea următoare"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Închide"
+
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
 msgid "Change password"
 msgstr "Modifică parola"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:35
-#: tmp/osclass/oc-content/themes/bender/header.php:48
+#: user-change_username.php:34 functions.php:447 functions.php:506
+msgid "Change username"
+msgstr "Modifică numele de utilizator"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Nume utilizator: acest câmp este obligatoriu"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Numele de utilizator este disponibil"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Numele de utilizator NU este disponibil"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Această acţiune nu este reversibilă. Eşti sigur că doreşti să continui?"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "Alerte"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Această acţiune nu este reversibilă. Eşti sigur că vrei să continui?"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Donează"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Şterge logo"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Încarcă"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "Dosarul imaginilor <strong>%s</strong> nu poate fi scris pe serverul tău"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass nu poate încărca logo-ul din panoul de administrare."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Te rog să modifici permisiunea de scriere a dosarului imaginilor precizat anterior"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Data publicării:</strong> %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Data modificării:</strong> %1$s"
+
+#: footer.php:35 header.php:48
 #, php-format
 msgid "Hi %s"
 msgstr "Salutare %s"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:69
+#: footer.php:69
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
 msgstr "Acest site foloseşte <a title=\"Osclass web\" href=\"%s\">scripturile de anunţuri</a> ale software-ului <strong>Osclass</strong>"
 
-#: tmp/osclass/oc-content/themes/bender/item-post.php:61
-#: tmp/osclass/oc-content/themes/bender/header.php:74
-msgid "Select a category"
-msgstr "Selectează o categorie"
-
-#: tmp/osclass/oc-content/themes/bender/user-profile.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:445
+#: user-profile.php:32 functions.php:445
 msgid "Update account"
 msgstr "Actualizează contul"
 
-#: tmp/osclass/oc-content/themes/bender/common/head.php:25
-msgid "Delete"
-msgstr "Şterge"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:26
-msgid "Cancel"
-msgstr "Anulează"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:72
-msgid "Previous image"
-msgstr "Imaginea anterioară"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:73
-msgid "Next image"
-msgstr "Imaginea următoare"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:74
-msgid "Close"
-msgstr "Închide"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:34
-#: tmp/osclass/oc-content/themes/bender/functions.php:447
-#: tmp/osclass/oc-content/themes/bender/functions.php:506
-msgid "Change username"
-msgstr "Modifică numele de utilizator"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Nume utilizator: acest câmp este obligatoriu"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
-msgid "The username is available"
-msgstr "Numele de utilizator este disponibil"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Numele de utilizator NU este disponibil"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "Nume: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "E-mail: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "Telefon: %s"
-
-#: tmp/osclass/oc-content/themes/bender/user-sidebar.php:28
-#: tmp/osclass/oc-content/themes/bender/functions.php:516
-msgid "Delete account"
-msgstr "Şterge cont"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "De ex: Programator PHP"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:434
-msgid "Publish a listing"
-msgstr "Adaugă un anunţ"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:435
-msgid "Edit your listing"
-msgstr "Editează anunţul"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:436
-msgid "Send to a friend"
-msgstr "Trimite unui prieten"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:437
-msgid "Contact publisher"
-msgstr "Contactează editorul"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:438
-msgid "Search results"
-msgstr "Rezultatele căutării"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Rezultatele căutării: %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:440
-msgid "Dashboard"
-msgstr "Panou control"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "Profilul utilizatorului %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:442
-#: tmp/osclass/oc-content/themes/bender/functions.php:496
-msgid "Account"
-msgstr "Cont"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:446
-#: tmp/osclass/oc-content/themes/bender/functions.php:501
-msgid "Change email"
-msgstr "Modifică e-mail"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:449
-msgid "Login"
-msgstr "Autentificare"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:450
-msgid "Recover password"
-msgstr "Recuperează parola"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:452
-msgid "Create a new account"
-msgstr "Creează un cont nou"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:453
-msgid "Contact"
-msgstr "Contact"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:481
-msgid "Public Profile"
-msgstr "Profil public"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Setările temei au fost actualizate corect"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Imaginea logo a fost încărcată corect"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "A apărut o eroare, te rog încearcă din nou"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:636
-msgid "The logo image has been removed"
-msgstr "Imaginea logo a fost ştearsă."
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:638
-msgid "Image not found"
-msgstr "Imaginea nu a fost găsită"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:666
-msgid "Header logo"
-msgstr "Logo antet"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:668
-msgid "Theme settings"
-msgstr "Setări temă"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:728
-msgid "All categories"
-msgstr "Toate categoriile"
-
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:67
+#: user-public-profile.php:67
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
 msgstr "<strong>Adresă:</strong> %1$s"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:70
+#: user-public-profile.php:70
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>Locaţie:</strong> %1$s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Şterge cont"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Selectează o categorie"
+
+#: item-sidebar.php:70
+#, php-format
+msgid "Name: %s"
+msgstr "Nume: %s"
+
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "Telefon: %s"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "De ex: Programator PHP"
+
+#: functions.php:434
+msgid "Publish a listing"
+msgstr "Adaugă un anunţ"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Editează anunţul"
+
+#: functions.php:436
+msgid "Send to a friend"
+msgstr "Trimite unui prieten"
+
+#: functions.php:437
+msgid "Contact publisher"
+msgstr "Contactează editorul"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Rezultatele căutării"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Rezultatele căutării: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Panou control"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "Profilul utilizatorului %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Cont"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Modifică e-mail"
+
+#: functions.php:449
+msgid "Login"
+msgstr "Autentificare"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Recuperează parola"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Creează un cont nou"
+
+#: functions.php:453
+msgid "Contact"
+msgstr "Contact"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Profil public"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Setările temei au fost actualizate corect"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Imaginea logo a fost încărcată corect"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "A apărut o eroare, te rog încearcă din nou"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Imaginea logo a fost ştearsă."
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Imaginea nu a fost găsită"
+
+#: functions.php:666
+msgid "Header logo"
+msgstr "Logo antet"
+
+#: functions.php:668
+msgid "Theme settings"
+msgstr "Setări temă"
+
+#: functions.php:728
+msgid "All categories"
+msgstr "Toate categoriile"
 
