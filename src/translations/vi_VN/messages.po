@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-09-04 09:37\n"
+"POT-Creation-Date: 2021-09-10 20:32+0000\n"
+"PO-Revision-Date: 2021-09-10 21:31\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -17,1730 +17,1717 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/messages.pot\n"
 "X-Crowdin-File-ID: 8223\n"
 
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:209
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:237
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:264
-msgid "This action cannot be done because it is a demo site"
-msgstr "Không thể hoàn thành hành động này vì đây là site dùng thử"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
-#: tmp/osclass/oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
-msgid "You don't have enough permissions"
-msgstr "Bạn không đủ quyền truy cập"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
-msgid "The listing has been deleted"
-msgstr "Rao vặt đã bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:374
-msgid "The listing couldn't be deleted"
-msgstr "Rao vặt không thể xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:405
-msgid "The listing has been activated"
-msgstr "Rao vặt đã được kích hoạt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:407
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:421
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:430
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:439
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:471
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:500
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:668
-msgid "An error has occurred"
-msgstr "Xảy ra một lỗi"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:410
-msgid "The listing can't be activated because it's blocked"
-msgstr "Không thể kích hoạt rao vặt vì nó đã bị khoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:419
-msgid "The listing has been deactivated"
-msgstr "Rao vặt đã bị vô hiệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:428
-msgid "The listing has been enabled"
-msgstr "Rao vặt đã được kích hoạt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:437
-msgid "The listing has been disabled"
-msgstr "Rao vặt đã bị vô hiệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:469
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:498
-msgid "Changes have been applied"
-msgstr "Thay đổi đã được áp dụng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:527
-msgid "The listing has been unmarked as"
-msgstr "Rao vặt đã được gỡ đánh dấu là"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:529
-msgid "The listing hasn't been unmarked as"
-msgstr "Rao vặt không được gỡ đánh dấu là"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:632
-msgid "Changes saved correctly"
-msgstr "Đã lưu những thay đổi hoàn chỉnh"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
-msgid "Resource deleted"
-msgstr "Tài nguyên đã bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:719
-msgid "A new listing has been added"
-msgstr "Đã thêm một rao vặt mới"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:772
-msgid "Wait time must only contain numeric characters"
-msgstr "Thời gian chờ phải chứa các ký số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:777
-msgid "Number of moderated listings must only contain numeric characters"
-msgstr "Số lượng các rao vặt đã kiểm duyệt phải là các ký số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:780
-msgid "Images per listing must only contain numeric characters"
-msgstr "Số lượng hình ảnh trong một rao vặt phải là các ký số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:783
-msgid "Number of expiration days has to be a numeric value"
-msgstr "Số ngày hết hạn phải là giá trị số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
-msgid "Title Length has to be a numeric value"
-msgstr "Chiều dài tiêu đề phải là giá trị dạng số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
-msgid "Description Length has to be a numeric value"
-msgstr "Độ dài mô tả phải là giá trị dạng số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
-msgid "Listings' settings have been updated"
-msgstr "Thiết lập rao vặt đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
-msgid "The comments have been deleted"
-msgstr "Các bình luận đã bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
-msgid "The comments have been approved"
-msgstr "Các bình luận đã được chấp nhận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
-msgid "The comments have been disapproved"
-msgstr "Các bình luận đã bị từ chối"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
-msgid "The comments have been unblocked"
-msgstr "Các bình luận đã được bỏ khoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
-msgid "The comments have been blocked"
-msgstr "Các bình luận đã bị khoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
-msgid "The comment has been approved"
-msgstr "Bình luận đã được chấp nhận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
-msgid "The comment has been disapproved"
-msgstr "Bình luận đã bị từ chối"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
-msgid "The comment has been enabled"
-msgstr "Bình luận đã được kích hoạt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
-msgid "The comment has been disabled"
-msgstr "Bình luận đã bị vô hiệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
-msgid "Email is not correct"
-msgstr "Email không đúng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
-msgid "Comment is required"
-msgstr "Yêu cầu có bình luận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
-msgid "Great! We just updated your comment"
-msgstr "Tuyệt! Chúng tôi mới cập nhật bình luận của bạn"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:229
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:671
-msgid "The comment has been deleted"
-msgstr "Bình luận đã bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:110
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
-msgid "This action can't be done because it's a demo site"
-msgstr "Hành động này không thể hoàn thành vì đây là website mẫu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
-msgid "The translation folder is not writable"
-msgstr "Không thể ghi vào thư mục dịch"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:83
-msgid "The language has been installed correctly"
-msgstr "Đã cài đặt ngôn ngữ thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
-msgid "File uploaded but unable to activate the language"
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
-msgid "The zip file is not valid"
-msgstr "Tệp nén zip không hợp lệ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
-msgid "No file was uploaded"
-msgstr "Không có tệp nào được tải lên"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
-msgid "There was a problem adding the language"
-msgstr "Thêm ngôn ngữ xảy ra vấn đề"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:153
-msgid "Language imported successfully"
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:160
-msgid "There was a problem importing the selected language"
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:168
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:201
-msgid "Language id isn't in the correct format"
-msgstr "ID ngôn ngữ không đúng định dạng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:175
-msgid "Language id doesn't exist"
-msgstr "Không tồn tại ID ngôn ngữ này"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
-msgid "Language name field is required"
-msgstr "Yêu cầu nhập tên ngôn ngữ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:227
-msgid "Language short name field is required"
-msgstr "Yêu cầu nhập tên ngắn gọn của ngôn ngữ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:230
-msgid "Language description field is required"
-msgstr "Yêu cầu nhập miêu tả cho ngôn ngữ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:233
-msgid "Currency format field is required"
-msgstr "Yêu cầu nhập định dạng đơn vị tiền tệ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:236
-msgid "Number of decimals must only contain numeric characters"
-msgstr "Số lượng chữ số thập phân phải là các ký số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:259
-#, php-format
-msgid "%s has been updated"
-msgstr "%s đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:265
-msgid "Selected languages have been enabled for the website"
-msgstr "Ngôn ngữ được chọn đã được kích hoạt cho website"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:272
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:297
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:331
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:356
-msgid "The language ids aren't in the correct format"
-msgstr "Các ID ngôn ngữ không đúng định dạng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:289
-msgid "Selected languages have been disabled for the website"
-msgstr "Những ngôn ngữ được chọn đã bị vô hiệu cho website"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:304
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:363
-#, php-format
-msgid "%s can't be disabled because it's the default language"
-msgstr "Không thể vô hiệu %s vì nó là ngôn ngữ mặc định"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:324
-msgid "Selected languages have been enabled for the backoffice (oc-admin)"
-msgstr "Những ngôn ngữ được chọn đã được kích hoạt cho backoffice (oc-admin)"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:348
-msgid "Selected languages have been disabled for the backoffice (oc-admin)"
-msgstr "Những ngôn ngữ được chọn đã bị vô hiệu cho backoffice (oc-admin)"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:390
-#, php-format
-msgid "Directory '%s' couldn't be removed"
-msgstr "Không thể xoá thư mục '%s'"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:395
-#, php-format
-msgid "Directory \"%s\" has been successfully removed"
-msgstr "Đã xoá thư mục \"%s\" thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
-#, php-format
-msgid "Directory '%s' couldn't be removed;)"
-msgstr "Không thể xoá thư mục '%s' ;)"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
-#, php-format
-msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
-msgid "The email/alert has been updated"
-msgstr "Email/cảnh báo đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
-msgid "You can't repeat internal name"
-msgstr "Bạn không thể lặp lại tên nội bộ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
-msgid "The email couldn't be updated, at least one title should not be empty"
-msgstr "Email không thể cập nhật, ít nhất một tiêu đề không được bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
-msgid "The plugin folder is not writable"
-msgstr "Không thể ghi vào thư mục plugin"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
-msgid "The plugin has been uploaded correctly"
-msgstr "Đã tải lên plugin hoàn chỉnh"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
-msgid "There was a problem adding the plugin"
-msgstr "Xảy ra vấn đề khi thêm plugin"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
-#, php-format
-msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr "Plugin tạo ra %d ký tự <strong>không mong muốn</strong> trong quá trình cài đặt. Đầu ra: \"%s\""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
-msgid "Plugin is already installed"
-msgstr "Đã cài đặt plugin"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
-msgid "Plugin couldn't be installed because their files are missing"
-msgstr "Không thể cài đặt plugin vì chúng thiếu tập tin"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
-#, php-format
-msgid "Plugin couldn't be installed because of: %s"
-msgstr "Không thể cài đặt plugin vì: %s"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
-msgid "Plugin couldn't be installed"
-msgstr "Không thể cài đặt plugin"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
-msgid "Plugin installed"
-msgstr "Đã cài đặt plugin"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
-msgid "Plugin uninstalled"
-msgstr "Đã gỡ cài đặt plugin"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
-msgid "Plugin couldn't be uninstalled"
-msgstr "Không thể gỡ cài đặt plugin"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
-msgid "Plugin enabled"
-msgstr "Đã kích hoạt plugin"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
-msgid "Plugin is already enabled"
-msgstr "Plugin đã được kích hoạt rồi"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
-msgid "Plugin disabled"
-msgstr "Đã vô hiệu plugin"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
-msgid "Plugin is already disabled"
-msgstr "Plugin đã bị vô hiệu rồi"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
-msgid "Configuration was saved"
-msgstr "Đã lưu cấu hình"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
-msgid "No plugin selected"
-msgstr "Chưa chọn plugin nào"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
-msgid "The files were deleted"
-msgstr "Tệp đã được xóa"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
-#, php-format
-msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr "Có lỗi xảy ra trong quá trính xóa tệp, kiểm tra lại phân quyền của tệp tin trong %s"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
-msgid "Invalid plugin file"
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
-msgid "The username field is empty"
-msgstr "Tên tài khoản bị bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
-msgid "The password field is empty"
-msgstr "Mật khẩu bị bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
-#, php-format
-msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Rất tiếc, sai tên tài khoản. <a href=\"%s\">Bạn đã mất mật khẩu?</a>"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
-#, php-format
-msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Rất tiếc, sai mật khẩu. <a href=\"%s\">Bạn đã mất mật khẩu?</a>"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
-msgid "The reCAPTCHA code is wrong"
-msgstr "Nhập sai mã reCAPTCHA"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
-msgid "A new password has been sent to your e-mail"
-msgstr "Mật khẩu mới đã được gửi vào email của bạn"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:271
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:319
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
-msgid "Sorry, the link is not valid"
-msgstr "Rất tiếc, sai liên kết"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:309
-msgid "The password has been changed"
-msgstr "Đã thay đổi mật khẩu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
-msgid "Error, the passwords don't match"
-msgstr "Lỗi, mật khẩu không trùng khớp"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
-msgid "The theme folder is not writable"
-msgstr "Thư mục giao diện không ghi được"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
-msgid "The theme has been installed correctly"
-msgstr "Cài đặt giao diện thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
-msgid "There was a problem adding the theme"
-msgstr "Có vấn đề khi thêm giao diện"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
-msgid "Theme removed successfully"
-msgstr "Xoá giao diện thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
-msgid "There was a problem removing the theme"
-msgstr "Đã có vấn đề khi xoá bỏ giao diện"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
-msgid "Current theme can not be deleted"
-msgstr "Giao diện hiện tại không thể xoá bỏ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
-msgid "No theme selected"
-msgstr "Chưa chọn giao diện"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
-msgid "Widget removed correctly"
-msgstr "Xoá widget thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
-msgid "Description field is required"
-msgstr "Bắt buộc nhập nội dung mô tả"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
-msgid "Widget updated correctly"
-msgstr "Cập nhật widget thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
-msgid "Widget cannot be updated correctly"
-msgstr "Widget không thể cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
-msgid "Widget added correctly"
-msgstr "Thêm widget thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
-msgid "Theme activated correctly"
-msgstr "Kích hoạt giao diện thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
-msgid "You have very few free space left, users will not be able to upload pictures"
-msgstr "Bạn còn lại rất ít dung lượng, không thể tải thêm hình ảnh"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
-msgid "Entered an invalid email"
-msgstr "Đã nhập sai địa chỉ email"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
-msgid "You're already subscribed"
-msgstr "Bạn đã đăng ký"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
-msgid "Subscribed correctly"
-msgstr "Đăng ký thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
-msgid "Error subscribing"
-msgstr "Lỗi đăng ký"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
-msgid "You have to set an internal name"
-msgstr "Bạn phải đặt tên nội bộ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
-msgid "You have to set a different internal name"
-msgstr "Bạn phải đặt tên nội bộ khác"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
-msgid "The page has been updated"
-msgstr "Đã cập nhật trang"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
-msgid "The page couldn't be updated, at least one title should not be empty"
-msgstr "Không thể cập nhật trang, ít nhất một tiêu đề không được bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
-msgid "The page has been added"
-msgstr "Đã thêm trang"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
-msgid "The page couldn't be added, at least one title should not be empty"
-msgstr "Không thể thêm trang, ít nhất một tiêu đề không được bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
-msgid "Oops! That internal name is already in use. We can't make the changes"
-msgstr "Ồ! Tên nội bộ này đã được sử dụng. Chúng tôi không thể thay đổi"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
-msgid "One page can't be deleted because it is indelible"
-msgstr "Một trang không thể xoá vì nó không phai mờ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
-#, php-format
-msgid "%s pages couldn't be deleted because they are indelible"
-msgstr "Những trang %s không thể xoá vì chúng không phai mờ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
-msgid "One page couldn't be deleted"
-msgstr "Một trang không thể xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
-#, php-format
-msgid "%s pages couldn't be deleted"
-msgstr "Những trang %s không thể xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
-msgid "One page has been deleted correctly"
-msgstr "Đã xoá hoàn chỉnh một trang"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
-#, php-format
-msgid "%s pages have been deleted correctly"
-msgstr "Đã xoá hoàn chỉnh các trang %s"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
-msgid "Import complete"
-msgstr "Hoàn thành nhập liệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
-msgid "There was a problem importing data to the database"
-msgstr "Có một vấn đề khi nhập liệu vào cơ sở dữ liệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
-msgid "Recount category stats has been successful"
-msgstr "Đã hoàn thành việc đếm lại số liệu thống kê chuyên mục"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
-msgid "Path is empty"
-msgstr "Đường dẫn bị bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
-#, php-format
-msgid "Could not connect with the database. Error: %s"
-msgstr "Không thể kết nối cơ sở dữ liệu. Lỗi: %s"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:182
-msgid "There are no tables to back up"
-msgstr "Không có bảng dữ liệu nào để sao lưu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:186
-msgid "The folder is not writable"
-msgstr "Không ghi được vào thư mục"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:190
-msgid "Backup completed successfully"
-msgstr "Quá trình sao lưu đã thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:178
-#, php-format
-msgid "Could not select the database. Error: %s"
-msgstr "Không thể chọn cơ sở dữ liệu. Lỗi: %s"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:216
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:254
-msgid "Archived successfully!"
-msgstr "Lưu trữ thành công!"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:231
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:257
-msgid "Error, the zip file was not created in the specified directory"
-msgstr "Lỗi, không thể tạo tập tin zip trong thư mục chỉ định"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:274
-msgid "Maintenance mode is ON"
-msgstr "Chế độ bảo trì đang BẬT"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:277
-msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
-msgstr "Xảy ra lỗi khi tạo tập tin bảo trì, hãy tạo nó thủ công tại thư mục gốc (root)"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:287
-msgid "Maintenance mode is OFF"
-msgstr "Chế độ bảo trì đang TẮT"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminTools.php:290
-msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
-msgstr "Xảy ra lỗi khi xoá tập tin bảo trì, hãy xoá nó thủ công khỏi thư mục gốc (root)"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
-msgid "There was a problem uploading the watermark image"
-msgstr "Có vấn đề khi tải lên hình ảnh watermark"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
-msgid "The watermark image has to be a .PNG file"
-msgstr "Ảnh watermark phải là tệp .PNG"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
-#, php-format
-msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
-msgstr "Bạn không thể thiết đặt dung lượng tệp cao hơn cấu hình cho phép của PHP là: <b>%d Kb</b>"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
-msgid "Media config has been updated"
-msgstr "Cấu hình media đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
-msgid "Re-generation complete"
-msgstr "Tái tại hoàn chỉnh"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
-#, php-format
-msgid "%s already was in the database"
-msgstr "%s đã có trong cơ sở dữ liệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
-#, php-format
-msgid "%s has been added as a new country"
-msgstr "%s đã được thêm như một quốc gia mới"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
-msgid "Country name cannot be blank"
-msgstr "Tên quốc gia không thể bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
-msgid "Country has been edited"
-msgstr "Quốc gia đã được chỉnh sửa"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
-msgid "There were some problems editing the country"
-msgstr "Có vài vấn đề khi chỉnh sửa quốc gia"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
-msgid "There was a problem deleting locations"
-msgstr "Có vấn đề khi xoá vị trí"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
-msgid "No country was selected"
-msgstr "Chưa chọn quốc gia"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
-msgid "Region name cannot be blank"
-msgstr "Tên địa phương không thể bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
-#, php-format
-msgid "%s has been added as a new region"
-msgstr "%s đã được thêm như một địa phương mới"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
-#, php-format
-msgid "%s has been edited"
-msgstr "%s đã được chỉnh sửa"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
-msgid "No region was selected"
-msgstr "Chưa chọn địa phương"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
-msgid "New city name cannot be blank"
-msgstr "Tên thành phố mới không thể bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
-#, php-format
-msgid "%s has been added as a new city"
-msgstr "%s đã được thêm như là một thành phố mới"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
-msgid "City name cannot be blank"
-msgstr "Tên thành phố không thể bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
-msgid "No city was selected"
-msgstr "Chưa chọn thành phố"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
-msgid "Location imported successfully"
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
-msgid "There was a problem importing the selected location"
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
-msgid "Your Akismet key has been cleared"
-msgstr "Chìa khoá Akismet của bạn đã bị giải toả"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
-msgid "Your Akismet key has been updated"
-msgstr "Chìa khoá Akismet của bạn đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
-msgid "Your reCAPTCHA key has been cleared"
-msgstr "Chìa khoá reCAPTCHA của bạn đã bị giải toả"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
-msgid "Your reCAPTCHA key has been updated"
-msgstr "Chìa khoá reCAPTCHA của bạn đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
-msgid "Advanced settings have been updated"
-msgstr "Cài đặt nâng cao đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
-msgid "Cache flushed correctly"
-msgstr "Xả từ bộ nhớ tạm chính xác"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
-msgid "The currency code is not in the correct format"
-msgstr "Mã tiền tệ không đúng định dạng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
-msgid "Currency added"
-msgstr "Đã thêm đơn vị tiền tệ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
-msgid "Currency couldn't be added"
-msgstr "Không thể thêm đơn vị tiền tệ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
-#, php-format
-msgid "The currency code '%s' doesn't exist"
-msgstr "Đơn vị tiền tệ '%s' không tồn tại"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
-msgid "Error: the currency code is not in the correct format"
-msgstr "Lỗi: Mã tiền tệ không đúng định dạng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
-msgid "Currency updated"
-msgstr "Cập nhật tiền tệ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
-msgid "No changes were made"
-msgstr "Không thực hiện thay đổi nào"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
-#, php-format
-msgid "%s couldn't be deleted because it has listings associated to it"
-msgstr "% s không thể bị xóa bởi vì có rao vặt liên quan"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
-#, php-format
-msgid "%s couldn't be deleted because it's the default currency"
-msgstr "%s không thể bị xoá bởi vì nó là đơn vị tiền tệ mặc định"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
-msgid "No currencies have been deleted"
-msgstr "Không có đơn vị tiền tệ nào bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
-msgid "One currency has been deleted"
-msgstr "Một đơn vị tiền tệ đã bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
-#, php-format
-msgid "%s currencies have been deleted"
-msgstr "%s đơn vị tiền tệ đã bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
-msgid "Custom number could not be left empty"
-msgstr "Số tùy chỉnh không thể để trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
-msgid "Last search settings have been updated"
-msgstr "Thiết lập tìm kiếm cuối cùng đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
-msgid "Last check"
-msgstr "Lần kiểm cuối"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:95
-msgid "Page title field is required"
-msgstr "Yêu cầu nhập tiêu đề trang"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:98
-msgid "Contact email field is required"
-msgstr "Yêu cầu nhập email liên hệ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:101
-msgid "Number of listings in the RSS has to be a numeric value"
-msgstr "Số lượng rao vặt tin RSS phải có giá trị số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:104
-msgid "Max latest listings has to be a numeric value"
-msgstr "Rao vặt mới cập nhật tối đa phải có giá trị số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:107
-msgid "Number of listings on search has to be a numeric value"
-msgstr "Số lượng rao vặt tìm kiếm phải có giá trị số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:133
-msgid "Number of listings in the RSS must be an integer"
-msgstr "Số lượng rao vặt tin RSS phải là số nguyên"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:142
-msgid "Number of recent listings displayed at home must be an integer"
-msgstr "Số lượng rao vặt hiển thị gần nhất trên trang chủ phải là số nguyên"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:156
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
-msgid "General settings have been updated"
-msgstr "Các cài đặt chung đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
-msgid "Number of moderate comments must only contain numeric characters"
-msgstr "Số lượng duyệt nhận xét chỉ được chứa các ký số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
-msgid "Comments per page must only contain numeric characters"
-msgstr "Số lượng bình luận trên mỗi trang chỉ được chứa các ký số"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
-msgid "Comment settings have been updated"
-msgstr "Các thiết lập bình luận đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
-msgid "All fields are required."
-msgstr "Yêu cầu điền đủ các trường dữ liệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
-msgid "Permalinks structure updated"
-msgstr "Cấu trúc permalinks đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
-msgid "Permalinks structure updated."
-msgstr "Cấu trúc permalinks đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
-msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
-msgstr "Tuy nhiên, chúng tôi không thể kiểm tra Apache <b>mod_rewrite</b> đã được tải hay chưa. Nếu bạn gặp một số vấn đề với các URL, bạn nên tắt <em>URLs thân thiện</em>"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
-msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
-msgstr "Có thể tập tin <b>.htaccess</b> không được điền đúng nội dung."
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Đây là nội dung bạn phải thêm vào tập tin <b>.htaccess</b>. Nếu bạn không thể tạo tập tin, vui lòng vô hiệu tuỳ chọn <em>URLs thân thiện</em>"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Đây là nội dung bạn phải thêm vào tập tin <b>.htaccess</b>. Nếu bạn không thể tạo tập tin hoặc không có kinh nghiệm xử lý, vui lòng vô hiệu tuỳ chọn <em>URLs thân thiện</em>."
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
-msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr "Tập tin <b>.htaccess</b> đã có sẵn và không thể hiệu chỉnh."
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Đây là nội dung bạn phải thêm vào tập tin <b>.htaccess</b>. Nếu bạn không thể tạo tập tin hoặc không có kinh nghiệm xử lý, vui lòng vô hiệu tuỳ chọn <em>URLs thân thiện</em>."
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
-msgid "Friendly URLs successfully deactivated"
-msgstr "URLs thân thiện đã bị vô hiệu thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
-msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr "URLs thân thiện đã bị vô hiệu, nhưng không thể xoá tập tin .htaccess. Vui lòng xoá thủ công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
-msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr "URLs thân thiện đã bị vô hiệu, nhưng tập tin .htaccess đã được chỉnh sửa từ bên ngoài Osclass và chưa bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
-msgid "Mail server type is incorrect"
-msgstr "Kiểu máy chủ mail không đúng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
-msgid "Mail server configuration has changed"
-msgstr "Thiết lập máy chủ mail đã được thay đổi"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
-msgid "Email invalid"
-msgstr "Sai email"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
-msgid "Username invalid"
-msgstr "Sai tên truy cập"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
-msgid "Name invalid"
-msgstr "Sai tên"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
-msgid "Password invalid"
-msgstr "Sai mật khẩu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
-msgid "Email already in use"
-msgstr "Địa chỉ email đã được sử dụng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
-msgid "Username already in use"
-msgstr "Tên tài khoản đã được sử dụng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
-msgid "Incorrent current password"
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
-msgid "The admin has been added"
-msgstr "Đã thêm người quản trị"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
-msgid "There has been an error adding a new admin"
-msgstr "Có lỗi khi thêm người quản trị"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
-msgid "There is no admin with this id"
-msgstr "Không có quản trị nào với id này"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
-msgid "This admin doesn't exist"
-msgstr "Người quản trị này không tồn tại"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
-msgid "Existing email"
-msgstr "Email hiện có"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
-msgid "Existing username"
-msgstr "Tài khoản hiện có"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
-msgid "The password couldn't be updated. Passwords don't match"
-msgstr "Mật khẩu không cập nhật được. Mật khẩu không khớp"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
-msgid "The admin has been updated"
-msgstr "Người quản trị đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
-msgid "The admin id isn't in the correct format"
-msgstr "ID người quản trị không chuẩn"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
-msgid "The operation hasn't been completed. You're trying to remove yourself!"
-msgstr "Hành động không thể hoàn thành. Bạn đã cố xoá tài khoản của chính mình!"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
-msgid "The admin has been deleted correctly"
-msgstr "Xoá người quản trị thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
-msgid "The admin couldn't be deleted"
-msgstr "Người quản trị không thể bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
-msgid "The user has been created. We've sent an activation e-mail"
-msgstr "Đã tạo người dùng. Chúng tôi đã gửi một email kích hoạt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
-msgid "The user has been created successfully"
-msgstr "Đã tạo người dùng thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
-msgid "The user has been updated"
-msgstr "Người dùng đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
-msgid "The user has been updated and activated"
-msgstr "Người dùng đã được cập nhật và kích hoạt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:229
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:255
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:281
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:306
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:625
-msgid "User id isn't in the correct format"
-msgstr "ID người dùng không đúng định dạng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:186
-msgid "No users have been selected"
-msgstr "Chưa chọn tên người dùng nào"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
-msgid "No users have been activated"
-msgstr "Chưa kích hoạt thành viên nào"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
-msgid "No users have been deactivated"
-msgstr "Không có thành viên nào bị vô hiệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
-msgid "No users have been enabled"
-msgstr "Không có thành viên nào được kích hoạt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
-msgid "No users have been disabled"
-msgstr "Không thành viên nào bị vô hiệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
-msgid "No users have been deleted"
-msgstr "Không thành viên nào bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
-msgid "Alert id isn't in the correct format"
-msgstr "Cảnh báo id không đúng định dạng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
-msgid "No alerts have been deleted"
-msgstr "Không có cảnh báo nào bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
-msgid "No alerts have been activated"
-msgstr "Không kích hoạt cảnh báo nào"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
-msgid "No alerts have been deactivated"
-msgstr "Không cảnh báo nào bị vô hiệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
-msgid "User settings have been updated"
-msgstr "Thiết lập người dùng đã được cập nhật"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
-msgid "Both rules can not be empty"
-msgstr "Tất cả các điều lệ không thể bị bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
-msgid "Rule updated correctly"
-msgstr "Cập nhật điều lệ thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
-msgid "Rule saved correctly"
-msgstr "Lưu điều lệ thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
-msgid "No rules have been deleted"
-msgstr "Không điều lệ nào bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:39
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:39
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:40
-msgid "Users not enabled"
-msgstr "Thành viên không được kích hoạt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:103
-msgid "Your profile has been updated successfully"
-msgstr "Thông tin cá nhân của bạn đã được cập nhật thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:138
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:88
-msgid "The specified e-mail is already in use"
-msgstr "Email chỉ định đã từng được sử dụng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:170
-msgid "The specified e-mail is not valid"
-msgstr "Địa chỉ email chỉ định không đúng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:188
-msgid "The specified username is already in use"
-msgstr "Tên tài khoản chỉ định đã từng được sử dụng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:190
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:99
-msgid "The specified username is not valid, it contains some invalid words"
-msgstr "Tên tài khoản chỉ định không đúng, nó chưa vài từ sai"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:196
-msgid "The username was updated"
-msgstr "Đã cập nhật tên tài khoản"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:205
-msgid "The specified username could not be empty"
-msgstr "Tên tài khoản chỉ định không được bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:221
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:280
-msgid "Password cannot be blank"
-msgstr "Mật khẩu không thể bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:230
-msgid "Current password doesn't match"
-msgstr "Mật khẩu hiện tại không chính xác"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:235
-msgid "Passwords can't be empty"
-msgstr "Mật khẩu không thể bỏ trống"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:242
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:69
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:307
-msgid "Passwords don't match"
-msgstr "Mật khẩu không trùng khớp"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:257
-msgid "Password has been changed"
-msgstr "Đã thay đổi mật khẩu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:296
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
-msgid "Alert activated"
-msgstr "Thông báo kích hoạt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:298
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
-msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
-msgstr "Rất tiếc! Có một vấn đề khi bạn cố gắng kích hoạt cảnh báo. Xin vui lòng liên hệ với quản trị viên"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:317
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
-msgid "Unsubscribed correctly"
-msgstr "Bỏ theo dõi thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:319
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
-msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
-msgstr "Rất tiếc! Có một vấn đề khi bạn cố gắng để bỏ theo dõi. Xin vui lòng liên hệ với quản trị viên"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:349
-msgid "Your account have been deleted"
-msgstr "Đã xoá tài khoản của bạn"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:352
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUser.php:356
-msgid "Oops! you can not do that"
-msgstr "Ồ! Bạn không thể thực hiện việc này"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:72
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:140
-msgid "Only registered users are allowed to post listings"
-msgstr "Chỉ có thành viên mới được quyền gửi rao vặt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:147
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:272
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:476
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:535
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebContact.php:57
-msgid "The Recaptcha code is wrong"
-msgstr "Mã reCAPTCHA không đúng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:160
-msgid "A user with that email address already exists, if it is you, please log in"
-msgstr "Đã có thành viên sử dụng địa chỉ email này, nếu là bạn thì hãy đăng nhập"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:167
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:550
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:111
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:72
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebContact.php:69
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebContact.php:81
-msgid "Your current email is not allowed"
-msgstr "Email hiện tại của bạn không được phép truy cập"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:170
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:553
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:114
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:75
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebContact.php:72
-msgid "Your current IP is not allowed"
-msgstr "Địa chỉ IP của bạn không được phép truy cập"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:188
-msgid "Check your inbox to validate your listing"
-msgstr "Kiểm tra hộp thư của bạn để xác nhận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:190
-msgid "Your listing will be published after an admin approves it."
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:192
-msgid "Your listing has been published"
-msgstr "Rao vặt của bạn đã được đăng tải"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:228
-msgid "Sorry, we don't have any listings with that ID"
-msgstr "Rất tiếc, chúng tôi không có rao vặt nào của ID này"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:288
-msgid "Your listing will be published after an admin approves the changes."
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:290
-msgid "Great! We've just updated your listing"
-msgstr "Tuyệt! Chúng tôi vừa cập nhật rao vặt của bạn"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:328
-msgid "The listing has been validated"
-msgstr "Rao vặt đã được xác nhận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:330
-msgid "The listing can't be validated"
-msgstr "Rao vặt không thể xác nhận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:333
-msgid "The listing has already been validated"
-msgstr "Rao vặt đã xác nhận rồi"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:352
-msgid "Your listing has been deleted"
-msgstr "Rao vặt của bạn đã bị xoá"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:354
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:362
-msgid "The listing you are trying to delete couldn't be deleted"
-msgstr "Rao vặt mà bạn đang cố gắng xoá thì không thể xoá được"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:383
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebAjax.php:128
-msgid "The selected photo couldn't be deleted, the url doesn't exist"
-msgstr "Không thể xoá hình ảnh đã chọn, liên kết không tồn tại"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:389
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebAjax.php:140
-msgid "The listing doesn't exist"
-msgstr "Rao vặt không tồn tại"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:395
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:402
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebAjax.php:150
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebAjax.php:161
-msgid "The listing doesn't belong to you"
-msgstr "Rao vặt này không thuộc về bạn"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:427
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebAjax.php:107
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebAjax.php:203
-msgid "The selected photo has been successfully deleted"
-msgstr "Đã xoá thành công hình ảnh được chọn"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:429
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebAjax.php:206
-msgid "The selected photo does not belong to you"
-msgstr "Hình ảnh được chọn không thuộc về bạn"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:432
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebAjax.php:210
-msgid "The selected photo couldn't be deleted"
-msgstr "Không thể xoá hình ảnh đã chọn"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:454
-msgid "Thanks! That's very helpful"
-msgstr "Cảm ơn! Điều này thật hữu ích"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:499
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:641
-msgid "This listing doesn't exist"
-msgstr "Rao vặt này không tồn tại"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:506
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:559
-msgid "We're sorry, but the listing has expired. You can't contact the seller"
-msgstr "Xin thứ lỗi, nhưng rao vặt đã hết hạn. Bạn không thể liên lạc với người bán"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:516
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:528
-msgid "You can't contact the seller, only registered users can"
-msgstr "Bạn không thể liên hệ người bán, chỉ thành viên mới có thể"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:518
-#, php-format
-msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:573
-msgid "We've just sent an e-mail to the seller"
-msgstr "Chúng tôi vừa gửi email cho người bán"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:591
-msgid "Sorry, we could not save your comment. Try again later"
-msgstr "Rất tiếc, chúng tôi không thể lưu thảo luận của bạn. Hãy thử lại sau"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:595
-msgid "Your comment is awaiting moderation"
-msgstr "Thảo luận của bạn phải chờ duyệt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:599
-msgid "Your comment has been approved"
-msgstr "Thảo luận của bạn đã được chấp nhận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:603
-msgid "Please fill the required field (email)"
-msgstr "Hãy điền đầy đủ mục được yêu cầu (email)"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:607
-msgid "Please type a comment"
-msgstr "Hãy gõ một bình luận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:611
-msgid "Your comment has been marked as spam"
-msgstr "Thảo luận của bạn đã bị đánh dấu tin rác"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:615
-msgid "You need to be logged to comment"
-msgstr "Bạn cần đăng nhập để gửi thảo luận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:619
-msgid "Sorry, comments are disabled"
-msgstr "Rất tiếc, thảo luận đã bị vô hiệu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:648
-msgid "You must be logged in to delete a comment"
-msgstr "Bạn phải đăng nhập để xoá bình luận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:656
-msgid "The comment doesn't exist"
-msgstr "Bình luận không tồn tại"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:661
-msgid "The comment is not active, you cannot delete it"
-msgstr "Bình luận chưa được kích hoạt, bạn không thể xoá nó"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:666
-msgid "The comment was not added by you, you cannot delete it"
-msgstr "Bạn không thể xoá bình luận không phải của mình"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:702
-msgid "The listing hasn't been validated. Please validate it in order to make it public"
-msgstr "Rao vặt chưa được xác nhận. Hãy xác nhận để nó được đăng tải"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:712
-msgid "The listing hasn't been enabled. Please enable it in order to make it public"
-msgstr "Rao vặt chưa được kích hoạt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebItem.php:718
-msgid "The listing has been blocked or is awaiting moderation from the admin"
-msgstr "Tin đăng đã bị giữ lại và chờ xác thực từ người quản trị"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:70
-msgid "Thank you very much for your donation"
-msgstr "Chân thành cảm ơn bạn đã đóng góp"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:51
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:64
-msgid "Users are not enabled"
-msgstr "Thành viên không được kích hoạt"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:62
-msgid "Please provide an email address"
-msgstr "Bạn hãy cung cấp 1 địa chỉ email"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:66
-msgid "Empty passwords are not allowed. Please provide a password"
-msgstr "Không cho phép dùng mật khẩu rỗng. Bạn hãy nhập mật khẩu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:80
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:157
-msgid "The user doesn't exist"
-msgstr "Thành viên không tồn tại"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:104
-msgid "The password is incorrect"
-msgstr "Mật khẩu không chính xác"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:161
-#, php-format
-msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
-msgstr "Người dùng chưa được xác thực. Bạn có muốn gửi lại <a href=\"%s\">xác thực tài khoản của bạn?</a>"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:165
-msgid "The user has not been validated yet"
-msgstr "Thành viên chưa xác nhận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:168
-msgid "The user has been suspended"
-msgstr "Thành viên đã bị đình chỉ"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:197
-msgid "This should never happen"
-msgstr "Việc này không nên xảy ra"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:213
-msgid "Incorrect link"
-msgstr "Đường dẫn không đúng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:227
-msgid "Validation email re-sent"
-msgstr "Email xác thực đã được gửi lại"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:229
-msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
-msgstr "Chúng tôi vừa gửi cho bạn một email để xác nhận tài khoản của bạn, bạn sẽ phải chờ một vài phút để gửi lại một lần nữa"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:243
-msgid "Invalid email address"
-msgstr "Địa chỉ email không chính xác"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:252
-msgid "We have sent you an email with the instructions to reset your password"
-msgstr "Chúng tôi đã gửi cho bạn một email với các hướng dẫn để bạn khôi phục mật khẩu"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:256
-msgid "We were not able to identify you given the information provided"
-msgstr "Chúng tôi không thể xác định bạn với các thông tin vừa cung cấp"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:260
-msgid "The recaptcha code is wrong"
-msgstr "Mã reCAPTCHA không đúng"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebLogin.php:312
-msgid "Error, the password don't match"
-msgstr "Lỗi, mật khẩu không trùng khớp"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
-msgid "Your email has been changed successfully"
-msgstr "Thay đổi thành công địa chỉ email của bạn"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
-msgid "Your email has been sent properly."
-msgstr "Email của bạn đã được gửi đi."
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:45
-msgid "User registration is not enabled"
-msgstr "Không kích hoạt chức năng đăng ký thành viên"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:82
-msgid "The user has been created. An activation email has been sent"
-msgstr "Tài khoản vừa được tạo. Một thư xác nhận đã được gửi đi"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:85
-msgid "Your account has been created successfully"
-msgstr "Tài khoản của bạn đã được tạo thành công"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:103
-msgid "The link is not valid anymore. Sorry for the inconvenience!"
-msgstr "Liên kết không hợp lệ nữa. Xin lỗi vì sự bất tiện này!"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:108
-msgid "Your account has already been validated"
-msgstr "Tài khoản của bạn đã được xác nhận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:129
-msgid "Your account has been validated"
-msgstr "Tài khoản của bạn đã được xác nhận"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebRegister.php:131
-msgid "Account validation failed"
-msgstr "Xác nhận tài khoản bị lỗi"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebContact.php:86
-msgid "Please enter a correct email"
-msgstr "Vui lòng nhập địa chỉ email chính xác"
-
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebContact.php:168
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:403
+#: oc-includes/osclass/emails.php:861
+msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
+msgstr "Chúng tôi đã gửi cho bạn một email. Hãy làm theo hướng dẫn trong đó để xác nhận việc thay đổi"
+
+#: oc-includes/osclass/emails.php:864
+msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
+msgstr "Chúng tôi đã cố gắng gửi cho bạn một email nhưng không được. Vui lòng liên hệ quản trị viên"
+
+#: oc-includes/osclass/emails.php:1122
+msgid "There has been some errors sending the message"
+msgstr "Xảy ra lỗi khi gửi tin nhắn"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:124
+msgid "Name too long."
+msgstr "Tên quá dài."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:125
+msgid "Email invalid."
+msgstr "Sai email."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:131
+msgid "Too fast. You should wait a little to publish your ad."
+msgstr "Quá nhanh. Bạn nên chờ một lát trước khi đăng quảng cáo."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:328
+#: oc-includes/osclass/classes/controller/CWebContact.php:168
 msgid "The file you tried to upload does not have a valid extension"
 msgstr "Tập tin mà bạn tải lên có đuôi mở rộng không đúng"
 
-#: tmp/osclass/oc-includes/osclass/classes/controller/CWebContact.php:182
-msgid "Your email has been sent properly. Thank you for contacting us!"
-msgstr "Email của bạn được gửi thành công. Cảm ơn bạn đã liên hệ với chúng tôi!"
+#: oc-includes/osclass/classes/actions/ItemActions.php:356
+msgid "One of the files you tried to upload exceeds the maximum size"
+msgstr "Một trong số những tập tin mà bạn tải lên có dung lượng vượt mức tối đa"
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:118
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:664
+#: oc-includes/osclass/classes/actions/ItemActions.php:418
 msgid "Image with an incorrect extension."
 msgstr "Hình ảnh bị sao phần đuôi mở rộng"
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:121
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:667
+#: oc-includes/osclass/classes/actions/ItemActions.php:421
 msgid "Image is too big. Max. size"
 msgstr "Hình ảnh quá lớn. Kích thước tối đa"
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:131
+#: oc-includes/osclass/classes/actions/ItemActions.php:431
 #, php-format
 msgid "Title too short (%s)."
 msgstr "Tiêu đề quá ngắn (%s)."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:133
+#: oc-includes/osclass/classes/actions/ItemActions.php:433
 #, php-format
 msgid "Title too long (%s)."
 msgstr "Tiêu đề quá dài (%s)."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:144
+#: oc-includes/osclass/classes/actions/ItemActions.php:443
 #, php-format
 msgid "Description too short (%s)."
 msgstr "Mô tả quá ngắn (%s)."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:147
+#: oc-includes/osclass/classes/actions/ItemActions.php:446
 #, php-format
 msgid "Description too long (%s)."
 msgstr "Mô tả quá dài (%s)."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:156
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:696
+#: oc-includes/osclass/classes/actions/ItemActions.php:450
 msgid "Category invalid."
 msgstr "Sai chuyên mục."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:157
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:697
+#: oc-includes/osclass/classes/actions/ItemActions.php:451
 msgid "Price must be a number."
 msgstr "Giá phải là số."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:159
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:699
+#: oc-includes/osclass/classes/actions/ItemActions.php:453
 msgid "Price too long."
 msgstr "Giá quá dài."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:162
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:702
+#: oc-includes/osclass/classes/actions/ItemActions.php:456
 msgid "Price must be positive number."
 msgstr "Giá phải là số dương."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:163
-msgid "Name too long."
-msgstr "Tên quá dài."
-
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:164
-msgid "Email invalid."
-msgstr "Sai email."
-
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:165
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:727
-msgid "Phone invalid."
-msgstr ""
-
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:167
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:704
+#: oc-includes/osclass/classes/actions/ItemActions.php:458
 msgid "Country too short."
 msgstr "Quốc gia quá ngắn."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:169
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:707
+#: oc-includes/osclass/classes/actions/ItemActions.php:460
 msgid "Country too long."
 msgstr "Quốc gia quá dài."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:171
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:709
+#: oc-includes/osclass/classes/actions/ItemActions.php:462
 msgid "Region too short."
 msgstr "Địa phương quá ngắn."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:173
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:712
+#: oc-includes/osclass/classes/actions/ItemActions.php:464
 msgid "Region too long."
 msgstr "Địa phương quá dài."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:175
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:714
+#: oc-includes/osclass/classes/actions/ItemActions.php:466
 msgid "City too short."
 msgstr "Thành phố quá ngắn."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:176
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:716
+#: oc-includes/osclass/classes/actions/ItemActions.php:467
 msgid "City too long."
 msgstr "Thành phố quá dài."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:178
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:718
+#: oc-includes/osclass/classes/actions/ItemActions.php:469
 msgid "Municipality too short."
 msgstr "Đô thị quá ngắn."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:180
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:721
+#: oc-includes/osclass/classes/actions/ItemActions.php:471
 msgid "Municipality too long."
 msgstr "Đô thị quá dài."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:182
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:723
+#: oc-includes/osclass/classes/actions/ItemActions.php:473
 msgid "Address too short."
 msgstr "Địa chỉ quá ngắn."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:184
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:726
+#: oc-includes/osclass/classes/actions/ItemActions.php:475
 msgid "Address too long."
 msgstr "Địa chỉ quá dài."
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:187
-msgid "Too fast. You should wait a little to publish your ad."
-msgstr "Quá nhanh. Bạn nên chờ một lát trước khi đăng quảng cáo."
+#: oc-includes/osclass/classes/actions/ItemActions.php:477
+msgid "Phone invalid."
+msgstr ""
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:205
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:740
+#: oc-includes/osclass/classes/actions/ItemActions.php:567
+#: oc-includes/osclass/classes/actions/ItemActions.php:580
+#: oc-includes/osclass/classes/actions/ItemActions.php:591
+#: oc-includes/osclass/classes/actions/ItemActions.php:601
+#: oc-includes/osclass/classes/actions/ItemActions.php:603
 #, php-format
-msgid "%s field is required."
-msgstr "Yêu cầu nhập %s."
+msgid "%s is invalid."
+msgstr ""
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:431
-msgid "One of the files you tried to upload exceeds the maximum size"
-msgstr "Một trong số những tập tin mà bạn tải lên có dung lượng vượt mức tối đa"
+#: oc-includes/osclass/classes/actions/ItemActions.php:570
+#: oc-includes/osclass/classes/actions/ItemActions.php:573
+#: oc-includes/osclass/classes/actions/ItemActions.php:583
+#: oc-includes/osclass/classes/actions/ItemActions.php:594
+#: oc-includes/osclass/classes/actions/ItemActions.php:606
+#: oc-includes/osclass/classes/actions/ItemActions.php:613
+#, php-format
+msgid "%s is required."
+msgstr ""
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:677
-msgid "Title too short."
-msgstr "Tiêu đề quá ngắn."
-
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:678
-msgid "Title too long."
-msgstr "Tiêu đề quá dài."
-
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:690
-msgid "Description too short."
-msgstr "Mô tả quá ngắn."
-
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:692
-msgid "Description too long."
-msgstr "Mô tả quá dài."
-
-#: tmp/osclass/oc-includes/osclass/classes/actions/ItemActions.php:1275
+#: oc-includes/osclass/classes/actions/ItemActions.php:1374
 #, php-format
 msgid "We just sent your message to %s"
 msgstr "Chúng tôi vừa gửi cho bạn một tin nhắn tới %s"
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:59
+#: oc-includes/osclass/classes/actions/UserActions.php:65
 msgid "The reCAPTCHA was not entered correctly"
 msgstr "Mã reCAPTCHA đã nhập không chính xác"
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:64
+#: oc-includes/osclass/classes/actions/UserActions.php:70
 msgid "The password cannot be empty"
 msgstr "Mật khẩu không thể bỏ trống"
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:76
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:300
+#: oc-includes/osclass/classes/actions/UserActions.php:75
+#: oc-includes/osclass/classes/actions/UserActions.php:309
+#: oc-includes/osclass/classes/controller/CWebUser.php:242
+msgid "Passwords don't match"
+msgstr "Mật khẩu không trùng khớp"
+
+#: oc-includes/osclass/classes/actions/UserActions.php:86
+#: oc-includes/osclass/classes/actions/UserActions.php:302
 msgid "The name cannot be empty"
 msgstr "Tên không được bỏ trống"
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:81
+#: oc-includes/osclass/classes/actions/UserActions.php:91
 msgid "The email is not valid"
 msgstr "Email không đúng"
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:95
+#: oc-includes/osclass/classes/actions/UserActions.php:98
+#: oc-includes/osclass/classes/controller/CWebUser.php:138
+msgid "The specified e-mail is already in use"
+msgstr "Email chỉ định đã từng được sử dụng"
+
+#: oc-includes/osclass/classes/actions/UserActions.php:105
 msgid "Username is already taken"
 msgstr "Tên tài khoản đã bị lấy mất"
 
-#: tmp/osclass/oc-includes/osclass/classes/actions/UserActions.php:293
+#: oc-includes/osclass/classes/actions/UserActions.php:109
+#: oc-includes/osclass/classes/controller/CWebUser.php:190
+msgid "The specified username is not valid, it contains some invalid words"
+msgstr "Tên tài khoản chỉ định không đúng, nó chưa vài từ sai"
+
+#: oc-includes/osclass/classes/actions/UserActions.php:291
 #, php-format
 msgid "The specified e-mail is already used by %s"
 msgstr ""
 
-#: tmp/osclass/oc-includes/osclass/classes/Csrf.php:170
+#: oc-includes/osclass/classes/Csrf.php:181
 msgid "Probable invalid request."
 msgstr "Có thể đã xảy ra yêu cầu không hợp lệ."
 
-#: tmp/osclass/oc-includes/osclass/classes/Csrf.php:173
+#: oc-includes/osclass/classes/Csrf.php:184
 msgid "Invalid CSRF token."
 msgstr "CSRF token không hợp lệ."
 
-#: tmp/osclass/oc-includes/osclass/emails.php:861
-msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
-msgstr "Chúng tôi đã gửi cho bạn một email. Hãy làm theo hướng dẫn trong đó để xác nhận việc thay đổi"
+#: oc-includes/osclass/classes/controller/CWebRegister.php:40
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
+#: oc-includes/osclass/classes/controller/CWebLogin.php:39
+#: oc-includes/osclass/classes/controller/CWebUser.php:39
+msgid "Users not enabled"
+msgstr "Thành viên không được kích hoạt"
 
-#: tmp/osclass/oc-includes/osclass/emails.php:864
-msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
-msgstr "Chúng tôi đã cố gắng gửi cho bạn một email nhưng không được. Vui lòng liên hệ quản trị viên"
+#: oc-includes/osclass/classes/controller/CWebRegister.php:45
+msgid "User registration is not enabled"
+msgstr "Không kích hoạt chức năng đăng ký thành viên"
 
-#: tmp/osclass/oc-includes/osclass/emails.php:1122
-msgid "There has been some errors sending the message"
-msgstr "Xảy ra lỗi khi gửi tin nhắn"
+#: oc-includes/osclass/classes/controller/CWebRegister.php:64
+#: oc-includes/osclass/classes/controller/CWebLogin.php:51
+msgid "Users are not enabled"
+msgstr "Thành viên không được kích hoạt"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:72
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
+#: oc-includes/osclass/classes/controller/CWebItem.php:167
+#: oc-includes/osclass/classes/controller/CWebItem.php:550
+#: oc-includes/osclass/classes/controller/CWebContact.php:69
+#: oc-includes/osclass/classes/controller/CWebContact.php:81
+#: oc-includes/osclass/classes/controller/CWebLogin.php:111
+msgid "Your current email is not allowed"
+msgstr "Email hiện tại của bạn không được phép truy cập"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:75
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
+#: oc-includes/osclass/classes/controller/CWebItem.php:170
+#: oc-includes/osclass/classes/controller/CWebItem.php:553
+#: oc-includes/osclass/classes/controller/CWebContact.php:72
+#: oc-includes/osclass/classes/controller/CWebLogin.php:114
+msgid "Your current IP is not allowed"
+msgstr "Địa chỉ IP của bạn không được phép truy cập"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:82
+msgid "The user has been created. An activation email has been sent"
+msgstr "Tài khoản vừa được tạo. Một thư xác nhận đã được gửi đi"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:85
+msgid "Your account has been created successfully"
+msgstr "Tài khoản của bạn đã được tạo thành công"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:103
+msgid "The link is not valid anymore. Sorry for the inconvenience!"
+msgstr "Liên kết không hợp lệ nữa. Xin lỗi vì sự bất tiện này!"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:108
+msgid "Your account has already been validated"
+msgstr "Tài khoản của bạn đã được xác nhận"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:129
+msgid "Your account has been validated"
+msgstr "Tài khoản của bạn đã được xác nhận"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:131
+msgid "Account validation failed"
+msgstr "Xác nhận tài khoản bị lỗi"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
+msgid "Your email has been changed successfully"
+msgstr "Thay đổi thành công địa chỉ email của bạn"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
+#: oc-includes/osclass/classes/controller/CWebLogin.php:271
+#: oc-includes/osclass/classes/controller/CWebLogin.php:319
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
+msgid "Sorry, the link is not valid"
+msgstr "Rất tiếc, sai liên kết"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
+#: oc-includes/osclass/classes/controller/CWebUser.php:296
+msgid "Alert activated"
+msgstr "Thông báo kích hoạt"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
+#: oc-includes/osclass/classes/controller/CWebUser.php:298
+msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
+msgstr "Rất tiếc! Có một vấn đề khi bạn cố gắng kích hoạt cảnh báo. Xin vui lòng liên hệ với quản trị viên"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
+#: oc-includes/osclass/classes/controller/CWebUser.php:317
+msgid "Unsubscribed correctly"
+msgstr "Bỏ theo dõi thành công"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
+#: oc-includes/osclass/classes/controller/CWebUser.php:319
+msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
+msgstr "Rất tiếc! Có một vấn đề khi bạn cố gắng để bỏ theo dõi. Xin vui lòng liên hệ với quản trị viên"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
+#: oc-includes/osclass/classes/controller/CWebItem.php:147
+#: oc-includes/osclass/classes/controller/CWebItem.php:272
+#: oc-includes/osclass/classes/controller/CWebItem.php:476
+#: oc-includes/osclass/classes/controller/CWebItem.php:535
+#: oc-includes/osclass/classes/controller/CWebContact.php:57
+msgid "The Recaptcha code is wrong"
+msgstr "Mã reCAPTCHA không đúng"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
+msgid "Your email has been sent properly."
+msgstr "Email của bạn đã được gửi đi."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:72
+#: oc-includes/osclass/classes/controller/CWebItem.php:140
+msgid "Only registered users are allowed to post listings"
+msgstr "Chỉ có thành viên mới được quyền gửi rao vặt"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:160
+msgid "A user with that email address already exists, if it is you, please log in"
+msgstr "Đã có thành viên sử dụng địa chỉ email này, nếu là bạn thì hãy đăng nhập"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:188
+msgid "Check your inbox to validate your listing"
+msgstr "Kiểm tra hộp thư của bạn để xác nhận"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:190
+msgid "Your listing will be published after an admin approves it."
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:192
+msgid "Your listing has been published"
+msgstr "Rao vặt của bạn đã được đăng tải"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:228
+msgid "Sorry, we don't have any listings with that ID"
+msgstr "Rất tiếc, chúng tôi không có rao vặt nào của ID này"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:288
+msgid "Your listing will be published after an admin approves the changes."
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:290
+msgid "Great! We've just updated your listing"
+msgstr "Tuyệt! Chúng tôi vừa cập nhật rao vặt của bạn"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:328
+msgid "The listing has been validated"
+msgstr "Rao vặt đã được xác nhận"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:330
+msgid "The listing can't be validated"
+msgstr "Rao vặt không thể xác nhận"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:333
+msgid "The listing has already been validated"
+msgstr "Rao vặt đã xác nhận rồi"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:352
+msgid "Your listing has been deleted"
+msgstr "Rao vặt của bạn đã bị xoá"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:354
+#: oc-includes/osclass/classes/controller/CWebItem.php:362
+msgid "The listing you are trying to delete couldn't be deleted"
+msgstr "Rao vặt mà bạn đang cố gắng xoá thì không thể xoá được"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:383
+#: oc-includes/osclass/classes/controller/CWebAjax.php:128
+msgid "The selected photo couldn't be deleted, the url doesn't exist"
+msgstr "Không thể xoá hình ảnh đã chọn, liên kết không tồn tại"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:389
+#: oc-includes/osclass/classes/controller/CWebAjax.php:140
+msgid "The listing doesn't exist"
+msgstr "Rao vặt không tồn tại"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:395
+#: oc-includes/osclass/classes/controller/CWebItem.php:402
+#: oc-includes/osclass/classes/controller/CWebAjax.php:150
+#: oc-includes/osclass/classes/controller/CWebAjax.php:161
+msgid "The listing doesn't belong to you"
+msgstr "Rao vặt này không thuộc về bạn"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:427
+#: oc-includes/osclass/classes/controller/CWebAjax.php:107
+#: oc-includes/osclass/classes/controller/CWebAjax.php:203
+msgid "The selected photo has been successfully deleted"
+msgstr "Đã xoá thành công hình ảnh được chọn"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:429
+#: oc-includes/osclass/classes/controller/CWebAjax.php:206
+msgid "The selected photo does not belong to you"
+msgstr "Hình ảnh được chọn không thuộc về bạn"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:432
+#: oc-includes/osclass/classes/controller/CWebAjax.php:210
+msgid "The selected photo couldn't be deleted"
+msgstr "Không thể xoá hình ảnh đã chọn"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:454
+msgid "Thanks! That's very helpful"
+msgstr "Cảm ơn! Điều này thật hữu ích"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:499
+#: oc-includes/osclass/classes/controller/CWebItem.php:641
+msgid "This listing doesn't exist"
+msgstr "Rao vặt này không tồn tại"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:506
+#: oc-includes/osclass/classes/controller/CWebItem.php:559
+msgid "We're sorry, but the listing has expired. You can't contact the seller"
+msgstr "Xin thứ lỗi, nhưng rao vặt đã hết hạn. Bạn không thể liên lạc với người bán"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:516
+#: oc-includes/osclass/classes/controller/CWebItem.php:528
+msgid "You can't contact the seller, only registered users can"
+msgstr "Bạn không thể liên hệ người bán, chỉ thành viên mới có thể"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:518
+#, php-format
+msgid "<a href=\"%s\">Click here to sign-in</a>"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:573
+msgid "We've just sent an e-mail to the seller"
+msgstr "Chúng tôi vừa gửi email cho người bán"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:591
+msgid "Sorry, we could not save your comment. Try again later"
+msgstr "Rất tiếc, chúng tôi không thể lưu thảo luận của bạn. Hãy thử lại sau"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:595
+msgid "Your comment is awaiting moderation"
+msgstr "Thảo luận của bạn phải chờ duyệt"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:599
+msgid "Your comment has been approved"
+msgstr "Thảo luận của bạn đã được chấp nhận"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:603
+msgid "Please fill the required field (email)"
+msgstr "Hãy điền đầy đủ mục được yêu cầu (email)"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:607
+msgid "Please type a comment"
+msgstr "Hãy gõ một bình luận"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:611
+msgid "Your comment has been marked as spam"
+msgstr "Thảo luận của bạn đã bị đánh dấu tin rác"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:615
+msgid "You need to be logged to comment"
+msgstr "Bạn cần đăng nhập để gửi thảo luận"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:619
+msgid "Sorry, comments are disabled"
+msgstr "Rất tiếc, thảo luận đã bị vô hiệu"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:648
+msgid "You must be logged in to delete a comment"
+msgstr "Bạn phải đăng nhập để xoá bình luận"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:656
+msgid "The comment doesn't exist"
+msgstr "Bình luận không tồn tại"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:661
+msgid "The comment is not active, you cannot delete it"
+msgstr "Bình luận chưa được kích hoạt, bạn không thể xoá nó"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:666
+msgid "The comment was not added by you, you cannot delete it"
+msgstr "Bạn không thể xoá bình luận không phải của mình"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:671
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:229
+msgid "The comment has been deleted"
+msgstr "Bình luận đã bị xoá"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:702
+msgid "The listing hasn't been validated. Please validate it in order to make it public"
+msgstr "Rao vặt chưa được xác nhận. Hãy xác nhận để nó được đăng tải"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:712
+msgid "The listing hasn't been enabled. Please enable it in order to make it public"
+msgstr "Rao vặt chưa được kích hoạt"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:718
+msgid "The listing has been blocked or is awaiting moderation from the admin"
+msgstr "Tin đăng đã bị giữ lại và chờ xác thực từ người quản trị"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:86
+msgid "Please enter a correct email"
+msgstr "Vui lòng nhập địa chỉ email chính xác"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:182
+msgid "Your email has been sent properly. Thank you for contacting us!"
+msgstr "Email của bạn được gửi thành công. Cảm ơn bạn đã liên hệ với chúng tôi!"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:62
+msgid "Please provide an email address"
+msgstr "Bạn hãy cung cấp 1 địa chỉ email"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:66
+msgid "Empty passwords are not allowed. Please provide a password"
+msgstr "Không cho phép dùng mật khẩu rỗng. Bạn hãy nhập mật khẩu"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:80
+#: oc-includes/osclass/classes/controller/CWebLogin.php:157
+msgid "The user doesn't exist"
+msgstr "Thành viên không tồn tại"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:104
+msgid "The password is incorrect"
+msgstr "Mật khẩu không chính xác"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:161
+#, php-format
+msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
+msgstr "Người dùng chưa được xác thực. Bạn có muốn gửi lại <a href=\"%s\">xác thực tài khoản của bạn?</a>"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:165
+msgid "The user has not been validated yet"
+msgstr "Thành viên chưa xác nhận"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:168
+msgid "The user has been suspended"
+msgstr "Thành viên đã bị đình chỉ"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:197
+msgid "This should never happen"
+msgstr "Việc này không nên xảy ra"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:213
+msgid "Incorrect link"
+msgstr "Đường dẫn không đúng"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:227
+msgid "Validation email re-sent"
+msgstr "Email xác thực đã được gửi lại"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:229
+msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
+msgstr "Chúng tôi vừa gửi cho bạn một email để xác nhận tài khoản của bạn, bạn sẽ phải chờ một vài phút để gửi lại một lần nữa"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:243
+msgid "Invalid email address"
+msgstr "Địa chỉ email không chính xác"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:252
+msgid "We have sent you an email with the instructions to reset your password"
+msgstr "Chúng tôi đã gửi cho bạn một email với các hướng dẫn để bạn khôi phục mật khẩu"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:256
+msgid "We were not able to identify you given the information provided"
+msgstr "Chúng tôi không thể xác định bạn với các thông tin vừa cung cấp"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:260
+msgid "The recaptcha code is wrong"
+msgstr "Mã reCAPTCHA không đúng"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:280
+#: oc-includes/osclass/classes/controller/CWebUser.php:221
+msgid "Password cannot be blank"
+msgstr "Mật khẩu không thể bỏ trống"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:309
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
+msgid "The password has been changed"
+msgstr "Đã thay đổi mật khẩu"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:312
+msgid "Error, the password don't match"
+msgstr "Lỗi, mật khẩu không trùng khớp"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:103
+msgid "Your profile has been updated successfully"
+msgstr "Thông tin cá nhân của bạn đã được cập nhật thành công"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:170
+msgid "The specified e-mail is not valid"
+msgstr "Địa chỉ email chỉ định không đúng"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:188
+msgid "The specified username is already in use"
+msgstr "Tên tài khoản chỉ định đã từng được sử dụng"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:196
+msgid "The username was updated"
+msgstr "Đã cập nhật tên tài khoản"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:205
+msgid "The specified username could not be empty"
+msgstr "Tên tài khoản chỉ định không được bỏ trống"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:230
+msgid "Current password doesn't match"
+msgstr "Mật khẩu hiện tại không chính xác"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:235
+msgid "Passwords can't be empty"
+msgstr "Mật khẩu không thể bỏ trống"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:257
+msgid "Password has been changed"
+msgstr "Đã thay đổi mật khẩu"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:349
+msgid "Your account have been deleted"
+msgstr "Đã xoá tài khoản của bạn"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:352
+#: oc-includes/osclass/classes/controller/CWebUser.php:356
+msgid "Oops! you can not do that"
+msgstr "Ồ! Bạn không thể thực hiện việc này"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:110
+msgid "This action can't be done because it's a demo site"
+msgstr "Hành động này không thể hoàn thành vì đây là website mẫu"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
+msgid "Advanced settings have been updated"
+msgstr "Cài đặt nâng cao đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
+msgid "Cache flushed correctly"
+msgstr "Xả từ bộ nhớ tạm chính xác"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
+msgid "The currency code is not in the correct format"
+msgstr "Mã tiền tệ không đúng định dạng"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
+msgid "Currency added"
+msgstr "Đã thêm đơn vị tiền tệ"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
+msgid "Currency couldn't be added"
+msgstr "Không thể thêm đơn vị tiền tệ"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
+#, php-format
+msgid "The currency code '%s' doesn't exist"
+msgstr "Đơn vị tiền tệ '%s' không tồn tại"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
+msgid "Error: the currency code is not in the correct format"
+msgstr "Lỗi: Mã tiền tệ không đúng định dạng"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
+msgid "Currency updated"
+msgstr "Cập nhật tiền tệ"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
+msgid "No changes were made"
+msgstr "Không thực hiện thay đổi nào"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
+#, php-format
+msgid "%s couldn't be deleted because it has listings associated to it"
+msgstr "% s không thể bị xóa bởi vì có rao vặt liên quan"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
+#, php-format
+msgid "%s couldn't be deleted because it's the default currency"
+msgstr "%s không thể bị xoá bởi vì nó là đơn vị tiền tệ mặc định"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
+msgid "No currencies have been deleted"
+msgstr "Không có đơn vị tiền tệ nào bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
+msgid "One currency has been deleted"
+msgstr "Một đơn vị tiền tệ đã bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
+#, php-format
+msgid "%s currencies have been deleted"
+msgstr "%s đơn vị tiền tệ đã bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
+#, php-format
+msgid "%s already was in the database"
+msgstr "%s đã có trong cơ sở dữ liệu"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#, php-format
+msgid "%s has been added as a new country"
+msgstr "%s đã được thêm như một quốc gia mới"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
+msgid "Country name cannot be blank"
+msgstr "Tên quốc gia không thể bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
+msgid "Country has been edited"
+msgstr "Quốc gia đã được chỉnh sửa"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
+msgid "There were some problems editing the country"
+msgstr "Có vài vấn đề khi chỉnh sửa quốc gia"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
+msgid "There was a problem deleting locations"
+msgstr "Có vấn đề khi xoá vị trí"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
+msgid "No country was selected"
+msgstr "Chưa chọn quốc gia"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
+msgid "Region name cannot be blank"
+msgstr "Tên địa phương không thể bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#, php-format
+msgid "%s has been added as a new region"
+msgstr "%s đã được thêm như một địa phương mới"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#, php-format
+msgid "%s has been edited"
+msgstr "%s đã được chỉnh sửa"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
+msgid "No region was selected"
+msgstr "Chưa chọn địa phương"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
+msgid "New city name cannot be blank"
+msgstr "Tên thành phố mới không thể bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#, php-format
+msgid "%s has been added as a new city"
+msgstr "%s đã được thêm như là một thành phố mới"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
+msgid "City name cannot be blank"
+msgstr "Tên thành phố không thể bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
+msgid "No city was selected"
+msgstr "Chưa chọn thành phố"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
+msgid "Location imported successfully"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
+msgid "There was a problem importing the selected location"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
+msgid "All fields are required."
+msgstr "Yêu cầu điền đủ các trường dữ liệu"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
+msgid "Permalinks structure updated"
+msgstr "Cấu trúc permalinks đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
+msgid "Permalinks structure updated."
+msgstr "Cấu trúc permalinks đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
+msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
+msgstr "Tuy nhiên, chúng tôi không thể kiểm tra Apache <b>mod_rewrite</b> đã được tải hay chưa. Nếu bạn gặp một số vấn đề với các URL, bạn nên tắt <em>URLs thân thiện</em>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
+msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
+msgstr "Có thể tập tin <b>.htaccess</b> không được điền đúng nội dung."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Đây là nội dung bạn phải thêm vào tập tin <b>.htaccess</b>. Nếu bạn không thể tạo tập tin, vui lòng vô hiệu tuỳ chọn <em>URLs thân thiện</em>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Đây là nội dung bạn phải thêm vào tập tin <b>.htaccess</b>. Nếu bạn không thể tạo tập tin hoặc không có kinh nghiệm xử lý, vui lòng vô hiệu tuỳ chọn <em>URLs thân thiện</em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
+msgid "File <b>.htaccess</b> already exists and was not modified."
+msgstr "Tập tin <b>.htaccess</b> đã có sẵn và không thể hiệu chỉnh."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Đây là nội dung bạn phải thêm vào tập tin <b>.htaccess</b>. Nếu bạn không thể tạo tập tin hoặc không có kinh nghiệm xử lý, vui lòng vô hiệu tuỳ chọn <em>URLs thân thiện</em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
+msgid "Friendly URLs successfully deactivated"
+msgstr "URLs thân thiện đã bị vô hiệu thành công"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
+msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
+msgstr "URLs thân thiện đã bị vô hiệu, nhưng không thể xoá tập tin .htaccess. Vui lòng xoá thủ công"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
+msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
+msgstr "URLs thân thiện đã bị vô hiệu, nhưng tập tin .htaccess đã được chỉnh sửa từ bên ngoài Osclass và chưa bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
+msgid "Last check"
+msgstr "Lần kiểm cuối"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
+msgid "Page title field is required"
+msgstr "Yêu cầu nhập tiêu đề trang"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
+msgid "Contact email field is required"
+msgstr "Yêu cầu nhập email liên hệ"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
+msgid "Number of listings in the RSS has to be a numeric value"
+msgstr "Số lượng rao vặt tin RSS phải có giá trị số"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
+msgid "Max latest listings has to be a numeric value"
+msgstr "Rao vặt mới cập nhật tối đa phải có giá trị số"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
+msgid "Number of listings on search has to be a numeric value"
+msgstr "Số lượng rao vặt tìm kiếm phải có giá trị số"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
+msgid "Number of listings in the RSS must be an integer"
+msgstr "Số lượng rao vặt tin RSS phải là số nguyên"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
+msgid "Number of recent listings displayed at home must be an integer"
+msgstr "Số lượng rao vặt hiển thị gần nhất trên trang chủ phải là số nguyên"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
+msgid "General settings have been updated"
+msgstr "Các cài đặt chung đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
+msgid "Mail server type is incorrect"
+msgstr "Kiểu máy chủ mail không đúng"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
+msgid "Mail server configuration has changed"
+msgstr "Thiết lập máy chủ mail đã được thay đổi"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
+msgid "There was a problem uploading the watermark image"
+msgstr "Có vấn đề khi tải lên hình ảnh watermark"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
+msgid "The watermark image has to be a .PNG file"
+msgstr "Ảnh watermark phải là tệp .PNG"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
+#, php-format
+msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
+msgstr "Bạn không thể thiết đặt dung lượng tệp cao hơn cấu hình cho phép của PHP là: <b>%d Kb</b>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
+msgid "Media config has been updated"
+msgstr "Cấu hình media đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
+msgid "Re-generation complete"
+msgstr "Tái tại hoàn chỉnh"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
+msgid "Number of moderate comments must only contain numeric characters"
+msgstr "Số lượng duyệt nhận xét chỉ được chứa các ký số"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
+msgid "Comments per page must only contain numeric characters"
+msgstr "Số lượng bình luận trên mỗi trang chỉ được chứa các ký số"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
+msgid "Comment settings have been updated"
+msgstr "Các thiết lập bình luận đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
+msgid "Your Akismet key has been cleared"
+msgstr "Chìa khoá Akismet của bạn đã bị giải toả"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
+msgid "Your Akismet key has been updated"
+msgstr "Chìa khoá Akismet của bạn đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
+msgid "Your reCAPTCHA key has been cleared"
+msgstr "Chìa khoá reCAPTCHA của bạn đã bị giải toả"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
+msgid "Your reCAPTCHA key has been updated"
+msgstr "Chìa khoá reCAPTCHA của bạn đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
+msgid "Custom number could not be left empty"
+msgstr "Số tùy chỉnh không thể để trống"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
+msgid "Last search settings have been updated"
+msgstr "Thiết lập tìm kiếm cuối cùng đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
+msgid "Resource deleted"
+msgstr "Tài nguyên đã bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
+msgid "The plugin folder is not writable"
+msgstr "Không thể ghi vào thư mục plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
+msgid "The plugin has been uploaded correctly"
+msgstr "Đã tải lên plugin hoàn chỉnh"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
+msgid "The zip file is not valid"
+msgstr "Tệp nén zip không hợp lệ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
+msgid "No file was uploaded"
+msgstr "Không có tệp nào được tải lên"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
+msgid "There was a problem adding the plugin"
+msgstr "Xảy ra vấn đề khi thêm plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
+#, php-format
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
+msgstr "Plugin tạo ra %d ký tự <strong>không mong muốn</strong> trong quá trình cài đặt. Đầu ra: \"%s\""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
+msgid "Plugin is already installed"
+msgstr "Đã cài đặt plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
+msgid "Plugin couldn't be installed because their files are missing"
+msgstr "Không thể cài đặt plugin vì chúng thiếu tập tin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
+#, php-format
+msgid "Plugin couldn't be installed because of: %s"
+msgstr "Không thể cài đặt plugin vì: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
+msgid "Plugin couldn't be installed"
+msgstr "Không thể cài đặt plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
+msgid "Plugin installed"
+msgstr "Đã cài đặt plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
+msgid "Plugin uninstalled"
+msgstr "Đã gỡ cài đặt plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
+msgid "Plugin couldn't be uninstalled"
+msgstr "Không thể gỡ cài đặt plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
+msgid "Plugin enabled"
+msgstr "Đã kích hoạt plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
+msgid "Plugin is already enabled"
+msgstr "Plugin đã được kích hoạt rồi"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
+msgid "Plugin disabled"
+msgstr "Đã vô hiệu plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
+msgid "Plugin is already disabled"
+msgstr "Plugin đã bị vô hiệu rồi"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
+msgid "Configuration was saved"
+msgstr "Đã lưu cấu hình"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
+msgid "No plugin selected"
+msgstr "Chưa chọn plugin nào"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
+msgid "The files were deleted"
+msgstr "Tệp đã được xóa"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
+#, php-format
+msgid "There were an error deleting the files, please check the permissions of the files in %s"
+msgstr "Có lỗi xảy ra trong quá trính xóa tệp, kiểm tra lại phân quyền của tệp tin trong %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
+msgid "Invalid plugin file"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
+msgid "You have to set an internal name"
+msgstr "Bạn phải đặt tên nội bộ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
+msgid "You have to set a different internal name"
+msgstr "Bạn phải đặt tên nội bộ khác"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
+msgid "The page has been updated"
+msgstr "Đã cập nhật trang"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
+msgid "You can't repeat internal name"
+msgstr "Bạn không thể lặp lại tên nội bộ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
+msgid "The page couldn't be updated, at least one title should not be empty"
+msgstr "Không thể cập nhật trang, ít nhất một tiêu đề không được bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
+msgid "The page has been added"
+msgstr "Đã thêm trang"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
+msgid "The page couldn't be added, at least one title should not be empty"
+msgstr "Không thể thêm trang, ít nhất một tiêu đề không được bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
+msgid "Oops! That internal name is already in use. We can't make the changes"
+msgstr "Ồ! Tên nội bộ này đã được sử dụng. Chúng tôi không thể thay đổi"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
+msgid "One page can't be deleted because it is indelible"
+msgstr "Một trang không thể xoá vì nó không phai mờ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
+#, php-format
+msgid "%s pages couldn't be deleted because they are indelible"
+msgstr "Những trang %s không thể xoá vì chúng không phai mờ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
+msgid "One page couldn't be deleted"
+msgstr "Một trang không thể xoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
+#, php-format
+msgid "%s pages couldn't be deleted"
+msgstr "Những trang %s không thể xoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
+msgid "One page has been deleted correctly"
+msgstr "Đã xoá hoàn chỉnh một trang"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
+#, php-format
+msgid "%s pages have been deleted correctly"
+msgstr "Đã xoá hoàn chỉnh các trang %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
+msgid "The email/alert has been updated"
+msgstr "Email/cảnh báo đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
+msgid "The email couldn't be updated, at least one title should not be empty"
+msgstr "Email không thể cập nhật, ít nhất một tiêu đề không được bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
+msgid "The comments have been deleted"
+msgstr "Các bình luận đã bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
+msgid "The comments have been approved"
+msgstr "Các bình luận đã được chấp nhận"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
+msgid "The comments have been disapproved"
+msgstr "Các bình luận đã bị từ chối"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
+msgid "The comments have been unblocked"
+msgstr "Các bình luận đã được bỏ khoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
+msgid "The comments have been blocked"
+msgstr "Các bình luận đã bị khoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
+msgid "The comment has been approved"
+msgstr "Bình luận đã được chấp nhận"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
+msgid "The comment has been disapproved"
+msgstr "Bình luận đã bị từ chối"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
+msgid "The comment has been enabled"
+msgstr "Bình luận đã được kích hoạt"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
+msgid "The comment has been disabled"
+msgstr "Bình luận đã bị vô hiệu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
+msgid "Email is not correct"
+msgstr "Email không đúng"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
+msgid "Comment is required"
+msgstr "Yêu cầu có bình luận"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
+msgid "Great! We just updated your comment"
+msgstr "Tuyệt! Chúng tôi mới cập nhật bình luận của bạn"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
+msgid "You don't have enough permissions"
+msgstr "Bạn không đủ quyền truy cập"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
+msgid "The listing has been deleted"
+msgstr "Rao vặt đã bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:374
+msgid "The listing couldn't be deleted"
+msgstr "Rao vặt không thể xoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:405
+msgid "The listing has been activated"
+msgstr "Rao vặt đã được kích hoạt"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:407
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:421
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:430
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:439
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:471
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:500
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:668
+msgid "An error has occurred"
+msgstr "Xảy ra một lỗi"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:410
+msgid "The listing can't be activated because it's blocked"
+msgstr "Không thể kích hoạt rao vặt vì nó đã bị khoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:419
+msgid "The listing has been deactivated"
+msgstr "Rao vặt đã bị vô hiệu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:428
+msgid "The listing has been enabled"
+msgstr "Rao vặt đã được kích hoạt"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:437
+msgid "The listing has been disabled"
+msgstr "Rao vặt đã bị vô hiệu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:469
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:498
+msgid "Changes have been applied"
+msgstr "Thay đổi đã được áp dụng"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:527
+msgid "The listing has been unmarked as"
+msgstr "Rao vặt đã được gỡ đánh dấu là"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:529
+msgid "The listing hasn't been unmarked as"
+msgstr "Rao vặt không được gỡ đánh dấu là"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:632
+msgid "Changes saved correctly"
+msgstr "Đã lưu những thay đổi hoàn chỉnh"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:719
+msgid "A new listing has been added"
+msgstr "Đã thêm một rao vặt mới"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:772
+msgid "Wait time must only contain numeric characters"
+msgstr "Thời gian chờ phải chứa các ký số"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:777
+msgid "Number of moderated listings must only contain numeric characters"
+msgstr "Số lượng các rao vặt đã kiểm duyệt phải là các ký số"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:780
+msgid "Images per listing must only contain numeric characters"
+msgstr "Số lượng hình ảnh trong một rao vặt phải là các ký số"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:783
+msgid "Number of expiration days has to be a numeric value"
+msgstr "Số ngày hết hạn phải là giá trị số"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
+msgid "Title Length has to be a numeric value"
+msgstr "Chiều dài tiêu đề phải là giá trị dạng số"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
+msgid "Description Length has to be a numeric value"
+msgstr "Độ dài mô tả phải là giá trị dạng số"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
+msgid "Listings' settings have been updated"
+msgstr "Thiết lập rao vặt đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
+msgid "You have very few free space left, users will not be able to upload pictures"
+msgstr "Bạn còn lại rất ít dung lượng, không thể tải thêm hình ảnh"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
+msgid "Entered an invalid email"
+msgstr "Đã nhập sai địa chỉ email"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
+msgid "You're already subscribed"
+msgstr "Bạn đã đăng ký"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
+msgid "Subscribed correctly"
+msgstr "Đăng ký thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
+msgid "Error subscribing"
+msgstr "Lỗi đăng ký"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
+msgid "The username field is empty"
+msgstr "Tên tài khoản bị bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
+msgid "The password field is empty"
+msgstr "Mật khẩu bị bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
+#, php-format
+msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "Rất tiếc, sai tên tài khoản. <a href=\"%s\">Bạn đã mất mật khẩu?</a>"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
+#, php-format
+msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "Rất tiếc, sai mật khẩu. <a href=\"%s\">Bạn đã mất mật khẩu?</a>"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
+msgid "The reCAPTCHA code is wrong"
+msgstr "Nhập sai mã reCAPTCHA"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
+msgid "A new password has been sent to your e-mail"
+msgstr "Mật khẩu mới đã được gửi vào email của bạn"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
+msgid "Error, the passwords don't match"
+msgstr "Lỗi, mật khẩu không trùng khớp"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
+msgid "The user has been created. We've sent an activation e-mail"
+msgstr "Đã tạo người dùng. Chúng tôi đã gửi một email kích hoạt"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
+msgid "The user has been created successfully"
+msgstr "Đã tạo người dùng thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
+msgid "The user has been updated"
+msgstr "Người dùng đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
+msgid "The user has been updated and activated"
+msgstr "Người dùng đã được cập nhật và kích hoạt"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:229
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:255
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:281
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:306
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:625
+msgid "User id isn't in the correct format"
+msgstr "ID người dùng không đúng định dạng"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:186
+msgid "No users have been selected"
+msgstr "Chưa chọn tên người dùng nào"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
+msgid "No users have been activated"
+msgstr "Chưa kích hoạt thành viên nào"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
+msgid "No users have been deactivated"
+msgstr "Không có thành viên nào bị vô hiệu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
+msgid "No users have been enabled"
+msgstr "Không có thành viên nào được kích hoạt"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
+msgid "No users have been disabled"
+msgstr "Không thành viên nào bị vô hiệu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
+msgid "No users have been deleted"
+msgstr "Không thành viên nào bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
+msgid "Alert id isn't in the correct format"
+msgstr "Cảnh báo id không đúng định dạng"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
+msgid "No alerts have been deleted"
+msgstr "Không có cảnh báo nào bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
+msgid "No alerts have been activated"
+msgstr "Không kích hoạt cảnh báo nào"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
+msgid "No alerts have been deactivated"
+msgstr "Không cảnh báo nào bị vô hiệu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
+msgid "User settings have been updated"
+msgstr "Thiết lập người dùng đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
+msgid "Both rules can not be empty"
+msgstr "Tất cả các điều lệ không thể bị bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
+msgid "Rule updated correctly"
+msgstr "Cập nhật điều lệ thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
+msgid "Rule saved correctly"
+msgstr "Lưu điều lệ thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
+msgid "No rules have been deleted"
+msgstr "Không điều lệ nào bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
+msgid "This action cannot be done because it is a demo site"
+msgstr "Không thể hoàn thành hành động này vì đây là site dùng thử"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
+msgid "Import complete"
+msgstr "Hoàn thành nhập liệu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
+msgid "There was a problem importing data to the database"
+msgstr "Có một vấn đề khi nhập liệu vào cơ sở dữ liệu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
+msgid "Recount category stats has been successful"
+msgstr "Đã hoàn thành việc đếm lại số liệu thống kê chuyên mục"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
+msgid "Path is empty"
+msgstr "Đường dẫn bị bỏ trống"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
+msgid "Could not connect with the database"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
+msgid "There are no tables to back up"
+msgstr "Không có bảng dữ liệu nào để sao lưu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
+msgid "The folder is not writable"
+msgstr "Không ghi được vào thư mục"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
+msgid "Backup completed successfully"
+msgstr "Quá trình sao lưu đã thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
+#, php-format
+msgid "Could not connect with the database. Error: %s"
+msgstr "Không thể kết nối cơ sở dữ liệu. Lỗi: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
+#, php-format
+msgid "Could not select the database. Error: %s"
+msgstr "Không thể chọn cơ sở dữ liệu. Lỗi: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
+msgid "Archived successfully!"
+msgstr "Lưu trữ thành công!"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
+msgid "Error, the zip file was not created in the specified directory"
+msgstr "Lỗi, không thể tạo tập tin zip trong thư mục chỉ định"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
+msgid "Maintenance mode is ON"
+msgstr "Chế độ bảo trì đang BẬT"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
+msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
+msgstr "Xảy ra lỗi khi tạo tập tin bảo trì, hãy tạo nó thủ công tại thư mục gốc (root)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
+msgid "Maintenance mode is OFF"
+msgstr "Chế độ bảo trì đang TẮT"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
+msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
+msgstr "Xảy ra lỗi khi xoá tập tin bảo trì, hãy xoá nó thủ công khỏi thư mục gốc (root)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
+msgid "The theme folder is not writable"
+msgstr "Thư mục giao diện không ghi được"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
+msgid "The theme has been installed correctly"
+msgstr "Cài đặt giao diện thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
+msgid "There was a problem adding the theme"
+msgstr "Có vấn đề khi thêm giao diện"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
+msgid "Theme removed successfully"
+msgstr "Xoá giao diện thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
+msgid "There was a problem removing the theme"
+msgstr "Đã có vấn đề khi xoá bỏ giao diện"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
+msgid "Current theme can not be deleted"
+msgstr "Giao diện hiện tại không thể xoá bỏ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
+msgid "No theme selected"
+msgstr "Chưa chọn giao diện"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
+msgid "Widget removed correctly"
+msgstr "Xoá widget thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
+msgid "Description field is required"
+msgstr "Bắt buộc nhập nội dung mô tả"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
+msgid "Widget updated correctly"
+msgstr "Cập nhật widget thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
+msgid "Widget cannot be updated correctly"
+msgstr "Widget không thể cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
+msgid "Widget added correctly"
+msgstr "Thêm widget thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
+msgid "Theme activated correctly"
+msgstr "Kích hoạt giao diện thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
+msgid "Email invalid"
+msgstr "Sai email"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
+msgid "Username invalid"
+msgstr "Sai tên truy cập"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
+msgid "Name invalid"
+msgstr "Sai tên"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
+msgid "Password invalid"
+msgstr "Sai mật khẩu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
+msgid "Email already in use"
+msgstr "Địa chỉ email đã được sử dụng"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
+msgid "Username already in use"
+msgstr "Tên tài khoản đã được sử dụng"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
+msgid "Incorrent current password"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
+msgid "The admin has been added"
+msgstr "Đã thêm người quản trị"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
+msgid "There has been an error adding a new admin"
+msgstr "Có lỗi khi thêm người quản trị"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
+msgid "There is no admin with this id"
+msgstr "Không có quản trị nào với id này"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
+msgid "This admin doesn't exist"
+msgstr "Người quản trị này không tồn tại"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
+msgid "Existing email"
+msgstr "Email hiện có"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
+msgid "Existing username"
+msgstr "Tài khoản hiện có"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
+msgid "The password couldn't be updated. Passwords don't match"
+msgstr "Mật khẩu không cập nhật được. Mật khẩu không khớp"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
+msgid "The admin has been updated"
+msgstr "Người quản trị đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
+msgid "The admin id isn't in the correct format"
+msgstr "ID người quản trị không chuẩn"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
+msgid "The operation hasn't been completed. You're trying to remove yourself!"
+msgstr "Hành động không thể hoàn thành. Bạn đã cố xoá tài khoản của chính mình!"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
+msgid "The admin has been deleted correctly"
+msgstr "Xoá người quản trị thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
+msgid "The admin couldn't be deleted"
+msgstr "Người quản trị không thể bị xoá"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
+msgid "The translation folder is not writable"
+msgstr "Không thể ghi vào thư mục dịch"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:83
+msgid "The language has been installed correctly"
+msgstr "Đã cài đặt ngôn ngữ thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
+msgid "File uploaded but unable to activate the language"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
+msgid "There was a problem adding the language"
+msgstr "Thêm ngôn ngữ xảy ra vấn đề"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:160
+msgid "There was a problem importing email templates"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:163
+msgid "Language imported successfully"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:170
+msgid "There was a problem importing the selected language"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:178
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:210
+msgid "Language id isn't in the correct format"
+msgstr "ID ngôn ngữ không đúng định dạng"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:185
+msgid "Language id doesn't exist"
+msgstr "Không tồn tại ID ngôn ngữ này"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:233
+msgid "Language name field is required"
+msgstr "Yêu cầu nhập tên ngôn ngữ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:236
+msgid "Language short name field is required"
+msgstr "Yêu cầu nhập tên ngắn gọn của ngôn ngữ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:239
+msgid "Language description field is required"
+msgstr "Yêu cầu nhập miêu tả cho ngôn ngữ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:242
+msgid "Currency format field is required"
+msgstr "Yêu cầu nhập định dạng đơn vị tiền tệ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:245
+msgid "Number of decimals must only contain numeric characters"
+msgstr "Số lượng chữ số thập phân phải là các ký số"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:268
+#, php-format
+msgid "%s has been updated"
+msgstr "%s đã được cập nhật"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:274
+msgid "Selected languages have been enabled for the website"
+msgstr "Ngôn ngữ được chọn đã được kích hoạt cho website"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:281
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:306
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:340
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:365
+msgid "The language ids aren't in the correct format"
+msgstr "Các ID ngôn ngữ không đúng định dạng"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:298
+msgid "Selected languages have been disabled for the website"
+msgstr "Những ngôn ngữ được chọn đã bị vô hiệu cho website"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:313
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:372
+#, php-format
+msgid "%s can't be disabled because it's the default language"
+msgstr "Không thể vô hiệu %s vì nó là ngôn ngữ mặc định"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:333
+msgid "Selected languages have been enabled for the backoffice (oc-admin)"
+msgstr "Những ngôn ngữ được chọn đã được kích hoạt cho backoffice (oc-admin)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:357
+msgid "Selected languages have been disabled for the backoffice (oc-admin)"
+msgstr "Những ngôn ngữ được chọn đã bị vô hiệu cho backoffice (oc-admin)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:399
+#, php-format
+msgid "Directory '%s' couldn't be removed"
+msgstr "Không thể xoá thư mục '%s'"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:404
+#, php-format
+msgid "Directory \"%s\" has been successfully removed"
+msgstr "Đã xoá thư mục \"%s\" thành công"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:410
+#, php-format
+msgid "Directory '%s' couldn't be removed;)"
+msgstr "Không thể xoá thư mục '%s' ;)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:418
+#, php-format
+msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
+msgid "Thank you very much for your donation"
+msgstr "Chân thành cảm ơn bạn đã đóng góp"
 
