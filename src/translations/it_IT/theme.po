@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-09-04 09:37\n"
+"POT-Creation-Date: 2021-09-10 20:32+0000\n"
+"PO-Revision-Date: 2021-09-10 21:29\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -17,298 +17,282 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:444
-#: tmp/osclass/oc-content/themes/bender/functions.php:491
-msgid "Alerts"
-msgstr "Avvisi"
-
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Questa operazione non potrà essere annullata. Sei sicuro di voler continuare?"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:27
+#: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
 msgstr "Ti sei registrato agli aggiornamenti della ricerca"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:28
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
+#: alert-form.php:28 user-change_email.php:77
 msgid "Invalid email address"
 msgstr "Indirizzo e-mail non valido"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:29
+#: alert-form.php:29
 msgid "There was a problem with the alert"
 msgstr "C'è stato un problema con questo Alert"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:33
+#: user-change_email.php:33
 msgid "Change e-mail"
 msgstr "Cambia indirizzo email"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:76
+#: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "E-mail: questo campo è richiesto"
 
-#: tmp/osclass/oc-content/themes/bender/admin/settings.php:42
-msgid "Donate"
-msgstr "Dona"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:42
-msgid "Remove logo"
-msgstr "Rimuovi logo"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:69
-msgid "Upload"
-msgstr "Carica"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "La cartella di immagini <strong>%s</strong> non è scrivibile sul server"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass non può caricare l'immagine del logo dal pannello di amministrazione."
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Si prega di fare la già citata cartella di immagine scrivibile."
-
-#: tmp/osclass/oc-content/themes/bender/loop-single-premium.php:48
-#: tmp/osclass/oc-content/themes/bender/loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Questa operazione non potrà essere annullata. Sei sicuro di voler continuare?"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Data di pubblicazione</strong>: %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Data modificata:</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:55
+#: search.php:55
 msgid "Selected"
 msgstr "Selezionati"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:56
+#: search.php:56
 msgid "Nothing selected, input was"
 msgstr "Nulla selezionata, input era"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:71
+#: search.php:71
 #, php-format
 msgid "There are no results matching \"%s\""
 msgstr "Non ci sono risultati corrispondenti a \"%s\""
 
-#: tmp/osclass/oc-content/themes/bender/search.php:75
+#: search.php:75
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
 msgstr "%1$d - %2$d di %3$d annunci"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:121
+#: search.php:121
 msgid "Premium listings"
 msgstr "Annunci Premium"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:129
-#: tmp/osclass/oc-content/themes/bender/functions.php:443
-#: tmp/osclass/oc-content/themes/bender/functions.php:486
+#: search.php:129 functions.php:443 functions.php:486
 msgid "Listings"
 msgstr "Annunci"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_password.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:448
-#: tmp/osclass/oc-content/themes/bender/functions.php:451
-#: tmp/osclass/oc-content/themes/bender/functions.php:511
+#: common/head.php:25
+msgid "Delete"
+msgstr "Cancella"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Annulla"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Immagine precedente"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Immagine successiva"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Chiudi"
+
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
 msgid "Change password"
 msgstr "Modifica password"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:35
-#: tmp/osclass/oc-content/themes/bender/header.php:48
+#: user-change_username.php:34 functions.php:447 functions.php:506
+msgid "Change username"
+msgstr "Modifica username"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Nome Utente: questo campo è obbligatorio"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Il nome utente è disponibile"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Il nome utente NON è disponibile"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Questa operazione non potrà essere annullata. Sei sicuro di voler continuare?"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "Avvisi"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Questa operazione non potrà essere annullata. Sei sicuro di voler continuare?"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Dona"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Rimuovi logo"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Carica"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "La cartella di immagini <strong>%s</strong> non è scrivibile sul server"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass non può caricare l'immagine del logo dal pannello di amministrazione."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Si prega di fare la già citata cartella di immagine scrivibile."
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Data di pubblicazione</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Data modificata:</strong> %1$s"
+
+#: footer.php:35 header.php:48
 #, php-format
 msgid "Hi %s"
 msgstr "Ciao %s"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:69
+#: footer.php:69
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
 msgstr "Questo sito web utilizza con orgoglio gli <a title=\"Osclass web\" href=\"%s\">script degli annunci</a> software <strong>Osclass</strong>"
 
-#: tmp/osclass/oc-content/themes/bender/item-post.php:61
-#: tmp/osclass/oc-content/themes/bender/header.php:74
-msgid "Select a category"
-msgstr "Seleziona una categoria"
-
-#: tmp/osclass/oc-content/themes/bender/user-profile.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:445
+#: user-profile.php:32 functions.php:445
 msgid "Update account"
 msgstr "Aggiorna l'account"
 
-#: tmp/osclass/oc-content/themes/bender/common/head.php:25
-msgid "Delete"
-msgstr "Cancella"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:26
-msgid "Cancel"
-msgstr "Annulla"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:72
-msgid "Previous image"
-msgstr "Immagine precedente"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:73
-msgid "Next image"
-msgstr "Immagine successiva"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:74
-msgid "Close"
-msgstr "Chiudi"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:34
-#: tmp/osclass/oc-content/themes/bender/functions.php:447
-#: tmp/osclass/oc-content/themes/bender/functions.php:506
-msgid "Change username"
-msgstr "Modifica username"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Nome Utente: questo campo è obbligatorio"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
-msgid "The username is available"
-msgstr "Il nome utente è disponibile"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Il nome utente NON è disponibile"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "Nome: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "E-mail: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "Telefono: %s"
-
-#: tmp/osclass/oc-content/themes/bender/user-sidebar.php:28
-#: tmp/osclass/oc-content/themes/bender/functions.php:516
-msgid "Delete account"
-msgstr "Cancella l'account"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "es: Programmatore PHP"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:434
-msgid "Publish a listing"
-msgstr "Pubblica un annuncio"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:435
-msgid "Edit your listing"
-msgstr "Modifica il tuo annuncio"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:436
-msgid "Send to a friend"
-msgstr "Invia ad un amico"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:437
-msgid "Contact publisher"
-msgstr "Contatta l'inserzionista"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:438
-msgid "Search results"
-msgstr "Risultati della ricerca"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Risultati della ricerca: %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:440
-msgid "Dashboard"
-msgstr "Pannello di controllo"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "Profilo di %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:442
-#: tmp/osclass/oc-content/themes/bender/functions.php:496
-msgid "Account"
-msgstr "Account"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:446
-#: tmp/osclass/oc-content/themes/bender/functions.php:501
-msgid "Change email"
-msgstr "Modifica email"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:449
-msgid "Login"
-msgstr "Accedi"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:450
-msgid "Recover password"
-msgstr "Recupera la password"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:452
-msgid "Create a new account"
-msgstr "Crea un nuovo account"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:453
-msgid "Contact"
-msgstr "Contatti"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:481
-msgid "Public Profile"
-msgstr "Profilo Pubblico"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Impostazioni del tema aggiornati correcttamente"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "L'immagine del logo è stata caricata correttamente"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Si è verificato un errore, riprova."
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:636
-msgid "The logo image has been removed"
-msgstr "L'immagine del logo è stata rimossa"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:638
-msgid "Image not found"
-msgstr "Immagine non trovata"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:666
-msgid "Header logo"
-msgstr "Logo dell'Header"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:668
-msgid "Theme settings"
-msgstr "Impostazioni Tema"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:728
-msgid "All categories"
-msgstr "Tutte le Categorie"
-
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:67
+#: user-public-profile.php:67
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
 msgstr "<strong>Indirizzo:</strong> %1$s"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:70
+#: user-public-profile.php:70
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>Città:</strong> %1$s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Cancella l'account"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Seleziona una categoria"
+
+#: item-sidebar.php:70
+#, php-format
+msgid "Name: %s"
+msgstr "Nome: %s"
+
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "Telefono: %s"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "es: Programmatore PHP"
+
+#: functions.php:434
+msgid "Publish a listing"
+msgstr "Pubblica un annuncio"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Modifica il tuo annuncio"
+
+#: functions.php:436
+msgid "Send to a friend"
+msgstr "Invia ad un amico"
+
+#: functions.php:437
+msgid "Contact publisher"
+msgstr "Contatta l'inserzionista"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Risultati della ricerca"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Risultati della ricerca: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Pannello di controllo"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "Profilo di %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Account"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Modifica email"
+
+#: functions.php:449
+msgid "Login"
+msgstr "Accedi"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Recupera la password"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Crea un nuovo account"
+
+#: functions.php:453
+msgid "Contact"
+msgstr "Contatti"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Profilo Pubblico"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Impostazioni del tema aggiornati correcttamente"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "L'immagine del logo è stata caricata correttamente"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Si è verificato un errore, riprova."
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "L'immagine del logo è stata rimossa"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Immagine non trovata"
+
+#: functions.php:666
+msgid "Header logo"
+msgstr "Logo dell'Header"
+
+#: functions.php:668
+msgid "Theme settings"
+msgstr "Impostazioni Tema"
+
+#: functions.php:728
+msgid "All categories"
+msgstr "Tutte le Categorie"
 

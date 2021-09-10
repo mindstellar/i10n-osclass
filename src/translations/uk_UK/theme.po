@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-09-04 09:36\n"
+"POT-Creation-Date: 2021-09-10 20:32+0000\n"
+"PO-Revision-Date: 2021-09-10 21:31\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -17,298 +17,282 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:444
-#: tmp/osclass/oc-content/themes/bender/functions.php:491
-msgid "Alerts"
-msgstr "Попередження"
-
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Цю дію неможливо відмінити. Ви дійсно хочете продовжити?"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:27
+#: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
 msgstr "Ви успішно підписані на оповіщення"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:28
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
+#: alert-form.php:28 user-change_email.php:77
 msgid "Invalid email address"
 msgstr "Неправильна адреса електронної пошти"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:29
+#: alert-form.php:29
 msgid "There was a problem with the alert"
 msgstr "Виникла проблема з оповіщенням"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:33
+#: user-change_email.php:33
 msgid "Change e-mail"
 msgstr "Змінити e-mail"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:76
+#: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "Email: це поле обов'язкове для заповнення"
 
-#: tmp/osclass/oc-content/themes/bender/admin/settings.php:42
-msgid "Donate"
-msgstr "Пожертвувати"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:42
-msgid "Remove logo"
-msgstr "Видалити логотип"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:69
-msgid "Upload"
-msgstr "Завантажити"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "Тека зображень <strong>%s</strong> не доступна для запису"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass не можете завантажити зображення логотипу з панелі адміністрування."
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Будь ласка, зробіть вищезгадані теки зображень доступними для запису."
-
-#: tmp/osclass/oc-content/themes/bender/loop-single-premium.php:48
-#: tmp/osclass/oc-content/themes/bender/loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Цю дію неможливо відмінити. Ви дійсно хочете продовжити?"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Дата публікації</strong>: %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Дата зміни:</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:55
+#: search.php:55
 msgid "Selected"
 msgstr "Вибрано"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:56
+#: search.php:56
 msgid "Nothing selected, input was"
 msgstr "Нічого не вибрано"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:71
+#: search.php:71
 #, php-format
 msgid "There are no results matching \"%s\""
 msgstr "Немає результатів, що відповідають \"%s\""
 
-#: tmp/osclass/oc-content/themes/bender/search.php:75
+#: search.php:75
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
 msgstr "%1$d - %2$d з %3$d оголошень"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:121
+#: search.php:121
 msgid "Premium listings"
 msgstr "Преміум оголошення"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:129
-#: tmp/osclass/oc-content/themes/bender/functions.php:443
-#: tmp/osclass/oc-content/themes/bender/functions.php:486
+#: search.php:129 functions.php:443 functions.php:486
 msgid "Listings"
 msgstr "Оголошення"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_password.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:448
-#: tmp/osclass/oc-content/themes/bender/functions.php:451
-#: tmp/osclass/oc-content/themes/bender/functions.php:511
+#: common/head.php:25
+msgid "Delete"
+msgstr "Видалити"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Попереднє зображення"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Наступне зображення"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Закрити"
+
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
 msgid "Change password"
 msgstr "Змінити пароль"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:35
-#: tmp/osclass/oc-content/themes/bender/header.php:48
+#: user-change_username.php:34 functions.php:447 functions.php:506
+msgid "Change username"
+msgstr "Змінити  ім'я користувача"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Ім'я користувача: це поле є обов'язковим для заповнення"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Ім'я користувача доступно"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Ім'я користувача НЕ доступно"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Цю дію неможливо відмінити. Ви дійсно хочете продовжити?"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "Попередження"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Цю дію неможливо відмінити. Ви дійсно хочете продовжити?"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Пожертвувати"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Видалити логотип"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Завантажити"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "Тека зображень <strong>%s</strong> не доступна для запису"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass не можете завантажити зображення логотипу з панелі адміністрування."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Будь ласка, зробіть вищезгадані теки зображень доступними для запису."
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Дата публікації</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Дата зміни:</strong> %1$s"
+
+#: footer.php:35 header.php:48
 #, php-format
 msgid "Hi %s"
 msgstr "Вітаемо %s"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:69
+#: footer.php:69
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
 msgstr "Цей сайт гордо використовує <a title=\"Osclass web\" href=\"%s\">безкоштовний скрипт</a>дошки оголошень <strong>Osclass</strong>"
 
-#: tmp/osclass/oc-content/themes/bender/item-post.php:61
-#: tmp/osclass/oc-content/themes/bender/header.php:74
-msgid "Select a category"
-msgstr "Виберіть категорію"
-
-#: tmp/osclass/oc-content/themes/bender/user-profile.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:445
+#: user-profile.php:32 functions.php:445
 msgid "Update account"
 msgstr "Оновлення облікового запису"
 
-#: tmp/osclass/oc-content/themes/bender/common/head.php:25
-msgid "Delete"
-msgstr "Видалити"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:26
-msgid "Cancel"
-msgstr "Скасувати"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:72
-msgid "Previous image"
-msgstr "Попереднє зображення"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:73
-msgid "Next image"
-msgstr "Наступне зображення"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:74
-msgid "Close"
-msgstr "Закрити"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:34
-#: tmp/osclass/oc-content/themes/bender/functions.php:447
-#: tmp/osclass/oc-content/themes/bender/functions.php:506
-msgid "Change username"
-msgstr "Змінити  ім'я користувача"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Ім'я користувача: це поле є обов'язковим для заповнення"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
-msgid "The username is available"
-msgstr "Ім'я користувача доступно"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Ім'я користувача НЕ доступно"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "Ім'я: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "Електронна пошта: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "Телефон: %s"
-
-#: tmp/osclass/oc-content/themes/bender/user-sidebar.php:28
-#: tmp/osclass/oc-content/themes/bender/functions.php:516
-msgid "Delete account"
-msgstr "Видалити обліковий запис"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "Орендувати квартиру"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:434
-msgid "Publish a listing"
-msgstr "Подати оголошення"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:435
-msgid "Edit your listing"
-msgstr "Редагувати оголошення"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:436
-msgid "Send to a friend"
-msgstr "Відправити другу"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:437
-msgid "Contact publisher"
-msgstr "Зв'язатися з продавцем"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:438
-msgid "Search results"
-msgstr "Результати пошуку"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Результати пошуку: %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:440
-msgid "Dashboard"
-msgstr "Консоль"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "профіль %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:442
-#: tmp/osclass/oc-content/themes/bender/functions.php:496
-msgid "Account"
-msgstr "Обліковий запис"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:446
-#: tmp/osclass/oc-content/themes/bender/functions.php:501
-msgid "Change email"
-msgstr "змінити e-mail"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:449
-msgid "Login"
-msgstr "Увійти"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:450
-msgid "Recover password"
-msgstr "Відновити пароль"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:452
-msgid "Create a new account"
-msgstr "Створити новий обліковий запис"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:453
-msgid "Contact"
-msgstr "Контакт"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:481
-msgid "Public Profile"
-msgstr "Публічний профіль"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Налаштування теми успішно оновлені "
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Логотип успішно завантажено"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Сталася помилка, спробуйте ще раз"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:636
-msgid "The logo image has been removed"
-msgstr "Логотип був видалений"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:638
-msgid "Image not found"
-msgstr "Зображення не знайдено"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:666
-msgid "Header logo"
-msgstr "Заголовок логотипу"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:668
-msgid "Theme settings"
-msgstr "Налаштування шаблону"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:728
-msgid "All categories"
-msgstr "Всі категорії"
-
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:67
+#: user-public-profile.php:67
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
 msgstr "<strong>Aдреса:</strong> %1$s"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:70
+#: user-public-profile.php:70
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>Розташування:</strong> %1$s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Видалити обліковий запис"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Виберіть категорію"
+
+#: item-sidebar.php:70
+#, php-format
+msgid "Name: %s"
+msgstr "Ім'я: %s"
+
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "Електронна пошта: %s"
+
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "Телефон: %s"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "Орендувати квартиру"
+
+#: functions.php:434
+msgid "Publish a listing"
+msgstr "Подати оголошення"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Редагувати оголошення"
+
+#: functions.php:436
+msgid "Send to a friend"
+msgstr "Відправити другу"
+
+#: functions.php:437
+msgid "Contact publisher"
+msgstr "Зв'язатися з продавцем"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Результати пошуку"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Результати пошуку: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "профіль %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Обліковий запис"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "змінити e-mail"
+
+#: functions.php:449
+msgid "Login"
+msgstr "Увійти"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Відновити пароль"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Створити новий обліковий запис"
+
+#: functions.php:453
+msgid "Contact"
+msgstr "Контакт"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Публічний профіль"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Налаштування теми успішно оновлені "
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Логотип успішно завантажено"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Сталася помилка, спробуйте ще раз"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Логотип був видалений"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Зображення не знайдено"
+
+#: functions.php:666
+msgid "Header logo"
+msgstr "Заголовок логотипу"
+
+#: functions.php:668
+msgid "Theme settings"
+msgstr "Налаштування шаблону"
+
+#: functions.php:728
+msgid "All categories"
+msgstr "Всі категорії"
 

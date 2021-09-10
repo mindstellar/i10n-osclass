@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-09-04 09:36\n"
+"POT-Creation-Date: 2021-09-10 20:32+0000\n"
+"PO-Revision-Date: 2021-09-10 21:31\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -17,298 +17,282 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:444
-#: tmp/osclass/oc-content/themes/bender/functions.php:491
-msgid "Alerts"
-msgstr "提醒"
-
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "刚才的动作没有完成. 您确定要继续吗?"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:27
+#: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
 msgstr "您已经成功订阅了消息提醒"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:28
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
+#: alert-form.php:28 user-change_email.php:77
 msgid "Invalid email address"
 msgstr "无效的邮箱地址"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:29
+#: alert-form.php:29
 msgid "There was a problem with the alert"
 msgstr "通知中心有些问题"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:33
+#: user-change_email.php:33
 msgid "Change e-mail"
 msgstr "更改电子邮件"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:76
+#: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "邮件：必填项"
 
-#: tmp/osclass/oc-content/themes/bender/admin/settings.php:42
-msgid "Donate"
-msgstr "捐款"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:42
-msgid "Remove logo"
-msgstr "删除Logo"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:69
-msgid "Upload"
-msgstr "上传"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "图像文件夹 <strong>%s</strong> 在服务器上不可写"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass不能上传管理面板处上传图标图像"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "请将前面提到的图像文件夹设置为可写"
-
-#: tmp/osclass/oc-content/themes/bender/loop-single-premium.php:48
-#: tmp/osclass/oc-content/themes/bender/loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "刚才的动作没有完成.您确定要继续吗？"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">发布日期</strong>: %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">修改日期：</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:55
+#: search.php:55
 msgid "Selected"
 msgstr "选择"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:56
+#: search.php:56
 msgid "Nothing selected, input was"
 msgstr "您没有选择任何信息"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:71
+#: search.php:71
 #, php-format
 msgid "There are no results matching \"%s\""
 msgstr "没有跟\\\"%s\\\"匹配的结果"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:75
+#: search.php:75
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
 msgstr "%1$d - %2$d 的 %3$d 列表"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:121
+#: search.php:121
 msgid "Premium listings"
 msgstr "高级列表"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:129
-#: tmp/osclass/oc-content/themes/bender/functions.php:443
-#: tmp/osclass/oc-content/themes/bender/functions.php:486
+#: search.php:129 functions.php:443 functions.php:486
 msgid "Listings"
 msgstr "广告"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_password.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:448
-#: tmp/osclass/oc-content/themes/bender/functions.php:451
-#: tmp/osclass/oc-content/themes/bender/functions.php:511
+#: common/head.php:25
+msgid "Delete"
+msgstr "删除"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "取消"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "上一张图片"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "下一张图片"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "关闭"
+
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
 msgid "Change password"
 msgstr "修改密码"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:35
-#: tmp/osclass/oc-content/themes/bender/header.php:48
+#: user-change_username.php:34 functions.php:447 functions.php:506
+msgid "Change username"
+msgstr "更改用户名"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "用户名:必填"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "用户名可用"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "用户名不可用"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "刚才的动作没有完成.您确定要继续吗？"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "提醒"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "刚才的动作没有完成. 您确定要继续吗?"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "捐款"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "删除Logo"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "上传"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "图像文件夹 <strong>%s</strong> 在服务器上不可写"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass不能上传管理面板处上传图标图像"
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "请将前面提到的图像文件夹设置为可写"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">发布日期</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">修改日期：</strong> %1$s"
+
+#: footer.php:35 header.php:48
 #, php-format
 msgid "Hi %s"
 msgstr "您好%s"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:69
+#: footer.php:69
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
 msgstr "此网站自豪地使用 <a title=\"Osclass web\" href=\"%s\">分类脚本</a> 软件 <strong>Osclass</strong>"
 
-#: tmp/osclass/oc-content/themes/bender/item-post.php:61
-#: tmp/osclass/oc-content/themes/bender/header.php:74
-msgid "Select a category"
-msgstr "选择分类"
-
-#: tmp/osclass/oc-content/themes/bender/user-profile.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:445
+#: user-profile.php:32 functions.php:445
 msgid "Update account"
 msgstr "更新帐户"
 
-#: tmp/osclass/oc-content/themes/bender/common/head.php:25
-msgid "Delete"
-msgstr "删除"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:26
-msgid "Cancel"
-msgstr "取消"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:72
-msgid "Previous image"
-msgstr "上一张图片"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:73
-msgid "Next image"
-msgstr "下一张图片"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:74
-msgid "Close"
-msgstr "关闭"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:34
-#: tmp/osclass/oc-content/themes/bender/functions.php:447
-#: tmp/osclass/oc-content/themes/bender/functions.php:506
-msgid "Change username"
-msgstr "更改用户名"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "用户名:必填"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
-msgid "The username is available"
-msgstr "用户名可用"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "用户名不可用"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "姓名： %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "电子邮件: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "电话: %s"
-
-#: tmp/osclass/oc-content/themes/bender/user-sidebar.php:28
-#: tmp/osclass/oc-content/themes/bender/functions.php:516
-msgid "Delete account"
-msgstr "删除帐户"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "例如：PHP程序员"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:434
-msgid "Publish a listing"
-msgstr "发布帖子"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:435
-msgid "Edit your listing"
-msgstr "编辑帖子"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:436
-msgid "Send to a friend"
-msgstr "发送给好友"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:437
-msgid "Contact publisher"
-msgstr "联系发布人"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:438
-msgid "Search results"
-msgstr "搜索结果"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "搜索结果：%s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:440
-msgid "Dashboard"
-msgstr "控制面板"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%s的个人资料"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:442
-#: tmp/osclass/oc-content/themes/bender/functions.php:496
-msgid "Account"
-msgstr "帐户"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:446
-#: tmp/osclass/oc-content/themes/bender/functions.php:501
-msgid "Change email"
-msgstr "更改电子邮件"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:449
-msgid "Login"
-msgstr "登陆"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:450
-msgid "Recover password"
-msgstr "恢复密码"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:452
-msgid "Create a new account"
-msgstr "创建账户"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:453
-msgid "Contact"
-msgstr "联系我们"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:481
-msgid "Public Profile"
-msgstr "公开资料"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "主题设置已更新"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "企业标记图像已上传成功"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "发生错误，稍后再试"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:636
-msgid "The logo image has been removed"
-msgstr "企业标记图标已移除"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:638
-msgid "Image not found"
-msgstr "图像未找到"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:666
-msgid "Header logo"
-msgstr "头标图像"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:668
-msgid "Theme settings"
-msgstr "主题设置"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:728
-msgid "All categories"
-msgstr "所有类别"
-
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:67
+#: user-public-profile.php:67
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
 msgstr "<strong>地址：</strong> %1$s"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:70
+#: user-public-profile.php:70
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>位置：</strong> %1$s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "删除帐户"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "选择分类"
+
+#: item-sidebar.php:70
+#, php-format
+msgid "Name: %s"
+msgstr "姓名： %s"
+
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "电子邮件: %s"
+
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "电话: %s"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "例如：PHP程序员"
+
+#: functions.php:434
+msgid "Publish a listing"
+msgstr "发布帖子"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "编辑帖子"
+
+#: functions.php:436
+msgid "Send to a friend"
+msgstr "发送给好友"
+
+#: functions.php:437
+msgid "Contact publisher"
+msgstr "联系发布人"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "搜索结果"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "搜索结果：%s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%s的个人资料"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "帐户"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "更改电子邮件"
+
+#: functions.php:449
+msgid "Login"
+msgstr "登陆"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "恢复密码"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "创建账户"
+
+#: functions.php:453
+msgid "Contact"
+msgstr "联系我们"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "公开资料"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "主题设置已更新"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "企业标记图像已上传成功"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "发生错误，稍后再试"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "企业标记图标已移除"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "图像未找到"
+
+#: functions.php:666
+msgid "Header logo"
+msgstr "头标图像"
+
+#: functions.php:668
+msgid "Theme settings"
+msgstr "主题设置"
+
+#: functions.php:728
+msgid "All categories"
+msgstr "所有类别"
 
