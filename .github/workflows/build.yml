@@ -21,9 +21,10 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: updating translations
-          title: Update .mo files
-          body: Updating translations
-          branch: translation-build-patch
+          commit-message: updating translations for $GITHUB_REF
+          title: Update translations for $GITHUB_REF
+          body: Updating translations $GITHUB_REF branch in $GITHUB_REPOSITORY repository
+          source-branch: $GITHUB_REF
+          branch: $GITHUB_REF/build-patch
           delete-branch: true
           branch-suffix: timestamp
