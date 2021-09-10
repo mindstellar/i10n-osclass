@@ -66,7 +66,6 @@ def get_translations():
                     md5sum_new = ''
                     for file in required_files:
                         md5sum_new += str(os.path.getsize(translations_dir + dir + '/' + file))
-                        md5sum_new += str(os.path.getmtime(translations_dir + dir + '/' + file))
                     # Check if md5sum_file is same as md5sum_new
                     if md5sum_file == md5sum_new:
                         # Skip Zip file creation
