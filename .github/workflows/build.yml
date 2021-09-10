@@ -4,11 +4,6 @@ on:
     branches:
       - master
       - develop
-      jobs:
-        - update-template
-        - compile-translations
-        - create-distribution
-        - crete-pull-request
   workflow_dispatch:
 jobs:
   update-template:
