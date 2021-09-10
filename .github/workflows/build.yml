@@ -24,6 +24,6 @@ jobs:
           commit-message: updating translations for ${{ github.event.workflow.branch }}
           title: Update translations for ${{ github.event.workflow.branch }}
           body: Updating translations for ${{ github.event.workflow.branch }} [ci skip]
-          branch: ${{ github.event.workflow.branch }}/build-patch 
+          branch: build-patch."$GITHUB_REF" 
           delete-branch: true
           branch-suffix: timestamp
