@@ -27,6 +27,18 @@ cd tmp || exit
 # clone git@github.com:mindstellar/osclass and checkout same branch name in tmp directory
 git clone --branch "$branch" https://github.com/mindstellar/Osclass.git
 cd Osclass || exit
+# Get last commit hash of current branch
+last_commit=$(git rev-parse --short HEAD)
+# check if there is a .last_commit file in root directory compare it with last commit hash
+if [ -f "$ROOT_DIR/.last_commit" ]; then
+  # if there is a .last_commit file in root directory compare it with last commit hash if same stop script gracefully
+  if [ "$(cat "$ROOT_DIR/.last_commit")" == "$last_commit" ]; then
+    echo "No changes in the repo"
+    exit
+  fi
+fi
+# create a .last_commit file in root of directory with last commit hash
+echo "$last_commit" > "$ROOT_DIR/.last_commit"
 #Create Fresh gettext pot file for core
 # shellcheck disable=SC2038
 find ./oc-admin/ ./oc-includes/osclass/ -type f -name '*.php' |
