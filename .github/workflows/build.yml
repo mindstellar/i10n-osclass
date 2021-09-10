@@ -6,15 +6,24 @@ on:
       - develop
   workflow_dispatch:
 jobs:
-  update-template:
+  Build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run build
-        run: sh scripts/build.sh
       - name: Install gettext
         run: sudo apt-get install gettext -y
+      - name: Run build
+        run: sh scripts/build.sh
       - name: Compile po files
         run: sh scripts/compile.sh
       - name: Run dist
         run: python3 scripts/dist.py
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: updating translations
+          title: Update .mo files
+          body: Updating translations
+          branch: translation-build-patch
+          delete-branch: true
+          branch-suffix: timestamp
