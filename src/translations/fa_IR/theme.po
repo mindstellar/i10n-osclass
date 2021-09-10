@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-09-04 09:36\n"
+"POT-Creation-Date: 2021-09-10 20:32+0000\n"
+"PO-Revision-Date: 2021-09-10 21:30\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -17,298 +17,282 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:444
-#: tmp/osclass/oc-content/themes/bender/functions.php:491
-msgid "Alerts"
-msgstr "هشدارها"
-
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "این اقدام قابل بازگرداندن نیست. آیا مطمئن هستید که می‌خواهید ادامه دهید؟"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:27
+#: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
 msgstr "اشتراک شما در این اعلامیه با موفقیت انجام شد"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:28
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
+#: alert-form.php:28 user-change_email.php:77
 msgid "Invalid email address"
 msgstr "ایمیل نامعتبر است"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:29
+#: alert-form.php:29
 msgid "There was a problem with the alert"
 msgstr "مشکلی در اطلاعیه وجود داشت"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:33
+#: user-change_email.php:33
 msgid "Change e-mail"
 msgstr "تغییر ایمیل"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:76
+#: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "ایمیل: این فیلد لازم است"
 
-#: tmp/osclass/oc-content/themes/bender/admin/settings.php:42
-msgid "Donate"
-msgstr "اهدا"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:42
-msgid "Remove logo"
-msgstr "حذف لوگو"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:69
-msgid "Upload"
-msgstr "آپلود"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "پوشه تصاویر <strong>%s</strong> بر روی سرور قابل نوشتن نیست."
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "osclass نمی تواند تصویر لوگو را از پنل مدیریت بارگذاری کند."
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "لطفا پوشه تصویر فوق را قابل نوشتن کنید."
-
-#: tmp/osclass/oc-content/themes/bender/loop-single-premium.php:48
-#: tmp/osclass/oc-content/themes/bender/loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "این اقدام قابل بازگرداندن نیست. آیا مطمئن هستید که می‌خواهید ادامه دهید؟"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">تاریخ انتشار</strong>: %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">تاریخ بروزرسانی:</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:55
+#: search.php:55
 msgid "Selected"
 msgstr "انتخاب شده"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:56
+#: search.php:56
 msgid "Nothing selected, input was"
 msgstr "هیچ چیز انتخاب نشده، ورودی بود"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:71
+#: search.php:71
 #, php-format
 msgid "There are no results matching \"%s\""
 msgstr "هیچ نتیجه‌ای مطابق با \"%s\" نیست"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:75
+#: search.php:75
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
 msgstr ""
 
-#: tmp/osclass/oc-content/themes/bender/search.php:121
+#: search.php:121
 msgid "Premium listings"
 msgstr ""
 
-#: tmp/osclass/oc-content/themes/bender/search.php:129
-#: tmp/osclass/oc-content/themes/bender/functions.php:443
-#: tmp/osclass/oc-content/themes/bender/functions.php:486
+#: search.php:129 functions.php:443 functions.php:486
 msgid "Listings"
 msgstr "آگهی‌ها"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_password.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:448
-#: tmp/osclass/oc-content/themes/bender/functions.php:451
-#: tmp/osclass/oc-content/themes/bender/functions.php:511
+#: common/head.php:25
+msgid "Delete"
+msgstr "حذف"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "لغو"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr ""
+
+#: common/head.php:73
+msgid "Next image"
+msgstr ""
+
+#: common/head.php:74
+msgid "Close"
+msgstr "بستن"
+
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
 msgid "Change password"
 msgstr "تغییر رمز عبور"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:35
-#: tmp/osclass/oc-content/themes/bender/header.php:48
+#: user-change_username.php:34 functions.php:447 functions.php:506
+msgid "Change username"
+msgstr "تغییر نام کاربری"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "نام کاربری: این فیلد لازم است"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "نام کاربری در دسترس است."
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "نام کاربری در دسترس نیست"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "این اقدام قابل بازگرداندن نیست. آیا مطمئن هستید که می‌خواهید ادامه دهید؟"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "هشدارها"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "این اقدام قابل بازگرداندن نیست. آیا مطمئن هستید که می‌خواهید ادامه دهید؟"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "اهدا"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "حذف لوگو"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "آپلود"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "پوشه تصاویر <strong>%s</strong> بر روی سرور قابل نوشتن نیست."
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "osclass نمی تواند تصویر لوگو را از پنل مدیریت بارگذاری کند."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "لطفا پوشه تصویر فوق را قابل نوشتن کنید."
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">تاریخ انتشار</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">تاریخ بروزرسانی:</strong> %1$s"
+
+#: footer.php:35 header.php:48
 #, php-format
 msgid "Hi %s"
 msgstr "درود %s"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:69
+#: footer.php:69
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
 msgstr ""
 
-#: tmp/osclass/oc-content/themes/bender/item-post.php:61
-#: tmp/osclass/oc-content/themes/bender/header.php:74
-msgid "Select a category"
-msgstr "انتخاب یک دسته"
-
-#: tmp/osclass/oc-content/themes/bender/user-profile.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:445
+#: user-profile.php:32 functions.php:445
 msgid "Update account"
 msgstr "بروز رسانی حساب"
 
-#: tmp/osclass/oc-content/themes/bender/common/head.php:25
-msgid "Delete"
-msgstr "حذف"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:26
-msgid "Cancel"
-msgstr "لغو"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:72
-msgid "Previous image"
-msgstr ""
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:73
-msgid "Next image"
-msgstr ""
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:74
-msgid "Close"
-msgstr "بستن"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:34
-#: tmp/osclass/oc-content/themes/bender/functions.php:447
-#: tmp/osclass/oc-content/themes/bender/functions.php:506
-msgid "Change username"
-msgstr "تغییر نام کاربری"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "نام کاربری: این فیلد لازم است"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
-msgid "The username is available"
-msgstr "نام کاربری در دسترس است."
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "نام کاربری در دسترس نیست"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "نام: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "ایمیل: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "تلفن: %s"
-
-#: tmp/osclass/oc-content/themes/bender/user-sidebar.php:28
-#: tmp/osclass/oc-content/themes/bender/functions.php:516
-msgid "Delete account"
-msgstr "حذف حساب"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "به عنوان مثال: برنامه نویس"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:434
-msgid "Publish a listing"
-msgstr "انتشار یک آگهی"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:435
-msgid "Edit your listing"
-msgstr "ویرایش آگهی شما"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:436
-msgid "Send to a friend"
-msgstr "ارسال به دوست"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:437
-msgid "Contact publisher"
-msgstr "تماس با ناشر"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:438
-msgid "Search results"
-msgstr "نتایج جستجو"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "نتایج جستجو: %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:440
-msgid "Dashboard"
-msgstr "پیشخوان"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "پروفایل %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:442
-#: tmp/osclass/oc-content/themes/bender/functions.php:496
-msgid "Account"
-msgstr "حساب کاربری"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:446
-#: tmp/osclass/oc-content/themes/bender/functions.php:501
-msgid "Change email"
-msgstr "تغییر ایمیل"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:449
-msgid "Login"
-msgstr "ورود"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:450
-msgid "Recover password"
-msgstr "بازیابی رمز عبور"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:452
-msgid "Create a new account"
-msgstr "ایجاد یک حساب جدید"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:453
-msgid "Contact"
-msgstr "تماس با ما"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:481
-msgid "Public Profile"
-msgstr ""
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "تنظیمات پوسته به درستی بروزرسانی شد."
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "تصویر لوگو به درستی بارگذاری شد"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "خطایی رخ داده است، لطفا دوباره سعی کنید."
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:636
-msgid "The logo image has been removed"
-msgstr "تصویر لوگو پاک شد."
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:638
-msgid "Image not found"
-msgstr "تصویر یافت نشد"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:666
-msgid "Header logo"
-msgstr "لوگوی هدر"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:668
-msgid "Theme settings"
-msgstr "تنظیمات پوسته"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:728
-msgid "All categories"
-msgstr "تمام دسته ها"
-
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:67
+#: user-public-profile.php:67
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
 msgstr "<strong>آدرس:</strong> %1$s"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:70
+#: user-public-profile.php:70
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>موقعیت:</strong> %1$s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "حذف حساب"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "انتخاب یک دسته"
+
+#: item-sidebar.php:70
+#, php-format
+msgid "Name: %s"
+msgstr "نام: %s"
+
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "ایمیل: %s"
+
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "تلفن: %s"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "به عنوان مثال: برنامه نویس"
+
+#: functions.php:434
+msgid "Publish a listing"
+msgstr "انتشار یک آگهی"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "ویرایش آگهی شما"
+
+#: functions.php:436
+msgid "Send to a friend"
+msgstr "ارسال به دوست"
+
+#: functions.php:437
+msgid "Contact publisher"
+msgstr "تماس با ناشر"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "نتایج جستجو"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "نتایج جستجو: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "پیشخوان"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "پروفایل %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "حساب کاربری"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "تغییر ایمیل"
+
+#: functions.php:449
+msgid "Login"
+msgstr "ورود"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "بازیابی رمز عبور"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "ایجاد یک حساب جدید"
+
+#: functions.php:453
+msgid "Contact"
+msgstr "تماس با ما"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr ""
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "تنظیمات پوسته به درستی بروزرسانی شد."
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "تصویر لوگو به درستی بارگذاری شد"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "خطایی رخ داده است، لطفا دوباره سعی کنید."
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "تصویر لوگو پاک شد."
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "تصویر یافت نشد"
+
+#: functions.php:666
+msgid "Header logo"
+msgstr "لوگوی هدر"
+
+#: functions.php:668
+msgid "Theme settings"
+msgstr "تنظیمات پوسته"
+
+#: functions.php:728
+msgid "All categories"
+msgstr "تمام دسته ها"
 
