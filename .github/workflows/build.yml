@@ -1,1 +1,46 @@
-
+name: i18n-build
+on:
+  push:
+    branches:
+      - master
+      - develop
+      jobs:
+        - update-template
+        - compile-translations
+        - create-distribution
+        - crete-pull-request
+  workflow_dispatch:
+jobs:
+  update-template:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run build
+        run: ./scripts/build.sh
+  compile-translations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install gettext
+        run: sudo apt-get install gettext -y
+      - name: Compile po files
+        run: |
+           find ./src/translations/* -name \*.po \
+                -print -execdir sh -c 'msgfmt -f -o "$(basename "$0" .po).mo" "$0"' '{}' \;
+  create-distribution:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run dist
+        run: ./scripts/dist.py
+  crete-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create a pull request
+        uses: actions/create-pull-request@v2
+        with:
+          title: "Update dist"
+          body: "{{ github.workflow.event.head_label }}"
+          head: "{{ github.workflow.event.head_ref }}"
+          base: "{{ github.workflow.event.base_ref }}"
+          maintainer_can_modify: true
+          delete_branch_on_merge: true
+          draft: false

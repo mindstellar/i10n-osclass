@@ -13,9 +13,12 @@ if [ -d "tmp" ]; then
   rm -rf tmp
   echo "Deleted previous tmp directory"
 fi
-# save current directory to variable ROOT_DIR
-ROOT_DIR=$(pwd)
-###  Make directory ###
+# save root directory to variable ROOT_DIR
+
+ROOT_DIR="../."
+# Change directory to root directory
+cd $ROOT_DIR
+###  Make directory in ROOT_DIR
 mkdir tmp
 # clone the git@github.com:mindstellar/osclass repo and change directory to it
 # get the current branch name
@@ -77,3 +80,4 @@ echo 'Cleaning temporary files'
 cd ..
 rm -rf tmp
 echo 'Done'
+# ------------------------------------------------------------------
