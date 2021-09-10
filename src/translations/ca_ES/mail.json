@@ -1,137 +1,137 @@
 {
-    "language": "ca_ES",
-    "template": [
-        {
-            "fk_i_page_id": 1,
-            "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - Algú té una pregunta sobre el teu anunci",
-            "s_description": "<p>Hola, {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) t'ha deixat un missatge sobre el teu anunci <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 2,
-            "s_internal_name": "email_user_validation",
-            "s_title": "Si us plau, confirma el teu compte de {WEB_TITLE}",
-            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>Si us plau, valida el teu registre fent clic a l'enllaç següent: {VALIDATION_LINK}<\/p><p>Gràcies!<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 3,
-            "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - T'has registrat correctament!",
-            "s_description": "<p> Hola, {USER_NAME}, <\/p> <p> Us heu registrat correctament a {WEB_LINK}. <\/p> <p> Gràcies! <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>\nCONTEXTEDIT"
-        },
-        {
-            "fk_i_page_id": 4,
-            "s_internal_name": "email_send_friend",
-            "s_title": "Mira què he descobert a {WEB_TITLE}",
-            "s_description": "<p>Hola, {FRIEND_NAME}!<\/p><p>El teu amic {USER_NAME} vol compartir aquest anunci amb tu <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Missatge:<\/p><p>{COMMENT}<\/p><p>Salutacions,<\/p><p>{WEB_TITLE}<\/p>"
-        },
-        {
-            "fk_i_page_id": 5,
-            "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - Nous anuncis in the last hour",
-            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'han publicat nous anuncis al llarg de l'última hora. Dóna'ls un cop d'ull:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aquí:{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 6,
-            "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - Nous anuncis in the last day",
-            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'han publicat nous anuncis al llarg d'ahir. Dóna'ls un cop d'ull:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aquí:{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 7,
-            "s_internal_name": "alert_email_weekly",
-            "s_title": "{WEB_TITLE} - Nous anuncis in the last week",
-            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'han publicat nous anuncis al llarg d'aquesta setmana. Dóna'ls un cop d'ull:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aquí: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 8,
-            "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - Nous anuncis",
-            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'ha publicat un nou anunci, dóna-li un cop d'ull!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aquí: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 9,
-            "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - Nou comentari",
-            "s_description": "<p> Algú ha comentat la fitxa <a href=\"{ITEM_URL}\"> {ITEM_TITLE} <\/a>. <\/p> <p> Comentarista: {COMMENT_AUTHOR} <br \/> Correu electrònic del comentarista: {COMMENT_EMAIL} <br \/> Títol: {COMMENT_TITLE} <br \/> Comentari: {COMMENT_TEXT} <\/p>"
-        },
-        {
-            "fk_i_page_id": 10,
-            "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - Edita les opcions de l'anunci {ITEM_TITLE}",
-            "s_description": "<p> Hola, {USER_NAME}, <\/p> <p> No esteu registrat a {WEB_LINK}, però encara podeu editar o suprimir la llista <a href=\"{ITEM_URL}\"> {ITEM_TITLE} <\/a> durant un curt període de temps. <\/p> <p> Podeu editar la vostra fitxa seguint aquest enllaç: {EDIT_LINK} <\/p> <p> Podeu suprimir la vostra fitxa seguint aquest enllaç: {DELETE_LINK} <\/p> <p> Si us registreu com a usuari, tindreu accés complet a les opcions d'edició. <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
-        },
-        {
-            "fk_i_page_id": 11,
-            "s_internal_name": "email_item_validation",
-            "s_title": "{WEB_TITLE} - Confirma el teu anunci",
-            "s_description": "<p> Hola, {USER_NAME}, <\/p> <p> Esteu rebent aquest correu electrònic perquè s'ha publicat una fitxa a {WEB_LINK}. Valideu aquest llistat fent clic al següent enllaç: {VALIDATION_LINK}. Si no vau publicar aquesta fitxa, ignoreu aquest correu electrònic. <\/p> <p> Detalls de la fitxa: <\/p> <p> Nom del contacte: {USER_NAME} <br \/> Correu electrònic de contacte: {USER_EMAIL} <\/p> <p> {ITEM_DESCRIPTION} <\/p> <p> URL: {ITEM_URL} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
-        },
-        {
-            "fk_i_page_id": 12,
-            "s_internal_name": "email_admin_new_item",
-            "s_title": "{WEB_TITLE} - S'ha publicat un nou anunci",
-            "s_description": "<p> Benvolgut administrador {WEB_TITLE}, <\/p> <p> Rep aquest correu electrònic perquè s'ha publicat una fitxa a {WEB_LINK}. <\/p> <p> Detalls de la llista: <\/p> <p> Nom del contacte: {USER_NAME} <br \/> Correu electrònic de contacte: {USER_EMAIL} <\/p> <p> {ITEM_DESCRIPTION} <\/p> <p> URL: {ITEM_URL} <\/p> <p> Podeu editar aquest llistat fent clic al següent enllaç: {EDIT_LINK} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
-        },
-        {
-            "fk_i_page_id": 13,
-            "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - Recupera la teva contrasenya",
-            "s_description": "<p> Hola, {USER_NAME}, <\/p> <p> Us hem enviat aquest correu electrònic perquè heu sol·licitat un recordatori de contrasenya. Seguiu aquest enllaç per recuperar-lo: {PASSWORD_LINK} <\/p> <p> L'enllaç es desactivarà d'aquí a 24 hores. <\/p> <p> Si no heu sol·licitat cap recordatori de contrasenya, ignoreu aquest missatge. Aquesta sol·licitud es va fer des de l'adreça IP {IP_ADDRESS} el dia {DATE_TIME} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
-        },
-        {
-            "fk_i_page_id": 14,
-            "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} - Has sol·licitat un canvi d'adreça de correu electrònic",
-            "s_description": "<p> Hola, {USER_NAME} <\/p> <p> Esteu rebent aquest correu electrònic perquè heu sol·licitat un canvi de correu electrònic. Confirmeu aquesta nova adreça de correu electrònic fent clic al següent enllaç de validació: {VALIDATION_LINK} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
-        },
-        {
-            "fk_i_page_id": 15,
-            "s_internal_name": "email_alert_validation",
-            "s_title": "{WEB_TITLE} - Si us plau, confirma el teu avís",
-            "s_description": "<p>Hola, {USER_NAME}!<\/p><p>Si us plau, confirma el teu registre a les alertes fent clic a l'enllaç següent: {VALIDATION_LINK}<\/p><p>Gràcies!<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 16,
-            "s_internal_name": "email_comment_validated",
-            "s_title": "{WEB_TITLE} - El teu comentari ha estat acceptat",
-            "s_description": "<p>Hola, {COMMENT_AUTHOR}!<\/p><p>El teu comentari a <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> ha estat aprovat.<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 17,
-            "s_internal_name": "email_item_validation_non_register_user",
-            "s_title": "{WEB_TITLE} - Confirma el teu anunci",
-            "s_description": "<p> Hola, {USER_NAME}, <\/p> <p> Reps aquest correu electrònic perquè has publicat una fitxa a {WEB_LINK}. Valideu aquest llistat fent clic al següent enllaç: {VALIDATION_LINK}. Si no vau publicar aquest llistat, ignoreu aquest correu electrònic. <\/p> <p> Detalls de la llista: <\/p> <p> Nom del contacte: {USER_NAME} <br \/> Correu electrònic de contacte:\n{USER_EMAIL} <\/p> <p> {ITEM_DESCRIPTION} <\/p> <p> URL: {ITEM_URL} <\/p> <p> Fins i tot si no esteu registrat a {WEB_LINK}, podeu editar o suprimir la vostra fitxa: <\/p> <p> Podeu editar la vostra fitxa seguint aquest enllaç: {EDIT_LINK} <\/p> <p> Podeu suprimir la vostra fitxa seguint aquest enllaç: {DELETE_LINK} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
-        },
-        {
-            "fk_i_page_id": 18,
-            "s_internal_name": "email_admin_new_user",
-            "s_title": "{WEB_TITLE} - Un nou usuari s'ha registrat",
-            "s_description": "<p> Benvolgut administrador {WEB_TITLE}, <\/p> <p> Reps aquest correu electrònic perquè s'ha creat un usuari nou a {WEB_LINK}. <\/p> <p> Detalls de l'usuari: <\/p> <p > Nom: {USER_NAME} <br \/> Correu electrònic: {USER_EMAIL} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
-        },
-        {
-            "fk_i_page_id": 19,
-            "s_internal_name": "email_contact_user",
-            "s_title": "{WEB_TITLE} - Algú té una pregunta per a tu",
-            "s_description": "<p>Hola, {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) t'ha deixat un missatge:<\/p><p>{COMMENT}<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 20,
-            "s_internal_name": "email_new_comment_user",
-            "s_title": "{WEB_TITLE} - Algú ha comentat el teu anunci",
-            "s_description": "<p> Hi ha un comentari nou a la fitxa: <a href=\"{ITEM_URL}\"> {ITEM_TITLE} <\/a>. <\/p> <p> Autor: {COMMENT_AUTHOR} <br \/> Correu electrònic de l'autor: {COMMENT_EMAIL} <br \/> Títol: {COMMENT_TITLE} <br \/> Comentari: {COMMENT_TEXT} <\/p> <p> {WEB_LINK} <\/p>"
-        },
-        {
-            "fk_i_page_id": 21,
-            "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - Compte d'administrador creat amb èxit!",
-            "s_description": "<p>Hola, {ADMIN_NAME}!<\/p><p>L'administrador de {WEB_LINK} ha creat un compte per a tu,<\/p><ul><li>Nom d'usuari: {USERNAME}<\/li><li>Contrasenya: {PASSWORD}<\/li><\/ul><p>Pots accedir al tauler d'administració aquí {WEB_ADMIN_LINK}.<\/p><p>Gràcies!<\/p><p>Salutacions,<\/p>"
-        },
-        {
-            "fk_i_page_id": 22,
-            "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - El teu anunci està a punt de caducar",
-            "s_description": "<p>Hola, {USER_NAME}! <\/p><p>El teu anunci <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> està a punt de caducar a {WEB_LINK}."
-        }
-    ]
+  "language": "ca_ES",
+  "template": [
+    {
+      "fk_i_page_id": 1,
+      "s_internal_name": "email_item_inquiry",
+      "s_title": "{WEB_TITLE} - Algú té una pregunta sobre el teu anunci",
+      "s_description": "<p>Hola, {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) t'ha deixat un missatge sobre el teu anunci <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 2,
+      "s_internal_name": "email_user_validation",
+      "s_title": "Si us plau, confirma el teu compte de {WEB_TITLE}",
+      "s_description": "<p>Hola, {USER_NAME}!<\/p><p>Si us plau, valida el teu registre fent clic a l'enllaç següent: {VALIDATION_LINK}<\/p><p>Gràcies!<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 3,
+      "s_internal_name": "email_user_registration",
+      "s_title": "{WEB_TITLE} - T'has registrat correctament!",
+      "s_description": "<p> Hola, {USER_NAME}, <\/p> <p> Us heu registrat correctament a {WEB_LINK}. <\/p> <p> Gràcies! <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>\nCONTEXTEDIT"
+    },
+    {
+      "fk_i_page_id": 4,
+      "s_internal_name": "email_send_friend",
+      "s_title": "Mira què he descobert a {WEB_TITLE}",
+      "s_description": "<p>Hola, {FRIEND_NAME}!<\/p><p>El teu amic {USER_NAME} vol compartir aquest anunci amb tu <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Missatge:<\/p><p>{COMMENT}<\/p><p>Salutacions,<\/p><p>{WEB_TITLE}<\/p>"
+    },
+    {
+      "fk_i_page_id": 5,
+      "s_internal_name": "alert_email_hourly",
+      "s_title": "{WEB_TITLE} - Nous anuncis in the last hour",
+      "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'han publicat nous anuncis al llarg de l'última hora. Dóna'ls un cop d'ull:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aquí:{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 6,
+      "s_internal_name": "alert_email_daily",
+      "s_title": "{WEB_TITLE} - Nous anuncis in the last day",
+      "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'han publicat nous anuncis al llarg d'ahir. Dóna'ls un cop d'ull:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aquí:{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 7,
+      "s_internal_name": "alert_email_weekly",
+      "s_title": "{WEB_TITLE} - Nous anuncis in the last week",
+      "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'han publicat nous anuncis al llarg d'aquesta setmana. Dóna'ls un cop d'ull:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aquí: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 8,
+      "s_internal_name": "alert_email_instant",
+      "s_title": "{WEB_TITLE} - Nous anuncis",
+      "s_description": "<p>Hola, {USER_NAME}!<\/p><p>S'ha publicat un nou anunci, dóna-li un cop d'ull!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per deixar de rebre aquests avisos, fes clic aquí: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 9,
+      "s_internal_name": "email_new_comment_admin",
+      "s_title": "{WEB_TITLE} - Nou comentari",
+      "s_description": "<p> Algú ha comentat la fitxa <a href=\"{ITEM_URL}\"> {ITEM_TITLE} <\/a>. <\/p> <p> Comentarista: {COMMENT_AUTHOR} <br \/> Correu electrònic del comentarista: {COMMENT_EMAIL} <br \/> Títol: {COMMENT_TITLE} <br \/> Comentari: {COMMENT_TEXT} <\/p>"
+    },
+    {
+      "fk_i_page_id": 10,
+      "s_internal_name": "email_new_item_non_register_user",
+      "s_title": "{WEB_TITLE} - Edita les opcions de l'anunci {ITEM_TITLE}",
+      "s_description": "<p> Hola, {USER_NAME}, <\/p> <p> No esteu registrat a {WEB_LINK}, però encara podeu editar o suprimir la llista <a href=\"{ITEM_URL}\"> {ITEM_TITLE} <\/a> durant un curt període de temps. <\/p> <p> Podeu editar la vostra fitxa seguint aquest enllaç: {EDIT_LINK} <\/p> <p> Podeu suprimir la vostra fitxa seguint aquest enllaç: {DELETE_LINK} <\/p> <p> Si us registreu com a usuari, tindreu accés complet a les opcions d'edició. <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
+    },
+    {
+      "fk_i_page_id": 11,
+      "s_internal_name": "email_item_validation",
+      "s_title": "{WEB_TITLE} - Confirma el teu anunci",
+      "s_description": "<p> Hola, {USER_NAME}, <\/p> <p> Esteu rebent aquest correu electrònic perquè s'ha publicat una fitxa a {WEB_LINK}. Valideu aquest llistat fent clic al següent enllaç: {VALIDATION_LINK}. Si no vau publicar aquesta fitxa, ignoreu aquest correu electrònic. <\/p> <p> Detalls de la fitxa: <\/p> <p> Nom del contacte: {USER_NAME} <br \/> Correu electrònic de contacte: {USER_EMAIL} <\/p> <p> {ITEM_DESCRIPTION} <\/p> <p> URL: {ITEM_URL} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
+    },
+    {
+      "fk_i_page_id": 12,
+      "s_internal_name": "email_admin_new_item",
+      "s_title": "{WEB_TITLE} - S'ha publicat un nou anunci",
+      "s_description": "<p> Benvolgut administrador {WEB_TITLE}, <\/p> <p> Rep aquest correu electrònic perquè s'ha publicat una fitxa a {WEB_LINK}. <\/p> <p> Detalls de la llista: <\/p> <p> Nom del contacte: {USER_NAME} <br \/> Correu electrònic de contacte: {USER_EMAIL} <\/p> <p> {ITEM_DESCRIPTION} <\/p> <p> URL: {ITEM_URL} <\/p> <p> Podeu editar aquest llistat fent clic al següent enllaç: {EDIT_LINK} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
+    },
+    {
+      "fk_i_page_id": 13,
+      "s_internal_name": "email_user_forgot_password",
+      "s_title": "{WEB_TITLE} - Recupera la teva contrasenya",
+      "s_description": "<p> Hola, {USER_NAME}, <\/p> <p> Us hem enviat aquest correu electrònic perquè heu sol·licitat un recordatori de contrasenya. Seguiu aquest enllaç per recuperar-lo: {PASSWORD_LINK} <\/p> <p> L'enllaç es desactivarà d'aquí a 24 hores. <\/p> <p> Si no heu sol·licitat cap recordatori de contrasenya, ignoreu aquest missatge. Aquesta sol·licitud es va fer des de l'adreça IP {IP_ADDRESS} el dia {DATE_TIME} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
+    },
+    {
+      "fk_i_page_id": 14,
+      "s_internal_name": "email_new_email",
+      "s_title": "{WEB_TITLE} - Has sol·licitat un canvi d'adreça de correu electrònic",
+      "s_description": "<p> Hola, {USER_NAME} <\/p> <p> Esteu rebent aquest correu electrònic perquè heu sol·licitat un canvi de correu electrònic. Confirmeu aquesta nova adreça de correu electrònic fent clic al següent enllaç de validació: {VALIDATION_LINK} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
+    },
+    {
+      "fk_i_page_id": 15,
+      "s_internal_name": "email_alert_validation",
+      "s_title": "{WEB_TITLE} - Si us plau, confirma el teu avís",
+      "s_description": "<p>Hola, {USER_NAME}!<\/p><p>Si us plau, confirma el teu registre a les alertes fent clic a l'enllaç següent: {VALIDATION_LINK}<\/p><p>Gràcies!<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 16,
+      "s_internal_name": "email_comment_validated",
+      "s_title": "{WEB_TITLE} - El teu comentari ha estat acceptat",
+      "s_description": "<p>Hola, {COMMENT_AUTHOR}!<\/p><p>El teu comentari a <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> ha estat aprovat.<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 17,
+      "s_internal_name": "email_item_validation_non_register_user",
+      "s_title": "{WEB_TITLE} - Confirma el teu anunci",
+      "s_description": "<p> Hola, {USER_NAME}, <\/p> <p> Reps aquest correu electrònic perquè has publicat una fitxa a {WEB_LINK}. Valideu aquest llistat fent clic al següent enllaç: {VALIDATION_LINK}. Si no vau publicar aquest llistat, ignoreu aquest correu electrònic. <\/p> <p> Detalls de la llista: <\/p> <p> Nom del contacte: {USER_NAME} <br \/> Correu electrònic de contacte:\n{USER_EMAIL} <\/p> <p> {ITEM_DESCRIPTION} <\/p> <p> URL: {ITEM_URL} <\/p> <p> Fins i tot si no esteu registrat a {WEB_LINK}, podeu editar o suprimir la vostra fitxa: <\/p> <p> Podeu editar la vostra fitxa seguint aquest enllaç: {EDIT_LINK} <\/p> <p> Podeu suprimir la vostra fitxa seguint aquest enllaç: {DELETE_LINK} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
+    },
+    {
+      "fk_i_page_id": 18,
+      "s_internal_name": "email_admin_new_user",
+      "s_title": "{WEB_TITLE} - Un nou usuari s'ha registrat",
+      "s_description": "<p> Benvolgut administrador {WEB_TITLE}, <\/p> <p> Reps aquest correu electrònic perquè s'ha creat un usuari nou a {WEB_LINK}. <\/p> <p> Detalls de l'usuari: <\/p> <p > Nom: {USER_NAME} <br \/> Correu electrònic: {USER_EMAIL} <\/p> <p> Salutacions, <\/p> <p> {WEB_LINK} <\/p>"
+    },
+    {
+      "fk_i_page_id": 19,
+      "s_internal_name": "email_contact_user",
+      "s_title": "{WEB_TITLE} - Algú té una pregunta per a tu",
+      "s_description": "<p>Hola, {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) t'ha deixat un missatge:<\/p><p>{COMMENT}<\/p><p>Salutacions,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 20,
+      "s_internal_name": "email_new_comment_user",
+      "s_title": "{WEB_TITLE} - Algú ha comentat el teu anunci",
+      "s_description": "<p> Hi ha un comentari nou a la fitxa: <a href=\"{ITEM_URL}\"> {ITEM_TITLE} <\/a>. <\/p> <p> Autor: {COMMENT_AUTHOR} <br \/> Correu electrònic de l'autor: {COMMENT_EMAIL} <br \/> Títol: {COMMENT_TITLE} <br \/> Comentari: {COMMENT_TEXT} <\/p> <p> {WEB_LINK} <\/p>"
+    },
+    {
+      "fk_i_page_id": 21,
+      "s_internal_name": "email_new_admin",
+      "s_title": "{WEB_TITLE} - Compte d'administrador creat amb èxit!",
+      "s_description": "<p>Hola, {ADMIN_NAME}!<\/p><p>L'administrador de {WEB_LINK} ha creat un compte per a tu,<\/p><ul><li>Nom d'usuari: {USERNAME}<\/li><li>Contrasenya: {PASSWORD}<\/li><\/ul><p>Pots accedir al tauler d'administració aquí {WEB_ADMIN_LINK}.<\/p><p>Gràcies!<\/p><p>Salutacions,<\/p>"
+    },
+    {
+      "fk_i_page_id": 22,
+      "s_internal_name": "email_warn_expiration",
+      "s_title": "{WEB_TITLE} - El teu anunci està a punt de caducar",
+      "s_description": "<p>Hola, {USER_NAME}! <\/p><p>El teu anunci <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> està a punt de caducar a {WEB_LINK}."
+    }
+  ]
 }
