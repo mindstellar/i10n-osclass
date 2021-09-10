@@ -8,27 +8,22 @@ on:
 jobs:
   update-template:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        # Set the working directory to the root of the repository
-        working-directory: "${{ github.repository }}"
     steps:
       - uses: actions/checkout@v2
       - name: Run build
-        run: sh ./scripts/build.sh
+        run: sh scripts/build.sh
   compile-translations:
     runs-on: ubuntu-latest
     steps:
       - name: Install gettext
         run: sudo apt-get install gettext -y
       - name: Compile po files
-        run: sh ./scripts/compile.sh
+        run: sh scripts/compile.sh
   create-distribution:
     runs-on: ubuntu-latest
     steps:
       - name: Run dist
-        run: python3 ./scripts/dist.py
+        run: python3 scripts/dist.py
   crete-pull-request:
     runs-on: ubuntu-latest
     steps:
