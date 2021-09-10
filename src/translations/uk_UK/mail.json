@@ -1,137 +1,137 @@
 {
-    "language": "uk_UK",
-    "template": [
-        {
-            "fk_i_page_id": 1,
-            "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - У когось є питання про ваше оголошення",
-            "s_description": "<p>Привіт {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) залишив Вам повідомлення про Ваше оголошення <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 2,
-            "s_internal_name": "email_user_validation",
-            "s_title": "Прохання підтвердити ваш {WEB_TITLE} обліковий запис",
-            "s_description": "<p>Привіт {USER_NAME},<\/p><p> підтвердіть реєстрацію, натиснувши на посилання: {VALIDATION_LINK}<\/p><p>Спасибі!<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 3,
-            "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - Успішна реєстрація!",
-            "s_description": "<p>Привіт, {USER_NAME},<\/p><p>Ви успішно зареєструвалися за {WEB_LINK}.<\/p><p>Дякуємо!<\/p><p>Згода,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 4,
-            "s_internal_name": "email_send_friend",
-            "s_title": "Поглянь, що я виявив на {WEB_TITLE}",
-            "s_description": "<p>Привіт {USER_NAME},<\/p><p>Ви отримали цей лист, тому що ви опублікували оголошення на {WEB_LINK}. Будь ласка, перевірте оголошення натиснувши на посилання: {VALIDATION_LINK}. Якщо ви не публікували оголошення, не звертайте уваги на цей лист.<\/p><p>Деталі:<\/p><p>Контактне ім'я: {USER_NAME}<br \/>Контактний e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Навіть якщо ви не зареєстровані на сайті {WEB_LINK}, ви все ще можете змінити або видалити ваше оголошення:<\/p><p>Ви можете відредагувати оголошення , перейшовши за цим посиланням: {EDIT_LINK}<\/p><p>Ви можете видалити оголошення, перейшовши за цим посиланням: {DELETE_LINK}<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 5,
-            "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - Нове оголошення in the last hour",
-            "s_description": "<p>Привіт {USER_NAME},<\/p><p>Нові оголошення опубліковані за останню годину. Поглянь на них:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Щоб відписатися від цього попередження, перейдіть за посиланням: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 6,
-            "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - Нове оголошення in the last day",
-            "s_description": "<p>Привіт {USER_NAME},<\/p><p>Нові оголошення за минулий день. Поглянь на них:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Щоб відписатися від цього попередження, перейдіть за посиланням: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 7,
-            "s_internal_name": "alert_email_weekly",
-            "s_title": "{WEB_TITLE} - Нове оголошення in the last week",
-            "s_description": "<p>Привіт {USER_NAME},<\/p><p>Нові оголошення опубліковані минулого тижня. Поглянь на них:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Щоб відписатися від цього попередження, перейдіть за посиланням: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 8,
-            "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - Нове оголошення",
-            "s_description": "<p>Привіт {USER_NAME},<\/p><p>Опубліковано нове оголошення!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Для того, щоб відписатися від цього попередження, перейдіть за посиланням: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 9,
-            "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - Новий коментар",
-            "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
-        },
-        {
-            "fk_i_page_id": 10,
-            "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - Можливості редагування для оголошення {ITEM_TITLE}",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 11,
-            "s_internal_name": "email_item_validation",
-            "s_title": "{WEB_TITLE} - Підтвердження оголошення",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 12,
-            "s_internal_name": "email_admin_new_item",
-            "s_title": "{WEB_TITLE} - Опубліковано нове оголошення",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 13,
-            "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - Відновлення пароля",
-            "s_description": "<p>Привіт {USER_NAME},<\/p><p>Ми надіслали вам цю електронну пошту, оскільки ви подали запит на нагадування про пароль. Перейдіть за цим посиланням, щоб відновити його: {PASSWORD_LINK}<\/p><p>Посилання буде відключено через 24 години.<\/p><p>Якщо ви не запитували нагадування паролю, будь ласка, проігноруйте це повідомлення. Цей запит був зроблений з IP {IP_ADDRESS} на {DATE_TIME}<\/p><p>Здання,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 14,
-            "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} - Запит на зміну пошти",
-            "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 15,
-            "s_internal_name": "email_alert_validation",
-            "s_title": "{WEB_TITLE} - Будь Ласка, підтвердьте оповіщення",
-            "s_description": "<p>Привіт {USER_NAME},<\/p><p> підтвердіть реєстрацію, натиснувши на посилання: {VALIDATION_LINK}<\/p><p>Спасибі!<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 16,
-            "s_internal_name": "email_comment_validated",
-            "s_title": "{WEB_TITLE} - Ваш коментар схвалений",
-            "s_description": "<p>Привіт {COMMENT_AUTHOR},<\/p><p>Ваш коментар <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> успішно затверджено.<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 17,
-            "s_internal_name": "email_item_validation_non_register_user",
-            "s_title": "{WEB_TITLE} - Підтвердження оголошення",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 18,
-            "s_internal_name": "email_admin_new_user",
-            "s_title": "{WEB_TITLE} - Реєстрація нового користувача",
-            "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 19,
-            "s_internal_name": "email_contact_user",
-            "s_title": "{WEB_TITLE} - У когось є питання до Вас",
-            "s_description": "<p>Привіт {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) залишив повідомлення:<\/p><p>{COMMENT}<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 20,
-            "s_internal_name": "email_new_comment_user",
-            "s_title": "{WEB_TITLE} - Хтось залишив коментар на оголошення",
-            "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 21,
-            "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - Успіх створення облікового запису адміністратора!",
-            "s_description": "<p>Привіт {ИМЯ_АДМИНИСТРАТОРА},<\/p><p>admin {WEB_LINK} створив для вас обліковий запис,<\/p><ul><li>ім'я Користувача: {USERNAME}<\/li><li>Пароль: {PASSWORD}<\/li><\/ul><p>Ви можете отримати доступ до адмін-панелі, тут {WEB_ADMIN_LINK}.<\/p><p>Спасибі!<\/p><p>з Повагою,<\/p>"
-        },
-        {
-            "fk_i_page_id": 22,
-            "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - Термін вашого оголошення закінчився",
-            "s_description": "<p>Привіт {USER},<\/p><p>Термін вашого оголошення, <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> закінчується {WEB_LINK}."
-        }
-    ]
+  "language": "uk_UK",
+  "template": [
+    {
+      "fk_i_page_id": 1,
+      "s_internal_name": "email_item_inquiry",
+      "s_title": "{WEB_TITLE} - У когось є питання про ваше оголошення",
+      "s_description": "<p>Привіт {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) залишив Вам повідомлення про Ваше оголошення <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 2,
+      "s_internal_name": "email_user_validation",
+      "s_title": "Прохання підтвердити ваш {WEB_TITLE} обліковий запис",
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p> підтвердіть реєстрацію, натиснувши на посилання: {VALIDATION_LINK}<\/p><p>Спасибі!<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 3,
+      "s_internal_name": "email_user_registration",
+      "s_title": "{WEB_TITLE} - Успішна реєстрація!",
+      "s_description": "<p>Привіт, {USER_NAME},<\/p><p>Ви успішно зареєструвалися за {WEB_LINK}.<\/p><p>Дякуємо!<\/p><p>Згода,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 4,
+      "s_internal_name": "email_send_friend",
+      "s_title": "Поглянь, що я виявив на {WEB_TITLE}",
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p>Ви отримали цей лист, тому що ви опублікували оголошення на {WEB_LINK}. Будь ласка, перевірте оголошення натиснувши на посилання: {VALIDATION_LINK}. Якщо ви не публікували оголошення, не звертайте уваги на цей лист.<\/p><p>Деталі:<\/p><p>Контактне ім'я: {USER_NAME}<br \/>Контактний e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Навіть якщо ви не зареєстровані на сайті {WEB_LINK}, ви все ще можете змінити або видалити ваше оголошення:<\/p><p>Ви можете відредагувати оголошення , перейшовши за цим посиланням: {EDIT_LINK}<\/p><p>Ви можете видалити оголошення, перейшовши за цим посиланням: {DELETE_LINK}<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 5,
+      "s_internal_name": "alert_email_hourly",
+      "s_title": "{WEB_TITLE} - Нове оголошення in the last hour",
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p>Нові оголошення опубліковані за останню годину. Поглянь на них:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Щоб відписатися від цього попередження, перейдіть за посиланням: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 6,
+      "s_internal_name": "alert_email_daily",
+      "s_title": "{WEB_TITLE} - Нове оголошення in the last day",
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p>Нові оголошення за минулий день. Поглянь на них:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Щоб відписатися від цього попередження, перейдіть за посиланням: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 7,
+      "s_internal_name": "alert_email_weekly",
+      "s_title": "{WEB_TITLE} - Нове оголошення in the last week",
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p>Нові оголошення опубліковані минулого тижня. Поглянь на них:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Щоб відписатися від цього попередження, перейдіть за посиланням: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 8,
+      "s_internal_name": "alert_email_instant",
+      "s_title": "{WEB_TITLE} - Нове оголошення",
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p>Опубліковано нове оголошення!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Для того, щоб відписатися від цього попередження, перейдіть за посиланням: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 9,
+      "s_internal_name": "email_new_comment_admin",
+      "s_title": "{WEB_TITLE} - Новий коментар",
+      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+    },
+    {
+      "fk_i_page_id": 10,
+      "s_internal_name": "email_new_item_non_register_user",
+      "s_title": "{WEB_TITLE} - Можливості редагування для оголошення {ITEM_TITLE}",
+      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 11,
+      "s_internal_name": "email_item_validation",
+      "s_title": "{WEB_TITLE} - Підтвердження оголошення",
+      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 12,
+      "s_internal_name": "email_admin_new_item",
+      "s_title": "{WEB_TITLE} - Опубліковано нове оголошення",
+      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 13,
+      "s_internal_name": "email_user_forgot_password",
+      "s_title": "{WEB_TITLE} - Відновлення пароля",
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p>Ми надіслали вам цю електронну пошту, оскільки ви подали запит на нагадування про пароль. Перейдіть за цим посиланням, щоб відновити його: {PASSWORD_LINK}<\/p><p>Посилання буде відключено через 24 години.<\/p><p>Якщо ви не запитували нагадування паролю, будь ласка, проігноруйте це повідомлення. Цей запит був зроблений з IP {IP_ADDRESS} на {DATE_TIME}<\/p><p>Здання,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 14,
+      "s_internal_name": "email_new_email",
+      "s_title": "{WEB_TITLE} - Запит на зміну пошти",
+      "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 15,
+      "s_internal_name": "email_alert_validation",
+      "s_title": "{WEB_TITLE} - Будь Ласка, підтвердьте оповіщення",
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p> підтвердіть реєстрацію, натиснувши на посилання: {VALIDATION_LINK}<\/p><p>Спасибі!<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 16,
+      "s_internal_name": "email_comment_validated",
+      "s_title": "{WEB_TITLE} - Ваш коментар схвалений",
+      "s_description": "<p>Привіт {COMMENT_AUTHOR},<\/p><p>Ваш коментар <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> успішно затверджено.<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 17,
+      "s_internal_name": "email_item_validation_non_register_user",
+      "s_title": "{WEB_TITLE} - Підтвердження оголошення",
+      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 18,
+      "s_internal_name": "email_admin_new_user",
+      "s_title": "{WEB_TITLE} - Реєстрація нового користувача",
+      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 19,
+      "s_internal_name": "email_contact_user",
+      "s_title": "{WEB_TITLE} - У когось є питання до Вас",
+      "s_description": "<p>Привіт {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) залишив повідомлення:<\/p><p>{COMMENT}<\/p><p>З повагою,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 20,
+      "s_internal_name": "email_new_comment_user",
+      "s_title": "{WEB_TITLE} - Хтось залишив коментар на оголошення",
+      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 21,
+      "s_internal_name": "email_new_admin",
+      "s_title": "{WEB_TITLE} - Успіх створення облікового запису адміністратора!",
+      "s_description": "<p>Привіт {ИМЯ_АДМИНИСТРАТОРА},<\/p><p>admin {WEB_LINK} створив для вас обліковий запис,<\/p><ul><li>ім'я Користувача: {USERNAME}<\/li><li>Пароль: {PASSWORD}<\/li><\/ul><p>Ви можете отримати доступ до адмін-панелі, тут {WEB_ADMIN_LINK}.<\/p><p>Спасибі!<\/p><p>з Повагою,<\/p>"
+    },
+    {
+      "fk_i_page_id": 22,
+      "s_internal_name": "email_warn_expiration",
+      "s_title": "{WEB_TITLE} - Термін вашого оголошення закінчився",
+      "s_description": "<p>Привіт {USER},<\/p><p>Термін вашого оголошення, <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> закінчується {WEB_LINK}."
+    }
+  ]
 }
