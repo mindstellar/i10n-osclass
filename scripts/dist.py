@@ -6,8 +6,10 @@ src/translations/ directory.
 import os
 import json
 
+# current working directory
+cwd = os.getcwd()
 # Variables
-translations_dir = '../src/translations/'
+translations_dir = cwd + '/src/translations/'
 
 # Functions
 def get_translations():

@@ -14,8 +14,7 @@ if [ -d "tmp" ]; then
   echo "Deleted previous tmp directory"
 fi
 # save root directory to variable ROOT_DIR
-
-ROOT_DIR="../."
+ROOT_DIR=$(pwd)
 # Change directory to root directory
 cd $ROOT_DIR
 ###  Make directory in ROOT_DIR
