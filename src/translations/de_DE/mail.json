@@ -1,137 +1,137 @@
 {
-    "language": "de_DE",
-    "template": [
-        {
-            "fk_i_page_id": 1,
-            "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - Jemand hat eine Frage zu Ihrem Angebot",
-            "s_description": "<p>Hallo {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) hat Ihnen eine Nachricht zu Ihrem Angebot <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> geschickt:<\/p><p>{COMMENT}<\/p><p>Beste Grüße,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 2,
-            "s_internal_name": "email_user_validation",
-            "s_title": "Bitte bestätigen Sie Ihren {WEB_TITLE} Account",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>bitte bestätigen Sie Ihre Registrierung mit Klick auf folgenden Link: {VALIDATION_LINK}<\/p><p>Vielen Dank!<\/p><p>Beste Grüße,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 3,
-            "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - Registrierung erfolgreich!",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Sie haben sich erfolgreich für {WEB_LINK}registriert.<\/p><p>Vielen Dank!<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 4,
-            "s_internal_name": "email_send_friend",
-            "s_title": "Schau, was ich auf {WEB_TITLE} entdeckt habe",
-            "s_description": "<p>Hallo {FRIEND_NAME},<\/p><p>Ihr Freund {USER_NAME} möchte Ihnen dieses Angebot empfehlen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Nachricht:<\/p><p>{COMMENT}<\/p><p>Beste Grüße,<\/p><p>{WEB_TITLE}<\/p>"
-        },
-        {
-            "fk_i_page_id": 5,
-            "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - Neue Angebote in the last hour",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>In der letzten Stunde wurden neue Angebote veröffentlicht. Schauen Sie sich diese hier an:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 6,
-            "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - Neue Angebote in the last day",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>in den letzten 24 Stunden wurden neue Angebote veröffentlicht. Schauen Sie sich diese hier an:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 7,
-            "s_internal_name": "alert_email_weekly",
-            "s_title": "{WEB_TITLE} - Neue Angebote in the last week",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>es wurden neue Angebote in der letzten Woche veröffentlicht. Hier können Sie sich diese anschauen:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 8,
-            "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - Neue Angebote",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Ein neues Angebot wurde veröffentlicht. Schau es Dir an!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 9,
-            "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - Neuer Kommentar",
-            "s_description": "<p>Jemand hat die Auflistung <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>kommentiert.<\/p><p>Kommentar: {COMMENT_AUTHOR}<br \/>Kommentar E-Mail: {COMMENT_EMAIL}<br \/>Titel: {COMMENT_TITLE}<br \/>Kommentar: {COMMENT_TEXT}<\/p>"
-        },
-        {
-            "fk_i_page_id": 10,
-            "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - Optionen für das Angebot bearbeiten {ITEM_TITLE}",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Sie sind nicht registriert bei {WEB_LINK}, aber Sie können das Angebot noch bearbeiten oder löschen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> für einen kurzen Zeitraum.<\/p><p>Sie können Ihr Angebot unter folgendem Link bearbeiten: {EDIT_LINK}<\/p><p>Sie können Ihr Angebot unter folgendem Link löschen: {DELETE_LINK}<\/p><p>Wenn Sie sich als Benutzer registrieren, Sie haben vollen Zugriff auf die Bearbeitungsoptionen.<\/p><p>Grüße,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 11,
-            "s_internal_name": "email_item_validation",
-            "s_title": "{WEB_TITLE} - Bestätigen Sie Ihre Anzeige",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Sie erhalten diese E-Mail, weil ein Eintrag auf {WEB_LINK}veröffentlicht wurde. Bitte bestätigen Sie diese Eintragung, indem Sie auf folgenden Link klicken: {VALIDATION_LINK}. Wenn Sie diese Liste nicht veröffentlicht haben, ignorieren Sie bitte diese E-Mail.<\/p><p>Details:<\/p><p>Kontaktname: {USER_NAME}<br \/>Kontakt-E-Mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Grüße,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 12,
-            "s_internal_name": "email_admin_new_item",
-            "s_title": "{WEB_TITLE} - Eine neue Anzeige wurde veröffentlicht",
-            "s_description": "<p>Lieber {WEB_TITLE} Admin,<\/p><p>Sie erhalten diese E-Mail, weil ein Eintrag auf {WEB_LINK}veröffentlicht wurde.<\/p><p>Listing Details:<\/p><p>Kontaktname: {USER_NAME}<br \/>Kontakt-E-Mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Sie können diese Liste durch Klicken auf den folgenden Link bearbeiten: {EDIT_LINK}<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 13,
-            "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - Passwortwiederherstellung",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Wir haben Ihnen diese E-Mail geschickt, weil Sie eine Passwort-Erinnerung angefordert haben. Folgen Sie diesem Link, um ihn wiederherzustellen: {PASSWORD_LINK}<\/p><p>Der Link wird in 24 Stunden deaktiviert.<\/p><p>Wenn Sie keine Passwort-Erinnerung angefordert haben, ignorieren Sie bitte diese Nachricht. Diese Anfrage wurde von IP {IP_ADDRESS} am {DATE_TIME}gestellt<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 14,
-            "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} - Sie haben die Änderung Ihrer E-Mailadresse beantragt",
-            "s_description": "<p>Hallo {USER_NAME}<\/p><p>Sie erhalten diese E-Mail, weil Sie eine Änderung per E-Mail angefordert haben. Bitte bestätigen Sie diese neue E-Mail-Adresse, indem Sie auf den folgenden Bestätigungslink klicken: {VALIDATION_LINK}<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 15,
-            "s_internal_name": "email_alert_validation",
-            "s_title": "{WEB_TITLE} - Bitte bestätigen Sie Ihr Abonnement zu einer Benachrichtigung",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Bitte bestätigen Sie das Abonnement für Ihre Benachrichtigung indem Sie auf folgenden Link klicken: {VALIDATION_LINK}<\/p><p>Vielen Dank!<\/p><p>Beste Grüße,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 16,
-            "s_internal_name": "email_comment_validated",
-            "s_title": "{WEB_TITLE} - Ihr Kommentar wurde freigegeben",
-            "s_description": "<p>Hallo {COMMENT_AUTHOR},<\/p><p>Ihr Kommentar zu <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> wurde freigegeben.<\/p><p>Beste Grüße,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 17,
-            "s_internal_name": "email_item_validation_non_register_user",
-            "s_title": "{WEB_TITLE} - Bestätigen Sie Ihre Anzeige",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Sie erhalten diese E-Mail, weil Sie ein Angebot unter {WEB_LINK}veröffentlicht haben. Bitte bestätigen Sie diese Eintragung, indem Sie auf den folgenden Link klicken: {VALIDATION_LINK}. Wenn Sie diese Liste nicht veröffentlicht haben, ignorieren Sie bitte diese E-Mail.<\/p><p>Listing details:<\/p><p>Kontaktname: {USER_NAME}<br \/>Kontakt-E-Mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Auch wenn Sie nicht bei {WEB_LINK}registriert sind, Sie können Ihre Listung noch bearbeiten oder löschen:<\/p><p>Sie können Ihre Listung bearbeiten, indem Sie diesem Link folgen: {EDIT_LINK}<\/p><p>Sie können Ihre Listung löschen, indem Sie diesem Link folgen: {DELETE_LINK}<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 18,
-            "s_internal_name": "email_admin_new_user",
-            "s_title": "{WEB_TITLE} - Ein neuer Benutzer hat sich angemeldet",
-            "s_description": "<p>Lieber {WEB_TITLE} Admin,<\/p><p>Sie erhalten diese E-Mail, weil ein neuer Benutzer unter {WEB_LINK}erstellt wurde.<\/p><p>Benutzerdetails:<\/p><p>Name: {USER_NAME}<br \/>E-Mail: {USER_EMAIL}<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 19,
-            "s_internal_name": "email_contact_user",
-            "s_title": "{WEB_TITLE} - Jemand hat eine Frage an Sie",
-            "s_description": "<p>Hallo {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) hat Ihnen eine Nachricht hinterlassen:<\/p><p>{COMMENT}<\/p><p>Beste Grüße,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 20,
-            "s_internal_name": "email_new_comment_user",
-            "s_title": "{WEB_TITLE} - Jemand hat einen Kommentar zu Ihrem Angebot hinterlassen",
-            "s_description": "<p>Es gibt einen neuen Kommentar in der Liste: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Autor: {COMMENT_AUTHOR}<br \/>E-Mail des Autors: {COMMENT_EMAIL}<br \/>Titel: {COMMENT_TITLE}<br \/>Kommentar: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 21,
-            "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - Admin-Konto erfolgreich erstellt!",
-            "s_description": "<p>Sehr geehrte\/r Herr\/Frau {ADMIN_NAME},<\/p><p>Der Administrator von {WEB_LINK} hat ein Benutzerkonto für Sie angelegt:<\/p><ul><li>Benutzername: {USERNAME}<\/li><li>Passwort: {PASSWORD}<\/li><\/ul><p>Sie können das Admin-Panel hier aufrufen: {WEB_ADMIN_LINK}.<\/p><p>Vielen Dank!!<\/p><p>Mit freundlichen Grüßen,<\/p>"
-        },
-        {
-            "fk_i_page_id": 22,
-            "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - Ihre Anzeige läuft demnächst ab",
-            "s_description": "<p>Hallo {USER_NAME},<\/p><p>Ihre Anzeige <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> is dabei bald abzulaufen: {WEB_LINK}."
-        }
-    ]
+  "language": "de_DE",
+  "template": [
+    {
+      "fk_i_page_id": 1,
+      "s_internal_name": "email_item_inquiry",
+      "s_title": "{WEB_TITLE} - Jemand hat eine Frage zu Ihrem Angebot",
+      "s_description": "<p>Hallo {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) hat Ihnen eine Nachricht zu Ihrem Angebot <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> geschickt:<\/p><p>{COMMENT}<\/p><p>Beste Grüße,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 2,
+      "s_internal_name": "email_user_validation",
+      "s_title": "Bitte bestätigen Sie Ihren {WEB_TITLE} Account",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>bitte bestätigen Sie Ihre Registrierung mit Klick auf folgenden Link: {VALIDATION_LINK}<\/p><p>Vielen Dank!<\/p><p>Beste Grüße,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 3,
+      "s_internal_name": "email_user_registration",
+      "s_title": "{WEB_TITLE} - Registrierung erfolgreich!",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>Sie haben sich erfolgreich für {WEB_LINK}registriert.<\/p><p>Vielen Dank!<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 4,
+      "s_internal_name": "email_send_friend",
+      "s_title": "Schau, was ich auf {WEB_TITLE} entdeckt habe",
+      "s_description": "<p>Hallo {FRIEND_NAME},<\/p><p>Ihr Freund {USER_NAME} möchte Ihnen dieses Angebot empfehlen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Nachricht:<\/p><p>{COMMENT}<\/p><p>Beste Grüße,<\/p><p>{WEB_TITLE}<\/p>"
+    },
+    {
+      "fk_i_page_id": 5,
+      "s_internal_name": "alert_email_hourly",
+      "s_title": "{WEB_TITLE} - Neue Angebote in the last hour",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>In der letzten Stunde wurden neue Angebote veröffentlicht. Schauen Sie sich diese hier an:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 6,
+      "s_internal_name": "alert_email_daily",
+      "s_title": "{WEB_TITLE} - Neue Angebote in the last day",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>in den letzten 24 Stunden wurden neue Angebote veröffentlicht. Schauen Sie sich diese hier an:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 7,
+      "s_internal_name": "alert_email_weekly",
+      "s_title": "{WEB_TITLE} - Neue Angebote in the last week",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>es wurden neue Angebote in der letzten Woche veröffentlicht. Hier können Sie sich diese anschauen:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 8,
+      "s_internal_name": "alert_email_instant",
+      "s_title": "{WEB_TITLE} - Neue Angebote",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>Ein neues Angebot wurde veröffentlicht. Schau es Dir an!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 9,
+      "s_internal_name": "email_new_comment_admin",
+      "s_title": "{WEB_TITLE} - Neuer Kommentar",
+      "s_description": "<p>Jemand hat die Auflistung <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>kommentiert.<\/p><p>Kommentar: {COMMENT_AUTHOR}<br \/>Kommentar E-Mail: {COMMENT_EMAIL}<br \/>Titel: {COMMENT_TITLE}<br \/>Kommentar: {COMMENT_TEXT}<\/p>"
+    },
+    {
+      "fk_i_page_id": 10,
+      "s_internal_name": "email_new_item_non_register_user",
+      "s_title": "{WEB_TITLE} - Optionen für das Angebot bearbeiten {ITEM_TITLE}",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>Sie sind nicht registriert bei {WEB_LINK}, aber Sie können das Angebot noch bearbeiten oder löschen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> für einen kurzen Zeitraum.<\/p><p>Sie können Ihr Angebot unter folgendem Link bearbeiten: {EDIT_LINK}<\/p><p>Sie können Ihr Angebot unter folgendem Link löschen: {DELETE_LINK}<\/p><p>Wenn Sie sich als Benutzer registrieren, Sie haben vollen Zugriff auf die Bearbeitungsoptionen.<\/p><p>Grüße,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 11,
+      "s_internal_name": "email_item_validation",
+      "s_title": "{WEB_TITLE} - Bestätigen Sie Ihre Anzeige",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>Sie erhalten diese E-Mail, weil ein Eintrag auf {WEB_LINK}veröffentlicht wurde. Bitte bestätigen Sie diese Eintragung, indem Sie auf folgenden Link klicken: {VALIDATION_LINK}. Wenn Sie diese Liste nicht veröffentlicht haben, ignorieren Sie bitte diese E-Mail.<\/p><p>Details:<\/p><p>Kontaktname: {USER_NAME}<br \/>Kontakt-E-Mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Grüße,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 12,
+      "s_internal_name": "email_admin_new_item",
+      "s_title": "{WEB_TITLE} - Eine neue Anzeige wurde veröffentlicht",
+      "s_description": "<p>Lieber {WEB_TITLE} Admin,<\/p><p>Sie erhalten diese E-Mail, weil ein Eintrag auf {WEB_LINK}veröffentlicht wurde.<\/p><p>Listing Details:<\/p><p>Kontaktname: {USER_NAME}<br \/>Kontakt-E-Mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Sie können diese Liste durch Klicken auf den folgenden Link bearbeiten: {EDIT_LINK}<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 13,
+      "s_internal_name": "email_user_forgot_password",
+      "s_title": "{WEB_TITLE} - Passwortwiederherstellung",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>Wir haben Ihnen diese E-Mail geschickt, weil Sie eine Passwort-Erinnerung angefordert haben. Folgen Sie diesem Link, um ihn wiederherzustellen: {PASSWORD_LINK}<\/p><p>Der Link wird in 24 Stunden deaktiviert.<\/p><p>Wenn Sie keine Passwort-Erinnerung angefordert haben, ignorieren Sie bitte diese Nachricht. Diese Anfrage wurde von IP {IP_ADDRESS} am {DATE_TIME}gestellt<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 14,
+      "s_internal_name": "email_new_email",
+      "s_title": "{WEB_TITLE} - Sie haben die Änderung Ihrer E-Mailadresse beantragt",
+      "s_description": "<p>Hallo {USER_NAME}<\/p><p>Sie erhalten diese E-Mail, weil Sie eine Änderung per E-Mail angefordert haben. Bitte bestätigen Sie diese neue E-Mail-Adresse, indem Sie auf den folgenden Bestätigungslink klicken: {VALIDATION_LINK}<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 15,
+      "s_internal_name": "email_alert_validation",
+      "s_title": "{WEB_TITLE} - Bitte bestätigen Sie Ihr Abonnement zu einer Benachrichtigung",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>Bitte bestätigen Sie das Abonnement für Ihre Benachrichtigung indem Sie auf folgenden Link klicken: {VALIDATION_LINK}<\/p><p>Vielen Dank!<\/p><p>Beste Grüße,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 16,
+      "s_internal_name": "email_comment_validated",
+      "s_title": "{WEB_TITLE} - Ihr Kommentar wurde freigegeben",
+      "s_description": "<p>Hallo {COMMENT_AUTHOR},<\/p><p>Ihr Kommentar zu <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> wurde freigegeben.<\/p><p>Beste Grüße,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 17,
+      "s_internal_name": "email_item_validation_non_register_user",
+      "s_title": "{WEB_TITLE} - Bestätigen Sie Ihre Anzeige",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>Sie erhalten diese E-Mail, weil Sie ein Angebot unter {WEB_LINK}veröffentlicht haben. Bitte bestätigen Sie diese Eintragung, indem Sie auf den folgenden Link klicken: {VALIDATION_LINK}. Wenn Sie diese Liste nicht veröffentlicht haben, ignorieren Sie bitte diese E-Mail.<\/p><p>Listing details:<\/p><p>Kontaktname: {USER_NAME}<br \/>Kontakt-E-Mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Auch wenn Sie nicht bei {WEB_LINK}registriert sind, Sie können Ihre Listung noch bearbeiten oder löschen:<\/p><p>Sie können Ihre Listung bearbeiten, indem Sie diesem Link folgen: {EDIT_LINK}<\/p><p>Sie können Ihre Listung löschen, indem Sie diesem Link folgen: {DELETE_LINK}<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 18,
+      "s_internal_name": "email_admin_new_user",
+      "s_title": "{WEB_TITLE} - Ein neuer Benutzer hat sich angemeldet",
+      "s_description": "<p>Lieber {WEB_TITLE} Admin,<\/p><p>Sie erhalten diese E-Mail, weil ein neuer Benutzer unter {WEB_LINK}erstellt wurde.<\/p><p>Benutzerdetails:<\/p><p>Name: {USER_NAME}<br \/>E-Mail: {USER_EMAIL}<\/p><p>Mit freundlichen Grüßen,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 19,
+      "s_internal_name": "email_contact_user",
+      "s_title": "{WEB_TITLE} - Jemand hat eine Frage an Sie",
+      "s_description": "<p>Hallo {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) hat Ihnen eine Nachricht hinterlassen:<\/p><p>{COMMENT}<\/p><p>Beste Grüße,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 20,
+      "s_internal_name": "email_new_comment_user",
+      "s_title": "{WEB_TITLE} - Jemand hat einen Kommentar zu Ihrem Angebot hinterlassen",
+      "s_description": "<p>Es gibt einen neuen Kommentar in der Liste: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Autor: {COMMENT_AUTHOR}<br \/>E-Mail des Autors: {COMMENT_EMAIL}<br \/>Titel: {COMMENT_TITLE}<br \/>Kommentar: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 21,
+      "s_internal_name": "email_new_admin",
+      "s_title": "{WEB_TITLE} - Admin-Konto erfolgreich erstellt!",
+      "s_description": "<p>Sehr geehrte\/r Herr\/Frau {ADMIN_NAME},<\/p><p>Der Administrator von {WEB_LINK} hat ein Benutzerkonto für Sie angelegt:<\/p><ul><li>Benutzername: {USERNAME}<\/li><li>Passwort: {PASSWORD}<\/li><\/ul><p>Sie können das Admin-Panel hier aufrufen: {WEB_ADMIN_LINK}.<\/p><p>Vielen Dank!!<\/p><p>Mit freundlichen Grüßen,<\/p>"
+    },
+    {
+      "fk_i_page_id": 22,
+      "s_internal_name": "email_warn_expiration",
+      "s_title": "{WEB_TITLE} - Ihre Anzeige läuft demnächst ab",
+      "s_description": "<p>Hallo {USER_NAME},<\/p><p>Ihre Anzeige <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> is dabei bald abzulaufen: {WEB_LINK}."
+    }
+  ]
 }

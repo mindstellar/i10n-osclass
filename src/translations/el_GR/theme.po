@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-09-04 09:37\n"
+"POT-Creation-Date: 2021-09-10 20:32+0000\n"
+"PO-Revision-Date: 2021-09-10 21:29\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -17,298 +17,282 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:444
-#: tmp/osclass/oc-content/themes/bender/functions.php:491
-msgid "Alerts"
-msgstr "Ειδοποιήσεις"
-
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Αυτή ηΑυτή η ενέργεια δεν μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:27
+#: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
 msgstr "Έχετε εγγραφεί επιτυχώς στην ειδοποίηση"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:28
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
+#: alert-form.php:28 user-change_email.php:77
 msgid "Invalid email address"
 msgstr "Λάθος email"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:29
+#: alert-form.php:29
 msgid "There was a problem with the alert"
 msgstr "Υπήρξε πρόβλημα με την ειδοποίηση"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:33
+#: user-change_email.php:33
 msgid "Change e-mail"
 msgstr "Αλλαγή e-mail"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:76
+#: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "E-mail: αυτό το πεδίο είναι υποχρεωτικό"
 
-#: tmp/osclass/oc-content/themes/bender/admin/settings.php:42
-msgid "Donate"
-msgstr "Δωρεά"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:42
-msgid "Remove logo"
-msgstr "Κατάργηση λογότυπου"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:69
-msgid "Upload"
-msgstr "Μεταφόρτωση"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "Ο φάκελος εικόνων<strong>%s</strong>δεν είναι εγγράψιμος στον server σας"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Το Osclass Δεν μπορείτε να ανεβάσει την εικόνα του λογότυπου από τον πίνακα διαχείρισης."
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Παρακαλούμε κάντε τον παραπάνω  φάκελο εικόνας εγγράψιμο."
-
-#: tmp/osclass/oc-content/themes/bender/loop-single-premium.php:48
-#: tmp/osclass/oc-content/themes/bender/loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Αυτή η ενέργεια δεν μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Ημερομηνία δημοσίευσης</strong>: %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Ημερομηνία τροποποίησης:</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:55
+#: search.php:55
 msgid "Selected"
 msgstr "Επιλεγμένο"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:56
+#: search.php:56
 msgid "Nothing selected, input was"
 msgstr "Τίποτα δεν επιλέγη, το πεδίο ήταν"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:71
+#: search.php:71
 #, php-format
 msgid "There are no results matching \"%s\""
 msgstr "Δεν υπάρχουν αποτελέσματα που για \"%s\""
 
-#: tmp/osclass/oc-content/themes/bender/search.php:75
+#: search.php:75
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
 msgstr "%1$d - %2$d από %3$d καταχωρήσεις"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:121
+#: search.php:121
 msgid "Premium listings"
 msgstr "Premium καταχωρήσεις"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:129
-#: tmp/osclass/oc-content/themes/bender/functions.php:443
-#: tmp/osclass/oc-content/themes/bender/functions.php:486
+#: search.php:129 functions.php:443 functions.php:486
 msgid "Listings"
 msgstr "Αγγελίες"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_password.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:448
-#: tmp/osclass/oc-content/themes/bender/functions.php:451
-#: tmp/osclass/oc-content/themes/bender/functions.php:511
+#: common/head.php:25
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Προηγούμενη εικόνα"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Επόμενη εικόνα"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
 msgid "Change password"
 msgstr "Αλλαγή κωδικού"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:35
-#: tmp/osclass/oc-content/themes/bender/header.php:48
+#: user-change_username.php:34 functions.php:447 functions.php:506
+msgid "Change username"
+msgstr "Αλλαγή ονόματος χρήστη"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Όνομα χρήστη: Αυτό το πεδίο απαιτείται"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Το όνομα χρήστη είναι διαθέσιμο"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Το όνομα χρήστη Δεν είναι διαθέσιμο"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Αυτή η ενέργεια δεν μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "Ειδοποιήσεις"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Αυτή ηΑυτή η ενέργεια δεν μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Δωρεά"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Κατάργηση λογότυπου"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Μεταφόρτωση"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "Ο φάκελος εικόνων<strong>%s</strong>δεν είναι εγγράψιμος στον server σας"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Το Osclass Δεν μπορείτε να ανεβάσει την εικόνα του λογότυπου από τον πίνακα διαχείρισης."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Παρακαλούμε κάντε τον παραπάνω  φάκελο εικόνας εγγράψιμο."
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Ημερομηνία δημοσίευσης</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Ημερομηνία τροποποίησης:</strong> %1$s"
+
+#: footer.php:35 header.php:48
 #, php-format
 msgid "Hi %s"
 msgstr "Γειά σου %s"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:69
+#: footer.php:69
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
 msgstr "Αυτή η ιστοσελίδα χρησιμοποιεί περήφανα τα <a title=\"Osclass web\" href=\"%s\">scripts αγγελίες</a> λογισμικό <strong>Osclass</strong>"
 
-#: tmp/osclass/oc-content/themes/bender/item-post.php:61
-#: tmp/osclass/oc-content/themes/bender/header.php:74
-msgid "Select a category"
-msgstr "Επιλέξτε κατηγορία"
-
-#: tmp/osclass/oc-content/themes/bender/user-profile.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:445
+#: user-profile.php:32 functions.php:445
 msgid "Update account"
 msgstr "Ενημέρωση λογαριασμού"
 
-#: tmp/osclass/oc-content/themes/bender/common/head.php:25
-msgid "Delete"
-msgstr "Διαγραφή"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:26
-msgid "Cancel"
-msgstr "Άκυρο"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:72
-msgid "Previous image"
-msgstr "Προηγούμενη εικόνα"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:73
-msgid "Next image"
-msgstr "Επόμενη εικόνα"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:74
-msgid "Close"
-msgstr "Κλείσιμο"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:34
-#: tmp/osclass/oc-content/themes/bender/functions.php:447
-#: tmp/osclass/oc-content/themes/bender/functions.php:506
-msgid "Change username"
-msgstr "Αλλαγή ονόματος χρήστη"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Όνομα χρήστη: Αυτό το πεδίο απαιτείται"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
-msgid "The username is available"
-msgstr "Το όνομα χρήστη είναι διαθέσιμο"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Το όνομα χρήστη Δεν είναι διαθέσιμο"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "Όνομα: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "E-mail: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "Τηλέφωνο: %s"
-
-#: tmp/osclass/oc-content/themes/bender/user-sidebar.php:28
-#: tmp/osclass/oc-content/themes/bender/functions.php:516
-msgid "Delete account"
-msgstr "Διαγραφή λογαριασμού"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "π.χ.. Προγραμματιστής PHP"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:434
-msgid "Publish a listing"
-msgstr "Δημοσιεύση Αγγελίας"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:435
-msgid "Edit your listing"
-msgstr "Επεξεργασία Αγγελίας"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:436
-msgid "Send to a friend"
-msgstr "Αποστολή σε φίλο"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:437
-msgid "Contact publisher"
-msgstr "Επικοινωνία με τον αποστολέα"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:438
-msgid "Search results"
-msgstr "Αποτελέσματα Αναζήτησης"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Αποτελέσματα Αναζήτησης: %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:440
-msgid "Dashboard"
-msgstr "Πίνακας ελέγχου"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "Το προφίλ του %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:442
-#: tmp/osclass/oc-content/themes/bender/functions.php:496
-msgid "Account"
-msgstr "Λογαριασμός"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:446
-#: tmp/osclass/oc-content/themes/bender/functions.php:501
-msgid "Change email"
-msgstr "Αλλαγή email"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:449
-msgid "Login"
-msgstr "Σύνδεση"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:450
-msgid "Recover password"
-msgstr "Ανάκτηση κωδικού πρόσβασης"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:452
-msgid "Create a new account"
-msgstr "Δημιουργία Λογαριασμού"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:453
-msgid "Contact"
-msgstr "Επικοινωνία"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:481
-msgid "Public Profile"
-msgstr "Δημόσιο Προφίλ"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Οι ρυθμίσεις του Θέματος ενημερώθηκαν σωστά"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Η εικόνα του λογότυπου ανέβηκε σωστά"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Παρουσιάστηκε σφάλμα, παρακαλώ προσπαθήστε ξανά"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:636
-msgid "The logo image has been removed"
-msgstr "Η εικόνα του λογότυπου έχει αφαιρεθεί"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:638
-msgid "Image not found"
-msgstr "Η εικόνα δεν βρέθηκε"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:666
-msgid "Header logo"
-msgstr "Εικόνα Κεφαλίδας"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:668
-msgid "Theme settings"
-msgstr "Ρυθμίσειςθέματος"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:728
-msgid "All categories"
-msgstr "Όλες οι κατηγορίες"
-
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:67
+#: user-public-profile.php:67
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
 msgstr "<strong>Διεύθυνση:</strong> %1$s"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:70
+#: user-public-profile.php:70
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>Τοποθεσία:</strong> %1$s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Διαγραφή λογαριασμού"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Επιλέξτε κατηγορία"
+
+#: item-sidebar.php:70
+#, php-format
+msgid "Name: %s"
+msgstr "Όνομα: %s"
+
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "Τηλέφωνο: %s"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "π.χ.. Προγραμματιστής PHP"
+
+#: functions.php:434
+msgid "Publish a listing"
+msgstr "Δημοσιεύση Αγγελίας"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Επεξεργασία Αγγελίας"
+
+#: functions.php:436
+msgid "Send to a friend"
+msgstr "Αποστολή σε φίλο"
+
+#: functions.php:437
+msgid "Contact publisher"
+msgstr "Επικοινωνία με τον αποστολέα"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Αποτελέσματα Αναζήτησης"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Αποτελέσματα Αναζήτησης: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Πίνακας ελέγχου"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "Το προφίλ του %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Αλλαγή email"
+
+#: functions.php:449
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Ανάκτηση κωδικού πρόσβασης"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Δημιουργία Λογαριασμού"
+
+#: functions.php:453
+msgid "Contact"
+msgstr "Επικοινωνία"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Δημόσιο Προφίλ"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Οι ρυθμίσεις του Θέματος ενημερώθηκαν σωστά"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Η εικόνα του λογότυπου ανέβηκε σωστά"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Παρουσιάστηκε σφάλμα, παρακαλώ προσπαθήστε ξανά"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Η εικόνα του λογότυπου έχει αφαιρεθεί"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Η εικόνα δεν βρέθηκε"
+
+#: functions.php:666
+msgid "Header logo"
+msgstr "Εικόνα Κεφαλίδας"
+
+#: functions.php:668
+msgid "Theme settings"
+msgstr "Ρυθμίσειςθέματος"
+
+#: functions.php:728
+msgid "All categories"
+msgstr "Όλες οι κατηγορίες"
 

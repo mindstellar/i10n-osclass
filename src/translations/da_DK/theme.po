@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-09-04 09:37\n"
+"POT-Creation-Date: 2021-09-10 20:32+0000\n"
+"PO-Revision-Date: 2021-09-10 21:28\n"
 "Last-Translator: \n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
@@ -17,298 +17,282 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:444
-#: tmp/osclass/oc-content/themes/bender/functions.php:491
-msgid "Alerts"
-msgstr "Påmindelser"
-
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Handlingen kan ikke fortrydes. - Er du sikker på du vil fortsætte?"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:27
+#: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
 msgstr "Du er nu tilmeldt denne påmindelse"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:28
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
+#: alert-form.php:28 user-change_email.php:77
 msgid "Invalid email address"
 msgstr "Forkert E-Mail adresse"
 
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:29
+#: alert-form.php:29
 msgid "There was a problem with the alert"
 msgstr "Der opstod et problem med påmindelsen"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:33
+#: user-change_email.php:33
 msgid "Change e-mail"
 msgstr "Ændre E-Mail"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:76
+#: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "E-Mail: Feltet er påkrævet"
 
-#: tmp/osclass/oc-content/themes/bender/admin/settings.php:42
-msgid "Donate"
-msgstr "Doner"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:42
-msgid "Remove logo"
-msgstr "Fjern logo"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:69
-msgid "Upload"
-msgstr "Opload"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "Billede mappen <strong>%s</strong> er ikke skrivbar på serveren"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass kan ikke uploade logoet fra kontrolpanelet"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Venligst gør den førnævnte billedmappe på serveren skrivbar."
-
-#: tmp/osclass/oc-content/themes/bender/loop-single-premium.php:48
-#: tmp/osclass/oc-content/themes/bender/loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Handlingen kan ikke fortrydes. - Er du sikker på du vil fortsætte?"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Oprettet d</strong>: %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Redigeret d</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:55
+#: search.php:55
 msgid "Selected"
 msgstr "Valgt"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:56
+#: search.php:56
 msgid "Nothing selected, input was"
 msgstr "Intet valgt, indputtet var"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:71
+#: search.php:71
 #, php-format
 msgid "There are no results matching \"%s\""
 msgstr "Vi fandt intet som passede på det søgte \"%s\""
 
-#: tmp/osclass/oc-content/themes/bender/search.php:75
+#: search.php:75
 #, php-format
 msgid "%1$d - %2$d of %3$d listings"
 msgstr "%1$d til %2$d af %3$d annoncer"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:121
+#: search.php:121
 msgid "Premium listings"
 msgstr "Premium annoncer"
 
-#: tmp/osclass/oc-content/themes/bender/search.php:129
-#: tmp/osclass/oc-content/themes/bender/functions.php:443
-#: tmp/osclass/oc-content/themes/bender/functions.php:486
+#: search.php:129 functions.php:443 functions.php:486
 msgid "Listings"
 msgstr "Annoncer "
 
-#: tmp/osclass/oc-content/themes/bender/user-change_password.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:448
-#: tmp/osclass/oc-content/themes/bender/functions.php:451
-#: tmp/osclass/oc-content/themes/bender/functions.php:511
+#: common/head.php:25
+msgid "Delete"
+msgstr "* SLET *"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr ".. Fortryd .."
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Forrige billede"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Næste billede"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "LUK"
+
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
 msgid "Change password"
 msgstr "Skift PassWord"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:35
-#: tmp/osclass/oc-content/themes/bender/header.php:48
+#: user-change_username.php:34 functions.php:447 functions.php:506
+msgid "Change username"
+msgstr "Skift bruger navn"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Brugernavn: (feltet er påkrævet)"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Brugernavnet er ledigt"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Brugernavnet er IKKE ledigt"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Handlingen kan ikke fortrydes. - Er du sikker på du vil fortsætte?"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "Påmindelser"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Handlingen kan ikke fortrydes. - Er du sikker på du vil fortsætte?"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Doner"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Fjern logo"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Opload"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "Billede mappen <strong>%s</strong> er ikke skrivbar på serveren"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass kan ikke uploade logoet fra kontrolpanelet"
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Venligst gør den førnævnte billedmappe på serveren skrivbar."
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Oprettet d</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Redigeret d</strong> %1$s"
+
+#: footer.php:35 header.php:48
 #, php-format
 msgid "Hi %s"
 msgstr "<em>Goddag</em>: %s"
 
-#: tmp/osclass/oc-content/themes/bender/footer.php:69
+#: footer.php:69
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
 msgstr "Dette websted er bygget med <a title=\"Osclass web\" href=\"%s\"> software fra </a> <strong> Osclass </strong>"
 
-#: tmp/osclass/oc-content/themes/bender/item-post.php:61
-#: tmp/osclass/oc-content/themes/bender/header.php:74
-msgid "Select a category"
-msgstr "VÆLG  EN  KATEGORI"
-
-#: tmp/osclass/oc-content/themes/bender/user-profile.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:445
+#: user-profile.php:32 functions.php:445
 msgid "Update account"
 msgstr "Konto profil opdatering"
 
-#: tmp/osclass/oc-content/themes/bender/common/head.php:25
-msgid "Delete"
-msgstr "* SLET *"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:26
-msgid "Cancel"
-msgstr ".. Fortryd .."
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:72
-msgid "Previous image"
-msgstr "Forrige billede"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:73
-msgid "Next image"
-msgstr "Næste billede"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:74
-msgid "Close"
-msgstr "LUK"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:34
-#: tmp/osclass/oc-content/themes/bender/functions.php:447
-#: tmp/osclass/oc-content/themes/bender/functions.php:506
-msgid "Change username"
-msgstr "Skift bruger navn"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Brugernavn: (feltet er påkrævet)"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
-msgid "The username is available"
-msgstr "Brugernavnet er ledigt"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Brugernavnet er IKKE ledigt"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "Navn: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "E-Mail: %s"
-
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "Fastnet tlf: %s"
-
-#: tmp/osclass/oc-content/themes/bender/user-sidebar.php:28
-#: tmp/osclass/oc-content/themes/bender/functions.php:516
-msgid "Delete account"
-msgstr "? SLET KONTO ?"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "f.eks. Søger Dansk PHP Programmør"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:434
-msgid "Publish a listing"
-msgstr "Opret annonce"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:435
-msgid "Edit your listing"
-msgstr "Rediger din annonce"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:436
-msgid "Send to a friend"
-msgstr "Send til en ven"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:437
-msgid "Contact publisher"
-msgstr "Kontakt annoncør"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:438
-msgid "Search results"
-msgstr "Søge resultater"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Søge resultater: %s"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:440
-msgid "Dashboard"
-msgstr "Kontrolpanel"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%s's  profil"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:442
-#: tmp/osclass/oc-content/themes/bender/functions.php:496
-msgid "Account"
-msgstr " KONTO PROFIL *"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:446
-#: tmp/osclass/oc-content/themes/bender/functions.php:501
-msgid "Change email"
-msgstr "Ændre E-Mail"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:449
-msgid "Login"
-msgstr "Log IND"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:450
-msgid "Recover password"
-msgstr "Reset PassWord"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:452
-msgid "Create a new account"
-msgstr "Opret en ny konto"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:453
-msgid "Contact"
-msgstr " Kontakt"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:481
-msgid "Public Profile"
-msgstr "Offentlig Profil"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Tema indstillinger er opdateret korrekt"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Logo billede er blevet uploadet korrekt"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "FEJL opstod, prøv venligst igen"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:636
-msgid "The logo image has been removed"
-msgstr "Logo billedet er blevet fjernet"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:638
-msgid "Image not found"
-msgstr "Billede ikke fundet"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:666
-msgid "Header logo"
-msgstr "Header (top) logo"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:668
-msgid "Theme settings"
-msgstr "Tema indstillinger"
-
-#: tmp/osclass/oc-content/themes/bender/functions.php:728
-msgid "All categories"
-msgstr "Alle kategorier"
-
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:67
+#: user-public-profile.php:67
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
 msgstr "<strong>Adresse:</strong> %1$s"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:70
+#: user-public-profile.php:70
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>GEO Lokalisering:</strong> %1$s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "? SLET KONTO ?"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "VÆLG  EN  KATEGORI"
+
+#: item-sidebar.php:70
+#, php-format
+msgid "Name: %s"
+msgstr "Navn: %s"
+
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-Mail: %s"
+
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "Fastnet tlf: %s"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "f.eks. Søger Dansk PHP Programmør"
+
+#: functions.php:434
+msgid "Publish a listing"
+msgstr "Opret annonce"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Rediger din annonce"
+
+#: functions.php:436
+msgid "Send to a friend"
+msgstr "Send til en ven"
+
+#: functions.php:437
+msgid "Contact publisher"
+msgstr "Kontakt annoncør"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Søge resultater"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Søge resultater: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Kontrolpanel"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%s's  profil"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr " KONTO PROFIL *"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Ændre E-Mail"
+
+#: functions.php:449
+msgid "Login"
+msgstr "Log IND"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Reset PassWord"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Opret en ny konto"
+
+#: functions.php:453
+msgid "Contact"
+msgstr " Kontakt"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Offentlig Profil"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Tema indstillinger er opdateret korrekt"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Logo billede er blevet uploadet korrekt"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "FEJL opstod, prøv venligst igen"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Logo billedet er blevet fjernet"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Billede ikke fundet"
+
+#: functions.php:666
+msgid "Header logo"
+msgstr "Header (top) logo"
+
+#: functions.php:668
+msgid "Theme settings"
+msgstr "Tema indstillinger"
+
+#: functions.php:728
+msgid "All categories"
+msgstr "Alle kategorier"
 
