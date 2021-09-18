@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-10 20:32+0000\n"
+"POT-Creation-Date: 2021-09-18 13:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,16 +17,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
+#: user-change_username.php:34 functions.php:447 functions.php:506
+msgid "Change username"
 msgstr ""
 
-#: alert-form.php:28 user-change_email.php:77
-msgid "Invalid email address"
+#: user-change_username.php:50
+msgid "Username: this field is required"
 msgstr ""
 
-#: alert-form.php:29
-msgid "There was a problem with the alert"
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr ""
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
 msgstr ""
 
 #: user-change_email.php:33
@@ -37,30 +41,35 @@ msgstr ""
 msgid "Email: this field is required"
 msgstr ""
 
-#: search.php:55
-msgid "Selected"
+#: user-change_email.php:77 alert-form.php:28
+msgid "Invalid email address"
 msgstr ""
 
-#: search.php:56
-msgid "Nothing selected, input was"
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
 msgstr ""
 
-#: search.php:71
+#: item-sidebar.php:70
 #, php-format
-msgid "There are no results matching \"%s\""
+msgid "Name: %s"
 msgstr ""
 
-#: search.php:75
+#: item-sidebar.php:73
 #, php-format
-msgid "%1$d - %2$d of %3$d listings"
+msgid "E-mail: %s"
 msgstr ""
 
-#: search.php:121
-msgid "Premium listings"
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
 msgstr ""
 
-#: search.php:129 functions.php:443 functions.php:486
-msgid "Listings"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr ""
+
+#: alert-form.php:29
+msgid "There was a problem with the alert"
 msgstr ""
 
 #: common/head.php:25
@@ -83,88 +92,8 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: user-change_password.php:32 functions.php:448 functions.php:451
-#: functions.php:511
-msgid "Change password"
-msgstr ""
-
-#: user-change_username.php:34 functions.php:447 functions.php:506
-msgid "Change username"
-msgstr ""
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr ""
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr ""
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr ""
-
 #: loop-single-premium.php:48 loop-single.php:48
 msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr ""
-
-#: user-alerts.php:32 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr ""
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr ""
-
-#: admin/settings.php:42
-msgid "Donate"
-msgstr ""
-
-#: admin/header.php:42
-msgid "Remove logo"
-msgstr ""
-
-#: admin/header.php:69
-msgid "Upload"
-msgstr ""
-
-#: admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr ""
-
-#: admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr ""
-
-#: admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr ""
-
-#: item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr ""
-
-#: item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr ""
-
-#: footer.php:35 header.php:48
-#, php-format
-msgid "Hi %s"
-msgstr ""
-
-#: footer.php:69
-#, php-format
-msgid ""
-"This website is proudly using the <a title=\"Osclass web\" href=\"%s"
-"\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr ""
-
-#: user-profile.php:32 functions.php:445
-msgid "Update account"
 msgstr ""
 
 #: user-public-profile.php:67
@@ -177,27 +106,8 @@ msgstr ""
 msgid "<strong>Location:</strong> %1$s"
 msgstr ""
 
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr ""
-
-#: item-post.php:61 header.php:74
-msgid "Select a category"
-msgstr ""
-
-#: item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr ""
-
-#: item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr ""
-
-#: item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
+#: user-profile.php:32 functions.php:445
+msgid "Update account"
 msgstr ""
 
 #: functions.php:28
@@ -242,8 +152,21 @@ msgstr ""
 msgid "Account"
 msgstr ""
 
+#: functions.php:443 functions.php:486 search.php:129
+msgid "Listings"
+msgstr ""
+
+#: functions.php:444 functions.php:491 user-alerts.php:32
+msgid "Alerts"
+msgstr ""
+
 #: functions.php:446 functions.php:501
 msgid "Change email"
+msgstr ""
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-change_password.php:32
+msgid "Change password"
 msgstr ""
 
 #: functions.php:449
@@ -296,4 +219,81 @@ msgstr ""
 
 #: functions.php:728
 msgid "All categories"
+msgstr ""
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr ""
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr ""
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr ""
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr ""
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr ""
+
+#: search.php:55
+msgid "Selected"
+msgstr ""
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr ""
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr ""
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr ""
+
+#: search.php:121
+msgid "Premium listings"
+msgstr ""
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr ""
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr ""
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr ""
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr ""
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr ""
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr ""
+
+#: footer.php:69
+#, php-format
+msgid ""
+"This website is proudly using the <a title=\"Osclass web\" href=\"%s"
+"\">classifieds scripts</a> software <strong>Osclass</strong>"
 msgstr ""
