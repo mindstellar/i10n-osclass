@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-10 20:32+0000\n"
-"PO-Revision-Date: 2021-09-10 21:29\n"
+"POT-Creation-Date: 2021-09-18 19:21+0530\n"
+"PO-Revision-Date: 2021-09-18 14:41\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -16,6 +16,14 @@ msgstr ""
 "X-Crowdin-Language: it\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "Avvisi"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Questa operazione non potrà essere annullata. Sei sicuro di voler continuare?"
 
 #: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
@@ -36,6 +44,45 @@ msgstr "Cambia indirizzo email"
 #: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "E-mail: questo campo è richiesto"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Dona"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Rimuovi logo"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Carica"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "La cartella di immagini <strong>%s</strong> non è scrivibile sul server"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass non può caricare l'immagine del logo dal pannello di amministrazione."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Si prega di fare la già citata cartella di immagine scrivibile."
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Questa operazione non potrà essere annullata. Sei sicuro di voler continuare?"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Data di pubblicazione</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Data modificata:</strong> %1$s"
 
 #: search.php:55
 msgid "Selected"
@@ -63,6 +110,29 @@ msgstr "Annunci Premium"
 msgid "Listings"
 msgstr "Annunci"
 
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
+msgid "Change password"
+msgstr "Modifica password"
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Ciao %s"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Questo sito web utilizza con orgoglio gli <a title=\"Osclass web\" href=\"%s\">script degli annunci</a> software <strong>Osclass</strong>"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Seleziona una categoria"
+
+#: user-profile.php:32 functions.php:445
+msgid "Update account"
+msgstr "Aggiorna l'account"
+
 #: common/head.php:25
 msgid "Delete"
 msgstr "Cancella"
@@ -83,11 +153,6 @@ msgstr "Immagine successiva"
 msgid "Close"
 msgstr "Chiudi"
 
-#: user-change_password.php:32 functions.php:448 functions.php:451
-#: functions.php:511
-msgid "Change password"
-msgstr "Modifica password"
-
 #: user-change_username.php:34 functions.php:447 functions.php:506
 msgid "Change username"
 msgstr "Modifica username"
@@ -104,85 +169,6 @@ msgstr "Il nome utente è disponibile"
 msgid "The username is NOT available"
 msgstr "Il nome utente NON è disponibile"
 
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Questa operazione non potrà essere annullata. Sei sicuro di voler continuare?"
-
-#: user-alerts.php:32 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "Avvisi"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Questa operazione non potrà essere annullata. Sei sicuro di voler continuare?"
-
-#: admin/settings.php:42
-msgid "Donate"
-msgstr "Dona"
-
-#: admin/header.php:42
-msgid "Remove logo"
-msgstr "Rimuovi logo"
-
-#: admin/header.php:69
-msgid "Upload"
-msgstr "Carica"
-
-#: admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "La cartella di immagini <strong>%s</strong> non è scrivibile sul server"
-
-#: admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass non può caricare l'immagine del logo dal pannello di amministrazione."
-
-#: admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Si prega di fare la già citata cartella di immagine scrivibile."
-
-#: item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Data di pubblicazione</strong>: %1$s"
-
-#: item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Data modificata:</strong> %1$s"
-
-#: footer.php:35 header.php:48
-#, php-format
-msgid "Hi %s"
-msgstr "Ciao %s"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Questo sito web utilizza con orgoglio gli <a title=\"Osclass web\" href=\"%s\">script degli annunci</a> software <strong>Osclass</strong>"
-
-#: user-profile.php:32 functions.php:445
-msgid "Update account"
-msgstr "Aggiorna l'account"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Indirizzo:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Città:</strong> %1$s"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "Cancella l'account"
-
-#: item-post.php:61 header.php:74
-msgid "Select a category"
-msgstr "Seleziona una categoria"
-
 #: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
@@ -197,6 +183,10 @@ msgstr "E-mail: %s"
 #, php-format
 msgid "Phone: %s"
 msgstr "Telefono: %s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Cancella l'account"
 
 #: functions.php:28
 msgid "ie. PHP Programmer"
@@ -295,4 +285,14 @@ msgstr "Impostazioni Tema"
 #: functions.php:728
 msgid "All categories"
 msgstr "Tutte le Categorie"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Indirizzo:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Città:</strong> %1$s"
 
