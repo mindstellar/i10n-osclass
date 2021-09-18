@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-10 20:32+0000\n"
-"PO-Revision-Date: 2021-09-10 21:31\n"
+"POT-Creation-Date: 2021-09-18 19:21+0530\n"
+"PO-Revision-Date: 2021-09-18 14:41\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -16,6 +16,14 @@ msgstr ""
 "X-Crowdin-Language: nl\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "Meldingen"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Deze actie kan niet ongedaan gemaakt worden. Weet u zeker dat u wilt doorgaan?"
 
 #: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
@@ -36,6 +44,45 @@ msgstr "Wijzig e-mail"
 #: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "Email: dit veld moet ingevuld worden"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Doneer"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Verwijder logo"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Uploaden"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "De afbeeldings folder <strong>%s</strong> is niet schrijfbaar op jouw server"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass kan de logo afbeelding niet uploaden vanaf het administratie paneel."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Maak a.u.b. de voorgenoemde afbeeldings folder schrijfbaar."
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Deze actie kan niet ongedaan gemaakt worden. Weet u zeker dat u wilt doorgaan?"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Publicatie Datum</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Modificatie datum:</strong> %1$s"
 
 #: search.php:55
 msgid "Selected"
@@ -63,6 +110,29 @@ msgstr "Premium advertenties"
 msgid "Listings"
 msgstr "Aanmeldingen"
 
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
+msgid "Change password"
+msgstr "Verander wachtwoord"
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Hi %s"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Deze website maakt trots gebruik van de <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Kies een categorie"
+
+#: user-profile.php:32 functions.php:445
+msgid "Update account"
+msgstr "Account bijwerken"
+
 #: common/head.php:25
 msgid "Delete"
 msgstr "Verwijder"
@@ -83,11 +153,6 @@ msgstr "Volgende afbeelding"
 msgid "Close"
 msgstr "Sluit"
 
-#: user-change_password.php:32 functions.php:448 functions.php:451
-#: functions.php:511
-msgid "Change password"
-msgstr "Verander wachtwoord"
-
 #: user-change_username.php:34 functions.php:447 functions.php:506
 msgid "Change username"
 msgstr "Verander gebruikersnaam"
@@ -104,85 +169,6 @@ msgstr "Deze gebruikersnaam is beschikbaar"
 msgid "The username is NOT available"
 msgstr "Deze gebruikersnaam is helaas NIET beschikbaar"
 
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Deze actie kan niet ongedaan gemaakt worden. Weet u zeker dat u wilt doorgaan?"
-
-#: user-alerts.php:32 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "Meldingen"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Deze actie kan niet ongedaan gemaakt worden. Weet u zeker dat u wilt doorgaan?"
-
-#: admin/settings.php:42
-msgid "Donate"
-msgstr "Doneer"
-
-#: admin/header.php:42
-msgid "Remove logo"
-msgstr "Verwijder logo"
-
-#: admin/header.php:69
-msgid "Upload"
-msgstr "Uploaden"
-
-#: admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "De afbeeldings folder <strong>%s</strong> is niet schrijfbaar op jouw server"
-
-#: admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass kan de logo afbeelding niet uploaden vanaf het administratie paneel."
-
-#: admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Maak a.u.b. de voorgenoemde afbeeldings folder schrijfbaar."
-
-#: item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Publicatie Datum</strong>: %1$s"
-
-#: item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Modificatie datum:</strong> %1$s"
-
-#: footer.php:35 header.php:48
-#, php-format
-msgid "Hi %s"
-msgstr "Hi %s"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Deze website maakt trots gebruik van de <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-
-#: user-profile.php:32 functions.php:445
-msgid "Update account"
-msgstr "Account bijwerken"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Adres:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Locatie:</strong> %1$s"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "Verwijder account"
-
-#: item-post.php:61 header.php:74
-msgid "Select a category"
-msgstr "Kies een categorie"
-
 #: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
@@ -197,6 +183,10 @@ msgstr "E-mail: %s"
 #, php-format
 msgid "Phone: %s"
 msgstr "Telefoon: %s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Verwijder account"
 
 #: functions.php:28
 msgid "ie. PHP Programmer"
@@ -295,4 +285,14 @@ msgstr "Thema instellingen"
 #: functions.php:728
 msgid "All categories"
 msgstr "Alle categorieën "
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Adres:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Locatie:</strong> %1$s"
 
