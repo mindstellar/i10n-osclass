@@ -73,7 +73,7 @@ cd theme-bender || exit
 # shellcheck disable=SC2038
 find . -type f -name '*.php' |
   xargs xgettext \
-    --keyword=__ -k=_e -k=_m -k=_mn:1,2 \
+    --keyword=__ -k=_e -k=_n:1,2 -k=_m -k=_mn:1,2 \
     --language=PHP \
     --output-dir="$ROOT_DIR"/src/templates/ \
     --output=theme.pot \
