@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 06:10\n"
+"POT-Creation-Date: 2021-09-19 06:17+0000\n"
+"PO-Revision-Date: 2021-09-19 08:51\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: osclass-v2\n"
 "X-Crowdin-Project-ID: 376123\n"
 "X-Crowdin-Language: hu\n"
-"X-Crowdin-File: /develop/src/templates/theme.pot\n"
-"X-Crowdin-File-ID: 8225\n"
+"X-Crowdin-File: /master/src/templates/theme.pot\n"
+"X-Crowdin-File-ID: 8210\n"
 
 #: user-change_username.php:34 user-change_username.php:39 functions.php:447
 #: functions.php:506
@@ -49,11 +49,11 @@ msgstr "E-mail módosítása "
 
 #: user-change_email.php:46
 msgid "Current e-mail"
-msgstr ""
+msgstr "Aktuális e-mail"
 
 #: user-change_email.php:52
 msgid "New e-mail"
-msgstr ""
+msgstr "Új e-mail"
 
 #: user-change_email.php:76
 msgid "Email: this field is required"
@@ -65,7 +65,7 @@ msgstr "Helytelen e-mail cím"
 
 #: user-sidebar.php:23
 msgid "Display menu"
-msgstr ""
+msgstr "Megjelenítési menü"
 
 #: user-sidebar.php:28 functions.php:516
 msgid "Delete account"
@@ -73,11 +73,11 @@ msgstr "Fiók törlése"
 
 #: user-sidebar.php:29
 msgid "Are you sure you want to delete your account?"
-msgstr ""
+msgstr "Biztos benne, hogy törölni szeretné fiókját?"
 
 #: item-sidebar.php:30
 msgid "Mark as..."
-msgstr ""
+msgstr "Jel, mint..."
 
 #: item-sidebar.php:31
 msgid "Mark as spam"
@@ -85,19 +85,19 @@ msgstr "mint SPAM"
 
 #: item-sidebar.php:32
 msgid "Mark as misclassified"
-msgstr ""
+msgstr "Hibásan osztályozott megjelölés"
 
 #: item-sidebar.php:33
 msgid "Mark as duplicated"
-msgstr ""
+msgstr "Többszörjelölés"
 
 #: item-sidebar.php:34
 msgid "Mark as expired"
-msgstr ""
+msgstr "A jelölés lejárt"
 
 #: item-sidebar.php:35
 msgid "Mark as offensive"
-msgstr ""
+msgstr "Jelölés támadóként"
 
 #: item-sidebar.php:49 functions.php:437
 msgid "Contact publisher"
@@ -105,15 +105,15 @@ msgstr "Válaszolj a hirdetőnek"
 
 #: item-sidebar.php:52
 msgid "The listing is expired. You can't contact the publisher."
-msgstr ""
+msgstr "A lista lejárt. Nem léphet kapcsolatba a kiadóval."
 
 #: item-sidebar.php:56
 msgid "It's your own listing, you can't contact the publisher."
-msgstr ""
+msgstr "Ez a saját listája, nem léphet kapcsolatba a kiadóval."
 
 #: item-sidebar.php:60
 msgid "You must log in or register a new account in order to contact the advertiser"
-msgstr ""
+msgstr "A hirdetővel való kapcsolatfelvételhez be kell jelentkeznie vagy regisztrálnia kell egy új fiókot"
 
 #: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
 msgid "Login"
@@ -121,7 +121,7 @@ msgstr "Belépés"
 
 #: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
 msgid "Register for a free account"
-msgstr ""
+msgstr "Regisztráljon ingyenes fiókra"
 
 #: item-sidebar.php:68 user-profile.php:46 item-post.php:179
 #: user-register.php:39
@@ -146,33 +146,33 @@ msgstr "Telefon: %s"
 #: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
 #: item-send-friend.php:44
 msgid "Your name"
-msgstr ""
+msgstr "A neved"
 
 #: item-sidebar.php:89
 msgid "Your e-mail address"
-msgstr ""
+msgstr "Az Ön e-mail címe"
 
 #: item-sidebar.php:93 user-public-sidebar.php:41
 msgid "Phone number"
-msgstr ""
+msgstr "Telefonszám"
 
 #: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
 msgid "optional"
-msgstr ""
+msgstr "szabadon választható"
 
 #: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
 #: item-send-friend.php:78
 msgid "Message"
-msgstr ""
+msgstr "Üzenet"
 
 #: item-sidebar.php:104
 msgid "Attachment"
-msgstr ""
+msgstr "Melléklet"
 
 #: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
 #: item-send-friend.php:87
 msgid "Send"
-msgstr ""
+msgstr "Küld"
 
 #: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
@@ -184,15 +184,15 @@ msgstr "Probléma adódott a figyelmeztetéssel"
 
 #: alert-form.php:61
 msgid "Already subscribed to this search"
-msgstr ""
+msgstr "Már feliratkozott erre a keresésre"
 
 #: alert-form.php:65
 msgid "Subscribe to this search"
-msgstr ""
+msgstr "Feliratkozás erre a keresésre"
 
 #: alert-form.php:80
 msgid "Subscribe now"
-msgstr ""
+msgstr "Feliratkozás most"
 
 #: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
 #: item.php:165
@@ -217,31 +217,31 @@ msgstr "Bezár"
 
 #: search-sidebar.php:38
 msgid "Your search"
-msgstr ""
+msgstr "Az Ön keresése"
 
 #: search-sidebar.php:44 user-profile.php:83 item-post.php:146
 msgid "City"
-msgstr ""
+msgstr "Város"
 
 #: search-sidebar.php:52
 msgid "Show only"
-msgstr ""
+msgstr "Csak megjelenítése"
 
 #: search-sidebar.php:55
 msgid "listings with pictures"
-msgstr ""
+msgstr "képekkel ellátott listák"
 
 #: search-sidebar.php:62 item-post.php:78
 msgid "Price"
-msgstr ""
+msgstr "Ár"
 
 #: search-sidebar.php:63
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
 #: search-sidebar.php:66
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 #: search-sidebar.php:87
 msgid "Apply"
@@ -249,11 +249,11 @@ msgstr "Alkalmaz"
 
 #: search-sidebar.php:92
 msgid "Refine category"
-msgstr ""
+msgstr "Kategória finomítása"
 
 #: loop-single-premium.php:46 loop-single.php:46 item.php:73
 msgid "Edit item"
-msgstr ""
+msgstr "Elem szerkesztése"
 
 #: loop-single-premium.php:48 loop-single.php:48
 msgid "This action can not be undone. Are you sure you want to continue?"
@@ -275,31 +275,31 @@ msgstr "<strong>Elhelyezkedés:</strong> %1$s"
 
 #: user-public-profile.php:75
 msgid "User description"
-msgstr ""
+msgstr "Felhasználói leírás"
 
 #: user-public-profile.php:80
 msgid "Latest listings"
-msgstr ""
+msgstr "Legfrissebb listák"
 
 #: main.php:38
 msgid "Latest Listings"
-msgstr ""
+msgstr "Legfrissebb listák"
 
 #: main.php:41
 msgid "There aren't listings available at this moment"
-msgstr ""
+msgstr "Jelenleg nem állnak rendelkezésre listák."
 
 #: main.php:45 search.php:80 admin/settings.php:60
 msgid "List"
-msgstr ""
+msgstr "Lista"
 
 #: main.php:46 search.php:81
 msgid "Grid"
-msgstr ""
+msgstr "Rács"
 
 #: main.php:57
 msgid "See all listings"
-msgstr ""
+msgstr "Az összes lista megtekintése"
 
 #: main.php:74 item.php:66
 msgid "Location"
@@ -311,35 +311,35 @@ msgstr "Fiók frissítése"
 
 #: user-profile.php:52
 msgid "User type"
-msgstr ""
+msgstr "Felhasználó típusa"
 
 #: user-profile.php:59
 msgid "Cell phone"
-msgstr ""
+msgstr "Mobiltelefon"
 
 #: user-profile.php:65
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: user-profile.php:71 item-post.php:92
 msgid "Country"
-msgstr ""
+msgstr "Ország"
 
 #: user-profile.php:77 item-post.php:98 item-post.php:124
 msgid "Region"
-msgstr ""
+msgstr "Régió"
 
 #: user-profile.php:89
 msgid "City area"
-msgstr ""
+msgstr "Város környéke"
 
 #: user-profile.php:95 item-post.php:168
 msgid "Address"
-msgstr ""
+msgstr "Cím"
 
 #: user-profile.php:101
 msgid "Website"
-msgstr ""
+msgstr "Weboldal"
 
 #: user-profile.php:107 item-post.php:71
 msgid "Description"
@@ -451,7 +451,7 @@ msgstr "Minden kategória"
 
 #: user-alerts.php:39
 msgid "You do not have any alerts yet"
-msgstr ""
+msgstr "Még nincs riasztása"
 
 #: user-alerts.php:46
 msgid "Alert"
@@ -463,7 +463,7 @@ msgstr "A művelet nem vonható vissza. Boztos vagy benne, hogy folytatod?"
 
 #: user-alerts.php:46
 msgid "Delete this alert"
-msgstr ""
+msgstr "A riasztás törlése"
 
 #: item.php:59
 #, php-format
@@ -477,7 +477,7 @@ msgstr "<strong class=\"update\">Módosítás dátuma:</strong> %1$s"
 
 #: item.php:85 item.php:92
 msgid "Image"
-msgstr ""
+msgstr "Kép"
 
 #: item.php:121
 msgid "Contact seller"
@@ -485,31 +485,31 @@ msgstr "Szerző értesítése"
 
 #: item.php:125
 msgid "Share"
-msgstr ""
+msgstr "Részvény"
 
 #: item.php:131
 msgid "Useful information"
-msgstr ""
+msgstr "Hasznos információk"
 
 #: item.php:133
 msgid "Avoid scams by acting locally or paying with PayPal"
-msgstr ""
+msgstr "Kerülje el a csalásokat azáltal, hogy helyben jár el, vagy PayPal fizet"
 
 #: item.php:134
 msgid "Never pay with Western Union, Moneygram or other anonymous payment services"
-msgstr ""
+msgstr "Soha ne fizessen a Western Union, a Moneygram vagy más névtelen fizetési szolgáltatásokkal"
 
 #: item.php:135
 msgid "Don't buy or sell outside of your country. Don't accept cashier cheques from outside your country"
-msgstr ""
+msgstr "Ne vásároljon vagy adjon el az országán kívül. Ne fogadjon el pénztárcsekket az országon kívülről"
 
 #: item.php:136
 msgid "This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\""
-msgstr ""
+msgstr "Ez az oldal soha nem vesz részt semmilyen tranzakcióban, és nem kezeli a fizetéseket, a szállítást, a garanciaügyleteket, letéti szolgáltatásokat nyújt, vagy \"vevővédelmet\" vagy \"eladói tanúsítást\" kínál"
 
 #: item.php:143
 msgid "Related listings"
-msgstr ""
+msgstr "Kapcsolódó listák"
 
 #: item.php:154
 msgid "Comments"
@@ -521,15 +521,15 @@ msgstr "által"
 
 #: item.php:165
 msgid "Delete your comment"
-msgstr ""
+msgstr "Megjegyzés törlése"
 
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
-msgstr ""
+msgstr "Leave your comment (spam és sértő üzenetek törlődnek)"
 
 #: item.php:197 item-send-friend.php:50
 msgid "Your e-mail"
-msgstr ""
+msgstr "Az Ön e-mail címe"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -541,7 +541,7 @@ msgstr "Nyilvános hozzászólás"
 
 #: user-login.php:30
 msgid "Access to your account"
-msgstr ""
+msgstr "Hozzáférés a fiókjához"
 
 #: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
 msgid "E-mail"
@@ -549,11 +549,11 @@ msgstr ""
 
 #: user-login.php:44 user-register.php:51
 msgid "Password"
-msgstr ""
+msgstr "Jelszó"
 
 #: user-login.php:51
 msgid "Remember me"
-msgstr ""
+msgstr "Emlékezz rám"
 
 #: user-login.php:54
 msgid "Log in"
@@ -561,7 +561,7 @@ msgstr "Belépés"
 
 #: user-login.php:58
 msgid "Forgot password?"
-msgstr ""
+msgstr "Elfelejtette jelszavát?"
 
 #: header.php:48 footer.php:35
 #, php-format
@@ -570,7 +570,7 @@ msgstr "Üdv %s"
 
 #: header.php:49 footer.php:36
 msgid "My account"
-msgstr ""
+msgstr "Saját fiók"
 
 #: header.php:50 footer.php:37
 msgid "Logout"
@@ -578,7 +578,7 @@ msgstr "Kijelentkezés"
 
 #: header.php:60 footer.php:50
 msgid "Publish your ad for free"
-msgstr ""
+msgstr "Hirdetésének ingyenes közzététele"
 
 #: header.php:74 item-post.php:61
 msgid "Select a category"
@@ -586,11 +586,11 @@ msgstr "Válassz kategóriát"
 
 #: header.php:80 404.php:40
 msgid "Search"
-msgstr ""
+msgstr "Keresés"
 
 #: item-post.php:57
 msgid "General Information"
-msgstr ""
+msgstr "Általános információk"
 
 #: item-post.php:59
 msgid "Category"
@@ -598,35 +598,35 @@ msgstr "Kategória"
 
 #: item-post.php:89
 msgid "Listing Location"
-msgstr ""
+msgstr "A lista helye"
 
 #: item-post.php:162
 msgid "City Area"
-msgstr ""
+msgstr "Város környéke"
 
 #: item-post.php:177
 msgid "Seller's information"
-msgstr ""
+msgstr "Eladó adatai"
 
 #: item-post.php:192
 msgid "Show e-mail on the listing page"
-msgstr ""
+msgstr "E-mailek megjelenítése a listaoldalon"
 
 #: item-post.php:211
 msgid "Publish"
-msgstr ""
+msgstr "Közzétesz"
 
 #: user-public-sidebar.php:37 contact.php:47
 msgid "Your email address"
-msgstr ""
+msgstr "Az Ön e-mail címe"
 
 #: user-register.php:31
 msgid "Register an account for free"
-msgstr ""
+msgstr "Fiók regisztrálása ingyenesen"
 
 #: user-register.php:57
 msgid "Repeat password"
-msgstr ""
+msgstr "Jelszó ismétlése"
 
 #: user-register.php:61
 msgid "Passwords don't match"
@@ -634,31 +634,31 @@ msgstr "A jelszavak nem azonosak"
 
 #: user-register.php:73
 msgid "Create"
-msgstr ""
+msgstr "Alkot"
 
 #: 404.php:30
 msgid "Sorry but I can't find the page you're looking for"
-msgstr ""
+msgstr "Sajnálom, de nem találom a keresett oldalt."
 
 #: 404.php:32
 msgid "Let us help you, we have got a few tips for you to find it."
-msgstr ""
+msgstr "Engedje meg, hogy segítsünk, van néhány tippünk, hogy megtalálja."
 
 #: 404.php:35
 msgid "<strong>Search</strong> for it:"
-msgstr ""
+msgstr "<strong>Keresés</strong> :"
 
 #: 404.php:44
 msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr ""
+msgstr "<strong>Keresse meg</strong> a legnépszerűbb kategóriákban."
 
 #: contact.php:31
 msgid "Contact us"
-msgstr ""
+msgstr "Kapcsolat"
 
 #: contact.php:53
 msgid "Subject"
-msgstr ""
+msgstr "Tárgy"
 
 #: user-forgot_password.php:30 user-recover.php:30
 msgid "Recover your password"
@@ -666,23 +666,23 @@ msgstr "Jelszó visszaállítása"
 
 #: user-forgot_password.php:39 user-change_password.php:51
 msgid "New password"
-msgstr ""
+msgstr "Új jelszó"
 
 #: user-forgot_password.php:45 user-change_password.php:57
 msgid "Repeat new password"
-msgstr ""
+msgstr "Új jelszó ismétlése"
 
 #: item-send-friend.php:57
 msgid "Your friend's name"
-msgstr ""
+msgstr "A barátod neve"
 
 #: item-send-friend.php:63
 msgid "Your friend's e-mail address"
-msgstr ""
+msgstr "Barátja e-mail címe"
 
 #: item-send-friend.php:70
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Tárgy (nem kötelező)"
 
 #: user-items.php:41
 msgid "My listings"
@@ -690,7 +690,7 @@ msgstr "Hirdetéseim"
 
 #: user-items.php:43
 msgid "No listings have been added yet"
-msgstr ""
+msgstr "Még nem adtak hozzá listát"
 
 #: search.php:55
 msgid "Selected"
@@ -712,11 +712,11 @@ msgstr "%1$d - %2$d a %3$d hirdetésből"
 
 #: search.php:78
 msgid "Show filters"
-msgstr ""
+msgstr "Szűrők megjelenítése"
 
 #: search.php:85
 msgid "Sort by"
-msgstr ""
+msgstr "Rendezés szerint"
 
 #: search.php:121
 msgid "Premium listings"
@@ -724,11 +724,11 @@ msgstr "Támogatott hirdetések"
 
 #: search.php:142
 msgid "Other searches that may interest you"
-msgstr ""
+msgstr "Egyéb keresések, amelyek érdekelhetik Önt"
 
 #: admin/header.php:35
 msgid "Preview"
-msgstr ""
+msgstr "Előnézet"
 
 #: admin/header.php:42
 msgid "Remove logo"
@@ -736,23 +736,23 @@ msgstr "Logó eltávolítása"
 
 #: admin/header.php:49
 msgid "No logo has been uploaded yet"
-msgstr ""
+msgstr "Még nem töltöttek fel logót"
 
 #: admin/header.php:52
 msgid "Upload logo"
-msgstr ""
+msgstr "Embléma feltöltése"
 
 #: admin/header.php:53
 msgid "The preferred size of the logo is 600x100."
-msgstr ""
+msgstr "A logó preferált mérete 600x100."
 
 #: admin/header.php:55
 msgid "<strong>Note:</strong> Uploading another logo will overwrite the current logo."
-msgstr ""
+msgstr "<strong>Megjegyzés:</strong> Egy másik logó feltöltése felülírja az aktuális logót."
 
 #: admin/header.php:63
 msgid "Logo image (png,gif,jpg)"
-msgstr ""
+msgstr "Logó kép (png,gif,jpg)"
 
 #: admin/header.php:69
 msgid "Upload"
@@ -773,15 +773,15 @@ msgstr "Kérlek a fent említett mappát állítsd be írhatóvá."
 
 #: admin/header.php:85
 msgid "To make a directory writable under UNIX execute this command from the shell:"
-msgstr ""
+msgstr "A UNIX alatt írható könyvtárhoz hajtsa végre ezt a parancsot a héjból:"
 
 #: admin/settings.php:36
 msgid "I would like to contribute to the development of Osclass with a donation of"
-msgstr ""
+msgstr "Az Osclass fejlődéséhez szeretnék hozzájárulni egy"
 
 #: admin/settings.php:41
 msgid "Custom"
-msgstr ""
+msgstr "Szokás"
 
 #: admin/settings.php:42
 msgid "Donate"
@@ -789,23 +789,23 @@ msgstr "Támogatás"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
-msgstr ""
+msgstr "Helyőrző keresése"
 
 #: admin/settings.php:56
 msgid "Show lists as:"
-msgstr ""
+msgstr "Listák megjelenítése a következőképpen:"
 
 #: admin/settings.php:59
 msgid "Gallery"
-msgstr ""
+msgstr "Galéria"
 
 #: admin/settings.php:66
 msgid "Footer link"
-msgstr ""
+msgstr "Lábléc link"
 
 #: admin/settings.php:68
 msgid "I want to help Osclass by linking to <a href=\"http://osclass.org/\" target=\"_blank\">osclass.org</a> from my site with the following text:"
-msgstr ""
+msgstr "Szeretnék segíteni Osclass linkeléssel <a href=\"http://osclass.org/\" target=\"_blank\">osclass.org</a> a webhelyemről a következő szöveggel:"
 
 #: admin/settings.php:69
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"http://osclass.org/\">classifieds scripts</a> software <strong>Osclass</strong>"
@@ -813,83 +813,83 @@ msgstr "Ez a weblap az <a title=\"Osclass web\" href=\"http://osclass.org/\">cla
 
 #: admin/settings.php:76
 msgid "Right-To-Left (RTL)"
-msgstr ""
+msgstr "Jobbról balra (RTL)"
 
 #: admin/settings.php:80
 msgid "Enable Right-To-Left"
-msgstr ""
+msgstr "Jobbról balra való engedélyezés"
 
 #: admin/settings.php:83
 msgid "enable/disable"
-msgstr ""
+msgstr "engedélyezés/letiltás"
 
 #: admin/settings.php:90
 msgid "Location input"
-msgstr ""
+msgstr "Hely bemenet"
 
 #: admin/settings.php:94
 msgid "Show location input as:"
-msgstr ""
+msgstr "Helybevitel megjelenítése a következőképpen:"
 
 #: admin/settings.php:97
 msgid "Dropdown"
-msgstr ""
+msgstr "Legördülő"
 
 #: admin/settings.php:98
 msgid "Autocomplete"
-msgstr ""
+msgstr "Automatikus kiegészítés"
 
 #: admin/settings.php:105
 msgid "Ads management"
-msgstr ""
+msgstr "Hirdetéskezelés"
 
 #: admin/settings.php:109
 msgid "In this section you can configure your site to display ads and start generating revenue."
-msgstr ""
+msgstr "Ebben a szakaszban beállíthatja webhelyét hirdetések megjelenítésére és bevétel generálására."
 
 #: admin/settings.php:109
 msgid "If you are using an online advertising platform, such as Google Adsense, copy and paste here the provided code for ads."
-msgstr ""
+msgstr "Ha online hirdetési platformot használ, például a Google Adsense-t, másolja ide a hirdetésekhez megadott kódot."
 
 #: admin/settings.php:115
 msgid "Header 728x90"
-msgstr ""
+msgstr "Fejléc 728x90"
 
 #: admin/settings.php:119
 msgid "This ad will be shown at the top of your website, next to the site title and above the search results. Note that the size of the ad has to be 728x90 pixels."
-msgstr ""
+msgstr "Ez a hirdetés megjelenik a webhely tetején, a webhely címe mellett és a keresési eredmények felett. Ne feledje, hogy a hirdetés méretének 728x90 képpontnak kell lennie."
 
 #: admin/settings.php:123
 msgid "Homepage 728x90"
-msgstr ""
+msgstr "Kezdőlap 728x90"
 
 #: admin/settings.php:127
 msgid "This ad will be shown on the main site of your website. It will appear both at the top and bottom of your site homepage. Note that the size of the ad has to be 728x90 pixels."
-msgstr ""
+msgstr "Ez a hirdetés megjelenik a webhely főoldalán. Ez megjelenik mind a tetején és alján a webhely honlapján. Ne feledje, hogy a hirdetés méretének 728x90 képpontnak kell lennie."
 
 #: admin/settings.php:131
 msgid "Search results 728x90 (top of the page)"
-msgstr ""
+msgstr "Keresési eredmények 728x90 (az oldal tetején)"
 
 #: admin/settings.php:135
 msgid "This ad will be shown on top of the search results of your site. Note that the size of the ad has to be 728x90 pixels."
-msgstr ""
+msgstr "Ez a hirdetés megjelenik a webhely keresési eredményeinek tetején. Ne feledje, hogy a hirdetés méretének 728x90 képpontnak kell lennie."
 
 #: admin/settings.php:139
 msgid "Search results 728x90 (middle of the page)"
-msgstr ""
+msgstr "Keresési eredmények 728x90 (az oldal közepe)"
 
 #: admin/settings.php:143
 msgid "This ad will be shown among the search results of your site. Note that the size of the ad has to be 728x90 pixels."
-msgstr ""
+msgstr "Ez a hirdetés megjelenik a webhely keresési eredményei között. Ne feledje, hogy a hirdetés méretének 728x90 képpontnak kell lennie."
 
 #: admin/settings.php:147
 msgid "Sidebar 300x250"
-msgstr ""
+msgstr "Oldalsáv 300x250"
 
 #: admin/settings.php:151
 msgid "This ad will be shown at the right sidebar of your website, on the product detail page. Note that the size of the ad has to be 300x350 pixels."
-msgstr ""
+msgstr "Ez a hirdetés a webhely jobb oldalán, a termék részletei oldalon jelenik meg. Ne feledje, hogy a hirdetés méretének 300x350 képpontnak kell lennie."
 
 #: admin/settings.php:155
 msgid "Save changes"
@@ -897,7 +897,7 @@ msgstr "Módosítások mentése"
 
 #: user-change_password.php:45
 msgid "Current password"
-msgstr ""
+msgstr "Aktuális jelszó"
 
 #: footer.php:69
 #, php-format
@@ -910,5 +910,5 @@ msgstr "Nyelv:"
 
 #: user-recover.php:45
 msgid "Send me a new password"
-msgstr ""
+msgstr "Küldjön nekem egy új jelszót"
 
