@@ -45,7 +45,7 @@ echo "$last_commit" > "$ROOT_DIR/.last_commit"
 # shellcheck disable=SC2038
 find ./oc-admin/ ./oc-includes/osclass/ -type f -name '*.php' |
   xargs xgettext \
-    --keyword=__ -k=_e -k=_n:1,2 \
+    --keyword=__ --keyword=_e --keyword=_n:1,2 \
     --language=PHP \
     --output-dir="$ROOT_DIR"/src/templates/ \
     --output=core.pot \
@@ -56,7 +56,7 @@ echo 'core.pot is created in /src/templates directory'
 # shellcheck disable=SC2038
 find ./oc-admin/ ./oc-includes/osclass/ -type f -name '*.php' |
   xargs xgettext \
-    --keyword=_m -k=_mn:1,2 \
+    --keyword=_m --keyword=_mn:1,2 \
     --language=PHP \
     --output-dir="$ROOT_DIR"/src/templates/ \
     --output=messages.pot \
@@ -71,9 +71,8 @@ git clone https://github.com/mindstellar/theme-bender.git
 cd theme-bender || exit
 #Create Fresh gettext pot file for theme-bender
 # shellcheck disable=SC2038
-find . -type f -name '*.php' |
-  xargs xgettext \
-    --keyword=__ -k=_e -k=_n:1,2 -k=_m -k=_mn:1,2 \
+find . -type f -name '*.php' xargs xgettext \
+    --keyword=__ --keyword=_e --keyword=_n:1,2 --keyword=_m --keyword=_mn:1,2 \
     --language=PHP \
     --output-dir="$ROOT_DIR"/src/templates/ \
     --output=theme.pot \
