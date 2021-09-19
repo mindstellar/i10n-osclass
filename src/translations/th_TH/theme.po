@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:13\n"
+"PO-Revision-Date: 2021-09-19 10:25\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -24,15 +24,15 @@ msgstr "เปลี่ยนชื่อผู้ใช้งาน"
 
 #: user-change_username.php:50
 msgid "Username: this field is required"
-msgstr "ชื่อผู้ใช้งาน: ฟีลล์นี้จำเป็นต้องกรอก"
+msgstr "ชื่อผู้ใช้ : ฟิลล์นี้จำเป็น"
 
 #: user-change_username.php:75
 msgid "The username is available"
-msgstr "ชื่อผู้ใช้งานนี้สามารถใช้งานได้"
+msgstr "ชื่อผู้ใช้นี้สามารถใช้งานได้"
 
 #: user-change_username.php:77
 msgid "The username is NOT available"
-msgstr "ชื่อผู้ใช้งานนี้ไม่สามารถใช้ได้"
+msgstr "ชื่อผู้ใช้นี้ไม่สามารถใช้งานได้"
 
 #: user-change_username.php:94
 msgid "Username"
@@ -61,7 +61,7 @@ msgstr "อีเมลล์: ต้องมีข้อมูล"
 
 #: user-change_email.php:77 alert-form.php:28
 msgid "Invalid email address"
-msgstr "อีเมลล์ไม่ถูกต้อง"
+msgstr "ที่อยู่อีเมลล์ไม่ถูกต้อง"
 
 #: user-sidebar.php:23
 msgid "Display menu"
@@ -101,7 +101,7 @@ msgstr "ทําเครื่องหมายว่าน่ารังเ
 
 #: item-sidebar.php:49 functions.php:437
 msgid "Contact publisher"
-msgstr "ติดต่อผู้ลงประกาศ"
+msgstr "ติดต่อผู้ประกาศ"
 
 #: item-sidebar.php:52
 msgid "The listing is expired. You can't contact the publisher."
@@ -131,7 +131,7 @@ msgstr "ชื่อ"
 #: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
-msgstr "ชื่อ: %s"
+msgstr "ชื่อ : %s"
 
 #: item-sidebar.php:73
 #, php-format
@@ -351,11 +351,11 @@ msgstr "ยกตัวอย่างเช่น. นักบัญชี"
 
 #: functions.php:434 item-post.php:46
 msgid "Publish a listing"
-msgstr "เผยแพร่รายการโฆษณา"
+msgstr "เผยแพร่รายการ"
 
 #: functions.php:435
 msgid "Edit your listing"
-msgstr "แก้ไขรายการโฆษณา"
+msgstr "แก้ไขรายการของคุณ"
 
 #: functions.php:436 item-send-friend.php:31
 msgid "Send to a friend"
@@ -363,25 +363,25 @@ msgstr "ส่งให้เพื่อน"
 
 #: functions.php:438
 msgid "Search results"
-msgstr "ผลลัพธ์ในการค้นหา"
+msgstr "ผลลัพธ์การค้นหา"
 
 #: functions.php:439
 #, php-format
 msgid "Search results: %s"
-msgstr "ผลลัพธ์ในการค้นหา: %s"
+msgstr "ผลลัพธ์การค้นหา : %s"
 
 #: functions.php:440
 msgid "Dashboard"
-msgstr "หน้าควบคุมหลัก"
+msgstr "แดชบอร์ด"
 
 #: functions.php:441
 #, php-format
 msgid "%s's profile"
-msgstr "บัญชีผู้ใช้งานของ %s"
+msgstr "โปรไฟล์ของ %s"
 
 #: functions.php:442 functions.php:496
 msgid "Account"
-msgstr "บัญชีผู้ใช้งาน"
+msgstr "บัญชี"
 
 #: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
 msgid "Listings"
@@ -389,7 +389,7 @@ msgstr "ลิสต์รายการ"
 
 #: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
 msgid "Alerts"
-msgstr "แจ้งเตือน"
+msgstr "การแจ้งเตือน"
 
 #: functions.php:446 functions.php:501
 msgid "Change email"
@@ -411,7 +411,7 @@ msgstr "สร้างบัญชีใหม่"
 
 #: functions.php:453 user-public-sidebar.php:26 footer.php:65
 msgid "Contact"
-msgstr "ติดต่อเรา"
+msgstr "ติดต่อ"
 
 #: functions.php:481
 msgid "Public Profile"
@@ -459,7 +459,7 @@ msgstr "แจ้งเตือน"
 
 #: user-alerts.php:46
 msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "การกระทำนี้ไม่สามารถย้อนกลับได้ คุณแน่ใจหรือไม่ทำจะดำเนินการต่อ"
+msgstr "การกระทำนี้ไม่สามารถยกเลิกได้ คุณแน่ใจหรือไม่ ว่าต้องการดำเนินการต่อ"
 
 #: user-alerts.php:46
 msgid "Delete this alert"
@@ -756,7 +756,7 @@ msgstr "รูปโลโก้ (, พื้นที่ png,gif,jpg)"
 
 #: admin/header.php:69
 msgid "Upload"
-msgstr "อัพโหลด"
+msgstr "อัปโหลด"
 
 #: admin/header.php:78
 #, php-format
