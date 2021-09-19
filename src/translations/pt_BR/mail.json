@@ -59,7 +59,7 @@
       "fk_i_page_id": 10,
       "s_internal_name": "email_new_item_non_register_user",
       "s_title": "{WEB_TITLE} - Editar opções para o anúncio {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Hi {USER_NAME},<\/p><p>Você não está registrado em {WEB_LINK}, mas ainda pode editar ou excluir a <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> de listagem por um curto período de tempo.<\/p><p>Você pode editar sua listagem seguindo este link: {EDIT_LINK}<\/p><p>Você pode excluir sua listagem seguindo este link: {DELETE_LINK}<\/p><p>Se você se registrar como usuário, você terá acesso total às opções de edição.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 11,
@@ -71,13 +71,13 @@
       "fk_i_page_id": 12,
       "s_internal_name": "email_admin_new_item",
       "s_title": "{WEB_TITLE} - Um novo anúncio foi publicado",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>o administrador dear {WEB_TITLE} ,<\/p><p>Você está recebendo este e-mail porque uma listagem foi publicada em {WEB_LINK}.<\/p><p>Detalhes da lista:<\/p><p>Nome de contato: {USER_NAME}<br \/>E-mail de contato: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Você pode editar esta listagem clicando no seguinte link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 13,
       "s_internal_name": "email_user_forgot_password",
       "s_title": "{WEB_TITLE} - Recupere sua senha",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Hi {USER_NAME},<\/p><p>Enviamos este e-mail porque você solicitou um lembrete de senha. Siga este link para recuperá-lo: {PASSWORD_LINK}<\/p><p>O link será desativado em 24 horas.<\/p><p>Se você não solicitou um lembrete de senha, por favor, ignore esta mensagem. Este pedido foi feito por ip {IP_ADDRESS} em {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 14,
