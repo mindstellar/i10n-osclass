@@ -1,137 +1,137 @@
 {
-    "language": "no_NO",
-    "template": [
-        {
-            "fk_i_page_id": 1,
-            "s_internal_name": "email_item_inquiry",
-            "s_title": "{WEB_TITLE} - Du har fått en melding",
-            "s_description": "<p>Hei {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) sendte deg en melding om <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Vennlig hilsen<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 2,
-            "s_internal_name": "email_user_validation",
-            "s_title": "Bekreft din {WEB_TITLE} konto",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Bekreft din registrering ved å klikke på linken: {VALIDATION_LINK}<\/p><p>Tusen takk!<\/p><p>Vennlig hilsen<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 3,
-            "s_internal_name": "email_user_registration",
-            "s_title": "{WEB_TITLE} - Registrering fullført",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Du har registrert deg for {WEB_LINK}.<\/p><p>Takk!<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 4,
-            "s_internal_name": "email_send_friend",
-            "s_title": "Se hva jeg fant på {WEB_TITLE}",
-            "s_description": "<p>Hei {FRIEND_NAME},<\/p><p>Din venn {USER_NAME} ønsket å vise deg denne annonsen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Melding:<\/p><p>{COMMENT}<\/p><p>Vennlig hilsen<\/p><p>{WEB_TITLE}<\/p>"
-        },
-        {
-            "fk_i_page_id": 5,
-            "s_internal_name": "alert_email_hourly",
-            "s_title": "{WEB_TITLE} - Ny annonser in the last hour",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Nye annonser er publisert den siste timen:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Stopp varsling: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 6,
-            "s_internal_name": "alert_email_daily",
-            "s_title": "{WEB_TITLE} - Ny annonser in the last day",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Nye annonser er publisert i dag:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Stopp varsling: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 7,
-            "s_internal_name": "alert_email_weekly",
-            "s_title": "{WEB_TITLE} - Ny annonser in the last week",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Nye annonser publisert sist uke:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Stopp varsling: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 8,
-            "s_internal_name": "alert_email_instant",
-            "s_title": "{WEB_TITLE} - Ny annonser",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>En ny annonse er publisert, sjekk den ut!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Stopp varsling: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 9,
-            "s_internal_name": "email_new_comment_admin",
-            "s_title": "{WEB_TITLE} - Ny kommentar",
-            "s_description": "<p>Noen har kommentert oppføringen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Kommentarer: {COMMENT_AUTHOR}<br \/>Kommentarers e-post: {COMMENT_EMAIL}<br \/>Tittel: {COMMENT_TITLE}<br \/>Kommentar: {COMMENT_TEXT}<\/p>"
-        },
-        {
-            "fk_i_page_id": 10,
-            "s_internal_name": "email_new_item_non_register_user",
-            "s_title": "{WEB_TITLE} - alternativer for å endre annonse {ITEM_TITLE}",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Du er ikke registrert hos {WEB_LINK}, men du kan fremdeles redigere eller slette oppføringen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for en kort periode.<\/p><p>Du kan redigere din liste med følgende lenke: {EDIT_LINK}<\/p><p>Du kan slette din liste ved å følge denne lenken: {DELETE_LINK}<\/p><p>Hvis du registrerer deg som bruker, du vil ha full tilgang til å redigere alternativer.<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 11,
-            "s_internal_name": "email_item_validation",
-            "s_title": "{WEB_TITLE} - bekreft din annonse",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Du mottar denne e-posten fordi en oppføring er publisert i {WEB_LINK}. Vennligst bekreft denne listingen ved å klikke på følgende link: {VALIDATION_LINK}. Hvis du ikke har publisert denne listen, kan du ignorere denne e-posten.<\/p><p>Listedetaljer:<\/p><p>Kontaktnavn: {USER_NAME}<br \/>Kontakt e-post: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p><\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 12,
-            "s_internal_name": "email_admin_new_item",
-            "s_title": "{WEB_TITLE} - en ny annonse er publisert",
-            "s_description": "<p>Kjære {WEB_TITLE} admin,<\/p><p>Du mottar denne e-posten fordi en oppføring er publisert på {WEB_LINK}.<\/p><p>Listedetaljer:<\/p><p>Kontaktnavn: {USER_NAME}<br \/>Kontakt e-post: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Du kan redigere denne listen ved å klikke på følgende lenke: {EDIT_LINK}<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 13,
-            "s_internal_name": "email_user_forgot_password",
-            "s_title": "{WEB_TITLE} - hent ditt passord",
-            "s_description": "<p>Hi {USER_NAME},<\/p><p>Vi har sendt deg denne e-posten fordi du har bedt om en påminnelse om passord. Følg denne linken for å gjenopprette: {PASSWORD_LINK}<\/p><p>Lenken blir deaktivert i løpet av 24 timer.<\/p><p>Hvis du ikke har bedt om en påminnelse for passordet, kan du ignorere denne meldingen. Denne forespørselen ble laget av IP {IP_ADDRESS} den {DATE_TIME}<\/p><\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 14,
-            "s_internal_name": "email_new_email",
-            "s_title": "{WEB_TITLE} - endring av e-post adresse",
-            "s_description": "<p>Hei {USER_NAME}<\/p><p>Du mottar denne e-posten fordi du ba om en endring i e-post. Bekreft denne nye e-postadressen ved å klikke på følgende valideringslenke: {VALIDATION_LINK}<\/p><p>Reguleringer,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 15,
-            "s_internal_name": "email_alert_validation",
-            "s_title": "{WEB_TITLE} - Bekrefte varsling",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Du må bekrefte din varsling ved å klikke på linken: {VALIDATION_LINK}<\/p><p>Takk!<\/p><p>Vennlig hilsen,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 16,
-            "s_internal_name": "email_comment_validated",
-            "s_title": "{WEB_TITLE} - Din kommentar er godkjent",
-            "s_description": "<p>Hei {COMMENT_AUTHOR},<\/p><p>Din kommentar på <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> har blitt godkjent.<\/p><p>Hilsen,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 17,
-            "s_internal_name": "email_item_validation_non_register_user",
-            "s_title": "{WEB_TITLE} - bekreft din annonse",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Du mottar denne e-posten fordi du har publisert en oppføring på {WEB_LINK}. Vennligst bekreft denne listingen ved å klikke på følgende link: {VALIDATION_LINK}. Hvis du ikke har publisert denne listen, kan du ignorere denne e-posten.<\/p><p>Listedetaljer:<\/p><p>Kontaktnavn: {USER_NAME}<br \/>Kontakt e-post: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Selv om du ikke er registrert på {WEB_LINK}, du kan fremdeles redigere eller slette din oppføring:<\/p><p>Du kan redigere din oppføring ved å følge denne lenken: {EDIT_LINK}<\/p><p>Du kan slette din oppføring ved å følge denne linken: {DELETE_LINK}<\/p><p>Reguls,<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 18,
-            "s_internal_name": "email_admin_new_user",
-            "s_title": "{WEB_TITLE} - En ny bruker er registrert",
-            "s_description": "<p>Kjære {WEB_TITLE} admin,<\/p><p>Du mottar denne e-posten fordi en ny bruker er laget i {WEB_LINK}.<\/p><p>Brukerdetaljer:<\/p><p>Navn: {USER_NAME}<br \/>E-post: {USER_EMAIL}<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 19,
-            "s_internal_name": "email_contact_user",
-            "s_title": "{WEB_TITLE} - Du har mottatt en melding",
-            "s_description": "<p>Hei {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) sendte deg en melding:<\/p><p>{COMMENT}<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 20,
-            "s_internal_name": "email_new_comment_user",
-            "s_title": "{WEB_TITLE} - Du har mottatt en ny kommentar",
-            "s_description": "<p>Det finnes en ny kommentar på listen: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Forfatter: {COMMENT_AUTHOR}<br \/>Forfatterens e-post: {COMMENT_EMAIL}<br \/>Tittel: {COMMENT_TITLE}<br \/>Kommentar: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
-        },
-        {
-            "fk_i_page_id": 21,
-            "s_internal_name": "email_new_admin",
-            "s_title": "{WEB_TITLE} - Administratorkonto opprettet!",
-            "s_description": "<p>Hei {ADMIN_NAME},<\/p><p>Administratoren av {WEB_LINK} har opprettet en konto til deg,<\/p><ul><li>Brukernavn: {USERNAME}<\/li><li>Passord: {PASSWORD}<\/li><\/ul><p>Du kan logge deg på administrasjonspanelet her {WEB_ADMIN_LINK}.<\/p><p>Takk!<\/p><p>Hilsen,<\/p>"
-        },
-        {
-            "fk_i_page_id": 22,
-            "s_internal_name": "email_warn_expiration",
-            "s_title": "{WEB_TITLE} - Din annonse er i ferd med å utløpe",
-            "s_description": "<p>Hei {USER_NAME},<\/p><p>Din oppføring <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> er i ferd med å utløpe på {WEB_LINK}."
-        }
-    ]
+  "language": "no_NO",
+  "template": [
+    {
+      "fk_i_page_id": 1,
+      "s_internal_name": "email_item_inquiry",
+      "s_title": "{WEB_TITLE} - Du har fått en melding",
+      "s_description": "<p>Hei {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) sendte deg en melding om <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Vennlig hilsen<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 2,
+      "s_internal_name": "email_user_validation",
+      "s_title": "Bekreft din {WEB_TITLE} konto",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>Bekreft din registrering ved å klikke på linken: {VALIDATION_LINK}<\/p><p>Tusen takk!<\/p><p>Vennlig hilsen<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 3,
+      "s_internal_name": "email_user_registration",
+      "s_title": "{WEB_TITLE} - Registrering fullført",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>Du har registrert deg for {WEB_LINK}.<\/p><p>Takk!<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 4,
+      "s_internal_name": "email_send_friend",
+      "s_title": "Se hva jeg fant på {WEB_TITLE}",
+      "s_description": "<p>Hei {FRIEND_NAME},<\/p><p>Din venn {USER_NAME} ønsket å vise deg denne annonsen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Melding:<\/p><p>{COMMENT}<\/p><p>Vennlig hilsen<\/p><p>{WEB_TITLE}<\/p>"
+    },
+    {
+      "fk_i_page_id": 5,
+      "s_internal_name": "alert_email_hourly",
+      "s_title": "{WEB_TITLE} - Ny annonser in the last hour",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>Nye annonser er publisert den siste timen:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Stopp varsling: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 6,
+      "s_internal_name": "alert_email_daily",
+      "s_title": "{WEB_TITLE} - Ny annonser in the last day",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>Nye annonser er publisert i dag:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Stopp varsling: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 7,
+      "s_internal_name": "alert_email_weekly",
+      "s_title": "{WEB_TITLE} - Ny annonser in the last week",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>Nye annonser publisert sist uke:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Stopp varsling: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 8,
+      "s_internal_name": "alert_email_instant",
+      "s_title": "{WEB_TITLE} - Ny annonser",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>En ny annonse er publisert, sjekk den ut!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Stopp varsling: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 9,
+      "s_internal_name": "email_new_comment_admin",
+      "s_title": "{WEB_TITLE} - Ny kommentar",
+      "s_description": "<p>Noen har kommentert oppføringen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Kommentarer: {COMMENT_AUTHOR}<br \/>Kommentarers e-post: {COMMENT_EMAIL}<br \/>Tittel: {COMMENT_TITLE}<br \/>Kommentar: {COMMENT_TEXT}<\/p>"
+    },
+    {
+      "fk_i_page_id": 10,
+      "s_internal_name": "email_new_item_non_register_user",
+      "s_title": "{WEB_TITLE} - alternativer for å endre annonse {ITEM_TITLE}",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>Du er ikke registrert hos {WEB_LINK}, men du kan fremdeles redigere eller slette oppføringen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for en kort periode.<\/p><p>Du kan redigere din liste med følgende lenke: {EDIT_LINK}<\/p><p>Du kan slette din liste ved å følge denne lenken: {DELETE_LINK}<\/p><p>Hvis du registrerer deg som bruker, du vil ha full tilgang til å redigere alternativer.<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 11,
+      "s_internal_name": "email_item_validation",
+      "s_title": "{WEB_TITLE} - bekreft din annonse",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>Du mottar denne e-posten fordi en oppføring er publisert i {WEB_LINK}. Vennligst bekreft denne listingen ved å klikke på følgende link: {VALIDATION_LINK}. Hvis du ikke har publisert denne listen, kan du ignorere denne e-posten.<\/p><p>Listedetaljer:<\/p><p>Kontaktnavn: {USER_NAME}<br \/>Kontakt e-post: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p><\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 12,
+      "s_internal_name": "email_admin_new_item",
+      "s_title": "{WEB_TITLE} - en ny annonse er publisert",
+      "s_description": "<p>Kjære {WEB_TITLE} admin,<\/p><p>Du mottar denne e-posten fordi en oppføring er publisert på {WEB_LINK}.<\/p><p>Listedetaljer:<\/p><p>Kontaktnavn: {USER_NAME}<br \/>Kontakt e-post: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Du kan redigere denne listen ved å klikke på følgende lenke: {EDIT_LINK}<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 13,
+      "s_internal_name": "email_user_forgot_password",
+      "s_title": "{WEB_TITLE} - hent ditt passord",
+      "s_description": "<p>Hi {USER_NAME},<\/p><p>Vi har sendt deg denne e-posten fordi du har bedt om en påminnelse om passord. Følg denne linken for å gjenopprette: {PASSWORD_LINK}<\/p><p>Lenken blir deaktivert i løpet av 24 timer.<\/p><p>Hvis du ikke har bedt om en påminnelse for passordet, kan du ignorere denne meldingen. Denne forespørselen ble laget av IP {IP_ADDRESS} den {DATE_TIME}<\/p><\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 14,
+      "s_internal_name": "email_new_email",
+      "s_title": "{WEB_TITLE} - endring av e-post adresse",
+      "s_description": "<p>Hei {USER_NAME}<\/p><p>Du mottar denne e-posten fordi du ba om en endring i e-post. Bekreft denne nye e-postadressen ved å klikke på følgende valideringslenke: {VALIDATION_LINK}<\/p><p>Reguleringer,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 15,
+      "s_internal_name": "email_alert_validation",
+      "s_title": "{WEB_TITLE} - Bekrefte varsling",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>Du må bekrefte din varsling ved å klikke på linken: {VALIDATION_LINK}<\/p><p>Takk!<\/p><p>Vennlig hilsen,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 16,
+      "s_internal_name": "email_comment_validated",
+      "s_title": "{WEB_TITLE} - Din kommentar er godkjent",
+      "s_description": "<p>Hei {COMMENT_AUTHOR},<\/p><p>Din kommentar på <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> har blitt godkjent.<\/p><p>Hilsen,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 17,
+      "s_internal_name": "email_item_validation_non_register_user",
+      "s_title": "{WEB_TITLE} - bekreft din annonse",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>Du mottar denne e-posten fordi du har publisert en oppføring på {WEB_LINK}. Vennligst bekreft denne listingen ved å klikke på følgende link: {VALIDATION_LINK}. Hvis du ikke har publisert denne listen, kan du ignorere denne e-posten.<\/p><p>Listedetaljer:<\/p><p>Kontaktnavn: {USER_NAME}<br \/>Kontakt e-post: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Selv om du ikke er registrert på {WEB_LINK}, du kan fremdeles redigere eller slette din oppføring:<\/p><p>Du kan redigere din oppføring ved å følge denne lenken: {EDIT_LINK}<\/p><p>Du kan slette din oppføring ved å følge denne linken: {DELETE_LINK}<\/p><p>Reguls,<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 18,
+      "s_internal_name": "email_admin_new_user",
+      "s_title": "{WEB_TITLE} - En ny bruker er registrert",
+      "s_description": "<p>Kjære {WEB_TITLE} admin,<\/p><p>Du mottar denne e-posten fordi en ny bruker er laget i {WEB_LINK}.<\/p><p>Brukerdetaljer:<\/p><p>Navn: {USER_NAME}<br \/>E-post: {USER_EMAIL}<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 19,
+      "s_internal_name": "email_contact_user",
+      "s_title": "{WEB_TITLE} - Du har mottatt en melding",
+      "s_description": "<p>Hei {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) sendte deg en melding:<\/p><p>{COMMENT}<\/p><p>Hilsen<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 20,
+      "s_internal_name": "email_new_comment_user",
+      "s_title": "{WEB_TITLE} - Du har mottatt en ny kommentar",
+      "s_description": "<p>Det finnes en ny kommentar på listen: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Forfatter: {COMMENT_AUTHOR}<br \/>Forfatterens e-post: {COMMENT_EMAIL}<br \/>Tittel: {COMMENT_TITLE}<br \/>Kommentar: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+    },
+    {
+      "fk_i_page_id": 21,
+      "s_internal_name": "email_new_admin",
+      "s_title": "{WEB_TITLE} - Administratorkonto opprettet!",
+      "s_description": "<p>Hei {ADMIN_NAME},<\/p><p>Administratoren av {WEB_LINK} har opprettet en konto til deg,<\/p><ul><li>Brukernavn: {USERNAME}<\/li><li>Passord: {PASSWORD}<\/li><\/ul><p>Du kan logge deg på administrasjonspanelet her {WEB_ADMIN_LINK}.<\/p><p>Takk!<\/p><p>Hilsen,<\/p>"
+    },
+    {
+      "fk_i_page_id": 22,
+      "s_internal_name": "email_warn_expiration",
+      "s_title": "{WEB_TITLE} - Din annonse er i ferd med å utløpe",
+      "s_description": "<p>Hei {USER_NAME},<\/p><p>Din oppføring <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> er i ferd med å utløpe på {WEB_LINK}."
+    }
+  ]
 }
