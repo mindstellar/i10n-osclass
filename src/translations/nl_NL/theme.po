@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-08-25 13:29\n"
+"POT-Creation-Date: 2021-09-19 06:17+0000\n"
+"PO-Revision-Date: 2021-09-19 08:01\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -17,298 +17,898 @@ msgstr ""
 "X-Crowdin-File: /master/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8210\n"
 
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:444
-#: tmp/osclass/oc-content/themes/bender/functions.php:491
-msgid "Alerts"
-msgstr "Meldingen"
-
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Deze actie kan niet ongedaan gemaakt worden. Weet u zeker dat u wilt doorgaan?"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "Je bent succesvol ingeschreven voor de melding"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:28
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
-msgid "Invalid email address"
-msgstr "Ongeldig email adres"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "Er was een probleem met de melding"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:33
-msgid "Change e-mail"
-msgstr "Wijzig e-mail"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "E-mail: dit veld is vereist"
-
-#: tmp/osclass/oc-content/themes/bender/admin/settings.php:42
-msgid "Donate"
-msgstr "Doneer"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:42
-msgid "Remove logo"
-msgstr "Verwijder logo"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:69
-msgid "Upload"
-msgstr "Uploaden"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "De afbeeldings folder <strong>%s</strong> is niet schrijfbaar op jouw server"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass kan de logo afbeelding niet uploaden vanaf het administratie paneel."
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Maak a.u.b. de voorgenoemde afbeeldings folder schrijfbaar."
-
-#: tmp/osclass/oc-content/themes/bender/loop-single-premium.php:48
-#: tmp/osclass/oc-content/themes/bender/loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Deze actie kan niet ongedaan gemaakt worden. Weet u zeker dat u wilt doorgaan?"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Publicatie Datum</strong>: %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Modificatie datum:</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:55
-msgid "Selected"
-msgstr "gekozen"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:56
-msgid "Nothing selected, input was"
-msgstr "Niets geselecteerd, invoer was"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "Er zijn geen resultaten voor uw \"%s\""
-
-#: tmp/osclass/oc-content/themes/bender/search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%1$d - %2$d of %3$d advertenties"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:121
-msgid "Premium listings"
-msgstr "Premium advertenties"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:129
-#: tmp/osclass/oc-content/themes/bender/functions.php:443
-#: tmp/osclass/oc-content/themes/bender/functions.php:486
-msgid "Listings"
-msgstr "Aanmeldingen"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_password.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:448
-#: tmp/osclass/oc-content/themes/bender/functions.php:451
-#: tmp/osclass/oc-content/themes/bender/functions.php:511
-msgid "Change password"
-msgstr "Verander wachtwoord"
-
-#: tmp/osclass/oc-content/themes/bender/footer.php:35
-#: tmp/osclass/oc-content/themes/bender/header.php:48
-#, php-format
-msgid "Hi %s"
-msgstr "Hi %s"
-
-#: tmp/osclass/oc-content/themes/bender/footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Deze website maakt trots gebruik van de <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-
-#: tmp/osclass/oc-content/themes/bender/item-post.php:61
-#: tmp/osclass/oc-content/themes/bender/header.php:74
-msgid "Select a category"
-msgstr "Kies een categorie "
-
-#: tmp/osclass/oc-content/themes/bender/user-profile.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:445
-msgid "Update account"
-msgstr "Account bijwerken"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:25
-msgid "Delete"
-msgstr "Verwijder"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:26
-msgid "Cancel"
-msgstr "Annuleer"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:72
-msgid "Previous image"
-msgstr "Vorige afbeelding"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:73
-msgid "Next image"
-msgstr "Volgende afbeelding"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:74
-msgid "Close"
-msgstr "Afsluiten"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:34
-#: tmp/osclass/oc-content/themes/bender/functions.php:447
-#: tmp/osclass/oc-content/themes/bender/functions.php:506
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
 msgid "Change username"
 msgstr "Verander gebruikersnaam"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
+#: user-change_username.php:50
 msgid "Username: this field is required"
 msgstr "Gebruikersnaam: dit veld is verplicht"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
+#: user-change_username.php:75
 msgid "The username is available"
 msgstr "Deze gebruikersnaam is beschikbaar"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
+#: user-change_username.php:77
 msgid "The username is NOT available"
 msgstr "Deze gebruikersnaam is helaas NIET beschikbaar"
 
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "Vernieuwen"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "Wijzig e-mail"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "Huidige e-mail"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Nieuwe e-mail"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "E-mail: dit veld is vereist"
+
+#: user-change_email.php:77 alert-form.php:28
+msgid "Invalid email address"
+msgstr "Ongeldig email adres"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Menu weergeven"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Verwijder account"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Weet je zeker dat je je account wilt verwijderen?"
+
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "Markeer als..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "Markeer als spam"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "Als onjuist markeren"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "Markeer als gedupliceerd"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "Markeren als verlopen"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "Als beledigend markeren"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "Neem contact op met de aanbieder"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "De aanbieding is verlopen. U kunt geen contact opnemen met de uitgever."
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "Het is je eigen lijst, je kan geen contact opnemen met de uitgever."
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "U moet inloggen of registreren om contact op te nemen met de adverteerder"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "Inloggen"
+
+#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "Registreer voor een gratis account"
+
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
+msgid "Name"
+msgstr "Naam"
+
+#: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
 msgstr "Naam: %s"
 
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
+#: item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
 msgstr "E-mail: %s"
 
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:76
+#: item-sidebar.php:76
 #, php-format
 msgid "Phone: %s"
 msgstr "Telefoon: %s"
 
-#: tmp/osclass/oc-content/themes/bender/user-sidebar.php:28
-#: tmp/osclass/oc-content/themes/bender/functions.php:516
-msgid "Delete account"
-msgstr "Verwijder account"
+#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
+#: item-send-friend.php:44
+msgid "Your name"
+msgstr "Uw naam"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "bijv. PHP Programmeur "
+#: item-sidebar.php:89
+msgid "Your e-mail address"
+msgstr "Uw e-mailadres"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:434
-msgid "Publish a listing"
-msgstr "Publiceer een aanmelding"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "Telefoon nummer"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:435
-msgid "Edit your listing"
-msgstr "Pas je aamelding aan"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "optioneel"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:436
-msgid "Send to a friend"
-msgstr "Stuur naar een vriend"
+#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
+#: item-send-friend.php:78
+msgid "Message"
+msgstr "bericht"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:437
-msgid "Contact publisher"
-msgstr "Neem contact op met de aanbieder"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "Bijlage"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:438
-msgid "Search results"
-msgstr "Zoek resultaten"
+#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
+#: item-send-friend.php:87
+msgid "Send"
+msgstr "Verzenden"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Zoek resultaten: %s"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "Je bent succesvol ingeschreven voor de melding"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:440
-msgid "Dashboard"
-msgstr "Dashboard"
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "Er was een probleem met de melding"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%s's profiel"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "Al geabonneerd op deze zoekopdracht"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:442
-#: tmp/osclass/oc-content/themes/bender/functions.php:496
-msgid "Account"
-msgstr "Rekening"
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "Op deze zoekopdracht abonneren"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:446
-#: tmp/osclass/oc-content/themes/bender/functions.php:501
-msgid "Change email"
-msgstr "Verander email"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "Nu abonneren"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:449
-msgid "Login"
-msgstr "Inloggen"
+#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
+#: item.php:165
+msgid "Delete"
+msgstr "Verwijder"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:450
-msgid "Recover password"
-msgstr "Herstel wachtwoord"
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Annuleer"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:452
-msgid "Create a new account"
-msgstr "Maak een nieuw account aan"
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Vorige afbeelding"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:453
-msgid "Contact"
-msgstr "Contactpersoon"
+#: common/head.php:73
+msgid "Next image"
+msgstr "Volgende afbeelding"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:481
-msgid "Public Profile"
-msgstr "Publiek profiel"
+#: common/head.php:74
+msgid "Close"
+msgstr "Afsluiten"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Thema instellingen correct bijgewerkt "
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Uw zoekopdracht"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "De logo afbeelding is correct geupload"
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Woonplaats"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Er is een fout opgetreden, probeer het opnieuw"
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Toon alleen"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:636
-msgid "The logo image has been removed"
-msgstr "De logo afbeelding is verwijderd"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "lijsten met foto's"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:638
-msgid "Image not found"
-msgstr "Afbeelding niet gevonden"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Prijs"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:666
-msgid "Header logo"
-msgstr "Kop logo"
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Min."
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:668
-msgid "Theme settings"
-msgstr "Thema instellingen"
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Max."
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:728
-msgid "All categories"
-msgstr "Alle categorieën "
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Bevestig"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:67
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Verfijn categorie"
+
+#: loop-single-premium.php:46 loop-single.php:46 item.php:73
+msgid "Edit item"
+msgstr "Artikel bewerken"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Deze actie kan niet ongedaan gemaakt worden. Weet u zeker dat u wilt doorgaan?"
+
+#: loop-single-premium.php:51 loop-single.php:51
+msgid "Activate"
+msgstr "Activeren"
+
+#: user-public-profile.php:67
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
 msgstr "<strong>Adres:</strong> %1$s"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:70
+#: user-public-profile.php:70
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>Locatie:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Omschrijving gebruiker"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "Laatste vermeldingen"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Nieuwste aanbiedingen"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Er zijn op dit moment geen aanbiedingen beschikbaar"
+
+#: main.php:45 search.php:80 admin/settings.php:60
+msgid "List"
+msgstr "Klantenlijst"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Rooster"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Alle lijsten bekijken"
+
+#: main.php:74 item.php:66
+msgid "Location"
+msgstr "Lokatie"
+
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "Account bijwerken"
+
+#: user-profile.php:52
+msgid "User type"
+msgstr "Gebruikers type"
+
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "Mobiele telefoon"
+
+#: user-profile.php:65
+msgid "Phone"
+msgstr "Telefoonnummer"
+
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "Land:"
+
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "Regio"
+
+#: user-profile.php:89
+msgid "City area"
+msgstr "Stad gebied"
+
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "Adres:"
+
+#: user-profile.php:101
+msgid "Website"
+msgstr "website"
+
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "Omschrijving"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "bijv. PHP Programmeur "
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Publiceer een aanmelding"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Pas je aamelding aan"
+
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "Stuur naar een vriend"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Zoek resultaten"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Zoek resultaten: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%s's profiel"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Rekening"
+
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "Aanmeldingen"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "Meldingen"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Verander email"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "Verander wachtwoord"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Herstel wachtwoord"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Maak een nieuw account aan"
+
+#: functions.php:453 user-public-sidebar.php:26 footer.php:65
+msgid "Contact"
+msgstr "Contactpersoon"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Publiek profiel"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Thema instellingen correct bijgewerkt "
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "De logo afbeelding is correct geupload"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Er is een fout opgetreden, probeer het opnieuw"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "De logo afbeelding is verwijderd"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Afbeelding niet gevonden"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "Kop logo"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "Thema instellingen"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Alle categorieën "
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "Je hebt nog geen meldingen"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "Waarschuwing"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Deze actie kan niet ongedaan gemaakt worden. Weet u zeker dat u wilt doorgaan?"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "Verwijder deze waarschuwing"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Publicatie Datum</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Modificatie datum:</strong> %1$s"
+
+#: item.php:85 item.php:92
+msgid "Image"
+msgstr "Afbeelding"
+
+#: item.php:121
+msgid "Contact seller"
+msgstr "Neen contact op met de aanbieder"
+
+#: item.php:125
+msgid "Share"
+msgstr "Delen"
+
+#: item.php:131
+msgid "Useful information"
+msgstr "Nuttige informatie"
+
+#: item.php:133
+msgid "Avoid scams by acting locally or paying with PayPal"
+msgstr "Vermijd zwendel door lokaal te handelen of met PayPal te betalen"
+
+#: item.php:134
+msgid "Never pay with Western Union, Moneygram or other anonymous payment services"
+msgstr "Betaal nooit bij Westerse Unie, Moneygram of andere anonieme betalingsdiensten"
+
+#: item.php:135
+msgid "Don't buy or sell outside of your country. Don't accept cashier cheques from outside your country"
+msgstr "Koop of verkoop niet buiten uw land. Accepteer cheques van buiten uw land niet"
+
+#: item.php:136
+msgid "This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\""
+msgstr "Deze site is nooit betrokken bij een transactie, en verwerkt geen betalingen, verzending, gegarandeerde transacties, escrow diensten aanbieden of \"koperbescherming bieden\" of \"verkopercertificering\""
+
+#: item.php:143
+msgid "Related listings"
+msgstr "Gerelateerde aanbiedingen"
+
+#: item.php:154
+msgid "Comments"
+msgstr "Reacties"
+
+#: item.php:161
+msgid "by"
+msgstr "door"
+
+#: item.php:165
+msgid "Delete your comment"
+msgstr "Verwijder uw reactie"
+
+#: item.php:177
+msgid "Leave your comment (spam and offensive messages will be removed)"
+msgstr "Laat je reactie achter (spam en aanstootgevende berichten worden verwijderd)"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "Uw e-mail"
+
+#: item.php:204 item-post.php:65
+msgid "Title"
+msgstr "Titel"
+
+#: item.php:210
+msgid "Comment"
+msgstr "Reactie"
+
+#: user-login.php:30
+msgid "Access to your account"
+msgstr "Toegang tot je account"
+
+#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+msgid "E-mail"
+msgstr "Email"
+
+#: user-login.php:44 user-register.php:51
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: user-login.php:51
+msgid "Remember me"
+msgstr "Mijn gegevens onthouden"
+
+#: user-login.php:54
+msgid "Log in"
+msgstr "Inloggen"
+
+#: user-login.php:58
+msgid "Forgot password?"
+msgstr "Wachtwoord vergeten?"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "Hi %s"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "Mijn account"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "Publiceer je advertentie gratis"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "Kies een categorie "
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "Zoeken"
+
+#: item-post.php:57
+msgid "General Information"
+msgstr "Algemene informatie"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "Categorie"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "Locatie van lijst"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "Stad Gebied"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "Informatie verkoper"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "Toon e-mail op de lijst pagina"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "Publiceren"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "Uw e-mailadres"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Gratis een account aanmaken"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Herhaal wachtwoord"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "Wachtwoorden komen niet overeen"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "Aanmaken"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Sorry, maar ik kan de pagina die je zoekt niet vinden"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "We helpen je, we hebben een paar tips voor je om het te vinden."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>Zoek</strong> hier:"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>Zoek</strong> erop in de meest populaire categorieën."
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Contacteer ons"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "Herstellen van uw wachtwoord"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Nieuw wachtwoord"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Herhaal nieuw wachtwoord"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "De naam van je vriend"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "E-Mail adres van je vriend"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Onderwerp (optioneel)"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "Mijn advertenties"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "Er zijn nog geen aanbiedingen toegevoegd"
+
+#: search.php:55
+msgid "Selected"
+msgstr "gekozen"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "Niets geselecteerd, invoer was"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "Er zijn geen resultaten voor uw \"%s\""
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %2$d of %3$d advertenties"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "Filters tonen"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "Sorteren op"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "Premium advertenties"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "Andere zoekopdrachten die je kunnen interesseren"
+
+#: admin/header.php:35
+msgid "Preview"
+msgstr "Voorvertoning"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Verwijder logo"
+
+#: admin/header.php:49
+msgid "No logo has been uploaded yet"
+msgstr "Er is nog geen logo geüpload"
+
+#: admin/header.php:52
+msgid "Upload logo"
+msgstr "Logo uploaden"
+
+#: admin/header.php:53
+msgid "The preferred size of the logo is 600x100."
+msgstr "De voorkeursgrootte van het logo is 600x100."
+
+#: admin/header.php:55
+msgid "<strong>Note:</strong> Uploading another logo will overwrite the current logo."
+msgstr "<strong>Opmerking:</strong> Het uploaden van een ander logo zal het huidige logo overschrijven."
+
+#: admin/header.php:63
+msgid "Logo image (png,gif,jpg)"
+msgstr "Logo afbeelding (png,gif,jpg)"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Uploaden"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "De afbeeldings folder <strong>%s</strong> is niet schrijfbaar op jouw server"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass kan de logo afbeelding niet uploaden vanaf het administratie paneel."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Maak a.u.b. de voorgenoemde afbeeldings folder schrijfbaar."
+
+#: admin/header.php:85
+msgid "To make a directory writable under UNIX execute this command from the shell:"
+msgstr "Om een map beschrijfbaar te maken onder UNIX voert u deze opdracht uit vanuit de shell:"
+
+#: admin/settings.php:36
+msgid "I would like to contribute to the development of Osclass with a donation of"
+msgstr "Ik wil graag bijdragen aan de ontwikkeling van Osclass met een donatie van"
+
+#: admin/settings.php:41
+msgid "Custom"
+msgstr "Aangepaste"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Doneer"
+
+#: admin/settings.php:52
+msgid "Search placeholder"
+msgstr "Zoek placeholder"
+
+#: admin/settings.php:56
+msgid "Show lists as:"
+msgstr "Lijsten weergeven als:"
+
+#: admin/settings.php:59
+msgid "Gallery"
+msgstr "Galerij"
+
+#: admin/settings.php:66
+msgid "Footer link"
+msgstr "Voettekst link"
+
+#: admin/settings.php:68
+msgid "I want to help Osclass by linking to <a href=\"http://osclass.org/\" target=\"_blank\">osclass.org</a> from my site with the following text:"
+msgstr "Ik wil Osclass helpen door vanaf mijn site te linken naar <a href=\"http://osclass.org/\" target=\"_blank\">osclass.org</a> met de volgende tekst:"
+
+#: admin/settings.php:69
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"http://osclass.org/\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Deze website maakt trots gebruik van de <a title=\"Osclass web\" href=\"http://osclass.org/\">classifieds scripts</a> software <strong>Osclass</strong>"
+
+#: admin/settings.php:76
+msgid "Right-To-Left (RTL)"
+msgstr "Rechts-To-Links (RTL)"
+
+#: admin/settings.php:80
+msgid "Enable Right-To-Left"
+msgstr "Rechts-naar-links inschakelen"
+
+#: admin/settings.php:83
+msgid "enable/disable"
+msgstr "inschakelen/uitschakelen"
+
+#: admin/settings.php:90
+msgid "Location input"
+msgstr "Locatie invoer"
+
+#: admin/settings.php:94
+msgid "Show location input as:"
+msgstr "Locatie-invoer weergeven als:"
+
+#: admin/settings.php:97
+msgid "Dropdown"
+msgstr "Uitklapmenu"
+
+#: admin/settings.php:98
+msgid "Autocomplete"
+msgstr "Autoaanvullen"
+
+#: admin/settings.php:105
+msgid "Ads management"
+msgstr "Advertenties beheer"
+
+#: admin/settings.php:109
+msgid "In this section you can configure your site to display ads and start generating revenue."
+msgstr "In deze sectie kunt u uw site configureren om advertenties weer te geven en inkomsten te genereren."
+
+#: admin/settings.php:109
+msgid "If you are using an online advertising platform, such as Google Adsense, copy and paste here the provided code for ads."
+msgstr "Als u een online reclameplatform gebruikt, zoals Google Adsense, kopieer en plak hier de opgegeven code voor advertenties."
+
+#: admin/settings.php:115
+msgid "Header 728x90"
+msgstr "Kop 728x90"
+
+#: admin/settings.php:119
+msgid "This ad will be shown at the top of your website, next to the site title and above the search results. Note that the size of the ad has to be 728x90 pixels."
+msgstr "Deze advertentie wordt bovenaan uw website weergegeven, naast de titel van de site en boven de zoekresultaten. Merk op dat de grootte van de advertentie 728x90 pixels is."
+
+#: admin/settings.php:123
+msgid "Homepage 728x90"
+msgstr "Startpagina 728x90"
+
+#: admin/settings.php:127
+msgid "This ad will be shown on the main site of your website. It will appear both at the top and bottom of your site homepage. Note that the size of the ad has to be 728x90 pixels."
+msgstr "Deze advertentie wordt getoond op de hoofdsite van uw website. Het verschijnt zowel aan de bovenkant en onderkant van uw website homepage. Merk op dat de grootte van de advertentie 728x90 pixels is."
+
+#: admin/settings.php:131
+msgid "Search results 728x90 (top of the page)"
+msgstr "Zoekresultaten 728x90 (bovenkant van de pagina)"
+
+#: admin/settings.php:135
+msgid "This ad will be shown on top of the search results of your site. Note that the size of the ad has to be 728x90 pixels."
+msgstr "Deze advertentie wordt boven op de zoekresultaten van uw site weergegeven. Merk op dat de grootte van de advertentie 728x90 pixels is."
+
+#: admin/settings.php:139
+msgid "Search results 728x90 (middle of the page)"
+msgstr "Zoekresultaten 728x90 (midden van de pagina)"
+
+#: admin/settings.php:143
+msgid "This ad will be shown among the search results of your site. Note that the size of the ad has to be 728x90 pixels."
+msgstr "Deze advertentie wordt weergegeven in de zoekresultaten van uw site. Let op dat de grootte van de advertentie 728x90 pixels moet zijn."
+
+#: admin/settings.php:147
+msgid "Sidebar 300x250"
+msgstr "Sidebar 300x250"
+
+#: admin/settings.php:151
+msgid "This ad will be shown at the right sidebar of your website, on the product detail page. Note that the size of the ad has to be 300x350 pixels."
+msgstr "Deze advertentie wordt getoond op de rechterkant van je website, op de pagina met productdetails. Merk op dat de grootte van de advertentie 300x350 pixels moet zijn."
+
+#: admin/settings.php:155
+msgid "Save changes"
+msgstr "Aanpassingen opslaan"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Huidig wachtwoord"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Deze website maakt trots gebruik van de <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "Taal:"
+
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "Stuur me een nieuw wachtwoord"
 
