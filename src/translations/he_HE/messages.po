@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 06:10\n"
+"PO-Revision-Date: 2021-09-19 09:07\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
@@ -133,7 +133,7 @@ msgstr ""
 #: oc-includes/osclass/classes/actions/ItemActions.php:596
 #, php-format
 msgid "%s is invalid."
-msgstr ""
+msgstr "%s אינו חוקי."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:563
 #: oc-includes/osclass/classes/actions/ItemActions.php:566
@@ -143,7 +143,7 @@ msgstr ""
 #: oc-includes/osclass/classes/actions/ItemActions.php:606
 #, php-format
 msgid "%s is required."
-msgstr ""
+msgstr "נדרשת %s ."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:1366
 #, php-format
@@ -805,7 +805,7 @@ msgstr "יש בעיה בהוספת השפה"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
 msgid "There was a problem importing email templates"
-msgstr ""
+msgstr "אירעה בעיה בייבוא תבניות דואר אלקטרוני"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
 msgid "Language imported successfully"
@@ -826,7 +826,7 @@ msgstr "שדה שם השפה הינו שדה חובה"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
 msgid "Language direction field is required"
-msgstr ""
+msgstr "נדרש שדה כיוון שפה"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
 msgid "Language short name field is required"
@@ -1040,7 +1040,7 @@ msgstr "הנתיב ריק"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
 msgid "Could not connect with the database"
-msgstr ""
+msgstr "לא היתה אפשרות להתחבר למסד הנתונים"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
@@ -1188,10 +1188,10 @@ msgstr "לא נבחרו משתמשים"
 #, php-format
 msgid "Activation email sent to one user"
 msgid_plural "Activation email sent to %s users"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "הפעלת דואר אלקטרוני שנשלח למשתמש אחד"
+msgstr[1] "הפעלת דואר אלקטרוני שנשלח למשתמשים %s"
+msgstr[2] "הפעלת דואר אלקטרוני שנשלח למשתמשים %s"
+msgstr[3] "הפעלת דואר אלקטרוני שנשלח למשתמשים %s"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
 msgid "No users have been activated"
@@ -1201,10 +1201,10 @@ msgstr "אין משתמשים מחוברים"
 #, php-format
 msgid "One user has been activated"
 msgid_plural "%s users have been activated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "משתמש אחד הופעל"
+msgstr[1] "%s משתמשים הופעלו"
+msgstr[2] "%s משתמשים הופעלו"
+msgstr[3] "%s משתמשים הופעלו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
 msgid "No users have been deactivated"
@@ -1214,10 +1214,10 @@ msgstr "אין משתמשים מושבתים"
 #, php-format
 msgid "One user has been deactivated"
 msgid_plural "%s users have been deactivated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "הפעלת משתמש אחד בוטלה"
+msgstr[1] "%s משתמשים בוטלו"
+msgstr[2] "%s משתמשים בוטלו"
+msgstr[3] "%s משתמשים בוטלו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
 msgid "No users have been enabled"
@@ -1227,10 +1227,10 @@ msgstr "אף משתמש לא הופעל"
 #, php-format
 msgid "One user has been unblocked"
 msgid_plural "%s users have been unblocked"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "משתמש אחד בוטל החסימה"
+msgstr[1] "%s משתמשים בוטלו"
+msgstr[2] "%s משתמשים בוטלו"
+msgstr[3] "%s משתמשים בוטלו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
 msgid "No users have been disabled"
@@ -1240,10 +1240,10 @@ msgstr "אף משתמש לא הושבת"
 #, php-format
 msgid "One user has been blocked"
 msgid_plural "%s users have been blocked"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "משתמש אחד נחסם"
+msgstr[1] "משתמשים %s נחסמו"
+msgstr[2] "משתמשים %s נחסמו"
+msgstr[3] "משתמשים %s נחסמו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
 msgid "No users have been deleted"
@@ -1253,10 +1253,10 @@ msgstr "אף משתמש לא נמחק"
 #, php-format
 msgid "One user has been deleted"
 msgid_plural "%s users have been deleted"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "משתמש אחד נמחק"
+msgstr[1] "%s משתמשים נמחקו"
+msgstr[2] "%s משתמשים נמחקו"
+msgstr[3] "%s משתמשים נמחקו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
@@ -1271,10 +1271,10 @@ msgstr ""
 #, php-format
 msgid "One alert has been deleted"
 msgid_plural "%s alerts have been deleted"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "התראה אחת נמחקה"
+msgstr[1] "התראות %s נמחקו"
+msgstr[2] "התראות %s נמחקו"
+msgstr[3] "התראות %s נמחקו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
 msgid "No alerts have been activated"
@@ -1284,10 +1284,10 @@ msgstr ""
 #, php-format
 msgid "One alert has been activated"
 msgid_plural "%s alerts have been activated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "התראה אחת הופעלה"
+msgstr[1] "התראות %s הופעלו"
+msgstr[2] "התראות %s הופעלו"
+msgstr[3] "התראות %s הופעלו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
 msgid "No alerts have been deactivated"
@@ -1297,10 +1297,10 @@ msgstr ""
 #, php-format
 msgid "One alert has been deactivated"
 msgid_plural "%s alerts have been deactivated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "התראה אחת בוטלה"
+msgstr[1] "התראות %s בוטלו"
+msgstr[2] "התראות %s בוטלו"
+msgstr[3] "התראות %s בוטלו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
 msgid "User settings have been updated"
@@ -1327,10 +1327,10 @@ msgstr ""
 #, php-format
 msgid "One ban rule has been deleted"
 msgid_plural "%s ban rules have been deleted"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "כלל איסור אחד נמחק"
+msgstr[1] "כללי איסור %s נמחקו"
+msgstr[2] "כללי איסור %s נמחקו"
+msgstr[3] "כללי איסור %s נמחקו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
 #: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
@@ -1390,128 +1390,128 @@ msgstr "מעולה! עדכנו את הגתובה שלך"
 #, php-format
 msgid "%d listing has been enabled"
 msgid_plural "%d listings have been enabled"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d הפך לזמין"
+msgstr[1] "רישומי %d הפכו לזמינים"
+msgstr[2] "רישומי %d הפכו לזמינים"
+msgstr[3] "רישומי %d הפכו לזמינים"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:96
 #, php-format
 msgid "%d listing has been disabled"
 msgid_plural "%d listings have been disabled"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d הפך ללא זמין"
+msgstr[1] "רישומי %d בוטלו"
+msgstr[2] "רישומי %d בוטלו"
+msgstr[3] "רישומי %d בוטלו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:112
 #, php-format
 msgid "%d listing has been activated"
 msgid_plural "%d listings have been activated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d הופעל"
+msgstr[1] "רישומי %d הופעלו"
+msgstr[2] "רישומי %d הופעלו"
+msgstr[3] "רישומי %d הופעלו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:128
 #, php-format
 msgid "%d listing has been deactivated"
 msgid_plural "%d listings have been deactivated"
 msgstr[0] "הרישום %d הושבת"
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[1] "ביטול הרישומים %d בוטל"
+msgstr[2] "ביטול הרישומים %d בוטל"
+msgstr[3] "ביטול הרישומים %d בוטל"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:144
 #, php-format
 msgid "%d listing has been marked as premium"
 msgid_plural "%d listings have been marked as premium"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d סומן כפרמיה"
+msgstr[1] "רישומי %d סומנו כפרמיה"
+msgstr[2] "רישומי %d סומנו כפרמיה"
+msgstr[3] "רישומי %d סומנו כפרמיה"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:160
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:193
 #, php-format
 msgid "%d change has been made"
 msgid_plural "%d changes have been made"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d נעשה שינוי"
+msgstr[1] "%d בוצעו שינויים"
+msgstr[2] "%d בוצעו שינויים"
+msgstr[3] "%d בוצעו שינויים"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:176
 #, php-format
 msgid "%d listing has been marked as spam"
 msgid_plural "%d listings have been marked as spam"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d סומן כספאם"
+msgstr[1] "רישומי %d סומנו כספאם"
+msgstr[2] "רישומי %d סומנו כספאם"
+msgstr[3] "רישומי %d סומנו כספאם"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:215
 #, php-format
 msgid "%d listing has been deleted"
 msgid_plural "%d listings have been deleted"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d נמחק"
+msgstr[1] "רישומי %d נמחקו"
+msgstr[2] "רישומי %d נמחקו"
+msgstr[3] "רישומי %d נמחקו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:236
 #, php-format
 msgid "%d listing has been unmarked as spam"
 msgid_plural "%d listings have been unmarked as spam"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d לא סומן כספאם"
+msgstr[1] "רישומי %d לא סומנו כספאם"
+msgstr[2] "רישומי %d לא סומנו כספאם"
+msgstr[3] "רישומי %d לא סומנו כספאם"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:258
 #, php-format
 msgid "%d listing has been unmarked as missclassified"
 msgid_plural "%d listings have been unmarked as missclassified"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d לא סומן כסיווג שגוי"
+msgstr[1] "רישומי %d לא סומנו כאי-סיווג שגוי"
+msgstr[2] "רישומי %d לא סומנו כאי-סיווג שגוי"
+msgstr[3] "רישומי %d לא סומנו כאי-סיווג שגוי"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:281
 #, php-format
 msgid "%d listing has been unmarked as duplicated"
 msgid_plural "%d listings have been unmarked as duplicated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d לא סומן כפילוי"
+msgstr[1] "רישומי %d לא סומנו כפילויות"
+msgstr[2] "רישומי %d לא סומנו כפילויות"
+msgstr[3] "רישומי %d לא סומנו כפילויות"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:302
 #, php-format
 msgid "%d listing has been unmarked as expired"
 msgid_plural "%d listings have been unmarked as expired"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d לא סומן כפג תוקפו"
+msgstr[1] "רישומי %d לא סומנו כפג תוקפם"
+msgstr[2] "רישומי %d לא סומנו כפג תוקפם"
+msgstr[3] "רישומי %d לא סומנו כפג תוקפם"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:323
 #, php-format
 msgid "%d listing has been unmarked as offensive"
 msgid_plural "%d listings have been unmarked as offensive"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d לא סומן כפוגעני"
+msgstr[1] "רישומי %d לא סומנו כפוגעניים"
+msgstr[2] "רישומי %d לא סומנו כפוגעניים"
+msgstr[3] "רישומי %d לא סומנו כפוגעניים"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:344
 #, php-format
 msgid "%d listing has been unmarked"
 msgid_plural "%d listings have been unmarked"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "רישום %d לא סומן"
+msgstr[1] "רישומי %d לא סומנו"
+msgstr[2] "רישומי %d לא סומנו"
+msgstr[3] "רישומי %d לא סומנו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
 msgid "The listing has been deleted"
@@ -1697,10 +1697,10 @@ msgstr "חובה להזין את כל השדות"
 #, php-format
 msgid "One field was not updated"
 msgid_plural "%s fields were not updated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "שדה אחד לא עודכן"
+msgstr[1] "שדות %s לא עודכנו"
+msgstr[2] "שדות %s לא עודכנו"
+msgstr[3] "שדות %s לא עודכנו"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
