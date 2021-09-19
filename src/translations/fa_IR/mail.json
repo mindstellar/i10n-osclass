@@ -17,7 +17,7 @@
       "fk_i_page_id": 3,
       "s_internal_name": "email_user_registration",
       "s_title": "{WEB_TITLE} - ثبت نام موفق!",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>سلام {USER_NAME}<\/p><p>شما با موفقیت ثبت نام کرده {WEB_LINK}.<\/p><p>ممنون!<\/p><p>احترام،<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 4,
@@ -53,37 +53,37 @@
       "fk_i_page_id": 9,
       "s_internal_name": "email_new_comment_admin",
       "s_title": "{WEB_TITLE} - نظر جدید",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+      "s_description": "<p>کسی در لیست اظهار نظر <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
     },
     {
       "fk_i_page_id": 10,
       "s_internal_name": "email_new_item_non_register_user",
       "s_title": "{WEB_TITLE} - ویرایش تنظیمات برای آگهی با  {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>سلام {USER_NAME}<\/p><p>شما در {WEB_LINK}ثبت نام نیست ، اما شما هنوز هم می توانید ویرایش و یا حذف لیست <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> برای یک دوره کوتاه از زمان.<\/p><p>شما می توانید لیست خود را با دنبال کردن این لینک ویرایش کنید: {EDIT_LINK}<\/p><p>شما می توانید لیست خود را با دنبال کردن این لینک حذف کنید: {DELETE_LINK}<\/p><p>اگر به عنوان کاربر ثبت نام کنید، دسترسی کامل به گزینه های ویرایش خواهید داشت.<\/p><p>احترام،<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 11,
       "s_internal_name": "email_item_validation",
       "s_title": "{WEB_TITLE} - تایید آگهی شما",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>سلام {USER_NAME}،<\/p><p>شما در حال دریافت این ایمیل به دلیل لیست شده است در {WEB_LINK}. لطفا اعتبار این لیست با کلیک کردن بر روی لینک زیر : {VALIDATION_LINK}. اگر این لیست را منتشر نکردید، لطفاً این ایمیل را نادیده بگیرید.<\/p><p>لیست جزئیات:<\/p><p>تماس با ما: {USER_NAME}<br \/>تماس با الکترونیکی: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>آدرس: {ITEM_URL}<\/p><p>با توجه به,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 12,
       "s_internal_name": "email_admin_new_item",
       "s_title": "{WEB_TITLE} - آگهی جدیدی منتشر شده است",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>مدیر {WEB_TITLE} ،<\/p><p>شما در حال دریافت این ایمیل به دلیل یک لیست شده است در {WEB_LINK}.<\/p><p>لیست جزئیات:<\/p><p>تماس با ما: {USER_NAME}<br \/>تماس با ایمیل: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>آدرس: {ITEM_URL}<\/p><p>شما می توانید این لیست را با کلیک کردن بر روی لینک زیر ویرایش کنید: {EDIT_LINK}<\/p><p>احترام،<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 13,
       "s_internal_name": "email_user_forgot_password",
       "s_title": "{WEB_TITLE} - بازیابی رمز عبور",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>سلام {USER_NAME}<\/p><p>ما این ایمیل را برای شما ارسال کرده ایم زیرا شما درخواست یادآوری رمز عبور را کرده اید. این لینک را دنبال کنید تا آن را بازیابی {PASSWORD_LINK}<\/p><p>: لینک در 24 ساعت غیر فعال خواهد شد.<\/p><p>اگر درخواست یادآوری رمز عبور را نکردید، لطفاً این پیام را نادیده بگیرید. این درخواست از آی پی {IP_ADDRESS} در {DATE_TIME}<\/p><p>،<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 14,
       "s_internal_name": "email_new_email",
       "s_title": "{WEB_TITLE} - شما درخواست تغییر ایمیل را داده اید",
-      "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>سلام {USER_NAME}<\/p><p>شما این ایمیل را دریافت می کنید چون درخواست تغییر ایمیل کرده بودی. لطفا این آدرس ایمیل جدید را با کلیک بر روی لینک اعتبار سنجی زیر تایید کنید: {VALIDATION_LINK}<\/p><p>نظر،<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 15,
@@ -101,13 +101,13 @@
       "fk_i_page_id": 17,
       "s_internal_name": "email_item_validation_non_register_user",
       "s_title": "{WEB_TITLE} - تایید آگهی شما",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>سلام {USER_NAME}<\/p><p>شما این ایمیل را دریافت می کنید چرا که شما یک لیست در سایت منتشر {WEB_LINK}. لطفا اعتبار این لیست با کلیک کردن بر روی لینک زیر : {VALIDATION_LINK}. اگر این لیست را منتشر نکردید، لطفاً این ایمیل را نادیده بگیرید.<\/p><p>لیست جزئیات:<\/p><p>تماس با ما: {USER_NAME}<br \/>تماس با الکترونیکی: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>آدرس: {ITEM_URL}<\/p><p>حتی اگر شما در الکترونیکی ثبت نام {WEB_LINK},  شما هنوز هم می توانید لیست خود را ویرایش یا حذف کنید:<\/p><p>شما می توانید لیست خود را با زیر این لینک ویرایش کنید: {EDIT_LINK}<\/p><p>شما می توانید لیست خود را با زیر این لینک حذف کنید: {DELETE_LINK}<\/p><p>با توجه به,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 18,
       "s_internal_name": "email_admin_new_user",
       "s_title": "{WEB_TITLE} - ثبت نام کاربر جدید",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>مدیر {WEB_TITLE} ،<\/p><p>شما این ایمیل را دریافت می کنید چون کاربر جدیدی در سایت ایجاد شده {WEB_LINK}.<\/p><p>کاربر:<\/p><p>نام: {USER_NAME}<br \/>الکترونیکی: {USER_EMAIL}<\/p><p>با توجه به,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 19,
@@ -119,7 +119,7 @@
       "fk_i_page_id": 20,
       "s_internal_name": "email_new_comment_user",
       "s_title": "{WEB_TITLE} - کسی در آگهی شما نظری ارسال کرده است",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>نظر جدیدی در مورد لیست وجود دارد: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>نویسنده: {COMMENT_AUTHOR}<br \/>نویسنده: {COMMENT_EMAIL}<br \/>عنوان: {COMMENT_TITLE}<br \/>نظر: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 21,
