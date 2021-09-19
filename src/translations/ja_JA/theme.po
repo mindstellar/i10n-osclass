@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-08-24 22:41\n"
+"POT-Creation-Date: 2021-09-19 05:47+0000\n"
+"PO-Revision-Date: 2021-09-19 06:10\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -14,301 +14,901 @@ msgstr ""
 "X-Crowdin-Project: osclass-v2\n"
 "X-Crowdin-Project-ID: 376123\n"
 "X-Crowdin-Language: ja\n"
-"X-Crowdin-File: /master/src/templates/theme.pot\n"
-"X-Crowdin-File-ID: 8210\n"
+"X-Crowdin-File: /develop/src/templates/theme.pot\n"
+"X-Crowdin-File-ID: 8225\n"
 
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:444
-#: tmp/osclass/oc-content/themes/bender/functions.php:491
-msgid "Alerts"
-msgstr "アラート"
-
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "この操作は取り消しできません。本当に続けますか？"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "通知アラートに登録しました。"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:28
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
-msgid "Invalid email address"
-msgstr "メールアドレスが不正です。"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "通知に問題がありました。"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:33
-msgid "Change e-mail"
-msgstr "メールアドレスを変更"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "メールアドレス: このフィールドは必須です"
-
-#: tmp/osclass/oc-content/themes/bender/admin/settings.php:42
-msgid "Donate"
-msgstr "寄付"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:42
-msgid "Remove logo"
-msgstr "ロゴの削除"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:69
-msgid "Upload"
-msgstr "アップロード"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "お使いのサーバーでは、画像フォルダ <strong>%s</strong> は書き込み可能ではありません。"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "管理パネルからロゴ画像をアップロードする事ができませんでした。"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "先ほどの画像フォルダを書き込み可能にしてください。"
-
-#: tmp/osclass/oc-content/themes/bender/loop-single-premium.php:48
-#: tmp/osclass/oc-content/themes/bender/loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "この操作は取り消しができません。本当に続けますか？"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">公開日</strong>: %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">更新日:</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:55
-msgid "Selected"
-msgstr "選択中"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:56
-msgid "Nothing selected, input was"
-msgstr "選択された項目がありません。入力は"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "\"%s\"にマッチする広告はありませんでした。"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%3$d 件中 %1$d ～ %2$d 件を表示"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:121
-msgid "Premium listings"
-msgstr "注目の広告"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:129
-#: tmp/osclass/oc-content/themes/bender/functions.php:443
-#: tmp/osclass/oc-content/themes/bender/functions.php:486
-msgid "Listings"
-msgstr "広告"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_password.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:448
-#: tmp/osclass/oc-content/themes/bender/functions.php:451
-#: tmp/osclass/oc-content/themes/bender/functions.php:511
-msgid "Change password"
-msgstr "パスワードを変更"
-
-#: tmp/osclass/oc-content/themes/bender/footer.php:35
-#: tmp/osclass/oc-content/themes/bender/header.php:48
-#, php-format
-msgid "Hi %s"
-msgstr "%s さん、こんにちわ。"
-
-#: tmp/osclass/oc-content/themes/bender/footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "このウェブサイトは誇らしげに <a title=\"Osclass web\" href=\"%s\">スクリプト</a> ソフトウェア <strong>Osclass</strong>を使用しています。"
-
-#: tmp/osclass/oc-content/themes/bender/item-post.php:61
-#: tmp/osclass/oc-content/themes/bender/header.php:74
-msgid "Select a category"
-msgstr "カテゴリを選択してください。"
-
-#: tmp/osclass/oc-content/themes/bender/user-profile.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:445
-msgid "Update account"
-msgstr "アカウントを更新する"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:25
-msgid "Delete"
-msgstr "削除"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:26
-msgid "Cancel"
-msgstr "キャンセル"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:72
-msgid "Previous image"
-msgstr "前の画像"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:73
-msgid "Next image"
-msgstr "次の画像"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:74
-msgid "Close"
-msgstr "閉じる"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:34
-#: tmp/osclass/oc-content/themes/bender/functions.php:447
-#: tmp/osclass/oc-content/themes/bender/functions.php:506
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
 msgid "Change username"
 msgstr "ユーザー名を変更する"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
+#: user-change_username.php:50
 msgid "Username: this field is required"
 msgstr "ユーザー名：必須です"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
+#: user-change_username.php:75
 msgid "The username is available"
 msgstr "このユーザー名は利用可能です"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
+#: user-change_username.php:77
 msgid "The username is NOT available"
 msgstr "このユーザー名は利用できません"
 
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
+#: user-change_username.php:94
+msgid "Username"
+msgstr "ユーザー名"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "更新"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "メールアドレスを変更"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "現在のメールアドレス"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "新しいメールアドレス"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "Emailアドレス: このフィールドは必項です。"
+
+#: user-change_email.php:77 alert-form.php:28
+msgid "Invalid email address"
+msgstr "メールアドレスが不正です。"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "表示メニュー"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "アカウントを削除"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "アカウントを削除してもよろしいですか？"
+
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "としてマーク..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "スパムとしてマークする"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "誤分類としてマーク"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "重複としてマーク"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "期限切れにする"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "攻撃的としてマーク"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "この人に連絡する"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "リストの有効期限が切れています。パブリッシャーに連絡することはできません。"
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "それはあなた自身のリスト、出版業者に連絡することができない。"
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "広告主に連絡するには、ログインまたは新しいアカウントを登録する必要があります"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "ログイン"
+
+#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "無料アカウントを登録する"
+
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
+msgid "Name"
+msgstr "名前"
+
+#: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
 msgstr "名前: %s"
 
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
+#: item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
 msgstr "メールアドレス: %s"
 
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:76
+#: item-sidebar.php:76
 #, php-format
 msgid "Phone: %s"
 msgstr "電話番号: %s"
 
-#: tmp/osclass/oc-content/themes/bender/user-sidebar.php:28
-#: tmp/osclass/oc-content/themes/bender/functions.php:516
-msgid "Delete account"
-msgstr "アカウントを削除"
+#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
+#: item-send-friend.php:44
+msgid "Your name"
+msgstr "あなたの名前"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "例：PHPプログラマー"
+#: item-sidebar.php:89
+msgid "Your e-mail address"
+msgstr "あなたのメールアドレス"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:434
-msgid "Publish a listing"
-msgstr "広告を出す"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "電話番号"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:435
-msgid "Edit your listing"
-msgstr "広告を編集する"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "省略可能"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:436
-msgid "Send to a friend"
-msgstr "友達に紹介する"
+#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
+#: item-send-friend.php:78
+msgid "Message"
+msgstr "メッセージ"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:437
-msgid "Contact publisher"
-msgstr "この人に連絡する"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "添付ファイル"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:438
-msgid "Search results"
-msgstr "検索結果"
+#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
+#: item-send-friend.php:87
+msgid "Send"
+msgstr "送信"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "検索結果: %s"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "通知アラートに登録しました。"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:440
-msgid "Dashboard"
-msgstr "ダッシュボード"
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "通知に問題がありました。"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%sのプロフィール"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "この検索はすでに購読しています"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:442
-#: tmp/osclass/oc-content/themes/bender/functions.php:496
-msgid "Account"
-msgstr "アカウント"
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "この検索を購読する"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:446
-#: tmp/osclass/oc-content/themes/bender/functions.php:501
-msgid "Change email"
-msgstr "メールアドレスを変更する"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "今すぐ購読する"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:449
-msgid "Login"
-msgstr "ログイン"
+#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
+#: item.php:165
+msgid "Delete"
+msgstr "削除"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:450
-msgid "Recover password"
-msgstr "パスワードを回復"
+#: common/head.php:26
+msgid "Cancel"
+msgstr "キャンセル"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:452
-msgid "Create a new account"
-msgstr "新しいアカウントを作成"
+#: common/head.php:72
+msgid "Previous image"
+msgstr "前の画像"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:453
-msgid "Contact"
-msgstr "問い合わせる"
+#: common/head.php:73
+msgid "Next image"
+msgstr "次の画像"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:481
-msgid "Public Profile"
-msgstr "公開プロフィール"
+#: common/head.php:74
+msgid "Close"
+msgstr "閉じる"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "テーマ設定は正常に更新されました。"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "あなたの検索"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "ロゴ画像は正常にアップロードされました。"
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "市区町村名"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "エラーが発生しました。もう一度お試しください。"
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "表示のみ"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:636
-msgid "The logo image has been removed"
-msgstr "ロゴ画像は削除されました。"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "写真付きの一覧"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:638
-msgid "Image not found"
-msgstr "画像はみつかりません。"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "価格"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:666
-msgid "Header logo"
-msgstr "ヘッダーロゴ"
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "最小"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:668
-msgid "Theme settings"
-msgstr "テーマ設定"
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "最大値"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:728
-msgid "All categories"
-msgstr "全カテゴリ"
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "適用"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:67
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "カテゴリを絞り込みます"
+
+#: loop-single-premium.php:46 loop-single.php:46 item.php:73
+msgid "Edit item"
+msgstr "アイテムを編集"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "この操作は取り消しができません。本当に続けますか？"
+
+#: loop-single-premium.php:51 loop-single.php:51
+msgid "Activate"
+msgstr "アクティベート"
+
+#: user-public-profile.php:67
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
 msgstr "<strong>住所:</strong> %1$s"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:70
+#: user-public-profile.php:70
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>居住エリア:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "ユーザーの説明"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "最新の一覧"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "最新の一覧"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "現在利用可能なリストはありません"
+
+#: main.php:45 search.php:80 admin/settings.php:60
+msgid "List"
+msgstr "リスト"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "グリッド"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "すべてのリストを表示"
+
+#: main.php:74 item.php:66
+msgid "Location"
+msgstr "エリア"
+
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "アカウントを更新する"
+
+#: user-profile.php:52
+msgid "User type"
+msgstr "ユーザーの種類"
+
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "携帯電話"
+
+#: user-profile.php:65
+msgid "Phone"
+msgstr "電話番号"
+
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "国"
+
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "地域"
+
+#: user-profile.php:89
+msgid "City area"
+msgstr "市内地域"
+
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "住所"
+
+#: user-profile.php:101
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "詳細"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "例：PHPプログラマー"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "広告を出す"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "広告を編集する"
+
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "友達に紹介する"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "検索結果"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "検索結果: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%sのプロフィール"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "アカウント"
+
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "広告"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "アラート"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "メールアドレスを変更する"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "パスワードを変更"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "パスワードを回復"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "新しいアカウントを作成"
+
+#: functions.php:453 user-public-sidebar.php:26 footer.php:65
+msgid "Contact"
+msgstr "問い合わせる"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "公開プロフィール"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "テーマ設定は正常に更新されました。"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "ロゴ画像は正常にアップロードされました。"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "エラーが発生しました。もう一度お試しください。"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "ロゴ画像は削除されました。"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "画像はみつかりません。"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "ヘッダーロゴ"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "テーマ設定"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "全カテゴリ"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "まだアラートがありません"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "アラート"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "この操作は取り消しできません。本当に続けますか？"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "このアラートを削除"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">公開日</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">更新日:</strong> %1$s"
+
+#: item.php:85 item.php:92
+msgid "Image"
+msgstr "画像"
+
+#: item.php:121
+msgid "Contact seller"
+msgstr "広告を出した人に問い合わせる"
+
+#: item.php:125
+msgid "Share"
+msgstr "共有"
+
+#: item.php:131
+msgid "Useful information"
+msgstr "役に立つ情報"
+
+#: item.php:133
+msgid "Avoid scams by acting locally or paying with PayPal"
+msgstr "ローカルで行動したりPayPalで支払ったりすることによって詐欺を避けます"
+
+#: item.php:134
+msgid "Never pay with Western Union, Moneygram or other anonymous payment services"
+msgstr "Western Union、Moneygram、または他の匿名の支払いサービスで支払うことはありません"
+
+#: item.php:135
+msgid "Don't buy or sell outside of your country. Don't accept cashier cheques from outside your country"
+msgstr "国外からのレジ係小切手を受け入れない"
+
+#: item.php:136
+msgid "This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\""
+msgstr "このサイトは決して取引に関与しておらず、支払い、配送を処理しません。 保証取引、エスクローサービス、または提供\"バイヤー保護\"または\"セラー証明書\""
+
+#: item.php:143
+msgid "Related listings"
+msgstr "関連リスト"
+
+#: item.php:154
+msgid "Comments"
+msgstr "コメント"
+
+#: item.php:161
+msgid "by"
+msgstr "作成者："
+
+#: item.php:165
+msgid "Delete your comment"
+msgstr "コメントを削除する"
+
+#: item.php:177
+msgid "Leave your comment (spam and offensive messages will be removed)"
+msgstr "コメントを残す (スパムおよび攻撃的なメッセージは削除されます)"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "あなたのメールアドレス"
+
+#: item.php:204 item-post.php:65
+msgid "Title"
+msgstr "タイトル"
+
+#: item.php:210
+msgid "Comment"
+msgstr "コメント"
+
+#: user-login.php:30
+msgid "Access to your account"
+msgstr "あなたのアカウントへのアクセス"
+
+#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+msgid "E-mail"
+msgstr "メールアドレス"
+
+#: user-login.php:44 user-register.php:51
+msgid "Password"
+msgstr "パスワード"
+
+#: user-login.php:51
+msgid "Remember me"
+msgstr "ログイン状態を維持する"
+
+#: user-login.php:54
+msgid "Log in"
+msgstr "ログイン"
+
+#: user-login.php:58
+msgid "Forgot password?"
+msgstr "パスワードを忘れましたか？"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "%s さん、こんにちわ。"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "マイアカウント"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "ログアウト"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "広告を無料で公開"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "カテゴリを選択してください。"
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "検索"
+
+#: item-post.php:57
+msgid "General Information"
+msgstr "一般情報"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "カテゴリ"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "リストの場所"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "都市地域"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "売り手の情報"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "リスティングページに電子メールを表示"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "公開"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "あなたのメールアドレス"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "無料でアカウントを登録する"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "パスワードを再入力"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "パスワードが一致しません"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "作成"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "申し訳ありませんが、お探しのページが見つかりませんでした"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "私たちはあなたを助けましょう、私たちはあなたがそれを見つけるためのいくつかのヒントを持っています。"
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>検索</strong>"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>最も人気のあるカテゴリーで</strong> を見てください。"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "お問い合わせ"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "件名"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "パスワードを回復する"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "新しいパスワード"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "新しいパスワードを再入力"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "お友達の名前"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "お友達のメールアドレス"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "件名 (オプション)"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "あなたの広告"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "まだリストが追加されていません"
+
+#: search.php:55
+msgid "Selected"
+msgstr "選択中"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "選択された項目がありません。入力は"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "\"%s\"にマッチする広告はありませんでした。"
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%3$d 件中 %1$d ～ %2$d 件を表示"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "フィルターを表示"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "並び替え"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "注目の広告"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "興味のある他の検索"
+
+#: admin/header.php:35
+msgid "Preview"
+msgstr "プレビュー"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "ロゴの削除"
+
+#: admin/header.php:49
+msgid "No logo has been uploaded yet"
+msgstr "ロゴはまだアップロードされていません"
+
+#: admin/header.php:52
+msgid "Upload logo"
+msgstr "ロゴをアップロード"
+
+#: admin/header.php:53
+msgid "The preferred size of the logo is 600x100."
+msgstr "ロゴの推奨サイズは600x100です。"
+
+#: admin/header.php:55
+msgid "<strong>Note:</strong> Uploading another logo will overwrite the current logo."
+msgstr "<strong>注意:</strong> 別のロゴをアップロードすると、現在のロゴが上書きされます。"
+
+#: admin/header.php:63
+msgid "Logo image (png,gif,jpg)"
+msgstr "ロゴ画像 (png,gif,jpg)"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "アップロード"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "お使いのサーバーでは、画像フォルダ <strong>%s</strong> は書き込み可能ではありません。"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "管理パネルからロゴ画像をアップロードする事ができませんでした。"
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "先ほどの画像フォルダを書き込み可能にしてください。"
+
+#: admin/header.php:85
+msgid "To make a directory writable under UNIX execute this command from the shell:"
+msgstr "UNIX でディレクトリを書き込み可能にするには、シェルからこのコマンドを実行します。"
+
+#: admin/settings.php:36
+msgid "I would like to contribute to the development of Osclass with a donation of"
+msgstr "私は以下の寄付でOsclassの発展に貢献したいと思います"
+
+#: admin/settings.php:41
+msgid "Custom"
+msgstr "カスタム"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "寄付"
+
+#: admin/settings.php:52
+msgid "Search placeholder"
+msgstr "プレースホルダを検索"
+
+#: admin/settings.php:56
+msgid "Show lists as:"
+msgstr "リストを表示:"
+
+#: admin/settings.php:59
+msgid "Gallery"
+msgstr "ギャラリー"
+
+#: admin/settings.php:66
+msgid "Footer link"
+msgstr "フッターリンク"
+
+#: admin/settings.php:68
+msgid "I want to help Osclass by linking to <a href=\"http://osclass.org/\" target=\"_blank\">osclass.org</a> from my site with the following text:"
+msgstr "次のテキストを使用して、自分のサイトから <a href=\"http://osclass.org/\" target=\"_blank\">osclass.org</a> にリンクすることで、Osclassを助けたいです。"
+
+#: admin/settings.php:69
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"http://osclass.org/\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "このウェブサイトは誇らしげに <a title=\"Osclass web\" href=\"http://osclass.org/\">スクリプト</a> ソフトウェア <strong>Osclass</strong>を使用しています。"
+
+#: admin/settings.php:76
+msgid "Right-To-Left (RTL)"
+msgstr "右から左へ (RTL)"
+
+#: admin/settings.php:80
+msgid "Enable Right-To-Left"
+msgstr "右から左へ有効"
+
+#: admin/settings.php:83
+msgid "enable/disable"
+msgstr "有効/無効"
+
+#: admin/settings.php:90
+msgid "Location input"
+msgstr "位置情報入力"
+
+#: admin/settings.php:94
+msgid "Show location input as:"
+msgstr "場所の入力を次のように表示:"
+
+#: admin/settings.php:97
+msgid "Dropdown"
+msgstr "ドロップダウン"
+
+#: admin/settings.php:98
+msgid "Autocomplete"
+msgstr "オートコンプリート"
+
+#: admin/settings.php:105
+msgid "Ads management"
+msgstr "広告管理"
+
+#: admin/settings.php:109
+msgid "In this section you can configure your site to display ads and start generating revenue."
+msgstr "このセクションでは、広告を表示して収益を生成するようにサイトを構成できます。"
+
+#: admin/settings.php:109
+msgid "If you are using an online advertising platform, such as Google Adsense, copy and paste here the provided code for ads."
+msgstr "Google Adsenseなどのオンライン広告プラットフォームを使用している場合は、ここで広告のために提供されたコードをコピーして貼り付けます。"
+
+#: admin/settings.php:115
+msgid "Header 728x90"
+msgstr "ヘッダー 728x90"
+
+#: admin/settings.php:119
+msgid "This ad will be shown at the top of your website, next to the site title and above the search results. Note that the size of the ad has to be 728x90 pixels."
+msgstr "この広告は、サイトのタイトルの横、検索結果の上に表示されます。 広告のサイズは728x90ピクセルである必要があります。"
+
+#: admin/settings.php:123
+msgid "Homepage 728x90"
+msgstr "ホームページ 728x90"
+
+#: admin/settings.php:127
+msgid "This ad will be shown on the main site of your website. It will appear both at the top and bottom of your site homepage. Note that the size of the ad has to be 728x90 pixels."
+msgstr "この広告は、あなたのウェブサイトのメインサイトに表示されます。あなたのサイトのホームページの上部と下部に表示されます。 広告のサイズは728x90ピクセルである必要があります。"
+
+#: admin/settings.php:131
+msgid "Search results 728x90 (top of the page)"
+msgstr "検索結果728x90 (ページ上部)"
+
+#: admin/settings.php:135
+msgid "This ad will be shown on top of the search results of your site. Note that the size of the ad has to be 728x90 pixels."
+msgstr "この広告は、サイトの検索結果の上に表示されます。 広告のサイズは728x90ピクセルである必要があります。"
+
+#: admin/settings.php:139
+msgid "Search results 728x90 (middle of the page)"
+msgstr "検索結果728x90 (ページの中央)"
+
+#: admin/settings.php:143
+msgid "This ad will be shown among the search results of your site. Note that the size of the ad has to be 728x90 pixels."
+msgstr "この広告は、あなたのサイトの検索結果の中に表示されます。広告のサイズは728x90ピクセルでなければならないことに注意してください。"
+
+#: admin/settings.php:147
+msgid "Sidebar 300x250"
+msgstr "Sidebar 300x250"
+
+#: admin/settings.php:151
+msgid "This ad will be shown at the right sidebar of your website, on the product detail page. Note that the size of the ad has to be 300x350 pixels."
+msgstr "この広告はあなたのウェブサイトの右側のサイドバー、製品詳細ページに表示されます。 広告のサイズは300x350ピクセルである必要があります。"
+
+#: admin/settings.php:155
+msgid "Save changes"
+msgstr "変更を保存"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "現在のパスワード"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "このウェブサイトは誇らしげに <a title=\"Osclass web\" href=\"%s\">スクリプト</a> ソフトウェア <strong>Osclass</strong>を使用しています。"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "言語:"
+
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "新しいパスワードを送信してください"
 

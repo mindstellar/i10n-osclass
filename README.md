@@ -27,7 +27,7 @@ There you'll see core.po, messages.po,theme.po,local.json and mail.json
  
 * `core.po` file includes translations strings for osclass core 
 * `messages.po` file includes alert messages translations.
-* `theme.po` file includes translations for backend theme.
+* `theme.po` file includes translations for default frontend theme.
 * `mail.json` file includes translations for email templates.
 * `local.json` file include important information about current language i.e. locale_code, name, date_format, 
   currency format, version etc. example content is like below json data.

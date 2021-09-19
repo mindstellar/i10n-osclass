@@ -1,0 +1,29 @@
+name: i18n-build
+on:
+  push:
+    branches:
+      - master
+      - develop
+  workflow_dispatch:
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install gettext
+        run: sudo apt-get install gettext -y
+      - name: Run build
+        run: sh scripts/build.sh
+      - name: Compile po files
+        run: sh scripts/compile.sh
+      - name: Run dist
+        run: python3 scripts/dist.py
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: updating translations for ${{ github.event.workflow.branch }}
+          title: Update translations for ${{ github.event.workflow.branch }}
+          body: Updating translations for ${{ github.event.workflow.branch }} [ci skip]
+          branch: build-patch 
+          delete-branch: true
+          branch-suffix: timestamp
