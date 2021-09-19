@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:06\n"
+"PO-Revision-Date: 2021-09-19 10:12\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -124,7 +124,7 @@ msgstr "Địa chỉ quá dài."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:472
 msgid "Phone invalid."
-msgstr ""
+msgstr "Điện thoại không hợp lệ."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:560
 #: oc-includes/osclass/classes/actions/ItemActions.php:573
@@ -190,7 +190,7 @@ msgstr "Tên tài khoản chỉ định không đúng, nó chưa vài từ sai"
 #: oc-includes/osclass/classes/actions/UserActions.php:291
 #, php-format
 msgid "The specified e-mail is already used by %s"
-msgstr ""
+msgstr "E-mail được chỉ định đã được %ssử dụng"
 
 #: oc-includes/osclass/classes/Csrf.php:181
 msgid "Probable invalid request."
@@ -333,7 +333,7 @@ msgstr "Chúng tôi vừa gửi cho bạn một email để xác nhận tài kho
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:243
 msgid "Invalid email address"
-msgstr "Địa chỉ email không chính xác"
+msgstr "Sai địa chỉ email"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:252
 msgid "We have sent you an email with the instructions to reset your password"
@@ -437,7 +437,7 @@ msgstr "Kiểm tra hộp thư của bạn để xác nhận"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:190
 msgid "Your listing will be published after an admin approves it."
-msgstr ""
+msgstr "Danh sách của bạn sẽ được công bố sau khi quản trị viên phê duyệt."
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:192
 msgid "Your listing has been published"
@@ -449,7 +449,7 @@ msgstr "Rất tiếc, chúng tôi không có rao vặt nào của ID này"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:288
 msgid "Your listing will be published after an admin approves the changes."
-msgstr ""
+msgstr "Danh sách của bạn sẽ được công bố sau khi quản trị viên phê duyệt các thay đổi."
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:290
 msgid "Great! We've just updated your listing"
@@ -498,7 +498,7 @@ msgstr "Bạn không thể liên hệ người bán, chỉ thành viên mới c�
 #: oc-includes/osclass/classes/controller/CWebItem.php:518
 #, php-format
 msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Bấm vào đây để đăng nhập</a>"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:573
 msgid "We've just sent an e-mail to the seller"
@@ -703,7 +703,7 @@ msgstr "Có lỗi xảy ra trong quá trính xóa tệp, kiểm tra lại phân 
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
 msgid "Invalid plugin file"
-msgstr ""
+msgstr "Tệp plugin không hợp lệ"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
@@ -797,7 +797,7 @@ msgstr "Đã cài đặt ngôn ngữ thành công"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
 msgid "File uploaded but unable to activate the language"
-msgstr ""
+msgstr "Tệp đã tải lên nhưng không thể kích hoạt ngôn ngữ"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
@@ -809,7 +809,7 @@ msgstr "Có vấn đề khi nhập mẫu email"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
 msgid "Language imported successfully"
-msgstr ""
+msgstr "Ngôn ngữ được nhập thành công"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
@@ -896,7 +896,7 @@ msgstr "Không thể xoá thư mục '%s' ;)"
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
-msgstr ""
+msgstr "Thư mục '%s' không thể bị xóa vì đó là ngôn ngữ mặc định. <a href=\"%s\">Đặt một ngôn ngữ khác</a> làm mặc định trước và thử lại"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
@@ -971,7 +971,7 @@ msgstr "Tên tài khoản đã được sử dụng"
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
 msgid "Incorrent current password"
-msgstr ""
+msgstr "Incorrent mật khẩu hiện tại"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
 msgid "The admin has been added"
@@ -1611,11 +1611,11 @@ msgstr "Chưa chọn thành phố"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
 msgid "Location imported successfully"
-msgstr ""
+msgstr "Vị trí được nhập thành công"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
 msgid "There was a problem importing the selected location"
-msgstr ""
+msgstr "Có vấn đề khi nhập vị trí đã chọn"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
 msgid "All fields are required."
