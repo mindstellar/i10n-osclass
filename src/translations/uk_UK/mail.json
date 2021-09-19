@@ -53,25 +53,25 @@
       "fk_i_page_id": 9,
       "s_internal_name": "email_new_comment_admin",
       "s_title": "{WEB_TITLE} - Новий коментар",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+      "s_description": "<p>Хтось прокоментував <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>лістингу.<\/p><p>коментатор: електронна пошта {COMMENT_AUTHOR}<br \/>коментатора: {COMMENT_EMAIL}<br \/>Назва: {COMMENT_TITLE}<br \/>Коментар: {COMMENT_TEXT}<\/p>"
     },
     {
       "fk_i_page_id": 10,
       "s_internal_name": "email_new_item_non_register_user",
       "s_title": "{WEB_TITLE} - Можливості редагування для оголошення {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p>Ви не зареєстровані в {WEB_LINK}, але ви все одно можете редагувати або видаляти <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> лістингу протягом короткого періоду часу.<\/p><p>Ви можете редагувати свій список, перенайшивши наступне посилання: {EDIT_LINK}<\/p><p>Ви можете видалити свій список, перейнявши наступне посилання: {DELETE_LINK}<\/p><p>Якщо ви зареєструєтесь як користувач, у вас буде повний доступ до варіантів редагування.<\/p><p>з повагою,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 11,
       "s_internal_name": "email_item_validation",
       "s_title": "{WEB_TITLE} - Підтвердження оголошення",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p>Ви отримуєте це повідомлення електронної пошти, оскільки список був опублікований в {WEB_LINK}. Будь ласка, перевірте цей список, натиснувши на наступне посилання: {VALIDATION_LINK}. Якщо ви не опублікували цей список, будь ласка, проігноруйте цей електронний лист.<\/p><p>Відомості про лістинг:<\/p><p>Ім'я контакту: {USER_NAME}<br \/>Контактна адреса електронної пошти: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>URL-адреса: {ITEM_URL}<\/p><p>з повагою,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 12,
       "s_internal_name": "email_admin_new_item",
       "s_title": "{WEB_TITLE} - Опубліковано нове оголошення",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Шановний адміністратор {WEB_TITLE} ,<\/p><p>Ви отримуєте цей електронний лист, оскільки список був опублікований на {WEB_LINK}.<\/p><p>Відомості про лістинг:<\/p><p>Ім'я контакту: {USER_NAME}<br \/>Контактна адреса електронної пошти: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>URL: {ITEM_URL}<\/p><p>Ви можете змінити цей список, натиснувши на наступне посилання: {EDIT_LINK}<\/p><p>з повагою,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 13,
@@ -83,7 +83,7 @@
       "fk_i_page_id": 14,
       "s_internal_name": "email_new_email",
       "s_title": "{WEB_TITLE} - Запит на зміну пошти",
-      "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Привіт {USER_NAME}<\/p><p>Ви отримуєте це повідомлення електронної пошти, оскільки ви надіслали запит на зміну електронної пошти. Будь ласка, підтвердіть цю нову адресу електронної пошти, натиснувши на наступне посилання для перевірки: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 15,
@@ -101,13 +101,13 @@
       "fk_i_page_id": 17,
       "s_internal_name": "email_item_validation_non_register_user",
       "s_title": "{WEB_TITLE} - Підтвердження оголошення",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Привіт {USER_NAME},<\/p><p>Ви отримуєте це повідомлення електронної пошти, оскільки ви опублікували список на {WEB_LINK}. Будь ласка, перевірте цей список, натиснувши на наступне посилання: {VALIDATION_LINK}. Якщо ви не опублікували цей список, будь ласка, проігноруйте це повідомлення електронної пошти.<\/p><p>Відомості про лістинг:<\/p><p>Ім'я контакту: {USER_NAME}<br \/>Контактна адреса електронної пошти: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>URL-адреса: {ITEM_URL}<\/p><p>Навіть якщо ви не зареєстровані в {WEB_LINK},  ви все ще можете редагувати або видаляти свій список:<\/p><p>Ви можете редагувати свій список, перенайшивши наступне посилання: {EDIT_LINK}<\/p><p>Ви можете видалити свій список, перенайти за цим посиланням: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 18,
       "s_internal_name": "email_admin_new_user",
       "s_title": "{WEB_TITLE} - Реєстрація нового користувача",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Шановний адміністратор {WEB_TITLE} ,<\/p><p>Ви отримуєте цей електронний лист, оскільки новий користувач був створений в {WEB_LINK}.<\/p><p>Відомості про користувача:<\/p><p>Ім'я: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>з повагою,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 19,
@@ -119,7 +119,7 @@
       "fk_i_page_id": 20,
       "s_internal_name": "email_new_comment_user",
       "s_title": "{WEB_TITLE} - Хтось залишив коментар на оголошення",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Є новий коментар до списку: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Автор: {COMMENT_AUTHOR}<br \/>Авторський лист: {COMMENT_EMAIL}<br \/>Назва: {COMMENT_TITLE}<br \/>Коментар: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 21,
