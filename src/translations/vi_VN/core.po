@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:06\n"
+"PO-Revision-Date: 2021-09-19 10:13\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -1507,7 +1507,7 @@ msgstr "Thêm plugin"
 #: oc-admin/themes/modern/plugins/configuration.php:84
 #, php-format
 msgid "Plugins &raquo; %s"
-msgstr ""
+msgstr "Plugin &raquo; %s"
 
 #: oc-admin/themes/modern/plugins/index.php:81
 msgid "Plugin couldn't be installed because it triggered a <strong>fatal error</strong>"
@@ -1519,7 +1519,7 @@ msgstr "Plugin không thể được cài đặt vì nó gây ra lỗi <strong>g
 #: oc-admin/themes/modern/plugins/index.php:159
 #, php-format
 msgid "%d plugins"
-msgstr ""
+msgstr "%d plugin"
 
 #: oc-admin/themes/modern/plugins/index.php:190
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:397
@@ -1549,7 +1549,7 @@ msgstr "Bạn muốn xóa các tập tin của các plugin. Bạn có muốn ti�
 #: oc-admin/themes/modern/plugins/configuration.php:41
 #: oc-includes/osclass/classes/AdminMenu.php:116
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: oc-admin/themes/modern/plugins/add.php:34
 msgid "Manually upload Osclass plugins in .zip format. If you prefer, you can manually upload the decompressed plugin to <em>oc-content/plugins</em>."
@@ -1871,7 +1871,7 @@ msgstr "Quản lý Phương tiện"
 #: oc-admin/themes/modern/media/index.php:62
 #, php-format
 msgid "Media &raquo; %s"
-msgstr ""
+msgstr "&raquo; %struyền thông"
 
 #: oc-admin/themes/modern/media/index.php:157
 msgid "Delete media"
@@ -2010,7 +2010,7 @@ msgstr "Mô tả <em>(yêu cầu)</em>:"
 
 #: oc-admin/themes/modern/appearance/widgets.php:37
 msgid "Modify your site's header or footer here."
-msgstr ""
+msgstr "Sửa đổi tiêu đề hoặc chân trang của bạn tại đây."
 
 #: oc-admin/themes/modern/appearance/widgets.php:47
 #: oc-admin/themes/modern/appearance/index.php:53
@@ -2035,7 +2035,7 @@ msgstr "Thêm tiện ích HTML"
 
 #: oc-admin/themes/modern/appearance/widgets.php:100
 msgid "Widget"
-msgstr ""
+msgstr "Widget"
 
 #: oc-admin/themes/modern/appearance/widgets.php:101
 #, php-format
@@ -2058,7 +2058,7 @@ msgstr "Xoá widget"
 
 #: oc-admin/themes/modern/appearance/index.php:40
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
-msgstr ""
+msgstr "Thay đổi giao diện và cảm nhận của trang web của bạn bằng cách kích hoạt một chủ đề trong số những chủ đề có sẵn. <strong>Hãy cẩn thận</strong>: nếu chủ đề của bạn đã được tùy chỉnh, bạn sẽ mất tất cả các thay đổi nếu bạn thay đổi sang một chủ đề mới."
 
 #: oc-admin/themes/modern/appearance/index.php:57
 msgid "Add theme"
@@ -2318,7 +2318,7 @@ msgstr "Mẫu mặc định"
 #: oc-admin/themes/modern/settings/locations.php:203
 #: oc-includes/osclass/classes/form/CategoryForm.php:228
 msgid "Slug"
-msgstr ""
+msgstr "Sên"
 
 #: oc-admin/themes/modern/pages/frm.php:147
 msgid "Used to quickly identify this page"
@@ -2396,17 +2396,17 @@ msgstr "Nhập dữ liệu"
 #: oc-admin/themes/modern/tools/version.php:33
 #, php-format
 msgid "Osclass %s"
-msgstr ""
+msgstr "Osclass %s"
 
 #: oc-admin/themes/modern/tools/version.php:41
 #, php-format
 msgid "Osclass %s &raquo; %s"
-msgstr ""
+msgstr "Osclass %s &raquo; %s"
 
 #: oc-admin/themes/modern/tools/upgrade.php:47
 #, php-format
 msgid "Upgrade is available for (Current version %s)"
-msgstr ""
+msgstr "Nâng cấp có sẵn cho (Phiên bản hiện tại %s)"
 
 #: oc-admin/themes/modern/tools/upgrade.php:48
 #, php-format
@@ -2468,7 +2468,8 @@ msgstr "Chúc mừng! Bản cài đặt Osclass của bạn đã được cập 
 #: oc-admin/themes/modern/tools/upgrade.php:180
 msgid "Check to see if you're using the latest version of Osclass. If you're not, \n"
 "        the system will let you know so you can update and use the newest features."
-msgstr ""
+msgstr "Kiểm tra xem bạn có đang sử dụng phiên bản Osclass mới nhất hay không. Nếu không, \n"
+"        hệ thống sẽ cho bạn biết để bạn có thể cập nhật và sử dụng các tính năng mới nhất."
 
 #: oc-admin/themes/modern/tools/upgrade.php:206
 #, php-format
@@ -2481,7 +2482,10 @@ msgid "Your Osclass installation can be auto-upgraded. \n"
 "                                        Please, back up your database and the folder oc-content before attempting to \n"
 "                                        upgrade your Osclass installation. \n"
 "                                        You can also upgrade Osclass manually, more information in the %s"
-msgstr ""
+msgstr "Cài đặt Osclass của bạn có thể được tự động nâng cấp. \n"
+"                                        Vui lòng sao lưu cơ sở dữ liệu của bạn và nội dung oc-content thư mục trước khi cố gắng \n"
+"                                        nâng cấp cài đặt Osclass của bạn. \n"
+"                                        Bạn cũng có thể nâng cấp Osclass thủ công, thêm thông tin trong %s"
 
 #: oc-admin/themes/modern/tools/maintenance.php:45
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -3300,7 +3304,7 @@ msgstr "Thiết lập nâng cao &raquo; %s"
 #: oc-admin/themes/modern/settings/advanced.php:109
 #: oc-admin/themes/modern/settings/advanced.php:111
 msgid "Flush cache"
-msgstr ""
+msgstr "Bộ nhớ cache tuôn ra"
 
 #: oc-admin/themes/modern/settings/advanced.php:113
 msgid "Remove all data from cache."
@@ -3558,12 +3562,12 @@ msgstr "Kích hoạt tuỳ chọn này nếu bạn muốn các liên kết của
 #: oc-admin/themes/modern/settings/permalinks.php:410
 #, php-format
 msgid "Permalinks &raquo; %s"
-msgstr ""
+msgstr "Permalinks &raquo; %s"
 
 #: oc-admin/themes/modern/settings/permalinks.php:420
 #: oc-includes/osclass/classes/AdminMenu.php:201
 msgid "Permalinks"
-msgstr ""
+msgstr "Permalinks"
 
 #: oc-admin/themes/modern/settings/permalinks.php:421
 msgid "By default Osclass uses web URLs which have question marks and lots of numbers in them. However, Osclass offers you friendly urls. This can improve the aesthetics, usability, and forward-compatibility of your links"
@@ -4260,11 +4264,11 @@ msgstr "Yêu cầu phải có mở rộng GD. Làm thế nào để <a target=\"
 
 #: oc-includes/osclass/install-functions.php:161
 msgid "cURL extension for PHP"
-msgstr ""
+msgstr "phần mở rộng cURL cho PHP"
 
 #: oc-includes/osclass/install-functions.php:163
 msgid "cURL extension is required. How to <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">install/configure</a>."
-msgstr ""
+msgstr "Cần gia hạn cURL. Cách <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">cài đặt/cấu hình</a>."
 
 #: oc-includes/osclass/install-functions.php:167
 msgid "Folder <code>oc-content/uploads</code> exists"
@@ -4282,7 +4286,7 @@ msgstr "Thư mục <code>oc-content/uploads</code> được phép ghi"
 #: oc-includes/osclass/install-functions.php:179
 #, php-format
 msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
-msgstr ""
+msgstr "<code>tải lên</code> thư mục phải được ghi lại, tức là: <code>chmod 0755 %soc-content/uploads/</code>"
 
 #: oc-includes/osclass/install-functions.php:186
 msgid "Folder <code>oc-content/downloads</code> exists"
@@ -4300,7 +4304,7 @@ msgstr "Thư mục <code>oc-content/downloads</code> được phép ghi"
 #: oc-includes/osclass/install-functions.php:199
 #, php-format
 msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
-msgstr ""
+msgstr "<code>tải xuống</code> thư mục phải được ghi lại, tức là: <code>chmod 0755 %soc-content/downloads/</code>"
 
 #: oc-includes/osclass/install-functions.php:206
 msgid "Folder <code>oc-content/languages</code> folder exists"
@@ -4318,7 +4322,7 @@ msgstr "Thư mục <code>oc-content/languages</code> được phép ghi"
 #: oc-includes/osclass/install-functions.php:219
 #, php-format
 msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
-msgstr ""
+msgstr "<code>ngôn ngữ</code> thư mục phải được ghi, tức là: <code>chmod 0755 %soc-content/languages/</code>"
 
 #: oc-includes/osclass/install-functions.php:234
 msgid "<code>config.php</code> file is writable"
@@ -4327,7 +4331,7 @@ msgstr "Tập tin <code>config.php</code> được phép ghi"
 #: oc-includes/osclass/install-functions.php:237
 #, php-format
 msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
-msgstr ""
+msgstr "<code>file cấu hình.php</code> phải được ghi lại, tức là: <code>chmod 0755 %sconfig.php</code>"
 
 #: oc-includes/osclass/install-functions.php:246
 msgid "Root directory is writable"
@@ -4336,7 +4340,7 @@ msgstr "Thư mục gốc được phép ghi"
 #: oc-includes/osclass/install-functions.php:249
 #, php-format
 msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
-msgstr ""
+msgstr "Cặp gốc phải được ghi lại, tức là: <code>chmod 0755 %s</code>"
 
 #: oc-includes/osclass/install-functions.php:258
 msgid "<code>config-sample.php</code> file exists"
@@ -4588,7 +4592,7 @@ msgstr "mật khẩu: %s"
 #: oc-includes/osclass/install-functions.php:1261
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
-msgstr ""
+msgstr "Hãy nhớ rằng đối với bất kỳ nghi ngờ nào bạn có thể có bạn có thể tham khảo tài liệu <a href=\"%1$s\">của chúng tôi</a>"
 
 #: oc-includes/osclass/install-functions.php:1264
 msgid "Cheers,"
@@ -4596,11 +4600,11 @@ msgstr "Hoan hô,"
 
 #: oc-includes/osclass/install-functions.php:1265
 msgid "The <a href=\"https://github.com/mindstellar/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "Đội</a> Osclass <a href=\"https://github.com/mindstellar/osclass\">"
 
 #: oc-includes/osclass/timezones.php:31
 msgid "Use native php function for timezones list."
-msgstr ""
+msgstr "Sử dụng hàm php gốc cho danh sách múi giờ."
 
 #: oc-includes/osclass/classes/utility/SystemInfo.php:291
 #: oc-includes/osclass/classes/utility/SystemInfo.php:301
@@ -4628,27 +4632,27 @@ msgstr "Không đặt"
 
 #: oc-includes/osclass/classes/utility/Utils.php:52
 msgid "Is allow_url_fopen enabled?"
-msgstr ""
+msgstr "Allow_url_fopen có được kích hoạt không?"
 
 #: oc-includes/osclass/classes/utility/Utils.php:265
 msgid "Category id is not a valid integer"
-msgstr ""
+msgstr "Id thể loại không phải là số nguyên hợp lệ"
 
 #: oc-includes/osclass/classes/upgrade/Plugin.php:77
 msgid "Invalid plugin name."
-msgstr ""
+msgstr "Tên plugin không hợp lệ."
 
 #: oc-includes/osclass/classes/upgrade/Plugin.php:88
 msgid "Invalid plugin update uri"
-msgstr ""
+msgstr "Plugin không hợp lệ cập nhật uri"
 
 #: oc-includes/osclass/classes/upgrade/Theme.php:77
 msgid "Invalid theme name."
-msgstr ""
+msgstr "Tên chủ đề không hợp lệ."
 
 #: oc-includes/osclass/classes/upgrade/Theme.php:88
 msgid "Invalid theme update uri"
-msgstr ""
+msgstr "Cập nhật chủ đề không hợp lệ uri"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:96
 msgid "Osclass &raquo; Has some errors"
@@ -4680,7 +4684,7 @@ msgstr "Diễn đàn Hỗ trợ"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:123
 msgid "Osclass DB Upgraded Successfully"
-msgstr ""
+msgstr "Osclass DB nâng cấp thành công"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:126
 msgid "Unable to upgrade Database"
@@ -4688,7 +4692,7 @@ msgstr "Không thể nâng cấp Cơ sở dữ liệu"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:102
 msgid "Unable to follow upgrade, invalid package info"
-msgstr ""
+msgstr "Không thể theo dõi thông tin nâng cấp, gói không hợp lệ"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:131
 msgid "Invalid Zip package, it's not in valid format."
@@ -4696,23 +4700,23 @@ msgstr "Gói Zip không hợp lệ, nó không ở định dạng hợp lệ."
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:145
 msgid "doesn't exists, unknown error occurred while downloading and extracting package."
-msgstr ""
+msgstr "không tồn tại, lỗi không xác định xảy ra trong khi tải xuống và trích xuất gói."
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:179
 msgid "Unable to unzip package file."
-msgstr ""
+msgstr "Không thể giải nén tệp gói."
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:133
 msgid "s_source_file is not a valid url"
-msgstr ""
+msgstr "s_source_file không phải là url hợp lệ"
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:147
 msgid "Invalid s_target_directory."
-msgstr ""
+msgstr "s_target_directory không hợp lệ."
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:159
 msgid "Invalid upgrade package info"
-msgstr ""
+msgstr "Thông tin gói nâng cấp không hợp lệ"
 
 #: oc-includes/osclass/classes/form/UserForm.php:245
 #: oc-includes/osclass/classes/form/ItemForm.php:722
@@ -5213,7 +5217,7 @@ msgstr "Wk"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:319
 msgid "Select"
-msgstr ""
+msgstr "Lựa"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:371
 msgid "from"
@@ -5335,7 +5339,7 @@ msgstr "URL của rao vặt"
 
 #: oc-includes/osclass/classes/EmailVariables.php:73
 msgid "Item expiration date"
-msgstr ""
+msgstr "Ngày hết hạn mục"
 
 #: oc-includes/osclass/classes/EmailVariables.php:74
 msgid "Listing list"
@@ -5424,11 +5428,11 @@ msgstr "Huyện thành rao vặt"
 
 #: oc-includes/osclass/classes/EmailVariables.php:95
 msgid "Seller name"
-msgstr ""
+msgstr "Tên người bán"
 
 #: oc-includes/osclass/classes/EmailVariables.php:96
 msgid "Seller email"
-msgstr ""
+msgstr "Email người bán"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:121
 msgid "Anonymous"
@@ -5501,11 +5505,11 @@ msgstr "Chế độ bảo trì"
 
 #: oc-includes/osclass/classes/AdminMenu.php:327
 msgid "Renew location stats"
-msgstr ""
+msgstr "Gia hạn số liệu thống kê vị trí"
 
 #: oc-includes/osclass/classes/AdminMenu.php:334
 msgid "Renew category stats"
-msgstr ""
+msgstr "Gia hạn số liệu thống kê thể loại"
 
 #: oc-includes/osclass/classes/AdminMenu.php:341
 msgid "System info"
@@ -5595,7 +5599,7 @@ msgstr "Tạo tài khoản mới"
 
 #: oc-includes/osclass/classes/model/Category.php:919
 msgid "Non-Existent Category"
-msgstr ""
+msgstr "Thể loại không tồn tại"
 
 #: oc-includes/osclass/classes/ImageProcessing.php:55
 #, php-format
@@ -5620,7 +5624,7 @@ msgstr "Tên: %s"
 #: oc-includes/osclass/classes/controller/CWebContact.php:94
 #, php-format
 msgid "Email: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: oc-includes/osclass/classes/controller/CWebContact.php:95
 #, php-format
@@ -5835,11 +5839,11 @@ msgstr "Xảy ra lỗi khi gửi mail"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:572
 msgid "Update available"
-msgstr ""
+msgstr "Cập nhật sẵn dùng"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:575
 msgid "No update available"
-msgstr ""
+msgstr "Không có bản cập nhật sẵn dùng"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:580
 msgid "Network error"
@@ -5849,7 +5853,7 @@ msgstr "Lỗi mạng"
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:590
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:594
 msgid "Checked updates"
-msgstr ""
+msgstr "Cập nhật đã kiểm tra"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:603
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:627
@@ -5859,11 +5863,11 @@ msgstr "Không thể hoàn thành hành động này vì đây là site dùng th
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:619
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:643
 msgid "Error occurred while upgrading osclass Database."
-msgstr ""
+msgstr "Lỗi xảy ra trong khi nâng cấp Cơ sở dữ liệu osclass."
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:636
 msgid "Osclass upgraded successfully."
-msgstr ""
+msgstr "Osclass nâng cấp thành công."
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:693
 msgid "You don't have the necessary permissions"
@@ -5871,7 +5875,7 @@ msgstr "Bạn không có những quyền cần thiết"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:147
 msgid "Lost your password"
-msgstr ""
+msgstr "Mất mật khẩu"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:399
 #, php-format
@@ -5880,7 +5884,7 @@ msgstr "Bạn có chắc mình muốn %s các quản trị viên đã chọn"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:219
 msgid "Error loading theme custom file"
-msgstr ""
+msgstr "Lỗi tải tệp tùy chỉnh chủ đề"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:567
 #, php-format
@@ -6058,7 +6062,7 @@ msgstr "Liên hệ người bán"
 #: oc-includes/osclass/functions.php:155
 #: oc-includes/osclass/helpers/hPagination.php:187
 msgid "Page"
-msgstr ""
+msgstr "Trang"
 
 #: oc-includes/osclass/functions.php:166
 msgid "Show all listings"
@@ -6087,11 +6091,11 @@ msgstr "Bình luận mới"
 
 #: oc-includes/osclass/functions.php:581
 msgid "Osclass "
-msgstr ""
+msgstr "Osclass "
 
 #: oc-includes/osclass/functions.php:581
 msgid " is available"
-msgstr ""
+msgstr " có sẵn"
 
 #: oc-includes/osclass/functions.php:655
 msgid "Plugin updates"
@@ -6116,7 +6120,7 @@ msgstr "cảnh báo ngừng theo dõi"
 
 #: oc-includes/osclass/emails.php:1219 oc-includes/osclass/emails.php:1448
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
 #: oc-includes/osclass/emails.php:1997
 msgid "<p>Dear {WEB_TITLE} admin,</p>"
@@ -6208,7 +6212,7 @@ msgstr "Máy tính - Phần cứng"
 
 #: oc-includes/osclass/installer/basic_data.php:21
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: oc-includes/osclass/installer/basic_data.php:22
 msgid "Electronics"
@@ -6472,7 +6476,7 @@ msgstr "Nhân sự"
 
 #: oc-includes/osclass/installer/basic_data.php:87
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: oc-includes/osclass/installer/basic_data.php:88
 msgid "Legal"
@@ -6532,7 +6536,7 @@ msgstr "Người đăng thí dụ"
 
 #: oc-includes/osclass/installer/basic_data.php:107
 msgid "osclass@example.com"
-msgstr ""
+msgstr "osclass@example.com"
 
 #: oc-includes/osclass/installer/basic_data.php:108
 msgid "Example country"
@@ -6638,7 +6642,7 @@ msgstr "Hiển thị %s đến %s của %s kết quả"
 
 #: oc-includes/osclass/helpers/hSearch.php:63
 msgid "Relevance"
-msgstr ""
+msgstr "Liên quan"
 
 #: oc-includes/osclass/helpers/hSearch.php:66
 msgid "Newly listed"

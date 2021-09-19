@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:05\n"
+"PO-Revision-Date: 2021-09-19 10:12\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -2010,7 +2010,7 @@ msgstr "說明：這是必填欄位"
 
 #: oc-admin/themes/modern/appearance/widgets.php:37
 msgid "Modify your site's header or footer here."
-msgstr ""
+msgstr "在此處修改網站的頭或腳。"
 
 #: oc-admin/themes/modern/appearance/widgets.php:47
 #: oc-admin/themes/modern/appearance/index.php:53
@@ -2058,7 +2058,7 @@ msgstr "刪除小工具"
 
 #: oc-admin/themes/modern/appearance/index.php:40
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
-msgstr ""
+msgstr "通過啟動可用主題，改變網站的外觀和感覺。 <strong>小心</strong>：如果你的主題已經定製，你會失去所有的變化，如果你改為一個新的主題。"
 
 #: oc-admin/themes/modern/appearance/index.php:57
 msgid "Add theme"
@@ -2319,7 +2319,7 @@ msgstr "默認範本"
 #: oc-admin/themes/modern/settings/locations.php:203
 #: oc-includes/osclass/classes/form/CategoryForm.php:228
 msgid "Slug"
-msgstr ""
+msgstr "鼻涕蟲"
 
 #: oc-admin/themes/modern/pages/frm.php:147
 msgid "Used to quickly identify this page"
@@ -2397,17 +2397,17 @@ msgstr "匯入資料"
 #: oc-admin/themes/modern/tools/version.php:33
 #, php-format
 msgid "Osclass %s"
-msgstr ""
+msgstr "奧斯班 %s"
 
 #: oc-admin/themes/modern/tools/version.php:41
 #, php-format
 msgid "Osclass %s &raquo; %s"
-msgstr ""
+msgstr "奧斯班 %s &raquo; %s"
 
 #: oc-admin/themes/modern/tools/upgrade.php:47
 #, php-format
 msgid "Upgrade is available for (Current version %s)"
-msgstr ""
+msgstr "升級適用於（當前版本 %s）"
 
 #: oc-admin/themes/modern/tools/upgrade.php:48
 #, php-format
@@ -2469,7 +2469,8 @@ msgstr "恭喜！您的 Oscalss 是最新的版本。"
 #: oc-admin/themes/modern/tools/upgrade.php:180
 msgid "Check to see if you're using the latest version of Osclass. If you're not, \n"
 "        the system will let you know so you can update and use the newest features."
-msgstr ""
+msgstr "檢查是否使用最新版本的 Osclass。如果您不是， \n"
+"        系統會讓您知道，以便您可以更新和使用最新的功能。"
 
 #: oc-admin/themes/modern/tools/upgrade.php:206
 #, php-format
@@ -2482,7 +2483,10 @@ msgid "Your Osclass installation can be auto-upgraded. \n"
 "                                        Please, back up your database and the folder oc-content before attempting to \n"
 "                                        upgrade your Osclass installation. \n"
 "                                        You can also upgrade Osclass manually, more information in the %s"
-msgstr ""
+msgstr "您的 Osclass 安裝可以自動升級。 請 \n"
+"                                        ，在嘗試 \n"
+"                                        升級 Osclass 安裝之前，請備份資料庫和資料夾 oc 內容。 \n"
+"                                        您還可以手動升級 Osclass， %s中的資訊更多"
 
 #: oc-admin/themes/modern/tools/maintenance.php:45
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -4245,7 +4249,7 @@ msgstr "運行 Osclass 至少需要 PHP %s （建議的 PHP %s 或更高）。�
 
 #: oc-includes/osclass/install-functions.php:148
 msgid "MySQLi extension for PHP"
-msgstr ""
+msgstr "Php 的 Mysqli 擴展"
 
 #: oc-includes/osclass/install-functions.php:150
 msgid "MySQLi extension is required. How to <a target=\"_blank\" href=\"http://www.php.net/manual/en/mysqli.setup.php\">install/configure</a>."
@@ -4253,7 +4257,7 @@ msgstr "MySQLi extension 是必要的。請參閱：<a target=\"_blank\" href=\"
 
 #: oc-includes/osclass/install-functions.php:155
 msgid "GD extension for PHP"
-msgstr ""
+msgstr "PHP 的 GD 擴展"
 
 #: oc-includes/osclass/install-functions.php:157
 msgid "GD extension is required. How to <a target=\"_blank\" href=\"http://www.php.net/manual/en/image.setup.php\">install/configure</a>."
@@ -4261,11 +4265,11 @@ msgstr "GD extension 是必要的。請參閱：<a target=\"_blank\" href=\"http
 
 #: oc-includes/osclass/install-functions.php:161
 msgid "cURL extension for PHP"
-msgstr ""
+msgstr "PHP 的 cURL 擴展"
 
 #: oc-includes/osclass/install-functions.php:163
 msgid "cURL extension is required. How to <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">install/configure</a>."
-msgstr ""
+msgstr "需要 cURL 擴展。如何 <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">安裝/配置</a>。"
 
 #: oc-includes/osclass/install-functions.php:167
 msgid "Folder <code>oc-content/uploads</code> exists"
@@ -4283,7 +4287,7 @@ msgstr "<code>oc-content/uploads</code> 資料夾可以寫入"
 #: oc-includes/osclass/install-functions.php:179
 #, php-format
 msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
-msgstr ""
+msgstr "<code>上傳</code> 資料夾必須是可寫，即： <code>chmod 0755 %soc 內容/上傳/</code>"
 
 #: oc-includes/osclass/install-functions.php:186
 msgid "Folder <code>oc-content/downloads</code> exists"
@@ -4301,7 +4305,7 @@ msgstr "<code>oc-content/downloads</code> 資料夾是可寫入的"
 #: oc-includes/osclass/install-functions.php:199
 #, php-format
 msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
-msgstr ""
+msgstr "<code>下載</code> 資料夾必須是可寫，即： <code>chmod 0755 %soc 內容/下載/</code>"
 
 #: oc-includes/osclass/install-functions.php:206
 msgid "Folder <code>oc-content/languages</code> folder exists"
@@ -4319,7 +4323,7 @@ msgstr "<code>oc-content/languages</code> 資料夾是可寫入的"
 #: oc-includes/osclass/install-functions.php:219
 #, php-format
 msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
-msgstr ""
+msgstr "資料夾</code> <code>語言必須是可寫 <code>的，即： chmod 0755 %soc 內容/語言/</code>"
 
 #: oc-includes/osclass/install-functions.php:234
 msgid "<code>config.php</code> file is writable"
@@ -4328,7 +4332,7 @@ msgstr "<code>config.php</code> 檔案是可寫入的"
 #: oc-includes/osclass/install-functions.php:237
 #, php-format
 msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
-msgstr ""
+msgstr "<code>設定.php</code> 檔必須是可寫 <code>的， 即：  chmod 0755 %s配置.php</code>"
 
 #: oc-includes/osclass/install-functions.php:246
 msgid "Root directory is writable"
@@ -4337,7 +4341,7 @@ msgstr "根資料夾是可寫入的"
 #: oc-includes/osclass/install-functions.php:249
 #, php-format
 msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
-msgstr ""
+msgstr "根資料夾必須是可寫，即： <code>chmod 0755 %s</code>"
 
 #: oc-includes/osclass/install-functions.php:258
 msgid "<code>config-sample.php</code> file exists"
@@ -4589,7 +4593,7 @@ msgstr "密碼：%s"
 #: oc-includes/osclass/install-functions.php:1261
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
-msgstr ""
+msgstr "請記住，對於您可能遇到的任何疑問，您可以查閱我們的 <a href=\"%1$s\">文檔</a>"
 
 #: oc-includes/osclass/install-functions.php:1264
 msgid "Cheers,"
@@ -4597,11 +4601,11 @@ msgstr "恭喜！"
 
 #: oc-includes/osclass/install-functions.php:1265
 msgid "The <a href=\"https://github.com/mindstellar/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "奧斯班</a> 隊 <a href=\"https://github.com/mindstellar/osclass\">"
 
 #: oc-includes/osclass/timezones.php:31
 msgid "Use native php function for timezones list."
-msgstr ""
+msgstr "使用原生 php 功能進行時區清單。"
 
 #: oc-includes/osclass/classes/utility/SystemInfo.php:291
 #: oc-includes/osclass/classes/utility/SystemInfo.php:301
@@ -4629,27 +4633,27 @@ msgstr "未設置"
 
 #: oc-includes/osclass/classes/utility/Utils.php:52
 msgid "Is allow_url_fopen enabled?"
-msgstr ""
+msgstr "啟用allow_url_fopen嗎？"
 
 #: oc-includes/osclass/classes/utility/Utils.php:265
 msgid "Category id is not a valid integer"
-msgstr ""
+msgstr "類別ID不是有效的整數"
 
 #: oc-includes/osclass/classes/upgrade/Plugin.php:77
 msgid "Invalid plugin name."
-msgstr ""
+msgstr "無效外掛程式名稱。"
 
 #: oc-includes/osclass/classes/upgrade/Plugin.php:88
 msgid "Invalid plugin update uri"
-msgstr ""
+msgstr "無效外掛程式更新 uri"
 
 #: oc-includes/osclass/classes/upgrade/Theme.php:77
 msgid "Invalid theme name."
-msgstr ""
+msgstr "無效的主題名稱。"
 
 #: oc-includes/osclass/classes/upgrade/Theme.php:88
 msgid "Invalid theme update uri"
-msgstr ""
+msgstr "無效主題更新 uri"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:96
 msgid "Osclass &raquo; Has some errors"
@@ -4681,7 +4685,7 @@ msgstr "支持論壇"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:123
 msgid "Osclass DB Upgraded Successfully"
-msgstr ""
+msgstr "奧斯班 Db 成功升級"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:126
 msgid "Unable to upgrade Database"
@@ -4689,7 +4693,7 @@ msgstr "無法升級資料庫"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:102
 msgid "Unable to follow upgrade, invalid package info"
-msgstr ""
+msgstr "無法跟蹤升級，無效包資訊"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:131
 msgid "Invalid Zip package, it's not in valid format."
@@ -4697,23 +4701,23 @@ msgstr "無效郵編包，不採用有效格式。"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:145
 msgid "doesn't exists, unknown error occurred while downloading and extracting package."
-msgstr ""
+msgstr "不存在，下載和提取包時會發生未知錯誤。"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:179
 msgid "Unable to unzip package file."
-msgstr ""
+msgstr "無法解壓包檔。"
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:133
 msgid "s_source_file is not a valid url"
-msgstr ""
+msgstr "s_source_file不是有效的網址"
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:147
 msgid "Invalid s_target_directory."
-msgstr ""
+msgstr "無效s_target_directory。"
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:159
 msgid "Invalid upgrade package info"
-msgstr ""
+msgstr "無效升級包資訊"
 
 #: oc-includes/osclass/classes/form/UserForm.php:245
 #: oc-includes/osclass/classes/form/ItemForm.php:722
@@ -5214,7 +5218,7 @@ msgstr "Wk"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:319
 msgid "Select"
-msgstr ""
+msgstr "選擇"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:371
 msgid "from"
@@ -5336,7 +5340,7 @@ msgstr "廣告清單規則"
 
 #: oc-includes/osclass/classes/EmailVariables.php:73
 msgid "Item expiration date"
-msgstr ""
+msgstr "專案到期日期"
 
 #: oc-includes/osclass/classes/EmailVariables.php:74
 msgid "Listing list"
@@ -5425,11 +5429,11 @@ msgstr "清單中的城市"
 
 #: oc-includes/osclass/classes/EmailVariables.php:95
 msgid "Seller name"
-msgstr ""
+msgstr "賣方名稱"
 
 #: oc-includes/osclass/classes/EmailVariables.php:96
 msgid "Seller email"
-msgstr ""
+msgstr "賣家電子郵件"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:121
 msgid "Anonymous"
@@ -5502,11 +5506,11 @@ msgstr "維護模式"
 
 #: oc-includes/osclass/classes/AdminMenu.php:327
 msgid "Renew location stats"
-msgstr ""
+msgstr "更新位置統計數據"
 
 #: oc-includes/osclass/classes/AdminMenu.php:334
 msgid "Renew category stats"
-msgstr ""
+msgstr "更新類別統計數據"
 
 #: oc-includes/osclass/classes/AdminMenu.php:341
 msgid "System info"
@@ -5596,7 +5600,7 @@ msgstr "建立一個新的帳號"
 
 #: oc-includes/osclass/classes/model/Category.php:919
 msgid "Non-Existent Category"
-msgstr ""
+msgstr "不存在類別"
 
 #: oc-includes/osclass/classes/ImageProcessing.php:55
 #, php-format
@@ -5836,11 +5840,11 @@ msgstr "傳送郵件時發生錯誤"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:572
 msgid "Update available"
-msgstr ""
+msgstr "可更新"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:575
 msgid "No update available"
-msgstr ""
+msgstr "沒有更新"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:580
 msgid "Network error"
@@ -5850,7 +5854,7 @@ msgstr "網路錯誤"
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:590
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:594
 msgid "Checked updates"
-msgstr ""
+msgstr "已檢查的更新"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:603
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:627
@@ -5860,11 +5864,11 @@ msgstr "這個操作無法完成，因為這是範例網站"
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:619
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:643
 msgid "Error occurred while upgrading osclass Database."
-msgstr ""
+msgstr "在升級 osclass 資料庫時發生了錯誤。"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:636
 msgid "Osclass upgraded successfully."
-msgstr ""
+msgstr "奧斯班升級成功。"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:693
 msgid "You don't have the necessary permissions"
@@ -5872,7 +5876,7 @@ msgstr "您沒有權限"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:147
 msgid "Lost your password"
-msgstr ""
+msgstr "丟失密碼"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:399
 #, php-format
@@ -6059,7 +6063,7 @@ msgstr "連絡賣家"
 #: oc-includes/osclass/functions.php:155
 #: oc-includes/osclass/helpers/hPagination.php:187
 msgid "Page"
-msgstr ""
+msgstr "頁"
 
 #: oc-includes/osclass/functions.php:166
 msgid "Show all listings"
@@ -6088,11 +6092,11 @@ msgstr "新的線上留言"
 
 #: oc-includes/osclass/functions.php:581
 msgid "Osclass "
-msgstr ""
+msgstr "奧斯班 "
 
 #: oc-includes/osclass/functions.php:581
 msgid " is available"
-msgstr ""
+msgstr " 可用"
 
 #: oc-includes/osclass/functions.php:655
 msgid "Plugin updates"
@@ -6117,7 +6121,7 @@ msgstr "取消訂閱通知"
 
 #: oc-includes/osclass/emails.php:1219 oc-includes/osclass/emails.php:1448
 msgid "Admin"
-msgstr ""
+msgstr "管理"
 
 #: oc-includes/osclass/emails.php:1997
 msgid "<p>Dear {WEB_TITLE} admin,</p>"
@@ -6209,7 +6213,7 @@ msgstr "電腦 - 硬體"
 
 #: oc-includes/osclass/installer/basic_data.php:21
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: oc-includes/osclass/installer/basic_data.php:22
 msgid "Electronics"
@@ -6639,7 +6643,7 @@ msgstr "顯示第 %s ~ %s 項，全部共有 %s 個"
 
 #: oc-includes/osclass/helpers/hSearch.php:63
 msgid "Relevance"
-msgstr ""
+msgstr "關聯"
 
 #: oc-includes/osclass/helpers/hSearch.php:66
 msgid "Newly listed"

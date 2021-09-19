@@ -17,7 +17,7 @@
       "fk_i_page_id": 3,
       "s_internal_name": "email_user_registration",
       "s_title": "{WEB_TITLE} - Kayıt başarılı!",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Merhaba {USER_NAME},<\/p><p> {WEB_LINK}için başarıyla kayıt oldunuz.<\/p><p>Teşekkür ederim!<\/p><p>Saygılarımla,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 4,
@@ -53,37 +53,37 @@
       "fk_i_page_id": 9,
       "s_internal_name": "email_new_comment_admin",
       "s_title": "{WEB_TITLE} - Yeni yorum",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+      "s_description": "<p>Birisi listeleme <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>hakkında yorum yaptı.<\/p><p>Yorumcu: {COMMENT_AUTHOR}<br \/>Yorumcunun e-postası: {COMMENT_EMAIL}<br \/>Başlık: {COMMENT_TITLE}<br \/>Yorum: {COMMENT_TEXT}<\/p>"
     },
     {
       "fk_i_page_id": 10,
       "s_internal_name": "email_new_item_non_register_user",
       "s_title": "{WEB_TITLE} - {ITEM_TITLE} başlıklı ilan için seçenekleri düzenleyin",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Merhaba {USER_NAME},<\/p><p> {WEB_LINK}kayıtlı değilsiniz, ancak yine de listeleme <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> kısa bir süre için düzenleyebilir veya silebilirsiniz.<\/p><p>Bu bağlantıyı izleyerek kaydınızı düzenleyebilirsiniz: {EDIT_LINK}<\/p><p>Bu bağlantıyı izleyerek kaydınızı silebilirsiniz: {DELETE_LINK}<\/p><p>Kullanıcı olarak kaydolursanız, düzenleme seçeneklerine tam erişiminiz olur.<\/p><p>Saygılarımla,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 11,
       "s_internal_name": "email_item_validation",
       "s_title": "{WEB_TITLE} - İlanınızı doğrulayın",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Merhaba {USER_NAME},<\/p><p>Bu e-postayı alıyorsunuz çünkü {WEB_LINK}'da bir liste yayımlandı. Lütfen aşağıdaki bağlantıya tıklayarak bu listeyi doğrulayın: {VALIDATION_LINK}. Bu kaydı yayınlamadıysanız lütfen bu e-postayı yoksayın.<\/p><p>Listeleme ayrıntıları:<\/p><p>Kişi adı: {USER_NAME}<br \/>İletişim e-postası: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>İlgiliLer,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 12,
       "s_internal_name": "email_admin_new_item",
       "s_title": "{WEB_TITLE} - Yeni bir ilan yayınlandı",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Sevgili {WEB_TITLE} yönetici,<\/p><p>Bu e-postayı alıyorsunuz çünkü {WEB_LINK}'da bir liste yayınlandı.<\/p><p>Listeleme ayrıntıları:<\/p><p>Kişi adı: {USER_NAME}<br \/>İletişim e-postası: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Aşağıdaki bağlantıya tıklayarak bu listeyi düzenleyebilirsiniz: {EDIT_LINK}<\/p><p>Saygılarımla,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 13,
       "s_internal_name": "email_user_forgot_password",
       "s_title": "{WEB_TITLE} - Şifrenizi geri edinin",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Merhaba {USER_NAME},<\/p><p>Parola anımsatıcısı istediğiniz için size bu e-postayı gönderdik. Kurtarmak için bu bağlantıyı izleyin: {PASSWORD_LINK}<\/p><p>Bağlantı 24 saat içinde devre dışı bırakılacaktır.<\/p><p>Parola anımsatıcısı istemediyseniz, lütfen bu iletiyi yoksayın. Bu talep IP {IP_ADDRESS} 'dan {DATE_TIME}<\/p><p>Saygıları,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 14,
       "s_internal_name": "email_new_email",
       "s_title": "{WEB_TITLE} - E-postanızın değiştirilmesini talep ettiniz",
-      "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Merhaba {USER_NAME}<\/p><p>Bu e-postayı alıyorsunuz çünkü e-posta değişikliği istediniz. Lütfen aşağıdaki doğrulama bağlantısına tıklayarak bu yeni e-posta adresini onaylayın: {VALIDATION_LINK}<\/p><p>Saygılarımızla,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 15,
@@ -101,13 +101,13 @@
       "fk_i_page_id": 17,
       "s_internal_name": "email_item_validation_non_register_user",
       "s_title": "{WEB_TITLE} - İlanınızı doğrulayın",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Merhaba {USER_NAME},<\/p><p>Bu e-postayı alıyorsunuz çünkü {WEB_LINK}'da bir liste yayınladınız. Lütfen aşağıdaki bağlantıya tıklayarak bu listeyi doğrulayın: {VALIDATION_LINK}. Bu kaydı yayımlamadıysanız, lütfen bu e-postayı yoksayın.<\/p><p>Listeleme ayrıntıları:<\/p><p>Kişi adı: {USER_NAME}<br \/>İletişim e-postası: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p> {WEB_LINK}kayıtlı olmasanız bile ,  kaydınızı yine de düzenleyebilir veya silebilirsiniz:<\/p><p>Bu bağlantıyı izleyerek kaydınızı düzenleyebilirsiniz: {EDIT_LINK}<\/p><p>Bu bağlantıyı izleyerek kaydınızı silebilirsiniz: {DELETE_LINK}<\/p><p>Saygılar,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 18,
       "s_internal_name": "email_admin_new_user",
       "s_title": "{WEB_TITLE} - Yeni bir kullanıcı kayıt oldu",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Sevgili {WEB_TITLE} yönetici,<\/p><p>Bu e-postayı alıyorsunuz çünkü {WEB_LINK}yeni bir kullanıcı oluşturuldu.<\/p><p>Kullanıcı ayrıntıları:<\/p><p>Adı: {USER_NAME}<br \/>E-posta: {USER_EMAIL}<\/p><p>Saygılar,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 19,
@@ -119,7 +119,7 @@
       "fk_i_page_id": 20,
       "s_internal_name": "email_new_comment_user",
       "s_title": "{WEB_TITLE} - İlanınıza ait bir yorum var",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Listeye yeni bir yorum var: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Yazar: {COMMENT_AUTHOR}<br \/>Yazarın e-postası: {COMMENT_EMAIL}<br \/>Başlık: {COMMENT_TITLE}<br \/>Yorum: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 21,

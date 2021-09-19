@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:07\n"
+"PO-Revision-Date: 2021-09-19 10:14\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -613,7 +613,7 @@ msgstr "Filtres"
 #: oc-admin/themes/modern/items/index.php:342
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:410
 msgid "Premium"
-msgstr ""
+msgstr "Prima"
 
 #: oc-admin/themes/modern/items/index.php:347
 #: oc-admin/themes/modern/items/index.php:362
@@ -632,7 +632,7 @@ msgstr "Trieu una opció"
 #: oc-admin/themes/modern/users/index.php:330
 #: oc-admin/themes/modern/tools/maintenance.php:90
 msgid "ON"
-msgstr ""
+msgstr "SOBRE"
 
 #: oc-admin/themes/modern/items/index.php:351
 #: oc-admin/themes/modern/items/index.php:366
@@ -642,7 +642,7 @@ msgstr ""
 #: oc-admin/themes/modern/users/index.php:332
 #: oc-admin/themes/modern/tools/maintenance.php:90
 msgid "OFF"
-msgstr ""
+msgstr "APAGAT"
 
 #: oc-admin/themes/modern/items/index.php:357
 #: oc-admin/themes/modern/users/index.php:271
@@ -1260,7 +1260,7 @@ msgstr "...Més"
 #: oc-includes/osclass/classes/datatables/AlertsDataTable.php:196
 #, php-format
 msgid "<b>Categories:</b> %s"
-msgstr ""
+msgstr "<b>categories:</b> %s"
 
 #: oc-admin/themes/modern/users/frm.php:414
 #: oc-admin/themes/modern/categories/index.php:155
@@ -1519,7 +1519,7 @@ msgstr "No s'ha pogut instal·lar el connector perquè ha activat un error <stro
 #: oc-admin/themes/modern/plugins/index.php:159
 #, php-format
 msgid "%d plugins"
-msgstr ""
+msgstr "connectors %d"
 
 #: oc-admin/themes/modern/plugins/index.php:190
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:397
@@ -2010,7 +2010,7 @@ msgstr "Descripció: aquest camp és obligatori!"
 
 #: oc-admin/themes/modern/appearance/widgets.php:37
 msgid "Modify your site's header or footer here."
-msgstr ""
+msgstr "Modifiqueu la capçalera o el peu de pàgina del vostre lloc aquí."
 
 #: oc-admin/themes/modern/appearance/widgets.php:47
 #: oc-admin/themes/modern/appearance/index.php:53
@@ -2058,7 +2058,7 @@ msgstr "Elimina un giny"
 
 #: oc-admin/themes/modern/appearance/index.php:40
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
-msgstr ""
+msgstr "Canvieu l'aspecte i la sensació del vostre lloc activant un tema entre els disponibles. <strong>Aneu amb compte</strong>: si el tema s'ha personalitzat, perdreu tots els canvis si canvieu a un tema nou."
 
 #: oc-admin/themes/modern/appearance/index.php:57
 msgid "Add theme"
@@ -2263,12 +2263,12 @@ msgstr "Afegeix, edita o elimina les categories o subcategories en què els usua
 #: oc-admin/themes/modern/categories/index.php:53
 #: oc-includes/osclass/classes/AdminMenu.php:166
 msgid "Categories"
-msgstr ""
+msgstr "Categories"
 
 #: oc-admin/themes/modern/categories/index.php:72
 #, php-format
 msgid "Categories &raquo; %s"
-msgstr ""
+msgstr "Categories &raquo; %s"
 
 #: oc-admin/themes/modern/categories/index.php:112
 msgid "This action could take a while."
@@ -2318,7 +2318,7 @@ msgstr "Plantilla per defecte"
 #: oc-admin/themes/modern/settings/locations.php:203
 #: oc-includes/osclass/classes/form/CategoryForm.php:228
 msgid "Slug"
-msgstr ""
+msgstr "Llimac"
 
 #: oc-admin/themes/modern/pages/frm.php:147
 msgid "Used to quickly identify this page"
@@ -2396,17 +2396,17 @@ msgstr "Importació de Dades"
 #: oc-admin/themes/modern/tools/version.php:33
 #, php-format
 msgid "Osclass %s"
-msgstr ""
+msgstr "%sd'Osclass"
 
 #: oc-admin/themes/modern/tools/version.php:41
 #, php-format
 msgid "Osclass %s &raquo; %s"
-msgstr ""
+msgstr "%s &raquo; %sd'Osclass"
 
 #: oc-admin/themes/modern/tools/upgrade.php:47
 #, php-format
 msgid "Upgrade is available for (Current version %s)"
-msgstr ""
+msgstr "L'actualització està disponible per a (versió actual %s)"
 
 #: oc-admin/themes/modern/tools/upgrade.php:48
 #, php-format
@@ -2468,7 +2468,8 @@ msgstr "Enhorahona! La teva instal·lació Osclass s'ha actualitzat correctament
 #: oc-admin/themes/modern/tools/upgrade.php:180
 msgid "Check to see if you're using the latest version of Osclass. If you're not, \n"
 "        the system will let you know so you can update and use the newest features."
-msgstr ""
+msgstr "Comproveu si esteu utilitzant l'última versió d'Osclass. Si no ho estàs, \n"
+"        el sistema t'ho farà saber perquè puguis actualitzar i utilitzar les característiques més noves."
 
 #: oc-admin/themes/modern/tools/upgrade.php:206
 #, php-format
@@ -2481,7 +2482,10 @@ msgid "Your Osclass installation can be auto-upgraded. \n"
 "                                        Please, back up your database and the folder oc-content before attempting to \n"
 "                                        upgrade your Osclass installation. \n"
 "                                        You can also upgrade Osclass manually, more information in the %s"
-msgstr ""
+msgstr "La instal·lació de l'Osclass es pot actualitzar automàticament. \n"
+"                                        Si us plau, feu una còpia de seguretat de la base de dades i de la carpeta oc-content abans d'intentar \n"
+"                                        actualitzar la instal·lació de l'Osclass. \n"
+"                                        També podeu actualitzar Osclass manualment, més informació a l' %s"
 
 #: oc-admin/themes/modern/tools/maintenance.php:45
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -4260,11 +4264,11 @@ msgstr "Extensió GD es requereix. Com<a target=\\\"_blank\\\" href=\\\"http://w
 
 #: oc-includes/osclass/install-functions.php:161
 msgid "cURL extension for PHP"
-msgstr ""
+msgstr "Extensió cURL per PHP"
 
 #: oc-includes/osclass/install-functions.php:163
 msgid "cURL extension is required. How to <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">install/configure</a>."
-msgstr ""
+msgstr "Es requereix extensió cURL. Com <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">instal·lar/configurar</a>."
 
 #: oc-includes/osclass/install-functions.php:167
 msgid "Folder <code>oc-content/uploads</code> exists"
@@ -4282,7 +4286,7 @@ msgstr "Es pot escriure al fitxer <code>oc-content/uploads</code>."
 #: oc-includes/osclass/install-functions.php:179
 #, php-format
 msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
-msgstr ""
+msgstr "<code>puja</code> carpeta ha de ser enregistrable, és a dir: <code>chmod 0755 %soc-content/uploads/</code>"
 
 #: oc-includes/osclass/install-functions.php:186
 msgid "Folder <code>oc-content/downloads</code> exists"
@@ -4300,7 +4304,7 @@ msgstr "Es pot escriure al fitxer <code>oc-content/downloads</code>."
 #: oc-includes/osclass/install-functions.php:199
 #, php-format
 msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
-msgstr ""
+msgstr "<code>baixa</code> carpeta ha de ser enregistrable, és a dir: <code>chmod 0755 %soc-content/downloads/</code>"
 
 #: oc-includes/osclass/install-functions.php:206
 msgid "Folder <code>oc-content/languages</code> folder exists"
@@ -4318,7 +4322,7 @@ msgstr "Es pot escriure al fitxer <code>oc-content/languages</code>."
 #: oc-includes/osclass/install-functions.php:219
 #, php-format
 msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
-msgstr ""
+msgstr "<code>idiomes</code> carpeta ha de ser escrit, és a dir: <code>chmod 0755 %soc-content/languages/</code>"
 
 #: oc-includes/osclass/install-functions.php:234
 msgid "<code>config.php</code> file is writable"
@@ -4327,7 +4331,7 @@ msgstr "Es pot escriure al fitxer <code>config.php</code>."
 #: oc-includes/osclass/install-functions.php:237
 #, php-format
 msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
-msgstr ""
+msgstr "<code>fitxer de configuració.php</code> ha de ser escrit, és a dir, <code>chmod 0755 %sconfig.php</code>"
 
 #: oc-includes/osclass/install-functions.php:246
 msgid "Root directory is writable"
@@ -4336,7 +4340,7 @@ msgstr "Directori arrel es pot escriure"
 #: oc-includes/osclass/install-functions.php:249
 #, php-format
 msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
-msgstr ""
+msgstr "La carpeta arrel ha de ser enregistrable, és a dir: <code>chmod 0755 %s</code>"
 
 #: oc-includes/osclass/install-functions.php:258
 msgid "<code>config-sample.php</code> file exists"
@@ -4538,7 +4542,7 @@ msgstr "Sense connexió a Internet. Podeu continuar la instal·lació i inserir 
 #: oc-includes/osclass/install-functions.php:1112
 #: oc-includes/osclass/functions.php:144
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: oc-includes/osclass/install-functions.php:1117
 msgid "Go back"
@@ -4588,7 +4592,7 @@ msgstr "contrasenya: %s"
 #: oc-includes/osclass/install-functions.php:1261
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
-msgstr ""
+msgstr "Recorda que per a qualsevol dubte que puguis tenir pots consultar la nostra documentació <a href=\"%1$s\"></a>"
 
 #: oc-includes/osclass/install-functions.php:1264
 msgid "Cheers,"
@@ -4596,11 +4600,11 @@ msgstr "Felicitats,"
 
 #: oc-includes/osclass/install-functions.php:1265
 msgid "The <a href=\"https://github.com/mindstellar/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "Equip</a> <a href=\"https://github.com/mindstellar/osclass\">Osclass"
 
 #: oc-includes/osclass/timezones.php:31
 msgid "Use native php function for timezones list."
-msgstr ""
+msgstr "Utilitzeu la funció php nativa per a la llista de zones horàries."
 
 #: oc-includes/osclass/classes/utility/SystemInfo.php:291
 #: oc-includes/osclass/classes/utility/SystemInfo.php:301
@@ -4628,27 +4632,27 @@ msgstr "No definit"
 
 #: oc-includes/osclass/classes/utility/Utils.php:52
 msgid "Is allow_url_fopen enabled?"
-msgstr ""
+msgstr "Està allow_url_fopen habilitat?"
 
 #: oc-includes/osclass/classes/utility/Utils.php:265
 msgid "Category id is not a valid integer"
-msgstr ""
+msgstr "L'identificador de categoria no és un enter vàlid"
 
 #: oc-includes/osclass/classes/upgrade/Plugin.php:77
 msgid "Invalid plugin name."
-msgstr ""
+msgstr "El nom del connector no és vàlid."
 
 #: oc-includes/osclass/classes/upgrade/Plugin.php:88
 msgid "Invalid plugin update uri"
-msgstr ""
+msgstr "L'uri d'actualització de connectors no és vàlid"
 
 #: oc-includes/osclass/classes/upgrade/Theme.php:77
 msgid "Invalid theme name."
-msgstr ""
+msgstr "El nom del tema no és vàlid."
 
 #: oc-includes/osclass/classes/upgrade/Theme.php:88
 msgid "Invalid theme update uri"
-msgstr ""
+msgstr "L'uri d'actualització del tema no és vàlid"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:96
 msgid "Osclass &raquo; Has some errors"
@@ -4680,7 +4684,7 @@ msgstr "Fòrum de suport"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:123
 msgid "Osclass DB Upgraded Successfully"
-msgstr ""
+msgstr "Osclass DB s'ha actualitzat correctament"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:126
 msgid "Unable to upgrade Database"
@@ -4688,7 +4692,7 @@ msgstr "No es pot actualitzar la base de dades"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:102
 msgid "Unable to follow upgrade, invalid package info"
-msgstr ""
+msgstr "No es pot seguir l'actualització, la informació del paquet no és vàlida"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:131
 msgid "Invalid Zip package, it's not in valid format."
@@ -4696,23 +4700,23 @@ msgstr "El paquet Zip no és vàlid, no té un format vàlid."
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:145
 msgid "doesn't exists, unknown error occurred while downloading and extracting package."
-msgstr ""
+msgstr "no existeix, s'ha produït un error desconegut en baixar i extreure el paquet."
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:179
 msgid "Unable to unzip package file."
-msgstr ""
+msgstr "No es pot descomprimir el fitxer de paquet."
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:133
 msgid "s_source_file is not a valid url"
-msgstr ""
+msgstr "s_source_file no és una adreça URL vàlida"
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:147
 msgid "Invalid s_target_directory."
-msgstr ""
+msgstr "El s_target_directory no és vàlid."
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:159
 msgid "Invalid upgrade package info"
-msgstr ""
+msgstr "La informació del paquet d'actualització no és vàlida"
 
 #: oc-includes/osclass/classes/form/UserForm.php:245
 #: oc-includes/osclass/classes/form/ItemForm.php:722
@@ -5097,12 +5101,12 @@ msgstr "Gen"
 #: oc-includes/osclass/classes/form/FieldForm.php:62
 #: oc-includes/osclass/helpers/hUtils.php:206
 msgid "Feb"
-msgstr ""
+msgstr "Febrer"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:63
 #: oc-includes/osclass/helpers/hUtils.php:207
 msgid "Mar"
-msgstr ""
+msgstr "Espatllar"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:64
 #: oc-includes/osclass/helpers/hUtils.php:208
@@ -5112,12 +5116,12 @@ msgstr "Abr"
 #: oc-includes/osclass/classes/form/FieldForm.php:66
 #: oc-includes/osclass/helpers/hUtils.php:210
 msgid "Jun"
-msgstr ""
+msgstr "Juny"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:67
 #: oc-includes/osclass/helpers/hUtils.php:211
 msgid "Jul"
-msgstr ""
+msgstr "Juliol"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:68
 #: oc-includes/osclass/helpers/hUtils.php:212
@@ -5132,12 +5136,12 @@ msgstr "Set"
 #: oc-includes/osclass/classes/form/FieldForm.php:70
 #: oc-includes/osclass/helpers/hUtils.php:214
 msgid "Oct"
-msgstr ""
+msgstr "Oct"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:71
 #: oc-includes/osclass/helpers/hUtils.php:215
 msgid "Nov"
-msgstr ""
+msgstr "Novembre"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:72
 #: oc-includes/osclass/helpers/hUtils.php:216
@@ -5213,7 +5217,7 @@ msgstr "Wk"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:319
 msgid "Select"
-msgstr ""
+msgstr "Seleccionar"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:371
 msgid "from"
@@ -5335,7 +5339,7 @@ msgstr "Url de l'anunci"
 
 #: oc-includes/osclass/classes/EmailVariables.php:73
 msgid "Item expiration date"
-msgstr ""
+msgstr "Data de caducitat de l'element"
 
 #: oc-includes/osclass/classes/EmailVariables.php:74
 msgid "Listing list"
@@ -5424,11 +5428,11 @@ msgstr "Població de l'anunci"
 
 #: oc-includes/osclass/classes/EmailVariables.php:95
 msgid "Seller name"
-msgstr ""
+msgstr "Nom del venedor"
 
 #: oc-includes/osclass/classes/EmailVariables.php:96
 msgid "Seller email"
-msgstr ""
+msgstr "Correu electrònic del venedor"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:121
 msgid "Anonymous"
@@ -5461,7 +5465,7 @@ msgstr "Informes"
 
 #: oc-includes/osclass/classes/AdminMenu.php:159
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: oc-includes/osclass/classes/AdminMenu.php:187
 msgid "Email templates"
@@ -5501,11 +5505,11 @@ msgstr "Mode de Manteniment"
 
 #: oc-includes/osclass/classes/AdminMenu.php:327
 msgid "Renew location stats"
-msgstr ""
+msgstr "Renovar les estadístiques d'ubicació"
 
 #: oc-includes/osclass/classes/AdminMenu.php:334
 msgid "Renew category stats"
-msgstr ""
+msgstr "Renova les estadístiques de categoria"
 
 #: oc-includes/osclass/classes/AdminMenu.php:341
 msgid "System info"
@@ -5595,7 +5599,7 @@ msgstr "Crea un compte nou"
 
 #: oc-includes/osclass/classes/model/Category.php:919
 msgid "Non-Existent Category"
-msgstr ""
+msgstr "Categoria inexistent"
 
 #: oc-includes/osclass/classes/ImageProcessing.php:55
 #, php-format
@@ -5620,7 +5624,7 @@ msgstr "Nom: %s"
 #: oc-includes/osclass/classes/controller/CWebContact.php:94
 #, php-format
 msgid "Email: %s"
-msgstr ""
+msgstr "Correu electrònic: %s"
 
 #: oc-includes/osclass/classes/controller/CWebContact.php:95
 #, php-format
@@ -5718,7 +5722,7 @@ msgstr "Sí"
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:564
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:599
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:607
@@ -5835,11 +5839,11 @@ msgstr "Hi ha hagut un error enviant el correu electrònic."
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:572
 msgid "Update available"
-msgstr ""
+msgstr "Actualització disponible"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:575
 msgid "No update available"
-msgstr ""
+msgstr "No hi ha cap actualització disponible"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:580
 msgid "Network error"
@@ -5849,7 +5853,7 @@ msgstr "Error de xarxa"
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:590
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:594
 msgid "Checked updates"
-msgstr ""
+msgstr "Actualitzacions comprovada"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:603
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:627
@@ -5859,11 +5863,11 @@ msgstr "Aquesta acció no es pot dur a terme perquè aquest és un lloc web de d
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:619
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:643
 msgid "Error occurred while upgrading osclass Database."
-msgstr ""
+msgstr "S'ha produït un error en actualitzar la base de dades osclass."
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:636
 msgid "Osclass upgraded successfully."
-msgstr ""
+msgstr "Osclass s'ha actualitzat correctament."
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:693
 msgid "You don't have the necessary permissions"
@@ -5871,7 +5875,7 @@ msgstr "No tens els permisos necessaris."
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:147
 msgid "Lost your password"
-msgstr ""
+msgstr "Has perdut la contrasenya"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:399
 #, php-format
@@ -6059,7 +6063,7 @@ msgstr "Contacta amb el venedor"
 #: oc-includes/osclass/functions.php:155
 #: oc-includes/osclass/helpers/hPagination.php:187
 msgid "Page"
-msgstr ""
+msgstr "Pàgina"
 
 #: oc-includes/osclass/functions.php:166
 msgid "Show all listings"
@@ -6088,11 +6092,11 @@ msgstr "Nous comentaris"
 
 #: oc-includes/osclass/functions.php:581
 msgid "Osclass "
-msgstr ""
+msgstr "Osclass "
 
 #: oc-includes/osclass/functions.php:581
 msgid " is available"
-msgstr ""
+msgstr " Està disponible"
 
 #: oc-includes/osclass/functions.php:655
 msgid "Plugin updates"
@@ -6117,7 +6121,7 @@ msgstr "Donar-se de baixa alerta"
 
 #: oc-includes/osclass/emails.php:1219 oc-includes/osclass/emails.php:1448
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
 #: oc-includes/osclass/emails.php:1997
 msgid "<p>Dear {WEB_TITLE} admin,</p>"
@@ -6145,11 +6149,11 @@ msgstr "En venda"
 
 #: oc-includes/osclass/installer/basic_data.php:5
 msgid "Vehicles"
-msgstr ""
+msgstr "Vehicles"
 
 #: oc-includes/osclass/installer/basic_data.php:6
 msgid "Classes"
-msgstr ""
+msgstr "Classes"
 
 #: oc-includes/osclass/installer/basic_data.php:7
 msgid "Real estate"
@@ -6173,7 +6177,7 @@ msgstr "Ofertes de Treball"
 
 #: oc-includes/osclass/installer/basic_data.php:12
 msgid "Animals"
-msgstr ""
+msgstr "Animals"
 
 #: oc-includes/osclass/installer/basic_data.php:13
 msgid "Art - Collectibles"
@@ -6209,7 +6213,7 @@ msgstr "Ordinadors - Hardware"
 
 #: oc-includes/osclass/installer/basic_data.php:21
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: oc-includes/osclass/installer/basic_data.php:22
 msgid "Electronics"
@@ -6473,11 +6477,11 @@ msgstr "Recursos Humans"
 
 #: oc-includes/osclass/installer/basic_data.php:87
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: oc-includes/osclass/installer/basic_data.php:88
 msgid "Legal"
-msgstr ""
+msgstr "Legal"
 
 #: oc-includes/osclass/installer/basic_data.php:89
 msgid "Manual Labor"
@@ -6639,7 +6643,7 @@ msgstr "Mostrant %s a %s de %s results"
 
 #: oc-includes/osclass/helpers/hSearch.php:63
 msgid "Relevance"
-msgstr ""
+msgstr "Rellevància"
 
 #: oc-includes/osclass/helpers/hSearch.php:66
 msgid "Newly listed"
@@ -6655,19 +6659,19 @@ msgstr "Més car primer"
 
 #: oc-includes/osclass/helpers/hUtils.php:229
 msgid "AM"
-msgstr ""
+msgstr "SÓC"
 
 #: oc-includes/osclass/helpers/hUtils.php:229
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: oc-includes/osclass/helpers/hUtils.php:229
 msgid "am"
-msgstr ""
+msgstr "Sóc"
 
 #: oc-includes/osclass/helpers/hUtils.php:229
 msgid "pm"
-msgstr ""
+msgstr "Pm"
 
 #: oc-includes/osclass/helpers/hUtils.php:273
 msgid "Public Profile"

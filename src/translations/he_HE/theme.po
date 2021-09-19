@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:07\n"
+"PO-Revision-Date: 2021-09-19 10:14\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
@@ -24,24 +24,24 @@ msgstr "promijeni korisničko ime"
 
 #: user-change_username.php:50
 msgid "Username: this field is required"
-msgstr "שם משתמש: שדה חובה"
+msgstr "Korisničko ime: polje je obavezno"
 
 #: user-change_username.php:75
 msgid "The username is available"
-msgstr ""
+msgstr "Korisničko ime je slobodno"
 
 #: user-change_username.php:77
 msgid "The username is NOT available"
-msgstr ""
+msgstr "Korisničko ime NIJE slobodno"
 
 #: user-change_username.php:94
 msgid "Username"
-msgstr "שם משתמש"
+msgstr "Korisničko ime"
 
 #: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
 #: item-post.php:211 user-change_password.php:64
 msgid "Update"
-msgstr "עדכן"
+msgstr "Ažuriraj"
 
 #: user-change_email.php:33 user-change_email.php:38
 msgid "Change e-mail"
@@ -57,7 +57,7 @@ msgstr "דואר אלקטרוני חדש"
 
 #: user-change_email.php:76
 msgid "Email: this field is required"
-msgstr "מייל: שדה חובה"
+msgstr "שם: שדה חובה"
 
 #: user-change_email.php:77 alert-form.php:28
 msgid "Invalid email address"
@@ -81,7 +81,7 @@ msgstr "סמן כ..."
 
 #: item-sidebar.php:31
 msgid "Mark as spam"
-msgstr "סמן כדואר זבל"
+msgstr "Označi kao spam"
 
 #: item-sidebar.php:32
 msgid "Mark as misclassified"
@@ -126,17 +126,17 @@ msgstr "הירשם לחשבון חינם"
 #: item-sidebar.php:68 user-profile.php:46 item-post.php:179
 #: user-register.php:39
 msgid "Name"
-msgstr "שם"
+msgstr "Ime"
 
 #: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
-msgstr ""
+msgstr "Ime: %s"
 
 #: item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
-msgstr ""
+msgstr "דואר אלקטרוני: %s"
 
 #: item-sidebar.php:76
 #, php-format
@@ -205,11 +205,11 @@ msgstr "בטל"
 
 #: common/head.php:72
 msgid "Previous image"
-msgstr ""
+msgstr "התמונה הקודמת"
 
 #: common/head.php:73
 msgid "Next image"
-msgstr ""
+msgstr "התמונה הבאה"
 
 #: common/head.php:74
 msgid "Close"
@@ -245,7 +245,7 @@ msgstr "מקס"
 
 #: search-sidebar.php:87
 msgid "Apply"
-msgstr "החל"
+msgstr "Primjeni"
 
 #: search-sidebar.php:92
 msgid "Refine category"
@@ -261,7 +261,7 @@ msgstr "פעולה זו לא ניתנת לשחזור. האם אתה בטוח ש�
 
 #: loop-single-premium.php:51 loop-single.php:51
 msgid "Activate"
-msgstr "הפעל"
+msgstr "Aktiviraj"
 
 #: user-public-profile.php:67
 #, php-format
@@ -303,7 +303,7 @@ msgstr "הצגת כל הרישומים"
 
 #: main.php:74 item.php:66
 msgid "Location"
-msgstr "מיקום"
+msgstr "Lokacija"
 
 #: user-profile.php:32 user-profile.php:37 functions.php:445
 msgid "Update account"
@@ -343,7 +343,7 @@ msgstr "אתר אינטרנט"
 
 #: user-profile.php:107 item-post.php:71
 msgid "Description"
-msgstr "תיאור"
+msgstr "Opis"
 
 #: functions.php:28
 msgid "ie. PHP Programmer"
@@ -355,7 +355,7 @@ msgstr "פרסום מודעה"
 
 #: functions.php:435
 msgid "Edit your listing"
-msgstr "ערוך את הרישום שלך"
+msgstr "Uredi oglas"
 
 #: functions.php:436 item-send-friend.php:31
 msgid "Send to a friend"
@@ -363,16 +363,16 @@ msgstr "שלח לחבר"
 
 #: functions.php:438
 msgid "Search results"
-msgstr "תוצאות חיפוש"
+msgstr "Rezultati pretrage"
 
 #: functions.php:439
 #, php-format
 msgid "Search results: %s"
-msgstr "תוצאות חיפוש: %s"
+msgstr "Rezultati pretrage: %s"
 
 #: functions.php:440
 msgid "Dashboard"
-msgstr "דשבורד"
+msgstr "Kontrolna ploča"
 
 #: functions.php:441
 #, php-format
@@ -381,7 +381,7 @@ msgstr "הפרופיל של %s"
 
 #: functions.php:442 functions.php:496
 msgid "Account"
-msgstr "חשבון"
+msgstr "Korisnički račun"
 
 #: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
 msgid "Listings"
@@ -407,7 +407,7 @@ msgstr "Oporavi lozinku"
 
 #: functions.php:452
 msgid "Create a new account"
-msgstr "יצירת חשבון חדש"
+msgstr "Napravi novi korisnički račun"
 
 #: functions.php:453 user-public-sidebar.php:26 footer.php:65
 msgid "Contact"
@@ -415,7 +415,7 @@ msgstr "איש קשר"
 
 #: functions.php:481
 msgid "Public Profile"
-msgstr ""
+msgstr "Javni profil"
 
 #: functions.php:608
 msgid "Theme settings updated correctly"
@@ -455,7 +455,7 @@ msgstr "אין לך עדיין התראות."
 
 #: user-alerts.php:46
 msgid "Alert"
-msgstr "התראה"
+msgstr "Alarm"
 
 #: user-alerts.php:46
 msgid "This action can't be undone. Are you sure you want to continue?"
@@ -481,7 +481,7 @@ msgstr "תמונה"
 
 #: item.php:121
 msgid "Contact seller"
-msgstr "צור קשר עם המוכר"
+msgstr "Kontaktiraj oglašivača"
 
 #: item.php:125
 msgid "Share"
@@ -513,7 +513,7 @@ msgstr "רישומים קשורים"
 
 #: item.php:154
 msgid "Comments"
-msgstr "תגובות"
+msgstr "Komentari"
 
 #: item.php:161
 msgid "by"
@@ -533,11 +533,11 @@ msgstr "הדואר האלקטרוני שלך"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
-msgstr "כותרת"
+msgstr "Naziv"
 
 #: item.php:210
 msgid "Comment"
-msgstr "תגובה"
+msgstr "Komentar"
 
 #: user-login.php:30
 msgid "Access to your account"
@@ -545,7 +545,7 @@ msgstr "גישה לחשבון שלך"
 
 #: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
 msgid "E-mail"
-msgstr "דוא\"ל"
+msgstr "אימייל"
 
 #: user-login.php:44 user-register.php:51
 msgid "Password"
@@ -557,7 +557,7 @@ msgstr "תזכרו אותי."
 
 #: user-login.php:54
 msgid "Log in"
-msgstr "התחבר"
+msgstr "Prijava"
 
 #: user-login.php:58
 msgid "Forgot password?"
@@ -574,7 +574,7 @@ msgstr "החשבון שלי"
 
 #: header.php:50 footer.php:37
 msgid "Logout"
-msgstr "יציאה"
+msgstr "Odjava"
 
 #: header.php:60 footer.php:50
 msgid "Publish your ad for free"
@@ -594,7 +594,7 @@ msgstr "מידע כללי"
 
 #: item-post.php:59
 msgid "Category"
-msgstr "קטגוריה"
+msgstr "Kategorija"
 
 #: item-post.php:89
 msgid "Listing Location"
@@ -662,7 +662,7 @@ msgstr "נושא"
 
 #: user-forgot_password.php:30 user-recover.php:30
 msgid "Recover your password"
-msgstr "שחזר את הסיסמא שלך"
+msgstr "Oporavi lozinku"
 
 #: user-forgot_password.php:39 user-change_password.php:51
 msgid "New password"
@@ -686,7 +686,7 @@ msgstr "נושא (אופציונלי)"
 
 #: user-items.php:41
 msgid "My listings"
-msgstr "הרישומים שלי"
+msgstr "Moji oglasi"
 
 #: user-items.php:43
 msgid "No listings have been added yet"
@@ -893,7 +893,7 @@ msgstr "מודעה זו תוצג בסרגל הצד הימני של האתר של
 
 #: admin/settings.php:155
 msgid "Save changes"
-msgstr "שמור שינויים"
+msgstr "Spremi promjene"
 
 #: user-change_password.php:45
 msgid "Current password"
@@ -902,7 +902,7 @@ msgstr "סיסמה נוכחית"
 #: footer.php:69
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr ""
+msgstr "אתר זה משתמש בגאווה <a title=\"Osclass web\" href=\"%s\">סקריפטים מסווגים</a> תוכנה <strong>Osclass</strong>"
 
 #: footer.php:74
 msgid "Language:"

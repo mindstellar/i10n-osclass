@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:07\n"
+"PO-Revision-Date: 2021-09-19 10:14\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
@@ -49,22 +49,22 @@ msgstr "תמונה גדולה מדיי. גודל מירבי"
 #: oc-includes/osclass/classes/actions/ItemActions.php:426
 #, php-format
 msgid "Title too short (%s)."
-msgstr ""
+msgstr "כותרת קצרה מדי (%s)."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:428
 #, php-format
 msgid "Title too long (%s)."
-msgstr ""
+msgstr "כותרת ארוכה מדי (%s)."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:438
 #, php-format
 msgid "Description too short (%s)."
-msgstr ""
+msgstr "תיאור קצר מדי (%s)."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:441
 #, php-format
 msgid "Description too long (%s)."
-msgstr ""
+msgstr "תיאור ארוך מדי (%s)."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:445
 msgid "Category invalid."
@@ -80,7 +80,7 @@ msgstr "מחיר ארוך מדיי"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:451
 msgid "Price must be positive number."
-msgstr ""
+msgstr "המחיר חייב להיות מספר חיובי."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:453
 msgid "Country too short."
@@ -124,7 +124,7 @@ msgstr "כתובת אורכה מדיי"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:472
 msgid "Phone invalid."
-msgstr ""
+msgstr "הטלפון לא חוקי."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:560
 #: oc-includes/osclass/classes/actions/ItemActions.php:573
@@ -167,7 +167,7 @@ msgstr "הסיסמא לא תואמת"
 #: oc-includes/osclass/classes/actions/UserActions.php:86
 #: oc-includes/osclass/classes/actions/UserActions.php:302
 msgid "The name cannot be empty"
-msgstr ""
+msgstr "השם אינו יכול להיות ריק"
 
 #: oc-includes/osclass/classes/actions/UserActions.php:91
 msgid "The email is not valid"
@@ -180,25 +180,25 @@ msgstr "המייל שרשמת כבר נמצא במערכת"
 
 #: oc-includes/osclass/classes/actions/UserActions.php:105
 msgid "Username is already taken"
-msgstr ""
+msgstr "שם המשתמש כבר תפוס"
 
 #: oc-includes/osclass/classes/actions/UserActions.php:109
 #: oc-includes/osclass/classes/controller/CWebUser.php:190
 msgid "The specified username is not valid, it contains some invalid words"
-msgstr ""
+msgstr "שם המשתמש שצוין אינו חוקי, הוא מכיל כמה מילים לא חוקיות"
 
 #: oc-includes/osclass/classes/actions/UserActions.php:291
 #, php-format
 msgid "The specified e-mail is already used by %s"
-msgstr ""
+msgstr "הדואר האלקטרוני שצוין נמצא כבר בשימוש על-ידי %s"
 
 #: oc-includes/osclass/classes/Csrf.php:181
 msgid "Probable invalid request."
-msgstr ""
+msgstr "בקשה לא חוקית סבירה."
 
 #: oc-includes/osclass/classes/Csrf.php:184
 msgid "Invalid CSRF token."
-msgstr ""
+msgstr "אסימון CSRF לא חוקי."
 
 #: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
 #: oc-includes/osclass/classes/controller/CWebLogin.php:39
@@ -257,7 +257,7 @@ msgstr "הקוד שהזנת לא תואם"
 #: oc-includes/osclass/classes/controller/CWebItem.php:167
 #: oc-includes/osclass/classes/controller/CWebItem.php:550
 msgid "Your current email is not allowed"
-msgstr ""
+msgstr "הדואר האלקטרוני הנוכחי שלך אינו מותר"
 
 #: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
 #: oc-includes/osclass/classes/controller/CWebContact.php:72
@@ -266,11 +266,11 @@ msgstr ""
 #: oc-includes/osclass/classes/controller/CWebItem.php:170
 #: oc-includes/osclass/classes/controller/CWebItem.php:553
 msgid "Your current IP is not allowed"
-msgstr ""
+msgstr "ה- IP הנוכחי שלך אינו מותר"
 
 #: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
 msgid "Your email has been sent properly."
-msgstr ""
+msgstr "הדוא\"ל שלך נשלח כראוי."
 
 #: oc-includes/osclass/classes/controller/CWebContact.php:86
 msgid "Please enter a correct email"
@@ -287,11 +287,11 @@ msgstr "משתמשים לא אופשרו"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:62
 msgid "Please provide an email address"
-msgstr ""
+msgstr "נא ספק כתובת דוא\"ל"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:66
 msgid "Empty passwords are not allowed. Please provide a password"
-msgstr ""
+msgstr "סיסמאות ריקות אינן מותרות. נא ספק סיסמה"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:80
 #: oc-includes/osclass/classes/controller/CWebLogin.php:157
@@ -305,7 +305,7 @@ msgstr "הסיסמא שגוייה"
 #: oc-includes/osclass/classes/controller/CWebLogin.php:161
 #, php-format
 msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
-msgstr ""
+msgstr "המשתמש טרם אומת. האם ברצונך לשלוח מחדש את הפעלת <a href=\"%s\">שלך?</a>"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:165
 msgid "The user has not been validated yet"
@@ -321,19 +321,19 @@ msgstr "זה אמור לא לקרות לעולם"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:213
 msgid "Incorrect link"
-msgstr ""
+msgstr "קישור שגוי"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:227
 msgid "Validation email re-sent"
-msgstr ""
+msgstr "אימות דואר אלקטרוני שנשלח מחדש"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:229
 msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
-msgstr ""
+msgstr "בדיוק שלחנו לך דוא\"ל כדי לאמת את החשבון שלך, תצטרך לחכות כמה דקות כדי לשלוח אותו שוב"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:243
 msgid "Invalid email address"
-msgstr "כתובת דואר אלקטרוני שגוייה"
+msgstr "כתובת מייל לא חוקית"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:252
 msgid "We have sent you an email with the instructions to reset your password"
@@ -387,7 +387,7 @@ msgstr "החשבון שלך אומת."
 
 #: oc-includes/osclass/classes/controller/CWebRegister.php:131
 msgid "Account validation failed"
-msgstr ""
+msgstr "אימות החשבון נכשל"
 
 #: oc-includes/osclass/classes/controller/CWebAjax.php:107
 #: oc-includes/osclass/classes/controller/CWebAjax.php:203
@@ -437,7 +437,7 @@ msgstr "בדוק את האינבוקס שלך כדי לאמת את הרישום"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:190
 msgid "Your listing will be published after an admin approves it."
-msgstr ""
+msgstr "הרישום שלך יפורסם לאחר שמנהל מערכת יאשר אותו."
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:192
 msgid "Your listing has been published"
@@ -449,7 +449,7 @@ msgstr "מצטערים, אין לנו רישום עם מזהה כזהה"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:288
 msgid "Your listing will be published after an admin approves the changes."
-msgstr ""
+msgstr "הרישום שלך יפורסם לאחר שמנהל מערכת יאשר את השינויים."
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:290
 msgid "Great! We've just updated your listing"
@@ -498,7 +498,7 @@ msgstr "אתה לא יכול ליצור קשר עם המוכר, רק משתמש�
 #: oc-includes/osclass/classes/controller/CWebItem.php:518
 #, php-format
 msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr ""
+msgstr "<a href=\"%s\">לחץ כאן כדי להיכנס</a>"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:573
 msgid "We've just sent an e-mail to the seller"
@@ -530,11 +530,11 @@ msgstr "התגובה שלך סומנה כדואר זבל"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:615
 msgid "You need to be logged to comment"
-msgstr ""
+msgstr "עליך להירשם כדי להגיב"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:619
 msgid "Sorry, comments are disabled"
-msgstr ""
+msgstr "מצטערים, ההערות מושבתות"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:648
 msgid "You must be logged in to delete a comment"
@@ -563,11 +563,11 @@ msgstr "אימות הרישום לא בוצע. בבקשה תאמת אותו על
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:712
 msgid "The listing hasn't been enabled. Please enable it in order to make it public"
-msgstr ""
+msgstr "הרישום לא הופעל. נא הפוך אותו לזמין על מנת להפוך אותו לציבורי"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:718
 msgid "The listing has been blocked or is awaiting moderation from the admin"
-msgstr ""
+msgstr "הרישום נחסם או ממתין למתינות ממנהל המערכת"
 
 #: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
@@ -636,7 +636,7 @@ msgstr "ארעה תקלה בהוספת התוסף"
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
 #, php-format
 msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr ""
+msgstr "התוסף שנוצר %d תווים של</strong> פלט בלתי צפוי <strong>במהלך ההתקנה. פלט: \"%s\""
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
 msgid "Plugin is already installed"
@@ -694,16 +694,16 @@ msgstr "לא נבחר תוסף"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
 msgid "The files were deleted"
-msgstr ""
+msgstr "הקבצים נמחקו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
 #, php-format
 msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr ""
+msgstr "אירעה שגיאה במחיקת הקבצים, נא בדוק את ההרשאות של הקבצים %s"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
 msgid "Invalid plugin file"
-msgstr ""
+msgstr "קובץ תוסף לא חוקי"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
@@ -769,7 +769,7 @@ msgstr "העמודים %s נמחקו בהצלחה"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
 msgid "You have very few free space left, users will not be able to upload pictures"
-msgstr ""
+msgstr "נותר לך מעט מאוד מקום פנוי, משתמשים לא יוכלו להעלות תמונות"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
 msgid "Entered an invalid email"
@@ -797,7 +797,7 @@ msgstr "השפה הותקנה בהצלחה"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
 msgid "File uploaded but unable to activate the language"
-msgstr ""
+msgstr "הקובץ הועלה אך אין אפשרות להפעיל את השפה"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
@@ -809,7 +809,7 @@ msgstr "אירעה בעיה בייבוא תבניות דואר אלקטרוני"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
 msgid "Language imported successfully"
-msgstr ""
+msgstr "השפה שיובאה בהצלחה"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
@@ -896,7 +896,7 @@ msgstr "התיקייה %s לא ניתנת להסרה"
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
-msgstr ""
+msgstr "לא היתה אפשרות להסיר את הספריה '%s' מאחר שזו שפת ברירת המחדל. <a href=\"%s\">הגדר</a> שפה אחרת כברירת מחדל תחילה ונסה שוב"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
@@ -971,7 +971,7 @@ msgstr "שם משתמש כבר שימוש"
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
 msgid "Incorrent current password"
-msgstr ""
+msgstr "סיסמה נוכחית לא תקורת"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
 msgid "The admin has been added"
@@ -1261,11 +1261,11 @@ msgstr[3] "%s משתמשים נמחקו"
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
 msgid "Alert id isn't in the correct format"
-msgstr ""
+msgstr "מזהה ההתראה אינו בתבנית הנכונה"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
 msgid "No alerts have been deleted"
-msgstr ""
+msgstr "לא נמחקו התראות"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:352
 #, php-format
@@ -1278,7 +1278,7 @@ msgstr[3] "התראות %s נמחקו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
 msgid "No alerts have been activated"
-msgstr ""
+msgstr "לא הופעלו התראות"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:393
 #, php-format
@@ -1291,7 +1291,7 @@ msgstr[3] "התראות %s הופעלו"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
 msgid "No alerts have been deactivated"
-msgstr ""
+msgstr "לא הופעלו התראות"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
 #, php-format
@@ -1309,19 +1309,19 @@ msgstr "הגדרות המשתמש עודכנו בהצלחה"
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
 msgid "Both rules can not be empty"
-msgstr ""
+msgstr "שני הכללים אינם יכולים להיות ריקים"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
 msgid "Rule updated correctly"
-msgstr ""
+msgstr "הכלל עודכן כראוי"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
 msgid "Rule saved correctly"
-msgstr ""
+msgstr "הכלל נשמר כראוי"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
 msgid "No rules have been deleted"
-msgstr ""
+msgstr "לא נמחקו כללים"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:640
 #, php-format
@@ -1586,15 +1586,15 @@ msgstr "תמונות פר רישום חייב להכין מספרים בלבד"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:783
 msgid "Number of expiration days has to be a numeric value"
-msgstr ""
+msgstr "מספר ימי התפוגה חייב להיות ערך מספרי"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
 msgid "Title Length has to be a numeric value"
-msgstr ""
+msgstr "אורך הכותרת חייב להיות ערך מספרי"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
 msgid "Description Length has to be a numeric value"
-msgstr ""
+msgstr "אורך התיאור חייב להיות ערך מספרי"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
 msgid "Listings' settings have been updated"
@@ -1624,7 +1624,7 @@ msgstr "%s נוסף כמדינה חדשה"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
 msgid "Country name cannot be blank"
-msgstr ""
+msgstr "שם מדינה אינו יכול להיות ריק"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
 msgid "Country has been edited"
@@ -1638,16 +1638,16 @@ msgstr "ארעה תקלה בעריכת המדינה"
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
 msgid "There was a problem deleting locations"
-msgstr ""
+msgstr "אירעה בעיה במחיקת מיקומים"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
 msgid "No country was selected"
-msgstr ""
+msgstr "לא נבחרה מדינה"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
 msgid "Region name cannot be blank"
-msgstr ""
+msgstr "שם האזור אינו יכול להיות ריק"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
 #, php-format
@@ -1662,11 +1662,11 @@ msgstr "%s נערך"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
 msgid "No region was selected"
-msgstr ""
+msgstr "לא נבחר אזור"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
 msgid "New city name cannot be blank"
-msgstr ""
+msgstr "שם עיר חדש אינו יכול להיות ריק"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
 #, php-format
@@ -1675,19 +1675,19 @@ msgstr "%s נוסף כעיר חדשה"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
 msgid "City name cannot be blank"
-msgstr ""
+msgstr "שם העיר אינו יכול להיות ריק"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
 msgid "No city was selected"
-msgstr ""
+msgstr "לא נבחרה עיר"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
 msgid "Location imported successfully"
-msgstr ""
+msgstr "המיקום מיובא בהצלחה"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
 msgid "There was a problem importing the selected location"
-msgstr ""
+msgstr "אירעה בעיה בייבוא המיקום שנבחר"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
 msgid "All fields are required."
@@ -1730,11 +1730,11 @@ msgstr "זה התוכן שאתה צריך לרשום בקובץ <b>.htaccess</b>
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
 msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr ""
+msgstr "הקובץ <b>.htaccess</b> כבר קיים ולא השתנה."
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
 msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr ""
+msgstr "להלן התוכן שיש לך להוסיף לקובץ</b> .htaccess <b>. אם אין באפשרותך לשנות את הקובץ או להיתקל בבעיות מסוימות בכתובות ה- URL, נא בטל את הפעלת <em>כתובות URL ידידותיות</em> ."
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
 msgid "Friendly URLs successfully deactivated"
@@ -1742,11 +1742,11 @@ msgstr "Friendly URLs הושבת בהצלחה"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
 msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr ""
+msgstr "כתובות URL ידידותיות בוטלו, אך לא היתה אפשרות למחוק קובץ .htaccess. אנא הסר אותו באופן ידני"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
 msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr ""
+msgstr "כתובות URL ידידותיות בוטלו, אך קובץ .htaccess שונה מחוץ ל- Osclass ולא נמחק"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
 msgid "Custom number could not be left empty"
@@ -1811,11 +1811,11 @@ msgstr "ה-reCAPTCHA key עודכן"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
 msgid "Advanced settings have been updated"
-msgstr ""
+msgstr "הגדרות מתקדמות עודכנו"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
 msgid "Cache flushed correctly"
-msgstr ""
+msgstr "המטמון רוקן כראוי"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
 msgid "Number of moderate comments must only contain numeric characters"
@@ -1914,15 +1914,15 @@ msgstr "הדואר האלקטרוני שצוין אינו חוקי"
 
 #: oc-includes/osclass/classes/controller/CWebUser.php:188
 msgid "The specified username is already in use"
-msgstr ""
+msgstr "שם המשתמש שצוין נמצא כבר בשימוש"
 
 #: oc-includes/osclass/classes/controller/CWebUser.php:196
 msgid "The username was updated"
-msgstr ""
+msgstr "שם המשתמש עודכן"
 
 #: oc-includes/osclass/classes/controller/CWebUser.php:205
 msgid "The specified username could not be empty"
-msgstr ""
+msgstr "שם המשתמש שצוין לא יכול להיות ריק"
 
 #: oc-includes/osclass/classes/controller/CWebUser.php:230
 msgid "Current password doesn't match"
@@ -1938,12 +1938,12 @@ msgstr "הסיסמא שונתה"
 
 #: oc-includes/osclass/classes/controller/CWebUser.php:349
 msgid "Your account have been deleted"
-msgstr ""
+msgstr "החשבון שלך נמחק"
 
 #: oc-includes/osclass/classes/controller/CWebUser.php:352
 #: oc-includes/osclass/classes/controller/CWebUser.php:356
 msgid "Oops! you can not do that"
-msgstr ""
+msgstr "אופס! אתה לא יכול לעשות את זה."
 
 #: oc-includes/osclass/emails.php:861
 msgid "We've sent you an e-mail. Follow its instructions to validate the changes"

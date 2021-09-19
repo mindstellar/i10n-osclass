@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:07\n"
+"PO-Revision-Date: 2021-09-19 10:14\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -124,7 +124,7 @@ msgstr "A cím túl hosszú"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:472
 msgid "Phone invalid."
-msgstr ""
+msgstr "A telefon érvénytelen."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:560
 #: oc-includes/osclass/classes/actions/ItemActions.php:573
@@ -333,7 +333,7 @@ msgstr "Épp most küldtük el az e-mailt a fiókod hitelesítésére, várnod k
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:243
 msgid "Invalid email address"
-msgstr "Helytelen e-mail cím"
+msgstr "Érvénytelen e-mail cím"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:252
 msgid "We have sent you an email with the instructions to reset your password"
@@ -437,7 +437,7 @@ msgstr "Ellenőrizd a bejövő e-mail üzeneteid a hirdetésed hitelesítésére
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:190
 msgid "Your listing will be published after an admin approves it."
-msgstr ""
+msgstr "A hirdetést egy rendszergazda jóváhagyása után tesszük közzé."
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:192
 msgid "Your listing has been published"
@@ -449,7 +449,7 @@ msgstr "Elnézést, de nem létezik ezzel az ID kóddal hirdetés"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:288
 msgid "Your listing will be published after an admin approves the changes."
-msgstr ""
+msgstr "A lista akkor jelenik meg, ha egy rendszergazda jóváhagyja a módosításokat."
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:290
 msgid "Great! We've just updated your listing"
@@ -498,7 +498,7 @@ msgstr "Nem tudod értesíteni a szerzőt, csak regisztrált felhasználók tehe
 #: oc-includes/osclass/classes/controller/CWebItem.php:518
 #, php-format
 msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Kattintson ide a bejelentkezéshez</a>"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:573
 msgid "We've just sent an e-mail to the seller"
@@ -704,7 +704,7 @@ msgstr "Hiba történt a fájlok törlése közben. Kérlek ellenőrizd a fájl 
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
 msgid "Invalid plugin file"
-msgstr ""
+msgstr "Érvénytelen plugin fájl"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
@@ -798,7 +798,7 @@ msgstr "A nyelv sikeresen telepitve"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
 msgid "File uploaded but unable to activate the language"
-msgstr ""
+msgstr "Feltöltött fájl, de nem tudja aktiválni a nyelvet"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
@@ -810,7 +810,7 @@ msgstr "Probléma merült fel az e-mail sablonok importálása"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
 msgid "Language imported successfully"
-msgstr ""
+msgstr "Sikeresen importált nyelv"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
@@ -897,7 +897,7 @@ msgstr "'%s' mappa nem lett eltávolítva"
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
-msgstr ""
+msgstr "Directory '%s' nem lehet eltávolítani, mert ez az alapértelmezett nyelv. <a href=\"%s\">Állítson be először egy másik</a> nyelvet alapértelmezettként, és próbálkozzon újra"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
@@ -972,7 +972,7 @@ msgstr "Felhsználónév már használatban"
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
 msgid "Incorrent current password"
-msgstr ""
+msgstr "Javít nem rögzített aktuális jelszó"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
 msgid "The admin has been added"
@@ -1636,11 +1636,11 @@ msgstr "Nincs Város kiválasztva"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
 msgid "Location imported successfully"
-msgstr ""
+msgstr "Sikeresen importált hely"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
 msgid "There was a problem importing the selected location"
-msgstr ""
+msgstr "Probléma merült fel a kiválasztott hely importálásával."
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
 msgid "All fields are required."

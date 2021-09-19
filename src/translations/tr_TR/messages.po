@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:06\n"
+"PO-Revision-Date: 2021-09-19 10:13\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -124,7 +124,7 @@ msgstr "Adres çok uzun."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:472
 msgid "Phone invalid."
-msgstr ""
+msgstr "Telefon geçersiz."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:560
 #: oc-includes/osclass/classes/actions/ItemActions.php:573
@@ -190,7 +190,7 @@ msgstr "Belirtilen kullanıcı adı geçersiz; bazı geçersiz sözcükler içer
 #: oc-includes/osclass/classes/actions/UserActions.php:291
 #, php-format
 msgid "The specified e-mail is already used by %s"
-msgstr ""
+msgstr "Belirtilen e-posta zaten %starafından kullanılıyor"
 
 #: oc-includes/osclass/classes/Csrf.php:181
 msgid "Probable invalid request."
@@ -287,11 +287,11 @@ msgstr "Kullanıcılar devreye sokulmamış "
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:62
 msgid "Please provide an email address"
-msgstr ""
+msgstr "Lütfen bir e-posta adresi sağlayın"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:66
 msgid "Empty passwords are not allowed. Please provide a password"
-msgstr ""
+msgstr "Boş parolalara izin verilmez. Lütfen bir parola girin"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:80
 #: oc-includes/osclass/classes/controller/CWebLogin.php:157
@@ -387,7 +387,7 @@ msgstr "Hesabınız aktifleştirildi"
 
 #: oc-includes/osclass/classes/controller/CWebRegister.php:131
 msgid "Account validation failed"
-msgstr ""
+msgstr "Hesap doğrulaması başarısız oldu"
 
 #: oc-includes/osclass/classes/controller/CWebAjax.php:107
 #: oc-includes/osclass/classes/controller/CWebAjax.php:203
@@ -437,7 +437,7 @@ msgstr "İlanınızı aktifleştirmek için e-postalarınızı kontrol edin"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:190
 msgid "Your listing will be published after an admin approves it."
-msgstr ""
+msgstr "Kaydınız bir yönetici onayladıktan sonra yayımlanacaktır."
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:192
 msgid "Your listing has been published"
@@ -449,7 +449,7 @@ msgstr "Bu ID ile herhangi bir ilan yok"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:288
 msgid "Your listing will be published after an admin approves the changes."
-msgstr ""
+msgstr "Kaydınız, bir yönetici değişiklikleri onayladıktan sonra yayımlanacaktır."
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:290
 msgid "Great! We've just updated your listing"
@@ -498,7 +498,7 @@ msgstr "İlanın sahibiyle yalnızca kayıtlı kullanıcılar iletişime geçebi
 #: oc-includes/osclass/classes/controller/CWebItem.php:518
 #, php-format
 msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Oturum açmak için tıklayınız</a>"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:573
 msgid "We've just sent an e-mail to the seller"
@@ -567,7 +567,7 @@ msgstr "Liste devreye sokulmadı. Yayınlanması için önce devreye sokun"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:718
 msgid "The listing has been blocked or is awaiting moderation from the admin"
-msgstr ""
+msgstr "Liste engellendi veya yöneticiden denetleme bekliyor"
 
 #: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
@@ -694,16 +694,16 @@ msgstr "Seçilen eklenti yok"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
 msgid "The files were deleted"
-msgstr ""
+msgstr "Dosyalar silindi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
 #, php-format
 msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr ""
+msgstr "Dosyalar silinırken bir hata oluştu, lütfen %s"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
 msgid "Invalid plugin file"
-msgstr ""
+msgstr "Geçersiz eklenti dosyası"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
@@ -797,7 +797,7 @@ msgstr "Dil doğru biçimde yüklendi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
 msgid "File uploaded but unable to activate the language"
-msgstr ""
+msgstr "Dosya yüklendi, ancak dil etkinleştirilemiyor"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
@@ -809,7 +809,7 @@ msgstr "E-posta şablonlarını içe aktarırken bir sorun vardı"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
 msgid "Language imported successfully"
-msgstr ""
+msgstr "Dil başarıyla alındı"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
@@ -896,7 +896,7 @@ msgstr "'%s' klasörü kaldırılamadı;)"
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
-msgstr ""
+msgstr "Dizin '%s' varsayılan dil olduğundan kaldırılamadı. <a href=\"%s\">Önce başka bir dil</a> varsayılan olarak ayarlama ve yeniden deneme"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
@@ -971,7 +971,7 @@ msgstr "Kullanıcı adı zaten kullanımda"
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
 msgid "Incorrent current password"
-msgstr ""
+msgstr "Geçerli parolayı düzeltme"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
 msgid "The admin has been added"
@@ -1635,11 +1635,11 @@ msgstr "Kent seçilmedi"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
 msgid "Location imported successfully"
-msgstr ""
+msgstr "Konum başarıyla alındı"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
 msgid "There was a problem importing the selected location"
-msgstr ""
+msgstr "Seçili konum alınırken bir sorun vardı"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
 msgid "All fields are required."
@@ -1765,7 +1765,7 @@ msgstr "İleri düzey ayarlar güncellendi"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
 msgid "Cache flushed correctly"
-msgstr ""
+msgstr "Önbellek doğru temizlendi"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
 msgid "Number of moderate comments must only contain numeric characters"

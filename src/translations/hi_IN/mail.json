@@ -76,26 +76,26 @@
     {
       "fk_i_page_id": 13,
       "s_internal_name": "email_user_forgot_password",
-      "s_title": "{WEB_TITLE} - Recover your password",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_title": "{WEB_TITLE} - अपना पासवर्ड रिकवर करें",
+      "s_description": "<p>हाय {USER_NAME},<\/p><p>हमने आपको यह ई-मेल भेजा है क्योंकि आपने पासवर्ड रिमाइंडर का अनुरोध किया है। इसे ठीक करने के लिए इस लिंक का पालन करें: {PASSWORD_LINK}<\/p><p>लिंक 24 घंटे में निष्क्रिय कर दिया जाएगा ।<\/p><p>अगर आपने पासवर्ड रिमाइंडर का अनुरोध नहीं किया है, तो कृपया इस संदेश को अनदेखा करें। यह अनुरोध आईपी {IP_ADDRESS} से {DATE_TIME}<\/p><p>संबंध है,<\/p><p>{WEB_LINK}<\/p>पर किया गया था"
     },
     {
       "fk_i_page_id": 14,
       "s_internal_name": "email_new_email",
-      "s_title": "{WEB_TITLE} - You requested an email change",
-      "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_title": "{WEB_TITLE} - आपने ईमेल परिवर्तन का अनुरोध किया",
+      "s_description": "<p>हाय {USER_NAME}<\/p><p>आपको यह ई-मेल मिल रहा है क्योंकि आपने ई-मेल बदलने का अनुरोध किया था। कृपया निम्नलिखित सत्यापन लिंक पर क्लिक करके इस नए ई-मेल पते की पुष्टि करें: {VALIDATION_LINK}<\/p><p>सादर,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 15,
       "s_internal_name": "email_alert_validation",
-      "s_title": "{WEB_TITLE} - Please validate your alert",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_title": "{WEB_TITLE} - कृपया अपनी चेतावनी को मान्य करें",
+      "s_description": "<p>हाय {USER_NAME},<\/p><p>कृपया निम्नलिखित लिंक पर क्लिक करके अपने अलर्ट पंजीकरण को मान्य करें: {VALIDATION_LINK}<\/p><p>धन्यवाद!<\/p><p>का संबंध है,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 16,
       "s_internal_name": "email_comment_validated",
-      "s_title": "{WEB_TITLE} - Your comment has been approved",
-      "s_description": "<p>Hi {COMMENT_AUTHOR},<\/p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> has been approved.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_title": "{WEB_TITLE} - आपकी टिप्पणी को मंजूरी दे दी गई है",
+      "s_description": "हाय {COMMENT_AUTHOR}<p><\/p><p> <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> पर आपकी टिप्पणी को मंजूरी दे दी गई है ।<\/p><p>का संबंध है,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 17,
@@ -106,32 +106,32 @@
     {
       "fk_i_page_id": 18,
       "s_internal_name": "email_admin_new_user",
-      "s_title": "{WEB_TITLE} - A new user has registered",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_title": "{WEB_TITLE} - एक नया उपयोगकर्ता पंजीकृत किया गया है",
+      "s_description": "प्रिय {WEB_TITLE} व्यवस्थापक <p>,<\/p><p>आपको यह ईमेल प्राप्त हो रहा है क्योंकि {WEB_LINK}में एक नया उपयोगकर्ता बनाया गया है।<\/p><p>उपयोगकर्ता विवरण:<\/p><p>नाम: {USER_NAME}<br \/>ई-मेल: {USER_EMAIL}<\/p><p>संबंध है,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 19,
       "s_internal_name": "email_contact_user",
-      "s_title": "{WEB_TITLE} - Someone has a question for you",
-      "s_description": "<p>Hi {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:<\/p><p>{COMMENT}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_title": "{WEB_TITLE} - किसी को आप के लिए एक सवाल है",
+      "s_description": "<p>हाय {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) आप एक संदेश छोड़ दिया:<\/p><p>{COMMENT}<\/p><p>सादर,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 20,
       "s_internal_name": "email_new_comment_user",
-      "s_title": "{WEB_TITLE} - Someone has commented on your listing",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+      "s_title": "{WEB_TITLE} - किसी ने आपकी लिस्टिंग पर टिप्पणी की है",
+      "s_description": "<p>लिस्टिंग पर एक नई टिप्पणी है: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>।<\/p><p>लेखक: {COMMENT_AUTHOR}<br \/>लेखक का ईमेल: {COMMENT_EMAIL}<br \/>शीर्षक: {COMMENT_TITLE}<br \/>टिप्पणी: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 21,
       "s_internal_name": "email_new_admin",
-      "s_title": "{WEB_TITLE} - Success creating admin account!",
-      "s_description": "<p>Hi {ADMIN_NAME},<\/p><p>The admin of {WEB_LINK} has created an account for you,<\/p><ul><li>Username: {USERNAME}<\/li><li>Password: {PASSWORD}<\/li><\/ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p>"
+      "s_title": "{WEB_TITLE} - व्यवस्थापक खाता बनाने में सफलता!",
+      "s_description": "<p>हाय {ADMIN_NAME},<\/p><p> {WEB_LINK} के व्यवस्थापक ने आपके लिए एक खाता बनाया है,<\/p><ul><li>उपयोगकर्ता नाम: {USERNAME}<\/li><li>पासवर्ड: {PASSWORD}<\/li><\/ul><p>आप यहां व्यवस्थापक पैनल तक पहुंच सकते हैं {WEB_ADMIN_LINK}।<\/p><p>धन्यवाद!<\/p><p>का संबंध है,<\/p>"
     },
     {
       "fk_i_page_id": 22,
       "s_internal_name": "email_warn_expiration",
-      "s_title": "{WEB_TITLE} - Your ad is about to expire",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>Your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> is about to expire at {WEB_LINK}."
+      "s_title": "{WEB_TITLE} - आपका विज्ञापन समाप्त होने वाला है",
+      "s_description": "हाय {USER_NAME}<p>,<\/p><p>आपका लिस्टिंग <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> {WEB_LINK}समाप्त होने वाला है ।"
     }
   ]
 }

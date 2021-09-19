@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:06\n"
+"PO-Revision-Date: 2021-09-19 10:13\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -898,7 +898,7 @@ msgstr "ความยาวของชื่อเรื่อง"
 #: oc-admin/themes/modern/items/settings.php:248
 #, php-format
 msgid "%s characters "
-msgstr ""
+msgstr "อักขระ %s ตัว "
 
 #: oc-admin/themes/modern/items/settings.php:245
 msgid "Description length"
@@ -1519,12 +1519,12 @@ msgstr "ไม่สามารถติดตั้งปลั๊กอิน
 #: oc-admin/themes/modern/plugins/index.php:159
 #, php-format
 msgid "%d plugins"
-msgstr ""
+msgstr "ปลั๊กอิน%d"
 
 #: oc-admin/themes/modern/plugins/index.php:190
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:397
 msgid "Problems with this plugin? Ask for support."
-msgstr ""
+msgstr "มีปัญหากับปลั๊กอินนี้หรือไม่? ขอรับการสนับสนุน"
 
 #: oc-admin/themes/modern/plugins/index.php:206
 msgid "This action can not be undone. Uninstalling plugins may result in a permanent loss of data. Are you sure you want to continue?"
@@ -1542,7 +1542,7 @@ msgstr "ลบปลั๊กอิน"
 
 #: oc-admin/themes/modern/plugins/index.php:224
 msgid "You are about to delete the files of the plugin. Do you want to continue?"
-msgstr ""
+msgstr "คุณกําลังจะลบไฟล์ของปลั๊กอิน คุณต้องการดําเนินการต่อหรือไม่?"
 
 #: oc-admin/themes/modern/plugins/view.php:35
 #: oc-admin/themes/modern/plugins/add.php:46
@@ -2010,7 +2010,7 @@ msgstr "คำอธิบาย : ฟิลล์นี้จำเป็น"
 
 #: oc-admin/themes/modern/appearance/widgets.php:37
 msgid "Modify your site's header or footer here."
-msgstr ""
+msgstr "ปรับเปลี่ยนหัวกระดาษหรือท้ายกระดาษของไซต์ของคุณที่นี่"
 
 #: oc-admin/themes/modern/appearance/widgets.php:47
 #: oc-admin/themes/modern/appearance/index.php:53
@@ -2058,7 +2058,7 @@ msgstr "ลบวิดเจ็ต"
 
 #: oc-admin/themes/modern/appearance/index.php:40
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
-msgstr ""
+msgstr "เปลี่ยนลักษณะที่แสดงของไซต์ของคุณโดยการเปิดใช้งานธีมในหมู่ธีมที่มีอยู่ <strong>ระวัง</strong>: หากธีมของคุณได้รับการปรับแต่งคุณจะสูญเสียการเปลี่ยนแปลงทั้งหมดหากคุณเปลี่ยนเป็นธีมใหม่"
 
 #: oc-admin/themes/modern/appearance/index.php:57
 msgid "Add theme"
@@ -2085,7 +2085,7 @@ msgstr "ดูตัวอย่าง"
 #: oc-admin/themes/modern/appearance/index.php:149
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:423
 msgid "Version:"
-msgstr ""
+msgstr "เวอร์ชัน:"
 
 #: oc-admin/themes/modern/appearance/index.php:150
 msgid "Author:"
@@ -2318,7 +2318,7 @@ msgstr "เท็มเพลตเริ่มต้น"
 #: oc-admin/themes/modern/settings/locations.php:203
 #: oc-includes/osclass/classes/form/CategoryForm.php:228
 msgid "Slug"
-msgstr ""
+msgstr "ทาก"
 
 #: oc-admin/themes/modern/pages/frm.php:147
 msgid "Used to quickly identify this page"
@@ -2391,22 +2391,22 @@ msgstr "แฟ้ม (.sql)"
 #: oc-admin/themes/modern/tools/import.php:95
 #: oc-includes/osclass/classes/AdminMenu.php:299
 msgid "Import data"
-msgstr ""
+msgstr "นําเข้าข้อมูล"
 
 #: oc-admin/themes/modern/tools/version.php:33
 #, php-format
 msgid "Osclass %s"
-msgstr ""
+msgstr "ออสคลาส %s"
 
 #: oc-admin/themes/modern/tools/version.php:41
 #, php-format
 msgid "Osclass %s &raquo; %s"
-msgstr ""
+msgstr "ออสคลาส %s &raquo; %s"
 
 #: oc-admin/themes/modern/tools/upgrade.php:47
 #, php-format
 msgid "Upgrade is available for (Current version %s)"
-msgstr ""
+msgstr "การปรับรุ่นพร้อมใช้งานสําหรับ (รุ่นปัจจุบัน %s)"
 
 #: oc-admin/themes/modern/tools/upgrade.php:48
 #, php-format
@@ -2468,7 +2468,8 @@ msgstr "ขอแสดงความยินดี! การติดตั�
 #: oc-admin/themes/modern/tools/upgrade.php:180
 msgid "Check to see if you're using the latest version of Osclass. If you're not, \n"
 "        the system will let you know so you can update and use the newest features."
-msgstr ""
+msgstr "ตรวจสอบเพื่อดูว่าคุณกําลังใช้ Osclass เวอร์ชันล่าสุดหรือไม่ หากคุณไม่เป็นเช่นนั้น \n"
+"        ระบบจะแจ้งให้คุณทราบเพื่อให้คุณสามารถอัปเดตและใช้คุณสมบัติใหม่ล่าสุดได้"
 
 #: oc-admin/themes/modern/tools/upgrade.php:206
 #, php-format
@@ -2481,7 +2482,10 @@ msgid "Your Osclass installation can be auto-upgraded. \n"
 "                                        Please, back up your database and the folder oc-content before attempting to \n"
 "                                        upgrade your Osclass installation. \n"
 "                                        You can also upgrade Osclass manually, more information in the %s"
-msgstr ""
+msgstr "การติดตั้ง Osclass ของคุณสามารถอัพเกรดอัตโนมัติได้ \n"
+"                                        โปรดสํารองฐานข้อมูลของคุณและเนื้อหา OC ของโฟลเดอร์ก่อนที่จะพยายาม \n"
+"                                        การปรับรุ่นการติดตั้ง Osclass ของคุณ \n"
+"                                        คุณยังสามารถอัพเกรด Osclass ด้วยตนเองข้อมูลเพิ่มเติมใน %s"
 
 #: oc-admin/themes/modern/tools/maintenance.php:45
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -3300,7 +3304,7 @@ msgstr "การตั้งค่าขั้นสูง &raquo; %s"
 #: oc-admin/themes/modern/settings/advanced.php:109
 #: oc-admin/themes/modern/settings/advanced.php:111
 msgid "Flush cache"
-msgstr ""
+msgstr "ล้างแคช"
 
 #: oc-admin/themes/modern/settings/advanced.php:113
 msgid "Remove all data from cache."
@@ -4260,11 +4264,11 @@ msgstr "ต้องการ GD extension. ทำอย่างไร <a targe
 
 #: oc-includes/osclass/install-functions.php:161
 msgid "cURL extension for PHP"
-msgstr ""
+msgstr "ส่วนขยาย cURL สําหรับ PHP"
 
 #: oc-includes/osclass/install-functions.php:163
 msgid "cURL extension is required. How to <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">install/configure</a>."
-msgstr ""
+msgstr "จําเป็นต้องมีส่วนขยาย cURL วิธีการ <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">ติดตั้ง/กําหนดค่า</a>"
 
 #: oc-includes/osclass/install-functions.php:167
 msgid "Folder <code>oc-content/uploads</code> exists"
@@ -4282,7 +4286,7 @@ msgstr "<code>oc-content/uploads</code> โฟลเดอร์สามาร�
 #: oc-includes/osclass/install-functions.php:179
 #, php-format
 msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
-msgstr ""
+msgstr "<code>อัปโหลดโฟลเดอร์</code> จะต้องเขียนได้เช่น: <code>chmod 0755 %sเนื้อหา oc / อัปโหลด /</code>"
 
 #: oc-includes/osclass/install-functions.php:186
 msgid "Folder <code>oc-content/downloads</code> exists"
@@ -4300,7 +4304,7 @@ msgstr "<code>oc-content/downloads</code>โฟลเดอร์นี้สา
 #: oc-includes/osclass/install-functions.php:199
 #, php-format
 msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
-msgstr ""
+msgstr "<code>ดาวน์โหลดโฟลเดอร์</code> จะต้องเขียนได้เช่น: <code>chmod 0755 %sเนื้อหา oc / ดาวน์โหลด /</code>"
 
 #: oc-includes/osclass/install-functions.php:206
 msgid "Folder <code>oc-content/languages</code> folder exists"
@@ -4318,7 +4322,7 @@ msgstr "<code>oc-content/languages</code> โฟลเดอร์นี้ส�
 #: oc-includes/osclass/install-functions.php:219
 #, php-format
 msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
-msgstr ""
+msgstr "<code>ภาษา</code> โฟลเดอร์จะต้องเขียนได้เช่น: <code>chmod 0755 %sเนื้อหา / ภาษา /</code>"
 
 #: oc-includes/osclass/install-functions.php:234
 msgid "<code>config.php</code> file is writable"
@@ -4327,7 +4331,7 @@ msgstr "<code>config.php</code> สามารถเขียนได้"
 #: oc-includes/osclass/install-functions.php:237
 #, php-format
 msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
-msgstr ""
+msgstr "<code>กําหนดค่า.php</code> ไฟล์จะต้องเขียนได้เช่น: <code> %sกําหนดค่า.php</code>"
 
 #: oc-includes/osclass/install-functions.php:246
 msgid "Root directory is writable"
@@ -4336,7 +4340,7 @@ msgstr "ไดเรกทอรี่หลักเขียนทับได
 #: oc-includes/osclass/install-functions.php:249
 #, php-format
 msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
-msgstr ""
+msgstr "โฟลเดอร์รากจะต้องเขียนได้เช่น: <code>chmod 0755 %s</code>"
 
 #: oc-includes/osclass/install-functions.php:258
 msgid "<code>config-sample.php</code> file exists"
@@ -4588,7 +4592,7 @@ msgstr "รหัสผ่าน : %s"
 #: oc-includes/osclass/install-functions.php:1261
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
-msgstr ""
+msgstr "โปรดจําไว้ว่าสําหรับข้อสงสัยใด ๆ ที่คุณอาจมีคุณสามารถปรึกษาเอกสาร <a href=\"%1$s\">ของเรา</a>"
 
 #: oc-includes/osclass/install-functions.php:1264
 msgid "Cheers,"
@@ -4596,11 +4600,11 @@ msgstr "ไชโย,"
 
 #: oc-includes/osclass/install-functions.php:1265
 msgid "The <a href=\"https://github.com/mindstellar/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "ทีมออสคลาส <a href=\"https://github.com/mindstellar/osclass\"></a>"
 
 #: oc-includes/osclass/timezones.php:31
 msgid "Use native php function for timezones list."
-msgstr ""
+msgstr "ใช้ฟังก์ชัน php ดั้งเดิมสําหรับรายการเขตเวลา"
 
 #: oc-includes/osclass/classes/utility/SystemInfo.php:291
 #: oc-includes/osclass/classes/utility/SystemInfo.php:301
@@ -4628,27 +4632,27 @@ msgstr "ไม่ได้ตั้งค่า"
 
 #: oc-includes/osclass/classes/utility/Utils.php:52
 msgid "Is allow_url_fopen enabled?"
-msgstr ""
+msgstr "เปิดใช้งานallow_url_fopenหรือไม่?"
 
 #: oc-includes/osclass/classes/utility/Utils.php:265
 msgid "Category id is not a valid integer"
-msgstr ""
+msgstr "รหัสประเภทไม่ใช่จํานวนเต็มที่ถูกต้อง"
 
 #: oc-includes/osclass/classes/upgrade/Plugin.php:77
 msgid "Invalid plugin name."
-msgstr ""
+msgstr "ชื่อปลั๊กอินไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/upgrade/Plugin.php:88
 msgid "Invalid plugin update uri"
-msgstr ""
+msgstr "uri การปรับปรุงปลั๊กอินไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/upgrade/Theme.php:77
 msgid "Invalid theme name."
-msgstr ""
+msgstr "ชื่อชุดรูปแบบไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/upgrade/Theme.php:88
 msgid "Invalid theme update uri"
-msgstr ""
+msgstr "uri การปรับปรุงชุดรูปแบบไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:96
 msgid "Osclass &raquo; Has some errors"
@@ -4680,7 +4684,7 @@ msgstr "ฟอรั่มสนับสนุน"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:123
 msgid "Osclass DB Upgraded Successfully"
-msgstr ""
+msgstr "Osclass DB อัพเกรดเรียบร้อยแล้ว"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:126
 msgid "Unable to upgrade Database"
@@ -4688,7 +4692,7 @@ msgstr "ไม่สามารถปรับรุ่นฐานข้อม
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:102
 msgid "Unable to follow upgrade, invalid package info"
-msgstr ""
+msgstr "ไม่สามารถติดตามการปรับรุ่นได้"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:131
 msgid "Invalid Zip package, it's not in valid format."
@@ -4696,23 +4700,23 @@ msgstr "แพคเกจ Zip ไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:145
 msgid "doesn't exists, unknown error occurred while downloading and extracting package."
-msgstr ""
+msgstr "ไม่มีข้อผิดพลาดที่ไม่รู้จักเกิดขึ้นขณะดาวน์โหลดและแยกแพคเกจ"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:179
 msgid "Unable to unzip package file."
-msgstr ""
+msgstr "ไม่สามารถคลายซิปแฟ้มแพคเกจได้"
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:133
 msgid "s_source_file is not a valid url"
-msgstr ""
+msgstr "s_source_fileไม่ใช่ URL ที่ถูกต้อง"
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:147
 msgid "Invalid s_target_directory."
-msgstr ""
+msgstr "s_target_directoryไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:159
 msgid "Invalid upgrade package info"
-msgstr ""
+msgstr "ข้อมูลแพคเกจการปรับรุ่นไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/form/UserForm.php:245
 #: oc-includes/osclass/classes/form/ItemForm.php:722
@@ -4932,58 +4936,58 @@ msgstr "อัปโหลดรูปแล้ว"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2010
 msgid "Too many items ({netItems}) would be uploaded. Item limit is {itemLimit}."
-msgstr ""
+msgstr "จะมีการอัปโหลดรายการ ({netItems}) มากเกินไป ขีดจํากัดสินค้าคือ {itemLimit}"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2012
 msgid "The files are being uploaded, if you leave now the upload will be cancelled."
-msgstr ""
+msgstr "แฟ้มกําลังอัปโหลดถ้าคุณออกจากตอนนี้การอัปโหลดจะถูกยกเลิก"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2013
 msgid "{file} has an invalid extension. Valid extension(s): {extensions}."
-msgstr ""
+msgstr "{file} มีส่วนขยายที่ไม่ถูกต้อง ส่วนขยายที่ถูกต้อง: {extensions}."
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2014
 msgid "{file} is too large, maximum file size is {sizeLimit}."
-msgstr ""
+msgstr "{file} ใหญ่เกินไป {sizeLimit}ขนาดแฟ้มสูงสุด"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2015
 msgid "{file} is empty, please select files again without it."
-msgstr ""
+msgstr "{file} ว่างเปล่า โปรดเลือกแฟ้มอีกครั้งโดยไม่มีแฟ้มนั้น"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2029
 msgid "Click or Drop for upload images"
-msgstr ""
+msgstr "คลิกหรือวางเพื่ออัปโหลดรูป"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2030
 msgid "Processing..."
-msgstr ""
+msgstr "ประมวล ผล"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2031
 msgid "Retry"
-msgstr ""
+msgstr "ลอง"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2033
 msgid "Upload failed"
-msgstr ""
+msgstr "การอัปโหลดล้มเหลว"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2035
 msgid "Deleting..."
-msgstr ""
+msgstr "ลบ"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2036
 #, php-format
 msgid "{percent}% of {total_size}"
-msgstr ""
+msgstr "{total_size}% {percent}%"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2053
 #: oc-includes/osclass/classes/form/ItemForm.php:2055
 msgid "Make primary image"
-msgstr ""
+msgstr "สร้างรูปหลัก"
 
 #: oc-includes/osclass/classes/form/ItemForm.php:2102
 #, php-format
 msgid "Too many items were uploaded. Item limit is %d."
-msgstr ""
+msgstr "มีการอัปโหลดรายการมากเกินไป ขีดจํากัดสินค้าคือ %d"
 
 #: oc-includes/osclass/classes/form/SendFriendForm.php:145
 #: oc-includes/osclass/classes/actions/ItemActions.php:1448
@@ -5213,7 +5217,7 @@ msgstr "Wk"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:319
 msgid "Select"
-msgstr ""
+msgstr "เลือก"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:371
 msgid "from"
@@ -5335,7 +5339,7 @@ msgstr "ลิงค์รายการ"
 
 #: oc-includes/osclass/classes/EmailVariables.php:73
 msgid "Item expiration date"
-msgstr ""
+msgstr "วันหมดอายุของสินค้า"
 
 #: oc-includes/osclass/classes/EmailVariables.php:74
 msgid "Listing list"
@@ -5424,11 +5428,11 @@ msgstr "ลิสต์เมือง"
 
 #: oc-includes/osclass/classes/EmailVariables.php:95
 msgid "Seller name"
-msgstr ""
+msgstr "ชื่อผู้ขาย"
 
 #: oc-includes/osclass/classes/EmailVariables.php:96
 msgid "Seller email"
-msgstr ""
+msgstr "อีเมลผู้ขาย"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:121
 msgid "Anonymous"
@@ -5501,11 +5505,11 @@ msgstr "โหมดการบำรุงรักษา"
 
 #: oc-includes/osclass/classes/AdminMenu.php:327
 msgid "Renew location stats"
-msgstr ""
+msgstr "ต่ออายุสถิติที่ตั้ง"
 
 #: oc-includes/osclass/classes/AdminMenu.php:334
 msgid "Renew category stats"
-msgstr ""
+msgstr "ต่ออายุสถิติประเภท"
 
 #: oc-includes/osclass/classes/AdminMenu.php:341
 msgid "System info"
@@ -5595,22 +5599,22 @@ msgstr "สร้างบัญชีใหม่"
 
 #: oc-includes/osclass/classes/model/Category.php:919
 msgid "Non-Existent Category"
-msgstr ""
+msgstr "ประเภทที่ไม่มีอยู่จริง"
 
 #: oc-includes/osclass/classes/ImageProcessing.php:55
 #, php-format
 msgid "%s does not exist!"
-msgstr ""
+msgstr "%s ไม่มีอยู่จริง!"
 
 #: oc-includes/osclass/classes/ImageProcessing.php:59
 #, php-format
 msgid "%s is not readable!"
-msgstr ""
+msgstr "%s อ่านไม่ออก!"
 
 #: oc-includes/osclass/classes/ImageProcessing.php:63
 #, php-format
 msgid "%s is corrupt or broken!"
-msgstr ""
+msgstr "%s เสียหายหรือเสีย!"
 
 #: oc-includes/osclass/classes/controller/CWebContact.php:93
 #, php-format
@@ -5674,12 +5678,12 @@ msgstr "ติดตั้ง"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:402
 msgid "Plugins Site"
-msgstr ""
+msgstr "ไซต์ปลั๊กอิน"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:406
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:409
 msgid "By"
-msgstr ""
+msgstr "โดย"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:325
 #, php-format
@@ -5835,11 +5839,11 @@ msgstr "มีข้อผิดพลาดเกิดขึ้นขณะท
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:572
 msgid "Update available"
-msgstr ""
+msgstr "มีการปรับปรุงพร้อมใช้งาน"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:575
 msgid "No update available"
-msgstr ""
+msgstr "ไม่มีการปรับปรุง"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:580
 msgid "Network error"
@@ -5849,7 +5853,7 @@ msgstr "ข้อผิดพลาดของเครือข่าย"
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:590
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:594
 msgid "Checked updates"
-msgstr ""
+msgstr "การปรับปรุงที่ตรวจสอบ"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:603
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:627
@@ -5859,11 +5863,11 @@ msgstr "การกระทำนี้ไม่สามารถทำได
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:619
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:643
 msgid "Error occurred while upgrading osclass Database."
-msgstr ""
+msgstr "มีข้อผิดพลาดเกิดขึ้นขณะปรับรุ่นฐานข้อมูล osclass"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:636
 msgid "Osclass upgraded successfully."
-msgstr ""
+msgstr "ออสคลาสอัพเกรดเรียบร้อยแล้ว"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:693
 msgid "You don't have the necessary permissions"
@@ -5880,7 +5884,7 @@ msgstr "คุณแน่ใจหรือไม่ที่จะ %s แอ�
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:219
 msgid "Error loading theme custom file"
-msgstr ""
+msgstr "ข้อผิดพลาดในการโหลดแฟ้มแบบกําหนดเองของชุดรูปแบบ"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:567
 #, php-format
@@ -6041,7 +6045,7 @@ msgstr "ดูสื่อ"
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:357
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:686
 msgid "Never expires"
-msgstr ""
+msgstr "ไม่มีวันหมดอายุ"
 
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:592
 msgid "Misclassified"
@@ -6087,11 +6091,11 @@ msgstr "การแสดงความคิดเห็นใหม่"
 
 #: oc-includes/osclass/functions.php:581
 msgid "Osclass "
-msgstr ""
+msgstr "ออสคลาส "
 
 #: oc-includes/osclass/functions.php:581
 msgid " is available"
-msgstr ""
+msgstr " พร้อมใช้งาน"
 
 #: oc-includes/osclass/functions.php:655
 msgid "Plugin updates"
@@ -6116,27 +6120,27 @@ msgstr "ยกเลิกการติดตามข่าวสาร"
 
 #: oc-includes/osclass/emails.php:1219 oc-includes/osclass/emails.php:1448
 msgid "Admin"
-msgstr ""
+msgstr "ผู้ดูแลระบบ"
 
 #: oc-includes/osclass/emails.php:1997
 msgid "<p>Dear {WEB_TITLE} admin,</p>"
-msgstr ""
+msgstr "<p>เรียน {WEB_TITLE} แอดมิน</p>"
 
 #: oc-includes/osclass/emails.php:1999
 msgid "{WEB_TITLE} - Your site has upgraded to Osclass {VERSION}"
-msgstr ""
+msgstr "{WEB_TITLE} - เว็บไซต์ของคุณได้อัปเกรดเป็น Osclass {VERSION}"
 
 #: oc-includes/osclass/emails.php:2000
 msgid "<p>Your site at {WEB_LINK} has been updated automatically to Osclass {VERSION}</p>"
-msgstr ""
+msgstr "<p>ไซต์ของคุณที่ {WEB_LINK} ได้รับการอัปเดตเป็น Osclass {VERSION}</p>โดยอัตโนมัติ"
 
 #: oc-includes/osclass/emails.php:2002
 msgid "<p>There were some minor errors removing temporary files. Please manually remove the \"oc-content/downloads/oc-temp\" folder</p>"
-msgstr ""
+msgstr "<p>มีข้อผิดพลาดเล็กน้อยในการเอาแฟ้มชั่วคราวออก โปรดลบโฟลเดอร์ \"เนื้อหา oc / ดาวน์โหลด / oc-temp\"</p>"
 
 #: oc-includes/osclass/emails.php:2006
 msgid "{WEB_TITLE} - We failed trying to upgrade your site to Osclass {VERSION}"
-msgstr ""
+msgstr "{WEB_TITLE} - เราล้มเหลวในการพยายามอัปเกรดไซต์ของคุณเป็น Osclass {VERSION}"
 
 #: oc-includes/osclass/installer/basic_data.php:4
 msgid "For sale"
@@ -6532,7 +6536,7 @@ msgstr "ตัวอย่างผู้เขียน"
 
 #: oc-includes/osclass/installer/basic_data.php:107
 msgid "osclass@example.com"
-msgstr ""
+msgstr "osclass@example.com"
 
 #: oc-includes/osclass/installer/basic_data.php:108
 msgid "Example country"
@@ -6638,7 +6642,7 @@ msgstr "แสดง %s ถึง %s ของ %s ผลลัพธ์ "
 
 #: oc-includes/osclass/helpers/hSearch.php:63
 msgid "Relevance"
-msgstr ""
+msgstr "ความเกี่ยวข้อง"
 
 #: oc-includes/osclass/helpers/hSearch.php:66
 msgid "Newly listed"
@@ -6654,23 +6658,23 @@ msgstr "ราคาสูงกว่าก่อน"
 
 #: oc-includes/osclass/helpers/hUtils.php:229
 msgid "AM"
-msgstr ""
+msgstr "เอเอ็ม"
 
 #: oc-includes/osclass/helpers/hUtils.php:229
 msgid "PM"
-msgstr ""
+msgstr "นายกรัฐมนตรี"
 
 #: oc-includes/osclass/helpers/hUtils.php:229
 msgid "am"
-msgstr ""
+msgstr "am"
 
 #: oc-includes/osclass/helpers/hUtils.php:229
 msgid "pm"
-msgstr ""
+msgstr "นายกรัฐมนตรี"
 
 #: oc-includes/osclass/helpers/hUtils.php:273
 msgid "Public Profile"
-msgstr ""
+msgstr "โปรไฟล์สาธารณะ"
 
 #: oc-includes/osclass/helpers/hUtils.php:279
 msgid "Manage your listings"

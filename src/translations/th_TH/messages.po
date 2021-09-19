@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:06\n"
+"PO-Revision-Date: 2021-09-19 10:13\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -49,22 +49,22 @@ msgstr "รูปภาพใหญ่เกินไป"
 #: oc-includes/osclass/classes/actions/ItemActions.php:426
 #, php-format
 msgid "Title too short (%s)."
-msgstr ""
+msgstr "ชื่อเรื่องสั้นเกินไป (%s)"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:428
 #, php-format
 msgid "Title too long (%s)."
-msgstr ""
+msgstr "ชื่อเรื่องยาวเกินไป (%s)"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:438
 #, php-format
 msgid "Description too short (%s)."
-msgstr ""
+msgstr "คําอธิบายสั้นเกินไป (%s)"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:441
 #, php-format
 msgid "Description too long (%s)."
-msgstr ""
+msgstr "คําอธิบายยาวเกินไป (%s)"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:445
 msgid "Category invalid."
@@ -124,7 +124,7 @@ msgstr "ที่อยู่ยาวเกินไป"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:472
 msgid "Phone invalid."
-msgstr ""
+msgstr "โทรศัพท์ไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:560
 #: oc-includes/osclass/classes/actions/ItemActions.php:573
@@ -190,7 +190,7 @@ msgstr "ชื่อผู้ใช้ที่กำหนดไม่ถูก
 #: oc-includes/osclass/classes/actions/UserActions.php:291
 #, php-format
 msgid "The specified e-mail is already used by %s"
-msgstr ""
+msgstr "%sอีเมลที่ระบุถูกใช้อยู่แล้ว"
 
 #: oc-includes/osclass/classes/Csrf.php:181
 msgid "Probable invalid request."
@@ -270,7 +270,7 @@ msgstr "ไอพีของคุณไม่อนุญาติ"
 
 #: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
 msgid "Your email has been sent properly."
-msgstr ""
+msgstr "อีเมลของคุณถูกส่งมาอย่างถูกต้อง"
 
 #: oc-includes/osclass/classes/controller/CWebContact.php:86
 msgid "Please enter a correct email"
@@ -287,11 +287,11 @@ msgstr "ผู้ใช้ไม่ได้เปิดใช้งาน"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:62
 msgid "Please provide an email address"
-msgstr ""
+msgstr "โปรดระบุที่อยู่อีเมล"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:66
 msgid "Empty passwords are not allowed. Please provide a password"
-msgstr ""
+msgstr "ไม่อนุญาตให้ใช้รหัสผ่านที่ว่างเปล่า โปรดใส่รหัสผ่าน"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:80
 #: oc-includes/osclass/classes/controller/CWebLogin.php:157
@@ -305,7 +305,7 @@ msgstr "รหัสผ่านไม่ถูกต้อง"
 #: oc-includes/osclass/classes/controller/CWebLogin.php:161
 #, php-format
 msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
-msgstr ""
+msgstr "ผู้ใช้ยังไม่ได้ตรวจสอบความถูกต้อง คุณต้องการส่งการเปิดใช้งาน <a href=\"%s\">ของคุณอีกครั้งหรือไม่</a>"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:165
 msgid "The user has not been validated yet"
@@ -321,15 +321,15 @@ msgstr "สิ่งนี้ไม่เคยเกิดขึ้นมาก
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:213
 msgid "Incorrect link"
-msgstr ""
+msgstr "ลิงค์ไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:227
 msgid "Validation email re-sent"
-msgstr ""
+msgstr "ส่งอีเมลการตรวจสอบความถูกต้องอีกครั้ง"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:229
 msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
-msgstr ""
+msgstr "เราเพิ่งส่งอีเมลถึงคุณเพื่อตรวจสอบบัญชีของคุณคุณจะต้องรอสักครู่เพื่อส่งอีกครั้ง"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:243
 msgid "Invalid email address"
@@ -387,7 +387,7 @@ msgstr "บัญชีของคุณได้รับการตรวจ
 
 #: oc-includes/osclass/classes/controller/CWebRegister.php:131
 msgid "Account validation failed"
-msgstr ""
+msgstr "การตรวจสอบความถูกต้องของบัญชีล้มเหลว"
 
 #: oc-includes/osclass/classes/controller/CWebAjax.php:107
 #: oc-includes/osclass/classes/controller/CWebAjax.php:203
@@ -437,7 +437,7 @@ msgstr "เลือกอินบ็อกซ์เพื่อเปิดก
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:190
 msgid "Your listing will be published after an admin approves it."
-msgstr ""
+msgstr "ข้อมูลของคุณจะได้รับการประกาศหลังจากที่ผู้ดูแลระบบอนุมัติ"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:192
 msgid "Your listing has been published"
@@ -449,7 +449,7 @@ msgstr "ขออภัย, เราไม่มีรายการที่�
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:288
 msgid "Your listing will be published after an admin approves the changes."
-msgstr ""
+msgstr "ข้อมูลของคุณจะได้รับการประกาศหลังจากที่ผู้ดูแลระบบอนุมัติการเปลี่ยนแปลง"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:290
 msgid "Great! We've just updated your listing"
@@ -498,7 +498,7 @@ msgstr "คุณไม่สามารถติดต่อผู้ขาย
 #: oc-includes/osclass/classes/controller/CWebItem.php:518
 #, php-format
 msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr ""
+msgstr "<a href=\"%s\">คลิกที่นี่เพื่อลงชื่อเข้าใช้</a>"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:573
 msgid "We've just sent an e-mail to the seller"
@@ -567,7 +567,7 @@ msgstr "รายการยังไม่ได้เปิดใช้งา
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:718
 msgid "The listing has been blocked or is awaiting moderation from the admin"
-msgstr ""
+msgstr "รายการถูกบล็อกหรือกําลังรอการกลั่นกรองจากผู้ดูแลระบบ"
 
 #: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
@@ -694,16 +694,16 @@ msgstr "ไม่มีปลั๊กอินถูกเลือก"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
 msgid "The files were deleted"
-msgstr ""
+msgstr "แฟ้มถูกลบแล้ว"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
 #, php-format
 msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr ""
+msgstr "มีข้อผิดพลาดในการลบแฟ้ม โปรดตรวจสอบสิทธิ์ของแฟ้มใน %s"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
 msgid "Invalid plugin file"
-msgstr ""
+msgstr "แฟ้มปลั๊กอินไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
@@ -797,7 +797,7 @@ msgstr "การติดตั้งภาษาถูกต้อง"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
 msgid "File uploaded but unable to activate the language"
-msgstr ""
+msgstr "อัพโหลดไฟล์แล้วแต่ไม่สามารถเปิดใช้งานภาษาได้"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
@@ -809,7 +809,7 @@ msgstr "มีปัญหาในการนําเข้าเทมเพ
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
 msgid "Language imported successfully"
-msgstr ""
+msgstr "นําเข้าภาษาเสร็จเรียบร้อยแล้ว"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
@@ -896,7 +896,7 @@ msgstr "ไดเรกทอรี่ '%s' ไม่สามารถลบไ
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
-msgstr ""
+msgstr "ไม่สามารถเอาไดเรกทอรี '%s' ออกได้ เนื่องจากเป็นภาษาเริ่มต้น <a href=\"%s\">ตั้งค่า</a> ภาษาอื่นเป็นค่าเริ่มต้นก่อน แล้วลองอีกครั้ง"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
@@ -971,7 +971,7 @@ msgstr "ชื่อผู้ใช้นี้ได้ถกใช้งาน
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
 msgid "Incorrent current password"
-msgstr ""
+msgstr "รหัสผ่านปัจจุบันที่ไม่ลงตัว"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
 msgid "The admin has been added"
@@ -1518,11 +1518,11 @@ msgstr "จำนวนของวันหมดอายุต้องเป
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
 msgid "Title Length has to be a numeric value"
-msgstr ""
+msgstr "ความยาวของชื่อเรื่องต้องเป็นค่าตัวเลข"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
 msgid "Description Length has to be a numeric value"
-msgstr ""
+msgstr "คําอธิบาย ความยาวต้องเป็นค่าตัวเลข"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
 msgid "Listings' settings have been updated"
@@ -1611,11 +1611,11 @@ msgstr "ไม่มีเมืองที่ถูกเลือก"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
 msgid "Location imported successfully"
-msgstr ""
+msgstr "นําเข้าที่ตั้งเสร็จเรียบร้อยแล้ว"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
 msgid "There was a problem importing the selected location"
-msgstr ""
+msgstr "มีปัญหาในการนําเข้าตําแหน่งที่ตั้งที่เลือก"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
 msgid "All fields are required."
@@ -1740,7 +1740,7 @@ msgstr "การตั้งค่าขั้นสูงได้ทำกา
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
 msgid "Cache flushed correctly"
-msgstr ""
+msgstr "ล้างแคชอย่างถูกต้อง"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
 msgid "Number of moderate comments must only contain numeric characters"

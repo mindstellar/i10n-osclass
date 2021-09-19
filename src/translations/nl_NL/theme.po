@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 06:10\n"
+"PO-Revision-Date: 2021-09-19 10:14\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -41,7 +41,7 @@ msgstr "Gebruikersnaam"
 #: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
 #: item-post.php:211 user-change_password.php:64
 msgid "Update"
-msgstr "Vernieuwen"
+msgstr "Update"
 
 #: user-change_email.php:33 user-change_email.php:38
 msgid "Change e-mail"
@@ -57,7 +57,7 @@ msgstr "Nieuwe e-mail"
 
 #: user-change_email.php:76
 msgid "Email: this field is required"
-msgstr "Email: dit veld moet ingevuld worden"
+msgstr "E-mail: dit veld is vereist"
 
 #: user-change_email.php:77 alert-form.php:28
 msgid "Invalid email address"
@@ -81,7 +81,7 @@ msgstr "Markeer als..."
 
 #: item-sidebar.php:31
 msgid "Mark as spam"
-msgstr "Markeer als spam"
+msgstr "Markeren als spam"
 
 #: item-sidebar.php:32
 msgid "Mark as misclassified"
@@ -158,7 +158,7 @@ msgstr "Telefoon nummer"
 
 #: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
 msgid "optional"
-msgstr "optioneel"
+msgstr "facultatief"
 
 #: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
 #: item-send-friend.php:78
@@ -213,7 +213,7 @@ msgstr "Volgende afbeelding"
 
 #: common/head.php:74
 msgid "Close"
-msgstr "Sluit"
+msgstr "Afsluiten"
 
 #: search-sidebar.php:38
 msgid "Your search"
@@ -221,7 +221,7 @@ msgstr "Uw zoekopdracht"
 
 #: search-sidebar.php:44 user-profile.php:83 item-post.php:146
 msgid "City"
-msgstr "Woonplaats"
+msgstr "Stad"
 
 #: search-sidebar.php:52
 msgid "Show only"
@@ -245,7 +245,7 @@ msgstr "Max."
 
 #: search-sidebar.php:87
 msgid "Apply"
-msgstr "Bevestig"
+msgstr "Pas toe"
 
 #: search-sidebar.php:92
 msgid "Refine category"
@@ -261,7 +261,7 @@ msgstr "Deze actie kan niet ongedaan gemaakt worden. Weet u zeker dat u wilt doo
 
 #: loop-single-premium.php:51 loop-single.php:51
 msgid "Activate"
-msgstr "Activeren"
+msgstr "Activeer"
 
 #: user-public-profile.php:67
 #, php-format
@@ -303,7 +303,7 @@ msgstr "Alle lijsten bekijken"
 
 #: main.php:74 item.php:66
 msgid "Location"
-msgstr "Lokatie"
+msgstr "Locatie"
 
 #: user-profile.php:32 user-profile.php:37 functions.php:445
 msgid "Update account"
@@ -311,19 +311,19 @@ msgstr "Account bijwerken"
 
 #: user-profile.php:52
 msgid "User type"
-msgstr "Gebruikers type"
+msgstr "Gebruikerstype"
 
 #: user-profile.php:59
 msgid "Cell phone"
-msgstr "Mobiele telefoon"
+msgstr "Mobieltje"
 
 #: user-profile.php:65
 msgid "Phone"
-msgstr "Telefoonnummer"
+msgstr "Telefoon"
 
 #: user-profile.php:71 item-post.php:92
 msgid "Country"
-msgstr "Land:"
+msgstr "Land"
 
 #: user-profile.php:77 item-post.php:98 item-post.php:124
 msgid "Region"
@@ -331,19 +331,19 @@ msgstr "Regio"
 
 #: user-profile.php:89
 msgid "City area"
-msgstr "Stad gebied"
+msgstr "Het gebied van de stad"
 
 #: user-profile.php:95 item-post.php:168
 msgid "Address"
-msgstr "Adres:"
+msgstr "Adres"
 
 #: user-profile.php:101
 msgid "Website"
-msgstr "website"
+msgstr "Website"
 
 #: user-profile.php:107 item-post.php:71
 msgid "Description"
-msgstr "Omschrijving"
+msgstr "Beschrijving"
 
 #: functions.php:28
 msgid "ie. PHP Programmer"
@@ -455,7 +455,7 @@ msgstr "Je hebt nog geen meldingen"
 
 #: user-alerts.php:46
 msgid "Alert"
-msgstr "Waarschuwing"
+msgstr "Alarm"
 
 #: user-alerts.php:46
 msgid "This action can't be undone. Are you sure you want to continue?"
@@ -477,11 +477,11 @@ msgstr "<strong class=\"update\">Modificatie datum:</strong> %1$s"
 
 #: item.php:85 item.php:92
 msgid "Image"
-msgstr "Afbeelding"
+msgstr "Beeld"
 
 #: item.php:121
 msgid "Contact seller"
-msgstr "Neen contact op met de aanbieder"
+msgstr "Contacteer verkoper"
 
 #: item.php:125
 msgid "Share"
@@ -513,7 +513,7 @@ msgstr "Gerelateerde aanbiedingen"
 
 #: item.php:154
 msgid "Comments"
-msgstr "Reacties"
+msgstr "Opmerking"
 
 #: item.php:161
 msgid "by"
@@ -533,11 +533,11 @@ msgstr "Uw e-mail"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
-msgstr "Titel"
+msgstr "Onderwerp"
 
 #: item.php:210
 msgid "Comment"
-msgstr "Reactie"
+msgstr "Opmerking"
 
 #: user-login.php:30
 msgid "Access to your account"
@@ -553,11 +553,11 @@ msgstr "Wachtwoord"
 
 #: user-login.php:51
 msgid "Remember me"
-msgstr "Mijn gegevens onthouden"
+msgstr "Denk aan mij."
 
 #: user-login.php:54
 msgid "Log in"
-msgstr "Inloggen"
+msgstr "Aanmelden"
 
 #: user-login.php:58
 msgid "Forgot password?"
@@ -574,7 +574,7 @@ msgstr "Mijn account"
 
 #: header.php:50 footer.php:37
 msgid "Logout"
-msgstr "Uitloggen"
+msgstr "Afmelden"
 
 #: header.php:60 footer.php:50
 msgid "Publish your ad for free"
@@ -582,7 +582,7 @@ msgstr "Publiceer je advertentie gratis"
 
 #: header.php:74 item-post.php:61
 msgid "Select a category"
-msgstr "Kies een categorie"
+msgstr "Kies een categorie "
 
 #: header.php:80 404.php:40
 msgid "Search"
@@ -662,7 +662,7 @@ msgstr "Onderwerp"
 
 #: user-forgot_password.php:30 user-recover.php:30
 msgid "Recover your password"
-msgstr "Herstellen van uw wachtwoord"
+msgstr "Herstellen van je wachtwoord"
 
 #: user-forgot_password.php:39 user-change_password.php:51
 msgid "New password"
@@ -670,7 +670,7 @@ msgstr "Nieuw wachtwoord"
 
 #: user-forgot_password.php:45 user-change_password.php:57
 msgid "Repeat new password"
-msgstr "Herhaal nieuw wachtwoord"
+msgstr "Nieuw wachtwoord herhalen"
 
 #: item-send-friend.php:57
 msgid "Your friend's name"
@@ -686,7 +686,7 @@ msgstr "Onderwerp (optioneel)"
 
 #: user-items.php:41
 msgid "My listings"
-msgstr "Mijn advertenties"
+msgstr "Mijn lijsten"
 
 #: user-items.php:43
 msgid "No listings have been added yet"
@@ -712,7 +712,7 @@ msgstr "%1$d - %2$d of %3$d advertenties"
 
 #: search.php:78
 msgid "Show filters"
-msgstr "Filters tonen"
+msgstr "Filters weergeven"
 
 #: search.php:85
 msgid "Sort by"
@@ -728,7 +728,7 @@ msgstr "Andere zoekopdrachten die je kunnen interesseren"
 
 #: admin/header.php:35
 msgid "Preview"
-msgstr "Voorvertoning"
+msgstr "Voorbeeld"
 
 #: admin/header.php:42
 msgid "Remove logo"
@@ -893,7 +893,7 @@ msgstr "Deze advertentie wordt getoond op de rechterkant van je website, op de p
 
 #: admin/settings.php:155
 msgid "Save changes"
-msgstr "Aanpassingen opslaan"
+msgstr "Wijzigingen opslaan"
 
 #: user-change_password.php:45
 msgid "Current password"
