@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 06:10\n"
+"PO-Revision-Date: 2021-09-19 09:06\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -133,7 +133,7 @@ msgstr ""
 #: oc-includes/osclass/classes/actions/ItemActions.php:596
 #, php-format
 msgid "%s is invalid."
-msgstr ""
+msgstr "%s geçersiz."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:563
 #: oc-includes/osclass/classes/actions/ItemActions.php:566
@@ -143,7 +143,7 @@ msgstr ""
 #: oc-includes/osclass/classes/actions/ItemActions.php:606
 #, php-format
 msgid "%s is required."
-msgstr ""
+msgstr "%s gereklidir."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:1366
 #, php-format
@@ -805,7 +805,7 @@ msgstr "Dil eklenirken bir sorun oluştu"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
 msgid "There was a problem importing email templates"
-msgstr ""
+msgstr "E-posta şablonlarını içe aktarırken bir sorun vardı"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
 msgid "Language imported successfully"
@@ -826,7 +826,7 @@ msgstr "Dil adı alanı gerekli"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
 msgid "Language direction field is required"
-msgstr ""
+msgstr "Dil yönü alanı gereklidir"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
 msgid "Language short name field is required"
@@ -1040,7 +1040,7 @@ msgstr "Yol boş"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
 msgid "Could not connect with the database"
-msgstr ""
+msgstr "Veritabanına bağlanılamadı"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
@@ -1188,8 +1188,8 @@ msgstr "Kullanıcı seçilmedi."
 #, php-format
 msgid "Activation email sent to one user"
 msgid_plural "Activation email sent to %s users"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir kullanıcıya gönderilen etkinleştirme e-postası"
+msgstr[1] "%s kullanıcılarına gönderilen etkinleştirme e-postası"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
 msgid "No users have been activated"
@@ -1199,8 +1199,8 @@ msgstr "Hiçbir kullanıcı aktifleştirilmedi"
 #, php-format
 msgid "One user has been activated"
 msgid_plural "%s users have been activated"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir kullanıcı etkinleştirildi"
+msgstr[1] "%s kullanıcı etkinleştirildi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
 msgid "No users have been deactivated"
@@ -1210,8 +1210,8 @@ msgstr "Hiçbir kullanıcı devre dışı bırakılmadı"
 #, php-format
 msgid "One user has been deactivated"
 msgid_plural "%s users have been deactivated"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir kullanıcı devre dışı bırakıldı"
+msgstr[1] "%s kullanıcıları devre dışı bırakıldı"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
 msgid "No users have been enabled"
@@ -1221,8 +1221,8 @@ msgstr "Hiçbir kullanıcı devreye sokulmadı"
 #, php-format
 msgid "One user has been unblocked"
 msgid_plural "%s users have been unblocked"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir kullanıcının engeli kaldırıldı"
+msgstr[1] "%s kullanıcıların engeli kaldırıldı"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
 msgid "No users have been disabled"
@@ -1232,8 +1232,8 @@ msgstr "Hiçbir kullanıcı devre dışı bırakılmadı"
 #, php-format
 msgid "One user has been blocked"
 msgid_plural "%s users have been blocked"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir kullanıcı engellendi"
+msgstr[1] "%s kullanıcılar engellendi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
 msgid "No users have been deleted"
@@ -1243,8 +1243,8 @@ msgstr "Hiçbir kullanıcı silinmedi"
 #, php-format
 msgid "One user has been deleted"
 msgid_plural "%s users have been deleted"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir kullanıcı silindi"
+msgstr[1] "%s kullanıcı silindi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
@@ -1259,8 +1259,8 @@ msgstr "Hiçbir uyarı silinmedi"
 #, php-format
 msgid "One alert has been deleted"
 msgid_plural "%s alerts have been deleted"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir uyarı silindi"
+msgstr[1] "%s uyarıları silindi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
 msgid "No alerts have been activated"
@@ -1270,8 +1270,8 @@ msgstr "Hiçbir uyarı aktifleştirilmedi"
 #, php-format
 msgid "One alert has been activated"
 msgid_plural "%s alerts have been activated"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir uyarı etkinleştirildi"
+msgstr[1] "%s uyarıları etkinleştirildi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
 msgid "No alerts have been deactivated"
@@ -1281,8 +1281,8 @@ msgstr "Hiçbir uyarı devreden çıkarılmadı"
 #, php-format
 msgid "One alert has been deactivated"
 msgid_plural "%s alerts have been deactivated"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir uyarı devre dışı bırakıldı"
+msgstr[1] "%s uyarıları devre dışı bırakıldı"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
 msgid "User settings have been updated"
@@ -1309,8 +1309,8 @@ msgstr "Hiçbir kural silinmedi"
 #, php-format
 msgid "One ban rule has been deleted"
 msgid_plural "%s ban rules have been deleted"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir yasaklama kuralı silindi"
+msgstr[1] "%s yasağı kuralları silindi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
 #: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
@@ -1370,100 +1370,100 @@ msgstr "Yorumunuzu güncellediniz"
 #, php-format
 msgid "%d listing has been enabled"
 msgid_plural "%d listings have been enabled"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d listesi etkinleştirildi"
+msgstr[1] "%d listeleri etkinleştirildi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:96
 #, php-format
 msgid "%d listing has been disabled"
 msgid_plural "%d listings have been disabled"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kaydı devre dışı bırakıldı"
+msgstr[1] "%d listeleri devre dışı bırakıldı"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:112
 #, php-format
 msgid "%d listing has been activated"
 msgid_plural "%d listings have been activated"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d listesi etkinleştirildi"
+msgstr[1] "%d listeleri etkinleştirildi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:128
 #, php-format
 msgid "%d listing has been deactivated"
 msgid_plural "%d listings have been deactivated"
 msgstr[0] "%d ilan devre dışı bırakıldı"
-msgstr[1] ""
+msgstr[1] "%d listeleri devre dışı bırakıldı"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:144
 #, php-format
 msgid "%d listing has been marked as premium"
 msgid_plural "%d listings have been marked as premium"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d listesi premium olarak işaretlendi"
+msgstr[1] "%d listeleri premium olarak işaretlendi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:160
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:193
 #, php-format
 msgid "%d change has been made"
 msgid_plural "%d changes have been made"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d değişikliği yapıldı"
+msgstr[1] "%d değişiklikler yapıldı"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:176
 #, php-format
 msgid "%d listing has been marked as spam"
 msgid_plural "%d listings have been marked as spam"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d listesi spam olarak işaretlendi"
+msgstr[1] "%d listeleri spam olarak işaretlendi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:215
 #, php-format
 msgid "%d listing has been deleted"
 msgid_plural "%d listings have been deleted"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d listesi silindi"
+msgstr[1] "%d listeleri silindi"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:236
 #, php-format
 msgid "%d listing has been unmarked as spam"
 msgid_plural "%d listings have been unmarked as spam"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d listesi spam olarak işaretlenmemiş"
+msgstr[1] "%d listeleri spam olarak işaretlenmemiş"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:258
 #, php-format
 msgid "%d listing has been unmarked as missclassified"
 msgid_plural "%d listings have been unmarked as missclassified"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d liste yanlış sınıflandırılmış olarak işaretlenmemiş"
+msgstr[1] "%d listeleri yanlış sınıflandırılmış olarak işaretlenmemiş"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:281
 #, php-format
 msgid "%d listing has been unmarked as duplicated"
 msgid_plural "%d listings have been unmarked as duplicated"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d liste yinelenen olarak işaretlenmemiş"
+msgstr[1] "%d listeleri çoğaltılmış olarak işaretlenmemiş"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:302
 #, php-format
 msgid "%d listing has been unmarked as expired"
 msgid_plural "%d listings have been unmarked as expired"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d listesi süresi doldu olarak işaretlenmemiş"
+msgstr[1] "%d listeleri süresi doldu olarak işaretlenmemiş"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:323
 #, php-format
 msgid "%d listing has been unmarked as offensive"
 msgid_plural "%d listings have been unmarked as offensive"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d listesi saldırgan olarak işaretlenmemiş"
+msgstr[1] "%d listeleri saldırgan olarak işaretlenmemiştir"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:344
 #, php-format
 msgid "%d listing has been unmarked"
 msgid_plural "%d listings have been unmarked"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d liste işaretlenmemiş"
+msgstr[1] "%d listeleri işaretlenmemiş"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
 msgid "The listing has been deleted"
@@ -1649,8 +1649,8 @@ msgstr "Bütün alanlar gerekli"
 #, php-format
 msgid "One field was not updated"
 msgid_plural "%s fields were not updated"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bir alan güncelleştirilmedi"
+msgstr[1] "%s alanları güncelleştirilmedi"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
