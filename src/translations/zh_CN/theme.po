@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 06:17+0000\n"
-"PO-Revision-Date: 2021-09-19 09:50\n"
+"POT-Creation-Date: 2021-09-19 05:47+0000\n"
+"PO-Revision-Date: 2021-09-19 10:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: osclass-v2\n"
 "X-Crowdin-Project-ID: 376123\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /master/src/templates/theme.pot\n"
-"X-Crowdin-File-ID: 8210\n"
+"X-Crowdin-File: /develop/src/templates/theme.pot\n"
+"X-Crowdin-File-ID: 8225\n"
 
 #: user-change_username.php:34 user-change_username.php:39 functions.php:447
 #: functions.php:506
@@ -24,7 +24,7 @@ msgstr "更改用户名"
 
 #: user-change_username.php:50
 msgid "Username: this field is required"
-msgstr "用户名：必填项"
+msgstr "用户名:必填"
 
 #: user-change_username.php:75
 msgid "The username is available"
@@ -57,7 +57,7 @@ msgstr "新邮件"
 
 #: user-change_email.php:76
 msgid "Email: this field is required"
-msgstr "邮箱：必填项"
+msgstr "邮件：必填项"
 
 #: user-change_email.php:77 alert-form.php:28
 msgid "Invalid email address"
@@ -158,7 +158,7 @@ msgstr "电话号码"
 
 #: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
 msgid "optional"
-msgstr ""
+msgstr "自选"
 
 #: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
 #: item-send-friend.php:78
@@ -221,7 +221,7 @@ msgstr "您的搜索"
 
 #: search-sidebar.php:44 user-profile.php:83 item-post.php:146
 msgid "City"
-msgstr ""
+msgstr "城市"
 
 #: search-sidebar.php:52
 msgid "Show only"
@@ -233,7 +233,7 @@ msgstr "图片列表"
 
 #: search-sidebar.php:62 item-post.php:78
 msgid "Price"
-msgstr ""
+msgstr "价格"
 
 #: search-sidebar.php:63
 msgid "Min"
@@ -311,35 +311,35 @@ msgstr "更新帐户"
 
 #: user-profile.php:52
 msgid "User type"
-msgstr ""
+msgstr "用户类型"
 
 #: user-profile.php:59
 msgid "Cell phone"
-msgstr ""
+msgstr "手机"
 
 #: user-profile.php:65
 msgid "Phone"
-msgstr ""
+msgstr "电话"
 
 #: user-profile.php:71 item-post.php:92
 msgid "Country"
-msgstr ""
+msgstr "国家"
 
 #: user-profile.php:77 item-post.php:98 item-post.php:124
 msgid "Region"
-msgstr ""
+msgstr "地区"
 
 #: user-profile.php:89
 msgid "City area"
-msgstr ""
+msgstr "城区"
 
 #: user-profile.php:95 item-post.php:168
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #: user-profile.php:101
 msgid "Website"
-msgstr ""
+msgstr "网站"
 
 #: user-profile.php:107 item-post.php:71
 msgid "Description"
@@ -351,11 +351,11 @@ msgstr "例如：PHP程序员"
 
 #: functions.php:434 item-post.php:46
 msgid "Publish a listing"
-msgstr "发布广告"
+msgstr "发布帖子"
 
 #: functions.php:435
 msgid "Edit your listing"
-msgstr "编辑您的列表"
+msgstr "编辑帖子"
 
 #: functions.php:436 item-send-friend.php:31
 msgid "Send to a friend"
@@ -368,20 +368,20 @@ msgstr "搜索结果"
 #: functions.php:439
 #, php-format
 msgid "Search results: %s"
-msgstr "搜索结果： %s"
+msgstr "搜索结果：%s"
 
 #: functions.php:440
 msgid "Dashboard"
-msgstr "仪表板"
+msgstr "控制面板"
 
 #: functions.php:441
 #, php-format
 msgid "%s's profile"
-msgstr "%s 的个人简介"
+msgstr "%s的个人资料"
 
 #: functions.php:442 functions.php:496
 msgid "Account"
-msgstr "账户"
+msgstr "帐户"
 
 #: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
 msgid "Listings"
@@ -407,7 +407,7 @@ msgstr "恢复密码"
 
 #: functions.php:452
 msgid "Create a new account"
-msgstr "创建一个新账户"
+msgstr "创建账户"
 
 #: functions.php:453 user-public-sidebar.php:26 footer.php:65
 msgid "Contact"
@@ -459,7 +459,7 @@ msgstr "通知"
 
 #: user-alerts.php:46
 msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "刚才的动作没有完成.您确定要继续吗？"
+msgstr "刚才的动作没有完成. 您确定要继续吗?"
 
 #: user-alerts.php:46
 msgid "Delete this alert"
@@ -477,7 +477,7 @@ msgstr "<strong class=\"update\">修改日期：</strong> %1$s"
 
 #: item.php:85 item.php:92
 msgid "Image"
-msgstr ""
+msgstr "图像"
 
 #: item.php:121
 msgid "Contact seller"
@@ -549,11 +549,11 @@ msgstr "邮箱"
 
 #: user-login.php:44 user-register.php:51
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 #: user-login.php:51
 msgid "Remember me"
-msgstr ""
+msgstr "记住我"
 
 #: user-login.php:54
 msgid "Log in"
@@ -666,11 +666,11 @@ msgstr "找回密码"
 
 #: user-forgot_password.php:39 user-change_password.php:51
 msgid "New password"
-msgstr ""
+msgstr "新密码"
 
 #: user-forgot_password.php:45 user-change_password.php:57
 msgid "Repeat new password"
-msgstr ""
+msgstr "重复新密码"
 
 #: item-send-friend.php:57
 msgid "Your friend's name"
@@ -712,7 +712,7 @@ msgstr "%1$d - %2$d 的 %3$d 列表"
 
 #: search.php:78
 msgid "Show filters"
-msgstr ""
+msgstr "显示过滤器"
 
 #: search.php:85
 msgid "Sort by"
@@ -728,7 +728,7 @@ msgstr "您可能感兴趣的其他搜索"
 
 #: admin/header.php:35
 msgid "Preview"
-msgstr ""
+msgstr "预览"
 
 #: admin/header.php:42
 msgid "Remove logo"
