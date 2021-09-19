@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 06:09\n"
+"POT-Creation-Date: 2021-09-19 06:17+0000\n"
+"PO-Revision-Date: 2021-09-19 08:00\n"
 "Last-Translator: \n"
 "Language-Team: English, United States\n"
 "Language: en_US\n"
@@ -14,153 +14,157 @@ msgstr ""
 "X-Crowdin-Project: osclass-v2\n"
 "X-Crowdin-Project-ID: 376123\n"
 "X-Crowdin-Language: en-US\n"
-"X-Crowdin-File: /develop/src/templates/core.pot\n"
-"X-Crowdin-File-ID: 8221\n"
+"X-Crowdin-File: /master/src/templates/core.pot\n"
+"X-Crowdin-File-ID: 8206\n"
 
-#: oc-admin/themes/modern/fields/iframe.php:42
+#: oc-admin/themes/modern/fields/iframe.php:43
 msgid "Edit custom field"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:46
-#: oc-admin/themes/modern/items/frm.php:245
+#: oc-admin/themes/modern/fields/iframe.php:45
+#: oc-admin/themes/modern/items/frm.php:259
 #: oc-admin/themes/modern/languages/frm.php:79
-#: oc-admin/themes/modern/languages/index.php:113
-#: oc-admin/themes/modern/languages/index.php:128
+#: oc-admin/themes/modern/languages/index.php:168
 #: oc-admin/themes/modern/users/frm.php:249
-#: oc-admin/themes/modern/users/index.php:253
-#: oc-admin/themes/modern/plugins/index.php:93
-#: oc-admin/themes/modern/stats/users.php:305
-#: oc-admin/themes/modern/emails/index.php:77
-#: oc-admin/themes/modern/admins/index.php:92
-#: oc-admin/themes/modern/admins/index.php:106
-#: oc-admin/themes/modern/settings/locations.php:198
-#: oc-admin/themes/modern/settings/currency_form.php:180
-#: oc-admin/themes/modern/settings/currencies.php:116
-#: oc-admin/themes/modern/settings/currencies.php:129
-#: oc-includes/osclass/classes/form/CategoryForm.php:224
+#: oc-admin/themes/modern/users/index.php:202
+#: oc-admin/themes/modern/plugins/index.php:151
+#: oc-admin/themes/modern/plugins/index.php:242
+#: oc-admin/themes/modern/plugins/index.php:280
+#: oc-admin/themes/modern/stats/users.php:299
+#: oc-admin/themes/modern/emails/index.php:76
+#: oc-admin/themes/modern/admins/index.php:163
+#: oc-admin/themes/modern/settings/currency_form.php:178
+#: oc-admin/themes/modern/settings/currencies.php:184
+#: oc-includes/osclass/classes/form/CategoryForm.php:214
 #: oc-includes/osclass/classes/datatables/UsersDataTable.php:90
 msgid "Name"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:50
+#: oc-admin/themes/modern/fields/iframe.php:49
 msgid "Type"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:54
+#: oc-admin/themes/modern/fields/iframe.php:53
 msgid "Options"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:57
+#: oc-admin/themes/modern/fields/iframe.php:56
 msgid "Separate options with commas"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:63
+#: oc-admin/themes/modern/fields/iframe.php:62
 msgid "This field is required"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:66
+#: oc-admin/themes/modern/fields/iframe.php:65
 msgid "Select the categories where you want to apply this attribute:"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:70
+#: oc-admin/themes/modern/fields/iframe.php:69
 #: oc-admin/themes/modern/plugins/configuration.php:105
 msgid "Check all"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:73
+#: oc-admin/themes/modern/fields/iframe.php:72
 #: oc-admin/themes/modern/plugins/configuration.php:108
 msgid "Uncheck all"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:84
+#: oc-admin/themes/modern/fields/iframe.php:83
 msgid "Advanced options"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:88
+#: oc-admin/themes/modern/fields/iframe.php:87
 msgid "Identifier name"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:92
+#: oc-admin/themes/modern/fields/iframe.php:91
 msgid "Only alphanumeric characters are allowed [a-z0-9_-]"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:99
+#: oc-admin/themes/modern/fields/iframe.php:98
 msgid "Tick to allow searches by this field"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:105
-#: oc-admin/themes/modern/items/settings.php:312
+#: oc-admin/themes/modern/fields/iframe.php:103
+#: oc-admin/themes/modern/items/settings.php:311
 #: oc-admin/themes/modern/languages/frm.php:146
-#: oc-admin/themes/modern/users/settings.php:124
+#: oc-admin/themes/modern/users/settings.php:123
 #: oc-admin/themes/modern/appearance/add_widget.php:40
 #: oc-admin/themes/modern/appearance/add_widget.php:80
-#: oc-admin/themes/modern/emails/frm.php:151
+#: oc-admin/themes/modern/emails/frm.php:163
 #: oc-admin/themes/modern/categories/iframe.php:70
 #: oc-admin/themes/modern/pages/frm.php:53
-#: oc-admin/themes/modern/settings/comments.php:213
-#: oc-admin/themes/modern/settings/spamNbots.php:120
-#: oc-admin/themes/modern/settings/spamNbots.php:164
-#: oc-admin/themes/modern/settings/index.php:549
-#: oc-admin/themes/modern/settings/advanced.php:166
+#: oc-admin/themes/modern/settings/comments.php:212
+#: oc-admin/themes/modern/settings/spamNbots.php:119
+#: oc-admin/themes/modern/settings/spamNbots.php:163
+#: oc-admin/themes/modern/settings/index.php:526
+#: oc-admin/themes/modern/settings/advanced.php:165
 #: oc-admin/themes/modern/settings/permalinks.php:758
-#: oc-admin/themes/modern/settings/searches.php:220
-#: oc-admin/themes/modern/settings/media.php:500
-#: oc-admin/themes/modern/settings/mailserver.php:219
+#: oc-admin/themes/modern/settings/searches.php:219
+#: oc-admin/themes/modern/settings/media.php:520
+#: oc-admin/themes/modern/settings/mailserver.php:218
 msgid "Save changes"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:107
-#: oc-admin/themes/modern/fields/index.php:240
-#: oc-admin/themes/modern/fields/index.php:264
-#: oc-admin/themes/modern/items/frm.php:330
-#: oc-admin/themes/modern/items/index.php:428
-#: oc-admin/themes/modern/items/index.php:447
-#: oc-admin/themes/modern/items/reported.php:175
-#: oc-admin/themes/modern/items/reported.php:194
-#: oc-admin/themes/modern/languages/index.php:180
-#: oc-admin/themes/modern/languages/index.php:203
-#: oc-admin/themes/modern/languages/index.php:222
+#: oc-admin/themes/modern/fields/iframe.php:105
+#: oc-admin/themes/modern/fields/index.php:283
+#: oc-admin/themes/modern/items/frm.php:340
+#: oc-admin/themes/modern/items/index.php:501
+#: oc-admin/themes/modern/items/index.php:513
+#: oc-admin/themes/modern/items/reported.php:249
+#: oc-admin/themes/modern/items/reported.php:261
+#: oc-admin/themes/modern/languages/index.php:214
+#: oc-admin/themes/modern/languages/index.php:228
+#: oc-admin/themes/modern/languages/index.php:268
 #: oc-admin/themes/modern/users/frm.php:454
-#: oc-admin/themes/modern/users/alerts.php:185
-#: oc-admin/themes/modern/users/alerts.php:204
-#: oc-admin/themes/modern/users/index.php:370
-#: oc-admin/themes/modern/users/index.php:389
-#: oc-admin/themes/modern/users/ban.php:227
-#: oc-admin/themes/modern/users/ban.php:239
-#: oc-admin/themes/modern/plugins/index.php:179
-#: oc-admin/themes/modern/media/index.php:165
-#: oc-admin/themes/modern/media/index.php:184
+#: oc-admin/themes/modern/users/alerts.php:262
+#: oc-admin/themes/modern/users/alerts.php:274
+#: oc-admin/themes/modern/users/index.php:418
+#: oc-admin/themes/modern/users/index.php:430
+#: oc-admin/themes/modern/users/ban.php:232
+#: oc-admin/themes/modern/users/ban.php:244
+#: oc-admin/themes/modern/plugins/index.php:302
+#: oc-admin/themes/modern/plugins/index.php:322
+#: oc-admin/themes/modern/media/index.php:231
+#: oc-admin/themes/modern/media/index.php:243
 #: oc-admin/themes/modern/comments/frm.php:147
-#: oc-admin/themes/modern/comments/index.php:173
-#: oc-admin/themes/modern/comments/index.php:192
-#: oc-admin/themes/modern/appearance/widgets.php:151
+#: oc-admin/themes/modern/comments/index.php:236
+#: oc-admin/themes/modern/comments/index.php:248
 #: oc-admin/themes/modern/appearance/widgets.php:175
-#: oc-admin/themes/modern/appearance/index.php:183
+#: oc-admin/themes/modern/appearance/index.php:200
 #: oc-admin/themes/modern/categories/iframe.php:72
-#: oc-admin/themes/modern/categories/index.php:293
-#: oc-admin/themes/modern/pages/frm.php:163
-#: oc-admin/themes/modern/pages/index.php:216
-#: oc-admin/themes/modern/pages/index.php:235
+#: oc-admin/themes/modern/categories/index.php:447
+#: oc-admin/themes/modern/pages/frm.php:168
+#: oc-admin/themes/modern/pages/index.php:252
+#: oc-admin/themes/modern/pages/index.php:264
 #: oc-admin/themes/modern/admins/frm.php:155
-#: oc-admin/themes/modern/admins/index.php:163
-#: oc-admin/themes/modern/admins/index.php:182
-#: oc-admin/themes/modern/settings/locations.php:161
-#: oc-admin/themes/modern/settings/currency_form.php:187
-#: oc-admin/themes/modern/settings/media.php:521
-#: oc-admin/themes/modern/settings/currencies.php:162
-#: oc-admin/themes/modern/settings/currencies.php:181
-#: oc-includes/osclass/classes/form/ItemForm.php:2032
+#: oc-admin/themes/modern/admins/index.php:223
+#: oc-admin/themes/modern/admins/index.php:235
+#: oc-admin/themes/modern/settings/locations.php:145
+#: oc-admin/themes/modern/settings/locations.php:231
+#: oc-admin/themes/modern/settings/locations.php:259
+#: oc-admin/themes/modern/settings/locations.php:286
+#: oc-admin/themes/modern/settings/locations.php:316
+#: oc-admin/themes/modern/settings/locations.php:345
+#: oc-admin/themes/modern/settings/locations.php:375
+#: oc-admin/themes/modern/settings/locations.php:492
+#: oc-admin/themes/modern/settings/locations.php:525
+#: oc-admin/themes/modern/settings/currency_form.php:185
+#: oc-admin/themes/modern/settings/currencies.php:219
+#: oc-admin/themes/modern/settings/currencies.php:231
+#: oc-includes/osclass/classes/form/ItemForm.php:2031
 msgid "Cancel"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:136
+#: oc-admin/themes/modern/fields/iframe.php:135
 msgid "At least one option is required."
 msgstr ""
 
-#: oc-admin/themes/modern/fields/iframe.php:166
-#: oc-admin/themes/modern/fields/index.php:297
-#: oc-admin/themes/modern/categories/index.php:182
-#: oc-admin/themes/modern/categories/index.php:333
+#: oc-admin/themes/modern/fields/iframe.php:165
+#: oc-admin/themes/modern/fields/index.php:144
+#: oc-admin/themes/modern/categories/index.php:252
+#: oc-admin/themes/modern/categories/index.php:349
 msgid "Ajax error, try again."
 msgstr ""
 
@@ -169,12 +173,13 @@ msgid "Create new fields for users to fill out when they publish a listing. You 
 msgstr ""
 
 #: oc-admin/themes/modern/fields/index.php:52
-#: oc-admin/themes/modern/items/frm.php:49
+#: oc-admin/themes/modern/items/frm.php:50
+#: oc-admin/themes/modern/items/frm.php:54
 #: oc-admin/themes/modern/items/settings.php:80
 #: oc-admin/themes/modern/comments/frm.php:51
 #: oc-admin/themes/modern/comments/index.php:45
-#: oc-admin/themes/modern/main/index.php:171
-#: oc-admin/themes/modern/main/index.php:184
+#: oc-admin/themes/modern/main/index.php:242
+#: oc-admin/themes/modern/main/index.php:255
 msgid "Listing"
 msgstr ""
 
@@ -182,17 +187,16 @@ msgstr ""
 msgid "Add custom field"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/index.php:122
-#: oc-admin/themes/modern/fields/index.php:212
-#: oc-admin/themes/modern/appearance/widgets.php:104
-#: oc-admin/themes/modern/categories/index.php:219
-#: oc-admin/themes/modern/settings/locations.php:100
-#: oc-admin/themes/modern/settings/locations.php:192
-#: oc-admin/themes/modern/settings/currencies.php:80
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:524
+#: oc-admin/themes/modern/fields/index.php:167
+#: oc-admin/themes/modern/fields/index.php:257
+#: oc-admin/themes/modern/appearance/widgets.php:128
+#: oc-admin/themes/modern/categories/index.php:390
+#: oc-admin/themes/modern/settings/locations.php:146
+#: oc-admin/themes/modern/settings/currencies.php:146
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:471
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:353
 #: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:152
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:222
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:215
 #: oc-includes/osclass/classes/datatables/BanRulesDataTable.php:145
 #: oc-includes/osclass/classes/datatables/PagesDataTable.php:104
 #: oc-includes/osclass/classes/datatables/CommentsDataTable.php:167
@@ -201,61 +205,54 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/index.php:124
-#: oc-admin/themes/modern/fields/index.php:214
-#: oc-admin/themes/modern/fields/index.php:242
-#: oc-admin/themes/modern/fields/index.php:266
-#: oc-admin/themes/modern/items/index.php:430
-#: oc-admin/themes/modern/items/index.php:448
-#: oc-admin/themes/modern/items/reported.php:109
-#: oc-admin/themes/modern/items/reported.php:110
-#: oc-admin/themes/modern/items/reported.php:177
-#: oc-admin/themes/modern/items/reported.php:195
-#: oc-admin/themes/modern/languages/index.php:205
-#: oc-admin/themes/modern/languages/index.php:223
+#: oc-admin/themes/modern/fields/index.php:171
+#: oc-admin/themes/modern/fields/index.php:260
+#: oc-admin/themes/modern/fields/index.php:285
+#: oc-admin/themes/modern/items/index.php:502
+#: oc-admin/themes/modern/items/index.php:515
+#: oc-admin/themes/modern/items/reported.php:185
+#: oc-admin/themes/modern/items/reported.php:250
+#: oc-admin/themes/modern/items/reported.php:263
+#: oc-admin/themes/modern/languages/index.php:216
+#: oc-admin/themes/modern/languages/index.php:229
 #: oc-admin/themes/modern/users/frm.php:409
 #: oc-admin/themes/modern/users/frm.php:455
-#: oc-admin/themes/modern/users/alerts.php:108
-#: oc-admin/themes/modern/users/alerts.php:187
-#: oc-admin/themes/modern/users/alerts.php:206
-#: oc-admin/themes/modern/users/index.php:372
-#: oc-admin/themes/modern/users/index.php:391
-#: oc-admin/themes/modern/users/ban.php:228
-#: oc-admin/themes/modern/users/ban.php:241
-#: oc-admin/themes/modern/plugins/index.php:226
-#: oc-admin/themes/modern/media/index.php:167
-#: oc-admin/themes/modern/media/index.php:186
-#: oc-admin/themes/modern/comments/index.php:175
-#: oc-admin/themes/modern/comments/index.php:194
-#: oc-admin/themes/modern/appearance/widgets.php:108
-#: oc-admin/themes/modern/appearance/widgets.php:152
-#: oc-admin/themes/modern/appearance/widgets.php:177
-#: oc-admin/themes/modern/appearance/index.php:138
-#: oc-admin/themes/modern/categories/index.php:227
-#: oc-admin/themes/modern/categories/index.php:295
-#: oc-admin/themes/modern/pages/index.php:218
-#: oc-admin/themes/modern/pages/index.php:237
-#: oc-admin/themes/modern/admins/index.php:165
-#: oc-admin/themes/modern/admins/index.php:183
-#: oc-admin/themes/modern/settings/locations.php:94
-#: oc-admin/themes/modern/settings/locations.php:97
-#: oc-admin/themes/modern/settings/locations.php:163
-#: oc-admin/themes/modern/settings/locations.php:188
-#: oc-admin/themes/modern/settings/currencies.php:78
-#: oc-admin/themes/modern/settings/currencies.php:104
-#: oc-admin/themes/modern/settings/currencies.php:105
-#: oc-admin/themes/modern/settings/currencies.php:164
-#: oc-admin/themes/modern/settings/currencies.php:183
-#: oc-includes/osclass/classes/form/ItemForm.php:1659
-#: oc-includes/osclass/classes/form/ItemForm.php:1866
-#: oc-includes/osclass/classes/form/ItemForm.php:1881
-#: oc-includes/osclass/classes/form/ItemForm.php:2034
+#: oc-admin/themes/modern/users/alerts.php:190
+#: oc-admin/themes/modern/users/alerts.php:263
+#: oc-admin/themes/modern/users/alerts.php:276
+#: oc-admin/themes/modern/users/index.php:419
+#: oc-admin/themes/modern/users/index.php:432
+#: oc-admin/themes/modern/users/ban.php:233
+#: oc-admin/themes/modern/users/ban.php:246
+#: oc-admin/themes/modern/media/index.php:232
+#: oc-admin/themes/modern/media/index.php:245
+#: oc-admin/themes/modern/comments/index.php:237
+#: oc-admin/themes/modern/comments/index.php:250
+#: oc-admin/themes/modern/appearance/widgets.php:132
+#: oc-admin/themes/modern/appearance/widgets.php:176
+#: oc-admin/themes/modern/appearance/index.php:161
+#: oc-admin/themes/modern/categories/index.php:396
+#: oc-admin/themes/modern/categories/index.php:449
+#: oc-admin/themes/modern/pages/index.php:253
+#: oc-admin/themes/modern/pages/index.php:266
+#: oc-admin/themes/modern/admins/index.php:224
+#: oc-admin/themes/modern/admins/index.php:237
+#: oc-admin/themes/modern/settings/locations.php:494
+#: oc-admin/themes/modern/settings/currencies.php:144
+#: oc-admin/themes/modern/settings/currencies.php:172
+#: oc-admin/themes/modern/settings/currencies.php:173
+#: oc-admin/themes/modern/settings/currencies.php:220
+#: oc-admin/themes/modern/settings/currencies.php:233
+#: oc-includes/osclass/classes/form/ItemForm.php:1658
+#: oc-includes/osclass/classes/form/ItemForm.php:1865
+#: oc-includes/osclass/classes/form/ItemForm.php:1880
+#: oc-includes/osclass/classes/form/ItemForm.php:2033
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:389
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:326
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:328
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:541
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:632
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:634
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:488
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:579
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:581
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:356
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:400
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:402
@@ -269,7 +266,7 @@ msgstr ""
 #: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:294
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:944
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:946
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:225
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:218
 #: oc-includes/osclass/classes/datatables/BanRulesDataTable.php:148
 #: oc-includes/osclass/classes/datatables/MediaDataTable.php:179
 #: oc-includes/osclass/classes/datatables/PagesDataTable.php:108
@@ -280,46 +277,61 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/index.php:136
+#: oc-admin/themes/modern/fields/index.php:181
 msgid "Custom field could not be added"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/index.php:180
+#: oc-admin/themes/modern/fields/index.php:225
 #, php-format
 msgid "Custom fields &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/index.php:190
-#: oc-includes/osclass/classes/AdminMenu.php:86
+#: oc-admin/themes/modern/fields/index.php:234
+#: oc-includes/osclass/classes/AdminMenu.php:98
 msgid "Custom fields"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/index.php:200
+#: oc-admin/themes/modern/fields/index.php:235
+#: oc-admin/themes/modern/items/index.php:349
+#: oc-admin/themes/modern/users/index.php:301
+#: oc-admin/themes/modern/users/ban.php:49
+#: oc-admin/themes/modern/users/ban.php:152
+#: oc-admin/themes/modern/appearance/index.php:110
+#: oc-admin/themes/modern/pages/index.php:179
+#: oc-admin/themes/modern/admins/index.php:142
+#: oc-admin/themes/modern/settings/locations.php:395
+#: oc-admin/themes/modern/settings/locations.php:453
+#: oc-admin/themes/modern/settings/locations.php:468
+#: oc-admin/themes/modern/settings/currencies.php:157
+msgid "Add new"
+msgstr ""
+
+#: oc-admin/themes/modern/fields/index.php:245
 msgid "You don't have any custom fields yet"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/index.php:231
-#: oc-admin/themes/modern/fields/index.php:256
+#: oc-admin/themes/modern/fields/index.php:274
 msgid "Delete custom field"
 msgstr ""
 
-#: oc-admin/themes/modern/fields/index.php:235
-#: oc-admin/themes/modern/fields/index.php:261
+#: oc-admin/themes/modern/fields/index.php:278
 msgid "Are you sure you want to delete this custom field?"
 msgstr ""
 
 #: oc-admin/themes/modern/upgrade/index.php:35
 #: oc-admin/themes/modern/tools/import.php:57
-#: oc-admin/themes/modern/tools/upgrade.php:192
+#: oc-admin/themes/modern/tools/phpinfo.php:43
+#: oc-admin/themes/modern/tools/upgrade.php:87
 #: oc-admin/themes/modern/tools/maintenance.php:56
-#: oc-admin/themes/modern/tools/backup.php:55
-#: oc-includes/osclass/classes/AdminMenu.php:296
+#: oc-admin/themes/modern/tools/backup.php:71
+#: oc-includes/osclass/classes/AdminMenu.php:305
 msgid "Tools"
 msgstr ""
 
 #: oc-admin/themes/modern/upgrade/index.php:47
 #: oc-admin/themes/modern/upgrade/index.php:88
-#: oc-admin/themes/modern/tools/upgrade.php:216
+#: oc-admin/themes/modern/tools/upgrade.php:34
+#: oc-admin/themes/modern/tools/upgrade.php:111
 msgid "Upgrade"
 msgstr ""
 
@@ -337,127 +349,134 @@ msgstr ""
 
 #: oc-admin/themes/modern/items/frm.php:51
 #: oc-admin/themes/modern/items/frm.php:52
-#: oc-admin/themes/modern/items/index.php:49
+#: oc-admin/themes/modern/items/index.php:51
 msgid "Add listing"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:54
+#: oc-admin/themes/modern/items/frm.php:55
 msgid "Edit listing"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:55
+#: oc-admin/themes/modern/items/frm.php:56
 msgid "Update listing"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:173
+#: oc-admin/themes/modern/items/frm.php:180
 msgid "View listing on front"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:207
-#: oc-admin/themes/modern/items/index.php:297
+#: oc-admin/themes/modern/items/frm.php:215
+#: oc-admin/themes/modern/items/index.php:227
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:99
 msgid "Category"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:214
+#: oc-admin/themes/modern/items/frm.php:223
+#: oc-admin/themes/modern/items/settings.php:272
+msgid "Price"
+msgstr ""
+
+#: oc-admin/themes/modern/items/frm.php:231
 msgid "Photos"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:222
+#: oc-admin/themes/modern/items/frm.php:239
 msgid "optional"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:227
+#: oc-admin/themes/modern/items/frm.php:243
 msgid "Add new photo"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:243
+#: oc-admin/themes/modern/items/frm.php:256
 #: oc-includes/osclass/classes/form/UserForm.php:368
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:98
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:588
 msgid "User"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:249
+#: oc-admin/themes/modern/items/frm.php:263
 #: oc-admin/themes/modern/users/frm.php:262
-#: oc-admin/themes/modern/admins/index.php:93
-#: oc-admin/themes/modern/admins/index.php:108 oc-admin/gui/recover.php:42
+#: oc-admin/themes/modern/admins/index.php:164 oc-admin/gui/recover.php:42
 #: oc-includes/osclass/classes/datatables/UsersDataTable.php:88
 #: oc-includes/osclass/classes/datatables/AlertsDataTable.php:75
 msgid "E-mail"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:253
+#: oc-admin/themes/modern/items/frm.php:267
 #: oc-admin/themes/modern/users/frm.php:274
 msgid "Phone"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:258
+#: oc-admin/themes/modern/items/frm.php:272
 msgid "Ip Address"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:266
+#: oc-admin/themes/modern/items/frm.php:278
 msgid "Show e-mail"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:273
+#: oc-admin/themes/modern/items/frm.php:284
 #: oc-admin/themes/modern/users/frm.php:298
-#: oc-includes/osclass/install-functions.php:1062
+#: oc-includes/osclass/install-functions.php:1063
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:100
 msgid "Location"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:275
-#: oc-admin/themes/modern/items/index.php:305
+#: oc-admin/themes/modern/items/frm.php:286
+#: oc-admin/themes/modern/items/index.php:235
 #: oc-admin/themes/modern/users/frm.php:300
-#: oc-admin/themes/modern/users/index.php:290
-#: oc-admin/themes/modern/stats/users.php:171
-#: oc-admin/themes/modern/settings/locations.php:185
+#: oc-admin/themes/modern/users/index.php:239
+#: oc-admin/themes/modern/stats/users.php:170
+#: oc-admin/themes/modern/settings/locations.php:222
+#: oc-admin/themes/modern/settings/locations.php:247
 msgid "Country"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:279
-#: oc-admin/themes/modern/items/index.php:313
+#: oc-admin/themes/modern/items/frm.php:290
+#: oc-admin/themes/modern/items/index.php:243
 #: oc-admin/themes/modern/users/frm.php:306
-#: oc-admin/themes/modern/users/index.php:301
-#: oc-admin/themes/modern/stats/users.php:187
-#: oc-admin/themes/modern/settings/locations.php:199
+#: oc-admin/themes/modern/users/index.php:250
+#: oc-admin/themes/modern/stats/users.php:186
+#: oc-admin/themes/modern/settings/locations.php:280
+#: oc-admin/themes/modern/settings/locations.php:304
 msgid "Region"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:283
-#: oc-admin/themes/modern/items/index.php:321
+#: oc-admin/themes/modern/items/frm.php:294
+#: oc-admin/themes/modern/items/index.php:251
 #: oc-admin/themes/modern/users/frm.php:312
-#: oc-admin/themes/modern/users/index.php:312
-#: oc-admin/themes/modern/settings/locations.php:183
+#: oc-admin/themes/modern/users/index.php:261
+#: oc-admin/themes/modern/settings/locations.php:339
+#: oc-admin/themes/modern/settings/locations.php:363
 msgid "City"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:287
+#: oc-admin/themes/modern/items/frm.php:298
 #: oc-admin/themes/modern/users/frm.php:318
 msgid "City area"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:291
+#: oc-admin/themes/modern/items/frm.php:302
 #: oc-admin/themes/modern/users/frm.php:324
 msgid "Zip code"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:295
+#: oc-admin/themes/modern/items/frm.php:306
 #: oc-admin/themes/modern/users/frm.php:330
 msgid "Address"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:303
+#: oc-admin/themes/modern/items/frm.php:312
 msgid "Expiration"
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:308
-#: oc-admin/themes/modern/items/frm.php:319
+#: oc-admin/themes/modern/items/frm.php:317
+#: oc-admin/themes/modern/items/frm.php:328
 msgid "It could be an integer (days from original publishing date it will be expired, 0 to never expire) or a date in the format \"yyyy-mm-dd hh:mm:ss\""
 msgstr ""
 
-#: oc-admin/themes/modern/items/frm.php:313
+#: oc-admin/themes/modern/items/frm.php:322
 msgid "Update expiration?"
 msgstr ""
 
@@ -466,195 +485,86 @@ msgid "Manage all the listings on your site: edit, delete or block the latest li
 msgstr ""
 
 #: oc-admin/themes/modern/items/index.php:46
-#: oc-admin/themes/modern/items/reported.php:43
-#: oc-admin/themes/modern/main/index.php:85
-#: oc-admin/themes/modern/main/index.php:171
-#: oc-admin/themes/modern/main/index.php:184
-#: oc-includes/osclass/classes/AdminMenu.php:55
-#: oc-includes/osclass/classes/AdminMenu.php:129
+#: oc-admin/themes/modern/items/reported.php:44
+#: oc-admin/themes/modern/main/index.php:88
+#: oc-admin/themes/modern/main/index.php:242
+#: oc-admin/themes/modern/main/index.php:255
+#: oc-includes/osclass/classes/AdminMenu.php:67
+#: oc-includes/osclass/classes/AdminMenu.php:139
 msgid "Listings"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:47
-#: oc-admin/themes/modern/items/settings.php:112
-#: oc-admin/themes/modern/languages/frm.php:37
-#: oc-admin/themes/modern/languages/index.php:45
-#: oc-admin/themes/modern/languages/add.php:35
-#: oc-admin/themes/modern/users/index.php:47
-#: oc-admin/themes/modern/users/ban.php:46
-#: oc-admin/themes/modern/users/settings.php:76
-#: oc-admin/themes/modern/media/index.php:46
-#: oc-admin/themes/modern/comments/index.php:47
-#: oc-admin/themes/modern/emails/frm.php:36
-#: oc-admin/themes/modern/emails/index.php:46
-#: oc-admin/themes/modern/settings/locations.php:47
-#: oc-admin/themes/modern/settings/comments.php:112
-#: oc-admin/themes/modern/settings/spamNbots.php:55
-#: oc-admin/themes/modern/settings/index.php:165
-#: oc-admin/themes/modern/settings/currency_form.php:85
-#: oc-admin/themes/modern/settings/advanced.php:72
-#: oc-admin/themes/modern/settings/permalinks.php:395
-#: oc-admin/themes/modern/settings/searches.php:107
-#: oc-admin/themes/modern/settings/media.php:163
-#: oc-admin/themes/modern/settings/mailserver.php:100
-#: oc-admin/themes/modern/settings/currencies.php:43
-#: oc-includes/osclass/classes/AdminMenu.php:93
-#: oc-includes/osclass/classes/AdminMenu.php:156
-msgid "Settings"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:64
+#: oc-admin/themes/modern/items/index.php:66
 #, php-format
 msgid "Manage listings &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:128
-#: oc-includes/osclass/classes/AdminMenu.php:58
-msgid "Manage listings"
+#: oc-admin/themes/modern/items/index.php:118
+#: oc-admin/themes/modern/items/reported.php:89
+msgid "Delete listing"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:139
-#: oc-admin/themes/modern/items/index.php:142
-#: oc-admin/themes/modern/items/index.php:145
-#: oc-admin/themes/modern/items/index.php:148
-#: oc-admin/themes/modern/items/reported.php:82
-#: oc-admin/themes/modern/items/reported.php:85
-#: oc-admin/themes/modern/items/reported.php:88
-#: oc-admin/themes/modern/items/reported.php:91
-#: oc-admin/themes/modern/users/index.php:127
-#: oc-admin/themes/modern/users/index.php:130
-#: oc-admin/themes/modern/users/index.php:133
-#: oc-admin/themes/modern/users/index.php:136
-#, php-format
-msgid "%d Listings"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:156
-#: oc-admin/themes/modern/items/index.php:407
-#: oc-admin/themes/modern/items/reported.php:96
-#: oc-admin/themes/modern/users/index.php:149
-#: oc-admin/themes/modern/users/index.php:347
-msgid "Reset filters"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:177
-#: oc-admin/themes/modern/items/index.php:289
-msgid "Pattern"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:180
-#: oc-admin/themes/modern/items/index.php:333
-#: oc-admin/themes/modern/users/index.php:244
-msgid "Email"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:183
-#: oc-admin/themes/modern/items/index.php:188
-msgid "Item ID"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:185
-msgid "Keywords"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:186
-msgid "User Email"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:187
-msgid "User ID"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:193
-#: oc-admin/themes/modern/users/index.php:153
-msgid "Show filters"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:195
-#: oc-admin/themes/modern/users/alerts.php:85
-#: oc-admin/themes/modern/users/index.php:155
-msgid "Find"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:213
-#: oc-admin/themes/modern/items/reported.php:118
-#: oc-admin/themes/modern/languages/index.php:105
-#: oc-admin/themes/modern/users/alerts.php:110
-#: oc-admin/themes/modern/users/index.php:168
-#: oc-admin/themes/modern/users/ban.php:160
-#: oc-admin/themes/modern/media/index.php:89
-#: oc-admin/themes/modern/comments/index.php:100
-#: oc-admin/themes/modern/pages/index.php:146
-#: oc-admin/themes/modern/admins/index.php:83
-#: oc-admin/themes/modern/settings/currencies.php:108
-msgid "Apply"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:244
-#: oc-admin/themes/modern/items/reported.php:146
-#: oc-admin/themes/modern/languages/index.php:145
-#: oc-admin/themes/modern/users/alerts.php:140
-#: oc-admin/themes/modern/users/index.php:197
-#: oc-admin/themes/modern/users/ban.php:188
-#: oc-admin/themes/modern/plugins/index.php:114
-#: oc-admin/themes/modern/media/index.php:123
-#: oc-admin/themes/modern/comments/index.php:129
-#: oc-admin/themes/modern/emails/index.php:95
-#: oc-admin/themes/modern/pages/index.php:174
-#: oc-admin/themes/modern/admins/index.php:120
-msgid "No data available in table"
-msgstr ""
-
-#: oc-admin/themes/modern/items/index.php:276
-#: oc-admin/themes/modern/users/index.php:230
+#: oc-admin/themes/modern/items/index.php:159
+#: oc-admin/themes/modern/users/index.php:119
 msgid "Filters"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:342
+#: oc-admin/themes/modern/items/index.php:218
+#: oc-admin/themes/modern/items/index.php:404
+msgid "Pattern"
+msgstr ""
+
+#: oc-admin/themes/modern/items/index.php:263
+#: oc-admin/themes/modern/items/index.php:407
+#: oc-admin/themes/modern/users/index.php:193
+msgid "Email"
+msgstr ""
+
+#: oc-admin/themes/modern/items/index.php:274
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:410
 msgid "Premium"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:347
-#: oc-admin/themes/modern/items/index.php:362
-#: oc-admin/themes/modern/items/index.php:377
-#: oc-admin/themes/modern/items/index.php:392
-#: oc-admin/themes/modern/users/index.php:276
-#: oc-admin/themes/modern/users/index.php:328
+#: oc-admin/themes/modern/items/index.php:279
+#: oc-admin/themes/modern/items/index.php:294
+#: oc-admin/themes/modern/items/index.php:309
+#: oc-admin/themes/modern/items/index.php:324
+#: oc-admin/themes/modern/users/index.php:225
+#: oc-admin/themes/modern/users/index.php:277
 msgid "Choose an option"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:349
-#: oc-admin/themes/modern/items/index.php:364
-#: oc-admin/themes/modern/items/index.php:379
-#: oc-admin/themes/modern/items/index.php:394
-#: oc-admin/themes/modern/users/index.php:278
-#: oc-admin/themes/modern/users/index.php:330
-#: oc-admin/themes/modern/tools/maintenance.php:90
+#: oc-admin/themes/modern/items/index.php:281
+#: oc-admin/themes/modern/items/index.php:296
+#: oc-admin/themes/modern/items/index.php:311
+#: oc-admin/themes/modern/items/index.php:326
+#: oc-admin/themes/modern/users/index.php:227
+#: oc-admin/themes/modern/users/index.php:279
+#: oc-admin/themes/modern/tools/maintenance.php:89
 msgid "ON"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:351
-#: oc-admin/themes/modern/items/index.php:366
-#: oc-admin/themes/modern/items/index.php:381
-#: oc-admin/themes/modern/items/index.php:396
-#: oc-admin/themes/modern/users/index.php:280
-#: oc-admin/themes/modern/users/index.php:332
-#: oc-admin/themes/modern/tools/maintenance.php:90
+#: oc-admin/themes/modern/items/index.php:283
+#: oc-admin/themes/modern/items/index.php:298
+#: oc-admin/themes/modern/items/index.php:313
+#: oc-admin/themes/modern/items/index.php:328
+#: oc-admin/themes/modern/users/index.php:229
+#: oc-admin/themes/modern/users/index.php:281
+#: oc-admin/themes/modern/tools/maintenance.php:89
 msgid "OFF"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:357
-#: oc-admin/themes/modern/users/index.php:271
+#: oc-admin/themes/modern/items/index.php:289
+#: oc-admin/themes/modern/users/index.php:220
 #: oc-admin/themes/modern/comments/frm.php:119
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:330
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:323
 #: oc-includes/osclass/classes/datatables/CommentsDataTable.php:254
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:423
 msgid "Active"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:372
-#: oc-admin/themes/modern/users/index.php:323
+#: oc-admin/themes/modern/items/index.php:304
+#: oc-admin/themes/modern/users/index.php:272
 #: oc-admin/themes/modern/comments/frm.php:135
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:129
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:738
@@ -664,50 +574,115 @@ msgstr ""
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:555
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:968
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:970
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:238
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:231
 #: oc-includes/osclass/classes/datatables/CommentsDataTable.php:155
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:267
 msgid "Block"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:387
-#: oc-admin/themes/modern/stats/reports.php:107
+#: oc-admin/themes/modern/items/index.php:319
+#: oc-admin/themes/modern/stats/reports.php:106
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:389
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:589
-#: oc-includes/osclass/functions.php:556
+#: oc-includes/osclass/functions.php:571
 msgid "Spam"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:406
-#: oc-admin/themes/modern/users/index.php:344
+#: oc-admin/themes/modern/items/index.php:340
+#: oc-admin/themes/modern/users/index.php:292
 msgid "Apply filters"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:420
-#: oc-admin/themes/modern/items/reported.php:167
-msgid "Delete listing"
+#: oc-admin/themes/modern/items/index.php:343
+#: oc-admin/themes/modern/items/index.php:379
+#: oc-admin/themes/modern/items/reported.php:172
+#: oc-admin/themes/modern/users/index.php:295
+#: oc-admin/themes/modern/users/index.php:331
+msgid "Reset filters"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:425
-#: oc-admin/themes/modern/items/reported.php:172
+#: oc-admin/themes/modern/items/index.php:347
+#: oc-includes/osclass/classes/AdminMenu.php:70
+msgid "Manage listings"
+msgstr ""
+
+#: oc-admin/themes/modern/items/index.php:362
+#: oc-admin/themes/modern/items/index.php:365
+#: oc-admin/themes/modern/items/index.php:368
+#: oc-admin/themes/modern/items/index.php:371
+#: oc-admin/themes/modern/items/reported.php:158
+#: oc-admin/themes/modern/items/reported.php:161
+#: oc-admin/themes/modern/items/reported.php:164
+#: oc-admin/themes/modern/items/reported.php:167
+#, php-format
+msgid "%d Listings"
+msgstr ""
+
+#: oc-admin/themes/modern/items/index.php:383
+#: oc-admin/themes/modern/users/index.php:335
+msgid "Show filters"
+msgstr ""
+
+#: oc-admin/themes/modern/items/index.php:410
+msgid "Item ID"
+msgstr ""
+
+#: oc-admin/themes/modern/items/index.php:424
+#: oc-admin/themes/modern/users/alerts.php:169
+#: oc-admin/themes/modern/users/index.php:340
+msgid "Find"
+msgstr ""
+
+#: oc-admin/themes/modern/items/index.php:436
+#: oc-admin/themes/modern/items/reported.php:199
+#: oc-admin/themes/modern/languages/index.php:160
+#: oc-admin/themes/modern/users/alerts.php:192
+#: oc-admin/themes/modern/users/index.php:351
+#: oc-admin/themes/modern/users/ban.php:165
+#: oc-admin/themes/modern/media/index.php:160
+#: oc-admin/themes/modern/comments/index.php:168
+#: oc-admin/themes/modern/pages/index.php:189
+#: oc-admin/themes/modern/admins/index.php:154
+#: oc-admin/themes/modern/settings/currencies.php:176
+msgid "Apply"
+msgstr ""
+
+#: oc-admin/themes/modern/items/index.php:462
+#: oc-admin/themes/modern/items/reported.php:224
+#: oc-admin/themes/modern/languages/index.php:191
+#: oc-admin/themes/modern/users/alerts.php:222
+#: oc-admin/themes/modern/users/index.php:380
+#: oc-admin/themes/modern/users/ban.php:193
+#: oc-admin/themes/modern/plugins/index.php:174
+#: oc-admin/themes/modern/plugins/index.php:264
+#: oc-admin/themes/modern/media/index.php:194
+#: oc-admin/themes/modern/comments/index.php:197
+#: oc-admin/themes/modern/emails/index.php:94
+#: oc-admin/themes/modern/pages/index.php:214
+#: oc-admin/themes/modern/admins/index.php:185
+msgid "No data available in table"
+msgstr ""
+
+#: oc-admin/themes/modern/items/index.php:496
+#: oc-admin/themes/modern/items/reported.php:244
 msgid "Are you sure you want to delete this listing?"
 msgstr ""
 
-#: oc-admin/themes/modern/items/index.php:440
-#: oc-admin/themes/modern/items/reported.php:106
-#: oc-admin/themes/modern/items/reported.php:187
-#: oc-admin/themes/modern/languages/index.php:215
-#: oc-admin/themes/modern/users/alerts.php:197
-#: oc-admin/themes/modern/users/index.php:382
-#: oc-admin/themes/modern/users/ban.php:234
-#: oc-admin/themes/modern/media/index.php:177
-#: oc-admin/themes/modern/comments/index.php:185
-#: oc-admin/themes/modern/pages/index.php:228
-#: oc-admin/themes/modern/admins/index.php:175
-#: oc-admin/themes/modern/settings/currencies.php:100
-#: oc-admin/themes/modern/settings/currencies.php:174
+#: oc-admin/themes/modern/items/index.php:508
+#: oc-admin/themes/modern/items/reported.php:182
+#: oc-admin/themes/modern/items/reported.php:256
+#: oc-admin/themes/modern/languages/index.php:223
+#: oc-admin/themes/modern/users/alerts.php:269
+#: oc-admin/themes/modern/users/index.php:425
+#: oc-admin/themes/modern/users/ban.php:239
+#: oc-admin/themes/modern/media/index.php:238
+#: oc-admin/themes/modern/comments/index.php:243
+#: oc-admin/themes/modern/pages/index.php:259
+#: oc-admin/themes/modern/admins/index.php:230
+#: oc-admin/themes/modern/settings/currencies.php:168
+#: oc-admin/themes/modern/settings/currencies.php:226
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:321
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:595
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:542
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:395
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:563
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:709
@@ -721,70 +696,70 @@ msgstr ""
 msgid "From here, you can edit or delete the listings reported by users (spam, misclassified, duplicate, expired, offensive). You can also delete the report if you consider it mistaken."
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:58
+#: oc-admin/themes/modern/items/reported.php:60
 #, php-format
 msgid "Reported listings &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:71
-#: oc-includes/osclass/classes/AdminMenu.php:65
+#: oc-admin/themes/modern/items/reported.php:145
+#: oc-includes/osclass/classes/AdminMenu.php:77
 msgid "Reported listings"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:108
+#: oc-admin/themes/modern/items/reported.php:184
 #, php-format
 msgid "Are you sure you want to %s the selected items?"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:111
+#: oc-admin/themes/modern/items/reported.php:187
 msgid "Are you sure you want to clear all the reportings of the selected items?"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:111
+#: oc-admin/themes/modern/items/reported.php:187
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:627
 msgid "Clear All"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:112
+#: oc-admin/themes/modern/items/reported.php:189
 msgid "Are you sure you want to clear the spam reportings of the selected items?"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:112
+#: oc-admin/themes/modern/items/reported.php:189
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:630
 msgid "Clear Spam"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:113
+#: oc-admin/themes/modern/items/reported.php:191
 msgid "Are you sure you want to clear the misclassified reportings of the selected items?"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:113
+#: oc-admin/themes/modern/items/reported.php:191
 msgid "Clear Missclassified"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:114
+#: oc-admin/themes/modern/items/reported.php:193
 msgid "Are you sure you want to clear the duplicated reportings of the selected items?"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:114
+#: oc-admin/themes/modern/items/reported.php:193
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:640
 msgid "Clear Duplicated"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:115
+#: oc-admin/themes/modern/items/reported.php:195
 msgid "Are you sure you want to clear the expired reportings of the selected items?"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:115
+#: oc-admin/themes/modern/items/reported.php:195
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:649
 msgid "Clear Expired"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:116
+#: oc-admin/themes/modern/items/reported.php:197
 msgid "Are you sure you want to clear the offensive reportings of the selected items?"
 msgstr ""
 
-#: oc-admin/themes/modern/items/reported.php:116
+#: oc-admin/themes/modern/items/reported.php:197
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:644
 msgid "Clear Offensive"
 msgstr ""
@@ -793,96 +768,120 @@ msgstr ""
 msgid "Modify the general settings for your listings. Decide if users have to register in order to publish something, the number of pictures allowed for each listing, etc."
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:95
+#: oc-admin/themes/modern/items/settings.php:94
 #, php-format
 msgid "Listing Settings &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:105
+#: oc-admin/themes/modern/items/settings.php:104
 msgid "Listing Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:118
+#: oc-admin/themes/modern/items/settings.php:111
+#: oc-admin/themes/modern/languages/frm.php:37
+#: oc-admin/themes/modern/languages/index.php:45
+#: oc-admin/themes/modern/languages/add.php:35
+#: oc-admin/themes/modern/users/settings.php:75
+#: oc-admin/themes/modern/comments/index.php:47
+#: oc-admin/themes/modern/emails/frm.php:36
+#: oc-admin/themes/modern/emails/index.php:46
+#: oc-admin/themes/modern/settings/locations.php:185
+#: oc-admin/themes/modern/settings/comments.php:112
+#: oc-admin/themes/modern/settings/spamNbots.php:55
+#: oc-admin/themes/modern/settings/index.php:165
+#: oc-admin/themes/modern/settings/currency_form.php:85
+#: oc-admin/themes/modern/settings/advanced.php:72
+#: oc-admin/themes/modern/settings/permalinks.php:396
+#: oc-admin/themes/modern/settings/searches.php:107
+#: oc-admin/themes/modern/settings/media.php:184
+#: oc-admin/themes/modern/settings/mailserver.php:100
+#: oc-admin/themes/modern/settings/currencies.php:44
+#: oc-includes/osclass/classes/AdminMenu.php:105
+#: oc-includes/osclass/classes/AdminMenu.php:166
+msgid "Settings"
+msgstr ""
+
+#: oc-admin/themes/modern/items/settings.php:117
 msgid "Only logged in users can post listings"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:122
+#: oc-admin/themes/modern/items/settings.php:121
 #, php-format
 msgid "An user has to wait %s seconds between each listing added"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:126
+#: oc-admin/themes/modern/items/settings.php:125
 msgid "If the value is set to zero, there is no wait period"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:134
+#: oc-admin/themes/modern/items/settings.php:133
 msgid "Hold new listings for admin moderation"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:142
+#: oc-admin/themes/modern/items/settings.php:141
 msgid "Hold edited listings for admin moderation"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:149
+#: oc-admin/themes/modern/items/settings.php:148
 msgid "Users have to validate their listings"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:154
+#: oc-admin/themes/modern/items/settings.php:153
 #, php-format
 msgid "After %s validated listings the user doesn't need to validate the listings any more"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:158
+#: oc-admin/themes/modern/items/settings.php:157
 msgid "If the value is zero, it means that each listing must be validated"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:166
+#: oc-admin/themes/modern/items/settings.php:165
 msgid "Logged in users don't need to validate their listings"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:174
+#: oc-admin/themes/modern/items/settings.php:173
 msgid "Show reCAPTCHA in add/edit listing form"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:176
+#: oc-admin/themes/modern/items/settings.php:175
 msgid "<strong>Remember</strong> that you must configure reCAPTCHA first"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:181
+#: oc-admin/themes/modern/items/settings.php:180
 #: oc-includes/osclass/classes/Breadcrumb.php:66
 msgid "Contact publisher"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:187
+#: oc-admin/themes/modern/items/settings.php:186
 msgid "Only allow registered users to contact publisher"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:194
+#: oc-admin/themes/modern/items/settings.php:193
 msgid "Allow attached files in contact publisher form"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:200
-#: oc-admin/themes/modern/settings/comments.php:186
+#: oc-admin/themes/modern/items/settings.php:199
+#: oc-admin/themes/modern/settings/comments.php:185
 msgid "Notifications"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:206
+#: oc-admin/themes/modern/items/settings.php:205
 msgid "Notify admin when a new listing is added"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:213
+#: oc-admin/themes/modern/items/settings.php:212
 msgid "Send admin a copy of the \"contact publisher\" email"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:220
+#: oc-admin/themes/modern/items/settings.php:219
 msgid "Send admin a copy to \"share listing\" email"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:226
+#: oc-admin/themes/modern/items/settings.php:225
 msgid "Warn about expiration"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:230
+#: oc-admin/themes/modern/items/settings.php:229
 msgid "days"
 msgstr ""
 
@@ -890,69 +889,64 @@ msgstr ""
 msgid "This option will send an email X days before an ad expires to the author. 0 for no email."
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:235
+#: oc-admin/themes/modern/items/settings.php:234
 msgid "Title length"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:238
-#: oc-admin/themes/modern/items/settings.php:248
+#: oc-admin/themes/modern/items/settings.php:237
+#: oc-admin/themes/modern/items/settings.php:247
 #, php-format
 msgid "%s characters "
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:245
+#: oc-admin/themes/modern/items/settings.php:244
 msgid "Description length"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:255
+#: oc-admin/themes/modern/items/settings.php:254
 msgid "Rich Edit"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:261
+#: oc-admin/themes/modern/items/settings.php:260
 msgid "Enable TinyMCE on frontend"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:267
+#: oc-admin/themes/modern/items/settings.php:266
 msgid "Optional fields"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:273
-#: oc-includes/osclass/classes/form/admin/Item.php:210
-msgid "Price"
-msgstr ""
-
-#: oc-admin/themes/modern/items/settings.php:279
+#: oc-admin/themes/modern/items/settings.php:278
 msgid "Attach images"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:283
+#: oc-admin/themes/modern/items/settings.php:282
 #, php-format
 msgid "Attach %s images per listing"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:286
+#: oc-admin/themes/modern/items/settings.php:285
 msgid "If the value is zero, it means an unlimited number of images is allowed"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:292
-#: oc-admin/themes/modern/settings/index.php:447
+#: oc-admin/themes/modern/items/settings.php:291
+#: oc-admin/themes/modern/settings/index.php:438
 msgid "Maps"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:299
-#: oc-admin/themes/modern/settings/media.php:292
+#: oc-admin/themes/modern/items/settings.php:298
+#: oc-admin/themes/modern/settings/media.php:312
 msgid "None"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:302
+#: oc-admin/themes/modern/items/settings.php:301
 msgid "Google Maps"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:305
+#: oc-admin/themes/modern/items/settings.php:304
 msgid "OpenStreetMaps"
 msgstr ""
 
-#: oc-admin/themes/modern/items/settings.php:307
+#: oc-admin/themes/modern/items/settings.php:306
 msgid "Set the API key in Settings -> General."
 msgstr ""
 
@@ -966,22 +960,19 @@ msgid "Edit language"
 msgstr ""
 
 #: oc-admin/themes/modern/languages/frm.php:85
-#: oc-admin/themes/modern/languages/index.php:114
-#: oc-admin/themes/modern/languages/index.php:130
+#: oc-admin/themes/modern/languages/index.php:169
 msgid "Short name"
 msgstr ""
 
 #: oc-admin/themes/modern/languages/frm.php:91
-#: oc-admin/themes/modern/languages/index.php:115
-#: oc-admin/themes/modern/languages/index.php:132
-#: oc-admin/themes/modern/plugins/index.php:94
-#: oc-admin/themes/modern/appearance/index.php:96
-#: oc-admin/themes/modern/settings/currencies.php:117
-#: oc-admin/themes/modern/settings/currencies.php:131
-#: oc-includes/osclass/classes/form/ItemForm.php:595
-#: oc-includes/osclass/classes/form/PageForm.php:258
-#: oc-includes/osclass/classes/form/CategoryForm.php:232
-#: oc-includes/osclass/classes/form/admin/Item.php:187
+#: oc-admin/themes/modern/languages/index.php:170
+#: oc-admin/themes/modern/plugins/index.php:152
+#: oc-admin/themes/modern/plugins/index.php:243
+#: oc-admin/themes/modern/functions.php:235
+#: oc-admin/themes/modern/functions.php:281
+#: oc-admin/themes/modern/settings/currencies.php:185
+#: oc-includes/osclass/classes/form/ItemForm.php:594
+#: oc-includes/osclass/classes/form/CategoryForm.php:222
 #: oc-includes/osclass/emails.php:1266 oc-includes/osclass/emails.php:1271
 #: oc-includes/osclass/emails.php:1374 oc-includes/osclass/emails.php:1379
 #: oc-includes/osclass/emails.php:1496 oc-includes/osclass/emails.php:1501
@@ -1024,66 +1015,69 @@ msgstr ""
 msgid "Add, edit or delete the language in which your Osclass is displayed, both the part that's viewable by users and the admin panel."
 msgstr ""
 
-#: oc-admin/themes/modern/languages/index.php:47
-msgid "Download language"
+#: oc-admin/themes/modern/languages/index.php:48
+#: oc-admin/themes/modern/languages/add.php:55
+msgid "Add language"
 msgstr ""
 
-#: oc-admin/themes/modern/languages/index.php:50
-msgid "Upload language"
-msgstr ""
-
-#: oc-admin/themes/modern/languages/index.php:61
+#: oc-admin/themes/modern/languages/index.php:58
 #, php-format
 msgid "Languages &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/languages/index.php:97
-msgid "Manage Languages"
+#: oc-admin/themes/modern/languages/index.php:86
+msgid "Add official languages."
 msgstr ""
 
-#: oc-admin/themes/modern/languages/index.php:116
-#: oc-admin/themes/modern/languages/index.php:134
-msgid "Enabled (website)"
-msgstr ""
-
-#: oc-admin/themes/modern/languages/index.php:117
-#: oc-admin/themes/modern/languages/index.php:136
-msgid "Enabled (oc-admin)"
-msgstr ""
-
-#: oc-admin/themes/modern/languages/index.php:164
-#: oc-admin/themes/modern/languages/index.php:171
-msgid "Import a language"
-msgstr ""
-
-#: oc-admin/themes/modern/languages/index.php:169
-msgid "Import a language from our database. Already imported languages aren't shown."
-msgstr ""
-
-#: oc-admin/themes/modern/languages/index.php:173
-msgid "Select an option"
-msgstr ""
-
-#: oc-admin/themes/modern/languages/index.php:181
-#: oc-admin/themes/modern/tools/import.php:81
-#: oc-admin/themes/modern/settings/locations.php:194
-msgid "Import"
-msgstr ""
-
-#: oc-admin/themes/modern/languages/index.php:195
+#: oc-admin/themes/modern/languages/index.php:94
 msgid "Delete language"
 msgstr ""
 
-#: oc-admin/themes/modern/languages/index.php:200
+#: oc-admin/themes/modern/languages/index.php:146
+msgid "Manage Languages"
+msgstr ""
+
+#: oc-admin/themes/modern/languages/index.php:147
+msgid "Add new (official)"
+msgstr ""
+
+#: oc-admin/themes/modern/languages/index.php:149
+msgid "Add new (.zip)"
+msgstr ""
+
+#: oc-admin/themes/modern/languages/index.php:171
+msgid "Enabled (website)"
+msgstr ""
+
+#: oc-admin/themes/modern/languages/index.php:172
+msgid "Enabled (oc-admin)"
+msgstr ""
+
+#: oc-admin/themes/modern/languages/index.php:210
 msgid "Are you sure you want to delete this language?"
 msgstr ""
 
-#: oc-admin/themes/modern/languages/index.php:270
-msgid "Updated"
+#: oc-admin/themes/modern/languages/index.php:242
+msgid "Import a language from our database. Already imported languages aren't shown."
 msgstr ""
 
-#: oc-admin/themes/modern/languages/index.php:277
+#: oc-admin/themes/modern/languages/index.php:247
+msgid "Import a language"
+msgstr ""
+
+#: oc-admin/themes/modern/languages/index.php:252
+#: oc-admin/themes/modern/settings/locations.php:515
+msgid "Select an option"
+msgstr ""
+
+#: oc-admin/themes/modern/languages/index.php:260
 msgid "No official languages available."
+msgstr ""
+
+#: oc-admin/themes/modern/languages/index.php:270
+#: oc-admin/themes/modern/tools/import.php:80
+#: oc-admin/themes/modern/settings/locations.php:526
+msgid "Import"
 msgstr ""
 
 #: oc-admin/themes/modern/languages/add.php:47
@@ -1091,17 +1085,13 @@ msgstr ""
 msgid "Add language &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/languages/add.php:55
-msgid "Add language"
-msgstr ""
-
 #: oc-admin/themes/modern/languages/add.php:65
 msgid "Language package (.zip)"
 msgstr ""
 
 #: oc-admin/themes/modern/languages/add.php:71
-#: oc-admin/themes/modern/plugins/add.php:85
-#: oc-admin/themes/modern/appearance/add.php:85
+#: oc-admin/themes/modern/plugins/add.php:84
+#: oc-admin/themes/modern/appearance/add.php:84
 msgid "Upload"
 msgstr ""
 
@@ -1114,8 +1104,8 @@ msgid "The translations folder is not writable on your server so you can't uploa
 msgstr ""
 
 #: oc-admin/themes/modern/languages/add.php:85
-#: oc-admin/themes/modern/plugins/add.php:99
-#: oc-admin/themes/modern/appearance/add.php:98
+#: oc-admin/themes/modern/plugins/add.php:98
+#: oc-admin/themes/modern/appearance/add.php:97
 msgid "To make the directory writable under UNIX execute this command from the shell:"
 msgstr ""
 
@@ -1137,10 +1127,10 @@ msgstr ""
 #: oc-admin/themes/modern/users/index.php:45
 #: oc-admin/themes/modern/users/ban.php:44
 #: oc-admin/themes/modern/users/settings.php:46
-#: oc-admin/themes/modern/main/index.php:85
-#: oc-includes/osclass/classes/AdminMenu.php:143
-#: oc-includes/osclass/classes/AdminMenu.php:252
-#: oc-includes/osclass/classes/AdminMenu.php:255
+#: oc-admin/themes/modern/main/index.php:143
+#: oc-includes/osclass/classes/AdminMenu.php:153
+#: oc-includes/osclass/classes/AdminMenu.php:261
+#: oc-includes/osclass/classes/AdminMenu.php:264
 msgid "Users"
 msgstr ""
 
@@ -1172,12 +1162,11 @@ msgid "%s on %s"
 msgstr ""
 
 #: oc-admin/themes/modern/users/frm.php:255
-#: oc-admin/themes/modern/users/index.php:262
-#: oc-admin/themes/modern/admins/index.php:91
-#: oc-admin/themes/modern/admins/index.php:104
-#: oc-admin/themes/modern/settings/mailserver.php:172 oc-admin/gui/login.php:40
-#: oc-includes/osclass/install-functions.php:1021
-#: oc-includes/osclass/install-functions.php:1193
+#: oc-admin/themes/modern/users/index.php:211
+#: oc-admin/themes/modern/admins/index.php:162
+#: oc-admin/themes/modern/settings/mailserver.php:171 oc-admin/gui/login.php:40
+#: oc-includes/osclass/install-functions.php:1022
+#: oc-includes/osclass/install-functions.php:1194
 #: oc-includes/osclass/classes/datatables/UsersDataTable.php:89
 msgid "Username"
 msgstr ""
@@ -1207,10 +1196,10 @@ msgid "Additional information"
 msgstr ""
 
 #: oc-admin/themes/modern/users/frm.php:335
-#: oc-admin/themes/modern/settings/mailserver.php:179 oc-admin/gui/login.php:47
-#: oc-includes/osclass/install-functions.php:906
-#: oc-includes/osclass/install-functions.php:1029
-#: oc-includes/osclass/install-functions.php:1197
+#: oc-admin/themes/modern/settings/mailserver.php:178 oc-admin/gui/login.php:47
+#: oc-includes/osclass/install-functions.php:907
+#: oc-includes/osclass/install-functions.php:1030
+#: oc-includes/osclass/install-functions.php:1198
 msgid "Password"
 msgstr ""
 
@@ -1235,8 +1224,8 @@ msgstr ""
 
 #: oc-admin/themes/modern/users/frm.php:376
 #: oc-admin/themes/modern/users/alerts.php:40
-#: oc-admin/themes/modern/stats/items.php:139
-#: oc-includes/osclass/classes/AdminMenu.php:283
+#: oc-admin/themes/modern/stats/items.php:138
+#: oc-includes/osclass/classes/AdminMenu.php:292
 msgid "Alerts"
 msgstr ""
 
@@ -1263,28 +1252,28 @@ msgid "<b>Categories:</b> %s"
 msgstr ""
 
 #: oc-admin/themes/modern/users/frm.php:414
-#: oc-admin/themes/modern/categories/index.php:155
-#: oc-admin/themes/modern/categories/index.php:165
-#: oc-admin/themes/modern/categories/index.php:223
+#: oc-admin/themes/modern/categories/index.php:329
+#: oc-admin/themes/modern/categories/index.php:335
+#: oc-admin/themes/modern/categories/index.php:394
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:368
 msgid "Disable"
 msgstr ""
 
 #: oc-admin/themes/modern/users/frm.php:418
-#: oc-admin/themes/modern/categories/index.php:137
-#: oc-admin/themes/modern/categories/index.php:146
-#: oc-admin/themes/modern/categories/index.php:225
+#: oc-admin/themes/modern/categories/index.php:319
+#: oc-admin/themes/modern/categories/index.php:324
+#: oc-admin/themes/modern/categories/index.php:394
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:372
 msgid "Enable"
 msgstr ""
 
 #: oc-admin/themes/modern/users/frm.php:442
-#: oc-admin/themes/modern/users/alerts.php:177
+#: oc-admin/themes/modern/users/alerts.php:250
 msgid "Delete alert"
 msgstr ""
 
 #: oc-admin/themes/modern/users/frm.php:449
-#: oc-admin/themes/modern/users/alerts.php:182
+#: oc-admin/themes/modern/users/alerts.php:257
 msgid "Are you sure you want to delete this alert?"
 msgstr ""
 
@@ -1292,29 +1281,29 @@ msgstr ""
 msgid "Add, edit or delete information associated to alerts."
 msgstr ""
 
-#: oc-admin/themes/modern/users/alerts.php:57
+#: oc-admin/themes/modern/users/alerts.php:56
 #, php-format
 msgid "Manage alerts &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/users/alerts.php:72
+#: oc-admin/themes/modern/users/alerts.php:157
 msgid "Manage alerts"
 msgstr ""
 
-#: oc-admin/themes/modern/users/alerts.php:99
+#: oc-admin/themes/modern/users/alerts.php:181
 msgid "Bulk Actions"
 msgstr ""
 
-#: oc-admin/themes/modern/users/alerts.php:101
-#: oc-admin/themes/modern/users/alerts.php:104
-#: oc-admin/themes/modern/users/alerts.php:107
+#: oc-admin/themes/modern/users/alerts.php:183
+#: oc-admin/themes/modern/users/alerts.php:186
+#: oc-admin/themes/modern/users/alerts.php:189
 #, php-format
 msgid "Are you sure you want to %s the selected alerts?"
 msgstr ""
 
-#: oc-admin/themes/modern/users/alerts.php:102
+#: oc-admin/themes/modern/users/alerts.php:184
 #: oc-admin/themes/modern/comments/frm.php:123
-#: oc-admin/themes/modern/appearance/index.php:130
+#: oc-admin/themes/modern/appearance/index.php:153
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:124
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:714
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:716
@@ -1323,14 +1312,14 @@ msgstr ""
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:550
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:952
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:954
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:234
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:227
 #: oc-includes/osclass/classes/datatables/AlertsDataTable.php:158
 #: oc-includes/osclass/classes/datatables/CommentsDataTable.php:174
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:262
 msgid "Activate"
 msgstr ""
 
-#: oc-admin/themes/modern/users/alerts.php:105
+#: oc-admin/themes/modern/users/alerts.php:187
 #: oc-admin/themes/modern/comments/frm.php:123
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:120
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:722
@@ -1340,7 +1329,7 @@ msgstr ""
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:546
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:960
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:962
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:231
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:224
 #: oc-includes/osclass/classes/datatables/AlertsDataTable.php:154
 #: oc-includes/osclass/classes/datatables/CommentsDataTable.php:170
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:258
@@ -1353,27 +1342,36 @@ msgstr ""
 
 #: oc-admin/themes/modern/users/index.php:50
 #: oc-admin/themes/modern/comments/frm.php:45
-#: oc-admin/themes/modern/categories/index.php:56
+#: oc-admin/themes/modern/categories/index.php:54
 #: oc-admin/themes/modern/admins/frm.php:50
-#: oc-admin/themes/modern/settings/currency_form.php:89
+#: oc-admin/themes/modern/settings/locations.php:144
+#: oc-admin/themes/modern/settings/currency_form.php:88
 #: oc-admin/themes/modern/settings/currencies.php:47
 msgid "Add"
 msgstr ""
 
-#: oc-admin/themes/modern/users/index.php:66
+#: oc-admin/themes/modern/users/index.php:65
 #, php-format
 msgid "Manage users &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/users/index.php:115
+#: oc-admin/themes/modern/users/index.php:299
 msgid "Manage users"
 msgstr ""
 
-#: oc-admin/themes/modern/users/index.php:362
+#: oc-admin/themes/modern/users/index.php:314
+#: oc-admin/themes/modern/users/index.php:317
+#: oc-admin/themes/modern/users/index.php:320
+#: oc-admin/themes/modern/users/index.php:323
+#, php-format
+msgid "%d Users"
+msgstr ""
+
+#: oc-admin/themes/modern/users/index.php:407
 msgid "Delete user"
 msgstr ""
 
-#: oc-admin/themes/modern/users/index.php:367
+#: oc-admin/themes/modern/users/index.php:413
 msgid "Are you sure you want to delete this user?"
 msgstr ""
 
@@ -1381,28 +1379,20 @@ msgstr ""
 msgid "Add, edit or delete ban rules. Keep in mind that ban rules prevent users to register, publish or comment on listings."
 msgstr ""
 
-#: oc-admin/themes/modern/users/ban.php:49
-#: oc-admin/themes/modern/appearance/index.php:86
-#: oc-admin/themes/modern/settings/locations.php:78
-#: oc-admin/themes/modern/settings/locations.php:117
-#: oc-admin/themes/modern/settings/locations.php:135
-msgid "Add new"
-msgstr ""
-
-#: oc-admin/themes/modern/users/ban.php:66
+#: oc-admin/themes/modern/users/ban.php:65
 #, php-format
 msgid "Manage ban rules &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/users/ban.php:151
+#: oc-admin/themes/modern/users/ban.php:150
 msgid "Manage ban rules"
 msgstr ""
 
-#: oc-admin/themes/modern/users/ban.php:216
+#: oc-admin/themes/modern/users/ban.php:221
 msgid "Delete rule"
 msgstr ""
 
-#: oc-admin/themes/modern/users/ban.php:222
+#: oc-admin/themes/modern/users/ban.php:227
 msgid "Are you sure you want to delete this ban rule?"
 msgstr ""
 
@@ -1420,7 +1410,7 @@ msgid "Add new ban rule"
 msgstr ""
 
 #: oc-admin/themes/modern/users/ban_frm.php:62
-#: oc-includes/osclass/classes/AdminMenu.php:290
+#: oc-includes/osclass/classes/AdminMenu.php:299
 msgid "Ban rules"
 msgstr ""
 
@@ -1451,41 +1441,41 @@ msgstr ""
 msgid "Manage the options related to users on your site. Here, you can decide if users must register or if email confirmation is necessary, among other options."
 msgstr ""
 
-#: oc-admin/themes/modern/users/settings.php:61
+#: oc-admin/themes/modern/users/settings.php:60
 #, php-format
 msgid "User Settings &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/users/settings.php:69
-#: oc-includes/osclass/classes/AdminMenu.php:262
+#: oc-admin/themes/modern/users/settings.php:68
+#: oc-includes/osclass/classes/AdminMenu.php:271
 msgid "User Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/users/settings.php:82
+#: oc-admin/themes/modern/users/settings.php:81
 msgid "Users enabled"
 msgstr ""
 
-#: oc-admin/themes/modern/users/settings.php:90
+#: oc-admin/themes/modern/users/settings.php:89
 msgid "Anyone can register"
 msgstr ""
 
-#: oc-admin/themes/modern/users/settings.php:98
+#: oc-admin/themes/modern/users/settings.php:97
 msgid "Users need to validate their account"
 msgstr ""
 
-#: oc-admin/themes/modern/users/settings.php:103
+#: oc-admin/themes/modern/users/settings.php:102
 msgid "Admin notifications"
 msgstr ""
 
-#: oc-admin/themes/modern/users/settings.php:109
+#: oc-admin/themes/modern/users/settings.php:108
 msgid "When a new user is registered"
 msgstr ""
 
-#: oc-admin/themes/modern/users/settings.php:114
+#: oc-admin/themes/modern/users/settings.php:113
 msgid "Username blacklist"
 msgstr ""
 
-#: oc-admin/themes/modern/users/settings.php:119
+#: oc-admin/themes/modern/users/settings.php:118
 msgid "List of terms not allowed in usernames, separated by commas"
 msgstr ""
 
@@ -1497,57 +1487,95 @@ msgstr ""
 msgid "Manage Plugins"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/index.php:49
-#: oc-admin/themes/modern/plugins/add.php:69
+#: oc-admin/themes/modern/plugins/index.php:48
+#: oc-admin/themes/modern/plugins/add.php:68
 msgid "Add plugin"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/index.php:65
+#: oc-admin/themes/modern/plugins/index.php:55
+msgid "Plugin couldn't be installed because it triggered a <strong>fatal error</strong>"
+msgstr ""
+
+#: oc-admin/themes/modern/plugins/index.php:73
 #: oc-admin/themes/modern/plugins/view.php:47
 #: oc-admin/themes/modern/plugins/configuration.php:84
 #, php-format
 msgid "Plugins &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/index.php:81
-msgid "Plugin couldn't be installed because it triggered a <strong>fatal error</strong>"
+#: oc-admin/themes/modern/plugins/index.php:102
+msgid "Uninstall plugin"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/index.php:150
-#: oc-admin/themes/modern/plugins/index.php:153
-#: oc-admin/themes/modern/plugins/index.php:156
-#: oc-admin/themes/modern/plugins/index.php:159
+#: oc-admin/themes/modern/plugins/index.php:106
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:398
+msgid "Problems with this plugin? Ask for support."
+msgstr ""
+
+#: oc-admin/themes/modern/plugins/index.php:143
+msgid "Updates"
+msgstr ""
+
+#: oc-admin/themes/modern/plugins/index.php:145
+msgid "Available plugins"
+msgstr ""
+
+#: oc-admin/themes/modern/plugins/index.php:210
+#: oc-admin/themes/modern/plugins/index.php:213
+#: oc-admin/themes/modern/plugins/index.php:216
+#: oc-admin/themes/modern/plugins/index.php:219
 #, php-format
 msgid "%d plugins"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/index.php:190
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:397
-msgid "Problems with this plugin? Ask for support."
+#: oc-admin/themes/modern/plugins/index.php:281
+#: oc-admin/themes/modern/plugins/index.php:285
+#: oc-admin/themes/modern/plugins/index.php:289
+msgid "Loading data"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/index.php:206
+#: oc-admin/themes/modern/plugins/index.php:284
+msgid "Version"
+msgstr ""
+
+#: oc-admin/themes/modern/plugins/index.php:288
+#: oc-admin/themes/modern/stats/comments.php:222
+#: oc-admin/themes/modern/comments/frm.php:99
+#: oc-includes/osclass/classes/datatables/CommentsDataTable.php:98
+msgid "Author"
+msgstr ""
+
+#: oc-admin/themes/modern/plugins/index.php:292
+#: oc-includes/osclass/classes/form/FieldForm.php:203
+msgid "URL"
+msgstr ""
+
+#: oc-admin/themes/modern/plugins/index.php:294
+msgid "Download manually"
+msgstr ""
+
+#: oc-admin/themes/modern/plugins/index.php:303
+msgid "Continue install"
+msgstr ""
+
+#: oc-admin/themes/modern/plugins/index.php:316
 msgid "This action can not be undone. Uninstalling plugins may result in a permanent loss of data. Are you sure you want to continue?"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/index.php:210
-#: oc-admin/themes/modern/appearance/index.php:185
+#: oc-admin/themes/modern/plugins/index.php:323
+#: oc-admin/themes/modern/appearance/index.php:201
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:380
 msgid "Uninstall"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/index.php:222
-msgid "Delete Plugin"
-msgstr ""
-
-#: oc-admin/themes/modern/plugins/index.php:224
+#: oc-admin/themes/modern/plugins/index.php:346
 msgid "You are about to delete the files of the plugin. Do you want to continue?"
 msgstr ""
 
 #: oc-admin/themes/modern/plugins/view.php:35
 #: oc-admin/themes/modern/plugins/add.php:46
 #: oc-admin/themes/modern/plugins/configuration.php:41
-#: oc-includes/osclass/classes/AdminMenu.php:116
+#: oc-includes/osclass/classes/AdminMenu.php:127
 msgid "Plugins"
 msgstr ""
 
@@ -1555,20 +1583,20 @@ msgstr ""
 msgid "Manually upload Osclass plugins in .zip format. If you prefer, you can manually upload the decompressed plugin to <em>oc-content/plugins</em>."
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/add.php:61
+#: oc-admin/themes/modern/plugins/add.php:60
 #, php-format
 msgid "Add plugin &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/add.php:79
+#: oc-admin/themes/modern/plugins/add.php:78
 msgid "Plugin package (.zip)"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/add.php:91
+#: oc-admin/themes/modern/plugins/add.php:90
 msgid "Cannot install new plugin"
 msgstr ""
 
-#: oc-admin/themes/modern/plugins/add.php:94
+#: oc-admin/themes/modern/plugins/add.php:93
 msgid "The plugin folder is not writable on your server so you cannot upload plugins from the administration panel. Please make the folder writable and try again."
 msgstr ""
 
@@ -1577,40 +1605,40 @@ msgid "Select the categories where you want to apply these attribute:"
 msgstr ""
 
 #: oc-admin/themes/modern/plugins/configuration.php:119
-#: oc-admin/themes/modern/appearance/index.php:142
+#: oc-admin/themes/modern/appearance/index.php:165
 msgid "Update"
 msgstr ""
 
 #: oc-admin/themes/modern/stats/comments.php:38
-#: oc-admin/themes/modern/stats/comments.php:191
+#: oc-admin/themes/modern/stats/comments.php:186
 #: oc-admin/themes/modern/stats/items.php:46
-#: oc-admin/themes/modern/stats/items.php:361
+#: oc-admin/themes/modern/stats/items.php:355
 #: oc-admin/themes/modern/stats/users.php:41
-#: oc-admin/themes/modern/stats/users.php:234
+#: oc-admin/themes/modern/stats/users.php:229
 #: oc-admin/themes/modern/stats/reports.php:35
-#: oc-admin/themes/modern/stats/reports.php:195
+#: oc-admin/themes/modern/stats/reports.php:190
 msgid "Last 10 weeks"
 msgstr ""
 
 #: oc-admin/themes/modern/stats/comments.php:41
-#: oc-admin/themes/modern/stats/comments.php:189
+#: oc-admin/themes/modern/stats/comments.php:184
 #: oc-admin/themes/modern/stats/items.php:49
-#: oc-admin/themes/modern/stats/items.php:359
+#: oc-admin/themes/modern/stats/items.php:353
 #: oc-admin/themes/modern/stats/users.php:44
-#: oc-admin/themes/modern/stats/users.php:232
+#: oc-admin/themes/modern/stats/users.php:227
 #: oc-admin/themes/modern/stats/reports.php:38
-#: oc-admin/themes/modern/stats/reports.php:193
+#: oc-admin/themes/modern/stats/reports.php:188
 msgid "Last 10 months"
 msgstr ""
 
 #: oc-admin/themes/modern/stats/comments.php:44
-#: oc-admin/themes/modern/stats/comments.php:193
+#: oc-admin/themes/modern/stats/comments.php:188
 #: oc-admin/themes/modern/stats/items.php:52
-#: oc-admin/themes/modern/stats/items.php:363
+#: oc-admin/themes/modern/stats/items.php:357
 #: oc-admin/themes/modern/stats/users.php:47
-#: oc-admin/themes/modern/stats/users.php:236
+#: oc-admin/themes/modern/stats/users.php:231
 #: oc-admin/themes/modern/stats/reports.php:41
-#: oc-admin/themes/modern/stats/reports.php:197
+#: oc-admin/themes/modern/stats/reports.php:192
 msgid "Last 10 days"
 msgstr ""
 
@@ -1624,25 +1652,25 @@ msgstr ""
 #: oc-admin/themes/modern/stats/reports.php:67
 #: oc-admin/themes/modern/tools/locations.php:94
 #: oc-admin/themes/modern/tools/category.php:44
-#: oc-admin/themes/modern/main/index.php:205
-#: oc-includes/osclass/classes/AdminMenu.php:125
+#: oc-admin/themes/modern/main/index.php:278
+#: oc-includes/osclass/classes/AdminMenu.php:136
 msgid "Statistics"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/comments.php:84
+#: oc-admin/themes/modern/stats/comments.php:83
 #, php-format
 msgid "Comment Statistics &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/comments.php:110
-#: oc-admin/themes/modern/stats/items.php:130
-#: oc-admin/themes/modern/stats/items.php:132
-#: oc-admin/themes/modern/stats/items.php:138
-#: oc-admin/themes/modern/stats/items.php:140
-#: oc-admin/themes/modern/stats/users.php:120
-#: oc-admin/themes/modern/stats/reports.php:106
-#: oc-admin/themes/modern/main/index.php:85
-#: oc-admin/themes/modern/settings/index.php:289
+#: oc-admin/themes/modern/stats/comments.php:109
+#: oc-admin/themes/modern/stats/items.php:129
+#: oc-admin/themes/modern/stats/items.php:131
+#: oc-admin/themes/modern/stats/items.php:137
+#: oc-admin/themes/modern/stats/items.php:139
+#: oc-admin/themes/modern/stats/users.php:119
+#: oc-admin/themes/modern/stats/reports.php:105
+#: oc-admin/themes/modern/main/index.php:87
+#: oc-admin/themes/modern/main/index.php:142
 #: oc-includes/osclass/classes/datatables/UsersDataTable.php:91
 #: oc-includes/osclass/classes/datatables/MediaDataTable.php:110
 #: oc-includes/osclass/classes/datatables/AlertsDataTable.php:77
@@ -1652,36 +1680,35 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/comments.php:111
-#: oc-admin/themes/modern/stats/comments.php:204
-#: oc-admin/themes/modern/comments/index.php:79
-#: oc-includes/osclass/classes/AdminMenu.php:79
-#: oc-includes/osclass/classes/AdminMenu.php:150
-#: oc-includes/osclass/classes/AdminMenu.php:173
+#: oc-admin/themes/modern/stats/comments.php:110
+#: oc-admin/themes/modern/stats/comments.php:198
+#: oc-admin/themes/modern/comments/index.php:147
+#: oc-includes/osclass/classes/AdminMenu.php:91
+#: oc-includes/osclass/classes/AdminMenu.php:160
+#: oc-includes/osclass/classes/AdminMenu.php:183
 msgid "Comments"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/comments.php:171
+#: oc-admin/themes/modern/stats/comments.php:170
 msgid "Comment Statistics"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/comments.php:210
-#: oc-admin/themes/modern/stats/users.php:328
-#: oc-admin/themes/modern/stats/reports.php:214
+#: oc-admin/themes/modern/stats/comments.php:204
+#: oc-admin/themes/modern/stats/users.php:322
+#: oc-admin/themes/modern/stats/reports.php:208
 msgid "There are no statistics yet"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/comments.php:220
+#: oc-admin/themes/modern/stats/comments.php:214
 msgid "Latest comments on the web"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/comments.php:227
+#: oc-admin/themes/modern/stats/comments.php:221
 #: oc-admin/themes/modern/comments/frm.php:93
-#: oc-admin/themes/modern/emails/index.php:78
-#: oc-includes/osclass/classes/form/ItemForm.php:582
-#: oc-includes/osclass/classes/form/PageForm.php:105
-#: oc-includes/osclass/classes/form/PageForm.php:221
-#: oc-includes/osclass/classes/form/admin/Item.php:159
+#: oc-admin/themes/modern/emails/index.php:77
+#: oc-admin/themes/modern/functions.php:190
+#: oc-includes/osclass/classes/form/ItemForm.php:581
+#: oc-includes/osclass/classes/form/PageForm.php:96
 #: oc-includes/osclass/classes/datatables/PagesDataTable.php:73
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:97
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:587
@@ -1691,27 +1718,20 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/comments.php:228
-#: oc-admin/themes/modern/comments/frm.php:99
-#: oc-admin/themes/modern/appearance/index.php:98
-#: oc-includes/osclass/classes/datatables/CommentsDataTable.php:98
-msgid "Author"
-msgstr ""
-
-#: oc-admin/themes/modern/stats/comments.php:229
+#: oc-admin/themes/modern/stats/comments.php:223
 #: oc-admin/themes/modern/comments/frm.php:140
 #: oc-includes/osclass/classes/datatables/CommentsDataTable.php:99
 msgid "Comment"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/comments.php:254
-#: oc-admin/themes/modern/stats/items.php:380
-#: oc-admin/themes/modern/stats/items.php:397
-#: oc-admin/themes/modern/stats/items.php:415
-#: oc-admin/themes/modern/stats/items.php:432
-#: oc-admin/themes/modern/stats/users.php:253
-#: oc-admin/themes/modern/stats/users.php:270
-#: oc-admin/themes/modern/stats/users.php:287
+#: oc-admin/themes/modern/stats/comments.php:248
+#: oc-admin/themes/modern/stats/items.php:372
+#: oc-admin/themes/modern/stats/items.php:389
+#: oc-admin/themes/modern/stats/items.php:407
+#: oc-admin/themes/modern/stats/items.php:424
+#: oc-admin/themes/modern/stats/users.php:247
+#: oc-admin/themes/modern/stats/users.php:264
+#: oc-admin/themes/modern/stats/users.php:281
 msgid "There're no statistics yet"
 msgstr ""
 
@@ -1719,57 +1739,57 @@ msgstr ""
 msgid "Quickly find out how many new listings have been published on your site and how many visits each of the listings gets."
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:94
+#: oc-admin/themes/modern/stats/items.php:93
 #, php-format
 msgid "Listing Statistics &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:131
+#: oc-admin/themes/modern/stats/items.php:130
 #: oc-includes/osclass/classes/datatables/UsersDataTable.php:92
 msgid "Items"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:133
+#: oc-admin/themes/modern/stats/items.php:132
 msgid "Views"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:141
+#: oc-admin/themes/modern/stats/items.php:140
 msgid "Subscribers"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:341
+#: oc-admin/themes/modern/stats/items.php:340
 msgid "Listing Statistics"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:374
+#: oc-admin/themes/modern/stats/items.php:366
 msgid "New listing"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:377
+#: oc-admin/themes/modern/stats/items.php:369
 msgid "Number of new listings"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:391
+#: oc-admin/themes/modern/stats/items.php:383
 msgid "Listings' views"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:394
+#: oc-admin/themes/modern/stats/items.php:386
 msgid "Total number of listings' views"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:409
+#: oc-admin/themes/modern/stats/items.php:401
 msgid "New alerts"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:412
+#: oc-admin/themes/modern/stats/items.php:404
 msgid "Number of new alerts"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:426
+#: oc-admin/themes/modern/stats/items.php:418
 msgid "New subscribers"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/items.php:429
+#: oc-admin/themes/modern/stats/items.php:421
 msgid "Number of new subscribers"
 msgstr ""
 
@@ -1777,48 +1797,50 @@ msgstr ""
 msgid "Stay up-to-date on the number of users registered on your site. You can also see a breakdown of the countries and regions where users live among those available on your site."
 msgstr ""
 
-#: oc-admin/themes/modern/stats/users.php:90
+#: oc-admin/themes/modern/stats/users.php:89
 #, php-format
 msgid "User Statistics &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/users.php:121
-#: oc-admin/themes/modern/stats/users.php:247
+#: oc-admin/themes/modern/stats/users.php:120
+#: oc-admin/themes/modern/stats/users.php:241
+#: oc-admin/themes/modern/main/index.php:281
+#: oc-admin/themes/modern/main/index.php:294
 msgid "New users"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/users.php:172
-#: oc-admin/themes/modern/stats/users.php:264
+#: oc-admin/themes/modern/stats/users.php:171
+#: oc-admin/themes/modern/stats/users.php:258
 msgid "Users per country"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/users.php:175
-#: oc-admin/themes/modern/stats/users.php:191
+#: oc-admin/themes/modern/stats/users.php:174
+#: oc-admin/themes/modern/stats/users.php:190
 msgid "Unknown"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/users.php:188
-#: oc-admin/themes/modern/stats/users.php:281
+#: oc-admin/themes/modern/stats/users.php:187
+#: oc-admin/themes/modern/stats/users.php:275
 msgid "Users per region"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/users.php:214
+#: oc-admin/themes/modern/stats/users.php:213
 msgid "User Statistics"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/users.php:297
+#: oc-admin/themes/modern/stats/users.php:291
 msgid "Latest users on the web"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/users.php:304
+#: oc-admin/themes/modern/stats/users.php:298
 msgid "E-Mail"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/users.php:337
+#: oc-admin/themes/modern/stats/users.php:331
 msgid "Avg. items per user"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/users.php:340
+#: oc-admin/themes/modern/stats/users.php:334
 #, php-format
 msgid "%s listings per user"
 msgstr ""
@@ -1827,36 +1849,36 @@ msgstr ""
 msgid "See how many listings from your site have been reported as spam, expired, duplicate, etc."
 msgstr ""
 
-#: oc-admin/themes/modern/stats/reports.php:82
+#: oc-admin/themes/modern/stats/reports.php:81
 #, php-format
 msgid "Report Statistics &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/reports.php:108
+#: oc-admin/themes/modern/stats/reports.php:107
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:594
 msgid "Duplicated"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/reports.php:109
+#: oc-admin/themes/modern/stats/reports.php:108
 msgid "Bad category"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/reports.php:110
+#: oc-admin/themes/modern/stats/reports.php:109
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:596
 msgid "Offensive"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/reports.php:111
+#: oc-admin/themes/modern/stats/reports.php:110
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:417
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:595
 msgid "Expired"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/reports.php:175
+#: oc-admin/themes/modern/stats/reports.php:174
 msgid "Report Statistics"
 msgstr ""
 
-#: oc-admin/themes/modern/stats/reports.php:208
+#: oc-admin/themes/modern/stats/reports.php:202
 msgid "Total number of reports"
 msgstr ""
 
@@ -1864,20 +1886,20 @@ msgstr ""
 msgid "Manage the images that users have uploaded along with their listings. You can delete them without deleting the whole listing if the image is inappropriate or doesn’t match the listing."
 msgstr ""
 
-#: oc-admin/themes/modern/media/index.php:44
+#: oc-admin/themes/modern/media/index.php:45
 msgid "Manage Media"
 msgstr ""
 
-#: oc-admin/themes/modern/media/index.php:62
+#: oc-admin/themes/modern/media/index.php:63
 #, php-format
 msgid "Media &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/media/index.php:157
+#: oc-admin/themes/modern/media/index.php:91
 msgid "Delete media"
 msgstr ""
 
-#: oc-admin/themes/modern/media/index.php:162
+#: oc-admin/themes/modern/media/index.php:226
 msgid "Are you sure you want to delete this media file?"
 msgstr ""
 
@@ -1915,7 +1937,7 @@ msgid "Status"
 msgstr ""
 
 #: oc-admin/themes/modern/comments/frm.php:119
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:324
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:317
 #: oc-includes/osclass/classes/datatables/CommentsDataTable.php:248
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:403
 msgid "Inactive"
@@ -1926,7 +1948,7 @@ msgid "Unblocked"
 msgstr ""
 
 #: oc-admin/themes/modern/comments/frm.php:131
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:317
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:310
 #: oc-includes/osclass/classes/datatables/CommentsDataTable.php:241
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:396
 msgid "Blocked"
@@ -1941,7 +1963,7 @@ msgstr ""
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:559
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:976
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:978
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:241
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:234
 #: oc-includes/osclass/classes/datatables/CommentsDataTable.php:159
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:270
 msgid "Unblock"
@@ -1951,24 +1973,24 @@ msgstr ""
 msgid "Manage the comments that users publish on the listings on your site. You can also edit, delete, activate or block comments."
 msgstr ""
 
-#: oc-admin/themes/modern/comments/index.php:64
+#: oc-admin/themes/modern/comments/index.php:63
 #, php-format
 msgid "Comments &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/comments/index.php:85
+#: oc-admin/themes/modern/comments/index.php:153
 msgid "Hidden comments"
 msgstr ""
 
-#: oc-admin/themes/modern/comments/index.php:88
+#: oc-admin/themes/modern/comments/index.php:156
 msgid "All comments"
 msgstr ""
 
-#: oc-admin/themes/modern/comments/index.php:165
+#: oc-admin/themes/modern/comments/index.php:225
 msgid "Delete comment"
 msgstr ""
 
-#: oc-admin/themes/modern/comments/index.php:170
+#: oc-admin/themes/modern/comments/index.php:231
 msgid "Are you sure you want to delete this comment?"
 msgstr ""
 
@@ -1987,25 +2009,25 @@ msgid "Add widget"
 msgstr ""
 
 #: oc-admin/themes/modern/appearance/add_widget.php:68
-#: oc-admin/themes/modern/appearance/widgets.php:62
-#: oc-admin/themes/modern/appearance/index.php:72
+#: oc-admin/themes/modern/appearance/widgets.php:88
+#: oc-admin/themes/modern/appearance/index.php:96
 #: oc-admin/themes/modern/appearance/view.php:47
 #, php-format
 msgid "Appearance &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/add_widget.php:106
-msgid "Description (for internal purposes only)"
-msgstr ""
-
-#: oc-admin/themes/modern/appearance/add_widget.php:114
-msgid "HTML Code for the Widget"
-msgstr ""
-
-#: oc-admin/themes/modern/appearance/add_widget.php:162
+#: oc-admin/themes/modern/appearance/add_widget.php:123
 #: oc-includes/osclass/classes/form/LanguageForm.php:236
 #: oc-includes/osclass/classes/form/LanguageForm.php:237
 msgid "Description: this field is required"
+msgstr ""
+
+#: oc-admin/themes/modern/appearance/add_widget.php:157
+msgid "Description (for internal purposes only)"
+msgstr ""
+
+#: oc-admin/themes/modern/appearance/add_widget.php:165
+msgid "HTML Code for the Widget"
 msgstr ""
 
 #: oc-admin/themes/modern/appearance/widgets.php:37
@@ -2013,93 +2035,80 @@ msgid "Modify your site's header or footer here."
 msgstr ""
 
 #: oc-admin/themes/modern/appearance/widgets.php:47
-#: oc-admin/themes/modern/appearance/index.php:53
+#: oc-admin/themes/modern/appearance/index.php:80
 #: oc-admin/themes/modern/appearance/view.php:35
 #: oc-admin/themes/modern/appearance/add.php:46
-#: oc-includes/osclass/classes/AdminMenu.php:99
+#: oc-includes/osclass/classes/AdminMenu.php:111
 msgid "Appearance"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/widgets.php:71
+#: oc-admin/themes/modern/appearance/widgets.php:63
+msgid "Delete widget"
+msgstr ""
+
+#: oc-admin/themes/modern/appearance/widgets.php:97
 msgid "Manage Widgets"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/widgets.php:82
+#: oc-admin/themes/modern/appearance/widgets.php:106
 #, php-format
 msgid "Section: %s"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/widgets.php:85
+#: oc-admin/themes/modern/appearance/widgets.php:110
 msgid "Add HTML widget"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/widgets.php:100
+#: oc-admin/themes/modern/appearance/widgets.php:124
 msgid "Widget"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/widgets.php:101
+#: oc-admin/themes/modern/appearance/widgets.php:125
 #, php-format
 msgid "Description: %s"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/widgets.php:127
-#: oc-admin/themes/modern/appearance/widgets.php:129
+#: oc-admin/themes/modern/appearance/widgets.php:151
+#: oc-admin/themes/modern/appearance/widgets.php:153
 msgid "Current theme does not support widgets"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/widgets.php:146
-#: oc-admin/themes/modern/appearance/widgets.php:172
+#: oc-admin/themes/modern/appearance/widgets.php:170
 msgid "Are you sure you want to delete this widget?"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/widgets.php:167
-msgid "Delete widget"
+#: oc-admin/themes/modern/appearance/index.php:47
+msgid "Delete theme"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/index.php:40
+#: oc-admin/themes/modern/appearance/index.php:67
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/index.php:57
+#: oc-admin/themes/modern/appearance/index.php:83
 msgid "Add theme"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/index.php:84
+#: oc-admin/themes/modern/appearance/index.php:108
 msgid "Current theme"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/index.php:97
-msgid "Version"
+#: oc-admin/themes/modern/appearance/index.php:119
+#: oc-admin/themes/modern/appearance/index.php:170
+msgid "by"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/index.php:105
+#: oc-admin/themes/modern/appearance/index.php:132
 msgid "Available themes"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/index.php:133
+#: oc-admin/themes/modern/appearance/index.php:156
 #: oc-admin/themes/modern/settings/index.php:112
 #: oc-admin/themes/modern/settings/index.php:126
 msgid "Preview"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/index.php:149
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:423
-msgid "Version:"
-msgstr ""
-
-#: oc-admin/themes/modern/appearance/index.php:150
-msgid "Author:"
-msgstr ""
-
-#: oc-admin/themes/modern/appearance/index.php:153
-msgid "Description:"
-msgstr ""
-
-#: oc-admin/themes/modern/appearance/index.php:175
-msgid "Delete theme"
-msgstr ""
-
-#: oc-admin/themes/modern/appearance/index.php:180
+#: oc-admin/themes/modern/appearance/index.php:195
 msgid "This action can not be undone. Are you sure you want to delete the theme?"
 msgstr ""
 
@@ -2107,128 +2116,90 @@ msgstr ""
 msgid "Manually add Osclass themes in .zip format. If you prefer, you can manually upload the decompressed theme to <em>oc-content/themes</em>."
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/add.php:61
+#: oc-admin/themes/modern/appearance/add.php:60
 #, php-format
 msgid "Add theme &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/add.php:70
+#: oc-admin/themes/modern/appearance/add.php:69
 msgid "Add new theme"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/add.php:79
+#: oc-admin/themes/modern/appearance/add.php:78
 msgid "Theme package (.zip)"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/add.php:91
+#: oc-admin/themes/modern/appearance/add.php:90
 msgid "Can't install a new theme"
 msgstr ""
 
-#: oc-admin/themes/modern/appearance/add.php:94
+#: oc-admin/themes/modern/appearance/add.php:93
 msgid "The theme folder is not writable on your server so you can't upload themes from the administration panel. Please make the theme folder writable and try again."
 msgstr ""
 
-#: oc-admin/themes/modern/emails/frm.php:110
+#: oc-admin/themes/modern/emails/frm.php:77
+#: oc-admin/themes/modern/emails/frm.php:186
+msgid "Send email"
+msgstr ""
+
+#: oc-admin/themes/modern/emails/frm.php:119
 #, php-format
 msgid "Edit email template &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/emails/frm.php:125
+#: oc-admin/themes/modern/emails/frm.php:134
 msgid "Edit email template"
 msgstr ""
 
-#: oc-admin/themes/modern/emails/frm.php:140
-#: oc-admin/themes/modern/pages/frm.php:144
+#: oc-admin/themes/modern/emails/frm.php:151
+#: oc-admin/themes/modern/pages/frm.php:132
 #: oc-includes/osclass/classes/datatables/PagesDataTable.php:72
 msgid "Internal name"
 msgstr ""
 
-#: oc-admin/themes/modern/emails/frm.php:143
+#: oc-admin/themes/modern/emails/frm.php:154
 msgid "Used to identify the email template"
 msgstr ""
 
-#: oc-admin/themes/modern/emails/frm.php:152
+#: oc-admin/themes/modern/emails/frm.php:165
 msgid "Test it"
 msgstr ""
 
-#: oc-admin/themes/modern/emails/frm.php:159
+#: oc-admin/themes/modern/emails/frm.php:171
 msgid "Legend"
-msgstr ""
-
-#: oc-admin/themes/modern/emails/frm.php:179
-#: oc-admin/themes/modern/emails/frm.php:190
-msgid "Send email"
-msgstr ""
-
-#: oc-admin/themes/modern/emails/frm.php:188
-msgid "Close"
 msgstr ""
 
 #: oc-admin/themes/modern/emails/index.php:34
 msgid "Modify the emails your site's users receive when they join your site, when someone shows interest in their ad, to recover their password... <strong>Be careful</strong>: don't modify any of the words that appear within brackets."
 msgstr ""
 
-#: oc-admin/themes/modern/emails/index.php:63
+#: oc-admin/themes/modern/emails/index.php:62
 #, php-format
 msgid "Email templates &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/emails/index.php:72
+#: oc-admin/themes/modern/emails/index.php:71
 msgid "Emails templates"
 msgstr ""
 
-#: oc-admin/themes/modern/functions.php:14
-#: oc-includes/osclass/classes/form/ItemForm.php:510
-#: oc-includes/osclass/classes/form/ItemForm.php:529
-msgid "No change expiration"
-msgstr ""
-
-#: oc-admin/themes/modern/functions.php:15
-#: oc-includes/osclass/classes/form/ItemForm.php:513
-#: oc-includes/osclass/classes/form/ItemForm.php:534
-msgid "Without expiration"
-msgstr ""
-
-#: oc-admin/themes/modern/functions.php:16
-#: oc-includes/osclass/classes/form/ItemForm.php:516
-#: oc-includes/osclass/classes/form/ItemForm.php:538
-msgid "1 day"
-msgstr ""
-
-#: oc-admin/themes/modern/functions.php:17
-#: oc-includes/osclass/classes/form/ItemForm.php:519
-#: oc-includes/osclass/classes/form/ItemForm.php:544
-#, php-format
-msgid "%d days"
-msgstr ""
-
-#: oc-admin/themes/modern/functions.php:18
-#: oc-includes/osclass/classes/form/ItemForm.php:342
-msgid "Select category"
-msgstr ""
-
-#: oc-admin/themes/modern/functions.php:19
-msgid "No subcategory"
-msgstr ""
-
-#: oc-admin/themes/modern/functions.php:20
-#: oc-includes/osclass/classes/form/ItemForm.php:345
-msgid "Select subcategory"
-msgstr ""
-
-#: oc-admin/themes/modern/functions.php:91
+#: oc-admin/themes/modern/functions.php:85
 #, php-format
 msgid "Thank you for using <a href=\"%s\" target=\"_blank\">Osclass</a>"
 msgstr ""
 
-#: oc-admin/themes/modern/functions.php:94
-#: oc-admin/themes/modern/functions.php:95 oc-includes/osclass/install.php:341
+#: oc-admin/themes/modern/functions.php:88
+#: oc-admin/themes/modern/functions.php:89 oc-includes/osclass/install.php:341
 msgid "Forums"
 msgstr ""
 
-#: oc-admin/themes/modern/functions.php:96
-#: oc-admin/themes/modern/functions.php:97
+#: oc-admin/themes/modern/functions.php:90
+#: oc-admin/themes/modern/functions.php:91
 msgid "Report Issue"
+msgstr ""
+
+#: oc-admin/themes/modern/functions.php:155
+#: oc-admin/themes/modern/functions.php:207
+msgid "Enter title here"
 msgstr ""
 
 #: oc-admin/themes/modern/categories/iframe.php:36
@@ -2252,7 +2223,7 @@ msgid "Apply the expiration date and price field changes to children categories"
 msgstr ""
 
 #: oc-admin/themes/modern/categories/iframe.php:108
-#: oc-admin/themes/modern/categories/index.php:393
+#: oc-admin/themes/modern/categories/index.php:192
 msgid "Ajax error, please try again."
 msgstr ""
 
@@ -2260,34 +2231,34 @@ msgstr ""
 msgid "Add, edit or delete the categories or subcategories in which users can post listings. Reorder sections by dragging and dropping, or nest a subcategory in an expanded category. <strong>Be careful</strong>: If you delete a category, all listings associated will also be deleted!"
 msgstr ""
 
-#: oc-admin/themes/modern/categories/index.php:53
-#: oc-includes/osclass/classes/AdminMenu.php:166
+#: oc-admin/themes/modern/categories/index.php:51
+#: oc-includes/osclass/classes/AdminMenu.php:176
 msgid "Categories"
 msgstr ""
 
-#: oc-admin/themes/modern/categories/index.php:72
+#: oc-admin/themes/modern/categories/index.php:69
 #, php-format
 msgid "Categories &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/categories/index.php:112
-msgid "This action could take a while."
-msgstr ""
-
-#: oc-admin/themes/modern/categories/index.php:257
-msgid "Drag&drop the categories to reorder them the way you like. Click on edit link to edit the \n"
-"            category"
-msgstr ""
-
-#: oc-admin/themes/modern/categories/index.php:259
+#: oc-admin/themes/modern/categories/index.php:139
 msgid "Note: You must expand the category in order to make it a subcategory."
 msgstr ""
 
-#: oc-admin/themes/modern/categories/index.php:283
+#: oc-admin/themes/modern/categories/index.php:145
+#: oc-admin/themes/modern/categories/index.php:296
+msgid "This action could take a while."
+msgstr ""
+
+#: oc-admin/themes/modern/categories/index.php:419
+msgid "Drag&drop the categories to reorder them the way you like. Click on edit link to edit the category"
+msgstr ""
+
+#: oc-admin/themes/modern/categories/index.php:438
 msgid "Delete category"
 msgstr ""
 
-#: oc-admin/themes/modern/categories/index.php:288
+#: oc-admin/themes/modern/categories/index.php:442
 msgid "<strong>WARNING</strong>: This will also delete the listings under that category. This action cannot be undone. Are you sure you want to continue?"
 msgstr ""
 
@@ -2302,29 +2273,23 @@ msgstr ""
 
 #: oc-admin/themes/modern/pages/frm.php:68
 #: oc-admin/themes/modern/pages/index.php:45
-#: oc-includes/osclass/classes/AdminMenu.php:249
+#: oc-includes/osclass/classes/AdminMenu.php:259
 msgid "Pages"
 msgstr ""
 
-#: oc-admin/themes/modern/pages/frm.php:130
-msgid "Page template"
-msgstr ""
-
-#: oc-admin/themes/modern/pages/frm.php:134
-msgid "Default template"
-msgstr ""
-
-#: oc-admin/themes/modern/pages/frm.php:144
-#: oc-admin/themes/modern/settings/locations.php:203
-#: oc-includes/osclass/classes/form/CategoryForm.php:228
-msgid "Slug"
-msgstr ""
-
-#: oc-admin/themes/modern/pages/frm.php:147
+#: oc-admin/themes/modern/pages/frm.php:135
 msgid "Used to quickly identify this page"
 msgstr ""
 
-#: oc-admin/themes/modern/pages/frm.php:154
+#: oc-admin/themes/modern/pages/frm.php:141
+msgid "Page template"
+msgstr ""
+
+#: oc-admin/themes/modern/pages/frm.php:145
+msgid "Default template"
+msgstr ""
+
+#: oc-admin/themes/modern/pages/frm.php:159
 msgid "Show a link in footer"
 msgstr ""
 
@@ -2332,24 +2297,24 @@ msgstr ""
 msgid "With Osclass you can create static pages on which information can be stored, such as \"About Us\" or \"Info\" pages. From here you can create, edit or delete your site's static pages."
 msgstr ""
 
-#: oc-admin/themes/modern/pages/index.php:49
+#: oc-admin/themes/modern/pages/index.php:48
 msgid "Create page"
 msgstr ""
 
-#: oc-admin/themes/modern/pages/index.php:65
+#: oc-admin/themes/modern/pages/index.php:63
 #, php-format
 msgid "Pages &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/pages/index.php:136
+#: oc-admin/themes/modern/pages/index.php:177
 msgid "Manage pages"
 msgstr ""
 
-#: oc-admin/themes/modern/pages/index.php:208
+#: oc-admin/themes/modern/pages/index.php:241
 msgid "Delete page"
 msgstr ""
 
-#: oc-admin/themes/modern/pages/index.php:213
+#: oc-admin/themes/modern/pages/index.php:247
 msgid "Are you sure you want to delete this page?"
 msgstr ""
 
@@ -2379,18 +2344,32 @@ msgstr ""
 msgid "Upload registers from other Osclass installations or upload new geographic information to your site. <strong>Be careful</strong>: don’t use this option if you're not 100% sure what you're doing."
 msgstr ""
 
-#: oc-admin/themes/modern/tools/import.php:72
+#: oc-admin/themes/modern/tools/import.php:71
 #, php-format
 msgid "Import &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/import.php:89
+#: oc-admin/themes/modern/tools/import.php:88
 msgid "File (.sql)"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/import.php:95
-#: oc-includes/osclass/classes/AdminMenu.php:299
+#: oc-admin/themes/modern/tools/import.php:94
+#: oc-includes/osclass/classes/AdminMenu.php:308
 msgid "Import data"
+msgstr ""
+
+#: oc-admin/themes/modern/tools/phpinfo.php:33
+msgid "Show PHP info."
+msgstr ""
+
+#: oc-admin/themes/modern/tools/phpinfo.php:54
+#, php-format
+msgid "PHP info &raquo; %s"
+msgstr ""
+
+#: oc-admin/themes/modern/tools/phpinfo.php:161
+#: oc-includes/osclass/classes/AdminMenu.php:350
+msgid "PHP info"
 msgstr ""
 
 #: oc-admin/themes/modern/tools/version.php:33
@@ -2403,79 +2382,34 @@ msgstr ""
 msgid "Osclass %s &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/upgrade.php:47
+#: oc-admin/themes/modern/tools/upgrade.php:31
 #, php-format
 msgid "Upgrade is available for (Current version %s)"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/upgrade.php:48
-#, php-format
-msgid "Hey, a new version %s is available for download. Check details below."
+#: oc-admin/themes/modern/tools/upgrade.php:33
+msgid "New version to update:"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/upgrade.php:54
-msgid "Upgrade Notes:"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:55
-msgid "Please note that this upgrade may take a few minutes to complete."
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:56
-msgid "Once the upgrade is complete, you will be redirected to the Admin Control Panel."
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:57
-msgid "Please be aware that this upgrade will overwrite any existing modification you have made to core files."
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:59
-msgid "Upgrade Now to "
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:88
+#: oc-admin/themes/modern/tools/upgrade.php:39
 msgid "Upgrading your Osclass installation (this could take a while):"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/upgrade.php:104
-msgid "Upgrade Successful"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:105
-msgid "Your Osclass installation has been upgraded to version "
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:106
-msgid "Check release notes"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:113
-msgid "Upgrade completed with few errors"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:124
-msgid "Upgrade Failed"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:154
-msgid "No Upgrade Available"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/upgrade.php:155
+#: oc-admin/themes/modern/tools/upgrade.php:52
 msgid "Congratulations! Your Osclass installation is up to date!"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/upgrade.php:180
+#: oc-admin/themes/modern/tools/upgrade.php:75
 msgid "Check to see if you're using the latest version of Osclass. If you're not, \n"
 "        the system will let you know so you can update and use the newest features."
 msgstr ""
 
-#: oc-admin/themes/modern/tools/upgrade.php:206
+#: oc-admin/themes/modern/tools/upgrade.php:101
 #, php-format
 msgid "Upgrade &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/upgrade.php:225
+#: oc-admin/themes/modern/tools/upgrade.php:120
 #, php-format
 msgid "Your Osclass installation can be auto-upgraded. \n"
 "                                        Please, back up your database and the folder oc-content before attempting to \n"
@@ -2487,112 +2421,67 @@ msgstr ""
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
 msgstr ""
 
-#: oc-admin/themes/modern/tools/maintenance.php:71
+#: oc-admin/themes/modern/tools/maintenance.php:70
 #, php-format
 msgid "Maintenance &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/maintenance.php:81
+#: oc-admin/themes/modern/tools/maintenance.php:80
 msgid "Maintenance"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/maintenance.php:86
+#: oc-admin/themes/modern/tools/maintenance.php:85
 msgid "While in maintenance mode, users can't access your website. Useful if you need to make changes on your website. Use the following button to toggle maintenance mode ON/OFF."
 msgstr ""
 
-#: oc-admin/themes/modern/tools/maintenance.php:89
+#: oc-admin/themes/modern/tools/maintenance.php:88
 #, php-format
 msgid "Maintenance mode is: <strong>%s</strong>"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/maintenance.php:95
+#: oc-admin/themes/modern/tools/maintenance.php:94
 msgid "Disable maintenance mode"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/maintenance.php:96
+#: oc-admin/themes/modern/tools/maintenance.php:95
 msgid "Enable maintenance mode"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/system-info.php:38
-msgid "Show important system information."
-msgstr ""
-
-#: oc-admin/themes/modern/tools/system-info.php:47
-msgid "System Info"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/system-info.php:59
-#, php-format
-msgid "System info &raquo; %s"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/system-info.php:79
-msgid "General Info"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/system-info.php:89
-msgid "PHP Info"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/system-info.php:128
-msgid "disabled"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/system-info.php:130
-msgid "enabled"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/system-info.php:132
-msgid "NA"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/backup.php:43
+#: oc-admin/themes/modern/tools/backup.php:59
 msgid "Save a backup of all of your site's information: listings, users and configuration. You can save a backup on your server or on your computer."
 msgstr ""
 
-#: oc-admin/themes/modern/tools/backup.php:70
+#: oc-admin/themes/modern/tools/backup.php:85
 #, php-format
 msgid "Backup &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/backup.php:80
+#: oc-admin/themes/modern/tools/backup.php:95
 msgid "Backup"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/backup.php:86
+#: oc-admin/themes/modern/tools/backup.php:102
 msgid "Backup folder"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/backup.php:91
+#: oc-admin/themes/modern/tools/backup.php:107
 msgid "<strong>WARNING</strong>: If you don't specify a backup folder, the backup files will be created in the root of your Osclass installation."
 msgstr ""
 
-#: oc-admin/themes/modern/tools/backup.php:94
+#: oc-admin/themes/modern/tools/backup.php:110
 msgid "This is the folder in which your backups will be created. We recommend that you choose a non-public path."
 msgstr ""
 
-#: oc-admin/themes/modern/tools/backup.php:99
-msgid "Backup Method"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/backup.php:102
-msgid "Choose backup method"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/backup.php:103
+#: oc-admin/themes/modern/tools/backup.php:116
 msgid "Backup SQL (store on server)"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/backup.php:104
+#: oc-admin/themes/modern/tools/backup.php:120
 msgid "Backup SQL (download file)"
 msgstr ""
 
-#: oc-admin/themes/modern/tools/backup.php:105
+#: oc-admin/themes/modern/tools/backup.php:123
 msgid "Backup files (store on server)"
-msgstr ""
-
-#: oc-admin/themes/modern/tools/backup.php:111
-msgid "Submit"
 msgstr ""
 
 #: oc-admin/themes/modern/tools/category.php:56
@@ -2612,46 +2501,47 @@ msgstr ""
 msgid "Calculate category stats"
 msgstr ""
 
-#: oc-admin/themes/modern/main/index.php:53
-#: oc-includes/osclass/classes/AdminMenu.php:53
+#: oc-admin/themes/modern/main/index.php:56
+#: oc-includes/osclass/classes/AdminMenu.php:65
 #: oc-includes/osclass/classes/Breadcrumb.php:69
 #: oc-includes/osclass/functions.php:217
 #: oc-includes/osclass/helpers/hUtils.php:277
 msgid "Dashboard"
 msgstr ""
 
-#: oc-admin/themes/modern/main/index.php:65
+#: oc-admin/themes/modern/main/index.php:68
 #, php-format
 msgid "Dashboard &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/main/index.php:91
-msgid "New listings/users"
-msgstr ""
-
-#: oc-admin/themes/modern/main/index.php:147
+#: oc-admin/themes/modern/main/index.php:219
 msgid "Listings by category"
 msgstr ""
 
-#: oc-admin/themes/modern/main/index.php:197
+#: oc-admin/themes/modern/main/index.php:268
 msgid "There aren't any uploaded listing yet"
 msgstr ""
 
-#: oc-admin/themes/modern/main/index.php:210
+#: oc-admin/themes/modern/main/index.php:280
+#: oc-admin/themes/modern/main/index.php:286
+msgid "New listings"
+msgstr ""
+
+#: oc-admin/themes/modern/main/index.php:287
 #, php-format
 msgid "Total number of listings: %s"
 msgstr ""
 
-#: oc-admin/themes/modern/main/index.php:214
+#: oc-admin/themes/modern/main/index.php:291
+msgid "Listing statistics"
+msgstr ""
+
+#: oc-admin/themes/modern/main/index.php:295
 #, php-format
 msgid "Total number of users: %s"
 msgstr ""
 
-#: oc-admin/themes/modern/main/index.php:218
-msgid "Listing statistics"
-msgstr ""
-
-#: oc-admin/themes/modern/main/index.php:219
+#: oc-admin/themes/modern/main/index.php:298
 msgid "User statistics"
 msgstr ""
 
@@ -2660,12 +2550,11 @@ msgid "Edit admin"
 msgstr ""
 
 #: oc-admin/themes/modern/admins/frm.php:45
-#: oc-admin/themes/modern/settings/locations.php:201
 msgid "Save"
 msgstr ""
 
 #: oc-admin/themes/modern/admins/frm.php:48
-#: oc-admin/themes/modern/admins/index.php:60
+#: oc-admin/themes/modern/admins/index.php:61
 msgid "Add admin"
 msgstr ""
 
@@ -2711,129 +2600,180 @@ msgstr ""
 msgid "Admins &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/admins/index.php:71
+#: oc-admin/themes/modern/admins/index.php:140
 msgid "Manage admins"
 msgstr ""
 
-#: oc-admin/themes/modern/admins/index.php:155
+#: oc-admin/themes/modern/admins/index.php:212
 msgid "Delete admin"
 msgstr ""
 
-#: oc-admin/themes/modern/admins/index.php:160
+#: oc-admin/themes/modern/admins/index.php:218
 msgid "Are you sure you want to delete this admin?"
 msgstr ""
 
-#: oc-admin/themes/modern/parts/header.php:29
-msgid "User Menu"
+#: oc-admin/themes/modern/parts/header.php:18
+#: oc-includes/osclass/classes/form/ItemForm.php:509
+#: oc-includes/osclass/classes/form/ItemForm.php:528
+msgid "No change expiration"
 msgstr ""
 
-#: oc-admin/themes/modern/parts/header.php:34
-msgid "Edit Profile"
+#: oc-admin/themes/modern/parts/header.php:19
+#: oc-includes/osclass/classes/form/ItemForm.php:512
+#: oc-includes/osclass/classes/form/ItemForm.php:533
+msgid "Without expiration"
 msgstr ""
 
-#: oc-admin/themes/modern/parts/header.php:39
-msgid "Sign out"
+#: oc-admin/themes/modern/parts/header.php:20
+#: oc-includes/osclass/classes/form/ItemForm.php:515
+#: oc-includes/osclass/classes/form/ItemForm.php:537
+msgid "1 day"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/locations.php:35
+#: oc-admin/themes/modern/parts/header.php:21
+#: oc-includes/osclass/classes/form/ItemForm.php:518
+#: oc-includes/osclass/classes/form/ItemForm.php:543
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#: oc-admin/themes/modern/parts/header.php:22
+#: oc-includes/osclass/classes/form/ItemForm.php:342
+msgid "Select category"
+msgstr ""
+
+#: oc-admin/themes/modern/parts/header.php:23
+msgid "No subcategory"
+msgstr ""
+
+#: oc-admin/themes/modern/parts/header.php:24
+#: oc-includes/osclass/classes/form/ItemForm.php:345
+msgid "Select subcategory"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:45
+msgid "Delete location"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:142
+#: oc-admin/themes/modern/settings/locations.php:419
+#: oc-admin/themes/modern/settings/locations.php:420
+#: oc-admin/themes/modern/settings/media.php:536
+msgid "Close"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:143
+#: oc-admin/themes/modern/settings/locations.php:436
+msgid "View more"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:147
+#: oc-admin/themes/modern/settings/locations.php:260
+msgid "Edit country"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:148
+msgid "Add new country"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:149
+#: oc-admin/themes/modern/settings/locations.php:317
+msgid "Edit region"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:150
+msgid "Add new region"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:151
+#: oc-admin/themes/modern/settings/locations.php:376
+msgid "Edit city"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:152
+msgid "Add new city"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:153
+#: oc-admin/themes/modern/settings/locations.php:512
+msgid "Import a location"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:172
 msgid "Add, edit or delete the countries, regions and cities installed on your Osclass. <strong>Be careful</strong>: modifying locations can cause your statistics to be incorrect until they're recalculated. Modify only if you're sure what you're doing!"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/locations.php:49
-msgid "Import new"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:62
+#: oc-admin/themes/modern/settings/locations.php:199
 #, php-format
 msgid "Locations &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/locations.php:68
-#: oc-includes/osclass/classes/AdminMenu.php:180
+#: oc-admin/themes/modern/settings/locations.php:206
+#: oc-includes/osclass/classes/AdminMenu.php:190
 msgid "Locations"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/locations.php:77
-msgid "Countries"
+#: oc-admin/themes/modern/settings/locations.php:215
+msgid "Country code should have two characters"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/locations.php:81
-#: oc-admin/themes/modern/settings/locations.php:121
-#: oc-admin/themes/modern/settings/locations.php:138
-msgid "Remove selected"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:103
-#: oc-admin/themes/modern/settings/locations.php:206
-msgid "View more"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:116
-msgid "Regions"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:134
-msgid "Cities"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:180
-msgid "Add city"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:181
-msgid "Add country"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:182
-msgid "Add region"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:184
-msgid "City Name"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:186
+#: oc-admin/themes/modern/settings/locations.php:226
 msgid "Country code"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/locations.php:187
-msgid "Country name"
+#: oc-admin/themes/modern/settings/locations.php:232
+msgid "Add country"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/locations.php:189
-msgid "Delete selected locations"
+#: oc-admin/themes/modern/settings/locations.php:251
+#: oc-admin/themes/modern/settings/locations.php:308
+#: oc-admin/themes/modern/settings/locations.php:367
+#: oc-includes/osclass/classes/form/CategoryForm.php:218
+msgid "Slug"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/locations.php:190
+#: oc-admin/themes/modern/settings/locations.php:254
+#: oc-admin/themes/modern/settings/locations.php:311
+#: oc-admin/themes/modern/settings/locations.php:370
+msgid "The slug has to be a unique string, could be left blank"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:287
+msgid "Add region"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:346
+msgid "Add city"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:390
+msgid "Countries"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:392
+msgid "Import new"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:398
+#: oc-admin/themes/modern/settings/locations.php:455
+#: oc-admin/themes/modern/settings/locations.php:470
+msgid "Remove selected"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:450
+msgid "Regions"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:465
+msgid "Cities"
+msgstr ""
+
+#: oc-admin/themes/modern/settings/locations.php:486
 msgid "This action can't be undone. Items associated to this location will be deleted. Users from this location will be unlinked, but not deleted. Are you sure you want to continue?"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/locations.php:193
-msgid "Enter"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:195
-msgid "Import locations"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:196
+#: oc-admin/themes/modern/settings/locations.php:506
 msgid "Import a country with it's regions and cities from our database. Already imported countries aren't shown."
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:200
-msgid "Region name"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:202
-msgid "Select option"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:204
-msgid "The slug is not unique."
-msgstr ""
-
-#: oc-admin/themes/modern/settings/locations.php:205
-msgid "The slug has to be a unique string, could be left blank"
 msgstr ""
 
 #: oc-admin/themes/modern/settings/comments.php:53
@@ -2856,66 +2796,66 @@ msgstr ""
 msgid "Modify the options that allow your users to publish comments on your site's listings."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:127
+#: oc-admin/themes/modern/settings/comments.php:126
 #, php-format
 msgid "Comment Settings &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:141
+#: oc-admin/themes/modern/settings/comments.php:140
 msgid "Comment Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:144
+#: oc-admin/themes/modern/settings/comments.php:143
 msgid "Default comment settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:150
+#: oc-admin/themes/modern/settings/comments.php:149
 msgid "Allow people to post comments on listings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:157
+#: oc-admin/themes/modern/settings/comments.php:156
 msgid "Users must be registered and logged in to comment"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:164
+#: oc-admin/themes/modern/settings/comments.php:163
 msgid "A comment is being held for moderation"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:168
+#: oc-admin/themes/modern/settings/comments.php:167
 #, php-format
 msgid "Before a comment appears, comment author must have at least %s previously approved comments"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:172
+#: oc-admin/themes/modern/settings/comments.php:171
 msgid "If the value is zero, an administrator must always approve comments"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:177
+#: oc-admin/themes/modern/settings/comments.php:176
 msgid "Other comment settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:179
+#: oc-admin/themes/modern/settings/comments.php:178
 #, php-format
 msgid "Break comments into pages with %s comments per page"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:182
+#: oc-admin/themes/modern/settings/comments.php:181
 msgid "If the value is zero all comments are shown"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:189
+#: oc-admin/themes/modern/settings/comments.php:188
 msgid "E-mail admin whenever"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:195
+#: oc-admin/themes/modern/settings/comments.php:194
 msgid "A new comment is posted"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:201
+#: oc-admin/themes/modern/settings/comments.php:200
 msgid "E-mail user whenever"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/comments.php:207
+#: oc-admin/themes/modern/settings/comments.php:206
 msgid "There's a new comment on his listing"
 msgstr ""
 
@@ -2923,59 +2863,59 @@ msgstr ""
 msgid "Keep spammers from publishing on your site by configuring reCAPTCHA and Akismet. Be careful: in order to use these services, you must register on their sites first and follow their instructions."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:70
+#: oc-admin/themes/modern/settings/spamNbots.php:69
 #, php-format
 msgid "Spam and bots &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:78
-#: oc-includes/osclass/classes/AdminMenu.php:208
+#: oc-admin/themes/modern/settings/spamNbots.php:77
+#: oc-includes/osclass/classes/AdminMenu.php:218
 msgid "Spam and bots"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:80
+#: oc-admin/themes/modern/settings/spamNbots.php:79
 msgid "Akismet"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:81
+#: oc-admin/themes/modern/settings/spamNbots.php:80
 msgid "Akismet is a hosted web service that saves you time by automatically detecting comment and trackback spam. It's hosted on our servers, but we give you access to it through plugins and our API."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:89
+#: oc-admin/themes/modern/settings/spamNbots.php:88
 msgid "Akismet API Key"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:100
+#: oc-admin/themes/modern/settings/spamNbots.php:99
 msgid "This key is valid"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:104
+#: oc-admin/themes/modern/settings/spamNbots.php:103
 msgid "The key you entered is invalid. Please double-check it"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:109
+#: oc-admin/themes/modern/settings/spamNbots.php:108
 #, php-format
 msgid "Akismet is disabled, please enter an API key. <a href=\"%s\" target=\"_blank\">(Get your key)</a>"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:128
+#: oc-admin/themes/modern/settings/spamNbots.php:127
 msgid "reCAPTCHA"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:129
+#: oc-admin/themes/modern/settings/spamNbots.php:128
 #, php-format
 msgid "reCAPTCHA helps prevent automated abuse of your site by using a CAPTCHA to ensure that only humans perform certain actions. <a href=\"%s\" target=\"_blank\">Get your key</a>"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:138
+#: oc-admin/themes/modern/settings/spamNbots.php:137
 msgid "Site key"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:146
+#: oc-admin/themes/modern/settings/spamNbots.php:145
 msgid "Secret key"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/spamNbots.php:156
+#: oc-admin/themes/modern/settings/spamNbots.php:155
 msgid "If you see the reCAPTCHA form it means that you have correctly entered the public key"
 msgstr ""
 
@@ -2988,8 +2928,8 @@ msgstr ""
 #: oc-includes/osclass/classes/form/UserForm.php:420
 #: oc-includes/osclass/classes/form/UserForm.php:535
 #: oc-includes/osclass/classes/form/ContactForm.php:165
-#: oc-includes/osclass/classes/form/ItemForm.php:1237
-#: oc-includes/osclass/classes/form/ItemForm.php:1552
+#: oc-includes/osclass/classes/form/ItemForm.php:1236
+#: oc-includes/osclass/classes/form/ItemForm.php:1551
 #: oc-includes/osclass/classes/form/SendFriendForm.php:149
 #: oc-includes/osclass/classes/form/AdminForm.php:154
 #: oc-includes/osclass/classes/form/CommentForm.php:135
@@ -3000,12 +2940,12 @@ msgstr ""
 #: oc-includes/osclass/classes/form/UserForm.php:421
 #: oc-includes/osclass/classes/form/UserForm.php:536
 #: oc-includes/osclass/classes/form/ContactForm.php:166
-#: oc-includes/osclass/classes/form/ItemForm.php:1238
-#: oc-includes/osclass/classes/form/ItemForm.php:1553
+#: oc-includes/osclass/classes/form/ItemForm.php:1237
+#: oc-includes/osclass/classes/form/ItemForm.php:1552
 #: oc-includes/osclass/classes/form/SendFriendForm.php:148
 #: oc-includes/osclass/classes/form/AdminForm.php:155
 #: oc-includes/osclass/classes/form/CommentForm.php:136
-#: oc-includes/osclass/classes/actions/ItemActions.php:1451
+#: oc-includes/osclass/classes/actions/ItemActions.php:1494
 msgid "Invalid email address"
 msgstr ""
 
@@ -3037,211 +2977,187 @@ msgstr ""
 msgid "Change the basic configuration of your Osclass. From here, you can modify variables such as the site’s name, the default currency or how lists of listings are displayed. <strong>Be careful</strong> when modifying default values if you're not sure what you're doing!"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:180
+#: oc-admin/themes/modern/settings/index.php:179
 #, php-format
 msgid "General Settings &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:190
+#: oc-admin/themes/modern/settings/index.php:189
 msgid "General Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:198
+#: oc-admin/themes/modern/settings/index.php:197
 msgid "Page title"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:203
+#: oc-admin/themes/modern/settings/index.php:202
 msgid "Page description"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:209
-#: oc-includes/osclass/install-functions.php:1052
+#: oc-admin/themes/modern/settings/index.php:208
+#: oc-includes/osclass/install-functions.php:1053
 msgid "Contact e-mail"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:215
+#: oc-admin/themes/modern/settings/index.php:214
 msgid "Default language"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:228
+#: oc-admin/themes/modern/settings/index.php:227
 msgid "Default currency"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:241
+#: oc-admin/themes/modern/settings/index.php:240
 msgid "Week starts on"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:246
+#: oc-admin/themes/modern/settings/index.php:245
 #: oc-includes/osclass/classes/form/FieldForm.php:75
 #: oc-includes/osclass/helpers/hUtils.php:226
 msgid "Sunday"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:249
+#: oc-admin/themes/modern/settings/index.php:248
 #: oc-includes/osclass/classes/form/FieldForm.php:76
 #: oc-includes/osclass/helpers/hUtils.php:220
 msgid "Monday"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:252
+#: oc-admin/themes/modern/settings/index.php:251
 #: oc-includes/osclass/classes/form/FieldForm.php:77
 #: oc-includes/osclass/helpers/hUtils.php:221
 msgid "Tuesday"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:255
+#: oc-admin/themes/modern/settings/index.php:254
 #: oc-includes/osclass/classes/form/FieldForm.php:78
 #: oc-includes/osclass/helpers/hUtils.php:222
 msgid "Wednesday"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:258
+#: oc-admin/themes/modern/settings/index.php:257
 #: oc-includes/osclass/classes/form/FieldForm.php:79
 #: oc-includes/osclass/helpers/hUtils.php:223
 msgid "Thursday"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:261
+#: oc-admin/themes/modern/settings/index.php:260
 #: oc-includes/osclass/classes/form/FieldForm.php:80
 #: oc-includes/osclass/helpers/hUtils.php:224
 msgid "Friday"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:264
+#: oc-admin/themes/modern/settings/index.php:263
 #: oc-includes/osclass/classes/form/FieldForm.php:81
 #: oc-includes/osclass/helpers/hUtils.php:225
 msgid "Saturday"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:269
+#: oc-admin/themes/modern/settings/index.php:268
 msgid "Timezone"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:273
+#: oc-admin/themes/modern/settings/index.php:272
 msgid "Select a timezone..."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:285
+#: oc-admin/themes/modern/settings/index.php:284
 msgid "Date & time format"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:324
-msgid "Time"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/index.php:361
+#: oc-admin/themes/modern/settings/index.php:352
 msgid "Documentation on date and time formatting"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:366
+#: oc-admin/themes/modern/settings/index.php:357
 msgid "RSS shows"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:370
-#: oc-admin/themes/modern/settings/index.php:386
+#: oc-admin/themes/modern/settings/index.php:361
+#: oc-admin/themes/modern/settings/index.php:377
 msgid "listings at most"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:374
+#: oc-admin/themes/modern/settings/index.php:365
 msgid "Latest listings shown"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:378
+#: oc-admin/themes/modern/settings/index.php:369
 msgid "at most"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:382
+#: oc-admin/themes/modern/settings/index.php:373
 msgid "Search page shows"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:389
+#: oc-admin/themes/modern/settings/index.php:380
 msgid "Category settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:391
+#: oc-admin/themes/modern/settings/index.php:382
 msgid "Parent categories"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:397
+#: oc-admin/themes/modern/settings/index.php:388
 msgid "Allow users to select a parent category as a category\n"
 "                                    when inserting or editing a listing "
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:403
+#: oc-admin/themes/modern/settings/index.php:394
 msgid "Contact Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:405
+#: oc-admin/themes/modern/settings/index.php:396
 msgid "Attachments"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:411
+#: oc-admin/themes/modern/settings/index.php:402
 msgid "Allow people to attach a file to the contact form"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:416
+#: oc-admin/themes/modern/settings/index.php:407
 msgid "Cron Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:418
+#: oc-admin/themes/modern/settings/index.php:409
 msgid "Automatic cron process"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:425
+#: oc-admin/themes/modern/settings/index.php:416
 #, php-format
 msgid "Allow Osclass to run a built-in <a href=\"%s\" target=\"_blank\">cron</a> automatically without setting crontab"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:432
+#: oc-admin/themes/modern/settings/index.php:423
 msgid "It is <b>recommended</b> to have this option enabled, because some features require it."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:436
+#: oc-admin/themes/modern/settings/index.php:427
 msgid "Google Analytics"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:438
+#: oc-admin/themes/modern/settings/index.php:429
 msgid "Tracking ID"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:443
+#: oc-admin/themes/modern/settings/index.php:434
 msgid "Add your Google Analytics tracking ID. Example: UA-12345678-0"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:449
+#: oc-admin/themes/modern/settings/index.php:440
 msgid "Google Maps key"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:454
+#: oc-admin/themes/modern/settings/index.php:445
 msgid "Add your Google Maps JavaScript API key."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:459
+#: oc-admin/themes/modern/settings/index.php:450
 msgid "OpenStreetMaps key"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/index.php:464
+#: oc-admin/themes/modern/settings/index.php:455
 msgid "Add your Mapquest Consumer key."
-msgstr ""
-
-#: oc-admin/themes/modern/settings/index.php:468
-msgid "Software updates"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/index.php:529
-msgid "Last checked on "
-msgstr ""
-
-#: oc-admin/themes/modern/settings/index.php:531
-msgid "Check updates"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/index.php:535
-msgid "Allow Prerelease"
-msgstr ""
-
-#: oc-admin/themes/modern/settings/index.php:542
-msgid "Allow prerelease update"
 msgstr ""
 
 #: oc-admin/themes/modern/settings/currency_form.php:54
@@ -3260,29 +3176,29 @@ msgstr ""
 msgid "Name: this field is required"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currency_form.php:108
-#: oc-admin/themes/modern/settings/currency_form.php:109
+#: oc-admin/themes/modern/settings/currency_form.php:106
+#: oc-admin/themes/modern/settings/currency_form.php:107
 msgid "Add currency"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currency_form.php:112
+#: oc-admin/themes/modern/settings/currency_form.php:110
 msgid "Edit currency"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currency_form.php:113
+#: oc-admin/themes/modern/settings/currency_form.php:111
 msgid "Update currency"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currency_form.php:150
+#: oc-admin/themes/modern/settings/currency_form.php:148
 msgid "Currency Code"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currency_form.php:166
+#: oc-admin/themes/modern/settings/currency_form.php:164
 #, php-format
 msgid "Must be a three-character code according to the <a href=\"%s\" target=\"_blank\">ISO 4217</a>"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currency_form.php:173
+#: oc-admin/themes/modern/settings/currency_form.php:171
 msgid "Currency symbol"
 msgstr ""
 
@@ -3290,68 +3206,68 @@ msgstr ""
 msgid "Change advanced configuration of your Osclass. <strong>Be careful</strong> when modifying default values if you're not sure what you're doing!"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:87
+#: oc-admin/themes/modern/settings/advanced.php:86
 #, php-format
 msgid "Advanced Settings &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:102
-#: oc-admin/themes/modern/settings/advanced.php:109
-#: oc-admin/themes/modern/settings/advanced.php:111
+#: oc-admin/themes/modern/settings/advanced.php:101
+#: oc-admin/themes/modern/settings/advanced.php:108
+#: oc-admin/themes/modern/settings/advanced.php:110
 msgid "Flush cache"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:113
+#: oc-admin/themes/modern/settings/advanced.php:112
 msgid "Remove all data from cache."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:121
+#: oc-admin/themes/modern/settings/advanced.php:120
 msgid "Advanced Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:129
+#: oc-admin/themes/modern/settings/advanced.php:128
 msgid "Subdomain type"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:134
+#: oc-admin/themes/modern/settings/advanced.php:133
 msgid "No subdomains"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:137
+#: oc-admin/themes/modern/settings/advanced.php:136
 msgid "Category based"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:140
+#: oc-admin/themes/modern/settings/advanced.php:139
 msgid "Country based"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:143
+#: oc-admin/themes/modern/settings/advanced.php:142
 msgid "Region based"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:146
+#: oc-admin/themes/modern/settings/advanced.php:145
 msgid "City based"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:149
+#: oc-admin/themes/modern/settings/advanced.php:148
 msgid "User based"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:154
-#: oc-includes/osclass/install-functions.php:882
+#: oc-admin/themes/modern/settings/advanced.php:153
+#: oc-includes/osclass/install-functions.php:883
 msgid "Host"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:157
+#: oc-admin/themes/modern/settings/advanced.php:156
 msgid "Your host is required to know the subdomain."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:159
+#: oc-admin/themes/modern/settings/advanced.php:158
 #, php-format
 msgid "Your current host is \"%s\". Add it without \"www\"."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/advanced.php:161
+#: oc-admin/themes/modern/settings/advanced.php:160
 msgid "Remember to enable cookies for the subdomains too."
 msgstr ""
 
@@ -3541,7 +3457,7 @@ msgid "Change email confirm url: this field is required"
 msgstr ""
 
 #: oc-admin/themes/modern/settings/permalinks.php:351
-#: oc-admin/themes/modern/settings/permalinks.php:354
+#: oc-admin/themes/modern/settings/permalinks.php:355
 #: oc-admin/themes/modern/settings/permalinks.php:443
 msgid "Show rules"
 msgstr ""
@@ -3550,7 +3466,7 @@ msgstr ""
 msgid "Hide rules"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/permalinks.php:384
+#: oc-admin/themes/modern/settings/permalinks.php:385
 msgid "Activate this option if you want your site's URLs to be more attractive to search engines and intelligible for users. <strong>Be careful</strong>: depending on your hosting service, this might not work correctly."
 msgstr ""
 
@@ -3560,7 +3476,7 @@ msgid "Permalinks &raquo; %s"
 msgstr ""
 
 #: oc-admin/themes/modern/settings/permalinks.php:420
-#: oc-includes/osclass/classes/AdminMenu.php:201
+#: oc-includes/osclass/classes/AdminMenu.php:211
 msgid "Permalinks"
 msgstr ""
 
@@ -3761,320 +3677,320 @@ msgstr ""
 msgid "Save the searches users do on your site. In this way, you can get information on what they're most interested in. From here, you can manage the options on how much information you want to save."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:122
+#: oc-admin/themes/modern/settings/searches.php:121
 #, php-format
 msgid "Latest searches Settings &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:132
+#: oc-admin/themes/modern/settings/searches.php:131
 msgid "Latest searches Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:140
-#: oc-includes/osclass/classes/AdminMenu.php:236
+#: oc-admin/themes/modern/settings/searches.php:139
+#: oc-includes/osclass/classes/AdminMenu.php:246
 msgid "Latest searches"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:145
+#: oc-admin/themes/modern/settings/searches.php:144
 msgid "Save the latest user searches"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:147
+#: oc-admin/themes/modern/settings/searches.php:146
 msgid "It may be useful to know what queries users make."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:153
+#: oc-admin/themes/modern/settings/searches.php:152
 msgid "How long queries are stored"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:160
+#: oc-admin/themes/modern/settings/searches.php:159
 msgid "One hour"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:167
+#: oc-admin/themes/modern/settings/searches.php:166
 msgid "One day"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:174
+#: oc-admin/themes/modern/settings/searches.php:173
 msgid "One week"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:181
+#: oc-admin/themes/modern/settings/searches.php:180
 msgid "Forever"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:188
+#: oc-admin/themes/modern/settings/searches.php:187
 msgid "Store 1000 queries"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:199
+#: oc-admin/themes/modern/settings/searches.php:198
 #, php-format
 msgid "Store %s queries"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/searches.php:210
+#: oc-admin/themes/modern/settings/searches.php:209
 msgid "This feature can generate a lot of data. It's recommended to purge this data periodically."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:44
+#: oc-admin/themes/modern/settings/media.php:48
 msgid "Size is not in the correct format"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:67
+#: oc-admin/themes/modern/settings/media.php:71
 msgid "Thumbnail size: this field is required"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:68
+#: oc-admin/themes/modern/settings/media.php:72
 msgid "Thumbnail size: is not in the correct format"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:71
+#: oc-admin/themes/modern/settings/media.php:75
 msgid "Preview size: this field is required"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:72
+#: oc-admin/themes/modern/settings/media.php:76
 msgid "Preview size: is not in the correct format"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:75
+#: oc-admin/themes/modern/settings/media.php:79
 msgid "Normal size: this field is required"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:76
+#: oc-admin/themes/modern/settings/media.php:80
 msgid "Normal size: is not in the correct format"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:79
+#: oc-admin/themes/modern/settings/media.php:83
 msgid "Maximum size: this field is required"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:80
+#: oc-admin/themes/modern/settings/media.php:84
 msgid "Maximum size: this field must only contain numeric characters"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:151
+#: oc-admin/themes/modern/settings/media.php:172
 msgid "Manage the options for the images users can upload along with their listings. You can limit their size, the number of images per ad, include a watermark, etc."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:178
+#: oc-admin/themes/modern/settings/media.php:198
 #, php-format
 msgid "Media Settings &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:187
+#: oc-admin/themes/modern/settings/media.php:207
 msgid "Media Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:195
+#: oc-admin/themes/modern/settings/media.php:215
 msgid "Image sizes"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:197
+#: oc-admin/themes/modern/settings/media.php:217
 msgid "The sizes listed below determine the maximum dimensions in pixels to use when uploading a image. Format: <b>Width</b> x <b>Height</b>."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:200
+#: oc-admin/themes/modern/settings/media.php:220
 msgid "Thumbnail size"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:206
+#: oc-admin/themes/modern/settings/media.php:226
 msgid "Preview size"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:212
+#: oc-admin/themes/modern/settings/media.php:232
 msgid "Normal size"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:218
+#: oc-admin/themes/modern/settings/media.php:238
 msgid "Original size"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:223
+#: oc-admin/themes/modern/settings/media.php:243
 msgid "Keep original image, unaltered after uploading."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:224
+#: oc-admin/themes/modern/settings/media.php:244
 msgid "Image may occupy more space than usual."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:228
+#: oc-admin/themes/modern/settings/media.php:248
 msgid "Restrictions"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:230
+#: oc-admin/themes/modern/settings/media.php:250
 msgid "Force JPEG"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:235
+#: oc-admin/themes/modern/settings/media.php:255
 msgid "Force JPEG extension."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:236
+#: oc-admin/themes/modern/settings/media.php:256
 msgid "Uploaded images will be saved in JPG/JPEG format, it saves space but images will not have transparent background."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:242
+#: oc-admin/themes/modern/settings/media.php:262
 msgid "Force aspect"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:247
+#: oc-admin/themes/modern/settings/media.php:267
 msgid "Force image aspect."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:248
+#: oc-admin/themes/modern/settings/media.php:268
 msgid "No white background will be added to keep the size."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:253
+#: oc-admin/themes/modern/settings/media.php:273
 msgid "Maximum size"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:257
+#: oc-admin/themes/modern/settings/media.php:277
 msgid "Size in KB"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:259
+#: oc-admin/themes/modern/settings/media.php:279
 #, php-format
 msgid "Maximum size PHP configuration allows: %d KB"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:264
+#: oc-admin/themes/modern/settings/media.php:284
 msgid "ImageMagick"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:272
+#: oc-admin/themes/modern/settings/media.php:292
 msgid "Use ImageMagick instead of GD library"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:276
+#: oc-admin/themes/modern/settings/media.php:296
 msgid "ImageMagick library is not loaded"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:280
+#: oc-admin/themes/modern/settings/media.php:300
 msgid "It's faster and consumes less resources than GD library."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:284
+#: oc-admin/themes/modern/settings/media.php:304
 msgid "Watermark"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:286
+#: oc-admin/themes/modern/settings/media.php:306
 msgid "Watermark type"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:298
+#: oc-admin/themes/modern/settings/media.php:318
 msgid "Text"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:302
+#: oc-admin/themes/modern/settings/media.php:322
 #, php-format
 msgid "Freetype library is required. How to <a target=\"_blank\" href=\"%s\">install/configure</a>"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:311
-#: oc-admin/themes/modern/settings/media.php:453
+#: oc-admin/themes/modern/settings/media.php:331
+#: oc-admin/themes/modern/settings/media.php:473
 msgid "Image"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:317
+#: oc-admin/themes/modern/settings/media.php:337
 msgid "Watermark Text Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:319
+#: oc-admin/themes/modern/settings/media.php:339
 msgid "Watermark Text"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:364
+#: oc-admin/themes/modern/settings/media.php:384
 msgid "Watermark Width"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:371
+#: oc-admin/themes/modern/settings/media.php:391
 msgid "Watermark Height"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:378
+#: oc-admin/themes/modern/settings/media.php:398
 msgid "Text offset_x"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:385
+#: oc-admin/themes/modern/settings/media.php:405
 msgid "Text offset_y"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:392
+#: oc-admin/themes/modern/settings/media.php:412
 msgid "Text Color"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:400
+#: oc-admin/themes/modern/settings/media.php:420
 msgid "Background Color"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:407
+#: oc-admin/themes/modern/settings/media.php:427
 msgid "Background Hexadecimal color value"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:414
+#: oc-admin/themes/modern/settings/media.php:434
 msgid "Preview Watermark"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:433
-#: oc-admin/themes/modern/settings/media.php:469
+#: oc-admin/themes/modern/settings/media.php:453
+#: oc-admin/themes/modern/settings/media.php:489
 msgid "Position"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:437
-#: oc-admin/themes/modern/settings/media.php:473
+#: oc-admin/themes/modern/settings/media.php:457
+#: oc-admin/themes/modern/settings/media.php:493
 msgid "Centre"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:439
-#: oc-admin/themes/modern/settings/media.php:475
+#: oc-admin/themes/modern/settings/media.php:459
+#: oc-admin/themes/modern/settings/media.php:495
 msgid "Top Left"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:441
-#: oc-admin/themes/modern/settings/media.php:477
+#: oc-admin/themes/modern/settings/media.php:461
+#: oc-admin/themes/modern/settings/media.php:497
 msgid "Top Right"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:443
-#: oc-admin/themes/modern/settings/media.php:479
+#: oc-admin/themes/modern/settings/media.php:463
+#: oc-admin/themes/modern/settings/media.php:499
 msgid "Bottom Left"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:445
-#: oc-admin/themes/modern/settings/media.php:481
+#: oc-admin/themes/modern/settings/media.php:465
+#: oc-admin/themes/modern/settings/media.php:501
 msgid "Bottom Right"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:451
+#: oc-admin/themes/modern/settings/media.php:471
 msgid "Watermark Image Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:464
+#: oc-admin/themes/modern/settings/media.php:484
 msgid "It has to be a .PNG image"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:465
+#: oc-admin/themes/modern/settings/media.php:485
 msgid "Osclass doesn't check the watermark image size"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:486
+#: oc-admin/themes/modern/settings/media.php:506
 msgid "Regenerate images"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:490
+#: oc-admin/themes/modern/settings/media.php:510
 msgid "You can regenerate different image dimensions. If you have changed the dimension of thumbnails, preview or normal images, you might want to regenerate your images."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:495
+#: oc-admin/themes/modern/settings/media.php:515
 msgid "Regenerate"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:513
+#: oc-admin/themes/modern/settings/media.php:527
 msgid "Recommendation"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/media.php:518
+#: oc-admin/themes/modern/settings/media.php:531
 msgid "We highly recommend you have the 'Keep original image' option active when you use watermarks."
 msgstr ""
 
@@ -4082,72 +3998,72 @@ msgstr ""
 msgid "Modify the settings of the mail server from which your site's emails are sent. <strong>Be careful</strong>: these settings can vary depending on your hosting or server. If you run into any issues, check your hosting's help section."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:115
+#: oc-admin/themes/modern/settings/mailserver.php:114
 #, php-format
 msgid "Mail Settings &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:125
+#: oc-admin/themes/modern/settings/mailserver.php:124
 msgid "Mail Settings"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:133
+#: oc-admin/themes/modern/settings/mailserver.php:132
 msgid "Server type"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:137
+#: oc-admin/themes/modern/settings/mailserver.php:136
 msgid "Custom Server"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:139
+#: oc-admin/themes/modern/settings/mailserver.php:138
 msgid "GMail Server"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:144
+#: oc-admin/themes/modern/settings/mailserver.php:143
 msgid "Hostname"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:151
+#: oc-admin/themes/modern/settings/mailserver.php:150
 msgid "Mail from"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:158
+#: oc-admin/themes/modern/settings/mailserver.php:157
 msgid "Name from"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:165
+#: oc-admin/themes/modern/settings/mailserver.php:164
 msgid "Server port"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:186
+#: oc-admin/themes/modern/settings/mailserver.php:185
 msgid "Encryption"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:190
+#: oc-admin/themes/modern/settings/mailserver.php:189
 msgid "Options: blank, ssl or tls"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:193
+#: oc-admin/themes/modern/settings/mailserver.php:192
 msgid "Cannot be sure that Apache Module <b>mod_ssl</b> is loaded."
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:197
+#: oc-admin/themes/modern/settings/mailserver.php:196
 msgid "Apache Module <b>mod_ssl</b> is not loaded"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:203
+#: oc-admin/themes/modern/settings/mailserver.php:202
 msgid "SMTP"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:207
+#: oc-admin/themes/modern/settings/mailserver.php:206
 msgid "SMTP authentication enabled"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:211
+#: oc-admin/themes/modern/settings/mailserver.php:210
 msgid "POP"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/mailserver.php:215
+#: oc-admin/themes/modern/settings/mailserver.php:214
 msgid "Use POP before SMTP"
 msgstr ""
 
@@ -4160,26 +4076,25 @@ msgstr ""
 msgid "Currencies &raquo; %s"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currencies.php:89
-#: oc-includes/osclass/classes/AdminMenu.php:215
+#: oc-admin/themes/modern/settings/currencies.php:155
+#: oc-includes/osclass/classes/AdminMenu.php:225
 msgid "Currencies"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currencies.php:103
+#: oc-admin/themes/modern/settings/currencies.php:171
 #, php-format
 msgid "Are you sure you want to %s the selected currencies?"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currencies.php:115
-#: oc-admin/themes/modern/settings/currencies.php:127
+#: oc-admin/themes/modern/settings/currencies.php:183
 msgid "Code"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currencies.php:154
+#: oc-admin/themes/modern/settings/currencies.php:207
 msgid "Delete currency"
 msgstr ""
 
-#: oc-admin/themes/modern/settings/currencies.php:159
+#: oc-admin/themes/modern/settings/currencies.php:214
 msgid "Are you sure you want to delete this currency?"
 msgstr ""
 
@@ -4424,205 +4339,181 @@ msgstr ""
 msgid "Can't insert basic configuration. This user has no privileges to 'INSERT' into the database."
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:879
+#: oc-includes/osclass/install-functions.php:880
 msgid "Database information"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:886
+#: oc-includes/osclass/install-functions.php:887
 msgid "Server name or IP where the database engine resides"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:889
+#: oc-includes/osclass/install-functions.php:890
 msgid "Database name"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:894
+#: oc-includes/osclass/install-functions.php:895
 msgid "The name of the database you want to run Osclass in"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:898
+#: oc-includes/osclass/install-functions.php:899
 msgid "User Name"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:903
+#: oc-includes/osclass/install-functions.php:904
 msgid "Your MySQL username"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:912
+#: oc-includes/osclass/install-functions.php:913
 msgid "Your MySQL password"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:915
+#: oc-includes/osclass/install-functions.php:916
 msgid "Table prefix"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:921
+#: oc-includes/osclass/install-functions.php:922
 msgid "If you want to run multiple Osclass installations in a single database, change this"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:929
-#: oc-includes/osclass/classes/AdminMenu.php:243
+#: oc-includes/osclass/install-functions.php:930
+#: oc-includes/osclass/classes/AdminMenu.php:253
 msgid "Advanced"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:939
+#: oc-includes/osclass/install-functions.php:940
 msgid "Create DB"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:940
+#: oc-includes/osclass/install-functions.php:941
 msgid "Check here if the database is not created and you want to create it now"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:945
+#: oc-includes/osclass/install-functions.php:946
 msgid "DB admin username"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:954
+#: oc-includes/osclass/install-functions.php:955
 msgid "DB admin password"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:959
+#: oc-includes/osclass/install-functions.php:960
 msgid "Password copied from above"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1016
+#: oc-includes/osclass/install-functions.php:1017
 msgid "Information needed"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1018
+#: oc-includes/osclass/install-functions.php:1019
 msgid "Admin user"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1025
+#: oc-includes/osclass/install-functions.php:1026
 msgid "Admin user is required"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1039
+#: oc-includes/osclass/install-functions.php:1040
 msgid "A password will be automatically generated for you if you leave this blank."
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1041
+#: oc-includes/osclass/install-functions.php:1042
 msgid "You can modify username and password if you like, just change the input value."
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1044
+#: oc-includes/osclass/install-functions.php:1045
 msgid "Contact information"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1047
+#: oc-includes/osclass/install-functions.php:1048
 msgid "Web title"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1056
-#: oc-includes/osclass/install-functions.php:1059
+#: oc-includes/osclass/install-functions.php:1057
+#: oc-includes/osclass/install-functions.php:1060
 msgid "Put your e-mail here"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1063
+#: oc-includes/osclass/install-functions.php:1064
 msgid "Choose a country where your target users are located"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1071
+#: oc-includes/osclass/install-functions.php:1072
 msgid "Skip location"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1072
+#: oc-includes/osclass/install-functions.php:1073
 msgid "International"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1083
+#: oc-includes/osclass/install-functions.php:1084
 msgid "No internet connection. You can continue the installation and insert countries later."
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1112
+#: oc-includes/osclass/install-functions.php:1113
 #: oc-includes/osclass/functions.php:144
 msgid "Error"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1117
+#: oc-includes/osclass/install-functions.php:1118
 msgid "Go back"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1181
+#: oc-includes/osclass/install-functions.php:1182
 msgid "The selected location could not been installed"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1184
+#: oc-includes/osclass/install-functions.php:1185
 msgid "Congratulations!"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1185
+#: oc-includes/osclass/install-functions.php:1186
 msgid "Osclass has been installed. Were you expecting more steps? Sorry to disappoint you!"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1188
+#: oc-includes/osclass/install-functions.php:1189
 #, php-format
 msgid "An e-mail with the password for oc-admin has been sent to: %s"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1202
+#: oc-includes/osclass/install-functions.php:1203
 msgid "Finish and go to the administration panel"
-msgstr ""
-
-#: oc-includes/osclass/install-functions.php:1252
-#, php-format
-msgid "Hi %s,"
 msgstr ""
 
 #: oc-includes/osclass/install-functions.php:1253
 #, php-format
-msgid "Your Osclass installation at %s is up and running. You can access the administration panel with these details:"
+msgid "Hi %s,"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1257
+#: oc-includes/osclass/install-functions.php:1254
 #, php-format
-msgid "username: %s"
+msgid "Your Osclass installation at %s is up and running. You can access the administration panel with these details:"
 msgstr ""
 
 #: oc-includes/osclass/install-functions.php:1258
 #, php-format
+msgid "username: %s"
+msgstr ""
+
+#: oc-includes/osclass/install-functions.php:1259
+#, php-format
 msgid "password: %s"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1261
+#: oc-includes/osclass/install-functions.php:1262
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1264
+#: oc-includes/osclass/install-functions.php:1265
 msgid "Cheers,"
 msgstr ""
 
-#: oc-includes/osclass/install-functions.php:1265
+#: oc-includes/osclass/install-functions.php:1266
 msgid "The <a href=\"https://github.com/mindstellar/osclass\">Osclass</a> team"
 msgstr ""
 
 #: oc-includes/osclass/timezones.php:31
 msgid "Use native php function for timezones list."
-msgstr ""
-
-#: oc-includes/osclass/classes/utility/SystemInfo.php:291
-#: oc-includes/osclass/classes/utility/SystemInfo.php:301
-#: oc-includes/osclass/classes/utility/SystemInfo.php:311
-#: oc-includes/osclass/classes/utility/SystemInfo.php:321
-#: oc-includes/osclass/classes/utility/SystemInfo.php:331
-msgid "Enabled"
-msgstr ""
-
-#: oc-includes/osclass/classes/utility/SystemInfo.php:293
-#: oc-includes/osclass/classes/utility/SystemInfo.php:303
-#: oc-includes/osclass/classes/utility/SystemInfo.php:313
-#: oc-includes/osclass/classes/utility/SystemInfo.php:323
-#: oc-includes/osclass/classes/utility/SystemInfo.php:333
-msgid "Disabled"
-msgstr ""
-
-#: oc-includes/osclass/classes/utility/SystemInfo.php:296
-#: oc-includes/osclass/classes/utility/SystemInfo.php:306
-#: oc-includes/osclass/classes/utility/SystemInfo.php:316
-#: oc-includes/osclass/classes/utility/SystemInfo.php:326
-#: oc-includes/osclass/classes/utility/SystemInfo.php:336
-msgid "Not set"
 msgstr ""
 
 #: oc-includes/osclass/classes/utility/Utils.php:52
@@ -4649,40 +4540,23 @@ msgstr ""
 msgid "Invalid theme update uri"
 msgstr ""
 
-#: oc-includes/osclass/classes/upgrade/Osclass.php:96
+#: oc-includes/osclass/classes/upgrade/Osclass.php:95
 msgid "Osclass &raquo; Has some errors"
 msgstr ""
 
-#: oc-includes/osclass/classes/upgrade/Osclass.php:97
-msgid "We've encountered some problems while updating the database structure. The following queries failed:"
+#: oc-includes/osclass/classes/upgrade/Osclass.php:96
+msgid "We've encountered some problems while updating the database structure. \n"
+"            The following queries failed:"
 msgstr ""
 
-#: oc-includes/osclass/classes/upgrade/Osclass.php:102
-msgid "These errors could be false-positive errors."
+#: oc-includes/osclass/classes/upgrade/Osclass.php:100
+#, php-format
+msgid "These errors could be false-positive errors. If you're sure that is the case, you can \n"
+"                    <a href=\"%s\">continue with the upgrade</a>, or <a href=\"https://osclass.discourse.group\">ask in our forums</a>."
 msgstr ""
 
-#: oc-includes/osclass/classes/upgrade/Osclass.php:103
-msgid " If you're sure that is the case, you can continue with the upgrade."
-msgstr ""
-
-#: oc-includes/osclass/classes/upgrade/Osclass.php:104
-msgid "Continue with upgrade"
-msgstr ""
-
-#: oc-includes/osclass/classes/upgrade/Osclass.php:105
-msgid " Or you can ask help in our support forum"
-msgstr ""
-
-#: oc-includes/osclass/classes/upgrade/Osclass.php:106
-msgid "Support Forum"
-msgstr ""
-
-#: oc-includes/osclass/classes/upgrade/Osclass.php:123
+#: oc-includes/osclass/classes/upgrade/Osclass.php:118
 msgid "Osclass DB Upgraded Successfully"
-msgstr ""
-
-#: oc-includes/osclass/classes/upgrade/Osclass.php:126
-msgid "Unable to upgrade Database"
 msgstr ""
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:102
@@ -4714,7 +4588,7 @@ msgid "Invalid upgrade package info"
 msgstr ""
 
 #: oc-includes/osclass/classes/form/UserForm.php:245
-#: oc-includes/osclass/classes/form/ItemForm.php:722
+#: oc-includes/osclass/classes/form/ItemForm.php:721
 msgid "Select a country..."
 msgstr ""
 
@@ -4723,11 +4597,11 @@ msgstr ""
 #: oc-includes/osclass/classes/form/UserForm.php:618
 #: oc-includes/osclass/classes/form/UserForm.php:625
 #: oc-includes/osclass/classes/form/UserForm.php:627
-#: oc-includes/osclass/classes/form/ItemForm.php:806
-#: oc-includes/osclass/classes/form/ItemForm.php:1348
-#: oc-includes/osclass/classes/form/ItemForm.php:1381
-#: oc-includes/osclass/classes/form/ItemForm.php:1389
-#: oc-includes/osclass/classes/form/ItemForm.php:1392
+#: oc-includes/osclass/classes/form/ItemForm.php:805
+#: oc-includes/osclass/classes/form/ItemForm.php:1347
+#: oc-includes/osclass/classes/form/ItemForm.php:1380
+#: oc-includes/osclass/classes/form/ItemForm.php:1388
+#: oc-includes/osclass/classes/form/ItemForm.php:1391
 msgid "Select a region..."
 msgstr ""
 
@@ -4737,12 +4611,12 @@ msgstr ""
 #: oc-includes/osclass/classes/form/UserForm.php:631
 #: oc-includes/osclass/classes/form/UserForm.php:633
 #: oc-includes/osclass/classes/form/UserForm.php:664
-#: oc-includes/osclass/classes/form/ItemForm.php:854
-#: oc-includes/osclass/classes/form/ItemForm.php:1372
-#: oc-includes/osclass/classes/form/ItemForm.php:1385
-#: oc-includes/osclass/classes/form/ItemForm.php:1398
-#: oc-includes/osclass/classes/form/ItemForm.php:1402
-#: oc-includes/osclass/classes/form/ItemForm.php:1433
+#: oc-includes/osclass/classes/form/ItemForm.php:853
+#: oc-includes/osclass/classes/form/ItemForm.php:1371
+#: oc-includes/osclass/classes/form/ItemForm.php:1384
+#: oc-includes/osclass/classes/form/ItemForm.php:1397
+#: oc-includes/osclass/classes/form/ItemForm.php:1401
+#: oc-includes/osclass/classes/form/ItemForm.php:1432
 msgid "Select a city..."
 msgstr ""
 
@@ -4781,7 +4655,7 @@ msgstr ""
 
 #: oc-includes/osclass/classes/form/UserForm.php:605
 #: oc-includes/osclass/classes/form/UserForm.php:671
-#: oc-includes/osclass/classes/form/ItemForm.php:1441
+#: oc-includes/osclass/classes/form/ItemForm.php:1440
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:77
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:78
 msgid "No results"
@@ -4829,7 +4703,7 @@ msgstr ""
 #: oc-includes/osclass/classes/form/ContactForm.php:169
 #: oc-includes/osclass/classes/form/ContactForm.php:170
 #: oc-includes/osclass/classes/form/SendFriendForm.php:158
-#: oc-includes/osclass/classes/actions/ItemActions.php:1454
+#: oc-includes/osclass/classes/actions/ItemActions.php:1497
 msgid "Message: this field is required"
 msgstr ""
 
@@ -4848,144 +4722,144 @@ msgstr ""
 msgid "No Subcategory"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1172
-#: oc-includes/osclass/classes/form/ItemForm.php:1481
+#: oc-includes/osclass/classes/form/ItemForm.php:1171
+#: oc-includes/osclass/classes/form/ItemForm.php:1480
 msgid "Description needs to be longer"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1216
-#: oc-includes/osclass/classes/form/ItemForm.php:1531
+#: oc-includes/osclass/classes/form/ItemForm.php:1215
+#: oc-includes/osclass/classes/form/ItemForm.php:1530
 msgid "Choose one category"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1219
-#: oc-includes/osclass/classes/form/ItemForm.php:1534
+#: oc-includes/osclass/classes/form/ItemForm.php:1218
+#: oc-includes/osclass/classes/form/ItemForm.php:1533
 msgid "Price: no more than 50 characters"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1221
-#: oc-includes/osclass/classes/form/ItemForm.php:1536
+#: oc-includes/osclass/classes/form/ItemForm.php:1220
+#: oc-includes/osclass/classes/form/ItemForm.php:1535
 msgid "Currency: make your selection"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1226
-#: oc-includes/osclass/classes/form/ItemForm.php:1541
+#: oc-includes/osclass/classes/form/ItemForm.php:1225
+#: oc-includes/osclass/classes/form/ItemForm.php:1540
 #, php-format
 msgid "Photo: must be %s"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1233
-#: oc-includes/osclass/classes/form/ItemForm.php:1548
+#: oc-includes/osclass/classes/form/ItemForm.php:1232
+#: oc-includes/osclass/classes/form/ItemForm.php:1547
 #: oc-includes/osclass/classes/form/AdminForm.php:145
 msgid "Name: enter at least 3 characters"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1234
-#: oc-includes/osclass/classes/form/ItemForm.php:1549
+#: oc-includes/osclass/classes/form/ItemForm.php:1233
+#: oc-includes/osclass/classes/form/ItemForm.php:1548
 msgid "Name: no more than 35 characters"
+msgstr ""
+
+#: oc-includes/osclass/classes/form/ItemForm.php:1241
+#: oc-includes/osclass/classes/form/ItemForm.php:1562
+msgid "Address: enter at least 3 characters"
 msgstr ""
 
 #: oc-includes/osclass/classes/form/ItemForm.php:1242
 #: oc-includes/osclass/classes/form/ItemForm.php:1563
-msgid "Address: enter at least 3 characters"
-msgstr ""
-
-#: oc-includes/osclass/classes/form/ItemForm.php:1243
-#: oc-includes/osclass/classes/form/ItemForm.php:1564
 msgid "Address: no more than 100 characters"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1285
-#: oc-includes/osclass/classes/form/ItemForm.php:1606
-#: oc-includes/osclass/classes/form/ItemForm.php:1910
+#: oc-includes/osclass/classes/form/ItemForm.php:1284
+#: oc-includes/osclass/classes/form/ItemForm.php:1605
+#: oc-includes/osclass/classes/form/ItemForm.php:1909
 msgid "This action can't be undone. Are you sure you want to continue?"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1556
+#: oc-includes/osclass/classes/form/ItemForm.php:1555
 msgid "Select a region"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1557
+#: oc-includes/osclass/classes/form/ItemForm.php:1556
 msgid "Select a city"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1559
+#: oc-includes/osclass/classes/form/ItemForm.php:1558
 msgid "City area: enter at least 3 characters"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1560
+#: oc-includes/osclass/classes/form/ItemForm.php:1559
 msgid "City area: no more than 50 characters"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1704
+#: oc-includes/osclass/classes/form/ItemForm.php:1703
 msgid "Remove"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1716
+#: oc-includes/osclass/classes/form/ItemForm.php:1715
 msgid "Sorry, you have reached the maximum number of images per listing"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:1856
+#: oc-includes/osclass/classes/form/ItemForm.php:1855
 msgid "Images already uploaded"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2010
+#: oc-includes/osclass/classes/form/ItemForm.php:2009
 msgid "Too many items ({netItems}) would be uploaded. Item limit is {itemLimit}."
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2012
+#: oc-includes/osclass/classes/form/ItemForm.php:2011
 msgid "The files are being uploaded, if you leave now the upload will be cancelled."
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2013
+#: oc-includes/osclass/classes/form/ItemForm.php:2012
 msgid "{file} has an invalid extension. Valid extension(s): {extensions}."
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2014
+#: oc-includes/osclass/classes/form/ItemForm.php:2013
 msgid "{file} is too large, maximum file size is {sizeLimit}."
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2015
+#: oc-includes/osclass/classes/form/ItemForm.php:2014
 msgid "{file} is empty, please select files again without it."
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2029
+#: oc-includes/osclass/classes/form/ItemForm.php:2028
 msgid "Click or Drop for upload images"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2030
+#: oc-includes/osclass/classes/form/ItemForm.php:2029
 msgid "Processing..."
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2031
+#: oc-includes/osclass/classes/form/ItemForm.php:2030
 msgid "Retry"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2033
+#: oc-includes/osclass/classes/form/ItemForm.php:2032
 msgid "Upload failed"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2035
+#: oc-includes/osclass/classes/form/ItemForm.php:2034
 msgid "Deleting..."
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2036
+#: oc-includes/osclass/classes/form/ItemForm.php:2035
 #, php-format
 msgid "{percent}% of {total_size}"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2053
-#: oc-includes/osclass/classes/form/ItemForm.php:2055
+#: oc-includes/osclass/classes/form/ItemForm.php:2052
+#: oc-includes/osclass/classes/form/ItemForm.php:2054
 msgid "Make primary image"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/ItemForm.php:2102
+#: oc-includes/osclass/classes/form/ItemForm.php:2101
 #, php-format
 msgid "Too many items were uploaded. Item limit is %d."
 msgstr ""
 
 #: oc-includes/osclass/classes/form/SendFriendForm.php:145
-#: oc-includes/osclass/classes/actions/ItemActions.php:1448
+#: oc-includes/osclass/classes/actions/ItemActions.php:1491
 msgid "Your name: this field is required"
 msgstr ""
 
@@ -5001,13 +4875,8 @@ msgstr ""
 msgid "Invalid friend's email address"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/PageForm.php:123
+#: oc-includes/osclass/classes/form/PageForm.php:112
 msgid "Body"
-msgstr ""
-
-#: oc-includes/osclass/classes/form/PageForm.php:217
-#: oc-includes/osclass/classes/form/admin/Item.php:155
-msgid "Enter title here"
 msgstr ""
 
 #: oc-includes/osclass/classes/form/FieldForm.php:42
@@ -5210,15 +5079,43 @@ msgstr ""
 msgid "Wk"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/FieldForm.php:319
+#: oc-includes/osclass/classes/form/FieldForm.php:188
+msgid "TEXT"
+msgstr ""
+
+#: oc-includes/osclass/classes/form/FieldForm.php:191
+msgid "TEXTAREA"
+msgstr ""
+
+#: oc-includes/osclass/classes/form/FieldForm.php:194
+msgid "DROPDOWN"
+msgstr ""
+
+#: oc-includes/osclass/classes/form/FieldForm.php:197
+msgid "RADIO"
+msgstr ""
+
+#: oc-includes/osclass/classes/form/FieldForm.php:200
+msgid "CHECKBOX"
+msgstr ""
+
+#: oc-includes/osclass/classes/form/FieldForm.php:206
+msgid "DATE"
+msgstr ""
+
+#: oc-includes/osclass/classes/form/FieldForm.php:209
+msgid "DATE INTERVAL"
+msgstr ""
+
+#: oc-includes/osclass/classes/form/FieldForm.php:332
 msgid "Select"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/FieldForm.php:371
+#: oc-includes/osclass/classes/form/FieldForm.php:413
 msgid "from"
 msgstr ""
 
-#: oc-includes/osclass/classes/form/FieldForm.php:375
+#: oc-includes/osclass/classes/form/FieldForm.php:425
 #: oc-includes/osclass/helpers/hItems.php:1534
 msgid "to"
 msgstr ""
@@ -5250,14 +5147,6 @@ msgstr ""
 #: oc-includes/osclass/classes/form/CommentForm.php:139
 #: oc-includes/osclass/classes/form/CommentForm.php:140
 msgid "Comment: this field is required"
-msgstr ""
-
-#: oc-includes/osclass/classes/form/admin/Item.php:228
-msgid "Select Currency"
-msgstr ""
-
-#: oc-includes/osclass/classes/form/admin/Item.php:257
-msgid "Enter price"
 msgstr ""
 
 #: oc-includes/osclass/classes/EmailVariables.php:55
@@ -5429,7 +5318,7 @@ msgstr ""
 msgid "Seller email"
 msgstr ""
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:121
+#: oc-includes/osclass/classes/actions/ItemActions.php:118
 msgid "Anonymous"
 msgstr ""
 
@@ -5438,76 +5327,72 @@ msgstr ""
 msgid "Plugin %s is missing the index.php file %s"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:72
+#: oc-includes/osclass/classes/AdminMenu.php:84
 msgid "Manage media"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:103
+#: oc-includes/osclass/classes/AdminMenu.php:114
 msgid "Manage themes"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:110
+#: oc-includes/osclass/classes/AdminMenu.php:121
 msgid "Manage widgets"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:119
+#: oc-includes/osclass/classes/AdminMenu.php:130
 msgid "Manage plugins"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:136
+#: oc-includes/osclass/classes/AdminMenu.php:146
 msgid "Reports"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:159
+#: oc-includes/osclass/classes/AdminMenu.php:169
 msgid "General"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:187
+#: oc-includes/osclass/classes/AdminMenu.php:197
 msgid "Email templates"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:194
+#: oc-includes/osclass/classes/AdminMenu.php:204
 msgid "Languages"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:222
+#: oc-includes/osclass/classes/AdminMenu.php:232
 msgid "Mail server"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:229
+#: oc-includes/osclass/classes/AdminMenu.php:239
 msgid "Media"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:269
+#: oc-includes/osclass/classes/AdminMenu.php:278
 msgid "Administrators"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:276
+#: oc-includes/osclass/classes/AdminMenu.php:285
 msgid "Your Profile"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:306
+#: oc-includes/osclass/classes/AdminMenu.php:315
 msgid "Backup data"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:313
+#: oc-includes/osclass/classes/AdminMenu.php:322
 msgid "Upgrade Osclass"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:320
+#: oc-includes/osclass/classes/AdminMenu.php:329
 msgid "Maintenance mode"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:327
+#: oc-includes/osclass/classes/AdminMenu.php:336
 msgid "Renew location stats"
 msgstr ""
 
-#: oc-includes/osclass/classes/AdminMenu.php:334
+#: oc-includes/osclass/classes/AdminMenu.php:343
 msgid "Renew category stats"
-msgstr ""
-
-#: oc-includes/osclass/classes/AdminMenu.php:341
-msgid "System info"
 msgstr ""
 
 #: oc-includes/osclass/classes/Breadcrumb.php:63
@@ -5671,13 +5556,17 @@ msgstr ""
 msgid "Install"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:402
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:403
 msgid "Plugins Site"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:406
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:409
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:407
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:410
 msgid "By"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:416
+msgid "Version:"
 msgstr ""
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:325
@@ -5685,56 +5574,56 @@ msgstr ""
 msgid "Are you sure you want to %s the selected pages?"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:529
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:476
 msgid "Disable (website)"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:529
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:476
 msgid "Enable (website)"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:534
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:624
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:626
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:481
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:571
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:573
 msgid "Disable (oc-admin)"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:535
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:616
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:618
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:482
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:565
 msgid "Enable (oc-admin)"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:556
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:503
 msgid "Update here"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:564
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:510
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:511
 msgid "Yes"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:564
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:510
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:511
 msgid "No"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:599
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:607
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:615
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:623
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:631
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:546
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:554
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:562
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:570
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:578
 #, php-format
 msgid "Are you sure you want to %s the selected languages?"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:600
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:602
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:547
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:549
 msgid "Enable (Website)"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:608
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:610
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:555
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:557
 msgid "Disable (Website)"
 msgstr ""
 
@@ -5747,8 +5636,7 @@ msgid "Order saved"
 msgstr ""
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:249
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:463
-msgid "An error occurred while updating"
+msgid "An error occurred while updating."
 msgstr ""
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:253
@@ -5813,22 +5701,26 @@ msgstr ""
 msgid "Sorry, including at least a title is mandatory"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:496
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:463
+msgid "An error occurred while updating"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:499
 #, php-format
 msgid "Test email, %s"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:497
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:500
 msgid "Test email"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:509
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:531
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:512
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:534
 msgid "Email sent successfully"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:511
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:533
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:514
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:536
 msgid "An error occurred while sending email"
 msgstr ""
 
@@ -5838,10 +5730,6 @@ msgstr ""
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:575
 msgid "No update available"
-msgstr ""
-
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:580
-msgid "Network error"
 msgstr ""
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:586
@@ -5855,13 +5743,14 @@ msgstr ""
 msgid "This action cannot be done because it is a demo site"
 msgstr ""
 
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:612
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:636
+msgid "Osclass upgraded successfully."
+msgstr ""
+
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:619
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:643
 msgid "Error occurred while upgrading osclass Database."
-msgstr ""
-
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:636
-msgid "Osclass upgraded successfully."
 msgstr ""
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:693
@@ -5977,19 +5866,20 @@ msgstr ""
 msgid "Update date"
 msgstr ""
 
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:227
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:220
 #: oc-includes/osclass/functions.php:229
 msgid "Public profile"
 msgstr ""
 
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:246
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:239
 msgid "Re-send activation email"
 msgstr ""
 
-#: oc-includes/osclass/classes/datatables/UsersDataTable.php:252
+#: oc-includes/osclass/classes/datatables/UsersDataTable.php:245
 #: oc-includes/osclass/classes/datatables/BanRulesDataTable.php:153
 #: oc-includes/osclass/classes/datatables/CommentsDataTable.php:180
 #: oc-includes/osclass/classes/datatables/ItemsDataTable.php:314
+#: oc-includes/osclass/helpers/hAdminMenu.php:181
 msgid "Show more"
 msgstr ""
 
@@ -6076,36 +5966,36 @@ msgstr ""
 msgid "Manage my alerts"
 msgstr ""
 
-#: oc-includes/osclass/functions.php:527
+#: oc-includes/osclass/functions.php:542
 #: oc-includes/osclass/helpers/hUtils.php:282
 msgid "Logout"
 msgstr ""
 
-#: oc-includes/osclass/functions.php:538
+#: oc-includes/osclass/functions.php:553
 msgid "New comments"
 msgstr ""
 
-#: oc-includes/osclass/functions.php:581
+#: oc-includes/osclass/functions.php:596
 msgid "Osclass "
 msgstr ""
 
-#: oc-includes/osclass/functions.php:581
+#: oc-includes/osclass/functions.php:596
 msgid " is available"
 msgstr ""
 
-#: oc-includes/osclass/functions.php:655
+#: oc-includes/osclass/functions.php:670
 msgid "Plugin updates"
 msgstr ""
 
-#: oc-includes/osclass/functions.php:726
+#: oc-includes/osclass/functions.php:741
 msgid "Theme updates"
 msgstr ""
 
-#: oc-includes/osclass/functions.php:799
+#: oc-includes/osclass/functions.php:814
 msgid "Language updates"
 msgstr ""
 
-#: oc-includes/osclass/functions.php:881
+#: oc-includes/osclass/functions.php:888
 msgid "The website is currently undergoing maintenance"
 msgstr ""
 
@@ -6608,6 +6498,10 @@ msgstr ""
 
 #: oc-includes/osclass/install.php:339
 msgid "Feedback"
+msgstr ""
+
+#: oc-includes/osclass/helpers/hAdminMenu.php:188
+msgid "Compact"
 msgstr ""
 
 #: oc-includes/osclass/helpers/hItems.php:1406

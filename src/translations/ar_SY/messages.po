@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:26\n"
+"POT-Creation-Date: 2021-09-19 06:17+0000\n"
+"PO-Revision-Date: 2021-09-19 08:51\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -14,189 +14,207 @@ msgstr ""
 "X-Crowdin-Project: osclass-v2\n"
 "X-Crowdin-Project-ID: 376123\n"
 "X-Crowdin-Language: ar\n"
-"X-Crowdin-File: /develop/src/templates/messages.pot\n"
-"X-Crowdin-File-ID: 8223\n"
+"X-Crowdin-File: /master/src/templates/messages.pot\n"
+"X-Crowdin-File-ID: 8208\n"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:124
-msgid "Name too long."
-msgstr "اسم طويل جدا."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:125
-msgid "Email invalid."
-msgstr "بريد إلكتروني غير صالح."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:131
-msgid "Too fast. You should wait a little to publish your ad."
-msgstr "سريع جدا. عليك الانتظار قليلا لنشر الإعلان."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:323
-#: oc-includes/osclass/classes/controller/CWebContact.php:168
-msgid "The file you tried to upload does not have a valid extension"
-msgstr "الملف الذي تحاول رفعه ليس لديه امتداد صالح"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:351
-msgid "One of the files you tried to upload exceeds the maximum size"
-msgstr "ملف من الملفات التي اردت رفعها اكبر من الحجم المتاح"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:413
+#: oc-includes/osclass/classes/actions/ItemActions.php:122
+#: oc-includes/osclass/classes/actions/ItemActions.php:893
 msgid "Image with an incorrect extension."
 msgstr "الصورة بامتداد غير صحيح."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:416
+#: oc-includes/osclass/classes/actions/ItemActions.php:125
+#: oc-includes/osclass/classes/actions/ItemActions.php:896
 msgid "Image is too big. Max. size"
 msgstr "صورة كبيرة جدا. الحجم الاقصى"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:426
+#: oc-includes/osclass/classes/actions/ItemActions.php:135
 #, php-format
 msgid "Title too short (%s)."
 msgstr "عنوان قصير جدا (%s). "
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:428
+#: oc-includes/osclass/classes/actions/ItemActions.php:137
 #, php-format
 msgid "Title too long (%s)."
 msgstr "عنوان طويل جدا (%s). "
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:438
+#: oc-includes/osclass/classes/actions/ItemActions.php:148
 #, php-format
 msgid "Description too short (%s)."
 msgstr "وصف قصير جدا (%s). "
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:441
+#: oc-includes/osclass/classes/actions/ItemActions.php:151
 #, php-format
 msgid "Description too long (%s)."
 msgstr "وصف طويل جدا (%s). "
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:445
+#: oc-includes/osclass/classes/actions/ItemActions.php:160
+msgid "Name too long."
+msgstr "اسم طويل جدا."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:161
+msgid "Email invalid."
+msgstr "بريد إلكتروني غير صالح."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:166
+msgid "Too fast. You should wait a little to publish your ad."
+msgstr "سريع جدا. عليك الانتظار قليلا لنشر الإعلان."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:365
+#: oc-includes/osclass/classes/controller/CWebContact.php:168
+msgid "The file you tried to upload does not have a valid extension"
+msgstr "الملف الذي تحاول رفعه ليس لديه امتداد صالح"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:393
+msgid "One of the files you tried to upload exceeds the maximum size"
+msgstr "ملف من الملفات التي اردت رفعها اكبر من الحجم المتاح"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:454
 msgid "Category invalid."
 msgstr "فئة غير صالحة."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:446
+#: oc-includes/osclass/classes/actions/ItemActions.php:455
 msgid "Price must be a number."
 msgstr "يجب أن يكون سعر عددا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:448
+#: oc-includes/osclass/classes/actions/ItemActions.php:457
 msgid "Price too long."
 msgstr "تسعير طويلة جدا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:451
+#: oc-includes/osclass/classes/actions/ItemActions.php:460
 msgid "Price must be positive number."
 msgstr "يجب أن يكون السعر رقم موجب."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:453
+#: oc-includes/osclass/classes/actions/ItemActions.php:462
 msgid "Country too short."
 msgstr "اسم البلد قصير جدا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:455
+#: oc-includes/osclass/classes/actions/ItemActions.php:464
 msgid "Country too long."
 msgstr "اسم البلد طويل جدا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:457
+#: oc-includes/osclass/classes/actions/ItemActions.php:466
 msgid "Region too short."
 msgstr "اسم المنطقة قصير جدا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:459
+#: oc-includes/osclass/classes/actions/ItemActions.php:468
 msgid "Region too long."
 msgstr "اسم المنطقة طويل جدا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:461
+#: oc-includes/osclass/classes/actions/ItemActions.php:470
 msgid "City too short."
 msgstr "اسم المدينة قصير جدا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:462
+#: oc-includes/osclass/classes/actions/ItemActions.php:471
 msgid "City too long."
 msgstr "اسم المدينة طويل جدا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:464
+#: oc-includes/osclass/classes/actions/ItemActions.php:473
 msgid "Municipality too short."
 msgstr "المدينة قصيرة جدا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:466
+#: oc-includes/osclass/classes/actions/ItemActions.php:475
 msgid "Municipality too long."
 msgstr "المدينة طويلة جدا ."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:468
+#: oc-includes/osclass/classes/actions/ItemActions.php:477
 msgid "Address too short."
 msgstr "العنوان  قصير جدا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:470
+#: oc-includes/osclass/classes/actions/ItemActions.php:479
 msgid "Address too long."
 msgstr "العنوان طويل جدا."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:472
+#: oc-includes/osclass/classes/actions/ItemActions.php:481
 msgid "Phone invalid."
 msgstr "الهاتف غير صالح."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:560
-#: oc-includes/osclass/classes/actions/ItemActions.php:573
+#: oc-includes/osclass/classes/actions/ItemActions.php:571
 #: oc-includes/osclass/classes/actions/ItemActions.php:584
-#: oc-includes/osclass/classes/actions/ItemActions.php:594
-#: oc-includes/osclass/classes/actions/ItemActions.php:596
+#: oc-includes/osclass/classes/actions/ItemActions.php:595
+#: oc-includes/osclass/classes/actions/ItemActions.php:605
+#: oc-includes/osclass/classes/actions/ItemActions.php:607
 #, php-format
 msgid "%s is invalid."
 msgstr "%s غير صالح."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:563
-#: oc-includes/osclass/classes/actions/ItemActions.php:566
-#: oc-includes/osclass/classes/actions/ItemActions.php:576
+#: oc-includes/osclass/classes/actions/ItemActions.php:574
+#: oc-includes/osclass/classes/actions/ItemActions.php:577
 #: oc-includes/osclass/classes/actions/ItemActions.php:587
-#: oc-includes/osclass/classes/actions/ItemActions.php:599
-#: oc-includes/osclass/classes/actions/ItemActions.php:606
+#: oc-includes/osclass/classes/actions/ItemActions.php:598
+#: oc-includes/osclass/classes/actions/ItemActions.php:610
+#: oc-includes/osclass/classes/actions/ItemActions.php:617
 #, php-format
 msgid "%s is required."
 msgstr "%s مطلوب."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:1366
+#: oc-includes/osclass/classes/actions/ItemActions.php:906
+msgid "Title too short."
+msgstr "العنوان قصير جداً"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:907
+msgid "Title too long."
+msgstr "عنوان طويل جدا."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:919
+msgid "Description too short."
+msgstr "وصف قصيرة جدا."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:921
+msgid "Description too long."
+msgstr "وصف طويل جدا."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:1409
 #, php-format
 msgid "We just sent your message to %s"
 msgstr "أرسلنا رسالتك توا إلى %s"
 
-#: oc-includes/osclass/classes/actions/UserActions.php:65
+#: oc-includes/osclass/classes/actions/UserActions.php:59
 msgid "The reCAPTCHA was not entered correctly"
 msgstr "لم يتم ادخالاختبار reCAPTCHA بشكل صحيح"
 
-#: oc-includes/osclass/classes/actions/UserActions.php:70
+#: oc-includes/osclass/classes/actions/UserActions.php:64
 msgid "The password cannot be empty"
 msgstr "كلمة السر لا يمكن أن تكون فارغة"
 
-#: oc-includes/osclass/classes/actions/UserActions.php:75
-#: oc-includes/osclass/classes/actions/UserActions.php:309
+#: oc-includes/osclass/classes/actions/UserActions.php:69
+#: oc-includes/osclass/classes/actions/UserActions.php:307
 #: oc-includes/osclass/classes/controller/CWebUser.php:242
 msgid "Passwords don't match"
 msgstr "كلمات السر غير متطابقة"
 
-#: oc-includes/osclass/classes/actions/UserActions.php:86
-#: oc-includes/osclass/classes/actions/UserActions.php:302
+#: oc-includes/osclass/classes/actions/UserActions.php:76
+#: oc-includes/osclass/classes/actions/UserActions.php:300
 msgid "The name cannot be empty"
 msgstr "اسم لا يمكن أن تكون فارغة"
 
-#: oc-includes/osclass/classes/actions/UserActions.php:91
+#: oc-includes/osclass/classes/actions/UserActions.php:81
 msgid "The email is not valid"
 msgstr "البريد الإلكتروني غير صالح"
 
-#: oc-includes/osclass/classes/actions/UserActions.php:98
+#: oc-includes/osclass/classes/actions/UserActions.php:88
 #: oc-includes/osclass/classes/controller/CWebUser.php:138
 msgid "The specified e-mail is already in use"
 msgstr "البريد الإلكتروني المحدد قيد الاستخدام بالفعل"
 
-#: oc-includes/osclass/classes/actions/UserActions.php:105
+#: oc-includes/osclass/classes/actions/UserActions.php:95
 msgid "Username is already taken"
 msgstr "اسم المستخدم مأخوذ بالفعل"
 
-#: oc-includes/osclass/classes/actions/UserActions.php:109
+#: oc-includes/osclass/classes/actions/UserActions.php:99
 #: oc-includes/osclass/classes/controller/CWebUser.php:190
 msgid "The specified username is not valid, it contains some invalid words"
 msgstr "اسم المستخدم المحدد غير صالح، لانه يحتوي على بعض الكلمات غير صالحة"
 
-#: oc-includes/osclass/classes/actions/UserActions.php:291
+#: oc-includes/osclass/classes/actions/UserActions.php:293
 #, php-format
 msgid "The specified e-mail is already used by %s"
 msgstr "البريد الإلكتروني المحدد مستخدم بالفعل من قبل %s"
 
-#: oc-includes/osclass/classes/Csrf.php:181
+#: oc-includes/osclass/classes/Csrf.php:170
 msgid "Probable invalid request."
 msgstr "طلب غير صالحة محتملة."
 
-#: oc-includes/osclass/classes/Csrf.php:184
+#: oc-includes/osclass/classes/Csrf.php:173
 msgid "Invalid CSRF token."
 msgstr "رمزية CSRF صالح."
 
@@ -333,7 +351,7 @@ msgstr "لقد ارسلنا لك توا رسالة عبر البريد الال�
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:243
 msgid "Invalid email address"
-msgstr "عنوان بريد إلكتروني غير صالح"
+msgstr "عنوان البريد الإلكتروني غير صحيح"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:252
 msgid "We have sent you an email with the instructions to reset your password"
@@ -585,7 +603,7 @@ msgstr "شكرا جزيلا لك لتبرعك"
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:110
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
@@ -803,97 +821,93 @@ msgstr "تم رفع الملف ولكن غير قادر على تفعيل الل
 msgid "There was a problem adding the language"
 msgstr "كانت هناك مشكلة إضافة اللغة"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
-msgid "There was a problem importing email templates"
-msgstr "حدثت مشكلة في استيراد قوالب البريد الإلكتروني"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:153
 msgid "Language imported successfully"
 msgstr "تم استيراد اللغة بنجاح"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:160
+msgid "There was a problem importing the selected language"
+msgstr "حدثت مشكلة في استيراد اللغة المختارة"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:168
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:201
 msgid "Language id isn't in the correct format"
 msgstr "معرف اللغة ليس بالتنسيق الصحيح"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:175
 msgid "Language id doesn't exist"
 msgstr "معرف اللغة غير موجود"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:273
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
 msgid "Language name field is required"
 msgstr "حقل اسم اللغة مطلوب"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
-msgid "Language direction field is required"
-msgstr "حقل التوجيه اللغوي مطلوب"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:227
 msgid "Language short name field is required"
 msgstr "حقل الاسم القصير للغة مطلوب"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:282
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:230
 msgid "Language description field is required"
 msgstr "حقل وصف اللغة مطلوب"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:285
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:233
 msgid "Currency format field is required"
 msgstr "حقل تنسيق العملة مطلوب"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:288
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:236
 msgid "Number of decimals must only contain numeric characters"
 msgstr "عدد من الكسور العشرية يجب أن تحتوي فقط على أحرف رقمية"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:312
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:259
 #, php-format
 msgid "%s has been updated"
 msgstr "s%  قد تم تحديثه"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:318
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:265
 msgid "Selected languages have been enabled for the website"
 msgstr "اللغات المختارة سيتم تمكينها في الموقع"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:325
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:350
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:384
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:272
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:297
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:331
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:356
 msgid "The language ids aren't in the correct format"
 msgstr "معرفات اللغات ليست بالتنسيق الصحيح"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:342
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:289
 msgid "Selected languages have been disabled for the website"
 msgstr "اللغات المختارة سيتم تعطيلها في الموقع"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:357
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:416
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:304
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:363
 #, php-format
 msgid "%s can't be disabled because it's the default language"
 msgstr "لا يمكن تعطيل %s لانها اللغة الافتراضية"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:377
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:324
 msgid "Selected languages have been enabled for the backoffice (oc-admin)"
 msgstr "اللغات المختارة ستكون ممكنة في صفحة الادارة (oc-admin)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:348
 msgid "Selected languages have been disabled for the backoffice (oc-admin)"
 msgstr "اللغات المختارة ستكون معطلة في صفحة الادارة (oc-admin)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:443
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:390
 #, php-format
 msgid "Directory '%s' couldn't be removed"
 msgstr "الدليل '%s' لايمكن ازالته"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:448
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:395
 #, php-format
 msgid "Directory \"%s\" has been successfully removed"
 msgstr "الدليل %s تم ازالته بنجاح"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:454
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
 #, php-format
 msgid "Directory '%s' couldn't be removed;)"
 msgstr "لا يمكن ازالة الدليل '%s' "
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
 msgstr "الدليل ''%s' لا يمكن إزالته لأنه اللغة الافتراضية. <a href=\"%s\">تعيين لغة أخرى</a> كلغة افتراضية أولا ثم حاول مرة أخرى"
@@ -905,11 +919,11 @@ msgstr "الدليل ''%s' لا يمكن إزالته لأنه اللغة الا
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:209
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:237
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:264
 msgid "This action cannot be done because it is a demo site"
-msgstr "لا يمكن القيام بهذا الإجراء لأنه موقع تجريبي"
+msgstr "هذا العمل لا يمكن القيام به لأنه هو موقع تجريبي"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
 msgid "The username field is empty"
@@ -1039,57 +1053,54 @@ msgid "Path is empty"
 msgstr "المسار خاطئ"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
-msgid "Could not connect with the database"
-msgstr "تعذر الاتصال بقاعدة البيانات"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
-msgid "There are no tables to back up"
-msgstr "لا توجد جداول للعمل نسخة احطياتية "
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
-msgid "The folder is not writable"
-msgstr "المجلد ليس قابل للكتابة"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
-msgid "Backup completed successfully"
-msgstr "الانتهاء النسخ الاحتياطي بنجاح"
-
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
 #, php-format
 msgid "Could not connect with the database. Error: %s"
 msgstr "تعذر الاتصال مع قاعدة البيانات. الخطأ:٪ S"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:182
+msgid "There are no tables to back up"
+msgstr "لا توجد جداول للعمل نسخة احطياتية "
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:186
+msgid "The folder is not writable"
+msgstr "المجلد ليس قابل للكتابة"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:190
+msgid "Backup completed successfully"
+msgstr "الانتهاء النسخ الاحتياطي بنجاح"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:178
 #, php-format
 msgid "Could not select the database. Error: %s"
 msgstr "لا يمكن تحديد قاعدة البيانات. الخطأ:٪ S"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:216
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:254
 msgid "Archived successfully!"
 msgstr "تمت الأرشفة بنجاح!"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:231
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:257
 msgid "Error, the zip file was not created in the specified directory"
 msgstr "خطأ، لم يتم إنشاء ملف مضغوط في الدليل المحدد"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:274
 msgid "Maintenance mode is ON"
 msgstr "تم تفعيل وضع الصيانة "
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:277
 msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
 msgstr "كان هناك خطأ أثناء إنشاء ملف الصيانة.، يرجى إنشائه يدويا في المجلد الجذر"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:287
 msgid "Maintenance mode is OFF"
 msgstr "تم الغاء وضع الصيانة "
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:290
 msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
 msgstr "كان هناك خطأ إزالة ملف الصيانة.، الرجاء إزالته يدويا من المجلد الجذر"
 
@@ -1810,36 +1821,36 @@ msgstr "تم تحديث إعدادات البحث الاخيرة"
 msgid "Last check"
 msgstr "آخر تحقق"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:95
 msgid "Page title field is required"
 msgstr "مطلوب حقل عنوان الصفحة"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:98
 msgid "Contact email field is required"
 msgstr "مطلوب الاتصال حقل البريد الإلكتروني"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:101
 msgid "Number of listings in the RSS has to be a numeric value"
 msgstr "عدد القوائم في تغذيات RSS يجب أن يكون قيمة رقمية"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:104
 msgid "Max latest listings has to be a numeric value"
 msgstr "الحد الاقصى للقوائم الاخيرة يجب ان يكون قيمة رقمية"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:107
 msgid "Number of listings on search has to be a numeric value"
 msgstr "عدد القوائم في البحث يجب أن يكون قيمة رقمية"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:133
 msgid "Number of listings in the RSS must be an integer"
 msgstr "عدد القوائم في تغذيات RSS يجب أن يكون عدد صحيح"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:142
 msgid "Number of recent listings displayed at home must be an integer"
 msgstr "عدد القوائم الأخيرة التي تعرض في الصفحة الرئيسية يجب أن يكون عدد صحيح"
 
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:156
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
 msgid "General settings have been updated"
 msgstr "تم تحديث الاعدادات العامة"
 

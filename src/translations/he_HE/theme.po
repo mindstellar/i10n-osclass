@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:26\n"
+"POT-Creation-Date: 2021-09-19 06:17+0000\n"
+"PO-Revision-Date: 2021-09-19 09:52\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: osclass-v2\n"
 "X-Crowdin-Project-ID: 376123\n"
 "X-Crowdin-Language: he\n"
-"X-Crowdin-File: /develop/src/templates/theme.pot\n"
-"X-Crowdin-File-ID: 8225\n"
+"X-Crowdin-File: /master/src/templates/theme.pot\n"
+"X-Crowdin-File-ID: 8210\n"
 
 #: user-change_username.php:34 user-change_username.php:39 functions.php:447
 #: functions.php:506
@@ -24,15 +24,15 @@ msgstr "promijeni korisničko ime"
 
 #: user-change_username.php:50
 msgid "Username: this field is required"
-msgstr "שם משתמש: שדה חובה"
+msgstr "Korisničko ime: polje je obavezno"
 
 #: user-change_username.php:75
 msgid "The username is available"
-msgstr "שם המשתמש זמין"
+msgstr "Korisničko ime je slobodno"
 
 #: user-change_username.php:77
 msgid "The username is NOT available"
-msgstr "שם המשתמש אינו זמין"
+msgstr "Korisničko ime NIJE slobodno"
 
 #: user-change_username.php:94
 msgid "Username"
@@ -57,7 +57,7 @@ msgstr "דואר אלקטרוני חדש"
 
 #: user-change_email.php:76
 msgid "Email: this field is required"
-msgstr "מייל: שדה חובה"
+msgstr "שם: שדה חובה"
 
 #: user-change_email.php:77 alert-form.php:28
 msgid "Invalid email address"
@@ -131,12 +131,12 @@ msgstr "Ime"
 #: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
-msgstr "שם: %s"
+msgstr "Ime: %s"
 
 #: item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
-msgstr "דואר אלקטרוני: %s"
+msgstr ""
 
 #: item-sidebar.php:76
 #, php-format
@@ -158,7 +158,7 @@ msgstr "מספר טלפון"
 
 #: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
 msgid "optional"
-msgstr "אופציונלי"
+msgstr ""
 
 #: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
 #: item-send-friend.php:78
@@ -205,11 +205,11 @@ msgstr "בטל"
 
 #: common/head.php:72
 msgid "Previous image"
-msgstr "התמונה הקודמת"
+msgstr ""
 
 #: common/head.php:73
 msgid "Next image"
-msgstr "התמונה הבאה"
+msgstr ""
 
 #: common/head.php:74
 msgid "Close"
@@ -221,7 +221,7 @@ msgstr "החיפוש שלך"
 
 #: search-sidebar.php:44 user-profile.php:83 item-post.php:146
 msgid "City"
-msgstr "עיר"
+msgstr ""
 
 #: search-sidebar.php:52
 msgid "Show only"
@@ -233,7 +233,7 @@ msgstr "רישומים עם תמונות"
 
 #: search-sidebar.php:62 item-post.php:78
 msgid "Price"
-msgstr "מחיר"
+msgstr ""
 
 #: search-sidebar.php:63
 msgid "Min"
@@ -311,35 +311,35 @@ msgstr "Ažuriraj korisnički račun"
 
 #: user-profile.php:52
 msgid "User type"
-msgstr "סוג משתמש"
+msgstr ""
 
 #: user-profile.php:59
 msgid "Cell phone"
-msgstr "פלאפון"
+msgstr ""
 
 #: user-profile.php:65
 msgid "Phone"
-msgstr "טלפון"
+msgstr ""
 
 #: user-profile.php:71 item-post.php:92
 msgid "Country"
-msgstr "מדינה"
+msgstr ""
 
 #: user-profile.php:77 item-post.php:98 item-post.php:124
 msgid "Region"
-msgstr "אזור"
+msgstr ""
 
 #: user-profile.php:89
 msgid "City area"
-msgstr "אזור העיר"
+msgstr ""
 
 #: user-profile.php:95 item-post.php:168
 msgid "Address"
-msgstr "כתובת"
+msgstr ""
 
 #: user-profile.php:101
 msgid "Website"
-msgstr "אתר אינטרנט"
+msgstr ""
 
 #: user-profile.php:107 item-post.php:71
 msgid "Description"
@@ -355,7 +355,7 @@ msgstr "פרסום מודעה"
 
 #: functions.php:435
 msgid "Edit your listing"
-msgstr "ערוך את הרישום שלך"
+msgstr "Uredi oglas"
 
 #: functions.php:436 item-send-friend.php:31
 msgid "Send to a friend"
@@ -363,16 +363,16 @@ msgstr "שלח לחבר"
 
 #: functions.php:438
 msgid "Search results"
-msgstr "תוצאות חיפוש"
+msgstr "Rezultati pretrage"
 
 #: functions.php:439
 #, php-format
 msgid "Search results: %s"
-msgstr "תוצאות חיפוש: %s"
+msgstr "Rezultati pretrage: %s"
 
 #: functions.php:440
 msgid "Dashboard"
-msgstr "דשבורד"
+msgstr "Kontrolna ploča"
 
 #: functions.php:441
 #, php-format
@@ -381,7 +381,7 @@ msgstr "הפרופיל של %s"
 
 #: functions.php:442 functions.php:496
 msgid "Account"
-msgstr "חשבון"
+msgstr "Korisnički račun"
 
 #: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
 msgid "Listings"
@@ -407,7 +407,7 @@ msgstr "Oporavi lozinku"
 
 #: functions.php:452
 msgid "Create a new account"
-msgstr "יצירת חשבון חדש"
+msgstr "Napravi novi korisnički račun"
 
 #: functions.php:453 user-public-sidebar.php:26 footer.php:65
 msgid "Contact"
@@ -415,7 +415,7 @@ msgstr "איש קשר"
 
 #: functions.php:481
 msgid "Public Profile"
-msgstr "פרופיל ציבורי"
+msgstr "Javni profil"
 
 #: functions.php:608
 msgid "Theme settings updated correctly"
@@ -477,7 +477,7 @@ msgstr "<strong class=\"update\">Datum izmjene:</strong> %1$s"
 
 #: item.php:85 item.php:92
 msgid "Image"
-msgstr "תמונה"
+msgstr ""
 
 #: item.php:121
 msgid "Contact seller"
@@ -549,11 +549,11 @@ msgstr "אימייל"
 
 #: user-login.php:44 user-register.php:51
 msgid "Password"
-msgstr "סיסמה"
+msgstr ""
 
 #: user-login.php:51
 msgid "Remember me"
-msgstr "תזכרו אותי."
+msgstr ""
 
 #: user-login.php:54
 msgid "Log in"
@@ -666,11 +666,11 @@ msgstr "Oporavi lozinku"
 
 #: user-forgot_password.php:39 user-change_password.php:51
 msgid "New password"
-msgstr "סיסמה חדשה"
+msgstr ""
 
 #: user-forgot_password.php:45 user-change_password.php:57
 msgid "Repeat new password"
-msgstr "חזור על סיסמה חדשה"
+msgstr ""
 
 #: item-send-friend.php:57
 msgid "Your friend's name"
@@ -712,7 +712,7 @@ msgstr "%1$d - %2$d od %3$d oglasa"
 
 #: search.php:78
 msgid "Show filters"
-msgstr "הצג מסננים"
+msgstr ""
 
 #: search.php:85
 msgid "Sort by"
@@ -728,7 +728,7 @@ msgstr "חיפושים אחרים שעשויים לעניין אותך"
 
 #: admin/header.php:35
 msgid "Preview"
-msgstr "תצוגה מקדימה"
+msgstr ""
 
 #: admin/header.php:42
 msgid "Remove logo"
@@ -902,7 +902,7 @@ msgstr "סיסמה נוכחית"
 #: footer.php:69
 #, php-format
 msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "אתר זה משתמש בגאווה <a title=\"Osclass web\" href=\"%s\">סקריפטים מסווגים</a> תוכנה <strong>Osclass</strong>"
+msgstr ""
 
 #: footer.php:74
 msgid "Language:"
