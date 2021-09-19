@@ -17,7 +17,7 @@
       "fk_i_page_id": 3,
       "s_internal_name": "email_user_registration",
       "s_title": "{WEB_TITLE} - Sikeres regisztráció!",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Sziasztok {USER_NAME},<\/p><p>Sikeresen regisztrált a {WEB_LINK}.<\/p><p>Köszönöm!<\/p><p>Üdvözlettel,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 4,
@@ -53,37 +53,37 @@
       "fk_i_page_id": 9,
       "s_internal_name": "email_new_comment_admin",
       "s_title": "{WEB_TITLE} - Új hozzászólás",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+      "s_description": "<p>Valaki kommentálta a tőzsdei <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Hozzászóló: {COMMENT_AUTHOR}<br \/>A hozzászóló e-mail címe: {COMMENT_EMAIL}<br \/>Cím: {COMMENT_TITLE}<br \/>Hozzászólás: {COMMENT_TEXT}<\/p>"
     },
     {
       "fk_i_page_id": 10,
       "s_internal_name": "email_new_item_non_register_user",
       "s_title": "{WEB_TITLE} - Hirdetés szerkesztése {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Sziasztok {USER_NAME},<\/p><p>Nem regisztrált a {WEB_LINK}, de a lista <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> rövid ideig szerkesztheti vagy törölheti.<\/p><p>A listát az alábbi linken szerkesztheti: {EDIT_LINK}<\/p><p>A hirdetését az alábbi linken törölheti: {DELETE_LINK}<\/p><p>Ha felhasználóként regisztrál, teljes hozzáférése lesz a szerkesztési lehetőségekhez.<\/p><p>Üdvözlettel,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 11,
       "s_internal_name": "email_item_validation",
       "s_title": "{WEB_TITLE} - Hirdetés megerősítése",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Sziasztok {USER_NAME},<\/p><p>Ezt az e-mailt azért kapod, mert a {WEB_LINK}közzétettek egy listát. Kérjük, érvényesítse ezt a listát az alábbi linkre kattintva: {VALIDATION_LINK}. Ha nem tette közzé ezt a listát, kérjük, hagyja figyelmen kívül ezt az e-mailt.<\/p><p>Adatlap adatai:<\/p><p>Kapcsolattartó neve: {USER_NAME}<br \/>Kapcsolattartó e-mail címe: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Üdvözlettel,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 12,
       "s_internal_name": "email_admin_new_item",
       "s_title": "{WEB_TITLE} - Új hirdetés feladása",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Kedves {WEB_TITLE} admin,<\/p><p>Ezt az e-mailt azért kapja, mert a listát közzétették a {WEB_LINK}.<\/p><p>Lista adatai:<\/p><p>Kapcsolattartó neve: {USER_NAME}<br \/>Kapcsolattartó e-mail címe: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>A lista az alábbi linkre kattintva szerkeszthető: {EDIT_LINK}<\/p><p>Üdvözlettel,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 13,
       "s_internal_name": "email_user_forgot_password",
       "s_title": "{WEB_TITLE} - Jelszó emlékeztető",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Sziasztok {USER_NAME},<\/p><p>Azért küldtük ezt az e-mailt, mert jelszó emlékeztetőt kért. A helyreállításhoz kövesse ezt a linket: {PASSWORD_LINK}<\/p><p>A hivatkozás 24 órán belül deaktiválva lesz.<\/p><p>Ha nem kért jelszó emlékeztetőt, kérjük, hagyja figyelmen kívül ezt az üzenetet. Ezt a kérést az IP- {IP_ADDRESS} nyújtották be {DATE_TIME}<\/p><p>Üdvözlettel,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 14,
       "s_internal_name": "email_new_email",
       "s_title": "{WEB_TITLE} - Email cím változást jelentett be",
-      "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Szia {USER_NAME}<\/p><p>Azért kapja ezt az e-mailt, mert e-mail módosítást kért. Kérjük, erősítse meg ezt az új e-mail címet az alábbi érvényesítési linkre kattintva: {VALIDATION_LINK}<\/p><p>Üdvözlettel,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 15,
@@ -101,13 +101,13 @@
       "fk_i_page_id": 17,
       "s_internal_name": "email_item_validation_non_register_user",
       "s_title": "{WEB_TITLE} - Hirdetés megerősítése",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Sziasztok {USER_NAME},<\/p><p>Ezt az e-mailt azért kapjátok, mert a {WEB_LINK}közzétettek egy listát. Kérjük, érvényesítse ezt a listát az alábbi linkre kattintva: {VALIDATION_LINK}. Ha nem tette közzé ezt a listát, kérjük, hagyja figyelmen kívül ezt az e-mailt.<\/p><p>Adatlap adatai:<\/p><p>Kapcsolattartó neve: {USER_NAME}<br \/>Kapcsolattartó e-mail címe: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Még akkor is, ha nem regisztrált a {WEB_LINK},  továbbra is szerkesztheti vagy törölheti a hirdetését:<\/p><p>A listát az alábbi linken szerkesztheti: {EDIT_LINK}<\/p><p>Törölheti a hirdetését az alábbi linken: {DELETE_LINK}<\/p><p>Üdvözlettel,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 18,
       "s_internal_name": "email_admin_new_user",
       "s_title": "{WEB_TITLE} - Új felhasználó regisztrált",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Kedves {WEB_TITLE} admin,<\/p><p>Ezt az e-mailt azért kapja, mert új felhasználó jött létre {WEB_LINK}.<\/p><p>Felhasználói adatok:<\/p><p>Név: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Üdvözlettel,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 19,
@@ -119,7 +119,7 @@
       "fk_i_page_id": 20,
       "s_internal_name": "email_new_comment_user",
       "s_title": "{WEB_TITLE} - Hozzászóltak a hirdetéséhez",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Van egy új megjegyzés a lista: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Szerző: {COMMENT_AUTHOR}<br \/>A szerző e-mail címe: {COMMENT_EMAIL}<br \/>Cím: {COMMENT_TITLE}<br \/>Hozzászólás: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 21,
