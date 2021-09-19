@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 09:06\n"
+"PO-Revision-Date: 2021-09-19 10:13\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -1542,7 +1542,7 @@ msgstr "Eklentiyi Sil"
 
 #: oc-admin/themes/modern/plugins/index.php:224
 msgid "You are about to delete the files of the plugin. Do you want to continue?"
-msgstr ""
+msgstr "Eklentinin dosyalarını silmek üzeresiniz. Devam etmek istiyor musunuz?"
 
 #: oc-admin/themes/modern/plugins/view.php:35
 #: oc-admin/themes/modern/plugins/add.php:46
@@ -2010,7 +2010,7 @@ msgstr "Açıklama: bu alan gerekli"
 
 #: oc-admin/themes/modern/appearance/widgets.php:37
 msgid "Modify your site's header or footer here."
-msgstr ""
+msgstr "Sitenizin üstbilgisini veya altbilgisini burada değiştirin."
 
 #: oc-admin/themes/modern/appearance/widgets.php:47
 #: oc-admin/themes/modern/appearance/index.php:53
@@ -2058,7 +2058,7 @@ msgstr "Gereci sil"
 
 #: oc-admin/themes/modern/appearance/index.php:40
 msgid "Change your site's look and feel by activating a theme among those available. <strong>Be careful</strong>: if your theme has been customized, you'll lose all changes if you change to a new theme."
-msgstr ""
+msgstr "Mevcut temalar arasında bir temayı etkinleştirerek sitenizin görünümünü ve hissini değiştirin. <strong></strong>dikkatli olun: temanız özelleştirilmişse, yeni bir temaya dönüşürseniz tüm değişiklikleri kaybedersiniz."
 
 #: oc-admin/themes/modern/appearance/index.php:57
 msgid "Add theme"
@@ -2319,7 +2319,7 @@ msgstr "Varsayılan şablon"
 #: oc-admin/themes/modern/settings/locations.php:203
 #: oc-includes/osclass/classes/form/CategoryForm.php:228
 msgid "Slug"
-msgstr ""
+msgstr "Sümüklüböcek"
 
 #: oc-admin/themes/modern/pages/frm.php:147
 msgid "Used to quickly identify this page"
@@ -2397,17 +2397,17 @@ msgstr "İçeriye veri aktar"
 #: oc-admin/themes/modern/tools/version.php:33
 #, php-format
 msgid "Osclass %s"
-msgstr ""
+msgstr "Osclass %s"
 
 #: oc-admin/themes/modern/tools/version.php:41
 #, php-format
 msgid "Osclass %s &raquo; %s"
-msgstr ""
+msgstr "Osclass %s &raquo; %s"
 
 #: oc-admin/themes/modern/tools/upgrade.php:47
 #, php-format
 msgid "Upgrade is available for (Current version %s)"
-msgstr ""
+msgstr "Yükseltme için kullanılabilir (Geçerli sürüm %s)"
 
 #: oc-admin/themes/modern/tools/upgrade.php:48
 #, php-format
@@ -2469,7 +2469,8 @@ msgstr "Tebrikler! Osclass kurulumunuz güncel!"
 #: oc-admin/themes/modern/tools/upgrade.php:180
 msgid "Check to see if you're using the latest version of Osclass. If you're not, \n"
 "        the system will let you know so you can update and use the newest features."
-msgstr ""
+msgstr "Osclass'ın en son sürümünü kullanıp kullanmadiğinizı kontrol edin. Değilse, \n"
+"        sistem size bildirir, böylece en yeni özellikleri güncelleyebilir ve kullanabilirsiniz."
 
 #: oc-admin/themes/modern/tools/upgrade.php:206
 #, php-format
@@ -2482,7 +2483,10 @@ msgid "Your Osclass installation can be auto-upgraded. \n"
 "                                        Please, back up your database and the folder oc-content before attempting to \n"
 "                                        upgrade your Osclass installation. \n"
 "                                        You can also upgrade Osclass manually, more information in the %s"
-msgstr ""
+msgstr "Osclass yüklemeniz otomatik olarak yükseltilebilir. \n"
+"                                        Lütfen, Osclass yüklemenizi yükseltmeye \n"
+"                                        çalışmadan önce veritabanınızı ve klasör içeriğini yedekleyin. \n"
+"                                        Osclass'ı manuel olarak da yükseltebilirsiniz, %s"
 
 #: oc-admin/themes/modern/tools/maintenance.php:45
 msgid "Show a \"Site in maintenance mode\" message to your users while you're updating your site or modifying its configuration."
@@ -3301,7 +3305,7 @@ msgstr "İleri Düzey Ayarlar &raquo; %s"
 #: oc-admin/themes/modern/settings/advanced.php:109
 #: oc-admin/themes/modern/settings/advanced.php:111
 msgid "Flush cache"
-msgstr ""
+msgstr "Önbelleği temizleme"
 
 #: oc-admin/themes/modern/settings/advanced.php:113
 msgid "Remove all data from cache."
@@ -4261,11 +4265,11 @@ msgstr "GD uzantısı gerekmekte. <a target=\"_blank\" href=\"http://www.php.net
 
 #: oc-includes/osclass/install-functions.php:161
 msgid "cURL extension for PHP"
-msgstr ""
+msgstr "PHP için cURL uzantısı"
 
 #: oc-includes/osclass/install-functions.php:163
 msgid "cURL extension is required. How to <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">install/configure</a>."
-msgstr ""
+msgstr "cURL uzantısı gereklidir.</a>nasıl <a target=\"_blank\" href=\"https://www.php.net/manual/en/curl.setup.php\">yüklenir/yapılandırılır."
 
 #: oc-includes/osclass/install-functions.php:167
 msgid "Folder <code>oc-content/uploads</code> exists"
@@ -4283,7 +4287,7 @@ msgstr "<code>oc-content/uploads</code> klasörü yazılabilir"
 #: oc-includes/osclass/install-functions.php:179
 #, php-format
 msgid "<code>uploads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/uploads/</code>"
-msgstr ""
+msgstr "<code>yüklemeler</code> klasörün yazılabilir olması gerekir, yani: <code>chmod 0755 %soc-content/uploads/</code>"
 
 #: oc-includes/osclass/install-functions.php:186
 msgid "Folder <code>oc-content/downloads</code> exists"
@@ -4301,7 +4305,7 @@ msgstr "<code>oc-content/downloads</code> klasörü yazılabilir"
 #: oc-includes/osclass/install-functions.php:199
 #, php-format
 msgid "<code>downloads</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/downloads/</code>"
-msgstr ""
+msgstr "<code>indirmeler</code> klasörü yazılabilir olmalıdır, yani: <code>chmod 0755 %soc-content/downloads/</code>"
 
 #: oc-includes/osclass/install-functions.php:206
 msgid "Folder <code>oc-content/languages</code> folder exists"
@@ -4319,7 +4323,7 @@ msgstr "<code>oc-content/languages</code> klasörü yazılabilir"
 #: oc-includes/osclass/install-functions.php:219
 #, php-format
 msgid "<code>languages</code> folder has to be writable, i.e.: <code>chmod 0755 %soc-content/languages/</code>"
-msgstr ""
+msgstr "<code>diller</code> klasörü yazılabilir olmalıdır, yani: <code>chmod 0755 %soc-content/languages/</code>"
 
 #: oc-includes/osclass/install-functions.php:234
 msgid "<code>config.php</code> file is writable"
@@ -4328,7 +4332,7 @@ msgstr "<code>config.php</code> dosyası yazılabilir"
 #: oc-includes/osclass/install-functions.php:237
 #, php-format
 msgid "<code>config.php</code> file has to be writable, i.e.: <code>chmod 0755 %sconfig.php</code>"
-msgstr ""
+msgstr "<code>yapılandırma.php</code> dosyası yazılabilir olmalıdır, yani: <code>chmod 0755 %sconfig.php</code>"
 
 #: oc-includes/osclass/install-functions.php:246
 msgid "Root directory is writable"
@@ -4337,7 +4341,7 @@ msgstr "Kök klasör yazılabilir"
 #: oc-includes/osclass/install-functions.php:249
 #, php-format
 msgid "Root folder has to be writable, i.e.: <code>chmod 0755 %s</code>"
-msgstr ""
+msgstr "Kök klasör yazılabilir olmalıdır, yani: <code>chmod 0755 %s</code>"
 
 #: oc-includes/osclass/install-functions.php:258
 msgid "<code>config-sample.php</code> file exists"
@@ -4589,7 +4593,7 @@ msgstr "Şifre: %s"
 #: oc-includes/osclass/install-functions.php:1261
 #, php-format
 msgid "Remember that for any doubts you might have you can consult our <a href=\"%1$s\">documentation</a>"
-msgstr ""
+msgstr "Herhangi bir şüpheniz varsa <a href=\"%1$s\">belgelerimize başvurabileceğinizi unutmayın</a>"
 
 #: oc-includes/osclass/install-functions.php:1264
 msgid "Cheers,"
@@ -4597,11 +4601,11 @@ msgstr "Teşekkürler,"
 
 #: oc-includes/osclass/install-functions.php:1265
 msgid "The <a href=\"https://github.com/mindstellar/osclass\">Osclass</a> team"
-msgstr ""
+msgstr "<a href=\"https://github.com/mindstellar/osclass\">Osclass</a> ekibi"
 
 #: oc-includes/osclass/timezones.php:31
 msgid "Use native php function for timezones list."
-msgstr ""
+msgstr "Saat dilimleri listesi için yerel php işlevini kullanın."
 
 #: oc-includes/osclass/classes/utility/SystemInfo.php:291
 #: oc-includes/osclass/classes/utility/SystemInfo.php:301
@@ -4629,27 +4633,27 @@ msgstr "Ayarlandı değil"
 
 #: oc-includes/osclass/classes/utility/Utils.php:52
 msgid "Is allow_url_fopen enabled?"
-msgstr ""
+msgstr "allow_url_fopen etkin mi?"
 
 #: oc-includes/osclass/classes/utility/Utils.php:265
 msgid "Category id is not a valid integer"
-msgstr ""
+msgstr "Kategori kimliği geçerli bir tamsayı değil"
 
 #: oc-includes/osclass/classes/upgrade/Plugin.php:77
 msgid "Invalid plugin name."
-msgstr ""
+msgstr "Geçersiz eklenti adı."
 
 #: oc-includes/osclass/classes/upgrade/Plugin.php:88
 msgid "Invalid plugin update uri"
-msgstr ""
+msgstr "Geçersiz eklenti güncelleme uri"
 
 #: oc-includes/osclass/classes/upgrade/Theme.php:77
 msgid "Invalid theme name."
-msgstr ""
+msgstr "Geçersiz tema adı."
 
 #: oc-includes/osclass/classes/upgrade/Theme.php:88
 msgid "Invalid theme update uri"
-msgstr ""
+msgstr "Geçersiz tema güncelleştirmesi uri"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:96
 msgid "Osclass &raquo; Has some errors"
@@ -4681,7 +4685,7 @@ msgstr "Destek Forumu"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:123
 msgid "Osclass DB Upgraded Successfully"
-msgstr ""
+msgstr "Osclass DB Başarıyla Yükseltildi"
 
 #: oc-includes/osclass/classes/upgrade/Osclass.php:126
 msgid "Unable to upgrade Database"
@@ -4689,7 +4693,7 @@ msgstr "Veritabanı yükseltilemiyor"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:102
 msgid "Unable to follow upgrade, invalid package info"
-msgstr ""
+msgstr "Yükseltme izlenemiyor, geçersiz paket bilgisi"
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:131
 msgid "Invalid Zip package, it's not in valid format."
@@ -4697,23 +4701,23 @@ msgstr "Geçersiz Zip paketi, geçerli biçimde değil."
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:145
 msgid "doesn't exists, unknown error occurred while downloading and extracting package."
-msgstr ""
+msgstr "yok, paket indirilirken ve ayıklanırken bilinmeyen bir hata oluştu."
 
 #: oc-includes/osclass/classes/upgrade/Upgrade.php:179
 msgid "Unable to unzip package file."
-msgstr ""
+msgstr "Paket dosyasının ferşüsü çözülememiyor."
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:133
 msgid "s_source_file is not a valid url"
-msgstr ""
+msgstr "s_source_file geçerli bir URL değil"
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:147
 msgid "Invalid s_target_directory."
-msgstr ""
+msgstr "Geçersiz s_target_directory."
 
 #: oc-includes/osclass/classes/upgrade/UpgradePackage.php:159
 msgid "Invalid upgrade package info"
-msgstr ""
+msgstr "Geçersiz yükseltme paketi bilgisi"
 
 #: oc-includes/osclass/classes/form/UserForm.php:245
 #: oc-includes/osclass/classes/form/ItemForm.php:722
@@ -5214,7 +5218,7 @@ msgstr "Wk"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:319
 msgid "Select"
-msgstr ""
+msgstr "Seçmek"
 
 #: oc-includes/osclass/classes/form/FieldForm.php:371
 msgid "from"
@@ -5336,7 +5340,7 @@ msgstr "İlan için URL"
 
 #: oc-includes/osclass/classes/EmailVariables.php:73
 msgid "Item expiration date"
-msgstr ""
+msgstr "Madde son kullanma tarihi"
 
 #: oc-includes/osclass/classes/EmailVariables.php:74
 msgid "Listing list"
@@ -5425,11 +5429,11 @@ msgstr "İlan kenti"
 
 #: oc-includes/osclass/classes/EmailVariables.php:95
 msgid "Seller name"
-msgstr ""
+msgstr "Satıcı adı"
 
 #: oc-includes/osclass/classes/EmailVariables.php:96
 msgid "Seller email"
-msgstr ""
+msgstr "Satıcı e-postası"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:121
 msgid "Anonymous"
@@ -5502,11 +5506,11 @@ msgstr "Bakım durumu"
 
 #: oc-includes/osclass/classes/AdminMenu.php:327
 msgid "Renew location stats"
-msgstr ""
+msgstr "Konum istatistiklerini yenileme"
 
 #: oc-includes/osclass/classes/AdminMenu.php:334
 msgid "Renew category stats"
-msgstr ""
+msgstr "Kategori istatistiklerini yenileme"
 
 #: oc-includes/osclass/classes/AdminMenu.php:341
 msgid "System info"
@@ -5596,7 +5600,7 @@ msgstr "Yeni bir hesap oluştur"
 
 #: oc-includes/osclass/classes/model/Category.php:919
 msgid "Non-Existent Category"
-msgstr ""
+msgstr "Varolmayan Kategori"
 
 #: oc-includes/osclass/classes/ImageProcessing.php:55
 #, php-format
@@ -5836,11 +5840,11 @@ msgstr "E-posta gönderilirken bir hata oluştu"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:572
 msgid "Update available"
-msgstr ""
+msgstr "Güncelleştirme kullanılabilir"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:575
 msgid "No update available"
-msgstr ""
+msgstr "Kullanılabilir güncelleştirme yok"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:580
 msgid "Network error"
@@ -5850,7 +5854,7 @@ msgstr "Ağ hatası"
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:590
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:594
 msgid "Checked updates"
-msgstr ""
+msgstr "denetlenen güncelleştirmeler"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:603
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:627
@@ -5860,11 +5864,11 @@ msgstr "Bu eylem yapılamaz çünkü bu bir deme sitesi"
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:619
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:643
 msgid "Error occurred while upgrading osclass Database."
-msgstr ""
+msgstr "Osclass Veritabanı yükseltılırken hata oluştu."
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:636
 msgid "Osclass upgraded successfully."
-msgstr ""
+msgstr "Osclass başarıyla yükseltildi."
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:693
 msgid "You don't have the necessary permissions"
@@ -5872,7 +5876,7 @@ msgstr "Yeterli izne sahip değilsiniz."
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:147
 msgid "Lost your password"
-msgstr ""
+msgstr "Parolanızı kaybettiniz"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:399
 #, php-format
@@ -5881,7 +5885,7 @@ msgstr "Seçili yöneticiler için şu eylemi yapmak istediğinize emin misiniz:
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:219
 msgid "Error loading theme custom file"
-msgstr ""
+msgstr "Tema özel dosyası yüklenirken hata oluştu"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:567
 #, php-format
@@ -6060,7 +6064,7 @@ msgstr "İlanı verenle iletişime geç"
 #: oc-includes/osclass/functions.php:155
 #: oc-includes/osclass/helpers/hPagination.php:187
 msgid "Page"
-msgstr ""
+msgstr "Sayfa"
 
 #: oc-includes/osclass/functions.php:166
 msgid "Show all listings"
@@ -6089,11 +6093,11 @@ msgstr "Yeni yorumlar"
 
 #: oc-includes/osclass/functions.php:581
 msgid "Osclass "
-msgstr ""
+msgstr "Osclass "
 
 #: oc-includes/osclass/functions.php:581
 msgid " is available"
-msgstr ""
+msgstr " kullanılabilir"
 
 #: oc-includes/osclass/functions.php:655
 msgid "Plugin updates"
@@ -6118,7 +6122,7 @@ msgstr "abonelikten çıkma uyarısı"
 
 #: oc-includes/osclass/emails.php:1219 oc-includes/osclass/emails.php:1448
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
 #: oc-includes/osclass/emails.php:1997
 msgid "<p>Dear {WEB_TITLE} admin,</p>"
@@ -6640,7 +6644,7 @@ msgstr "Gösterilen sonuç: %s - %s / toplam %s sonuç"
 
 #: oc-includes/osclass/helpers/hSearch.php:63
 msgid "Relevance"
-msgstr ""
+msgstr "İlgililik"
 
 #: oc-includes/osclass/helpers/hSearch.php:66
 msgid "Newly listed"
