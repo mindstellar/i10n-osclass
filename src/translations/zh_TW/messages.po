@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 06:10\n"
+"PO-Revision-Date: 2021-09-19 09:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -133,7 +133,7 @@ msgstr ""
 #: oc-includes/osclass/classes/actions/ItemActions.php:596
 #, php-format
 msgid "%s is invalid."
-msgstr ""
+msgstr "%s 無效。"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:563
 #: oc-includes/osclass/classes/actions/ItemActions.php:566
@@ -143,7 +143,7 @@ msgstr ""
 #: oc-includes/osclass/classes/actions/ItemActions.php:606
 #, php-format
 msgid "%s is required."
-msgstr ""
+msgstr "需要 %s 。"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:1366
 #, php-format
@@ -805,7 +805,7 @@ msgstr "新增語言時發生問題"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
 msgid "There was a problem importing email templates"
-msgstr ""
+msgstr "導入電子郵件範本有問題"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
 msgid "Language imported successfully"
@@ -826,7 +826,7 @@ msgstr "語言名稱欄位不可留空"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
 msgid "Language direction field is required"
-msgstr ""
+msgstr "語言方向欄位是必需的"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
 msgid "Language short name field is required"
@@ -1040,7 +1040,7 @@ msgstr "路徑是空白的"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
 msgid "Could not connect with the database"
-msgstr ""
+msgstr "無法與資料庫連接"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
@@ -1188,7 +1188,7 @@ msgstr "沒有選取的使用者"
 #, php-format
 msgid "Activation email sent to one user"
 msgid_plural "Activation email sent to %s users"
-msgstr[0] ""
+msgstr[0] "發送給 %s 使用者的啟動電子郵件"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
 msgid "No users have been activated"
@@ -1198,7 +1198,7 @@ msgstr "沒有啟用的使用者"
 #, php-format
 msgid "One user has been activated"
 msgid_plural "%s users have been activated"
-msgstr[0] ""
+msgstr[0] "已啟動 %s 使用者"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
 msgid "No users have been deactivated"
@@ -1208,7 +1208,7 @@ msgstr "沒有被移除啟用的使用者"
 #, php-format
 msgid "One user has been deactivated"
 msgid_plural "%s users have been deactivated"
-msgstr[0] ""
+msgstr[0] "%s 使用者已停用"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
 msgid "No users have been enabled"
@@ -1218,7 +1218,7 @@ msgstr "沒有有效的使用者"
 #, php-format
 msgid "One user has been unblocked"
 msgid_plural "%s users have been unblocked"
-msgstr[0] ""
+msgstr[0] "%s 使用者已解禁"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
 msgid "No users have been disabled"
@@ -1228,7 +1228,7 @@ msgstr "沒有無效的使用者"
 #, php-format
 msgid "One user has been blocked"
 msgid_plural "%s users have been blocked"
-msgstr[0] ""
+msgstr[0] "%s 使用者已被阻止"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
 msgid "No users have been deleted"
@@ -1238,7 +1238,7 @@ msgstr "沒有被刪除的使用者"
 #, php-format
 msgid "One user has been deleted"
 msgid_plural "%s users have been deleted"
-msgstr[0] ""
+msgstr[0] "已刪除 %s 使用者"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
@@ -1253,7 +1253,7 @@ msgstr "沒有通知被刪除"
 #, php-format
 msgid "One alert has been deleted"
 msgid_plural "%s alerts have been deleted"
-msgstr[0] ""
+msgstr[0] "已刪除 %s 警報"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
 msgid "No alerts have been activated"
@@ -1263,7 +1263,7 @@ msgstr "沒有啟用的通知"
 #, php-format
 msgid "One alert has been activated"
 msgid_plural "%s alerts have been activated"
-msgstr[0] ""
+msgstr[0] "已啟動 %s 警報"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
 msgid "No alerts have been deactivated"
@@ -1273,7 +1273,7 @@ msgstr "沒有移除啟用的通知"
 #, php-format
 msgid "One alert has been deactivated"
 msgid_plural "%s alerts have been deactivated"
-msgstr[0] ""
+msgstr[0] "已停用 %s 警報"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
 msgid "User settings have been updated"
@@ -1300,7 +1300,7 @@ msgstr "沒有被刪除的規則"
 #, php-format
 msgid "One ban rule has been deleted"
 msgid_plural "%s ban rules have been deleted"
-msgstr[0] ""
+msgstr[0] "%s 禁令規則已被刪除"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
 #: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
@@ -1360,86 +1360,86 @@ msgstr "太棒了！我們更新了您的線上留言"
 #, php-format
 msgid "%d listing has been enabled"
 msgid_plural "%d listings have been enabled"
-msgstr[0] ""
+msgstr[0] "已啟用 %d 清單"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:96
 #, php-format
 msgid "%d listing has been disabled"
 msgid_plural "%d listings have been disabled"
-msgstr[0] ""
+msgstr[0] "%d 清單已被禁用"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:112
 #, php-format
 msgid "%d listing has been activated"
 msgid_plural "%d listings have been activated"
-msgstr[0] ""
+msgstr[0] "已啟動 %d 清單"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:128
 #, php-format
 msgid "%d listing has been deactivated"
 msgid_plural "%d listings have been deactivated"
-msgstr[0] ""
+msgstr[0] "%d 清單已停用"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:144
 #, php-format
 msgid "%d listing has been marked as premium"
 msgid_plural "%d listings have been marked as premium"
-msgstr[0] ""
+msgstr[0] "%d 上市被標記為溢價"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:160
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:193
 #, php-format
 msgid "%d change has been made"
 msgid_plural "%d changes have been made"
-msgstr[0] ""
+msgstr[0] "已變更%d"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:176
 #, php-format
 msgid "%d listing has been marked as spam"
 msgid_plural "%d listings have been marked as spam"
-msgstr[0] ""
+msgstr[0] "%d 清單已標記為垃圾郵件"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:215
 #, php-format
 msgid "%d listing has been deleted"
 msgid_plural "%d listings have been deleted"
-msgstr[0] ""
+msgstr[0] "已刪除 %d 清單"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:236
 #, php-format
 msgid "%d listing has been unmarked as spam"
 msgid_plural "%d listings have been unmarked as spam"
-msgstr[0] ""
+msgstr[0] "%d 清單未標記為垃圾郵件"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:258
 #, php-format
 msgid "%d listing has been unmarked as missclassified"
 msgid_plural "%d listings have been unmarked as missclassified"
-msgstr[0] ""
+msgstr[0] "%d 清單未標記為誤分類"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:281
 #, php-format
 msgid "%d listing has been unmarked as duplicated"
 msgid_plural "%d listings have been unmarked as duplicated"
-msgstr[0] ""
+msgstr[0] "%d 清單未標記為重複"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:302
 #, php-format
 msgid "%d listing has been unmarked as expired"
 msgid_plural "%d listings have been unmarked as expired"
-msgstr[0] ""
+msgstr[0] "%d 上市未標記為過期"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:323
 #, php-format
 msgid "%d listing has been unmarked as offensive"
 msgid_plural "%d listings have been unmarked as offensive"
-msgstr[0] ""
+msgstr[0] "%d 上市沒有標記為冒犯性"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:344
 #, php-format
 msgid "%d listing has been unmarked"
 msgid_plural "%d listings have been unmarked"
-msgstr[0] ""
+msgstr[0] "%d 清單未標記"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
 msgid "The listing has been deleted"
@@ -1625,7 +1625,7 @@ msgstr "所有欄位都不能留空。"
 #, php-format
 msgid "One field was not updated"
 msgid_plural "%s fields were not updated"
-msgstr[0] ""
+msgstr[0] "%s 欄位未更新"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699

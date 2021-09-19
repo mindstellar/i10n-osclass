@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
 "POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 06:10\n"
+"PO-Revision-Date: 2021-09-19 09:06\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -133,7 +133,7 @@ msgstr ""
 #: oc-includes/osclass/classes/actions/ItemActions.php:596
 #, php-format
 msgid "%s is invalid."
-msgstr ""
+msgstr "%s ไม่ถูกต้อง"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:563
 #: oc-includes/osclass/classes/actions/ItemActions.php:566
@@ -143,7 +143,7 @@ msgstr ""
 #: oc-includes/osclass/classes/actions/ItemActions.php:606
 #, php-format
 msgid "%s is required."
-msgstr ""
+msgstr "ต้องระบุ%s"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:1366
 #, php-format
@@ -805,7 +805,7 @@ msgstr "เกิดข้อผิดพลาดบางประการใ
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
 msgid "There was a problem importing email templates"
-msgstr ""
+msgstr "มีปัญหาในการนําเข้าเทมเพลตอีเมล"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
 msgid "Language imported successfully"
@@ -826,7 +826,7 @@ msgstr "ช่องภาษาจำเป็นต้องใส่"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
 msgid "Language direction field is required"
-msgstr ""
+msgstr "ต้องระบุฟิลด์ทิศทางภาษา"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
 msgid "Language short name field is required"
@@ -1040,7 +1040,7 @@ msgstr "พาธว่าง"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
 msgid "Could not connect with the database"
-msgstr ""
+msgstr "ไม่สามารถเชื่อมต่อกับฐานข้อมูลได้"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
@@ -1188,7 +1188,7 @@ msgstr "ไม่มีผู้ใช้ถูกเลือก"
 #, php-format
 msgid "Activation email sent to one user"
 msgid_plural "Activation email sent to %s users"
-msgstr[0] ""
+msgstr[0] "อีเมลการเปิดใช้งานที่ส่งไปยังผู้ใช้ %s"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
 msgid "No users have been activated"
@@ -1198,7 +1198,7 @@ msgstr "ไม่มีผู้ใช้ถูกเปิดใช้งาน
 #, php-format
 msgid "One user has been activated"
 msgid_plural "%s users have been activated"
-msgstr[0] ""
+msgstr[0] "เปิดใช้งานผู้ใช้ %s แล้ว"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
 msgid "No users have been deactivated"
@@ -1208,7 +1208,7 @@ msgstr "ไม่มีผู้ใช้ถูกปิดใช้งาน"
 #, php-format
 msgid "One user has been deactivated"
 msgid_plural "%s users have been deactivated"
-msgstr[0] ""
+msgstr[0] "%s ผู้ใช้ถูกปิดใช้งาน"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
 msgid "No users have been enabled"
@@ -1218,7 +1218,7 @@ msgstr "ไม่มีผู้ใช้ถูกเปิดใช้งาน
 #, php-format
 msgid "One user has been unblocked"
 msgid_plural "%s users have been unblocked"
-msgstr[0] ""
+msgstr[0] "ผู้ใช้ %s ถูกบล็อก"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
 msgid "No users have been disabled"
@@ -1228,7 +1228,7 @@ msgstr "ไม่มีผู้ใช้ถูกปิดใช้งาน"
 #, php-format
 msgid "One user has been blocked"
 msgid_plural "%s users have been blocked"
-msgstr[0] ""
+msgstr[0] "%s ผู้ใช้ถูกบล็อก"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
 msgid "No users have been deleted"
@@ -1238,7 +1238,7 @@ msgstr "ไม่มีผู้ใช้ถูกลบ"
 #, php-format
 msgid "One user has been deleted"
 msgid_plural "%s users have been deleted"
-msgstr[0] ""
+msgstr[0] "%s ผู้ใช้ถูกลบ"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
@@ -1253,7 +1253,7 @@ msgstr "ไม่มีการแจ้งเตือนที่ถูกล
 #, php-format
 msgid "One alert has been deleted"
 msgid_plural "%s alerts have been deleted"
-msgstr[0] ""
+msgstr[0] "การแจ้งเตือน %s ถูกลบแล้ว"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
 msgid "No alerts have been activated"
@@ -1263,7 +1263,7 @@ msgstr "ไม่มีการแจ้งเตือนที่ถูกเ
 #, php-format
 msgid "One alert has been activated"
 msgid_plural "%s alerts have been activated"
-msgstr[0] ""
+msgstr[0] "%s เรียกใช้การแจ้งเตือนแล้ว"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
 msgid "No alerts have been deactivated"
@@ -1273,7 +1273,7 @@ msgstr "ไม่มีการแจ้งเตือนที่ถูกย
 #, php-format
 msgid "One alert has been deactivated"
 msgid_plural "%s alerts have been deactivated"
-msgstr[0] ""
+msgstr[0] "การแจ้งเตือน %s ถูกปิดใช้งาน"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
 msgid "User settings have been updated"
@@ -1300,7 +1300,7 @@ msgstr "ไม่มีกฎถูกลบ"
 #, php-format
 msgid "One ban rule has been deleted"
 msgid_plural "%s ban rules have been deleted"
-msgstr[0] ""
+msgstr[0] "กฎการแบน %s ถูกลบ"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
 #: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
@@ -1360,86 +1360,86 @@ msgstr "เยี่ยม! เราเพียงอัพเดทควา�
 #, php-format
 msgid "%d listing has been enabled"
 msgid_plural "%d listings have been enabled"
-msgstr[0] ""
+msgstr[0] "%d เปิดใช้งานรายการ"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:96
 #, php-format
 msgid "%d listing has been disabled"
 msgid_plural "%d listings have been disabled"
-msgstr[0] ""
+msgstr[0] "รายการ %d ถูกปิดใช้งาน"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:112
 #, php-format
 msgid "%d listing has been activated"
 msgid_plural "%d listings have been activated"
-msgstr[0] ""
+msgstr[0] "รายการ %d ถูกเรียกใช้แล้ว"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:128
 #, php-format
 msgid "%d listing has been deactivated"
 msgid_plural "%d listings have been deactivated"
-msgstr[0] ""
+msgstr[0] "รายการ %d ถูกปิดใช้งาน"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:144
 #, php-format
 msgid "%d listing has been marked as premium"
 msgid_plural "%d listings have been marked as premium"
-msgstr[0] ""
+msgstr[0] "%d แสดงรายการถูกทําเครื่องหมายเป็นรายการพิเศษ"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:160
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:193
 #, php-format
 msgid "%d change has been made"
 msgid_plural "%d changes have been made"
-msgstr[0] ""
+msgstr[0] "มีการเปลี่ยนแปลง%d"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:176
 #, php-format
 msgid "%d listing has been marked as spam"
 msgid_plural "%d listings have been marked as spam"
-msgstr[0] ""
+msgstr[0] "%d รายการถูกทําเครื่องหมายว่าเป็นสแปม"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:215
 #, php-format
 msgid "%d listing has been deleted"
 msgid_plural "%d listings have been deleted"
-msgstr[0] ""
+msgstr[0] "%d รายการถูกลบแล้ว"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:236
 #, php-format
 msgid "%d listing has been unmarked as spam"
 msgid_plural "%d listings have been unmarked as spam"
-msgstr[0] ""
+msgstr[0] "%d ไม่มีเครื่องหมายว่าเป็นสแปม"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:258
 #, php-format
 msgid "%d listing has been unmarked as missclassified"
 msgid_plural "%d listings have been unmarked as missclassified"
-msgstr[0] ""
+msgstr[0] "%d ไม่ได้ทําเครื่องหมายเป็นการจัดประเภทที่ไม่ได้รับ"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:281
 #, php-format
 msgid "%d listing has been unmarked as duplicated"
 msgid_plural "%d listings have been unmarked as duplicated"
-msgstr[0] ""
+msgstr[0] "รายการ %d รายการถูกยกเลิกการทําเครื่องหมายว่าซ้ํากัน"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:302
 #, php-format
 msgid "%d listing has been unmarked as expired"
 msgid_plural "%d listings have been unmarked as expired"
-msgstr[0] ""
+msgstr[0] "รายการ %d ได้รับการยกเลิกการทําเครื่องหมายว่าหมดอายุแล้ว"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:323
 #, php-format
 msgid "%d listing has been unmarked as offensive"
 msgid_plural "%d listings have been unmarked as offensive"
-msgstr[0] ""
+msgstr[0] "รายชื่อ %d ได้รับการยกเลิกการทําเครื่องหมายว่าไม่เหมาะสม"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:344
 #, php-format
 msgid "%d listing has been unmarked"
 msgid_plural "%d listings have been unmarked"
-msgstr[0] ""
+msgstr[0] "ยกเลิกการทําเครื่องหมายรายการ %d รายการ"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
 msgid "The listing has been deleted"
@@ -1625,7 +1625,7 @@ msgstr "ทุกฟิลล์จำเป็น"
 #, php-format
 msgid "One field was not updated"
 msgid_plural "%s fields were not updated"
-msgstr[0] ""
+msgstr[0] "เขตข้อมูล %s ไม่ได้รับการปรับปรุง"
 
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
