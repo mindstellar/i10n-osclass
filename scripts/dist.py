@@ -86,7 +86,7 @@ def get_translations():
                     if os.path.isfile('dist/' + dir + '.zip'):
                         os.remove('dist/' + dir + '.zip')
                     # Create zip file
-                    os.system('zip -r dist/' + dir + '.zip ' + translations_dir + dir)
+                    os.system('zip -r -j dist/' + dir + '.zip ' + translations_dir + dir)
     # Return list of translations                
     return translations
 # 

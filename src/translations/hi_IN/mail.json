@@ -40,7 +40,7 @@
     {
       "fk_i_page_id": 7,
       "s_internal_name": "alert_email_weekly",
-      "s_title": "{WEB_TITLE} - New listings in the last week",
+      "s_title": "{WEB_TITLE} - पिछले सप्ताह में नई प्रविष्टियां",
       "s_description": "<p>नमस्कार {USER_NAME},<\/p><p>पिछले सप्ताह नई प्रविष्टियां प्रकाशित की गई हैं। उन पर एक नज़र डालें:<\/p><p>{ADS}<\/p><p>---------------<\/p><p>इस अलर्ट से सदस्यता समाप्त करने के लिए, क्लिक करें: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
     },
     {
@@ -59,19 +59,19 @@
       "fk_i_page_id": 10,
       "s_internal_name": "email_new_item_non_register_user",
       "s_title": "{WEB_TITLE} - लिस्टिंग के लिए विकल्प संपादित करें {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>नमस्कार {USER_NAME},<\/p><p>आप {WEB_LINK} पर पंजीकृत नहीं हैं, लेकिन आप अभी भी थोड़े समय के लिए <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> लिस्टिंग को संपादित या हटा सकते हैं।<\/p><p>आप इस लिंक का अनुसरण करके अपनी लिस्टिंग संपादित कर सकते हैं: {EDIT_LINK}<\/p><p>आप इस लिंक का अनुसरण करके अपनी लिस्टिंग को हटा सकते हैं: {DELETE_LINK}<\/p><p>यदि आप एक उपयोगकर्ता के रूप में पंजीकरण करते हैं, तो आपके पास संपादन विकल्पों तक पूर्ण पहुंच होगी।<\/p><p>सादर,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 11,
       "s_internal_name": "email_item_validation",
-      "s_title": "{WEB_TITLE} - Validate your listing",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_title": "{WEB_TITLE} - अपनी लिस्टिंग की पुष्टि करें",
+      "s_description": "<p>नमस्कार {USER_NAME},<\/p><p>आपको यह ई-मेल इसलिए प्राप्त हो रहा है क्योंकि एक सूची {WEB_LINK} पर प्रकाशित की गई है। कृपया निम्न लिंक पर क्लिक करके इस लिस्टिंग को सत्यापित करें: {VALIDATION_LINK}। अगर आपने इस लिस्टिंग को प्रकाशित नहीं किया है, तो कृपया इस ईमेल को अनदेखा करें।<\/p><p>लिस्टिंग विवरण:<\/p><p>संपर्क नाम: {USER_NAME}<br \/>संपर्क ई-मेल: {USER_EMAIL} <\/p><p>{ITEM_DESCRIPTION}<\/p><p>यूआरएल: {ITEM_URL}<\/p><p>सादर,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 12,
       "s_internal_name": "email_admin_new_item",
-      "s_title": "{WEB_TITLE} - A new listing has been published",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_title": "{WEB_TITLE} - एक नया विज्ञापन प्रकाशित किया गया है",
+      "s_description": "<p>प्रिय {WEB_TITLE} व्यवस्थापक,<\/p><p>आपको यह ईमेल इसलिए प्राप्त हो रहा है क्योंकि एक विज्ञापन {WEB_LINK} पर प्रकाशित किया गया है।<\/p><p>सूची विवरण:<\/p><p> संपर्क नाम: {USER_NAME}<br \/>संपर्क ईमेल: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>यूआरएल: {ITEM_URL}<\/p><p>आप इस विज्ञापन को संपादित कर सकते हैं निम्न लिंक पर क्लिक करके: {EDIT_LINK}<\/p><p>सादर,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 13,
@@ -100,7 +100,7 @@
     {
       "fk_i_page_id": 17,
       "s_internal_name": "email_item_validation_non_register_user",
-      "s_title": "{WEB_TITLE} - Validate your listing",
+      "s_title": "{WEB_TITLE} - अपनी लिस्टिंग की पुष्टि करें",
       "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\\’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
