@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-10 20:32+0000\n"
-"PO-Revision-Date: 2021-09-10 21:28\n"
+"POT-Creation-Date: 2021-09-18 19:21+0530\n"
+"PO-Revision-Date: 2021-09-18 14:41\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -16,6 +16,14 @@ msgstr ""
 "X-Crowdin-Language: ro\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "Alerte"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Această acţiune nu este reversibilă. Eşti sigur că vrei să continui?"
 
 #: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
@@ -36,6 +44,45 @@ msgstr "Modifică e-mail"
 #: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "E-mail: acest câmp este obligatoriu"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Donează"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Şterge logo"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Încarcă"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "Dosarul imaginilor <strong>%s</strong> nu poate fi scris pe serverul tău"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass nu poate încărca logo-ul din panoul de administrare."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Te rog să modifici permisiunea de scriere a dosarului imaginilor precizat anterior"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Această acţiune nu este reversibilă. Eşti sigur că doreşti să continui?"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Data publicării:</strong> %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Data modificării:</strong> %1$s"
 
 #: search.php:55
 msgid "Selected"
@@ -63,6 +110,29 @@ msgstr "Anunţuri premium"
 msgid "Listings"
 msgstr "Anunţuri"
 
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
+msgid "Change password"
+msgstr "Modifică parola"
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Salutare %s"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Acest site foloseşte <a title=\"Osclass web\" href=\"%s\">scripturile de anunţuri</a> ale software-ului <strong>Osclass</strong>"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Selectează o categorie"
+
+#: user-profile.php:32 functions.php:445
+msgid "Update account"
+msgstr "Actualizează contul"
+
 #: common/head.php:25
 msgid "Delete"
 msgstr "Şterge"
@@ -83,11 +153,6 @@ msgstr "Imaginea următoare"
 msgid "Close"
 msgstr "Închide"
 
-#: user-change_password.php:32 functions.php:448 functions.php:451
-#: functions.php:511
-msgid "Change password"
-msgstr "Modifică parola"
-
 #: user-change_username.php:34 functions.php:447 functions.php:506
 msgid "Change username"
 msgstr "Modifică numele de utilizator"
@@ -104,85 +169,6 @@ msgstr "Numele de utilizator este disponibil"
 msgid "The username is NOT available"
 msgstr "Numele de utilizator NU este disponibil"
 
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Această acţiune nu este reversibilă. Eşti sigur că doreşti să continui?"
-
-#: user-alerts.php:32 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "Alerte"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Această acţiune nu este reversibilă. Eşti sigur că vrei să continui?"
-
-#: admin/settings.php:42
-msgid "Donate"
-msgstr "Donează"
-
-#: admin/header.php:42
-msgid "Remove logo"
-msgstr "Şterge logo"
-
-#: admin/header.php:69
-msgid "Upload"
-msgstr "Încarcă"
-
-#: admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "Dosarul imaginilor <strong>%s</strong> nu poate fi scris pe serverul tău"
-
-#: admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass nu poate încărca logo-ul din panoul de administrare."
-
-#: admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Te rog să modifici permisiunea de scriere a dosarului imaginilor precizat anterior"
-
-#: item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Data publicării:</strong> %1$s"
-
-#: item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Data modificării:</strong> %1$s"
-
-#: footer.php:35 header.php:48
-#, php-format
-msgid "Hi %s"
-msgstr "Salutare %s"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Acest site foloseşte <a title=\"Osclass web\" href=\"%s\">scripturile de anunţuri</a> ale software-ului <strong>Osclass</strong>"
-
-#: user-profile.php:32 functions.php:445
-msgid "Update account"
-msgstr "Actualizează contul"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Adresă:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Locaţie:</strong> %1$s"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "Şterge cont"
-
-#: item-post.php:61 header.php:74
-msgid "Select a category"
-msgstr "Selectează o categorie"
-
 #: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
@@ -197,6 +183,10 @@ msgstr "E-mail: %s"
 #, php-format
 msgid "Phone: %s"
 msgstr "Telefon: %s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Şterge cont"
 
 #: functions.php:28
 msgid "ie. PHP Programmer"
@@ -295,4 +285,14 @@ msgstr "Setări temă"
 #: functions.php:728
 msgid "All categories"
 msgstr "Toate categoriile"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Adresă:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Locaţie:</strong> %1$s"
 

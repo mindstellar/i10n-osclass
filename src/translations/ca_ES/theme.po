@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-10 20:32+0000\n"
-"PO-Revision-Date: 2021-09-10 21:28\n"
+"POT-Creation-Date: 2021-09-18 19:21+0530\n"
+"PO-Revision-Date: 2021-09-18 14:41\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -16,6 +16,14 @@ msgstr ""
 "X-Crowdin-Language: ca\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "Avisos"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Aquesta acció no es pot desfer. Estàs segur de voler continuar?"
 
 #: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
@@ -36,6 +44,45 @@ msgstr "Canvia el correu electrònic"
 #: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "Email: aquest camp és obligatori"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Dóna"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Elimina el logotip"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Puja"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "No es pot escriure a la carpeta <strong>%s</strong> del teu servidor."
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass no pot pujar la imatge del logotip des del panell d'administració."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Si us plau, fes que es pugui escriure a la carpeta especificada abans."
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Aquesta acció no es pot desfer. Estàs segur de que vols continuar?"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Data de publicació:</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Data de modificació:</strong> %1$s"
 
 #: search.php:55
 msgid "Selected"
@@ -63,6 +110,29 @@ msgstr "Anuncis Premium"
 msgid "Listings"
 msgstr "Anuncis"
 
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
+msgid "Change password"
+msgstr "Canvia la contrasenya"
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Hola, %s"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Aquesta web funciona amb el software d'<a title=\"Osclass web\" href=\"%s\">anuncis classificats </a><strong>Osclass</strong>"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Selecciona una categoria"
+
+#: user-profile.php:32 functions.php:445
+msgid "Update account"
+msgstr "Actualitza el compte"
+
 #: common/head.php:25
 msgid "Delete"
 msgstr "Elimina"
@@ -83,11 +153,6 @@ msgstr "Imatge següent"
 msgid "Close"
 msgstr "Tancar"
 
-#: user-change_password.php:32 functions.php:448 functions.php:451
-#: functions.php:511
-msgid "Change password"
-msgstr "Canvia la contrasenya"
-
 #: user-change_username.php:34 functions.php:447 functions.php:506
 msgid "Change username"
 msgstr "Canvia el nom d'usuari"
@@ -104,85 +169,6 @@ msgstr "El nom d'usuari està disponible."
 msgid "The username is NOT available"
 msgstr "El nom d'usuari NO està disponible."
 
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Aquesta acció no es pot desfer. Estàs segur de que vols continuar?"
-
-#: user-alerts.php:32 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "Avisos"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Aquesta acció no es pot desfer. Estàs segur de voler continuar?"
-
-#: admin/settings.php:42
-msgid "Donate"
-msgstr "Dóna"
-
-#: admin/header.php:42
-msgid "Remove logo"
-msgstr "Elimina el logotip"
-
-#: admin/header.php:69
-msgid "Upload"
-msgstr "Puja"
-
-#: admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "No es pot escriure a la carpeta <strong>%s</strong> del teu servidor."
-
-#: admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass no pot pujar la imatge del logotip des del panell d'administració."
-
-#: admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Si us plau, fes que es pugui escriure a la carpeta especificada abans."
-
-#: item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Data de publicació:</strong>: %1$s"
-
-#: item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Data de modificació:</strong> %1$s"
-
-#: footer.php:35 header.php:48
-#, php-format
-msgid "Hi %s"
-msgstr "Hola, %s"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Aquesta web funciona amb el software d'<a title=\"Osclass web\" href=\"%s\">anuncis classificats </a><strong>Osclass</strong>"
-
-#: user-profile.php:32 functions.php:445
-msgid "Update account"
-msgstr "Actualitza el compte"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Adreça:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Ubicació:</strong> %1$s"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "Elimina el compte"
-
-#: item-post.php:61 header.php:74
-msgid "Select a category"
-msgstr "Selecciona una categoria"
-
 #: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
@@ -197,6 +183,10 @@ msgstr "Correu electrònic: %s"
 #, php-format
 msgid "Phone: %s"
 msgstr "Telèfon: %s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Elimina el compte"
 
 #: functions.php:28
 msgid "ie. PHP Programmer"
@@ -295,4 +285,14 @@ msgstr "Configuració del tema"
 #: functions.php:728
 msgid "All categories"
 msgstr "Totes les categories"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Adreça:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Ubicació:</strong> %1$s"
 

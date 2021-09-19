@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-10 20:32+0000\n"
-"PO-Revision-Date: 2021-09-10 21:30\n"
+"POT-Creation-Date: 2021-09-18 19:21+0530\n"
+"PO-Revision-Date: 2021-09-18 14:40\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian\n"
 "Language: no_NO\n"
@@ -16,6 +16,14 @@ msgstr ""
 "X-Crowdin-Language: no\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
+
+#: user-alerts.php:32 functions.php:444 functions.php:491
+msgid "Alerts"
+msgstr "Varslinger"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Denne handlingen kan ikke omgjøres. Er du sikker på at du vil fortsette?"
 
 #: alert-form.php:27
 msgid "You have sucessfully subscribed to the alert"
@@ -36,6 +44,45 @@ msgstr "Endre e-post"
 #: user-change_email.php:76
 msgid "Email: this field is required"
 msgstr "E-post feltet er påkrevd"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "Doner"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Fjern logo"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Last opp"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "Bildekatalogen <strong>%s</strong> er ikke skrivbar på serveren din"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass kan ikke laste opp logobildet fra kontrollpanelet"
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Vennligst gjør den nevnte bildemappen skrivbar."
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Denne handlingen kan ikke omgjøres. Er du sikker på at du vil fortsette?"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Publisert</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Endret:</strong> %1$s"
 
 #: search.php:55
 msgid "Selected"
@@ -63,6 +110,29 @@ msgstr "Premium annonser"
 msgid "Listings"
 msgstr "Annonser"
 
+#: user-change_password.php:32 functions.php:448 functions.php:451
+#: functions.php:511
+msgid "Change password"
+msgstr "Endre passord"
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Hei %s"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Dette nettstedet bruker virkelig <a title=\"Osclass web\" href=\"%s\">klassifiserte skript</a> <strong>Osclass</strong>"
+
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Velg kategori"
+
+#: user-profile.php:32 functions.php:445
+msgid "Update account"
+msgstr "Oppdater konto"
+
 #: common/head.php:25
 msgid "Delete"
 msgstr "Slett"
@@ -83,11 +153,6 @@ msgstr "Neste bilde"
 msgid "Close"
 msgstr "Lukk"
 
-#: user-change_password.php:32 functions.php:448 functions.php:451
-#: functions.php:511
-msgid "Change password"
-msgstr "Endre passord"
-
 #: user-change_username.php:34 functions.php:447 functions.php:506
 msgid "Change username"
 msgstr "Endre brukernavn"
@@ -104,85 +169,6 @@ msgstr "Brukernavnet er tilgjengelig"
 msgid "The username is NOT available"
 msgstr "Brukernavnet er ikke tilgjengelig"
 
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Denne handlingen kan ikke omgjøres. Er du sikker på at du vil fortsette?"
-
-#: user-alerts.php:32 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "Varslinger"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Denne handlingen kan ikke omgjøres. Er du sikker på at du vil fortsette?"
-
-#: admin/settings.php:42
-msgid "Donate"
-msgstr "Doner"
-
-#: admin/header.php:42
-msgid "Remove logo"
-msgstr "Fjern logo"
-
-#: admin/header.php:69
-msgid "Upload"
-msgstr "Last opp"
-
-#: admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "Bildekatalogen <strong>%s</strong> er ikke skrivbar på serveren din"
-
-#: admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass kan ikke laste opp logobildet fra kontrollpanelet"
-
-#: admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Vennligst gjør den nevnte bildemappen skrivbar."
-
-#: item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Publisert</strong>: %1$s"
-
-#: item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Endret:</strong> %1$s"
-
-#: footer.php:35 header.php:48
-#, php-format
-msgid "Hi %s"
-msgstr "Hei %s"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Dette nettstedet bruker virkelig <a title=\"Osclass web\" href=\"%s\">klassifiserte skript</a> <strong>Osclass</strong>"
-
-#: user-profile.php:32 functions.php:445
-msgid "Update account"
-msgstr "Oppdater konto"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Adresse:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Sted:</strong> %1$s"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "Slett konto"
-
-#: item-post.php:61 header.php:74
-msgid "Select a category"
-msgstr "Velg kategori"
-
 #: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
@@ -197,6 +183,10 @@ msgstr "E-post: %s"
 #, php-format
 msgid "Phone: %s"
 msgstr "Telefon: %s"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Slett konto"
 
 #: functions.php:28
 msgid "ie. PHP Programmer"
@@ -295,4 +285,14 @@ msgstr "Temainnstillinger"
 #: functions.php:728
 msgid "All categories"
 msgstr "Alle kategorier"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Adresse:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Sted:</strong> %1$s"
 
