@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-18 19:21+0530\n"
-"PO-Revision-Date: 2021-09-18 14:41\n"
+"POT-Creation-Date: 2021-09-19 05:47+0000\n"
+"PO-Revision-Date: 2021-09-19 06:09\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -17,1546 +17,6 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/messages.pot\n"
 "X-Crowdin-File-ID: 8223\n"
 
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
-msgid "This action cannot be done because it is a demo site"
-msgstr "Această acțiune nu poate fi realizată deoarece este un site demonstrativ"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
-msgid "You don't have enough permissions"
-msgstr "Nu ai permisiune"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
-msgid "The listing has been deleted"
-msgstr "Acest anunt a fost sters"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:374
-msgid "The listing couldn't be deleted"
-msgstr "Acest anunt nu a putut fii sters"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:405
-msgid "The listing has been activated"
-msgstr "Anuntul a fost activat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:407
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:421
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:430
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:439
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:471
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:500
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:668
-msgid "An error has occurred"
-msgstr "A apărut o eroare"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:410
-msgid "The listing can't be activated because it's blocked"
-msgstr "Anunțul nu poate fi activat deoarece acesta este blocat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:419
-msgid "The listing has been deactivated"
-msgstr "Acest anunt a fost dezactivat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:428
-msgid "The listing has been enabled"
-msgstr "Anuntul a fost activat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:437
-msgid "The listing has been disabled"
-msgstr "Anuntul a fost dezactivat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:469
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:498
-msgid "Changes have been applied"
-msgstr "Modificarile au fost aplicate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:527
-msgid "The listing has been unmarked as"
-msgstr "Anuntul a fost demarcat ca"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:529
-msgid "The listing hasn't been unmarked as"
-msgstr "Anuntul nu a fost demarcat ca"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:632
-msgid "Changes saved correctly"
-msgstr "Modificarile salvate cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
-#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
-#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
-msgid "Resource deleted"
-msgstr "Resurse sterse"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:719
-msgid "A new listing has been added"
-msgstr "Un nou anunt a fost adaugat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:772
-msgid "Wait time must only contain numeric characters"
-msgstr "Timpul de așteptare trebuie să conțină numai caractere numerice"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:777
-msgid "Number of moderated listings must only contain numeric characters"
-msgstr "Numărul anunțurilor de moderat trebuie să conțină doar caractere numerice"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:780
-msgid "Images per listing must only contain numeric characters"
-msgstr "Imaginile per anunțuri trebuie să conțină numai caractere numerice"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:783
-msgid "Number of expiration days has to be a numeric value"
-msgstr "Numărul zilelor de expirare trebuie să fie o valoare numerică (cifre)"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
-msgid "Title Length has to be a numeric value"
-msgstr "Lungimea titlului trebuie să fie o valoare numerică"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
-msgid "Description Length has to be a numeric value"
-msgstr "Lungimea descrierii trebuie să fie o valoare numerică"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
-msgid "Listings' settings have been updated"
-msgstr "Setarile anunturilor au fost actualizate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
-msgid "The comments have been deleted"
-msgstr "Comentariile au fost sterse"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
-msgid "The comments have been approved"
-msgstr "Comentariile au fost aprobate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
-msgid "The comments have been disapproved"
-msgstr "Comentul a fost dezaprobat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
-msgid "The comments have been unblocked"
-msgstr "Comentariile au fost deblocate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
-msgid "The comments have been blocked"
-msgstr "Comentariile au fost blocate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
-msgid "The comment has been approved"
-msgstr "Comentariul a fost aprobat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
-msgid "The comment has been disapproved"
-msgstr "Comentul a fost dezaprobat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
-msgid "The comment has been enabled"
-msgstr "Comentariile sunt activate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
-msgid "The comment has been disabled"
-msgstr "Comentariile au fost dezactivate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
-msgid "Email is not correct"
-msgstr "Email incorect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
-msgid "Comment is required"
-msgstr "Campul comentariu este necesar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
-msgid "Great! We just updated your comment"
-msgstr "Perfect ! Am modificat comentul tau"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:229
-#: oc-includes/osclass/classes/controller/CWebItem.php:671
-msgid "The comment has been deleted"
-msgstr "Comentariul a fost șters"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
-msgid "This action can't be done because it's a demo site"
-msgstr "Această acțiune nu poate fi anulată, deoarece acesta este un site demonstrativ"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
-msgid "The translation folder is not writable"
-msgstr "Folderul translation nu poate fi scris"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:83
-msgid "The language has been installed correctly"
-msgstr "Limba a fost instalata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
-msgid "File uploaded but unable to activate the language"
-msgstr "Fişier încărcat dar nu se poate activa limba"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
-msgid "The zip file is not valid"
-msgstr "Fisierul zip nu este valid"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
-msgid "No file was uploaded"
-msgstr "Niciun fisier nu a fost incarcat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
-msgid "There was a problem adding the language"
-msgstr "A aparul o problema la adaugarea unei limbi"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
-msgid "There was a problem importing email templates"
-msgstr "A apărut o eroare la importul șabloanelor de e-mail"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
-msgid "Language imported successfully"
-msgstr "Limba importată cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
-msgid "Language id isn't in the correct format"
-msgstr "Id limba este incorect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
-msgid "Language id doesn't exist"
-msgstr "Id limba nu exista"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:273
-msgid "Language name field is required"
-msgstr "Campul Limba este cerut"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
-msgid "Language direction field is required"
-msgstr "Câmpul Limba direcție este necesar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
-msgid "Language short name field is required"
-msgstr "Campul Limba nume scurt este cerut"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:282
-msgid "Language description field is required"
-msgstr "Campul descrierea Limbii este cerut"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:285
-msgid "Currency format field is required"
-msgstr "Formatul domeniul valutar este necesar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:288
-msgid "Number of decimals must only contain numeric characters"
-msgstr "Numărul decimalelor trebuie să conțină doar caractere numerice"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:312
-#, php-format
-msgid "%s has been updated"
-msgstr "%s a fost modificat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:318
-msgid "Selected languages have been enabled for the website"
-msgstr "Limbile selectate au fost activate pentru site"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:325
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:350
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:384
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
-msgid "The language ids aren't in the correct format"
-msgstr "Id-ul limbii nu este in formatul corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:342
-msgid "Selected languages have been disabled for the website"
-msgstr "Limbile selectate au fost dezactivate pentru site"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:357
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:416
-#, php-format
-msgid "%s can't be disabled because it's the default language"
-msgstr "%s nu poate fii dezactivat pentru ca este limba de baza"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:377
-msgid "Selected languages have been enabled for the backoffice (oc-admin)"
-msgstr "Limbile selectate au fost activate pentru backoffice"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
-msgid "Selected languages have been disabled for the backoffice (oc-admin)"
-msgstr "Limbile selectate au fost dezactivate pentru backoffice"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:443
-#, php-format
-msgid "Directory '%s' couldn't be removed"
-msgstr "Directorul '%s' nu poate fi sters"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:448
-#, php-format
-msgid "Directory \"%s\" has been successfully removed"
-msgstr "Directorul \\\"%s\\\" a fost sters cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:454
-#, php-format
-msgid "Directory '%s' couldn't be removed;)"
-msgstr "Directorul \"%s\" nu poate fi înlăturat (șters) ;)"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
-#, php-format
-msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
-msgstr "Directorul%s' %s nu a putut fi eliminat deoarece este limba implicită. <a href=\"%s\">Setați o altă limbă</a> ca o limbă implicită și încercați din nou"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
-msgid "The email/alert has been updated"
-msgstr "Alertele/ email au fost actualizate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
-msgid "You can't repeat internal name"
-msgstr "Nu puteti refolosi nume interne"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
-msgid "The email couldn't be updated, at least one title should not be empty"
-msgstr "Email-ul nu poate fi actualizat, macar un titlu nu trebuie sa fie gol"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
-msgid "The plugin folder is not writable"
-msgstr "Folderul de plugin nu are drept de scriere"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
-msgid "The plugin has been uploaded correctly"
-msgstr "Plugin-ul a fost incarcat corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
-msgid "There was a problem adding the plugin"
-msgstr "A aparut o problema la adaugarea acestul plugin"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
-#, php-format
-msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr "Modulul a generat %d caractere <strong>neaşteptate</strong> în timpul instalării. Iată rezultatul: \"%s\""
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
-msgid "Plugin is already installed"
-msgstr "Pluginul este deja instalat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
-msgid "Plugin couldn't be installed because their files are missing"
-msgstr "Pluginul nu poate fi instalat deoarece ii lipsesc fisiere continut"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
-#, php-format
-msgid "Plugin couldn't be installed because of: %s"
-msgstr "Pluginul nu poate fi instalat din cauza : %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
-msgid "Plugin couldn't be installed"
-msgstr "Pluginul nu poate fi instalat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
-msgid "Plugin installed"
-msgstr "Plugin instalat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
-msgid "Plugin uninstalled"
-msgstr "Plugin dezinstalat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
-msgid "Plugin couldn't be uninstalled"
-msgstr "Pluginul nu poate fi dezinstalat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
-msgid "Plugin enabled"
-msgstr "Plugin activat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
-msgid "Plugin is already enabled"
-msgstr "Pluginul este deja activat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
-msgid "Plugin disabled"
-msgstr "Plugin dezactivat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
-msgid "Plugin is already disabled"
-msgstr "Pluginul este deja dezactivat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
-msgid "Configuration was saved"
-msgstr "Configuratia s-a salvat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
-msgid "No plugin selected"
-msgstr "Nici un plugin selectat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
-msgid "The files were deleted"
-msgstr "Fişierele au fost eliminate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
-#, php-format
-msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr "Au apărut unele erori în timpul ştergerii fişierelor, te rugăm să verifici permisiunile fişierelor %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
-msgid "Invalid plugin file"
-msgstr "Fișier plugin nevalid"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
-msgid "The username field is empty"
-msgstr "Username este gol"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
-msgid "The password field is empty"
-msgstr "Parola este goala"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
-#, php-format
-msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Ops, username incorect. <a href=\\\"%s\\\">Have you lost your password?</a>"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
-#, php-format
-msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Scuze, parola incorecta. <a href=\\\"%s\\\">Ai pierdut parola?</a>"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
-msgid "The reCAPTCHA code is wrong"
-msgstr "Codul reCAPTCHA este gresit"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
-msgid "A new password has been sent to your e-mail"
-msgstr "O noua parola a fost trimisa pe email"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
-#: oc-includes/osclass/classes/controller/CWebLogin.php:271
-#: oc-includes/osclass/classes/controller/CWebLogin.php:319
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
-msgid "Sorry, the link is not valid"
-msgstr "Ne pare rău, dar link-ul nu este valid"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
-#: oc-includes/osclass/classes/controller/CWebLogin.php:309
-msgid "The password has been changed"
-msgstr "Parola a fost schimbata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
-msgid "Error, the passwords don't match"
-msgstr "Eroare, parola nu se potriveste"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
-msgid "The theme folder is not writable"
-msgstr "Tema folderului nu are drept de scriere"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
-msgid "The theme has been installed correctly"
-msgstr "Tema a fost instalata cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
-msgid "There was a problem adding the theme"
-msgstr "A aparut o eroare la adaugarea temei"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
-msgid "Theme removed successfully"
-msgstr "Tema stearsa cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
-msgid "There was a problem removing the theme"
-msgstr "A aparut a problema la stergerea temei"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
-msgid "Current theme can not be deleted"
-msgstr "Tema curenta nu poate fii stearsa"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
-msgid "No theme selected"
-msgstr "Nici o tema selectata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
-msgid "Widget removed correctly"
-msgstr "Widget sters corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
-msgid "Description field is required"
-msgstr "Campul Descriere este necesar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
-msgid "Widget updated correctly"
-msgstr "Widget incarcat corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
-msgid "Widget cannot be updated correctly"
-msgstr "Widget-ul nu poate fi incarcat corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
-msgid "Widget added correctly"
-msgstr "Widget adaugat corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
-msgid "Theme activated correctly"
-msgstr "Tema activata cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
-msgid "You have very few free space left, users will not be able to upload pictures"
-msgstr "Mai ai foarte puțin spațiu liber, utilizatorii nu vor mai putea încărca imagini"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
-msgid "Entered an invalid email"
-msgstr "Introdu o adresa de email valida"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
-msgid "You're already subscribed"
-msgstr "Esti deja inscris"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
-msgid "Subscribed correctly"
-msgstr "Inscris corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
-msgid "Error subscribing"
-msgstr "Eroare la inscriere"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
-msgid "You have to set an internal name"
-msgstr "Trebuie setat un nume intern"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
-msgid "You have to set a different internal name"
-msgstr "Trebuie setat un nume intern diferit"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
-msgid "The page has been updated"
-msgstr "Pagina a fost modificata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
-msgid "The page couldn't be updated, at least one title should not be empty"
-msgstr "Pagina nu poate fi actualizata, macar un titlu nu trebuie sa fie gol"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
-msgid "The page has been added"
-msgstr "Pagina a fost adaugata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
-msgid "The page couldn't be added, at least one title should not be empty"
-msgstr "Pagina nu poate fi adaugata, macar un titlu nu trebuie sa fie gol"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
-msgid "Oops! That internal name is already in use. We can't make the changes"
-msgstr "Oops! Numele intern este deja folosit. Nu putem sa facem modificarile"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
-msgid "One page can't be deleted because it is indelible"
-msgstr "Pagina nu poate fi stearsa pentru ca este vitala"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
-#, php-format
-msgid "%s pages couldn't be deleted because they are indelible"
-msgstr "%s pagini nu au putut fii sterse pentru ca sunt ne modificabile"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
-msgid "One page couldn't be deleted"
-msgstr "O pagina nu poate fi stearsa"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
-#, php-format
-msgid "%s pages couldn't be deleted"
-msgstr "%s pagini nu au putut fi sterse"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
-msgid "One page has been deleted correctly"
-msgstr "O pagina a fost stearsa corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
-#, php-format
-msgid "%s pages have been deleted correctly"
-msgstr "%s pagini au fost sterse corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
-msgid "Import complete"
-msgstr "Import complet"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
-msgid "There was a problem importing data to the database"
-msgstr "A aparut o problema la importarea datelor din baza de date"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
-msgid "Recount category stats has been successful"
-msgstr "Recalcularea statusului categoriilor a fost efectuat cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
-msgid "Path is empty"
-msgstr "Pachet gol"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
-msgid "Could not connect with the database"
-msgstr "Nu s-a putut conecta la baza de date"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
-msgid "There are no tables to back up"
-msgstr "Nu exista tabele pentru back up"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
-msgid "The folder is not writable"
-msgstr "Folderul nu are drept de scriere"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
-msgid "Backup completed successfully"
-msgstr "Backup terminat cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
-#, php-format
-msgid "Could not connect with the database. Error: %s"
-msgstr "Nu se poate conecta la baza de date. Eroare: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
-#, php-format
-msgid "Could not select the database. Error: %s"
-msgstr "Nu se poate selecta baza de date. Eroare: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
-msgid "Archived successfully!"
-msgstr "Arhivat cu succes!"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
-msgid "Error, the zip file was not created in the specified directory"
-msgstr "Eroare. Fișierul zip nu a fost creat în directorul specificat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
-msgid "Maintenance mode is ON"
-msgstr "Modul mentenanta este PORNIT"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
-msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
-msgstr "Există o eroare la creearea fișierului .maintenance, te rog crează-l manual în directorul rădăcină"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
-msgid "Maintenance mode is OFF"
-msgstr "Modul mentenanta este OPRIT"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
-msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
-msgstr "Există o eroare la ștergerea fișierului .maintenance, te rog șterge-l manual din directorul rădăcină"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
-msgid "There was a problem uploading the watermark image"
-msgstr "A fost intampinata o eroare la incarcarea imaginii watermark"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
-msgid "The watermark image has to be a .PNG file"
-msgstr "Imaginea watermark trebuie sa fie .PNG"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
-#, php-format
-msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
-msgstr "Nu poti sa setezi marimea maxima a unui fisier mai mare decat cea permisa in configuratia PHP: <b>%d KB</b>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
-msgid "Media config has been updated"
-msgstr "S-a modificat configuratia pentru media"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
-msgid "Re-generation complete"
-msgstr "Regenerare completa"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
-#, php-format
-msgid "%s already was in the database"
-msgstr "%s deja este in baza de date"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
-#, php-format
-msgid "%s has been added as a new country"
-msgstr "%s a fost adaugata ca o tara noua"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
-msgid "Country name cannot be blank"
-msgstr "Numele țării nu poate fi gol"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
-msgid "Country has been edited"
-msgstr "Tara a fost editata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
-msgid "There were some problems editing the country"
-msgstr "Au aparut probleme la editarea Tarii"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
-msgid "There was a problem deleting locations"
-msgstr "S-a ivit o problemă la ștergerea locațiilor"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
-msgid "No country was selected"
-msgstr "Nu a fost selectată nici o țară"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
-msgid "Region name cannot be blank"
-msgstr "Numele regiunii nu poate fi gol"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
-#, php-format
-msgid "%s has been added as a new region"
-msgstr "%s a fost adaugat ca o regiune noua"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
-#, php-format
-msgid "%s has been edited"
-msgstr "%s a fost editat"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
-msgid "No region was selected"
-msgstr "Nu a fost selectată nici o regiune"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
-msgid "New city name cannot be blank"
-msgstr "Numele noului oraș nu poate fi gol"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
-#, php-format
-msgid "%s has been added as a new city"
-msgstr "%s a fost adaugat ca un oras nou"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
-msgid "City name cannot be blank"
-msgstr "Numele orașului nu poate fi gol"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
-msgid "No city was selected"
-msgstr "Nu a fost selectat nici un oraș"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
-msgid "Location imported successfully"
-msgstr "Locatie importata cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
-msgid "There was a problem importing the selected location"
-msgstr "A apărut o eroare la importarea locației selectate"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
-msgid "Your Akismet key has been cleared"
-msgstr "Cheia Akismet a fost stearsa"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
-msgid "Your Akismet key has been updated"
-msgstr "Cheia Akismet a fost actualizata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
-msgid "Your reCAPTCHA key has been cleared"
-msgstr "Cheia reCAPTCHA a fost stearsa"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
-msgid "Your reCAPTCHA key has been updated"
-msgstr "Cheia reCAPTCHA a fost actualizata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
-msgid "Advanced settings have been updated"
-msgstr "Setările avansate au fost actualizate"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
-msgid "Cache flushed correctly"
-msgstr "Cache-ul a fost golit corespunzător"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
-msgid "The currency code is not in the correct format"
-msgstr "Codul monedei nu este in formatul corect"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
-msgid "Currency added"
-msgstr "Valuta a fost adăugată"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
-msgid "Currency couldn't be added"
-msgstr "Valuta nu a putut fi adăugată"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
-#, php-format
-msgid "The currency code '%s' doesn't exist"
-msgstr "Codul valutar '%s' nu există"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
-msgid "Error: the currency code is not in the correct format"
-msgstr "Eroare: codul de moneda are format incorect"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
-msgid "Currency updated"
-msgstr "Valuta a fost actualizată"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
-msgid "No changes were made"
-msgstr "Nu au fost facute schimbari"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
-#, php-format
-msgid "%s couldn't be deleted because it has listings associated to it"
-msgstr "%s nu poate fi șters deoarece are anunțuri asociate"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
-#, php-format
-msgid "%s couldn't be deleted because it's the default currency"
-msgstr "%s nu poate fi șters deoarece este moneda implicită"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
-msgid "No currencies have been deleted"
-msgstr "Nicio moneda nu a fost stearsa"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
-msgid "One currency has been deleted"
-msgstr "O moneda a fost stearsa"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
-#, php-format
-msgid "%s currencies have been deleted"
-msgstr "%s monede au fost sterse"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
-msgid "Custom number could not be left empty"
-msgstr "Numarul personalizat nu poate fii lasat gol"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
-msgid "Last search settings have been updated"
-msgstr "Setari pentru ultima cautare au fost actualizate"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
-msgid "Last check"
-msgstr "Ultima verificare"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
-msgid "Page title field is required"
-msgstr "Camplul titlul paginii este obligatoriu"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
-msgid "Contact email field is required"
-msgstr "Campul email de contact este obligatoriu"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
-msgid "Number of listings in the RSS has to be a numeric value"
-msgstr "Numărul de anunțuri de afișat in RSS trebuie să fie o valoare numerică"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
-msgid "Max latest listings has to be a numeric value"
-msgstr "Numărul maxim din ultimele anunțuri de afișat trebuie sa fie o valoare numerică"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
-msgid "Number of listings on search has to be a numeric value"
-msgstr "Numărul de anunțuri din căutări trebuie să fie o valoare numerică"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
-msgid "Number of listings in the RSS must be an integer"
-msgstr "Numărul de anunțuri din RSS trebuie să fie un întreg"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
-msgid "Number of recent listings displayed at home must be an integer"
-msgstr "Numărul de anunțuri recente afișate pe pagina de start trebuie să fie un număr întreg"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
-msgid "General settings have been updated"
-msgstr "S-au modificat setarile generale"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
-msgid "Number of moderate comments must only contain numeric characters"
-msgstr "Numărul de comentarii moderate trebuie să conțină numai caractere numerice"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
-msgid "Comments per page must only contain numeric characters"
-msgstr "Numărul de comentarii per pagină trebuie să conțină numai caractere numerice"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
-msgid "Comment settings have been updated"
-msgstr "Setările pentru comentarii au fost actualizate"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
-msgid "All fields are required."
-msgstr "Toate câmpurile sunt obligatorii."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
-msgid "Permalinks structure updated"
-msgstr "Structura Permalinkuri actualizata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
-msgid "Permalinks structure updated."
-msgstr "Structura Permalinkuri actualizata."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
-msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
-msgstr "Oricum, nu putem verifica daca modulul Apache <b>mod_rewrite</b> este incarcat. Daca experimentati probleme cu URL's trebuie sa dezactivati <em>Linkuri prietenoase</em>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
-msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
-msgstr "Fișierul <b>.htaccess</b> nu a putut fi scris cu conținutul necesar."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Aici ai conținutul ce trebuie să îl adaugi fișierului <b>.htaccess</b>. Dacă nu poți creea fișierul, te rog să dezactivezi opțiunea <em>Friendly URLs</em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Uite aici conținutul care trebuie adăugat în fișierul <b>.htaccess</b>. Dacă nu poți creea fișierul, sau dacă întâmpini probleme cu url-urile, te rog deactivează opțiunea <em>URL-uri prietenoase</em>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
-msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr "Fişierul <b>.htaccess</b> există deja şi nu poate fi modificat."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Iată conţinutul ce trebuie să-l adaugi în fişierul tău <b>.htaccess</b>. Dacă nu poţi modifica fişierul sau întâmpini alte probleme cu URL-urile, te rog să dezactivezi opţiunea <em>Friendly URL-uri</em>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
-msgid "Friendly URLs successfully deactivated"
-msgstr "Linkuri Prietenoase dezactivate cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
-msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr "Frindly URL-uri dezactivate, însă fişierul .htaccess nu a putut fi şters. Te rog să-l ştergi manual."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
-msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr "Friendly URL-uri dezactivate, însă fişierul .htaccess a fost modificat înafara Osclass şi nu a fost şters"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
-msgid "Mail server type is incorrect"
-msgstr "Tip de server mail incorect"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
-msgid "Mail server configuration has changed"
-msgstr "S-a modificat configuratia serverului de email"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
-msgid "Email invalid"
-msgstr "Email invalid"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
-msgid "Username invalid"
-msgstr "username invalid"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
-msgid "Name invalid"
-msgstr "Nume invalid"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
-msgid "Password invalid"
-msgstr "Parola invalida"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
-msgid "Email already in use"
-msgstr "Email deja folosit"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
-msgid "Username already in use"
-msgstr "Username deja folosit"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
-msgid "Incorrent current password"
-msgstr "Parolă curentă incorrentă"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
-msgid "The admin has been added"
-msgstr "Administratorul a fost adaugat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
-msgid "There has been an error adding a new admin"
-msgstr "Au apărut unele erori în momentul adăugării unui nou administrator"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
-msgid "There is no admin with this id"
-msgstr "Nu există nici un administrator cu acest ID"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
-msgid "This admin doesn't exist"
-msgstr "Acest admin nu exista"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
-msgid "Existing email"
-msgstr "Email deja existent"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
-msgid "Existing username"
-msgstr "Nume deja existent"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
-msgid "The password couldn't be updated. Passwords don't match"
-msgstr "Parola nu poate fi modificata. Parolele nu sunt identice"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
-msgid "The admin has been updated"
-msgstr "Admin a fost actualizat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
-msgid "The admin id isn't in the correct format"
-msgstr "Id admin nu este in formatul corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
-msgid "The operation hasn't been completed. You're trying to remove yourself!"
-msgstr "Operatia a esuat, nu puteti sa va stergeti"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
-msgid "The admin has been deleted correctly"
-msgstr "Admin a fost sters corect"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
-msgid "The admin couldn't be deleted"
-msgstr "Admin nu poate fi sters"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
-msgid "The user has been created. We've sent an activation e-mail"
-msgstr "S-a creat utilizatorul, se trimite un email de activare"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
-msgid "The user has been created successfully"
-msgstr "Utilizatorul a fost creat cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
-msgid "The user has been updated"
-msgstr "Utilizatorul a fost activat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
-msgid "The user has been updated and activated"
-msgstr "Utilizatorul a fost actualizat si activat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:229
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:255
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:281
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:306
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:625
-msgid "User id isn't in the correct format"
-msgstr "Id utilizator nu este in forma corecta"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:186
-msgid "No users have been selected"
-msgstr "Nu au fost selectați utilizatori"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
-msgid "No users have been activated"
-msgstr "Nu au fost activați utilizatori"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
-msgid "No users have been deactivated"
-msgstr "Nici un utilizator dezactivat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
-msgid "No users have been enabled"
-msgstr "Nici un utilizator activat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
-msgid "No users have been disabled"
-msgstr "Nici un utilizator dezactivat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
-msgid "No users have been deleted"
-msgstr "Nici un utilizator șters"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
-msgid "Alert id isn't in the correct format"
-msgstr "ID-ul alertei nu este în formatul corespunzător"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
-msgid "No alerts have been deleted"
-msgstr "Nici o alertă ștearsă"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
-msgid "No alerts have been activated"
-msgstr "Nici o alertă activată"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
-msgid "No alerts have been deactivated"
-msgstr "Nici o alertă dezactivată"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
-msgid "User settings have been updated"
-msgstr "Setările utilizatorului au fost actualizate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
-msgid "Both rules can not be empty"
-msgstr "Ambele reguli nu trebuie să fie goale"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
-msgid "Rule updated correctly"
-msgstr "Regulă actualizată cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
-msgid "Rule saved correctly"
-msgstr "Regulă salvată cu succes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
-msgid "No rules have been deleted"
-msgstr "Nici o regulă ștearsă"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:39
-#: oc-includes/osclass/classes/controller/CWebLogin.php:39
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
-#: oc-includes/osclass/classes/controller/CWebRegister.php:40
-msgid "Users not enabled"
-msgstr "Utilizatorii ne-activați"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:103
-msgid "Your profile has been updated successfully"
-msgstr "Profilul a fost actualizat cu succes"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:138
-#: oc-includes/osclass/classes/actions/UserActions.php:98
-msgid "The specified e-mail is already in use"
-msgstr "Emailul specificat este deja folosit"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:170
-msgid "The specified e-mail is not valid"
-msgstr "Adresa de email specificata nu este valida"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:188
-msgid "The specified username is already in use"
-msgstr "Numele de utilizator specificat este folosit deja"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:190
-#: oc-includes/osclass/classes/actions/UserActions.php:109
-msgid "The specified username is not valid, it contains some invalid words"
-msgstr "Numele de utilizator specificat nu este valid. Conține câteva caractere invalide"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:196
-msgid "The username was updated"
-msgstr "Numele de utilizator a fost actualizat"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:205
-msgid "The specified username could not be empty"
-msgstr "Numele de utilizator specificat nu poate fi gol"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:221
-#: oc-includes/osclass/classes/controller/CWebLogin.php:280
-msgid "Password cannot be blank"
-msgstr "Parola nu poate fi goala"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:230
-msgid "Current password doesn't match"
-msgstr "Parola curenta nu se potriveste"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:235
-msgid "Passwords can't be empty"
-msgstr "Parola nu poate fi goala"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:242
-#: oc-includes/osclass/classes/actions/UserActions.php:75
-#: oc-includes/osclass/classes/actions/UserActions.php:309
-msgid "Passwords don't match"
-msgstr "Parolele nu seamana intre ele"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:257
-msgid "Password has been changed"
-msgstr "Parola a fost modificata"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:296
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
-msgid "Alert activated"
-msgstr "Alerte activate"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:298
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
-msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
-msgstr "Hopa! A apărut o eroare când încercam să-ți activăm alerta. Te rugăm să contactezi administratorul acestui site"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:317
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
-msgid "Unsubscribed correctly"
-msgstr "Dezabonare cu succes"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:319
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
-msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
-msgstr "Hopa! A apărut o eroare în momentul dezabonării tale. Te rugăm să contactezi administratorul site-ului"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:349
-msgid "Your account have been deleted"
-msgstr "Contul tău a fost șters"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:352
-#: oc-includes/osclass/classes/controller/CWebUser.php:356
-msgid "Oops! you can not do that"
-msgstr "Hey! Nu poți face asta"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:72
-#: oc-includes/osclass/classes/controller/CWebItem.php:140
-msgid "Only registered users are allowed to post listings"
-msgstr "Doar utilizatorii înregistrați pot publica anunțuri"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:147
-#: oc-includes/osclass/classes/controller/CWebItem.php:272
-#: oc-includes/osclass/classes/controller/CWebItem.php:476
-#: oc-includes/osclass/classes/controller/CWebItem.php:535
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
-#: oc-includes/osclass/classes/controller/CWebContact.php:57
-msgid "The Recaptcha code is wrong"
-msgstr "Codul reCaptcha este greșit"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:160
-msgid "A user with that email address already exists, if it is you, please log in"
-msgstr "Un utilizator cu aceeași adresă de e-mail există deja în baza noastră de date. Dacă ești tot tu, te rugăm să te autentifici"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:167
-#: oc-includes/osclass/classes/controller/CWebItem.php:550
-#: oc-includes/osclass/classes/controller/CWebLogin.php:111
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
-#: oc-includes/osclass/classes/controller/CWebRegister.php:72
-#: oc-includes/osclass/classes/controller/CWebContact.php:69
-#: oc-includes/osclass/classes/controller/CWebContact.php:81
-msgid "Your current email is not allowed"
-msgstr "Adresa ta de e-mail nu este permisă"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:170
-#: oc-includes/osclass/classes/controller/CWebItem.php:553
-#: oc-includes/osclass/classes/controller/CWebLogin.php:114
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
-#: oc-includes/osclass/classes/controller/CWebRegister.php:75
-#: oc-includes/osclass/classes/controller/CWebContact.php:72
-msgid "Your current IP is not allowed"
-msgstr "IP-ul tău curent nu este permis"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:188
-msgid "Check your inbox to validate your listing"
-msgstr "Verifica-ti email-ul pentru a valida anuntul"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:190
-msgid "Your listing will be published after an admin approves it."
-msgstr "Listarea dvs. va fi publicată după ce un administrator o aprobă."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:192
-msgid "Your listing has been published"
-msgstr "Anunțul tău a fost publicat"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:228
-msgid "Sorry, we don't have any listings with that ID"
-msgstr "Ne pare rău, nu avem nici un anunț cu acel ID"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:288
-msgid "Your listing will be published after an admin approves the changes."
-msgstr "Listarea dvs. va fi publicată după ce un administrator aprobă modificările."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:290
-msgid "Great! We've just updated your listing"
-msgstr "Felicitări! Tocmai ți-am actualizat anunțul"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:328
-msgid "The listing has been validated"
-msgstr "Anunțul a fost validat"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:330
-msgid "The listing can't be validated"
-msgstr "Anunțul nu poate fi validat"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:333
-msgid "The listing has already been validated"
-msgstr "Anunțul a fost validat deja"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:352
-msgid "Your listing has been deleted"
-msgstr "Anunțul tău a fost șters"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:354
-#: oc-includes/osclass/classes/controller/CWebItem.php:362
-msgid "The listing you are trying to delete couldn't be deleted"
-msgstr "Anunțul care încerci să îl ștergi nu a putut fi șters"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:383
-#: oc-includes/osclass/classes/controller/CWebAjax.php:128
-msgid "The selected photo couldn't be deleted, the url doesn't exist"
-msgstr "Imaginea selectată nu poate fi ștearsă, URL-ul nu există"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:389
-#: oc-includes/osclass/classes/controller/CWebAjax.php:140
-msgid "The listing doesn't exist"
-msgstr "Anunțul nu există"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:395
-#: oc-includes/osclass/classes/controller/CWebItem.php:402
-#: oc-includes/osclass/classes/controller/CWebAjax.php:150
-#: oc-includes/osclass/classes/controller/CWebAjax.php:161
-msgid "The listing doesn't belong to you"
-msgstr "Anunțul nu îți aparține"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:427
-#: oc-includes/osclass/classes/controller/CWebAjax.php:107
-#: oc-includes/osclass/classes/controller/CWebAjax.php:203
-msgid "The selected photo has been successfully deleted"
-msgstr "Imaginea selectată a fost ștearsă cu succes"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:429
-#: oc-includes/osclass/classes/controller/CWebAjax.php:206
-msgid "The selected photo does not belong to you"
-msgstr "Imaginea selectată nu îți aparține"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:432
-#: oc-includes/osclass/classes/controller/CWebAjax.php:210
-msgid "The selected photo couldn't be deleted"
-msgstr "Imaginea selectată nu poate fi ștearsă"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:454
-msgid "Thanks! That's very helpful"
-msgstr "Mulțumesc ! A fost de mare ajutor"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:499
-#: oc-includes/osclass/classes/controller/CWebItem.php:641
-msgid "This listing doesn't exist"
-msgstr "Acest anunț nu există"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:506
-#: oc-includes/osclass/classes/controller/CWebItem.php:559
-msgid "We're sorry, but the listing has expired. You can't contact the seller"
-msgstr "Ne pare rău, dar anunțul a expirat. Nu mai poți contacta vânzătorul"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:516
-#: oc-includes/osclass/classes/controller/CWebItem.php:528
-msgid "You can't contact the seller, only registered users can"
-msgstr "Nu poți contacta vânzătorul, doar utilizatorii înregistrați pot face acest lucru"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:518
-#, php-format
-msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr "<a href=\"%s\">Click aici pentru a te conecta</a>"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:573
-msgid "We've just sent an e-mail to the seller"
-msgstr "A fost trimis un e-mail către vânzător"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:591
-msgid "Sorry, we could not save your comment. Try again later"
-msgstr "Ne pare rău, nu vă putem salva comentariul. Încercați mai târziu"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:595
-msgid "Your comment is awaiting moderation"
-msgstr "Comentariul tău este în așteptare și necesită aprobarea din partea unui moderator"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:599
-msgid "Your comment has been approved"
-msgstr "Comentariul tău a fost aprobat"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:603
-msgid "Please fill the required field (email)"
-msgstr "Te rugăm să completezi câmpul obligatoriu (e-mail)"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:607
-msgid "Please type a comment"
-msgstr "Te rog lasă un comentariu"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:611
-msgid "Your comment has been marked as spam"
-msgstr "Comentariul tău a fost marcat ca spam"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:615
-msgid "You need to be logged to comment"
-msgstr "Trebuie să fi autentificat pentru a lăsa un comentariu"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:619
-msgid "Sorry, comments are disabled"
-msgstr "Îmi pare rău, comentariile sunt dezactivate."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:648
-msgid "You must be logged in to delete a comment"
-msgstr "Trebuie să fi autentificat ca să ștergi un comentariu"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:656
-msgid "The comment doesn't exist"
-msgstr "Comentariul nu există"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:661
-msgid "The comment is not active, you cannot delete it"
-msgstr "Comentariul nu este activ, nu îl poți șterge"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:666
-msgid "The comment was not added by you, you cannot delete it"
-msgstr "Comentariul nu îți aparține, nu îl poți șterge."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:702
-msgid "The listing hasn't been validated. Please validate it in order to make it public"
-msgstr "Anunțul nu a fost validat. Te rugăm să-l validezi pentru ca el să devină public și vizibil tuturor"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:712
-msgid "The listing hasn't been enabled. Please enable it in order to make it public"
-msgstr "Anunţul nu fost activat. Te rog să-l activezi pentru ca acesta să devină public."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:718
-msgid "The listing has been blocked or is awaiting moderation from the admin"
-msgstr "Anunţul a fost blocat sau aşteaptă confirmarea/validarea unui moderator/administrator."
-
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
-msgid "Thank you very much for your donation"
-msgstr "Multumim foarte mult pentru donatie"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:51
-#: oc-includes/osclass/classes/controller/CWebRegister.php:64
-msgid "Users are not enabled"
-msgstr "Utilizatorii nu au fost activați"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:62
-msgid "Please provide an email address"
-msgstr "Te rugăm să specifici o adresă de e-mail"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:66
-msgid "Empty passwords are not allowed. Please provide a password"
-msgstr "Nu sunt permise parolele goale (necompletate). Te rugăm să alegi o parolă"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:80
-#: oc-includes/osclass/classes/controller/CWebLogin.php:157
-msgid "The user doesn't exist"
-msgstr "Utilizatorul nu există"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:104
-msgid "The password is incorrect"
-msgstr "Parola este incorectă"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:161
-#, php-format
-msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
-msgstr "Utilizatorul nu a fost validat încă. Doreşti să re-trimitem e-mail-ul de <a href=\"%s\">activare?</a>"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:165
-msgid "The user has not been validated yet"
-msgstr "Utilizatorul nu a fost validat"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:168
-msgid "The user has been suspended"
-msgstr "Utilizatorul a fost suspendat"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:197
-msgid "This should never happen"
-msgstr "Acest lucru n-ar trebui să se întâmple "
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:213
-msgid "Incorrect link"
-msgstr "Link incorect"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:227
-msgid "Validation email re-sent"
-msgstr "E-mail-ul de validare a fost re-trimis."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:229
-msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
-msgstr "Tocmai acum câteva momente ţi-am trimis un e-mail de validare al contului, va trebui să aştepţi câteva minute pentru a-l putea retrimite din nou."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:243
-msgid "Invalid email address"
-msgstr "Adresă de e-mail invalidă"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:252
-msgid "We have sent you an email with the instructions to reset your password"
-msgstr "Ți-am trimis un e-mail cu instrucțiunile de resetare a parolei"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:256
-msgid "We were not able to identify you given the information provided"
-msgstr "Nu te putem identifica conform informațiilor furnizate"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:260
-msgid "The recaptcha code is wrong"
-msgstr "Codul reCaptcha este incorect"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:312
-msgid "Error, the password don't match"
-msgstr "Eroare, parola nu este identica"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
-msgid "Your email has been changed successfully"
-msgstr "Emailul a fost modificat cu succes"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
-msgid "Your email has been sent properly."
-msgstr "E-mail-ul a fost trimis corespunzător."
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:45
-msgid "User registration is not enabled"
-msgstr "Modul de inregistrare este dezactivat"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:82
-msgid "The user has been created. An activation email has been sent"
-msgstr "Utilizatorul a fost creat, un email de activare a fost trimis"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:85
-msgid "Your account has been created successfully"
-msgstr "Contul s-a creat cu success"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:103
-msgid "The link is not valid anymore. Sorry for the inconvenience!"
-msgstr "Adresa nu mai e valida. Ne pare rau pentru inconveniente!"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:108
-msgid "Your account has already been validated"
-msgstr "Contul tau a fost deja validat"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:129
-msgid "Your account has been validated"
-msgstr "Contul a fost validat"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:131
-msgid "Account validation failed"
-msgstr "Validarea contului a eşuat"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:86
-msgid "Please enter a correct email"
-msgstr "Te rugăm să introduci un e-mail valid (corect)"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:168
-#: oc-includes/osclass/classes/actions/ItemActions.php:323
-msgid "The file you tried to upload does not have a valid extension"
-msgstr "Fișierul pe care încerci să-l încarci nu are o extensie validă"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:182
-msgid "Your email has been sent properly. Thank you for contacting us!"
-msgstr "E-mail-ul tău a fost trimis cu succes. Îți mulțumim."
-
 #: oc-includes/osclass/classes/actions/ItemActions.php:124
 msgid "Name too long."
 msgstr "Nume prea lung."
@@ -1568,6 +28,11 @@ msgstr "Email invalid."
 #: oc-includes/osclass/classes/actions/ItemActions.php:131
 msgid "Too fast. You should wait a little to publish your ad."
 msgstr "Prea repede. Trebuie sa astepti putin pentru a publicat acest anunt."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:323
+#: oc-includes/osclass/classes/controller/CWebContact.php:168
+msgid "The file you tried to upload does not have a valid extension"
+msgstr "Fișierul pe care încerci să-l încarci nu are o extensie validă"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:351
 msgid "One of the files you tried to upload exceeds the maximum size"
@@ -1693,6 +158,12 @@ msgstr "Codul reCAPATCHA nu a fost introdus corect"
 msgid "The password cannot be empty"
 msgstr "Parola nu poate fi goala"
 
+#: oc-includes/osclass/classes/actions/UserActions.php:75
+#: oc-includes/osclass/classes/actions/UserActions.php:309
+#: oc-includes/osclass/classes/controller/CWebUser.php:242
+msgid "Passwords don't match"
+msgstr "Parolele nu seamana intre ele"
+
 #: oc-includes/osclass/classes/actions/UserActions.php:86
 #: oc-includes/osclass/classes/actions/UserActions.php:302
 msgid "The name cannot be empty"
@@ -1702,9 +173,19 @@ msgstr "Numele nu poate fi lăsat necompletat"
 msgid "The email is not valid"
 msgstr "Email-ul este invalid"
 
+#: oc-includes/osclass/classes/actions/UserActions.php:98
+#: oc-includes/osclass/classes/controller/CWebUser.php:138
+msgid "The specified e-mail is already in use"
+msgstr "Emailul specificat este deja folosit"
+
 #: oc-includes/osclass/classes/actions/UserActions.php:105
 msgid "Username is already taken"
 msgstr "Numele de utilizator este folosit deja, reîncercați"
+
+#: oc-includes/osclass/classes/actions/UserActions.php:109
+#: oc-includes/osclass/classes/controller/CWebUser.php:190
+msgid "The specified username is not valid, it contains some invalid words"
+msgstr "Numele de utilizator specificat nu este valid. Conține câteva caractere invalide"
 
 #: oc-includes/osclass/classes/actions/UserActions.php:291
 #, php-format
@@ -1718,6 +199,1726 @@ msgstr "Probabil cererea este invalidă."
 #: oc-includes/osclass/classes/Csrf.php:184
 msgid "Invalid CSRF token."
 msgstr "Token CSRF invalid."
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
+#: oc-includes/osclass/classes/controller/CWebLogin.php:39
+#: oc-includes/osclass/classes/controller/CWebRegister.php:40
+#: oc-includes/osclass/classes/controller/CWebUser.php:39
+msgid "Users not enabled"
+msgstr "Utilizatorii ne-activați"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
+msgid "Your email has been changed successfully"
+msgstr "Emailul a fost modificat cu succes"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
+#: oc-includes/osclass/classes/controller/CWebLogin.php:271
+#: oc-includes/osclass/classes/controller/CWebLogin.php:319
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
+msgid "Sorry, the link is not valid"
+msgstr "Ne pare rău, dar link-ul nu este valid"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
+#: oc-includes/osclass/classes/controller/CWebUser.php:296
+msgid "Alert activated"
+msgstr "Alerte activate"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
+#: oc-includes/osclass/classes/controller/CWebUser.php:298
+msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
+msgstr "Hopa! A apărut o eroare când încercam să-ți activăm alerta. Te rugăm să contactezi administratorul acestui site"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
+#: oc-includes/osclass/classes/controller/CWebUser.php:317
+msgid "Unsubscribed correctly"
+msgstr "Dezabonare cu succes"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
+#: oc-includes/osclass/classes/controller/CWebUser.php:319
+msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
+msgstr "Hopa! A apărut o eroare în momentul dezabonării tale. Te rugăm să contactezi administratorul site-ului"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
+#: oc-includes/osclass/classes/controller/CWebContact.php:57
+#: oc-includes/osclass/classes/controller/CWebItem.php:147
+#: oc-includes/osclass/classes/controller/CWebItem.php:272
+#: oc-includes/osclass/classes/controller/CWebItem.php:476
+#: oc-includes/osclass/classes/controller/CWebItem.php:535
+msgid "The Recaptcha code is wrong"
+msgstr "Codul reCaptcha este greșit"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
+#: oc-includes/osclass/classes/controller/CWebContact.php:69
+#: oc-includes/osclass/classes/controller/CWebContact.php:81
+#: oc-includes/osclass/classes/controller/CWebLogin.php:111
+#: oc-includes/osclass/classes/controller/CWebRegister.php:72
+#: oc-includes/osclass/classes/controller/CWebItem.php:167
+#: oc-includes/osclass/classes/controller/CWebItem.php:550
+msgid "Your current email is not allowed"
+msgstr "Adresa ta de e-mail nu este permisă"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
+#: oc-includes/osclass/classes/controller/CWebContact.php:72
+#: oc-includes/osclass/classes/controller/CWebLogin.php:114
+#: oc-includes/osclass/classes/controller/CWebRegister.php:75
+#: oc-includes/osclass/classes/controller/CWebItem.php:170
+#: oc-includes/osclass/classes/controller/CWebItem.php:553
+msgid "Your current IP is not allowed"
+msgstr "IP-ul tău curent nu este permis"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
+msgid "Your email has been sent properly."
+msgstr "E-mail-ul a fost trimis corespunzător."
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:86
+msgid "Please enter a correct email"
+msgstr "Te rugăm să introduci un e-mail valid (corect)"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:182
+msgid "Your email has been sent properly. Thank you for contacting us!"
+msgstr "E-mail-ul tău a fost trimis cu succes. Îți mulțumim."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:51
+#: oc-includes/osclass/classes/controller/CWebRegister.php:64
+msgid "Users are not enabled"
+msgstr "Utilizatorii nu au fost activați"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:62
+msgid "Please provide an email address"
+msgstr "Te rugăm să specifici o adresă de e-mail"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:66
+msgid "Empty passwords are not allowed. Please provide a password"
+msgstr "Nu sunt permise parolele goale (necompletate). Te rugăm să alegi o parolă"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:80
+#: oc-includes/osclass/classes/controller/CWebLogin.php:157
+msgid "The user doesn't exist"
+msgstr "Utilizatorul nu există"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:104
+msgid "The password is incorrect"
+msgstr "Parola este incorectă"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:161
+#, php-format
+msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
+msgstr "Utilizatorul nu a fost validat încă. Doreşti să re-trimitem e-mail-ul de <a href=\"%s\">activare?</a>"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:165
+msgid "The user has not been validated yet"
+msgstr "Utilizatorul nu a fost validat"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:168
+msgid "The user has been suspended"
+msgstr "Utilizatorul a fost suspendat"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:197
+msgid "This should never happen"
+msgstr "Acest lucru n-ar trebui să se întâmple "
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:213
+msgid "Incorrect link"
+msgstr "Link incorect"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:227
+msgid "Validation email re-sent"
+msgstr "E-mail-ul de validare a fost re-trimis."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:229
+msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
+msgstr "Tocmai acum câteva momente ţi-am trimis un e-mail de validare al contului, va trebui să aştepţi câteva minute pentru a-l putea retrimite din nou."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:243
+msgid "Invalid email address"
+msgstr "Adresă de e-mail invalidă"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:252
+msgid "We have sent you an email with the instructions to reset your password"
+msgstr "Ți-am trimis un e-mail cu instrucțiunile de resetare a parolei"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:256
+msgid "We were not able to identify you given the information provided"
+msgstr "Nu te putem identifica conform informațiilor furnizate"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:260
+msgid "The recaptcha code is wrong"
+msgstr "Codul reCaptcha este incorect"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:280
+#: oc-includes/osclass/classes/controller/CWebUser.php:221
+msgid "Password cannot be blank"
+msgstr "Parola nu poate fi goala"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:309
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
+msgid "The password has been changed"
+msgstr "Parola a fost schimbata"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:312
+msgid "Error, the password don't match"
+msgstr "Eroare, parola nu este identica"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:45
+msgid "User registration is not enabled"
+msgstr "Modul de inregistrare este dezactivat"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:82
+msgid "The user has been created. An activation email has been sent"
+msgstr "Utilizatorul a fost creat, un email de activare a fost trimis"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:85
+msgid "Your account has been created successfully"
+msgstr "Contul s-a creat cu success"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:103
+msgid "The link is not valid anymore. Sorry for the inconvenience!"
+msgstr "Adresa nu mai e valida. Ne pare rau pentru inconveniente!"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:108
+msgid "Your account has already been validated"
+msgstr "Contul tau a fost deja validat"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:129
+msgid "Your account has been validated"
+msgstr "Contul a fost validat"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:131
+msgid "Account validation failed"
+msgstr "Validarea contului a eşuat"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:107
+#: oc-includes/osclass/classes/controller/CWebAjax.php:203
+#: oc-includes/osclass/classes/controller/CWebItem.php:427
+msgid "The selected photo has been successfully deleted"
+msgstr "Imaginea selectată a fost ștearsă cu succes"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:128
+#: oc-includes/osclass/classes/controller/CWebItem.php:383
+msgid "The selected photo couldn't be deleted, the url doesn't exist"
+msgstr "Imaginea selectată nu poate fi ștearsă, URL-ul nu există"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:140
+#: oc-includes/osclass/classes/controller/CWebItem.php:389
+msgid "The listing doesn't exist"
+msgstr "Anunțul nu există"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:150
+#: oc-includes/osclass/classes/controller/CWebAjax.php:161
+#: oc-includes/osclass/classes/controller/CWebItem.php:395
+#: oc-includes/osclass/classes/controller/CWebItem.php:402
+msgid "The listing doesn't belong to you"
+msgstr "Anunțul nu îți aparține"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:206
+#: oc-includes/osclass/classes/controller/CWebItem.php:429
+msgid "The selected photo does not belong to you"
+msgstr "Imaginea selectată nu îți aparține"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:210
+#: oc-includes/osclass/classes/controller/CWebItem.php:432
+msgid "The selected photo couldn't be deleted"
+msgstr "Imaginea selectată nu poate fi ștearsă"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:72
+#: oc-includes/osclass/classes/controller/CWebItem.php:140
+msgid "Only registered users are allowed to post listings"
+msgstr "Doar utilizatorii înregistrați pot publica anunțuri"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:160
+msgid "A user with that email address already exists, if it is you, please log in"
+msgstr "Un utilizator cu aceeași adresă de e-mail există deja în baza noastră de date. Dacă ești tot tu, te rugăm să te autentifici"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:188
+msgid "Check your inbox to validate your listing"
+msgstr "Verifica-ti email-ul pentru a valida anuntul"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:190
+msgid "Your listing will be published after an admin approves it."
+msgstr "Listarea dvs. va fi publicată după ce un administrator o aprobă."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:192
+msgid "Your listing has been published"
+msgstr "Anunțul tău a fost publicat"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:228
+msgid "Sorry, we don't have any listings with that ID"
+msgstr "Ne pare rău, nu avem nici un anunț cu acel ID"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:288
+msgid "Your listing will be published after an admin approves the changes."
+msgstr "Listarea dvs. va fi publicată după ce un administrator aprobă modificările."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:290
+msgid "Great! We've just updated your listing"
+msgstr "Felicitări! Tocmai ți-am actualizat anunțul"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:328
+msgid "The listing has been validated"
+msgstr "Anunțul a fost validat"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:330
+msgid "The listing can't be validated"
+msgstr "Anunțul nu poate fi validat"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:333
+msgid "The listing has already been validated"
+msgstr "Anunțul a fost validat deja"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:352
+msgid "Your listing has been deleted"
+msgstr "Anunțul tău a fost șters"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:354
+#: oc-includes/osclass/classes/controller/CWebItem.php:362
+msgid "The listing you are trying to delete couldn't be deleted"
+msgstr "Anunțul care încerci să îl ștergi nu a putut fi șters"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:454
+msgid "Thanks! That's very helpful"
+msgstr "Mulțumesc ! A fost de mare ajutor"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:499
+#: oc-includes/osclass/classes/controller/CWebItem.php:641
+msgid "This listing doesn't exist"
+msgstr "Acest anunț nu există"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:506
+#: oc-includes/osclass/classes/controller/CWebItem.php:559
+msgid "We're sorry, but the listing has expired. You can't contact the seller"
+msgstr "Ne pare rău, dar anunțul a expirat. Nu mai poți contacta vânzătorul"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:516
+#: oc-includes/osclass/classes/controller/CWebItem.php:528
+msgid "You can't contact the seller, only registered users can"
+msgstr "Nu poți contacta vânzătorul, doar utilizatorii înregistrați pot face acest lucru"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:518
+#, php-format
+msgid "<a href=\"%s\">Click here to sign-in</a>"
+msgstr "<a href=\"%s\">Click aici pentru a te conecta</a>"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:573
+msgid "We've just sent an e-mail to the seller"
+msgstr "A fost trimis un e-mail către vânzător"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:591
+msgid "Sorry, we could not save your comment. Try again later"
+msgstr "Ne pare rău, nu vă putem salva comentariul. Încercați mai târziu"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:595
+msgid "Your comment is awaiting moderation"
+msgstr "Comentariul tău este în așteptare și necesită aprobarea din partea unui moderator"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:599
+msgid "Your comment has been approved"
+msgstr "Comentariul tău a fost aprobat"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:603
+msgid "Please fill the required field (email)"
+msgstr "Te rugăm să completezi câmpul obligatoriu (e-mail)"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:607
+msgid "Please type a comment"
+msgstr "Te rog lasă un comentariu"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:611
+msgid "Your comment has been marked as spam"
+msgstr "Comentariul tău a fost marcat ca spam"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:615
+msgid "You need to be logged to comment"
+msgstr "Trebuie să fi autentificat pentru a lăsa un comentariu"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:619
+msgid "Sorry, comments are disabled"
+msgstr "Îmi pare rău, comentariile sunt dezactivate."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:648
+msgid "You must be logged in to delete a comment"
+msgstr "Trebuie să fi autentificat ca să ștergi un comentariu"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:656
+msgid "The comment doesn't exist"
+msgstr "Comentariul nu există"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:661
+msgid "The comment is not active, you cannot delete it"
+msgstr "Comentariul nu este activ, nu îl poți șterge"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:666
+msgid "The comment was not added by you, you cannot delete it"
+msgstr "Comentariul nu îți aparține, nu îl poți șterge."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:671
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:229
+msgid "The comment has been deleted"
+msgstr "Comentariul a fost șters"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:702
+msgid "The listing hasn't been validated. Please validate it in order to make it public"
+msgstr "Anunțul nu a fost validat. Te rugăm să-l validezi pentru ca el să devină public și vizibil tuturor"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:712
+msgid "The listing hasn't been enabled. Please enable it in order to make it public"
+msgstr "Anunţul nu fost activat. Te rog să-l activezi pentru ca acesta să devină public."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:718
+msgid "The listing has been blocked or is awaiting moderation from the admin"
+msgstr "Anunţul a fost blocat sau aşteaptă confirmarea/validarea unui moderator/administrator."
+
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
+msgid "You don't have enough permissions"
+msgstr "Nu ai permisiune"
+
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
+msgid "Thank you very much for your donation"
+msgstr "Multumim foarte mult pentru donatie"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
+msgid "This action can't be done because it's a demo site"
+msgstr "Această acțiune nu poate fi anulată, deoarece acesta este un site demonstrativ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
+msgid "The plugin folder is not writable"
+msgstr "Folderul de plugin nu are drept de scriere"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
+msgid "The plugin has been uploaded correctly"
+msgstr "Plugin-ul a fost incarcat corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
+msgid "The zip file is not valid"
+msgstr "Fisierul zip nu este valid"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
+msgid "No file was uploaded"
+msgstr "Niciun fisier nu a fost incarcat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
+msgid "There was a problem adding the plugin"
+msgstr "A aparut o problema la adaugarea acestul plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
+#, php-format
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
+msgstr "Modulul a generat %d caractere <strong>neaşteptate</strong> în timpul instalării. Iată rezultatul: \"%s\""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
+msgid "Plugin is already installed"
+msgstr "Pluginul este deja instalat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
+msgid "Plugin couldn't be installed because their files are missing"
+msgstr "Pluginul nu poate fi instalat deoarece ii lipsesc fisiere continut"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
+#, php-format
+msgid "Plugin couldn't be installed because of: %s"
+msgstr "Pluginul nu poate fi instalat din cauza : %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
+msgid "Plugin couldn't be installed"
+msgstr "Pluginul nu poate fi instalat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
+msgid "Plugin installed"
+msgstr "Plugin instalat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
+msgid "Plugin uninstalled"
+msgstr "Plugin dezinstalat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
+msgid "Plugin couldn't be uninstalled"
+msgstr "Pluginul nu poate fi dezinstalat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
+msgid "Plugin enabled"
+msgstr "Plugin activat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
+msgid "Plugin is already enabled"
+msgstr "Pluginul este deja activat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
+msgid "Plugin disabled"
+msgstr "Plugin dezactivat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
+msgid "Plugin is already disabled"
+msgstr "Pluginul este deja dezactivat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
+msgid "Configuration was saved"
+msgstr "Configuratia s-a salvat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
+msgid "No plugin selected"
+msgstr "Nici un plugin selectat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
+msgid "The files were deleted"
+msgstr "Fişierele au fost eliminate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
+#, php-format
+msgid "There were an error deleting the files, please check the permissions of the files in %s"
+msgstr "Au apărut unele erori în timpul ştergerii fişierelor, te rugăm să verifici permisiunile fişierelor %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
+msgid "Invalid plugin file"
+msgstr "Fișier plugin nevalid"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
+msgid "You have to set an internal name"
+msgstr "Trebuie setat un nume intern"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
+msgid "You have to set a different internal name"
+msgstr "Trebuie setat un nume intern diferit"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
+msgid "The page has been updated"
+msgstr "Pagina a fost modificata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
+msgid "You can't repeat internal name"
+msgstr "Nu puteti refolosi nume interne"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
+msgid "The page couldn't be updated, at least one title should not be empty"
+msgstr "Pagina nu poate fi actualizata, macar un titlu nu trebuie sa fie gol"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
+msgid "The page has been added"
+msgstr "Pagina a fost adaugata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
+msgid "The page couldn't be added, at least one title should not be empty"
+msgstr "Pagina nu poate fi adaugata, macar un titlu nu trebuie sa fie gol"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
+msgid "Oops! That internal name is already in use. We can't make the changes"
+msgstr "Oops! Numele intern este deja folosit. Nu putem sa facem modificarile"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
+msgid "One page can't be deleted because it is indelible"
+msgstr "Pagina nu poate fi stearsa pentru ca este vitala"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
+#, php-format
+msgid "%s pages couldn't be deleted because they are indelible"
+msgstr "%s pagini nu au putut fii sterse pentru ca sunt ne modificabile"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
+msgid "One page couldn't be deleted"
+msgstr "O pagina nu poate fi stearsa"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
+#, php-format
+msgid "%s pages couldn't be deleted"
+msgstr "%s pagini nu au putut fi sterse"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
+msgid "One page has been deleted correctly"
+msgstr "O pagina a fost stearsa corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
+#, php-format
+msgid "%s pages have been deleted correctly"
+msgstr "%s pagini au fost sterse corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
+msgid "You have very few free space left, users will not be able to upload pictures"
+msgstr "Mai ai foarte puțin spațiu liber, utilizatorii nu vor mai putea încărca imagini"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
+msgid "Entered an invalid email"
+msgstr "Introdu o adresa de email valida"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
+msgid "You're already subscribed"
+msgstr "Esti deja inscris"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
+msgid "Subscribed correctly"
+msgstr "Inscris corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
+msgid "Error subscribing"
+msgstr "Eroare la inscriere"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
+msgid "The translation folder is not writable"
+msgstr "Folderul translation nu poate fi scris"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:83
+msgid "The language has been installed correctly"
+msgstr "Limba a fost instalata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
+msgid "File uploaded but unable to activate the language"
+msgstr "Fişier încărcat dar nu se poate activa limba"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
+msgid "There was a problem adding the language"
+msgstr "A aparul o problema la adaugarea unei limbi"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
+msgid "There was a problem importing email templates"
+msgstr "A apărut o eroare la importul șabloanelor de e-mail"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
+msgid "Language imported successfully"
+msgstr "Limba importată cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
+msgid "Language id isn't in the correct format"
+msgstr "Id limba este incorect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
+msgid "Language id doesn't exist"
+msgstr "Id limba nu exista"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:273
+msgid "Language name field is required"
+msgstr "Campul Limba este cerut"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
+msgid "Language direction field is required"
+msgstr "Câmpul Limba direcție este necesar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
+msgid "Language short name field is required"
+msgstr "Campul Limba nume scurt este cerut"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:282
+msgid "Language description field is required"
+msgstr "Campul descrierea Limbii este cerut"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:285
+msgid "Currency format field is required"
+msgstr "Formatul domeniul valutar este necesar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:288
+msgid "Number of decimals must only contain numeric characters"
+msgstr "Numărul decimalelor trebuie să conțină doar caractere numerice"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:312
+#, php-format
+msgid "%s has been updated"
+msgstr "%s a fost modificat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:318
+msgid "Selected languages have been enabled for the website"
+msgstr "Limbile selectate au fost activate pentru site"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:325
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:350
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:384
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
+msgid "The language ids aren't in the correct format"
+msgstr "Id-ul limbii nu este in formatul corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:342
+msgid "Selected languages have been disabled for the website"
+msgstr "Limbile selectate au fost dezactivate pentru site"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:357
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:416
+#, php-format
+msgid "%s can't be disabled because it's the default language"
+msgstr "%s nu poate fii dezactivat pentru ca este limba de baza"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:377
+msgid "Selected languages have been enabled for the backoffice (oc-admin)"
+msgstr "Limbile selectate au fost activate pentru backoffice"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
+msgid "Selected languages have been disabled for the backoffice (oc-admin)"
+msgstr "Limbile selectate au fost dezactivate pentru backoffice"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:443
+#, php-format
+msgid "Directory '%s' couldn't be removed"
+msgstr "Directorul '%s' nu poate fi sters"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:448
+#, php-format
+msgid "Directory \"%s\" has been successfully removed"
+msgstr "Directorul \\\"%s\\\" a fost sters cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:454
+#, php-format
+msgid "Directory '%s' couldn't be removed;)"
+msgstr "Directorul \"%s\" nu poate fi înlăturat (șters) ;)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
+#, php-format
+msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
+msgstr "Directorul%s' %s nu a putut fi eliminat deoarece este limba implicită. <a href=\"%s\">Setați o altă limbă</a> ca o limbă implicită și încercați din nou"
+
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
+msgid "This action cannot be done because it is a demo site"
+msgstr "Această acțiune nu poate fi realizată deoarece este un site demonstrativ"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
+msgid "The username field is empty"
+msgstr "Username este gol"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
+msgid "The password field is empty"
+msgstr "Parola este goala"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
+#, php-format
+msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "Ops, username incorect. <a href=\\\"%s\\\">Have you lost your password?</a>"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
+#, php-format
+msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "Scuze, parola incorecta. <a href=\\\"%s\\\">Ai pierdut parola?</a>"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
+msgid "The reCAPTCHA code is wrong"
+msgstr "Codul reCAPTCHA este gresit"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
+msgid "A new password has been sent to your e-mail"
+msgstr "O noua parola a fost trimisa pe email"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
+msgid "Error, the passwords don't match"
+msgstr "Eroare, parola nu se potriveste"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
+msgid "Email invalid"
+msgstr "Email invalid"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
+msgid "Username invalid"
+msgstr "username invalid"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
+msgid "Name invalid"
+msgstr "Nume invalid"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
+msgid "Password invalid"
+msgstr "Parola invalida"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
+msgid "Email already in use"
+msgstr "Email deja folosit"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
+msgid "Username already in use"
+msgstr "Username deja folosit"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
+msgid "Incorrent current password"
+msgstr "Parolă curentă incorrentă"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
+msgid "The admin has been added"
+msgstr "Administratorul a fost adaugat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
+msgid "There has been an error adding a new admin"
+msgstr "Au apărut unele erori în momentul adăugării unui nou administrator"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
+msgid "There is no admin with this id"
+msgstr "Nu există nici un administrator cu acest ID"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
+msgid "This admin doesn't exist"
+msgstr "Acest admin nu exista"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
+msgid "Existing email"
+msgstr "Email deja existent"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
+msgid "Existing username"
+msgstr "Nume deja existent"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
+msgid "The password couldn't be updated. Passwords don't match"
+msgstr "Parola nu poate fi modificata. Parolele nu sunt identice"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
+msgid "The admin has been updated"
+msgstr "Admin a fost actualizat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
+msgid "The admin id isn't in the correct format"
+msgstr "Id admin nu este in formatul corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
+msgid "The operation hasn't been completed. You're trying to remove yourself!"
+msgstr "Operatia a esuat, nu puteti sa va stergeti"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
+msgid "The admin has been deleted correctly"
+msgstr "Admin a fost sters corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
+msgid "The admin couldn't be deleted"
+msgstr "Admin nu poate fi sters"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
+msgid "Import complete"
+msgstr "Import complet"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
+msgid "There was a problem importing data to the database"
+msgstr "A aparut o problema la importarea datelor din baza de date"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
+msgid "Recount category stats has been successful"
+msgstr "Recalcularea statusului categoriilor a fost efectuat cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
+msgid "Path is empty"
+msgstr "Pachet gol"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
+msgid "Could not connect with the database"
+msgstr "Nu s-a putut conecta la baza de date"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
+msgid "There are no tables to back up"
+msgstr "Nu exista tabele pentru back up"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
+msgid "The folder is not writable"
+msgstr "Folderul nu are drept de scriere"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
+msgid "Backup completed successfully"
+msgstr "Backup terminat cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
+#, php-format
+msgid "Could not connect with the database. Error: %s"
+msgstr "Nu se poate conecta la baza de date. Eroare: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
+#, php-format
+msgid "Could not select the database. Error: %s"
+msgstr "Nu se poate selecta baza de date. Eroare: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
+msgid "Archived successfully!"
+msgstr "Arhivat cu succes!"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
+msgid "Error, the zip file was not created in the specified directory"
+msgstr "Eroare. Fișierul zip nu a fost creat în directorul specificat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
+msgid "Maintenance mode is ON"
+msgstr "Modul mentenanta este PORNIT"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
+msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
+msgstr "Există o eroare la creearea fișierului .maintenance, te rog crează-l manual în directorul rădăcină"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
+msgid "Maintenance mode is OFF"
+msgstr "Modul mentenanta este OPRIT"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
+msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
+msgstr "Există o eroare la ștergerea fișierului .maintenance, te rog șterge-l manual din directorul rădăcină"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
+msgid "The email/alert has been updated"
+msgstr "Alertele/ email au fost actualizate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
+msgid "The email couldn't be updated, at least one title should not be empty"
+msgstr "Email-ul nu poate fi actualizat, macar un titlu nu trebuie sa fie gol"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
+msgid "The theme folder is not writable"
+msgstr "Tema folderului nu are drept de scriere"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
+msgid "The theme has been installed correctly"
+msgstr "Tema a fost instalata cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
+msgid "There was a problem adding the theme"
+msgstr "A aparut o eroare la adaugarea temei"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
+msgid "Theme removed successfully"
+msgstr "Tema stearsa cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
+msgid "There was a problem removing the theme"
+msgstr "A aparut a problema la stergerea temei"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
+msgid "Current theme can not be deleted"
+msgstr "Tema curenta nu poate fii stearsa"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
+msgid "No theme selected"
+msgstr "Nici o tema selectata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
+msgid "Widget removed correctly"
+msgstr "Widget sters corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
+msgid "Description field is required"
+msgstr "Campul Descriere este necesar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
+msgid "Widget updated correctly"
+msgstr "Widget incarcat corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
+msgid "Widget cannot be updated correctly"
+msgstr "Widget-ul nu poate fi incarcat corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
+msgid "Widget added correctly"
+msgstr "Widget adaugat corect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
+msgid "Theme activated correctly"
+msgstr "Tema activata cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
+msgid "The user has been created. We've sent an activation e-mail"
+msgstr "S-a creat utilizatorul, se trimite un email de activare"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
+msgid "The user has been created successfully"
+msgstr "Utilizatorul a fost creat cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
+msgid "The user has been updated"
+msgstr "Utilizatorul a fost activat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
+msgid "The user has been updated and activated"
+msgstr "Utilizatorul a fost actualizat si activat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:229
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:255
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:281
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:306
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:625
+msgid "User id isn't in the correct format"
+msgstr "Id utilizator nu este in forma corecta"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:186
+msgid "No users have been selected"
+msgstr "Nu au fost selectați utilizatori"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:189
+#, php-format
+msgid "Activation email sent to one user"
+msgid_plural "Activation email sent to %s users"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
+msgid "No users have been activated"
+msgstr "Nu au fost activați utilizatori"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:215
+#, php-format
+msgid "One user has been activated"
+msgid_plural "%s users have been activated"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
+msgid "No users have been deactivated"
+msgstr "Nici un utilizator dezactivat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:242
+#, php-format
+msgid "One user has been deactivated"
+msgid_plural "%s users have been deactivated"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
+msgid "No users have been enabled"
+msgstr "Nici un utilizator activat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:268
+#, php-format
+msgid "One user has been unblocked"
+msgid_plural "%s users have been unblocked"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
+msgid "No users have been disabled"
+msgstr "Nici un utilizator dezactivat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:294
+#, php-format
+msgid "One user has been blocked"
+msgid_plural "%s users have been blocked"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
+msgid "No users have been deleted"
+msgstr "Nici un utilizator șters"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:323
+#, php-format
+msgid "One user has been deleted"
+msgid_plural "%s users have been deleted"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
+msgid "Alert id isn't in the correct format"
+msgstr "ID-ul alertei nu este în formatul corespunzător"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
+msgid "No alerts have been deleted"
+msgstr "Nici o alertă ștearsă"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:352
+#, php-format
+msgid "One alert has been deleted"
+msgid_plural "%s alerts have been deleted"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
+msgid "No alerts have been activated"
+msgstr "Nici o alertă activată"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:393
+#, php-format
+msgid "One alert has been activated"
+msgid_plural "%s alerts have been activated"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
+msgid "No alerts have been deactivated"
+msgstr "Nici o alertă dezactivată"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
+#, php-format
+msgid "One alert has been deactivated"
+msgid_plural "%s alerts have been deactivated"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
+msgid "User settings have been updated"
+msgstr "Setările utilizatorului au fost actualizate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
+msgid "Both rules can not be empty"
+msgstr "Ambele reguli nu trebuie să fie goale"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
+msgid "Rule updated correctly"
+msgstr "Regulă actualizată cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
+msgid "Rule saved correctly"
+msgstr "Regulă salvată cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
+msgid "No rules have been deleted"
+msgstr "Nici o regulă ștearsă"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:640
+#, php-format
+msgid "One ban rule has been deleted"
+msgid_plural "%s ban rules have been deleted"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
+msgid "Resource deleted"
+msgstr "Resurse sterse"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
+msgid "The comments have been deleted"
+msgstr "Comentariile au fost sterse"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
+msgid "The comments have been approved"
+msgstr "Comentariile au fost aprobate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
+msgid "The comments have been disapproved"
+msgstr "Comentul a fost dezaprobat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
+msgid "The comments have been unblocked"
+msgstr "Comentariile au fost deblocate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
+msgid "The comments have been blocked"
+msgstr "Comentariile au fost blocate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
+msgid "The comment has been approved"
+msgstr "Comentariul a fost aprobat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
+msgid "The comment has been disapproved"
+msgstr "Comentul a fost dezaprobat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
+msgid "The comment has been enabled"
+msgstr "Comentariile sunt activate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
+msgid "The comment has been disabled"
+msgstr "Comentariile au fost dezactivate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
+msgid "Email is not correct"
+msgstr "Email incorect"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
+msgid "Comment is required"
+msgstr "Campul comentariu este necesar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
+msgid "Great! We just updated your comment"
+msgstr "Perfect ! Am modificat comentul tau"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:80
+#, php-format
+msgid "%d listing has been enabled"
+msgid_plural "%d listings have been enabled"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:96
+#, php-format
+msgid "%d listing has been disabled"
+msgid_plural "%d listings have been disabled"
+msgstr[0] "%d listare a fost dezactivată"
+msgstr[1] "%d listări au fost dezactivate"
+msgstr[2] "%d listări au fost dezactivate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:112
+#, php-format
+msgid "%d listing has been activated"
+msgid_plural "%d listings have been activated"
+msgstr[0] "%d listare a fost activată"
+msgstr[1] "%d listări au fost activate"
+msgstr[2] "%d listări au fost activate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:128
+#, php-format
+msgid "%d listing has been deactivated"
+msgid_plural "%d listings have been deactivated"
+msgstr[0] "%d anunt a fost dezactivat"
+msgstr[1] "%d listări au fost dezactivate"
+msgstr[2] "%d listări au fost dezactivate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:144
+#, php-format
+msgid "%d listing has been marked as premium"
+msgid_plural "%d listings have been marked as premium"
+msgstr[0] "Listarea %d a fost marcată ca premium"
+msgstr[1] "%d listări au fost marcate ca premium"
+msgstr[2] "%d listări au fost marcate ca premium"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:160
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:193
+#, php-format
+msgid "%d change has been made"
+msgid_plural "%d changes have been made"
+msgstr[0] "%d modificare a fost făcută"
+msgstr[1] "%d modificări au fost făcute"
+msgstr[2] "%d modificări au fost făcute"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:176
+#, php-format
+msgid "%d listing has been marked as spam"
+msgid_plural "%d listings have been marked as spam"
+msgstr[0] "Listarea %d a fost marcată ca spam"
+msgstr[1] "%d listări au fost marcate ca spam"
+msgstr[2] "%d listări au fost marcate ca spam"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:215
+#, php-format
+msgid "%d listing has been deleted"
+msgid_plural "%d listings have been deleted"
+msgstr[0] "Listarea %d a fost ștearsă"
+msgstr[1] "%d listări au fost șterse"
+msgstr[2] "%d listări au fost șterse"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:236
+#, php-format
+msgid "%d listing has been unmarked as spam"
+msgid_plural "%d listings have been unmarked as spam"
+msgstr[0] "Listarea %d a fost demarcată ca spam"
+msgstr[1] "%d listări au fost demarcate ca spam"
+msgstr[2] "%d listări au fost demarcate ca spam"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:258
+#, php-format
+msgid "%d listing has been unmarked as missclassified"
+msgid_plural "%d listings have been unmarked as missclassified"
+msgstr[0] "Listarea %d nu a fost marcată ca fiind sclavificată"
+msgstr[1] "%d listări nu au fost marcate ca neclasificate"
+msgstr[2] "%d listări nu au fost marcate ca neclasificate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:281
+#, php-format
+msgid "%d listing has been unmarked as duplicated"
+msgid_plural "%d listings have been unmarked as duplicated"
+msgstr[0] "Listarea %d a fost demarcată ca fiind duplicată"
+msgstr[1] "%d listări au fost demarcate ca duplicate"
+msgstr[2] "%d listări au fost demarcate ca duplicate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:302
+#, php-format
+msgid "%d listing has been unmarked as expired"
+msgid_plural "%d listings have been unmarked as expired"
+msgstr[0] "Listarea %d a fost demarcată ca fiind expirată"
+msgstr[1] "%d listări au fost demarcate ca expirate"
+msgstr[2] "%d listări au fost demarcate ca expirate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:323
+#, php-format
+msgid "%d listing has been unmarked as offensive"
+msgid_plural "%d listings have been unmarked as offensive"
+msgstr[0] "Listarea %d a fost demarcată ca ofensivă"
+msgstr[1] "%d listări au fost demarcate ca ofensive"
+msgstr[2] "%d listări au fost demarcate ca ofensive"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:344
+#, php-format
+msgid "%d listing has been unmarked"
+msgid_plural "%d listings have been unmarked"
+msgstr[0] "Listarea %d a fost demarcată"
+msgstr[1] "%d listări au fost demarcate"
+msgstr[2] "%d listări au fost demarcate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
+msgid "The listing has been deleted"
+msgstr "Acest anunt a fost sters"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:374
+msgid "The listing couldn't be deleted"
+msgstr "Acest anunt nu a putut fii sters"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:405
+msgid "The listing has been activated"
+msgstr "Anuntul a fost activat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:407
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:421
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:430
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:439
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:471
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:500
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:668
+msgid "An error has occurred"
+msgstr "A apărut o eroare"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:410
+msgid "The listing can't be activated because it's blocked"
+msgstr "Anunțul nu poate fi activat deoarece acesta este blocat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:419
+msgid "The listing has been deactivated"
+msgstr "Acest anunt a fost dezactivat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:428
+msgid "The listing has been enabled"
+msgstr "Anuntul a fost activat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:437
+msgid "The listing has been disabled"
+msgstr "Anuntul a fost dezactivat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:469
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:498
+msgid "Changes have been applied"
+msgstr "Modificarile au fost aplicate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:527
+msgid "The listing has been unmarked as"
+msgstr "Anuntul a fost demarcat ca"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:529
+msgid "The listing hasn't been unmarked as"
+msgstr "Anuntul nu a fost demarcat ca"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:632
+msgid "Changes saved correctly"
+msgstr "Modificarile salvate cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:719
+msgid "A new listing has been added"
+msgstr "Un nou anunt a fost adaugat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:772
+msgid "Wait time must only contain numeric characters"
+msgstr "Timpul de așteptare trebuie să conțină numai caractere numerice"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:777
+msgid "Number of moderated listings must only contain numeric characters"
+msgstr "Numărul anunțurilor de moderat trebuie să conțină doar caractere numerice"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:780
+msgid "Images per listing must only contain numeric characters"
+msgstr "Imaginile per anunțuri trebuie să conțină numai caractere numerice"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:783
+msgid "Number of expiration days has to be a numeric value"
+msgstr "Numărul zilelor de expirare trebuie să fie o valoare numerică (cifre)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
+msgid "Title Length has to be a numeric value"
+msgstr "Lungimea titlului trebuie să fie o valoare numerică"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
+msgid "Description Length has to be a numeric value"
+msgstr "Lungimea descrierii trebuie să fie o valoare numerică"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
+msgid "Listings' settings have been updated"
+msgstr "Setarile anunturilor au fost actualizate"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
+msgid "Mail server type is incorrect"
+msgstr "Tip de server mail incorect"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
+msgid "Mail server configuration has changed"
+msgstr "S-a modificat configuratia serverului de email"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
+#, php-format
+msgid "%s already was in the database"
+msgstr "%s deja este in baza de date"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#, php-format
+msgid "%s has been added as a new country"
+msgstr "%s a fost adaugata ca o tara noua"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
+msgid "Country name cannot be blank"
+msgstr "Numele țării nu poate fi gol"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
+msgid "Country has been edited"
+msgstr "Tara a fost editata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
+msgid "There were some problems editing the country"
+msgstr "Au aparut probleme la editarea Tarii"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
+msgid "There was a problem deleting locations"
+msgstr "S-a ivit o problemă la ștergerea locațiilor"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
+msgid "No country was selected"
+msgstr "Nu a fost selectată nici o țară"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
+msgid "Region name cannot be blank"
+msgstr "Numele regiunii nu poate fi gol"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#, php-format
+msgid "%s has been added as a new region"
+msgstr "%s a fost adaugat ca o regiune noua"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#, php-format
+msgid "%s has been edited"
+msgstr "%s a fost editat"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
+msgid "No region was selected"
+msgstr "Nu a fost selectată nici o regiune"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
+msgid "New city name cannot be blank"
+msgstr "Numele noului oraș nu poate fi gol"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#, php-format
+msgid "%s has been added as a new city"
+msgstr "%s a fost adaugat ca un oras nou"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
+msgid "City name cannot be blank"
+msgstr "Numele orașului nu poate fi gol"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
+msgid "No city was selected"
+msgstr "Nu a fost selectat nici un oraș"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
+msgid "Location imported successfully"
+msgstr "Locatie importata cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
+msgid "There was a problem importing the selected location"
+msgstr "A apărut o eroare la importarea locației selectate"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
+msgid "All fields are required."
+msgstr "Toate câmpurile sunt obligatorii."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:644
+#, php-format
+msgid "One field was not updated"
+msgid_plural "%s fields were not updated"
+msgstr[0] "Un câmp nu a fost actualizat"
+msgstr[1] "%s câmpuri nu au fost actualizate"
+msgstr[2] "%s câmpuri nu au fost actualizate"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
+msgid "Permalinks structure updated"
+msgstr "Structura Permalinkuri actualizata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
+msgid "Permalinks structure updated."
+msgstr "Structura Permalinkuri actualizata."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
+msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
+msgstr "Oricum, nu putem verifica daca modulul Apache <b>mod_rewrite</b> este incarcat. Daca experimentati probleme cu URL's trebuie sa dezactivati <em>Linkuri prietenoase</em>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
+msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
+msgstr "Fișierul <b>.htaccess</b> nu a putut fi scris cu conținutul necesar."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Aici ai conținutul ce trebuie să îl adaugi fișierului <b>.htaccess</b>. Dacă nu poți creea fișierul, te rog să dezactivezi opțiunea <em>Friendly URLs</em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Uite aici conținutul care trebuie adăugat în fișierul <b>.htaccess</b>. Dacă nu poți creea fișierul, sau dacă întâmpini probleme cu url-urile, te rog deactivează opțiunea <em>URL-uri prietenoase</em>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
+msgid "File <b>.htaccess</b> already exists and was not modified."
+msgstr "Fişierul <b>.htaccess</b> există deja şi nu poate fi modificat."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Iată conţinutul ce trebuie să-l adaugi în fişierul tău <b>.htaccess</b>. Dacă nu poţi modifica fişierul sau întâmpini alte probleme cu URL-urile, te rog să dezactivezi opţiunea <em>Friendly URL-uri</em>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
+msgid "Friendly URLs successfully deactivated"
+msgstr "Linkuri Prietenoase dezactivate cu succes"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
+msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
+msgstr "Frindly URL-uri dezactivate, însă fişierul .htaccess nu a putut fi şters. Te rog să-l ştergi manual."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
+msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
+msgstr "Friendly URL-uri dezactivate, însă fişierul .htaccess a fost modificat înafara Osclass şi nu a fost şters"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
+msgid "Custom number could not be left empty"
+msgstr "Numarul personalizat nu poate fii lasat gol"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
+msgid "Last search settings have been updated"
+msgstr "Setari pentru ultima cautare au fost actualizate"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
+msgid "Last check"
+msgstr "Ultima verificare"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
+msgid "Page title field is required"
+msgstr "Camplul titlul paginii este obligatoriu"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
+msgid "Contact email field is required"
+msgstr "Campul email de contact este obligatoriu"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
+msgid "Number of listings in the RSS has to be a numeric value"
+msgstr "Numărul de anunțuri de afișat in RSS trebuie să fie o valoare numerică"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
+msgid "Max latest listings has to be a numeric value"
+msgstr "Numărul maxim din ultimele anunțuri de afișat trebuie sa fie o valoare numerică"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
+msgid "Number of listings on search has to be a numeric value"
+msgstr "Numărul de anunțuri din căutări trebuie să fie o valoare numerică"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
+msgid "Number of listings in the RSS must be an integer"
+msgstr "Numărul de anunțuri din RSS trebuie să fie un întreg"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
+msgid "Number of recent listings displayed at home must be an integer"
+msgstr "Numărul de anunțuri recente afișate pe pagina de start trebuie să fie un număr întreg"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
+msgid "General settings have been updated"
+msgstr "S-au modificat setarile generale"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
+msgid "Your Akismet key has been cleared"
+msgstr "Cheia Akismet a fost stearsa"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
+msgid "Your Akismet key has been updated"
+msgstr "Cheia Akismet a fost actualizata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
+msgid "Your reCAPTCHA key has been cleared"
+msgstr "Cheia reCAPTCHA a fost stearsa"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
+msgid "Your reCAPTCHA key has been updated"
+msgstr "Cheia reCAPTCHA a fost actualizata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
+msgid "Advanced settings have been updated"
+msgstr "Setările avansate au fost actualizate"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
+msgid "Cache flushed correctly"
+msgstr "Cache-ul a fost golit corespunzător"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
+msgid "Number of moderate comments must only contain numeric characters"
+msgstr "Numărul de comentarii moderate trebuie să conțină numai caractere numerice"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
+msgid "Comments per page must only contain numeric characters"
+msgstr "Numărul de comentarii per pagină trebuie să conțină numai caractere numerice"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
+msgid "Comment settings have been updated"
+msgstr "Setările pentru comentarii au fost actualizate"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
+msgid "The currency code is not in the correct format"
+msgstr "Codul monedei nu este in formatul corect"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
+msgid "Currency added"
+msgstr "Valuta a fost adăugată"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
+msgid "Currency couldn't be added"
+msgstr "Valuta nu a putut fi adăugată"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
+#, php-format
+msgid "The currency code '%s' doesn't exist"
+msgstr "Codul valutar '%s' nu există"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
+msgid "Error: the currency code is not in the correct format"
+msgstr "Eroare: codul de moneda are format incorect"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
+msgid "Currency updated"
+msgstr "Valuta a fost actualizată"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
+msgid "No changes were made"
+msgstr "Nu au fost facute schimbari"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
+#, php-format
+msgid "%s couldn't be deleted because it has listings associated to it"
+msgstr "%s nu poate fi șters deoarece are anunțuri asociate"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
+#, php-format
+msgid "%s couldn't be deleted because it's the default currency"
+msgstr "%s nu poate fi șters deoarece este moneda implicită"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
+msgid "No currencies have been deleted"
+msgstr "Nicio moneda nu a fost stearsa"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
+msgid "One currency has been deleted"
+msgstr "O moneda a fost stearsa"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
+#, php-format
+msgid "%s currencies have been deleted"
+msgstr "%s monede au fost sterse"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
+msgid "There was a problem uploading the watermark image"
+msgstr "A fost intampinata o eroare la incarcarea imaginii watermark"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
+msgid "The watermark image has to be a .PNG file"
+msgstr "Imaginea watermark trebuie sa fie .PNG"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
+#, php-format
+msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
+msgstr "Nu poti sa setezi marimea maxima a unui fisier mai mare decat cea permisa in configuratia PHP: <b>%d KB</b>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
+msgid "Media config has been updated"
+msgstr "S-a modificat configuratia pentru media"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
+msgid "Re-generation complete"
+msgstr "Regenerare completa"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:103
+msgid "Your profile has been updated successfully"
+msgstr "Profilul a fost actualizat cu succes"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:170
+msgid "The specified e-mail is not valid"
+msgstr "Adresa de email specificata nu este valida"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:188
+msgid "The specified username is already in use"
+msgstr "Numele de utilizator specificat este folosit deja"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:196
+msgid "The username was updated"
+msgstr "Numele de utilizator a fost actualizat"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:205
+msgid "The specified username could not be empty"
+msgstr "Numele de utilizator specificat nu poate fi gol"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:230
+msgid "Current password doesn't match"
+msgstr "Parola curenta nu se potriveste"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:235
+msgid "Passwords can't be empty"
+msgstr "Parola nu poate fi goala"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:257
+msgid "Password has been changed"
+msgstr "Parola a fost modificata"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:349
+msgid "Your account have been deleted"
+msgstr "Contul tău a fost șters"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:352
+#: oc-includes/osclass/classes/controller/CWebUser.php:356
+msgid "Oops! you can not do that"
+msgstr "Hey! Nu poți face asta"
 
 #: oc-includes/osclass/emails.php:861
 msgid "We've sent you an e-mail. Follow its instructions to validate the changes"

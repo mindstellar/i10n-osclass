@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-18 19:21+0530\n"
-"PO-Revision-Date: 2021-09-18 14:41\n"
+"POT-Creation-Date: 2021-09-19 05:47+0000\n"
+"PO-Revision-Date: 2021-09-19 06:09\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -17,1546 +17,6 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/messages.pot\n"
 "X-Crowdin-File-ID: 8223\n"
 
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
-msgid "This action cannot be done because it is a demo site"
-msgstr "Tuto akci nelze provést, protože se jedná o demo web"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
-msgid "You don't have enough permissions"
-msgstr "Nemáte dostatečná oprávnění"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
-msgid "The listing has been deleted"
-msgstr "Položka byla odstraněna"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:374
-msgid "The listing couldn't be deleted"
-msgstr "Položku nelze odstranit"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:405
-msgid "The listing has been activated"
-msgstr "Položka byla aktivována"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:407
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:421
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:430
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:439
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:471
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:500
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:668
-msgid "An error has occurred"
-msgstr "Vyskytla se chyba"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:410
-msgid "The listing can't be activated because it's blocked"
-msgstr "Položka nemůže být aktivována, protože je blokována"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:419
-msgid "The listing has been deactivated"
-msgstr "Položka byla deaktivována"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:428
-msgid "The listing has been enabled"
-msgstr "Položka byla povolena"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:437
-msgid "The listing has been disabled"
-msgstr "Položka byla zakázána"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:469
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:498
-msgid "Changes have been applied"
-msgstr "Změny byly použity"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:527
-msgid "The listing has been unmarked as"
-msgstr "Položka byla odznačena jako"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:529
-msgid "The listing hasn't been unmarked as"
-msgstr "Položka nebyla odznačena jako"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:632
-msgid "Changes saved correctly"
-msgstr "Změny uloženy"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
-#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
-#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
-msgid "Resource deleted"
-msgstr "Zdroj smazán"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:719
-msgid "A new listing has been added"
-msgstr "Byla přidána nová položka"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:772
-msgid "Wait time must only contain numeric characters"
-msgstr "Čas čekání se musí skládat pouze z číslic"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:777
-msgid "Number of moderated listings must only contain numeric characters"
-msgstr "Počet moderovaných položek musí obsahovat pouze číslice"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:780
-msgid "Images per listing must only contain numeric characters"
-msgstr "Počet obrázku na položku se musí skládat pouze z číslic"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:783
-msgid "Number of expiration days has to be a numeric value"
-msgstr "Počet dnů expirace musí být číselná hodnota"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
-msgid "Title Length has to be a numeric value"
-msgstr "Název Délka musí být číselná hodnota"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
-msgid "Description Length has to be a numeric value"
-msgstr "Popis Délka musí být číselná hodnota"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
-msgid "Listings' settings have been updated"
-msgstr "Nastavení položek bylo aktualizováno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
-msgid "The comments have been deleted"
-msgstr "Komentáře byly vymazány"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
-msgid "The comments have been approved"
-msgstr "Komentáře byly schváleny"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
-msgid "The comments have been disapproved"
-msgstr "Komentář nebyl schválen"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
-msgid "The comments have been unblocked"
-msgstr "Komentáře byly odblokovány"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
-msgid "The comments have been blocked"
-msgstr "Komentáře byly zablokovány"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
-msgid "The comment has been approved"
-msgstr "Komentář byl schválen"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
-msgid "The comment has been disapproved"
-msgstr "Komentáře nebyly schváleny"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
-msgid "The comment has been enabled"
-msgstr "Komentář byl povolen"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
-msgid "The comment has been disabled"
-msgstr "Komentář byl zakázán"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
-msgid "Email is not correct"
-msgstr "Email je chybný"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
-msgid "Comment is required"
-msgstr "Chybí komentář"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
-msgid "Great! We just updated your comment"
-msgstr "Výborně! Právě jste aktualizoval/a Váš komentář"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:229
-#: oc-includes/osclass/classes/controller/CWebItem.php:671
-msgid "The comment has been deleted"
-msgstr "Komentář byl smazán"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
-msgid "This action can't be done because it's a demo site"
-msgstr "Tuto akci nelze provést, jelikož se jedná o ukázkový web"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
-msgid "The translation folder is not writable"
-msgstr "Do složky překladu nelze zapisovat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:83
-msgid "The language has been installed correctly"
-msgstr "Jazyk byl nainstalován správně"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
-msgid "File uploaded but unable to activate the language"
-msgstr "Soubor byl nahrán, ale nepodařilo se aktivovat jazyk"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
-msgid "The zip file is not valid"
-msgstr "Soubor zip není platný"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
-msgid "No file was uploaded"
-msgstr "Nebyl nahrán žádný soubor"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
-msgid "There was a problem adding the language"
-msgstr "Vyskytla se chyba během přidávání jazyka"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
-msgid "There was a problem importing email templates"
-msgstr "Při importu e-mailových šablon došlo k potížím"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
-msgid "Language imported successfully"
-msgstr "Jazyk byl úspěšně importován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
-msgid "Language id isn't in the correct format"
-msgstr "ID jazyka není ve správném formátu"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
-msgid "Language id doesn't exist"
-msgstr "ID jazyka neexistuje"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:273
-msgid "Language name field is required"
-msgstr "Název jazyka – pole je povinné"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
-msgid "Language direction field is required"
-msgstr "Směr jazyka je povinný"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
-msgid "Language short name field is required"
-msgstr "Stručný název jazyka – pole je povinné"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:282
-msgid "Language description field is required"
-msgstr "Popis jazyku – pole je povinné"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:285
-msgid "Currency format field is required"
-msgstr "Formát měny – pole je povinné"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:288
-msgid "Number of decimals must only contain numeric characters"
-msgstr "Počet destiných míst musí obsahovat pouze číslice"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:312
-#, php-format
-msgid "%s has been updated"
-msgstr "%s aktualizován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:318
-msgid "Selected languages have been enabled for the website"
-msgstr "Vybrané jazyky byly povoleny pro webovou stránku"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:325
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:350
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:384
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
-msgid "The language ids aren't in the correct format"
-msgstr "Jazyk IDS není ve správném formátu"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:342
-msgid "Selected languages have been disabled for the website"
-msgstr "Zvolené jazyky byly zakázány pro webovou stránku"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:357
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:416
-#, php-format
-msgid "%s can't be disabled because it's the default language"
-msgstr "%s nelze zakázat, protože se jedná o výchozí jazyk"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:377
-msgid "Selected languages have been enabled for the backoffice (oc-admin)"
-msgstr "Vybrané jazyky byly povoleny pro administraci (oc-admin)"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
-msgid "Selected languages have been disabled for the backoffice (oc-admin)"
-msgstr "Vybrané jazyky byly zakázány pro administraci (oc-admin)"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:443
-#, php-format
-msgid "Directory '%s' couldn't be removed"
-msgstr "Adresář '% s' nelze odstranit"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:448
-#, php-format
-msgid "Directory \"%s\" has been successfully removed"
-msgstr "Adresář \"%s\" byl úspěšně odstraněn"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:454
-#, php-format
-msgid "Directory '%s' couldn't be removed;)"
-msgstr "Adresář '%s' nemohl být odstraněn;)"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
-#, php-format
-msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
-msgstr "Adresář '%s' nemohl být odstraněn, protože je to výchozí jazyk. <a href=\"%s\">Nejprve nastavte jiný jazyk</a> jako výchozí a zkuste to znovu"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
-msgid "The email/alert has been updated"
-msgstr "Email/upozornění bylo aktualizováno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
-msgid "You can't repeat internal name"
-msgstr "Nemůžete zopakovat interní jméno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
-msgid "The email couldn't be updated, at least one title should not be empty"
-msgstr "Email nemohl být aktualizován, alespoň jeden titulek by neměl být prázdný"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
-msgid "The plugin folder is not writable"
-msgstr "Do složky pluginu nelze zapisovat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
-msgid "The plugin has been uploaded correctly"
-msgstr "Plugin byl nahrán"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
-msgid "There was a problem adding the plugin"
-msgstr "Vyskytla se chyba během přidávání pluginu"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
-#, php-format
-msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr "Plugin vygeneroval %d znadků <strong>neočekávaného výstupu</strong> během instalace. Výstup: \"%s\""
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
-msgid "Plugin is already installed"
-msgstr "Plugin je již nainstalován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
-msgid "Plugin couldn't be installed because their files are missing"
-msgstr "Plugin nemůže být nainstalován, protože chybí soubory"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
-#, php-format
-msgid "Plugin couldn't be installed because of: %s"
-msgstr "Plugin nemůže být nainstalován z následujících důvodů: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
-msgid "Plugin couldn't be installed"
-msgstr "Plugin nemůže být nainstalován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
-msgid "Plugin installed"
-msgstr "Plugin nainstalován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
-msgid "Plugin uninstalled"
-msgstr "Plugin odinstalován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
-msgid "Plugin couldn't be uninstalled"
-msgstr "Plugin nemůže být odinstalován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
-msgid "Plugin enabled"
-msgstr "Plugin povolen"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
-msgid "Plugin is already enabled"
-msgstr "Plugin je již aktivován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
-msgid "Plugin disabled"
-msgstr "Plugin zakázán"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
-msgid "Plugin is already disabled"
-msgstr "Plugin je již deaktivován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
-msgid "Configuration was saved"
-msgstr "Konfigurace byla uložena"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
-msgid "No plugin selected"
-msgstr "Nebyl zvolen žádný plugin"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
-msgid "The files were deleted"
-msgstr "Soubory byly odstraněny"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
-#, php-format
-msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr "Došlo k chybě při odstraňování souborů, zkontrolujte oprávnění souborů v %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
-msgid "Invalid plugin file"
-msgstr "Neplatný soubor pluginu"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
-msgid "The username field is empty"
-msgstr "Pole Uživatelské jméno je nevyplněné"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
-msgid "The password field is empty"
-msgstr "Pole Heslo je nevyplněné"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
-#, php-format
-msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Omlouváme se, ale jedná se o nesprávné uživatelské jméno. <a href=\\\"%s\\\"> Ztratili jste heslo? </ a>"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
-#, php-format
-msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Omlouváme se, ale jedná se o nesprávné heslo. <a href=\\\"%s\\\"> Ztratili jste heslo? </ a>"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
-msgid "The reCAPTCHA code is wrong"
-msgstr "reCAPTCHA kód je chybný"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
-msgid "A new password has been sent to your e-mail"
-msgstr "Nové heslo bylo odesláno na váš email"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
-#: oc-includes/osclass/classes/controller/CWebLogin.php:271
-#: oc-includes/osclass/classes/controller/CWebLogin.php:319
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
-msgid "Sorry, the link is not valid"
-msgstr "Omlouváme se, ale odkaz není platný"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
-#: oc-includes/osclass/classes/controller/CWebLogin.php:309
-msgid "The password has been changed"
-msgstr "Heslo bylo změněno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
-msgid "Error, the passwords don't match"
-msgstr "Chyba, hesla nesouhlasí"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
-msgid "The theme folder is not writable"
-msgstr "Do složky vzhledů nelze zapisovat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
-msgid "The theme has been installed correctly"
-msgstr "Vzhled byl nainstalován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
-msgid "There was a problem adding the theme"
-msgstr "Objevila se chyba během přidávání vzhledu"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
-msgid "Theme removed successfully"
-msgstr "Šablona úspěšně odstraněna"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
-msgid "There was a problem removing the theme"
-msgstr "Vyskytla se chyba při odstraňování šablony"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
-msgid "Current theme can not be deleted"
-msgstr "Aktuální šablona nemůže být odstraněna"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
-msgid "No theme selected"
-msgstr "Není zvolena šablona"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
-msgid "Widget removed correctly"
-msgstr "Widget odstraněn"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
-msgid "Description field is required"
-msgstr "Chybí popis"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
-msgid "Widget updated correctly"
-msgstr "Widget úspěšně aktualizován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
-msgid "Widget cannot be updated correctly"
-msgstr "Widget nemůže být aktualizován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
-msgid "Widget added correctly"
-msgstr "Widget přidán"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
-msgid "Theme activated correctly"
-msgstr "Vzhled aktivován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
-msgid "You have very few free space left, users will not be able to upload pictures"
-msgstr "Zbývající místo je velice příliš malé, uživatelé již nebudou moct nahrávat obrázky"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
-msgid "Entered an invalid email"
-msgstr "Zadán neplatný email"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
-msgid "You're already subscribed"
-msgstr "Jste již přihlášen k odběru"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
-msgid "Subscribed correctly"
-msgstr "Úspěšně přihlášen k odběru"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
-msgid "Error subscribing"
-msgstr "Chyba přihlášení k odběru"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
-msgid "You have to set an internal name"
-msgstr "Musíte nastavit interní jméno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
-msgid "You have to set a different internal name"
-msgstr "Musíte nastavit odlišné interní jméno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
-msgid "The page has been updated"
-msgstr "Stránka byla aktualizována"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
-msgid "The page couldn't be updated, at least one title should not be empty"
-msgstr "Stránka nemůže být aktualizována, alespoň jeden titulek by neměl být prázdný"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
-msgid "The page has been added"
-msgstr "Stránka byla přidána"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
-msgid "The page couldn't be added, at least one title should not be empty"
-msgstr "Stránka nemůže být přidána, alespoň jeden titulek by neměl být správný"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
-msgid "Oops! That internal name is already in use. We can't make the changes"
-msgstr "Oops! Toto interní jméno bylo použito. Nemůžeme provést změny"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
-msgid "One page can't be deleted because it is indelible"
-msgstr "Jedna stránke nemůže být smazána, protože je neodstranitelná"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
-#, php-format
-msgid "%s pages couldn't be deleted because they are indelible"
-msgstr "%s stránky nelze odstranit, protože jsou nesmazatelné"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
-msgid "One page couldn't be deleted"
-msgstr "Jedna stránka nemůže být smazána"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
-#, php-format
-msgid "%s pages couldn't be deleted"
-msgstr "%s stránky nelze odstranit"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
-msgid "One page has been deleted correctly"
-msgstr "Jedna stránka byla úspěšně smazána"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
-#, php-format
-msgid "%s pages have been deleted correctly"
-msgstr "%s stránky byly správně odstraněny"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
-msgid "Import complete"
-msgstr "Import komepletní"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
-msgid "There was a problem importing data to the database"
-msgstr "Vyskytla se chyba během importování dat do databáze"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
-msgid "Recount category stats has been successful"
-msgstr "Počítání statistik v kategorii bylo úspěšné"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
-msgid "Path is empty"
-msgstr "Cesta je prázdná"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
-msgid "Could not connect with the database"
-msgstr "Nelze se připojit k databázi"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
-msgid "There are no tables to back up"
-msgstr "Nejsou k dispozici tabulky pro zálohování"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
-msgid "The folder is not writable"
-msgstr "Do složky nelze zapisovat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
-msgid "Backup completed successfully"
-msgstr "Záloha úspěšně dokončena"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
-#, php-format
-msgid "Could not connect with the database. Error: %s"
-msgstr "Nelze se připojit k databázi. Chyba: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
-#, php-format
-msgid "Could not select the database. Error: %s"
-msgstr "Nelze zvolit databázi. Chyba: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
-msgid "Archived successfully!"
-msgstr "Archivace úspěšná!"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
-msgid "Error, the zip file was not created in the specified directory"
-msgstr "Chyba, zip soubor nebyl vytvořen v určeném adresáři"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
-msgid "Maintenance mode is ON"
-msgstr "Mód údržby je ZAPNUT"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
-msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
-msgstr "Vyskytla se chyba při vytváření souboru .maintenance, prosím vytvořte jej ručně v kořenové složce"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
-msgid "Maintenance mode is OFF"
-msgstr "Mód údržby je VYPNUT"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
-msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
-msgstr "Vyskytla se chyba při odstraňování souboru .maintenance, prosím odstraťe jej ručně v kořenové složce"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
-msgid "There was a problem uploading the watermark image"
-msgstr "Vyskytla se chyba při nahrávání obrázku vodoznaku"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
-msgid "The watermark image has to be a .PNG file"
-msgstr "Obrázek vodoznaku musí být ve formátu .PNG"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
-#, php-format
-msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
-msgstr "Nelze nastavit maximální velikost větší, než je povolená velikost v PHP konfiguraci: <b>%d KB</b>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
-msgid "Media config has been updated"
-msgstr "Konfigurace medií aktualizována"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
-msgid "Re-generation complete"
-msgstr "Obnova kompletní"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
-#, php-format
-msgid "%s already was in the database"
-msgstr "%s již byl v databázi"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
-#, php-format
-msgid "%s has been added as a new country"
-msgstr "bylo přidáno jako nová země"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
-msgid "Country name cannot be blank"
-msgstr "Název země nemůže být prázdný"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
-msgid "Country has been edited"
-msgstr "Země byla upravena"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
-msgid "There were some problems editing the country"
-msgstr "Vyskytly se problémy při editaci země"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
-msgid "There was a problem deleting locations"
-msgstr "Vyskytl se problém při mazání umístění"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
-msgid "No country was selected"
-msgstr "Nebyla vybrána žádna země"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
-msgid "Region name cannot be blank"
-msgstr "Název region nemůže být prázdný"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
-#, php-format
-msgid "%s has been added as a new region"
-msgstr "bylo přidáno jako nový region"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
-#, php-format
-msgid "%s has been edited"
-msgstr "bylo editováno"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
-msgid "No region was selected"
-msgstr "Nebyl vybrán žádný region"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
-msgid "New city name cannot be blank"
-msgstr "Název nového města nemůže být prázdný"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
-#, php-format
-msgid "%s has been added as a new city"
-msgstr "bylo přidáno jako nové město"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
-msgid "City name cannot be blank"
-msgstr "Název města nemůže být prázdný"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
-msgid "No city was selected"
-msgstr "Nebylo vybráno žádné město"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
-msgid "Location imported successfully"
-msgstr "Poloha byla úspěšně importována"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
-msgid "There was a problem importing the selected location"
-msgstr "Při importu vybraného místa došlo k chybě"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
-msgid "Your Akismet key has been cleared"
-msgstr "Váš Akismet klíč byl vymazán"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
-msgid "Your Akismet key has been updated"
-msgstr "Váš Akismet klíč byl aktualizován"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
-msgid "Your reCAPTCHA key has been cleared"
-msgstr "Váš klíč k reCAPTCHA byl vymazán"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
-msgid "Your reCAPTCHA key has been updated"
-msgstr "Váš klíč k reCAPTCHA byl aktualizován"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
-msgid "Advanced settings have been updated"
-msgstr "Pokročilá nastavení byla upravena."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
-msgid "Cache flushed correctly"
-msgstr "Mezipaměť správně vyprázdněna"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
-msgid "The currency code is not in the correct format"
-msgstr "Kód měny není ve správném formátu"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
-msgid "Currency added"
-msgstr "Měna byla přidána"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
-msgid "Currency couldn't be added"
-msgstr "Měnu nelze přidat"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
-#, php-format
-msgid "The currency code '%s' doesn't exist"
-msgstr "Kód měny '%s' neexistuje"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
-msgid "Error: the currency code is not in the correct format"
-msgstr "Chyba. Kód měny není ve správném formátu"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
-msgid "Currency updated"
-msgstr "Měna byla aktualizována"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
-msgid "No changes were made"
-msgstr "Nebyly provedeny žádné změny"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
-#, php-format
-msgid "%s couldn't be deleted because it has listings associated to it"
-msgstr "%s nemohl být smazán protože je asociován s položkou"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
-#, php-format
-msgid "%s couldn't be deleted because it's the default currency"
-msgstr "%s nemohla být smazána protože se jedná o výchozí měnu"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
-msgid "No currencies have been deleted"
-msgstr "Nebyly vymazány žádné měny"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
-msgid "One currency has been deleted"
-msgstr "Měna byla vymazána"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
-#, php-format
-msgid "%s currencies have been deleted"
-msgstr "měn bylo vymazáno"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
-msgid "Custom number could not be left empty"
-msgstr "Volitelné číslo nemůže být prázdné"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
-msgid "Last search settings have been updated"
-msgstr "Poslední parametry hledání byly aktualizovány"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
-msgid "Last check"
-msgstr "Poslední kontrola"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
-msgid "Page title field is required"
-msgstr "Název stránky – položka je povinná"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
-msgid "Contact email field is required"
-msgstr "Kontaktní e-mail – položka je povinné"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
-msgid "Number of listings in the RSS has to be a numeric value"
-msgstr "Počet položek v RSS musí být numerické hodnoty"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
-msgid "Max latest listings has to be a numeric value"
-msgstr "Max nejnovějších položek musí být numerické hodnoty"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
-msgid "Number of listings on search has to be a numeric value"
-msgstr "Počet položek výsledku vyhledávání musí být číselné hodnoty"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
-msgid "Number of listings in the RSS must be an integer"
-msgstr "Počet položek v RSS musí být celočíselného typu"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
-msgid "Number of recent listings displayed at home must be an integer"
-msgstr "Počet nedávno zobrazených položek na domovské stránce musí být celočísleného typu"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
-msgid "General settings have been updated"
-msgstr "Hlavní nastavení bylo aktualizováno"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
-msgid "Number of moderate comments must only contain numeric characters"
-msgstr "Počet moderovaných komentářů se musí skládat pouze z číslic"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
-msgid "Comments per page must only contain numeric characters"
-msgstr "Počet komentářů na stránku se musí skládat pouz z číslic"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
-msgid "Comment settings have been updated"
-msgstr "Nastavení komentářů bylo zaktualizováno"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
-msgid "All fields are required."
-msgstr "Všechna pole jsou vyžadována"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
-msgid "Permalinks structure updated"
-msgstr "Struktura trvalých odkazů byla aktualizována"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
-msgid "Permalinks structure updated."
-msgstr "Struktura trvalých odkazů aktualizována"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
-msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
-msgstr "Můžeme zkontrolovat, jestli je Apache <b>mod_rewrite</b> načten. Pokud máte problémy s URL adresami, měli byste deaktivovat <em>Přátelské URL</em>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
-msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
-msgstr "Soubor <b>.htaccess</b> nemohl být vyplněn správným obsahem"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Zde je obsah který musíte přidat do <b>.htaccess</b> souboru. Pokud tento soubor nemůžete vytvořit, deaktivujte volbu <em>Přátelské URL adresy</em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Zde je obsah který musíte přidat do <b>.htaccess</b> souboru. Pokud tento soubor nemůžete vytvořit, nebo narazíte na nějaký problém, deaktivujte volbu <em>Přátelské URL adresy</em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
-msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr "Soubor <b>.htaccess</b> již existuje a byl upraven."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Zde je obsah, který musíte přidat do <b>.htaccess</b> souboru. Pokud nemůžete upravit tento soubor, nebo se vyskytnou nějaké problémy s URL adresami, prosím deaktivujte volbu <em>Přátelské URL</em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
-msgid "Friendly URLs successfully deactivated"
-msgstr "Přátelské URL úspěšně deaktivovány"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
-msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr "Přátelská URL deaktivována, ala .htaccess soubor nemohl být smazán. Prosím odstraňteho ručně. "
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
-msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr "Přátelská URL deaktivována, ale .htaccess soubor byl modifikován mimo Osclass a nebyl smazán"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
-msgid "Mail server type is incorrect"
-msgstr "Typ mailového serveru je neplatný"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
-msgid "Mail server configuration has changed"
-msgstr "Nastavení mailového serveru bylo změněno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
-msgid "Email invalid"
-msgstr "Neplatný email"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
-msgid "Username invalid"
-msgstr "Neplatné uživatelské jméno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
-msgid "Name invalid"
-msgstr "Neplatné jméno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
-msgid "Password invalid"
-msgstr "Neplatné heslo"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
-msgid "Email already in use"
-msgstr "Email je používán jiným uživatelem"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
-msgid "Username already in use"
-msgstr "Uživatelské jméno již existuje"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
-msgid "Incorrent current password"
-msgstr "Aktuální heslo Incorrent"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
-msgid "The admin has been added"
-msgstr "Administrátor byl přidán"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
-msgid "There has been an error adding a new admin"
-msgstr "Vyskytla se chyba při přidávání nového admina"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
-msgid "There is no admin with this id"
-msgstr "Žádný admin s tímto ID neexistuje"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
-msgid "This admin doesn't exist"
-msgstr "Administrátor neexistuje"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
-msgid "Existing email"
-msgstr "Existující email"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
-msgid "Existing username"
-msgstr "Existující uživatelské jméno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
-msgid "The password couldn't be updated. Passwords don't match"
-msgstr "Heslo nemohlo být aktualizováno. Hesla nesouhlasí"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
-msgid "The admin has been updated"
-msgstr "Administrátor aktualizován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
-msgid "The admin id isn't in the correct format"
-msgstr "ID administrátora není ve správném formátu"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
-msgid "The operation hasn't been completed. You're trying to remove yourself!"
-msgstr "Operace nebyla dokončena, pokoušíte se odstranit sám sebe"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
-msgid "The admin has been deleted correctly"
-msgstr "Administrátor úspěšně vymazán"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
-msgid "The admin couldn't be deleted"
-msgstr "Administrátor nemůže být vymazán"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
-msgid "The user has been created. We've sent an activation e-mail"
-msgstr "Uživatel byl vytvořen. Aktivační e-mail odeslán"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
-msgid "The user has been created successfully"
-msgstr "Uživatel byl úspěšně vytvořen"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
-msgid "The user has been updated"
-msgstr "Uživatel byl aktualizován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
-msgid "The user has been updated and activated"
-msgstr "Uživatel byl aktualizován a aktivován"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:229
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:255
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:281
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:306
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:625
-msgid "User id isn't in the correct format"
-msgstr "ID uživatele není ve správném formátu"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:186
-msgid "No users have been selected"
-msgstr "Nebyly vybrání žádní uživatelé"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
-msgid "No users have been activated"
-msgstr "Nebyly aktivování žádní uživatelé"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
-msgid "No users have been deactivated"
-msgstr "Nebyly deaktivování žádní uživatelé"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
-msgid "No users have been enabled"
-msgstr "Nebyly povoleni žádní uživatelé"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
-msgid "No users have been disabled"
-msgstr "Nebyli zablokování žádní uživatelé"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
-msgid "No users have been deleted"
-msgstr "Nebyli smazání žádní uživatelé"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
-msgid "Alert id isn't in the correct format"
-msgstr "ID upozornění nemá správný formát"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
-msgid "No alerts have been deleted"
-msgstr "Nebyla smazána žádná upozornění"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
-msgid "No alerts have been activated"
-msgstr "Nebyla aktivováná zádna upozornění"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
-msgid "No alerts have been deactivated"
-msgstr "Žádná upozornění nebyla deaktivována"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
-msgid "User settings have been updated"
-msgstr "Uživatelské nastavení bylo aktualizováno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
-msgid "Both rules can not be empty"
-msgstr "Obě pravidla nemohou zůstat prázdná"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
-msgid "Rule updated correctly"
-msgstr "Pravidla byla správně aktualizována"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
-msgid "Rule saved correctly"
-msgstr "Pravidla byla v pořádku uložena"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
-msgid "No rules have been deleted"
-msgstr "Žádna pravidla nebyla smazána"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:39
-#: oc-includes/osclass/classes/controller/CWebLogin.php:39
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
-#: oc-includes/osclass/classes/controller/CWebRegister.php:40
-msgid "Users not enabled"
-msgstr "Nepovolení uživatelé"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:103
-msgid "Your profile has been updated successfully"
-msgstr "Váš profil byl úspěšně aktualizován"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:138
-#: oc-includes/osclass/classes/actions/UserActions.php:98
-msgid "The specified e-mail is already in use"
-msgstr "Zvolený e-mail již existuje v databázi"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:170
-msgid "The specified e-mail is not valid"
-msgstr "Zadaný email není platný"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:188
-msgid "The specified username is already in use"
-msgstr "Zadané uživatelksé jméno je již používáno"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:190
-#: oc-includes/osclass/classes/actions/UserActions.php:109
-msgid "The specified username is not valid, it contains some invalid words"
-msgstr "Zadané uživatelské jméno není platné. Obsahuje neplatné slova"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:196
-msgid "The username was updated"
-msgstr "Uživatelské jméno bylo aktualizováno"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:205
-msgid "The specified username could not be empty"
-msgstr "Zadané uživatelské jméno nemůže být prázdné"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:221
-#: oc-includes/osclass/classes/controller/CWebLogin.php:280
-msgid "Password cannot be blank"
-msgstr "Heslo chybí"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:230
-msgid "Current password doesn't match"
-msgstr "Soušasné heslo nesouhlasí"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:235
-msgid "Passwords can't be empty"
-msgstr "Heslo nesmí být prázdné"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:242
-#: oc-includes/osclass/classes/actions/UserActions.php:75
-#: oc-includes/osclass/classes/actions/UserActions.php:309
-msgid "Passwords don't match"
-msgstr "Heslo se neshodují"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:257
-msgid "Password has been changed"
-msgstr "Heslo bylo změněno"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:296
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
-msgid "Alert activated"
-msgstr "Výstraha aktivována"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:298
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
-msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
-msgstr "Jejda! Vyskytl se problém při pokusu o aktivaci vašeho upozrnění. Prosím kontaktujte administrátora."
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:317
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
-msgid "Unsubscribed correctly"
-msgstr "Ukončení odběru proběhlo správně"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:319
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
-msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
-msgstr "Jejda! Vyskytl se problém při pokusu vás odhlásit. Prosím kontaktujte administrátora"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:349
-msgid "Your account have been deleted"
-msgstr "Váš účet byl smazán"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:352
-#: oc-includes/osclass/classes/controller/CWebUser.php:356
-msgid "Oops! you can not do that"
-msgstr "Jejda! Toto nemůžete udělat"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:72
-#: oc-includes/osclass/classes/controller/CWebItem.php:140
-msgid "Only registered users are allowed to post listings"
-msgstr "Pouze registrovaní uživatelé mohou vkládat položky"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:147
-#: oc-includes/osclass/classes/controller/CWebItem.php:272
-#: oc-includes/osclass/classes/controller/CWebItem.php:476
-#: oc-includes/osclass/classes/controller/CWebItem.php:535
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
-#: oc-includes/osclass/classes/controller/CWebContact.php:57
-msgid "The Recaptcha code is wrong"
-msgstr "Ověřovací kód nebyl zadán správně"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:160
-msgid "A user with that email address already exists, if it is you, please log in"
-msgstr "Uživatel se stejnou adresou již existuje. Pokud jste to vy, prosím přihlašte se"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:167
-#: oc-includes/osclass/classes/controller/CWebItem.php:550
-#: oc-includes/osclass/classes/controller/CWebLogin.php:111
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
-#: oc-includes/osclass/classes/controller/CWebRegister.php:72
-#: oc-includes/osclass/classes/controller/CWebContact.php:69
-#: oc-includes/osclass/classes/controller/CWebContact.php:81
-msgid "Your current email is not allowed"
-msgstr "Váš současný email není povolen"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:170
-#: oc-includes/osclass/classes/controller/CWebItem.php:553
-#: oc-includes/osclass/classes/controller/CWebLogin.php:114
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
-#: oc-includes/osclass/classes/controller/CWebRegister.php:75
-#: oc-includes/osclass/classes/controller/CWebContact.php:72
-msgid "Your current IP is not allowed"
-msgstr "Vaše současná IP adresa není povolená"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:188
-msgid "Check your inbox to validate your listing"
-msgstr "Zkontrolujte příchozí zprávy a potvrďte vaši položku"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:190
-msgid "Your listing will be published after an admin approves it."
-msgstr "Váš seznam bude zveřejněn po schválení správcem."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:192
-msgid "Your listing has been published"
-msgstr "Vaše položka byla vystavena"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:228
-msgid "Sorry, we don't have any listings with that ID"
-msgstr "Litujeme, nemáme žádnou položku s tímto ID"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:288
-msgid "Your listing will be published after an admin approves the changes."
-msgstr "Váš seznam bude zveřejněn po schválení změn administrátorem."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:290
-msgid "Great! We've just updated your listing"
-msgstr "Výborně! Právě jsme aktualizovali vaši položku"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:328
-msgid "The listing has been validated"
-msgstr "Položka byla potvrzena"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:330
-msgid "The listing can't be validated"
-msgstr "Položku nelze potvrdit"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:333
-msgid "The listing has already been validated"
-msgstr "Položka již byla potvrzena"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:352
-msgid "Your listing has been deleted"
-msgstr "Vaše položka byla odstraněna"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:354
-#: oc-includes/osclass/classes/controller/CWebItem.php:362
-msgid "The listing you are trying to delete couldn't be deleted"
-msgstr "Položka, kterou se snažíte odstranit nemůže být odstraněna"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:383
-#: oc-includes/osclass/classes/controller/CWebAjax.php:128
-msgid "The selected photo couldn't be deleted, the url doesn't exist"
-msgstr "Vybraná fotografie nemůže být smazána. URL adresa neexistuje"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:389
-#: oc-includes/osclass/classes/controller/CWebAjax.php:140
-msgid "The listing doesn't exist"
-msgstr "Tato položka neexistuje"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:395
-#: oc-includes/osclass/classes/controller/CWebItem.php:402
-#: oc-includes/osclass/classes/controller/CWebAjax.php:150
-#: oc-includes/osclass/classes/controller/CWebAjax.php:161
-msgid "The listing doesn't belong to you"
-msgstr "Tato položka není vaše"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:427
-#: oc-includes/osclass/classes/controller/CWebAjax.php:107
-#: oc-includes/osclass/classes/controller/CWebAjax.php:203
-msgid "The selected photo has been successfully deleted"
-msgstr "Vybraná fotografie byla úspěšně vymazána"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:429
-#: oc-includes/osclass/classes/controller/CWebAjax.php:206
-msgid "The selected photo does not belong to you"
-msgstr "Zvolená fotografie není vaše"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:432
-#: oc-includes/osclass/classes/controller/CWebAjax.php:210
-msgid "The selected photo couldn't be deleted"
-msgstr "Vybraná fotografie nemůže být vymazána"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:454
-msgid "Thanks! That's very helpful"
-msgstr "Děkujeme, bylo to velmi nápomocné"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:499
-#: oc-includes/osclass/classes/controller/CWebItem.php:641
-msgid "This listing doesn't exist"
-msgstr "Tato položka neexistuje"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:506
-#: oc-includes/osclass/classes/controller/CWebItem.php:559
-msgid "We're sorry, but the listing has expired. You can't contact the seller"
-msgstr "Omlouváme se, ale tato položka vypršela. Nelze kontaktovat prodejce"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:516
-#: oc-includes/osclass/classes/controller/CWebItem.php:528
-msgid "You can't contact the seller, only registered users can"
-msgstr "Nelze kontaktovat prodejce, pouze registrovaní uživatelé mají tuto možnost"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:518
-#, php-format
-msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr "<a href=\"%s\">Klikněte zde pro přihlášení</a>"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:573
-msgid "We've just sent an e-mail to the seller"
-msgstr "Právě jsme odeslali e-mail prodejci"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:591
-msgid "Sorry, we could not save your comment. Try again later"
-msgstr "Omlouváme se, ale nemůžeme uložit váš komentář. Zkuste to prosím později."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:595
-msgid "Your comment is awaiting moderation"
-msgstr "Váš komentář čeká na schválení"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:599
-msgid "Your comment has been approved"
-msgstr "Váš komentář byl schválen"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:603
-msgid "Please fill the required field (email)"
-msgstr "Vyplňte prosím vyžadované pole (email)"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:607
-msgid "Please type a comment"
-msgstr "Prosím napište komentář"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:611
-msgid "Your comment has been marked as spam"
-msgstr "Váš komentář byl označen jako spam"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:615
-msgid "You need to be logged to comment"
-msgstr "Pro vložení komentáře se musíte přihlásit"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:619
-msgid "Sorry, comments are disabled"
-msgstr "Omlouváme se, komentáře jsou vypnuty"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:648
-msgid "You must be logged in to delete a comment"
-msgstr "Pro smazání komentáře musíte být přihlášen"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:656
-msgid "The comment doesn't exist"
-msgstr "Komentář neexistuje"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:661
-msgid "The comment is not active, you cannot delete it"
-msgstr "Komentář není aktivní, tudíž nemůže být smazán"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:666
-msgid "The comment was not added by you, you cannot delete it"
-msgstr "Komentář nelze smazat, nejste jeho autorem"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:702
-msgid "The listing hasn't been validated. Please validate it in order to make it public"
-msgstr "Položka nebyla ověřena. Prosím ověřeteji a aby byla zveřejněna"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:712
-msgid "The listing hasn't been enabled. Please enable it in order to make it public"
-msgstr "Položka nebyla aktivována. Aktivujte jí, aby byla veřejná"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:718
-msgid "The listing has been blocked or is awaiting moderation from the admin"
-msgstr "Seznam byl zablokován nebo čeká na moderování od administrátora"
-
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
-msgid "Thank you very much for your donation"
-msgstr "Děkujeme za váš dar"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:51
-#: oc-includes/osclass/classes/controller/CWebRegister.php:64
-msgid "Users are not enabled"
-msgstr "Uživatelé nejsou povoleni"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:62
-msgid "Please provide an email address"
-msgstr "Zadejte prosím e-mailovou adresu"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:66
-msgid "Empty passwords are not allowed. Please provide a password"
-msgstr "Prázdná hesla nejsou povolena. Zadejte prosím heslo"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:80
-#: oc-includes/osclass/classes/controller/CWebLogin.php:157
-msgid "The user doesn't exist"
-msgstr "Uživatel neexistuje"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:104
-msgid "The password is incorrect"
-msgstr "Heslo nesouhlasí"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:161
-#, php-format
-msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
-msgstr "Uživatel nebyl ještě ověřen. Chtěli byste, aby znovu zaslat svou<a href=\"%s\"> aktivaci? </a>"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:165
-msgid "The user has not been validated yet"
-msgstr "Uživatel nemůže být potvrzen"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:168
-msgid "The user has been suspended"
-msgstr "Uživatel byl zablokován"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:197
-msgid "This should never happen"
-msgstr "Toto by nikdy nemělo stát"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:213
-msgid "Incorrect link"
-msgstr "Nesprávný odkaz"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:227
-msgid "Validation email re-sent"
-msgstr "Potvrzení e-mailu znovu zasláno"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:229
-msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
-msgstr "Právě jsme vám poslali e-mail pro ověření vašeho účtu, budete muset počkat několik minut, než jej bude možné znovu odeslat"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:243
-msgid "Invalid email address"
-msgstr "Neplatná emailová adresa"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:252
-msgid "We have sent you an email with the instructions to reset your password"
-msgstr "Zaslali jsme vám email s instrukcemi pro obnovení vašeho hesla"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:256
-msgid "We were not able to identify you given the information provided"
-msgstr "Nebylo možno identifikovat poskytnuté informace"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:260
-msgid "The recaptcha code is wrong"
-msgstr "Recaptcha kód je chybný"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:312
-msgid "Error, the password don't match"
-msgstr "Chyba, hesla nesouhlasí"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
-msgid "Your email has been changed successfully"
-msgstr "Váš e-mail byl úspěšně změněn"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
-msgid "Your email has been sent properly."
-msgstr "Váš e-mail byl řádně odeslán."
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:45
-msgid "User registration is not enabled"
-msgstr "Registrace uživatelů není povolena"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:82
-msgid "The user has been created. An activation email has been sent"
-msgstr "Uživatel byl vytvořen. Aktivační e-mail byl odeslán"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:85
-msgid "Your account has been created successfully"
-msgstr "Váš účet byl úspěšně vytvořen"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:103
-msgid "The link is not valid anymore. Sorry for the inconvenience!"
-msgstr "Odkaz není nadále platný. Omlouváme se za způsobené komplikace!"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:108
-msgid "Your account has already been validated"
-msgstr "Váš účet byl již aktivován"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:129
-msgid "Your account has been validated"
-msgstr "Váš účet byl aktivován"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:131
-msgid "Account validation failed"
-msgstr "Ověření účtu se nezdařilo"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:86
-msgid "Please enter a correct email"
-msgstr "Prosím zadejte platný email"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:168
-#: oc-includes/osclass/classes/actions/ItemActions.php:323
-msgid "The file you tried to upload does not have a valid extension"
-msgstr "Soubor, který jste se pokusili nahrát nemá správnou příponu"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:182
-msgid "Your email has been sent properly. Thank you for contacting us!"
-msgstr "Váš email byl v pořádku odeslán. Děkujeme, že jste nás kontaktovali!"
-
 #: oc-includes/osclass/classes/actions/ItemActions.php:124
 msgid "Name too long."
 msgstr "Jméno je příliš dlouhé"
@@ -1568,6 +28,11 @@ msgstr "Email je neplatný"
 #: oc-includes/osclass/classes/actions/ItemActions.php:131
 msgid "Too fast. You should wait a little to publish your ad."
 msgstr "Příliš brzy. Měl byste chvíli počkat před vložením dalšího inzerátu."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:323
+#: oc-includes/osclass/classes/controller/CWebContact.php:168
+msgid "The file you tried to upload does not have a valid extension"
+msgstr "Soubor, který jste se pokusili nahrát nemá správnou příponu"
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:351
 msgid "One of the files you tried to upload exceeds the maximum size"
@@ -1693,6 +158,12 @@ msgstr "reCAPTCH nebyl správně zadán"
 msgid "The password cannot be empty"
 msgstr "Heslo chybí"
 
+#: oc-includes/osclass/classes/actions/UserActions.php:75
+#: oc-includes/osclass/classes/actions/UserActions.php:309
+#: oc-includes/osclass/classes/controller/CWebUser.php:242
+msgid "Passwords don't match"
+msgstr "Heslo se neshodují"
+
 #: oc-includes/osclass/classes/actions/UserActions.php:86
 #: oc-includes/osclass/classes/actions/UserActions.php:302
 msgid "The name cannot be empty"
@@ -1702,9 +173,19 @@ msgstr "Název nemůže být prázdný"
 msgid "The email is not valid"
 msgstr "Email není platný"
 
+#: oc-includes/osclass/classes/actions/UserActions.php:98
+#: oc-includes/osclass/classes/controller/CWebUser.php:138
+msgid "The specified e-mail is already in use"
+msgstr "Zvolený e-mail již existuje v databázi"
+
 #: oc-includes/osclass/classes/actions/UserActions.php:105
 msgid "Username is already taken"
 msgstr "Uživatelské jméno je již zabrané"
+
+#: oc-includes/osclass/classes/actions/UserActions.php:109
+#: oc-includes/osclass/classes/controller/CWebUser.php:190
+msgid "The specified username is not valid, it contains some invalid words"
+msgstr "Zadané uživatelské jméno není platné. Obsahuje neplatné slova"
 
 #: oc-includes/osclass/classes/actions/UserActions.php:291
 #, php-format
@@ -1718,6 +199,1751 @@ msgstr "Pravděpodobně neplatný požadavek"
 #: oc-includes/osclass/classes/Csrf.php:184
 msgid "Invalid CSRF token."
 msgstr "Neplatný CSRF token"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
+#: oc-includes/osclass/classes/controller/CWebLogin.php:39
+#: oc-includes/osclass/classes/controller/CWebRegister.php:40
+#: oc-includes/osclass/classes/controller/CWebUser.php:39
+msgid "Users not enabled"
+msgstr "Nepovolení uživatelé"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
+msgid "Your email has been changed successfully"
+msgstr "Váš e-mail byl úspěšně změněn"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
+#: oc-includes/osclass/classes/controller/CWebLogin.php:271
+#: oc-includes/osclass/classes/controller/CWebLogin.php:319
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
+msgid "Sorry, the link is not valid"
+msgstr "Omlouváme se, ale odkaz není platný"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
+#: oc-includes/osclass/classes/controller/CWebUser.php:296
+msgid "Alert activated"
+msgstr "Výstraha aktivována"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
+#: oc-includes/osclass/classes/controller/CWebUser.php:298
+msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
+msgstr "Jejda! Vyskytl se problém při pokusu o aktivaci vašeho upozrnění. Prosím kontaktujte administrátora."
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
+#: oc-includes/osclass/classes/controller/CWebUser.php:317
+msgid "Unsubscribed correctly"
+msgstr "Ukončení odběru proběhlo správně"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
+#: oc-includes/osclass/classes/controller/CWebUser.php:319
+msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
+msgstr "Jejda! Vyskytl se problém při pokusu vás odhlásit. Prosím kontaktujte administrátora"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
+#: oc-includes/osclass/classes/controller/CWebContact.php:57
+#: oc-includes/osclass/classes/controller/CWebItem.php:147
+#: oc-includes/osclass/classes/controller/CWebItem.php:272
+#: oc-includes/osclass/classes/controller/CWebItem.php:476
+#: oc-includes/osclass/classes/controller/CWebItem.php:535
+msgid "The Recaptcha code is wrong"
+msgstr "Ověřovací kód nebyl zadán správně"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
+#: oc-includes/osclass/classes/controller/CWebContact.php:69
+#: oc-includes/osclass/classes/controller/CWebContact.php:81
+#: oc-includes/osclass/classes/controller/CWebLogin.php:111
+#: oc-includes/osclass/classes/controller/CWebRegister.php:72
+#: oc-includes/osclass/classes/controller/CWebItem.php:167
+#: oc-includes/osclass/classes/controller/CWebItem.php:550
+msgid "Your current email is not allowed"
+msgstr "Váš současný email není povolen"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
+#: oc-includes/osclass/classes/controller/CWebContact.php:72
+#: oc-includes/osclass/classes/controller/CWebLogin.php:114
+#: oc-includes/osclass/classes/controller/CWebRegister.php:75
+#: oc-includes/osclass/classes/controller/CWebItem.php:170
+#: oc-includes/osclass/classes/controller/CWebItem.php:553
+msgid "Your current IP is not allowed"
+msgstr "Vaše současná IP adresa není povolená"
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
+msgid "Your email has been sent properly."
+msgstr "Váš e-mail byl řádně odeslán."
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:86
+msgid "Please enter a correct email"
+msgstr "Prosím zadejte platný email"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:182
+msgid "Your email has been sent properly. Thank you for contacting us!"
+msgstr "Váš email byl v pořádku odeslán. Děkujeme, že jste nás kontaktovali!"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:51
+#: oc-includes/osclass/classes/controller/CWebRegister.php:64
+msgid "Users are not enabled"
+msgstr "Uživatelé nejsou povoleni"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:62
+msgid "Please provide an email address"
+msgstr "Zadejte prosím e-mailovou adresu"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:66
+msgid "Empty passwords are not allowed. Please provide a password"
+msgstr "Prázdná hesla nejsou povolena. Zadejte prosím heslo"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:80
+#: oc-includes/osclass/classes/controller/CWebLogin.php:157
+msgid "The user doesn't exist"
+msgstr "Uživatel neexistuje"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:104
+msgid "The password is incorrect"
+msgstr "Heslo nesouhlasí"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:161
+#, php-format
+msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
+msgstr "Uživatel nebyl ještě ověřen. Chtěli byste, aby znovu zaslat svou<a href=\"%s\"> aktivaci? </a>"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:165
+msgid "The user has not been validated yet"
+msgstr "Uživatel nemůže být potvrzen"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:168
+msgid "The user has been suspended"
+msgstr "Uživatel byl zablokován"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:197
+msgid "This should never happen"
+msgstr "Toto by nikdy nemělo stát"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:213
+msgid "Incorrect link"
+msgstr "Nesprávný odkaz"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:227
+msgid "Validation email re-sent"
+msgstr "Potvrzení e-mailu znovu zasláno"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:229
+msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
+msgstr "Právě jsme vám poslali e-mail pro ověření vašeho účtu, budete muset počkat několik minut, než jej bude možné znovu odeslat"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:243
+msgid "Invalid email address"
+msgstr "Neplatná emailová adresa"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:252
+msgid "We have sent you an email with the instructions to reset your password"
+msgstr "Zaslali jsme vám email s instrukcemi pro obnovení vašeho hesla"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:256
+msgid "We were not able to identify you given the information provided"
+msgstr "Nebylo možno identifikovat poskytnuté informace"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:260
+msgid "The recaptcha code is wrong"
+msgstr "Recaptcha kód je chybný"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:280
+#: oc-includes/osclass/classes/controller/CWebUser.php:221
+msgid "Password cannot be blank"
+msgstr "Heslo chybí"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:309
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
+msgid "The password has been changed"
+msgstr "Heslo bylo změněno"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:312
+msgid "Error, the password don't match"
+msgstr "Chyba, hesla nesouhlasí"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:45
+msgid "User registration is not enabled"
+msgstr "Registrace uživatelů není povolena"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:82
+msgid "The user has been created. An activation email has been sent"
+msgstr "Uživatel byl vytvořen. Aktivační e-mail byl odeslán"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:85
+msgid "Your account has been created successfully"
+msgstr "Váš účet byl úspěšně vytvořen"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:103
+msgid "The link is not valid anymore. Sorry for the inconvenience!"
+msgstr "Odkaz není nadále platný. Omlouváme se za způsobené komplikace!"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:108
+msgid "Your account has already been validated"
+msgstr "Váš účet byl již aktivován"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:129
+msgid "Your account has been validated"
+msgstr "Váš účet byl aktivován"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:131
+msgid "Account validation failed"
+msgstr "Ověření účtu se nezdařilo"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:107
+#: oc-includes/osclass/classes/controller/CWebAjax.php:203
+#: oc-includes/osclass/classes/controller/CWebItem.php:427
+msgid "The selected photo has been successfully deleted"
+msgstr "Vybraná fotografie byla úspěšně vymazána"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:128
+#: oc-includes/osclass/classes/controller/CWebItem.php:383
+msgid "The selected photo couldn't be deleted, the url doesn't exist"
+msgstr "Vybraná fotografie nemůže být smazána. URL adresa neexistuje"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:140
+#: oc-includes/osclass/classes/controller/CWebItem.php:389
+msgid "The listing doesn't exist"
+msgstr "Tato položka neexistuje"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:150
+#: oc-includes/osclass/classes/controller/CWebAjax.php:161
+#: oc-includes/osclass/classes/controller/CWebItem.php:395
+#: oc-includes/osclass/classes/controller/CWebItem.php:402
+msgid "The listing doesn't belong to you"
+msgstr "Tato položka není vaše"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:206
+#: oc-includes/osclass/classes/controller/CWebItem.php:429
+msgid "The selected photo does not belong to you"
+msgstr "Zvolená fotografie není vaše"
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:210
+#: oc-includes/osclass/classes/controller/CWebItem.php:432
+msgid "The selected photo couldn't be deleted"
+msgstr "Vybraná fotografie nemůže být vymazána"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:72
+#: oc-includes/osclass/classes/controller/CWebItem.php:140
+msgid "Only registered users are allowed to post listings"
+msgstr "Pouze registrovaní uživatelé mohou vkládat položky"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:160
+msgid "A user with that email address already exists, if it is you, please log in"
+msgstr "Uživatel se stejnou adresou již existuje. Pokud jste to vy, prosím přihlašte se"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:188
+msgid "Check your inbox to validate your listing"
+msgstr "Zkontrolujte příchozí zprávy a potvrďte vaši položku"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:190
+msgid "Your listing will be published after an admin approves it."
+msgstr "Váš seznam bude zveřejněn po schválení správcem."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:192
+msgid "Your listing has been published"
+msgstr "Vaše položka byla vystavena"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:228
+msgid "Sorry, we don't have any listings with that ID"
+msgstr "Litujeme, nemáme žádnou položku s tímto ID"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:288
+msgid "Your listing will be published after an admin approves the changes."
+msgstr "Váš seznam bude zveřejněn po schválení změn administrátorem."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:290
+msgid "Great! We've just updated your listing"
+msgstr "Výborně! Právě jsme aktualizovali vaši položku"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:328
+msgid "The listing has been validated"
+msgstr "Položka byla potvrzena"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:330
+msgid "The listing can't be validated"
+msgstr "Položku nelze potvrdit"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:333
+msgid "The listing has already been validated"
+msgstr "Položka již byla potvrzena"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:352
+msgid "Your listing has been deleted"
+msgstr "Vaše položka byla odstraněna"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:354
+#: oc-includes/osclass/classes/controller/CWebItem.php:362
+msgid "The listing you are trying to delete couldn't be deleted"
+msgstr "Položka, kterou se snažíte odstranit nemůže být odstraněna"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:454
+msgid "Thanks! That's very helpful"
+msgstr "Děkujeme, bylo to velmi nápomocné"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:499
+#: oc-includes/osclass/classes/controller/CWebItem.php:641
+msgid "This listing doesn't exist"
+msgstr "Tato položka neexistuje"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:506
+#: oc-includes/osclass/classes/controller/CWebItem.php:559
+msgid "We're sorry, but the listing has expired. You can't contact the seller"
+msgstr "Omlouváme se, ale tato položka vypršela. Nelze kontaktovat prodejce"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:516
+#: oc-includes/osclass/classes/controller/CWebItem.php:528
+msgid "You can't contact the seller, only registered users can"
+msgstr "Nelze kontaktovat prodejce, pouze registrovaní uživatelé mají tuto možnost"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:518
+#, php-format
+msgid "<a href=\"%s\">Click here to sign-in</a>"
+msgstr "<a href=\"%s\">Klikněte zde pro přihlášení</a>"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:573
+msgid "We've just sent an e-mail to the seller"
+msgstr "Právě jsme odeslali e-mail prodejci"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:591
+msgid "Sorry, we could not save your comment. Try again later"
+msgstr "Omlouváme se, ale nemůžeme uložit váš komentář. Zkuste to prosím později."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:595
+msgid "Your comment is awaiting moderation"
+msgstr "Váš komentář čeká na schválení"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:599
+msgid "Your comment has been approved"
+msgstr "Váš komentář byl schválen"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:603
+msgid "Please fill the required field (email)"
+msgstr "Vyplňte prosím vyžadované pole (email)"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:607
+msgid "Please type a comment"
+msgstr "Prosím napište komentář"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:611
+msgid "Your comment has been marked as spam"
+msgstr "Váš komentář byl označen jako spam"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:615
+msgid "You need to be logged to comment"
+msgstr "Pro vložení komentáře se musíte přihlásit"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:619
+msgid "Sorry, comments are disabled"
+msgstr "Omlouváme se, komentáře jsou vypnuty"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:648
+msgid "You must be logged in to delete a comment"
+msgstr "Pro smazání komentáře musíte být přihlášen"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:656
+msgid "The comment doesn't exist"
+msgstr "Komentář neexistuje"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:661
+msgid "The comment is not active, you cannot delete it"
+msgstr "Komentář není aktivní, tudíž nemůže být smazán"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:666
+msgid "The comment was not added by you, you cannot delete it"
+msgstr "Komentář nelze smazat, nejste jeho autorem"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:671
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:229
+msgid "The comment has been deleted"
+msgstr "Komentář byl smazán"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:702
+msgid "The listing hasn't been validated. Please validate it in order to make it public"
+msgstr "Položka nebyla ověřena. Prosím ověřeteji a aby byla zveřejněna"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:712
+msgid "The listing hasn't been enabled. Please enable it in order to make it public"
+msgstr "Položka nebyla aktivována. Aktivujte jí, aby byla veřejná"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:718
+msgid "The listing has been blocked or is awaiting moderation from the admin"
+msgstr "Seznam byl zablokován nebo čeká na moderování od administrátora"
+
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
+msgid "You don't have enough permissions"
+msgstr "Nemáte dostatečná oprávnění"
+
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
+msgid "Thank you very much for your donation"
+msgstr "Děkujeme za váš dar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
+msgid "This action can't be done because it's a demo site"
+msgstr "Tuto akci nelze provést, jelikož se jedná o ukázkový web"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
+msgid "The plugin folder is not writable"
+msgstr "Do složky pluginu nelze zapisovat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
+msgid "The plugin has been uploaded correctly"
+msgstr "Plugin byl nahrán"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
+msgid "The zip file is not valid"
+msgstr "Soubor zip není platný"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
+msgid "No file was uploaded"
+msgstr "Nebyl nahrán žádný soubor"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
+msgid "There was a problem adding the plugin"
+msgstr "Vyskytla se chyba během přidávání pluginu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
+#, php-format
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
+msgstr "Plugin vygeneroval %d znadků <strong>neočekávaného výstupu</strong> během instalace. Výstup: \"%s\""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
+msgid "Plugin is already installed"
+msgstr "Plugin je již nainstalován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
+msgid "Plugin couldn't be installed because their files are missing"
+msgstr "Plugin nemůže být nainstalován, protože chybí soubory"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
+#, php-format
+msgid "Plugin couldn't be installed because of: %s"
+msgstr "Plugin nemůže být nainstalován z následujících důvodů: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
+msgid "Plugin couldn't be installed"
+msgstr "Plugin nemůže být nainstalován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
+msgid "Plugin installed"
+msgstr "Plugin nainstalován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
+msgid "Plugin uninstalled"
+msgstr "Plugin odinstalován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
+msgid "Plugin couldn't be uninstalled"
+msgstr "Plugin nemůže být odinstalován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
+msgid "Plugin enabled"
+msgstr "Plugin povolen"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
+msgid "Plugin is already enabled"
+msgstr "Plugin je již aktivován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
+msgid "Plugin disabled"
+msgstr "Plugin zakázán"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
+msgid "Plugin is already disabled"
+msgstr "Plugin je již deaktivován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
+msgid "Configuration was saved"
+msgstr "Konfigurace byla uložena"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
+msgid "No plugin selected"
+msgstr "Nebyl zvolen žádný plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
+msgid "The files were deleted"
+msgstr "Soubory byly odstraněny"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
+#, php-format
+msgid "There were an error deleting the files, please check the permissions of the files in %s"
+msgstr "Došlo k chybě při odstraňování souborů, zkontrolujte oprávnění souborů v %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
+msgid "Invalid plugin file"
+msgstr "Neplatný soubor pluginu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
+msgid "You have to set an internal name"
+msgstr "Musíte nastavit interní jméno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
+msgid "You have to set a different internal name"
+msgstr "Musíte nastavit odlišné interní jméno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
+msgid "The page has been updated"
+msgstr "Stránka byla aktualizována"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
+msgid "You can't repeat internal name"
+msgstr "Nemůžete zopakovat interní jméno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
+msgid "The page couldn't be updated, at least one title should not be empty"
+msgstr "Stránka nemůže být aktualizována, alespoň jeden titulek by neměl být prázdný"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
+msgid "The page has been added"
+msgstr "Stránka byla přidána"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
+msgid "The page couldn't be added, at least one title should not be empty"
+msgstr "Stránka nemůže být přidána, alespoň jeden titulek by neměl být správný"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
+msgid "Oops! That internal name is already in use. We can't make the changes"
+msgstr "Oops! Toto interní jméno bylo použito. Nemůžeme provést změny"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
+msgid "One page can't be deleted because it is indelible"
+msgstr "Jedna stránke nemůže být smazána, protože je neodstranitelná"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
+#, php-format
+msgid "%s pages couldn't be deleted because they are indelible"
+msgstr "%s stránky nelze odstranit, protože jsou nesmazatelné"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
+msgid "One page couldn't be deleted"
+msgstr "Jedna stránka nemůže být smazána"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
+#, php-format
+msgid "%s pages couldn't be deleted"
+msgstr "%s stránky nelze odstranit"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
+msgid "One page has been deleted correctly"
+msgstr "Jedna stránka byla úspěšně smazána"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
+#, php-format
+msgid "%s pages have been deleted correctly"
+msgstr "%s stránky byly správně odstraněny"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
+msgid "You have very few free space left, users will not be able to upload pictures"
+msgstr "Zbývající místo je velice příliš malé, uživatelé již nebudou moct nahrávat obrázky"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
+msgid "Entered an invalid email"
+msgstr "Zadán neplatný email"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
+msgid "You're already subscribed"
+msgstr "Jste již přihlášen k odběru"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
+msgid "Subscribed correctly"
+msgstr "Úspěšně přihlášen k odběru"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
+msgid "Error subscribing"
+msgstr "Chyba přihlášení k odběru"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
+msgid "The translation folder is not writable"
+msgstr "Do složky překladu nelze zapisovat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:83
+msgid "The language has been installed correctly"
+msgstr "Jazyk byl nainstalován správně"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
+msgid "File uploaded but unable to activate the language"
+msgstr "Soubor byl nahrán, ale nepodařilo se aktivovat jazyk"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
+msgid "There was a problem adding the language"
+msgstr "Vyskytla se chyba během přidávání jazyka"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
+msgid "There was a problem importing email templates"
+msgstr "Při importu e-mailových šablon došlo k potížím"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
+msgid "Language imported successfully"
+msgstr "Jazyk byl úspěšně importován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
+msgid "Language id isn't in the correct format"
+msgstr "ID jazyka není ve správném formátu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
+msgid "Language id doesn't exist"
+msgstr "ID jazyka neexistuje"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:273
+msgid "Language name field is required"
+msgstr "Název jazyka – pole je povinné"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
+msgid "Language direction field is required"
+msgstr "Směr jazyka je povinný"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
+msgid "Language short name field is required"
+msgstr "Stručný název jazyka – pole je povinné"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:282
+msgid "Language description field is required"
+msgstr "Popis jazyku – pole je povinné"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:285
+msgid "Currency format field is required"
+msgstr "Formát měny – pole je povinné"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:288
+msgid "Number of decimals must only contain numeric characters"
+msgstr "Počet destiných míst musí obsahovat pouze číslice"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:312
+#, php-format
+msgid "%s has been updated"
+msgstr "%s aktualizován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:318
+msgid "Selected languages have been enabled for the website"
+msgstr "Vybrané jazyky byly povoleny pro webovou stránku"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:325
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:350
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:384
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
+msgid "The language ids aren't in the correct format"
+msgstr "Jazyk IDS není ve správném formátu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:342
+msgid "Selected languages have been disabled for the website"
+msgstr "Zvolené jazyky byly zakázány pro webovou stránku"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:357
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:416
+#, php-format
+msgid "%s can't be disabled because it's the default language"
+msgstr "%s nelze zakázat, protože se jedná o výchozí jazyk"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:377
+msgid "Selected languages have been enabled for the backoffice (oc-admin)"
+msgstr "Vybrané jazyky byly povoleny pro administraci (oc-admin)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
+msgid "Selected languages have been disabled for the backoffice (oc-admin)"
+msgstr "Vybrané jazyky byly zakázány pro administraci (oc-admin)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:443
+#, php-format
+msgid "Directory '%s' couldn't be removed"
+msgstr "Adresář '% s' nelze odstranit"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:448
+#, php-format
+msgid "Directory \"%s\" has been successfully removed"
+msgstr "Adresář \"%s\" byl úspěšně odstraněn"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:454
+#, php-format
+msgid "Directory '%s' couldn't be removed;)"
+msgstr "Adresář '%s' nemohl být odstraněn;)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
+#, php-format
+msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
+msgstr "Adresář '%s' nemohl být odstraněn, protože je to výchozí jazyk. <a href=\"%s\">Nejprve nastavte jiný jazyk</a> jako výchozí a zkuste to znovu"
+
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
+msgid "This action cannot be done because it is a demo site"
+msgstr "Tuto akci nelze provést, protože se jedná o demo web"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
+msgid "The username field is empty"
+msgstr "Pole Uživatelské jméno je nevyplněné"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
+msgid "The password field is empty"
+msgstr "Pole Heslo je nevyplněné"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
+#, php-format
+msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "Omlouváme se, ale jedná se o nesprávné uživatelské jméno. <a href=\\\"%s\\\"> Ztratili jste heslo? </ a>"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
+#, php-format
+msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "Omlouváme se, ale jedná se o nesprávné heslo. <a href=\\\"%s\\\"> Ztratili jste heslo? </ a>"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
+msgid "The reCAPTCHA code is wrong"
+msgstr "reCAPTCHA kód je chybný"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
+msgid "A new password has been sent to your e-mail"
+msgstr "Nové heslo bylo odesláno na váš email"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
+msgid "Error, the passwords don't match"
+msgstr "Chyba, hesla nesouhlasí"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
+msgid "Email invalid"
+msgstr "Neplatný email"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
+msgid "Username invalid"
+msgstr "Neplatné uživatelské jméno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
+msgid "Name invalid"
+msgstr "Neplatné jméno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
+msgid "Password invalid"
+msgstr "Neplatné heslo"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
+msgid "Email already in use"
+msgstr "Email je používán jiným uživatelem"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
+msgid "Username already in use"
+msgstr "Uživatelské jméno již existuje"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
+msgid "Incorrent current password"
+msgstr "Aktuální heslo Incorrent"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
+msgid "The admin has been added"
+msgstr "Administrátor byl přidán"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
+msgid "There has been an error adding a new admin"
+msgstr "Vyskytla se chyba při přidávání nového admina"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
+msgid "There is no admin with this id"
+msgstr "Žádný admin s tímto ID neexistuje"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
+msgid "This admin doesn't exist"
+msgstr "Administrátor neexistuje"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
+msgid "Existing email"
+msgstr "Existující email"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
+msgid "Existing username"
+msgstr "Existující uživatelské jméno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
+msgid "The password couldn't be updated. Passwords don't match"
+msgstr "Heslo nemohlo být aktualizováno. Hesla nesouhlasí"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
+msgid "The admin has been updated"
+msgstr "Administrátor aktualizován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
+msgid "The admin id isn't in the correct format"
+msgstr "ID administrátora není ve správném formátu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
+msgid "The operation hasn't been completed. You're trying to remove yourself!"
+msgstr "Operace nebyla dokončena, pokoušíte se odstranit sám sebe"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
+msgid "The admin has been deleted correctly"
+msgstr "Administrátor úspěšně vymazán"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
+msgid "The admin couldn't be deleted"
+msgstr "Administrátor nemůže být vymazán"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
+msgid "Import complete"
+msgstr "Import komepletní"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
+msgid "There was a problem importing data to the database"
+msgstr "Vyskytla se chyba během importování dat do databáze"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
+msgid "Recount category stats has been successful"
+msgstr "Počítání statistik v kategorii bylo úspěšné"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
+msgid "Path is empty"
+msgstr "Cesta je prázdná"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
+msgid "Could not connect with the database"
+msgstr "Nelze se připojit k databázi"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
+msgid "There are no tables to back up"
+msgstr "Nejsou k dispozici tabulky pro zálohování"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
+msgid "The folder is not writable"
+msgstr "Do složky nelze zapisovat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
+msgid "Backup completed successfully"
+msgstr "Záloha úspěšně dokončena"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
+#, php-format
+msgid "Could not connect with the database. Error: %s"
+msgstr "Nelze se připojit k databázi. Chyba: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
+#, php-format
+msgid "Could not select the database. Error: %s"
+msgstr "Nelze zvolit databázi. Chyba: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
+msgid "Archived successfully!"
+msgstr "Archivace úspěšná!"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
+msgid "Error, the zip file was not created in the specified directory"
+msgstr "Chyba, zip soubor nebyl vytvořen v určeném adresáři"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
+msgid "Maintenance mode is ON"
+msgstr "Mód údržby je ZAPNUT"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
+msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
+msgstr "Vyskytla se chyba při vytváření souboru .maintenance, prosím vytvořte jej ručně v kořenové složce"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
+msgid "Maintenance mode is OFF"
+msgstr "Mód údržby je VYPNUT"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
+msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
+msgstr "Vyskytla se chyba při odstraňování souboru .maintenance, prosím odstraťe jej ručně v kořenové složce"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
+msgid "The email/alert has been updated"
+msgstr "Email/upozornění bylo aktualizováno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
+msgid "The email couldn't be updated, at least one title should not be empty"
+msgstr "Email nemohl být aktualizován, alespoň jeden titulek by neměl být prázdný"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
+msgid "The theme folder is not writable"
+msgstr "Do složky vzhledů nelze zapisovat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
+msgid "The theme has been installed correctly"
+msgstr "Vzhled byl nainstalován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
+msgid "There was a problem adding the theme"
+msgstr "Objevila se chyba během přidávání vzhledu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
+msgid "Theme removed successfully"
+msgstr "Šablona úspěšně odstraněna"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
+msgid "There was a problem removing the theme"
+msgstr "Vyskytla se chyba při odstraňování šablony"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
+msgid "Current theme can not be deleted"
+msgstr "Aktuální šablona nemůže být odstraněna"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
+msgid "No theme selected"
+msgstr "Není zvolena šablona"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
+msgid "Widget removed correctly"
+msgstr "Widget odstraněn"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
+msgid "Description field is required"
+msgstr "Chybí popis"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
+msgid "Widget updated correctly"
+msgstr "Widget úspěšně aktualizován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
+msgid "Widget cannot be updated correctly"
+msgstr "Widget nemůže být aktualizován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
+msgid "Widget added correctly"
+msgstr "Widget přidán"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
+msgid "Theme activated correctly"
+msgstr "Vzhled aktivován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
+msgid "The user has been created. We've sent an activation e-mail"
+msgstr "Uživatel byl vytvořen. Aktivační e-mail odeslán"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
+msgid "The user has been created successfully"
+msgstr "Uživatel byl úspěšně vytvořen"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
+msgid "The user has been updated"
+msgstr "Uživatel byl aktualizován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
+msgid "The user has been updated and activated"
+msgstr "Uživatel byl aktualizován a aktivován"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:229
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:255
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:281
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:306
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:625
+msgid "User id isn't in the correct format"
+msgstr "ID uživatele není ve správném formátu"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:186
+msgid "No users have been selected"
+msgstr "Nebyly vybrání žádní uživatelé"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:189
+#, php-format
+msgid "Activation email sent to one user"
+msgid_plural "Activation email sent to %s users"
+msgstr[0] "Aktivační e-mail byl odeslán jednomu uživateli"
+msgstr[1] "Aktivační e-mail byl odeslán %s uživatelům"
+msgstr[2] "Aktivační e-mail byl odeslán %s uživatelům"
+msgstr[3] "Aktivační e-mail byl odeslán %s uživatelům"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
+msgid "No users have been activated"
+msgstr "Nebyly aktivování žádní uživatelé"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:215
+#, php-format
+msgid "One user has been activated"
+msgid_plural "%s users have been activated"
+msgstr[0] "Jeden uživatel byl aktivován"
+msgstr[1] "%s uživatelů bylo aktivováno"
+msgstr[2] "%s uživatelů bylo aktivováno"
+msgstr[3] "%s uživatelů bylo aktivováno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
+msgid "No users have been deactivated"
+msgstr "Nebyly deaktivování žádní uživatelé"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:242
+#, php-format
+msgid "One user has been deactivated"
+msgid_plural "%s users have been deactivated"
+msgstr[0] "Jeden uživatel byl deaktivován"
+msgstr[1] "%s uživatelů bylo deaktivováno"
+msgstr[2] "%s uživatelů bylo deaktivováno"
+msgstr[3] "%s uživatelů bylo deaktivováno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
+msgid "No users have been enabled"
+msgstr "Nebyly povoleni žádní uživatelé"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:268
+#, php-format
+msgid "One user has been unblocked"
+msgid_plural "%s users have been unblocked"
+msgstr[0] "Jeden uživatel byl odblokován"
+msgstr[1] "%s uživatelů bylo odblokováno"
+msgstr[2] "%s uživatelů bylo odblokováno"
+msgstr[3] "%s uživatelů bylo odblokováno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
+msgid "No users have been disabled"
+msgstr "Nebyli zablokování žádní uživatelé"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:294
+#, php-format
+msgid "One user has been blocked"
+msgid_plural "%s users have been blocked"
+msgstr[0] "Jeden uživatel byl zablokován"
+msgstr[1] "%s uživatelů bylo zablokováno"
+msgstr[2] "%s uživatelů bylo zablokováno"
+msgstr[3] "%s uživatelů bylo zablokováno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
+msgid "No users have been deleted"
+msgstr "Nebyli smazání žádní uživatelé"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:323
+#, php-format
+msgid "One user has been deleted"
+msgid_plural "%s users have been deleted"
+msgstr[0] "Jeden uživatel byl odstraněn"
+msgstr[1] "%s uživatelů bylo odstraněno"
+msgstr[2] "%s uživatelů bylo odstraněno"
+msgstr[3] "%s uživatelů bylo odstraněno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
+msgid "Alert id isn't in the correct format"
+msgstr "ID upozornění nemá správný formát"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
+msgid "No alerts have been deleted"
+msgstr "Nebyla smazána žádná upozornění"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:352
+#, php-format
+msgid "One alert has been deleted"
+msgid_plural "%s alerts have been deleted"
+msgstr[0] "Jedna výstraha byla smazána"
+msgstr[1] "%s upozornění bylo smazáno"
+msgstr[2] "%s upozornění bylo smazáno"
+msgstr[3] "%s upozornění bylo smazáno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
+msgid "No alerts have been activated"
+msgstr "Nebyla aktivováná zádna upozornění"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:393
+#, php-format
+msgid "One alert has been activated"
+msgid_plural "%s alerts have been activated"
+msgstr[0] "Jedna výstraha byla aktivována"
+msgstr[1] "%s upozornění bylo aktivováno"
+msgstr[2] "%s upozornění bylo aktivováno"
+msgstr[3] "%s upozornění bylo aktivováno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
+msgid "No alerts have been deactivated"
+msgstr "Žádná upozornění nebyla deaktivována"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
+#, php-format
+msgid "One alert has been deactivated"
+msgid_plural "%s alerts have been deactivated"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
+msgid "User settings have been updated"
+msgstr "Uživatelské nastavení bylo aktualizováno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
+msgid "Both rules can not be empty"
+msgstr "Obě pravidla nemohou zůstat prázdná"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
+msgid "Rule updated correctly"
+msgstr "Pravidla byla správně aktualizována"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
+msgid "Rule saved correctly"
+msgstr "Pravidla byla v pořádku uložena"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
+msgid "No rules have been deleted"
+msgstr "Žádna pravidla nebyla smazána"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:640
+#, php-format
+msgid "One ban rule has been deleted"
+msgid_plural "%s ban rules have been deleted"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
+msgid "Resource deleted"
+msgstr "Zdroj smazán"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
+msgid "The comments have been deleted"
+msgstr "Komentáře byly vymazány"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
+msgid "The comments have been approved"
+msgstr "Komentáře byly schváleny"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
+msgid "The comments have been disapproved"
+msgstr "Komentář nebyl schválen"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
+msgid "The comments have been unblocked"
+msgstr "Komentáře byly odblokovány"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
+msgid "The comments have been blocked"
+msgstr "Komentáře byly zablokovány"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
+msgid "The comment has been approved"
+msgstr "Komentář byl schválen"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
+msgid "The comment has been disapproved"
+msgstr "Komentáře nebyly schváleny"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
+msgid "The comment has been enabled"
+msgstr "Komentář byl povolen"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
+msgid "The comment has been disabled"
+msgstr "Komentář byl zakázán"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
+msgid "Email is not correct"
+msgstr "Email je chybný"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
+msgid "Comment is required"
+msgstr "Chybí komentář"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
+msgid "Great! We just updated your comment"
+msgstr "Výborně! Právě jste aktualizoval/a Váš komentář"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:80
+#, php-format
+msgid "%d listing has been enabled"
+msgid_plural "%d listings have been enabled"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:96
+#, php-format
+msgid "%d listing has been disabled"
+msgid_plural "%d listings have been disabled"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:112
+#, php-format
+msgid "%d listing has been activated"
+msgid_plural "%d listings have been activated"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:128
+#, php-format
+msgid "%d listing has been deactivated"
+msgid_plural "%d listings have been deactivated"
+msgstr[0] "%d položka byla deaktivována"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:144
+#, php-format
+msgid "%d listing has been marked as premium"
+msgid_plural "%d listings have been marked as premium"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:160
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:193
+#, php-format
+msgid "%d change has been made"
+msgid_plural "%d changes have been made"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:176
+#, php-format
+msgid "%d listing has been marked as spam"
+msgid_plural "%d listings have been marked as spam"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:215
+#, php-format
+msgid "%d listing has been deleted"
+msgid_plural "%d listings have been deleted"
+msgstr[0] "%d výpis byl odstraněn"
+msgstr[1] "%d výpisy byly odstraněny"
+msgstr[2] "%d výpisy byly odstraněny"
+msgstr[3] "%d výpisy byly odstraněny"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:236
+#, php-format
+msgid "%d listing has been unmarked as spam"
+msgid_plural "%d listings have been unmarked as spam"
+msgstr[0] "%d výpis byl odoznačený jako spam"
+msgstr[1] "%d výpisů bylo odoznačeno jako spam"
+msgstr[2] "%d výpisů bylo odoznačeno jako spam"
+msgstr[3] "%d výpisů bylo odoznačeno jako spam"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:258
+#, php-format
+msgid "%d listing has been unmarked as missclassified"
+msgid_plural "%d listings have been unmarked as missclassified"
+msgstr[0] "%d výpis byl odoznačený jako přeřazený"
+msgstr[1] "%d výpisů bylo odoznačeno jako přeřazené"
+msgstr[2] "%d výpisů bylo odoznačeno jako přeřazené"
+msgstr[3] "%d výpisů bylo odoznačeno jako přeřazené"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:281
+#, php-format
+msgid "%d listing has been unmarked as duplicated"
+msgid_plural "%d listings have been unmarked as duplicated"
+msgstr[0] "%d výpis byl odoznačen jako duplikovaný"
+msgstr[1] "%d výpisů bylo odoznačeno jako duplicitní"
+msgstr[2] "%d výpisů bylo odoznačeno jako duplicitní"
+msgstr[3] "%d výpisů bylo odoznačeno jako duplicitní"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:302
+#, php-format
+msgid "%d listing has been unmarked as expired"
+msgid_plural "%d listings have been unmarked as expired"
+msgstr[0] "%d seznam byl odoznačen jako prošlý"
+msgstr[1] "%d výpisů bylo odoznačeno jako prošlé"
+msgstr[2] "%d výpisů bylo odoznačeno jako prošlé"
+msgstr[3] "%d výpisů bylo odoznačeno jako prošlé"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:323
+#, php-format
+msgid "%d listing has been unmarked as offensive"
+msgid_plural "%d listings have been unmarked as offensive"
+msgstr[0] "%d výpis nebyl označen jako urážlivý"
+msgstr[1] "%d výpisů bylo odoznačeno jako urážlivé"
+msgstr[2] "%d výpisů bylo odoznačeno jako urážlivé"
+msgstr[3] "%d výpisů bylo odoznačeno jako urážlivé"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:344
+#, php-format
+msgid "%d listing has been unmarked"
+msgid_plural "%d listings have been unmarked"
+msgstr[0] "%d výpis byl odoznačený"
+msgstr[1] "%d výpisů bylo odoznačeno"
+msgstr[2] "%d výpisů bylo odoznačeno"
+msgstr[3] "%d výpisů bylo odoznačeno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:372
+msgid "The listing has been deleted"
+msgstr "Položka byla odstraněna"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:374
+msgid "The listing couldn't be deleted"
+msgstr "Položku nelze odstranit"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:405
+msgid "The listing has been activated"
+msgstr "Položka byla aktivována"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:407
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:421
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:430
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:439
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:471
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:500
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:668
+msgid "An error has occurred"
+msgstr "Vyskytla se chyba"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:410
+msgid "The listing can't be activated because it's blocked"
+msgstr "Položka nemůže být aktivována, protože je blokována"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:419
+msgid "The listing has been deactivated"
+msgstr "Položka byla deaktivována"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:428
+msgid "The listing has been enabled"
+msgstr "Položka byla povolena"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:437
+msgid "The listing has been disabled"
+msgstr "Položka byla zakázána"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:469
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:498
+msgid "Changes have been applied"
+msgstr "Změny byly použity"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:527
+msgid "The listing has been unmarked as"
+msgstr "Položka byla odznačena jako"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:529
+msgid "The listing hasn't been unmarked as"
+msgstr "Položka nebyla odznačena jako"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:632
+msgid "Changes saved correctly"
+msgstr "Změny uloženy"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:719
+msgid "A new listing has been added"
+msgstr "Byla přidána nová položka"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:772
+msgid "Wait time must only contain numeric characters"
+msgstr "Čas čekání se musí skládat pouze z číslic"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:777
+msgid "Number of moderated listings must only contain numeric characters"
+msgstr "Počet moderovaných položek musí obsahovat pouze číslice"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:780
+msgid "Images per listing must only contain numeric characters"
+msgstr "Počet obrázku na položku se musí skládat pouze z číslic"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:783
+msgid "Number of expiration days has to be a numeric value"
+msgstr "Počet dnů expirace musí být číselná hodnota"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:786
+msgid "Title Length has to be a numeric value"
+msgstr "Název Délka musí být číselná hodnota"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:789
+msgid "Description Length has to be a numeric value"
+msgstr "Popis Délka musí být číselná hodnota"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:823
+msgid "Listings' settings have been updated"
+msgstr "Nastavení položek bylo aktualizováno"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
+msgid "Mail server type is incorrect"
+msgstr "Typ mailového serveru je neplatný"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
+msgid "Mail server configuration has changed"
+msgstr "Nastavení mailového serveru bylo změněno"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
+#, php-format
+msgid "%s already was in the database"
+msgstr "%s již byl v databázi"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#, php-format
+msgid "%s has been added as a new country"
+msgstr "bylo přidáno jako nová země"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
+msgid "Country name cannot be blank"
+msgstr "Název země nemůže být prázdný"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
+msgid "Country has been edited"
+msgstr "Země byla upravena"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
+msgid "There were some problems editing the country"
+msgstr "Vyskytly se problémy při editaci země"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
+msgid "There was a problem deleting locations"
+msgstr "Vyskytl se problém při mazání umístění"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
+msgid "No country was selected"
+msgstr "Nebyla vybrána žádna země"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
+msgid "Region name cannot be blank"
+msgstr "Název region nemůže být prázdný"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#, php-format
+msgid "%s has been added as a new region"
+msgstr "bylo přidáno jako nový region"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#, php-format
+msgid "%s has been edited"
+msgstr "bylo editováno"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
+msgid "No region was selected"
+msgstr "Nebyl vybrán žádný region"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
+msgid "New city name cannot be blank"
+msgstr "Název nového města nemůže být prázdný"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#, php-format
+msgid "%s has been added as a new city"
+msgstr "bylo přidáno jako nové město"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
+msgid "City name cannot be blank"
+msgstr "Název města nemůže být prázdný"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
+msgid "No city was selected"
+msgstr "Nebylo vybráno žádné město"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
+msgid "Location imported successfully"
+msgstr "Poloha byla úspěšně importována"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
+msgid "There was a problem importing the selected location"
+msgstr "Při importu vybraného místa došlo k chybě"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
+msgid "All fields are required."
+msgstr "Všechna pole jsou vyžadována"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:644
+#, php-format
+msgid "One field was not updated"
+msgid_plural "%s fields were not updated"
+msgstr[0] "Jedno pole nebylo aktualizováno"
+msgstr[1] "%s polí nebylo aktualizováno"
+msgstr[2] "%s polí nebylo aktualizováno"
+msgstr[3] "%s polí nebylo aktualizováno"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
+msgid "Permalinks structure updated"
+msgstr "Struktura trvalých odkazů byla aktualizována"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
+msgid "Permalinks structure updated."
+msgstr "Struktura trvalých odkazů aktualizována"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
+msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
+msgstr "Můžeme zkontrolovat, jestli je Apache <b>mod_rewrite</b> načten. Pokud máte problémy s URL adresami, měli byste deaktivovat <em>Přátelské URL</em>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
+msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
+msgstr "Soubor <b>.htaccess</b> nemohl být vyplněn správným obsahem"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Zde je obsah který musíte přidat do <b>.htaccess</b> souboru. Pokud tento soubor nemůžete vytvořit, deaktivujte volbu <em>Přátelské URL adresy</em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Zde je obsah který musíte přidat do <b>.htaccess</b> souboru. Pokud tento soubor nemůžete vytvořit, nebo narazíte na nějaký problém, deaktivujte volbu <em>Přátelské URL adresy</em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
+msgid "File <b>.htaccess</b> already exists and was not modified."
+msgstr "Soubor <b>.htaccess</b> již existuje a byl upraven."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Zde je obsah, který musíte přidat do <b>.htaccess</b> souboru. Pokud nemůžete upravit tento soubor, nebo se vyskytnou nějaké problémy s URL adresami, prosím deaktivujte volbu <em>Přátelské URL</em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
+msgid "Friendly URLs successfully deactivated"
+msgstr "Přátelské URL úspěšně deaktivovány"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
+msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
+msgstr "Přátelská URL deaktivována, ala .htaccess soubor nemohl být smazán. Prosím odstraňteho ručně. "
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
+msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
+msgstr "Přátelská URL deaktivována, ale .htaccess soubor byl modifikován mimo Osclass a nebyl smazán"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
+msgid "Custom number could not be left empty"
+msgstr "Volitelné číslo nemůže být prázdné"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
+msgid "Last search settings have been updated"
+msgstr "Poslední parametry hledání byly aktualizovány"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
+msgid "Last check"
+msgstr "Poslední kontrola"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
+msgid "Page title field is required"
+msgstr "Název stránky – položka je povinná"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
+msgid "Contact email field is required"
+msgstr "Kontaktní e-mail – položka je povinné"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
+msgid "Number of listings in the RSS has to be a numeric value"
+msgstr "Počet položek v RSS musí být numerické hodnoty"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
+msgid "Max latest listings has to be a numeric value"
+msgstr "Max nejnovějších položek musí být numerické hodnoty"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
+msgid "Number of listings on search has to be a numeric value"
+msgstr "Počet položek výsledku vyhledávání musí být číselné hodnoty"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
+msgid "Number of listings in the RSS must be an integer"
+msgstr "Počet položek v RSS musí být celočíselného typu"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
+msgid "Number of recent listings displayed at home must be an integer"
+msgstr "Počet nedávno zobrazených položek na domovské stránce musí být celočísleného typu"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
+msgid "General settings have been updated"
+msgstr "Hlavní nastavení bylo aktualizováno"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
+msgid "Your Akismet key has been cleared"
+msgstr "Váš Akismet klíč byl vymazán"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
+msgid "Your Akismet key has been updated"
+msgstr "Váš Akismet klíč byl aktualizován"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
+msgid "Your reCAPTCHA key has been cleared"
+msgstr "Váš klíč k reCAPTCHA byl vymazán"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
+msgid "Your reCAPTCHA key has been updated"
+msgstr "Váš klíč k reCAPTCHA byl aktualizován"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
+msgid "Advanced settings have been updated"
+msgstr "Pokročilá nastavení byla upravena."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
+msgid "Cache flushed correctly"
+msgstr "Mezipaměť správně vyprázdněna"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
+msgid "Number of moderate comments must only contain numeric characters"
+msgstr "Počet moderovaných komentářů se musí skládat pouze z číslic"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
+msgid "Comments per page must only contain numeric characters"
+msgstr "Počet komentářů na stránku se musí skládat pouz z číslic"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
+msgid "Comment settings have been updated"
+msgstr "Nastavení komentářů bylo zaktualizováno"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
+msgid "The currency code is not in the correct format"
+msgstr "Kód měny není ve správném formátu"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
+msgid "Currency added"
+msgstr "Měna byla přidána"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
+msgid "Currency couldn't be added"
+msgstr "Měnu nelze přidat"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
+#, php-format
+msgid "The currency code '%s' doesn't exist"
+msgstr "Kód měny '%s' neexistuje"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
+msgid "Error: the currency code is not in the correct format"
+msgstr "Chyba. Kód měny není ve správném formátu"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
+msgid "Currency updated"
+msgstr "Měna byla aktualizována"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
+msgid "No changes were made"
+msgstr "Nebyly provedeny žádné změny"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
+#, php-format
+msgid "%s couldn't be deleted because it has listings associated to it"
+msgstr "%s nemohl být smazán protože je asociován s položkou"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
+#, php-format
+msgid "%s couldn't be deleted because it's the default currency"
+msgstr "%s nemohla být smazána protože se jedná o výchozí měnu"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
+msgid "No currencies have been deleted"
+msgstr "Nebyly vymazány žádné měny"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
+msgid "One currency has been deleted"
+msgstr "Měna byla vymazána"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
+#, php-format
+msgid "%s currencies have been deleted"
+msgstr "měn bylo vymazáno"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
+msgid "There was a problem uploading the watermark image"
+msgstr "Vyskytla se chyba při nahrávání obrázku vodoznaku"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
+msgid "The watermark image has to be a .PNG file"
+msgstr "Obrázek vodoznaku musí být ve formátu .PNG"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
+#, php-format
+msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
+msgstr "Nelze nastavit maximální velikost větší, než je povolená velikost v PHP konfiguraci: <b>%d KB</b>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
+msgid "Media config has been updated"
+msgstr "Konfigurace medií aktualizována"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
+msgid "Re-generation complete"
+msgstr "Obnova kompletní"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:103
+msgid "Your profile has been updated successfully"
+msgstr "Váš profil byl úspěšně aktualizován"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:170
+msgid "The specified e-mail is not valid"
+msgstr "Zadaný email není platný"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:188
+msgid "The specified username is already in use"
+msgstr "Zadané uživatelksé jméno je již používáno"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:196
+msgid "The username was updated"
+msgstr "Uživatelské jméno bylo aktualizováno"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:205
+msgid "The specified username could not be empty"
+msgstr "Zadané uživatelské jméno nemůže být prázdné"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:230
+msgid "Current password doesn't match"
+msgstr "Soušasné heslo nesouhlasí"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:235
+msgid "Passwords can't be empty"
+msgstr "Heslo nesmí být prázdné"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:257
+msgid "Password has been changed"
+msgstr "Heslo bylo změněno"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:349
+msgid "Your account have been deleted"
+msgstr "Váš účet byl smazán"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:352
+#: oc-includes/osclass/classes/controller/CWebUser.php:356
+msgid "Oops! you can not do that"
+msgstr "Jejda! Toto nemůžete udělat"
 
 #: oc-includes/osclass/emails.php:861
 msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
