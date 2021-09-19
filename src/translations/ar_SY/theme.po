@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-06-29 19:28+0530\n"
-"PO-Revision-Date: 2021-08-24 22:41\n"
+"POT-Creation-Date: 2021-09-19 06:17+0000\n"
+"PO-Revision-Date: 2021-09-19 08:01\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -17,298 +17,898 @@ msgstr ""
 "X-Crowdin-File: /master/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8210\n"
 
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:444
-#: tmp/osclass/oc-content/themes/bender/functions.php:491
-msgid "Alerts"
-msgstr "التنبيهات"
-
-#: tmp/osclass/oc-content/themes/bender/user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد أنك تريد المتابعة؟"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "لقد سجلت بنجاح بهذا التنبيه"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:28
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:77
-msgid "Invalid email address"
-msgstr "عنوان بريد إلكتروني غير صالح"
-
-#: tmp/osclass/oc-content/themes/bender/alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "هناك مشكلة بالتنبيه"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:33
-msgid "Change e-mail"
-msgstr "تغيير البريد الإلكتروني"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "البريد الإلكتروني: هذا الحقل مطلوب"
-
-#: tmp/osclass/oc-content/themes/bender/admin/settings.php:42
-msgid "Donate"
-msgstr "تبرع"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:42
-msgid "Remove logo"
-msgstr "إزالة الشعار"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:69
-msgid "Upload"
-msgstr "تحميل"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "مجلد الصور <strong>%s</strong> غير قابل للكتابة على الخادم الخاص بك"
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "لا يمكن لـ Osclass رفع صورة الشعار من لوحة الادارة."
-
-#: tmp/osclass/oc-content/themes/bender/admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "الرجاء جعل مجلد الصور المذكور آنفا قابل للكتابة."
-
-#: tmp/osclass/oc-content/themes/bender/loop-single-premium.php:48
-#: tmp/osclass/oc-content/themes/bender/loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد أنك تريد المتابعة؟"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">تأريخ النشر</strong>: %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">تأريخ التعديل:</strong> %1$s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:55
-msgid "Selected"
-msgstr "مختار"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:56
-msgid "Nothing selected, input was"
-msgstr "لا شيء اختيارها، كان الإدخال"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "لا توجد نتائج مطابقة الى %s"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%1$d - %2$d من %3$d اعلانات"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:121
-msgid "Premium listings"
-msgstr "اعلانات مميزة"
-
-#: tmp/osclass/oc-content/themes/bender/search.php:129
-#: tmp/osclass/oc-content/themes/bender/functions.php:443
-#: tmp/osclass/oc-content/themes/bender/functions.php:486
-msgid "Listings"
-msgstr "اعلانات"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_password.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:448
-#: tmp/osclass/oc-content/themes/bender/functions.php:451
-#: tmp/osclass/oc-content/themes/bender/functions.php:511
-msgid "Change password"
-msgstr "تغيير كلمة المرور"
-
-#: tmp/osclass/oc-content/themes/bender/footer.php:35
-#: tmp/osclass/oc-content/themes/bender/header.php:48
-#, php-format
-msgid "Hi %s"
-msgstr "السلام عليكم يا %s"
-
-#: tmp/osclass/oc-content/themes/bender/footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "يفخر هذا الموقع باستخدام <a title=\"Osclass web\" href=\"%s\">البرامج النصية المصنفة</a> البرمجية <strong>Osclass</strong>"
-
-#: tmp/osclass/oc-content/themes/bender/item-post.php:61
-#: tmp/osclass/oc-content/themes/bender/header.php:74
-msgid "Select a category"
-msgstr "تحديد تصنيف"
-
-#: tmp/osclass/oc-content/themes/bender/user-profile.php:32
-#: tmp/osclass/oc-content/themes/bender/functions.php:445
-msgid "Update account"
-msgstr "تحديث الحساب"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:25
-msgid "Delete"
-msgstr "حذف"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:26
-msgid "Cancel"
-msgstr "إلغاء"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:72
-msgid "Previous image"
-msgstr "الصورة السابقة"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:73
-msgid "Next image"
-msgstr "الصورة التالية"
-
-#: tmp/osclass/oc-content/themes/bender/common/head.php:74
-msgid "Close"
-msgstr "أغلق"
-
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:34
-#: tmp/osclass/oc-content/themes/bender/functions.php:447
-#: tmp/osclass/oc-content/themes/bender/functions.php:506
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
 msgid "Change username"
 msgstr "تغيير اسم المستخدم"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:50
+#: user-change_username.php:50
 msgid "Username: this field is required"
 msgstr "اسم المستخدم: هذا الحقل مطلوب"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:75
+#: user-change_username.php:75
 msgid "The username is available"
 msgstr "اسم المستخدم متاح"
 
-#: tmp/osclass/oc-content/themes/bender/user-change_username.php:77
+#: user-change_username.php:77
 msgid "The username is NOT available"
 msgstr "اسم المستخدم غير متاح"
 
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:70
+#: user-change_username.php:94
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "تحديث"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "تغيير البريد الإلكتروني"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "البريد الإلكتروني الحالي"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "بريد إلكتروني جديد"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "البريد الإلكتروني: هذا الحقل مطلوب"
+
+#: user-change_email.php:77 alert-form.php:28
+msgid "Invalid email address"
+msgstr "عنوان بريد إلكتروني غير صالح"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "عرض القائمة"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "حذف حساب"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "هل أنت متأكد من أنك تريد حذف حسابك؟"
+
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "ضع علامة ك..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "اشرها كـبريد مزعج"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "وضع علامة غير مصنف"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "وضع علامة مكررة"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "وضع علامة منتهية الصلاحية"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "وضع علامة هجومية"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "اتصل بالناشر"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "انتهت صلاحية القائمة. لا يمكنك الاتصال بالناشر."
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "إنها قائمة خاصة بك، لا يمكنك الاتصال بالناشر."
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "يجب عليك تسجيل الدخول أو تسجيل حساب جديد من أجل الاتصال بالمعلن"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "دخول"
+
+#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "التسجيل في حساب مجاني"
+
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
+msgid "Name"
+msgstr "الاسم"
+
+#: item-sidebar.php:70
 #, php-format
 msgid "Name: %s"
 msgstr "الاسم: %s"
 
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:73
+#: item-sidebar.php:73
 #, php-format
 msgid "E-mail: %s"
 msgstr "البريد الإلكتروني: %s"
 
-#: tmp/osclass/oc-content/themes/bender/item-sidebar.php:76
+#: item-sidebar.php:76
 #, php-format
 msgid "Phone: %s"
 msgstr "الهاتف: %s"
 
-#: tmp/osclass/oc-content/themes/bender/user-sidebar.php:28
-#: tmp/osclass/oc-content/themes/bender/functions.php:516
-msgid "Delete account"
-msgstr "حذف حساب"
+#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
+#: item-send-friend.php:44
+msgid "Your name"
+msgstr "اسمك"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "مثلا مبرمج php"
+#: item-sidebar.php:89
+msgid "Your e-mail address"
+msgstr "عنوان بريدك الإلكتروني"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:434
-msgid "Publish a listing"
-msgstr "نشر اعلان"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "رقم الهاتف"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:435
-msgid "Edit your listing"
-msgstr "تعديل اعلانك"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "اختياري"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:436
-msgid "Send to a friend"
-msgstr "أرسل إلى صديق"
+#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
+#: item-send-friend.php:78
+msgid "Message"
+msgstr "رسالة"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:437
-msgid "Contact publisher"
-msgstr "اتصل بالناشر"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "المرفق"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:438
-msgid "Search results"
-msgstr "نتائج البحث"
+#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
+#: item-send-friend.php:87
+msgid "Send"
+msgstr "إرسال"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "نتائج البحث: %s"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "لقد سجلت بنجاح بهذا التنبيه"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:440
-msgid "Dashboard"
-msgstr "لوحة التحكم"
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "هناك مشكلة بالتنبيه"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "ملف %s الشخصي"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "مشترك بالفعل في هذا البحث"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:442
-#: tmp/osclass/oc-content/themes/bender/functions.php:496
-msgid "Account"
-msgstr "الحساب"
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "اشترك في هذا البحث"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:446
-#: tmp/osclass/oc-content/themes/bender/functions.php:501
-msgid "Change email"
-msgstr "تغيير البريد الإلكتروني"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "اشترك الآن"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:449
-msgid "Login"
-msgstr "دخول"
+#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
+#: item.php:165
+msgid "Delete"
+msgstr "حذف"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:450
-msgid "Recover password"
-msgstr "استعادة كلمة السر"
+#: common/head.php:26
+msgid "Cancel"
+msgstr "إلغاء"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:452
-msgid "Create a new account"
-msgstr "إنشاء حساب جديد"
+#: common/head.php:72
+msgid "Previous image"
+msgstr "الصورة السابقة"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:453
-msgid "Contact"
-msgstr "اتصل"
+#: common/head.php:73
+msgid "Next image"
+msgstr "الصورة التالية"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:481
-msgid "Public Profile"
-msgstr "ملف عام"
+#: common/head.php:74
+msgid "Close"
+msgstr "أغلق"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "تم تحديث اعدادات القالب بشكل صحيح"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "بحثك"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "تم تحميل صورة الشعار بشكل صحيح"
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "المدينة"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "لقد حدث خطأ، يرجى المحاولة مرة أخرى"
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "إظهار فقط"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:636
-msgid "The logo image has been removed"
-msgstr "تمت إزالة صورة الشعار"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "قوائم مع صور"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:638
-msgid "Image not found"
-msgstr "الصورة غير موجودة"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "السعر"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:666
-msgid "Header logo"
-msgstr "شعار الترويسة"
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "الحد الأدنى"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:668
-msgid "Theme settings"
-msgstr "اعدادات القالب"
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "الحد الأقصى"
 
-#: tmp/osclass/oc-content/themes/bender/functions.php:728
-msgid "All categories"
-msgstr "جميع التصنيفات"
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "تطبيق"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:67
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "صقل الفئة"
+
+#: loop-single-premium.php:46 loop-single.php:46 item.php:73
+msgid "Edit item"
+msgstr "تعديل العنصر"
+
+#: loop-single-premium.php:48 loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد أنك تريد المتابعة؟"
+
+#: loop-single-premium.php:51 loop-single.php:51
+msgid "Activate"
+msgstr "تفعيل "
+
+#: user-public-profile.php:67
 #, php-format
 msgid "<strong>Address:</strong> %1$s"
 msgstr "<strong>العنوان:</strong> %1$s"
 
-#: tmp/osclass/oc-content/themes/bender/user-public-profile.php:70
+#: user-public-profile.php:70
 #, php-format
 msgid "<strong>Location:</strong> %1$s"
 msgstr "<strong>الموقع:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "وصف المستخدم"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "أحدث القوائم"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "أحدث القوائم"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "لا توجد قوائم متوفرة في هذه اللحظة"
+
+#: main.php:45 search.php:80 admin/settings.php:60
+msgid "List"
+msgstr "قائمة"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "الشبكة"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "مشاهدة جميع القوائم"
+
+#: main.php:74 item.php:66
+msgid "Location"
+msgstr "الموقع "
+
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "تحديث الحساب"
+
+#: user-profile.php:52
+msgid "User type"
+msgstr "نوع المستخدم"
+
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "الهاتف الخلوي"
+
+#: user-profile.php:65
+msgid "Phone"
+msgstr "الهاتف"
+
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "البلد"
+
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "المنطقة"
+
+#: user-profile.php:89
+msgid "City area"
+msgstr "منطقة المدينة"
+
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "العنوان"
+
+#: user-profile.php:101
+msgid "Website"
+msgstr "الموقع"
+
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "الوصف"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "مثلا مبرمج php"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "نشر اعلان"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "تعديل اعلانك"
+
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "أرسل إلى صديق"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "نتائج البحث"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "نتائج البحث: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "ملف %s الشخصي"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "الحساب"
+
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "اعلانات"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "التنبيهات"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "تغيير البريد الإلكتروني"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "تغيير كلمة المرور"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "استعادة كلمة السر"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "إنشاء حساب جديد"
+
+#: functions.php:453 user-public-sidebar.php:26 footer.php:65
+msgid "Contact"
+msgstr "اتصل"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "ملف عام"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "تم تحديث اعدادات القالب بشكل صحيح"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "تم تحميل صورة الشعار بشكل صحيح"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "لقد حدث خطأ، يرجى المحاولة مرة أخرى"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "تمت إزالة صورة الشعار"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "الصورة غير موجودة"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "شعار الترويسة"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "اعدادات القالب"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "جميع التصنيفات"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "ليس لديك أي تنبيهات بعد"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "تنبيه"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد أنك تريد المتابعة؟"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "حذف هذا التنبيه"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">تأريخ النشر</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">تأريخ التعديل:</strong> %1$s"
+
+#: item.php:85 item.php:92
+msgid "Image"
+msgstr "صورة"
+
+#: item.php:121
+msgid "Contact seller"
+msgstr "اتصل البائع"
+
+#: item.php:125
+msgid "Share"
+msgstr "مشاركة"
+
+#: item.php:131
+msgid "Useful information"
+msgstr "معلومات مفيدة"
+
+#: item.php:133
+msgid "Avoid scams by acting locally or paying with PayPal"
+msgstr "تجنب الاحتيالات بالتصرف محليا أو الدفع مع PayPal"
+
+#: item.php:134
+msgid "Never pay with Western Union, Moneygram or other anonymous payment services"
+msgstr "لا تدفع أبدا مع ويسترن يونيون أو مونيغرام أو غيرها من خدمات الدفع المجهولة الهوية"
+
+#: item.php:135
+msgid "Don't buy or sell outside of your country. Don't accept cashier cheques from outside your country"
+msgstr "لا تشتري أو تبيع خارج بلدك. لا تقبل شيك الصندوق من خارج بلدك"
+
+#: item.php:136
+msgid "This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\""
+msgstr "هذا الموقع لا يشارك أبدا في أي صفقة، ولا يتعامل مع المدفوعات، والشحن، معاملات الضمان، أو تقديم خدمات ضمان، أو توفير \"حماية المشتري\" أو \"شهادة البائع\""
+
+#: item.php:143
+msgid "Related listings"
+msgstr "القوائم ذات الصلة"
+
+#: item.php:154
+msgid "Comments"
+msgstr "التعليقات"
+
+#: item.php:161
+msgid "by"
+msgstr "بواسطة"
+
+#: item.php:165
+msgid "Delete your comment"
+msgstr "حذف تعليقك"
+
+#: item.php:177
+msgid "Leave your comment (spam and offensive messages will be removed)"
+msgstr "اترك تعليقك (سيتم إزالة الرسائل غير المرغوب فيها والرسائل الهجومية)"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "بريدك الإلكتروني"
+
+#: item.php:204 item-post.php:65
+msgid "Title"
+msgstr "العنوان"
+
+#: item.php:210
+msgid "Comment"
+msgstr "تعليق"
+
+#: user-login.php:30
+msgid "Access to your account"
+msgstr "الوصول إلى حسابك"
+
+#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#: user-login.php:44 user-register.php:51
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: user-login.php:51
+msgid "Remember me"
+msgstr "تذكر لي"
+
+#: user-login.php:54
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+#: user-login.php:58
+msgid "Forgot password?"
+msgstr "نسيت كلمة المرور؟"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "السلام عليكم يا %s"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "حسابي"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "نشر إعلانك مجاناً"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "تحديد تصنيف"
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "البحث"
+
+#: item-post.php:57
+msgid "General Information"
+msgstr "معلومات عامة"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "التصنيف"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "موقع القائمة"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "منطقة المدينة"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "معلومات البائع"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "إظهار البريد الإلكتروني على صفحة القائمة"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "نشر"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "عنوان بريدك الإلكتروني"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "تسجيل حساب مجاني"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "كرر كلمة المرور"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "كلمات السر غير متطابقة"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "إنشاء"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "آسف ولكني لا أستطيع العثور على الصفحة التي تبحث عنها"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "دعونا نساعدك ، لقد حصلنا على بعض النصائح لكي تجدها ."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>ابحث</strong> عن:"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>انظر</strong> إليها في أكثر الفئات شعبية."
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "اتصل بنا"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "الموضوع"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "استعادة كلمة السر الخاصة بك"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "كلمة مرور جديدة"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "تكرار كلمة المرور الجديدة"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "اسم صديقك"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "عنوان البريد الإلكتروني لصديقك"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "الموضوع (اختياري)"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "اعلاناتي"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "لم يتم إضافة أي قوائم حتى الآن"
+
+#: search.php:55
+msgid "Selected"
+msgstr "مختار"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "لا شيء اختيارها، كان الإدخال"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "لا توجد نتائج مطابقة الى %s"
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %2$d من %3$d اعلانات"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "إظهار الفلاتر"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "الترتيب حسب"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "اعلانات مميزة"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "عمليات البحث الأخرى التي قد تهمك"
+
+#: admin/header.php:35
+msgid "Preview"
+msgstr "معاينة"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "إزالة الشعار"
+
+#: admin/header.php:49
+msgid "No logo has been uploaded yet"
+msgstr "لم يتم تحميل أي شعار بعد"
+
+#: admin/header.php:52
+msgid "Upload logo"
+msgstr "تحميل الشعار"
+
+#: admin/header.php:53
+msgid "The preferred size of the logo is 600x100."
+msgstr "الحجم المفضل للشعار هو 600x100."
+
+#: admin/header.php:55
+msgid "<strong>Note:</strong> Uploading another logo will overwrite the current logo."
+msgstr "<strong>ملاحظة:</strong> تحميل شعار آخر سوف يستبدل الشعار الحالي."
+
+#: admin/header.php:63
+msgid "Logo image (png,gif,jpg)"
+msgstr "صورة الشعار (png,gif,jpg)"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "تحميل"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "مجلد الصور <strong>%s</strong> غير قابل للكتابة على الخادم الخاص بك"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "لا يمكن لـ Osclass رفع صورة الشعار من لوحة الادارة."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "الرجاء جعل مجلد الصور المذكور آنفا قابل للكتابة."
+
+#: admin/header.php:85
+msgid "To make a directory writable under UNIX execute this command from the shell:"
+msgstr "لجعل الدليل قابل للكتابة تحت UNIX تنفيذ هذا الأمر من القذيفة:"
+
+#: admin/settings.php:36
+msgid "I would like to contribute to the development of Osclass with a donation of"
+msgstr "وأود أن أسهم في تطوير مؤسسة أوسبورغ بتبرع من مؤسسة أوسبورغ"
+
+#: admin/settings.php:41
+msgid "Custom"
+msgstr "مخصص"
+
+#: admin/settings.php:42
+msgid "Donate"
+msgstr "تبرع"
+
+#: admin/settings.php:52
+msgid "Search placeholder"
+msgstr "البحث عن العنصر النائب"
+
+#: admin/settings.php:56
+msgid "Show lists as:"
+msgstr "إظهار القوائم كـ:"
+
+#: admin/settings.php:59
+msgid "Gallery"
+msgstr "معرض"
+
+#: admin/settings.php:66
+msgid "Footer link"
+msgstr "رابط تذييل الصفحة"
+
+#: admin/settings.php:68
+msgid "I want to help Osclass by linking to <a href=\"http://osclass.org/\" target=\"_blank\">osclass.org</a> from my site with the following text:"
+msgstr "أريد مساعدة Osclass عن طريق ربط <a href=\"http://osclass.org/\" target=\"_blank\">osclass.org</a> من موقعي بالنص التالي:"
+
+#: admin/settings.php:69
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"http://osclass.org/\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "يفخر هذا الموقع باستخدام <a title=\"Osclass web\" href=\"http://osclass.org/\">البرامج النصية المصنفة</a> البرمجية <strong>Osclass</strong>"
+
+#: admin/settings.php:76
+msgid "Right-To-Left (RTL)"
+msgstr "اليمين - اليسار (RTL)"
+
+#: admin/settings.php:80
+msgid "Enable Right-To-Left"
+msgstr "تمكين اليمين - اليسار"
+
+#: admin/settings.php:83
+msgid "enable/disable"
+msgstr "تمكين/تعطيل"
+
+#: admin/settings.php:90
+msgid "Location input"
+msgstr "إدخال الموقع"
+
+#: admin/settings.php:94
+msgid "Show location input as:"
+msgstr "إظهار إدخال الموقع كالتالي:"
+
+#: admin/settings.php:97
+msgid "Dropdown"
+msgstr "منسدلة"
+
+#: admin/settings.php:98
+msgid "Autocomplete"
+msgstr "الإكمال التلقائي"
+
+#: admin/settings.php:105
+msgid "Ads management"
+msgstr "إدارة الإعلانات"
+
+#: admin/settings.php:109
+msgid "In this section you can configure your site to display ads and start generating revenue."
+msgstr "في هذا القسم يمكنك تكوين موقعك لعرض الإعلانات والبدء في توليد الإيرادات."
+
+#: admin/settings.php:109
+msgid "If you are using an online advertising platform, such as Google Adsense, copy and paste here the provided code for ads."
+msgstr "إذا كنت تستخدم منصة إعلانات على الإنترنت، مثل Google Adsense، قم بنسخ ولصق التعليمات البرمجية المقدمة للإعلانات."
+
+#: admin/settings.php:115
+msgid "Header 728x90"
+msgstr "رأس 728x90"
+
+#: admin/settings.php:119
+msgid "This ad will be shown at the top of your website, next to the site title and above the search results. Note that the size of the ad has to be 728x90 pixels."
+msgstr "سيتم عرض هذا الإعلان في الجزء العلوي من موقع الويب الخاص بك، بجانب عنوان الموقع وما فوق نتائج البحث. لاحظ أن حجم الإعلان يجب أن يكون 728 × 90 نقطة."
+
+#: admin/settings.php:123
+msgid "Homepage 728x90"
+msgstr "الصفحة الرئيسية 728x90"
+
+#: admin/settings.php:127
+msgid "This ad will be shown on the main site of your website. It will appear both at the top and bottom of your site homepage. Note that the size of the ad has to be 728x90 pixels."
+msgstr "سيتم عرض هذا الإعلان على الموقع الرئيسي لموقعك. سيظهر في أعلى وأسفل الصفحة الرئيسية لموقعك. لاحظ أن حجم الإعلان يجب أن يكون 728 × 90 نقطة."
+
+#: admin/settings.php:131
+msgid "Search results 728x90 (top of the page)"
+msgstr "نتائج البحث 728x90 (أعلى الصفحة)"
+
+#: admin/settings.php:135
+msgid "This ad will be shown on top of the search results of your site. Note that the size of the ad has to be 728x90 pixels."
+msgstr "سيتم عرض هذا الإعلان على رأس نتائج البحث في موقعك. لاحظ أن حجم الإعلان يجب أن يكون 728 × 90 نقطة."
+
+#: admin/settings.php:139
+msgid "Search results 728x90 (middle of the page)"
+msgstr "نتائج البحث 728x90 (منتصف الصفحة)"
+
+#: admin/settings.php:143
+msgid "This ad will be shown among the search results of your site. Note that the size of the ad has to be 728x90 pixels."
+msgstr "سيتم عرض هذا الإعلان من بين نتائج البحث لموقعك. لاحظ أن حجم الإعلان يجب أن يكون 728x90 نقطة."
+
+#: admin/settings.php:147
+msgid "Sidebar 300x250"
+msgstr "Sidebar 300x250"
+
+#: admin/settings.php:151
+msgid "This ad will be shown at the right sidebar of your website, on the product detail page. Note that the size of the ad has to be 300x350 pixels."
+msgstr "سيتم عرض هذا الإعلان في الشريط الجانبي الأيمن لموقع الويب الخاص بك، على صفحة تفاصيل المنتج. لاحظ أن حجم الإعلان يجب أن يكون 300x350 نقطة."
+
+#: admin/settings.php:155
+msgid "Save changes"
+msgstr "حفظ التغييرات"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "كلمة المرور الحالية"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "يفخر هذا الموقع باستخدام <a title=\"Osclass web\" href=\"%s\">البرامج النصية المصنفة</a> البرمجية <strong>Osclass</strong>"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "اللغة:"
+
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "أرسل لي كلمة مرور جديدة"
 
