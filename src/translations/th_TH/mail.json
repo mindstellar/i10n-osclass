@@ -17,7 +17,7 @@
       "fk_i_page_id": 3,
       "s_internal_name": "email_user_registration",
       "s_title": "{WEB_TITLE} - การสมัครสมาชิกเสร็จสมบูรณ์!",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>สวัสดี {USER_NAME}<\/p><p>คุณได้ลงทะเบียน {WEB_LINK}เรียบร้อยแล้ว<\/p><p>ขอบคุณ! ขอแสดงความนับถือ<\/p><p><\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 4,
@@ -53,37 +53,37 @@
       "fk_i_page_id": 9,
       "s_internal_name": "email_new_comment_admin",
       "s_title": "{WEB_TITLE} - การแสดงความคิดเห็นใหม่",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+      "s_description": "<p>มีคนแสดงความคิดเห็นเกี่ยวกับ <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>รายชื่อ ผู้แสดงความคิดเห็น<\/p><p>: อีเมลของผู้แสดงความคิดเห็น {COMMENT_AUTHOR}<br \/>: {COMMENT_EMAIL}<br \/>หัวข้อ: {COMMENT_TITLE}<br \/>ความคิดเห็น: {COMMENT_TEXT}<\/p>"
     },
     {
       "fk_i_page_id": 10,
       "s_internal_name": "email_new_item_non_register_user",
       "s_title": "{WEB_TITLE} - แก้ไขตัวเลือกสำหรับรายการ {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Hi {USER_NAME}<\/p><p>คุณไม่ได้ลงทะเบียนที่ {WEB_LINK}แต่คุณยังสามารถแก้ไขหรือลบ <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> รายการได้เป็นระยะเวลาสั้น ๆ<\/p><p>คุณสามารถแก้ไขรายการของคุณได้โดยทําตามลิงค์นี้: {EDIT_LINK}<\/p><p>คุณสามารถลบรายการของคุณได้โดยทําตามลิงค์นี้: {DELETE_LINK}<\/p><p>ถ้าคุณลงทะเบียนเป็นผู้ใช้คุณจะสามารถเข้าถึงตัวเลือกการแก้ไขได้อย่างเต็มที่<\/p><p>ขอแสดงความนับถือ<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 11,
       "s_internal_name": "email_item_validation",
       "s_title": "{WEB_TITLE} - ตรวจสอบรายการของคุณ",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Hi {USER_NAME}<\/p><p>คุณได้รับอีเมลนี้ เนื่องจากได้รับการประกาศรายชื่อที่ {WEB_LINK}โปรดตรวจสอบความถูกต้องของรายการนี้โดยคลิกที่การเชื่อมโยงต่อไปนี้: {VALIDATION_LINK}ถ้าคุณไม่ได้เผยแพร่รายการนี้ โปรดละเว้นอีเมลนี้ รายละเอียด<\/p><p>รายชื่อ: ชื่อผู้ติดต่อ<\/p><p>: {USER_NAME}<br \/>อีเมลที่ติดต่อ: url {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>: {ITEM_URL}<\/p><p>ขอแสดงความนับถือ,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 12,
       "s_internal_name": "email_admin_new_item",
       "s_title": "{WEB_TITLE} - รายการใหม่ได้ถูกเผยแพร่",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>เรียนผู้ดูแลระบบ {WEB_TITLE}<\/p><p>คุณได้รับอีเมลนี้เนื่องจากมีการเผยแพร่ข้อมูล {WEB_LINK}รายละเอียดรายชื่อ<\/p><p>: ชื่อผู้ติดต่อ<\/p><p>: {USER_NAME}<br \/>ติดต่ออีเมล: url {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>: {ITEM_URL}<\/p><p>คุณสามารถแก้ไขรายการนี้ได้โดยคลิกที่ลิงค์ต่อไปนี้: {EDIT_LINK}<\/p><p>ขอแสดงความนับถือ<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 13,
       "s_internal_name": "email_user_forgot_password",
       "s_title": "{WEB_TITLE} - กู้คืนรหัสผ่าน",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>สวัสดี {USER_NAME}<\/p><p>เราได้ส่งอีเมลนี้ให้คุณเนื่องจากคุณได้ขอการแจ้งเตือนรหัสผ่าน ตามลิงค์นี้เพื่อกู้คืน: {PASSWORD_LINK}<\/p><p>ลิงก์จะถูกปิดใช้งานใน 24 ชั่วโมง<\/p><p>ถ้าคุณไม่ได้ร้องขอตัวเตือนรหัสผ่าน การร้องขอนี้ทําจาก {IP_ADDRESS} IP ใน {DATE_TIME}<\/p><p>เกี่ยวกับ<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 14,
       "s_internal_name": "email_new_email",
       "s_title": "{WEB_TITLE} -คุณร้องขอการเปลี่ยนแปลงอีเมลล์",
-      "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>Hi {USER_NAME}<\/p><p>คุณได้รับอีเมลนี้เนื่องจากคุณร้องขอการเปลี่ยนแปลงอีเมล โปรดยืนยันที่อยู่อีเมลใหม่นี้โดยคลิกที่ลิงค์การตรวจสอบความถูกต้องต่อไปนี้: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 15,
@@ -101,13 +101,13 @@
       "fk_i_page_id": 17,
       "s_internal_name": "email_item_validation_non_register_user",
       "s_title": "{WEB_TITLE} - ตรวจสอบรายการของคุณ",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>สวัสดี {USER_NAME}<\/p><p>คุณได้รับอีเมลนี้เนื่องจากคุณได้เผยแพร่รายการที่ {WEB_LINK}โปรดตรวจสอบความถูกต้องของรายการนี้โดยคลิกที่การเชื่อมโยงต่อไปนี้: {VALIDATION_LINK}ถ้าคุณไม่ได้ประกาศรายการนี้ โปรดละเว้นอีเมลนี้ รายละเอียด<\/p><p>รายชื่อ: ชื่อผู้ติดต่อ<\/p><p>: {USER_NAME}<br \/>อีเมลติดต่อ: url {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>: {ITEM_URL}<\/p><p>แม้ว่าคุณจะไม่ได้ลงทะเบียนที่ {WEB_LINK},  คุณยังคงสามารถแก้ไขหรือลบรายการของคุณได้:<\/p><p>คุณสามารถแก้ไขรายการของคุณได้โดยทําตามการเชื่อมโยงนี้: {EDIT_LINK}<\/p><p>คุณสามารถลบรายการของคุณได้โดยทําตามการเชื่อมโยงนี้: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 18,
       "s_internal_name": "email_admin_new_user",
       "s_title": "{WEB_TITLE} - มีผู้ใช้งานใหม่ได้ทำการสมัครสมาชิก",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>เรียนผู้ดูแลระบบ {WEB_TITLE}<\/p><p>คุณได้รับอีเมลนี้เนื่องจากมีการสร้างผู้ใช้ใหม่ที่ {WEB_LINK}รายละเอียดผู้ใช้<\/p><p>: ชื่อ<\/p><p>: {USER_NAME}<br \/>อีเมล์: {USER_EMAIL}<\/p><p>ขอแสดงความนับถือ,<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 19,
@@ -119,7 +119,7 @@
       "fk_i_page_id": 20,
       "s_internal_name": "email_new_comment_user",
       "s_title": "{WEB_TITLE} - มีบางคนได้แสดงความคิดเห็นในรายการของคุณ",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>มีความคิดเห็นใหม่ในรายการ: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>ผู้เขียน: {COMMENT_AUTHOR}<br \/>ผู้เขียน อีเมล์: {COMMENT_EMAIL}<br \/>หัวข้อ: {COMMENT_TITLE}<br \/>ความคิดเห็น: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 21,
