@@ -2,7 +2,6 @@ name: i18n-build
 on:
   push:
     branches:
-      - master
       - develop
   workflow_dispatch:
 jobs:
