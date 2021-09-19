@@ -17,7 +17,7 @@
       "fk_i_page_id": 3,
       "s_internal_name": "email_user_registration",
       "s_title": "{WEB_TITLE} - 註冊成功！",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>喜 {USER_NAME}，<\/p><p>你已經成功註冊了 {WEB_LINK}。<\/p><p>謝謝！<\/p><p>問候，<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 4,
@@ -53,37 +53,37 @@
       "fk_i_page_id": 9,
       "s_internal_name": "email_new_comment_admin",
       "s_title": "{WEB_TITLE} - 新的線上留言",
-      "s_description": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+      "s_description": "<p>有人對上市 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>發表了評論。<\/p><p>評論者： {COMMENT_AUTHOR}<br \/>評論者的電子郵件： {COMMENT_EMAIL}<br \/>標題： {COMMENT_TITLE}<br \/>評論： {COMMENT_TEXT}<\/p>"
     },
     {
       "fk_i_page_id": 10,
       "s_internal_name": "email_new_item_non_register_user",
       "s_title": "{WEB_TITLE} - 編輯清單的功能選項 {ITEM_TITLE}",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>喜 {USER_NAME}，<\/p><p>您沒有在 {WEB_LINK}註冊，但仍可以在短時間內編輯或刪除清單 <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> 。<\/p><p>您可以通過以下連結來編輯清單： {EDIT_LINK}<\/p><p>您可以通過以下連結刪除清單： {DELETE_LINK}<\/p><p>如果您註冊為使用者，您將可以完全存取編輯選項。<\/p><p>問候，<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 11,
       "s_internal_name": "email_item_validation",
       "s_title": "{WEB_TITLE} - 驗證你的廣告清單",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>喜 {USER_NAME}，<\/p><p>你收到這封電子郵件是因為 {WEB_LINK}已經發佈了一個清單。請點擊以下連結驗證此清單： {VALIDATION_LINK}。如果您沒有發布此清單，請忽略此電子郵件。<\/p><p>清單詳細資訊：<\/p><p>聯絡人姓名： {USER_NAME}<br \/>聯繫電子郵件： {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>網址： {ITEM_URL}<\/p><p>問候，<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 12,
       "s_internal_name": "email_admin_new_item",
       "s_title": "{WEB_TITLE} - 有新的廣告清單發佈",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>親愛的 {WEB_TITLE} 管理員，<\/p><p>你收到這封電子郵件，因為一個清單已經公佈在 {WEB_LINK}。<\/p><p>清單詳細資訊：<\/p><p>聯繫人姓名： {USER_NAME}<br \/>聯繫人電子郵件： {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>網址： {ITEM_URL}<\/p><p>您可以按下以下連結來編輯此列表： {EDIT_LINK}<\/p><p>問候，<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 13,
       "s_internal_name": "email_user_forgot_password",
       "s_title": "{WEB_TITLE} - 找回你的密碼",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>嗨， {USER_NAME}，<\/p><p>我們給你發了這封電子郵件，因為你已經要求密碼提醒。按照此連結恢復它： {PASSWORD_LINK}<\/p><p>連結將在24小時內停用。<\/p><p>如果您沒有請求密碼提醒，請忽略此消息。這一請求是智慧財產權 {IP_ADDRESS} 就 {DATE_TIME}<\/p><p>問候提出<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 14,
       "s_internal_name": "email_new_email",
       "s_title": "{WEB_TITLE} - 你要求變更電子郵件",
-      "s_description": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>嗨 {USER_NAME}<\/p><p>您收到此電子郵件是因為你要求更改電子郵件。請按下以下驗證連結確認此新電子郵件地址： {VALIDATION_LINK}<\/p><p>問候、<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 15,
@@ -101,13 +101,13 @@
       "fk_i_page_id": 17,
       "s_internal_name": "email_item_validation_non_register_user",
       "s_title": "{WEB_TITLE} - 驗證你的廣告清單",
-      "s_description": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you’ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>喜 {USER_NAME}，<\/p><p>你收到這封電子郵件，因為你已經發佈了一個清單在 {WEB_LINK}。請點擊以下連結驗證此清單： {VALIDATION_LINK}。如果您沒有發布此清單，請忽略此電子郵件。<\/p><p>清單詳細資訊：<\/p><p>聯繫人姓名： {USER_NAME}<br \/>聯繫電子郵件： {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>網址： {ITEM_URL}<\/p><p>即使您沒有在 {WEB_LINK}註冊， 您仍然可以編輯或移除您的清單：<\/p><p>您可以透過以下連結來編輯清單： {EDIT_LINK}<\/p><p>您可以通過以下連結刪除清單： {DELETE_LINK}<\/p><p>問候、<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 18,
       "s_internal_name": "email_admin_new_user",
       "s_title": "{WEB_TITLE} - 有新的使用者註冊",
-      "s_description": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>親愛的 {WEB_TITLE} 管理員，<\/p><p>你收到這封電子郵件，因為一個新的用戶已經創建在 {WEB_LINK}。<\/p><p>使用者詳細資訊：<\/p><p>姓名： {USER_NAME}<br \/>電子郵件： {USER_EMAIL}<\/p><p>問候，<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 19,
@@ -119,7 +119,7 @@
       "fk_i_page_id": 20,
       "s_internal_name": "email_new_comment_user",
       "s_title": "{WEB_TITLE} - 有人在你的廣告清單中留言",
-      "s_description": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+      "s_description": "<p>對上市有新的評論： <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>。<\/p><p>作者： {COMMENT_AUTHOR}<br \/>作者的電子郵件： {COMMENT_EMAIL}<br \/>標題： {COMMENT_TITLE}<br \/>評論： {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
     },
     {
       "fk_i_page_id": 21,
