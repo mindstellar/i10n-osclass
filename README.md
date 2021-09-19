@@ -1,7 +1,7 @@
 # Osclass localization project 
 [![Crowdin](https://badges.crowdin.net/osclass-v2/localized.svg)](https://crowdin.com/project/osclass-v2)
  
-##i10n-osclass
+## i10n-osclass
 ___
 ## Contributing
 
