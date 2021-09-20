@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:26\n"
+"POT-Creation-Date: 2021-09-20 03:52+0000\n"
+"PO-Revision-Date: 2021-09-20 05:03\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -803,100 +803,105 @@ msgstr "Datei hochgeladen, aber die Sprache kann nicht aktiviert werden"
 msgid "There was a problem adding the language"
 msgstr "Die Sprache konnte leider nicht hinzugefügt werden"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
-msgid "There was a problem importing email templates"
-msgstr "Es gab ein Problem beim Importieren von E-Mail-Vorlagen"
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:153
+#, php-format
+msgid "Directory \"%s\" was not created"
+msgstr "Verzeichnis \"%s\" wurde nicht erstellt"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:182
 msgid "Language imported successfully"
 msgstr "Sprache erfolgreich importiert"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:192
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:225
 msgid "Language id isn't in the correct format"
 msgstr "Sprach-ID hat nicht das korrekt Format"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:199
 msgid "Language id doesn't exist"
 msgstr "Sprach-ID unbekannt"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:273
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:248
 msgid "Language name field is required"
 msgstr "Feld für Sprachen ist erforderlich"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:251
 msgid "Language direction field is required"
 msgstr "Sprachrichtung ist Pflichtfeld"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:254
 msgid "Language short name field is required"
 msgstr "Feld für Sprachabkürzungen ist erforderlich"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:282
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:257
 msgid "Language description field is required"
 msgstr "Feld für Sprachbeschreibung ist erforderlich"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:285
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:260
 msgid "Currency format field is required"
 msgstr "Feld für Währungsformate ist erforderlich"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:288
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:263
 msgid "Number of decimals must only contain numeric characters"
 msgstr "Zahl der Dezimalzahlen darf nur aus numerischen Zeichen bestehen"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:312
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:287
 #, php-format
 msgid "%s has been updated"
 msgstr "%s wurde aktualisiert"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:318
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:293
 msgid "Selected languages have been enabled for the website"
 msgstr "Ausgewählte Sprachen wurden für die Website aktiviert"
 
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:300
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:325
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:350
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:359
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:384
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
 msgid "The language ids aren't in the correct format"
 msgstr "Die Sprach-IDs haben nicht das korrekte Format"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:342
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:317
 msgid "Selected languages have been disabled for the website"
 msgstr "Ausgewählte Sprachen wurden für die Website deaktiviert"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:357
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:416
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:332
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:391
 #, php-format
 msgid "%s can't be disabled because it's the default language"
 msgstr "%s kann nicht deaktiviert werden, weil es die Standardsprache ist"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:377
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:352
 msgid "Selected languages have been enabled for the backoffice (oc-admin)"
 msgstr "Ausgewählte Sprachen wurden für das Backoffice aktiviert (oc-admin)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:376
 msgid "Selected languages have been disabled for the backoffice (oc-admin)"
 msgstr "Ausgewählte Sprachen wurden für das Backoffice deaktiviert (oc-admin)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:443
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:418
 #, php-format
 msgid "Directory '%s' couldn't be removed"
 msgstr "Verzeichnis %s konnte nicht entfernt werden"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:448
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:423
 #, php-format
 msgid "Directory \"%s\" has been successfully removed"
 msgstr "Das Verzeichnis \"%s\" wurde erfolgreich gelöscht"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:454
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:429
 #, php-format
 msgid "Directory '%s' couldn't be removed;)"
 msgstr "Verzeichnis %s konnte nicht entfernt werden"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:437
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
 msgstr "Verzeichnis '%s' konnte nicht entfernt werden, da es die Standardsprache ist. <a href=\"%s\">Legen Sie zuerst eine andere Sprache</a> als Standard ein und versuchen Sie es erneut"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:628
+msgid "There was a problem importing email templates"
+msgstr "Es gab ein Problem beim Importieren von E-Mail-Vorlagen"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
