@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:26\n"
+"POT-Creation-Date: 2021-09-20 03:52+0000\n"
+"PO-Revision-Date: 2021-09-20 05:04\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -803,100 +803,105 @@ msgstr "Failas nusiųstas, bet nepavyksta suaktyvinti kalbos"
 msgid "There was a problem adding the language"
 msgstr "Pridedant kalbą iškilo problema"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:171
-msgid "There was a problem importing email templates"
-msgstr "Importuojant el. laiškų šablonus iškilo problema"
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:153
+#, php-format
+msgid "Directory \"%s\" was not created"
+msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:207
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:182
 msgid "Language imported successfully"
 msgstr "Sėkmingai importuota kalba"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:217
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:192
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:225
 msgid "Language id isn't in the correct format"
 msgstr "Kalbos ID yra netinkamo formato"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:224
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:199
 msgid "Language id doesn't exist"
 msgstr "Kalbos ID nėra"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:273
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:248
 msgid "Language name field is required"
 msgstr "Kalbos pavadinimo laukas yra būtinas"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:276
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:251
 msgid "Language direction field is required"
 msgstr "Kalbos krypties laukas yra būtinas"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:279
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:254
 msgid "Language short name field is required"
 msgstr "Būtinas kalbos trumpojo pavadinimo laukas"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:282
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:257
 msgid "Language description field is required"
 msgstr "Būtinas kalbos aprašymo laukas"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:285
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:260
 msgid "Currency format field is required"
 msgstr "Valiutos formato laukas yra būtinas"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:288
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:263
 msgid "Number of decimals must only contain numeric characters"
 msgstr "Dešimtainių dalių skaičiuje turi būti tik skaitiniai simboliai"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:312
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:287
 #, php-format
 msgid "%s has been updated"
 msgstr "%s atnaujintas"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:318
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:293
 msgid "Selected languages have been enabled for the website"
 msgstr "Svetainėje įgalintos pasirinktos kalbos"
 
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:300
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:325
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:350
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:359
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:384
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:409
 msgid "The language ids aren't in the correct format"
 msgstr "Kalbos ID yra netinkamo formato"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:342
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:317
 msgid "Selected languages have been disabled for the website"
 msgstr "Pasirinktos svetainės kalbos išjungtos"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:357
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:416
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:332
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:391
 #, php-format
 msgid "%s can't be disabled because it's the default language"
 msgstr "%s negali būti išjungtas, nes tai numatytoji kalba"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:377
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:352
 msgid "Selected languages have been enabled for the backoffice (oc-admin)"
 msgstr "Pasirinktos kalbos įgalintos backoffice (oc-admin)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:401
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:376
 msgid "Selected languages have been disabled for the backoffice (oc-admin)"
 msgstr "Pasirinktos kalbos buvo išjungtos backoffice (oc-admin)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:443
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:418
 #, php-format
 msgid "Directory '%s' couldn't be removed"
 msgstr "Katalogo '%s' pašalinti nepavyko"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:448
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:423
 #, php-format
 msgid "Directory \"%s\" has been successfully removed"
 msgstr "Katalogas \"%s\" sėkmingai pašalintas"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:454
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:429
 #, php-format
 msgid "Directory '%s' couldn't be removed;)"
 msgstr "Katalogo '%s' pašalinti nepavyko;)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:462
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:437
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
 msgstr "Katalogo '%s' pašalinti nepavyko, nes tai numatytoji kalba. <a href=\"%s\">Pirmiausia nustatykite kitą kalbos</a> kaip numatytąją ir bandykite dar kartą"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:628
+msgid "There was a problem importing email templates"
+msgstr "Importuojant el. laiškų šablonus iškilo problema"
 
 #: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54

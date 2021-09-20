@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:26\n"
+"POT-Creation-Date: 2021-09-20 03:52+0000\n"
+"PO-Revision-Date: 2021-09-20 05:03\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -90,7 +90,7 @@ msgstr "ضع علامة للسماح بالبحث عن طريق هذا الحق�
 
 #: oc-admin/themes/modern/fields/iframe.php:105
 #: oc-admin/themes/modern/items/settings.php:312
-#: oc-admin/themes/modern/languages/frm.php:146
+#: oc-admin/themes/modern/languages/frm.php:152
 #: oc-admin/themes/modern/users/settings.php:124
 #: oc-admin/themes/modern/appearance/add_widget.php:40
 #: oc-admin/themes/modern/appearance/add_widget.php:80
@@ -189,7 +189,7 @@ msgstr "إضافة حقل مخصص"
 #: oc-admin/themes/modern/settings/locations.php:100
 #: oc-admin/themes/modern/settings/locations.php:192
 #: oc-admin/themes/modern/settings/currencies.php:80
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:524
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:499
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:353
 #: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:152
 #: oc-includes/osclass/classes/datatables/UsersDataTable.php:222
@@ -253,9 +253,9 @@ msgstr "تحرير"
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:389
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:326
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:328
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:541
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:632
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:634
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:516
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:607
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:609
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:356
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:400
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:402
@@ -707,7 +707,7 @@ msgstr "هل انت متاكد من انك تريد حذف هذا الاعلان
 #: oc-admin/themes/modern/settings/currencies.php:100
 #: oc-admin/themes/modern/settings/currencies.php:174
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:321
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:595
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:570
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:395
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:563
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:709
@@ -989,34 +989,38 @@ msgid "Description"
 msgstr "الوصف"
 
 #: oc-admin/themes/modern/languages/frm.php:97
+msgid "Direction"
+msgstr "الاتجاه"
+
+#: oc-admin/themes/modern/languages/frm.php:103
 msgid "Currency format"
 msgstr "تنسيق العملة"
 
-#: oc-admin/themes/modern/languages/frm.php:103
+#: oc-admin/themes/modern/languages/frm.php:109
 msgid "Number of decimals"
 msgstr "عدد الكسور العشرية"
 
-#: oc-admin/themes/modern/languages/frm.php:109
+#: oc-admin/themes/modern/languages/frm.php:115
 msgid "Decimal point"
 msgstr "النقطة العشرية"
 
-#: oc-admin/themes/modern/languages/frm.php:115
+#: oc-admin/themes/modern/languages/frm.php:121
 msgid "Thousands separator"
 msgstr "فاصل الآلاف"
 
-#: oc-admin/themes/modern/languages/frm.php:121
+#: oc-admin/themes/modern/languages/frm.php:127
 msgid "Date format"
 msgstr "تنسيق التاريخ"
 
-#: oc-admin/themes/modern/languages/frm.php:127
+#: oc-admin/themes/modern/languages/frm.php:133
 msgid "Stopwords"
 msgstr "موقوف"
 
-#: oc-admin/themes/modern/languages/frm.php:136
+#: oc-admin/themes/modern/languages/frm.php:142
 msgid "Enabled for the public website"
 msgstr "تمكين للموقع العام"
 
-#: oc-admin/themes/modern/languages/frm.php:140
+#: oc-admin/themes/modern/languages/frm.php:146
 msgid "Enabled for the backoffice (oc-admin)"
 msgstr "تمكين للمكتب الخلفي (oc-admin)"
 
@@ -2003,8 +2007,8 @@ msgid "HTML Code for the Widget"
 msgstr "كود HTML للواجهة المصغرة"
 
 #: oc-admin/themes/modern/appearance/add_widget.php:162
-#: oc-includes/osclass/classes/form/LanguageForm.php:236
-#: oc-includes/osclass/classes/form/LanguageForm.php:237
+#: oc-includes/osclass/classes/form/LanguageForm.php:245
+#: oc-includes/osclass/classes/form/LanguageForm.php:246
 msgid "Description: this field is required"
 msgstr "الوصف: هذا الحقل مطلوب"
 
@@ -3259,8 +3263,8 @@ msgstr "رمز العملة: هذه الخانة متطلبة"
 #: oc-admin/themes/modern/settings/currency_form.php:60
 #: oc-includes/osclass/classes/form/UserForm.php:417
 #: oc-includes/osclass/classes/form/UserForm.php:532
-#: oc-includes/osclass/classes/form/LanguageForm.php:228
-#: oc-includes/osclass/classes/form/LanguageForm.php:229
+#: oc-includes/osclass/classes/form/LanguageForm.php:237
+#: oc-includes/osclass/classes/form/LanguageForm.php:238
 #: oc-includes/osclass/classes/form/AdminForm.php:144
 msgid "Name: this field is required"
 msgstr "الاسم: هذه الخانة متطلبة"
@@ -4792,36 +4796,36 @@ msgstr "كلمات السر غير متطابقة"
 msgid "No results"
 msgstr "لايوجد نتائج"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:232
-#: oc-includes/osclass/classes/form/LanguageForm.php:233
+#: oc-includes/osclass/classes/form/LanguageForm.php:241
+#: oc-includes/osclass/classes/form/LanguageForm.php:242
 msgid "Short name: this field is required"
 msgstr "الاسم القصير: هذا الحقل مطلوب"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:240
-#: oc-includes/osclass/classes/form/LanguageForm.php:241
+#: oc-includes/osclass/classes/form/LanguageForm.php:249
+#: oc-includes/osclass/classes/form/LanguageForm.php:250
 msgid "Currency format: this field is required"
 msgstr "تنسيق العملة: هذا الحقل مطلوب"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:244
+#: oc-includes/osclass/classes/form/LanguageForm.php:253
 msgid "Number of decimals: this field is required"
 msgstr "عدد الكسور العشرية: هذا الحقل مطلوب"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:245
+#: oc-includes/osclass/classes/form/LanguageForm.php:254
 msgid "Number of decimals: this field must only contain numeric characters"
 msgstr "عدد الكسور العشرية: يجب أن يحتوي هذا الحقل فقط على أحرف رقمية"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:248
-#: oc-includes/osclass/classes/form/LanguageForm.php:249
+#: oc-includes/osclass/classes/form/LanguageForm.php:257
+#: oc-includes/osclass/classes/form/LanguageForm.php:258
 msgid "Decimal point: this field is required"
 msgstr "نقطة عشرية : هذا الحقل مطلوب"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:252
-#: oc-includes/osclass/classes/form/LanguageForm.php:253
+#: oc-includes/osclass/classes/form/LanguageForm.php:261
+#: oc-includes/osclass/classes/form/LanguageForm.php:262
 msgid "Thousands separator: this field is required"
 msgstr "فاصل الآلاف: هذا الحقل مطلوب"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:256
-#: oc-includes/osclass/classes/form/LanguageForm.php:257
+#: oc-includes/osclass/classes/form/LanguageForm.php:265
+#: oc-includes/osclass/classes/form/LanguageForm.php:266
 msgid "Date format: this field is required"
 msgstr "تنسيق التاريخ: هذا الحقل مطلوب"
 
@@ -5597,6 +5601,10 @@ msgstr "تغيير كلمة السر"
 msgid "Create a new account"
 msgstr "إنشاء حساب جديد"
 
+#: oc-includes/osclass/classes/Breadcrumb.php:105
+msgid "Home"
+msgstr "المنزل"
+
 #: oc-includes/osclass/classes/model/Category.php:919
 msgid "Non-Existent Category"
 msgstr "فئة غير موجودة"
@@ -5690,56 +5698,56 @@ msgstr "بواسطة"
 msgid "Are you sure you want to %s the selected pages?"
 msgstr "هل انت متأكد انك تريد حذف %s الصفحات المختارة?"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:529
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:504
 msgid "Disable (website)"
 msgstr "تعطيل (موقع)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:529
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:504
 msgid "Enable (website)"
 msgstr "تفعيل (موقع)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:534
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:624
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:626
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:509
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:599
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:601
 msgid "Disable (oc-admin)"
 msgstr "تعطيل (OC-المشرف)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:535
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:616
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:618
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:510
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:591
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:593
 msgid "Enable (oc-admin)"
 msgstr "تفعيل (OC-المشرف)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:556
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:531
 msgid "Update here"
 msgstr "حدث من هنا"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:564
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:538
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:539
 msgid "Yes"
 msgstr "نعم"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:564
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:538
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:539
 msgid "No"
 msgstr "لا"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:599
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:607
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:615
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:623
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:631
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:574
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:582
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:590
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:598
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:606
 #, php-format
 msgid "Are you sure you want to %s the selected languages?"
 msgstr "هل انت متأكد من %s  اللغة المحددة؟"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:600
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:602
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:575
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:577
 msgid "Enable (Website)"
 msgstr "تشغيل (الموقع)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:608
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:610
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:583
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:585
 msgid "Disable (Website)"
 msgstr "ايقاف (الموقع)"
 
