@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:26\n"
+"POT-Creation-Date: 2021-11-05 09:41+0000\n"
+"PO-Revision-Date: 2021-11-05 09:45\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -17,437 +17,9 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "Keisti vartotojo vardą"
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Vartotojo vardas: šis laukas yra būtinas"
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "Vartotojo vardas yra prieinamas"
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Vartotojo vardas nepasiekiamas"
-
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Vartotojo vardas"
-
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "Naujinti"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "Keisti el. paštą"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "Dabartinis el. paštas"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "Naujas el. paštas"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "El. paštas: šis laukas yra būtinas"
-
-#: user-change_email.php:77 alert-form.php:28
-msgid "Invalid email address"
-msgstr "Neleistinas el. pašto adresas"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Rodyti meniu"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "Naikinti abonementą"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Ar tikrai norite ištrinti paskyrą?"
-
-#: item-sidebar.php:30
-msgid "Mark as..."
-msgstr "Žymėti kaip..."
-
-#: item-sidebar.php:31
-msgid "Mark as spam"
-msgstr "Žymėti kaip pašto šiukšles"
-
-#: item-sidebar.php:32
-msgid "Mark as misclassified"
-msgstr "Pažymėti kaip neteisingai klasifikuotą"
-
-#: item-sidebar.php:33
-msgid "Mark as duplicated"
-msgstr "Žymėti kaip dubliuotus"
-
-#: item-sidebar.php:34
-msgid "Mark as expired"
-msgstr "Žymėti kaip nebegaliojantį"
-
-#: item-sidebar.php:35
-msgid "Mark as offensive"
-msgstr "Pažymėti kaip įžeidžiantį"
-
-#: item-sidebar.php:49 functions.php:437
-msgid "Contact publisher"
-msgstr "Susisiekite su leidėju"
-
-#: item-sidebar.php:52
-msgid "The listing is expired. You can't contact the publisher."
-msgstr "Sąrašas nebegalioja. Negalite susisiekti su leidėju."
-
-#: item-sidebar.php:56
-msgid "It's your own listing, you can't contact the publisher."
-msgstr "Tai jūsų pačių sąrašas, negalite susisiekti su leidėju."
-
-#: item-sidebar.php:60
-msgid "You must log in or register a new account in order to contact the advertiser"
-msgstr "Norėdami susisiekti su reklamuotoju, turite prisijungti arba užregistruoti naują paskyrą"
-
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "Prisijungti"
-
-#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "Užsiregistruokite į nemokamą sąskaitą"
-
-#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
-#: user-register.php:39
-msgid "Name"
-msgstr "Vardas, pavadinimas"
-
-#: item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "Vardas: %s"
-
-#: item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "El. paštas: %s"
-
-#: item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "Telefonas: %s"
-
-#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
-#: item-send-friend.php:44
-msgid "Your name"
-msgstr "Tavo vardas"
-
-#: item-sidebar.php:89
-msgid "Your e-mail address"
-msgstr "Jūsų el. pašto adresas"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41
-msgid "Phone number"
-msgstr "Telefono numeris"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
-msgid "optional"
-msgstr "Pasirinktinai"
-
-#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
-#: item-send-friend.php:78
-msgid "Message"
-msgstr "Pranešimas"
-
-#: item-sidebar.php:104
-msgid "Attachment"
-msgstr "Priedą"
-
-#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
-#: item-send-friend.php:87
-msgid "Send"
-msgstr "Siųsti"
-
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "Jūs sėkmingai užsiprenumeravote įspėjimą"
-
-#: alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "Iškilo įspėjimo problema"
-
-#: alert-form.php:61
-msgid "Already subscribed to this search"
-msgstr "Jau užsiprenumeravote šią iešką"
-
-#: alert-form.php:65
-msgid "Subscribe to this search"
-msgstr "Prenumeruoti šią iešką"
-
-#: alert-form.php:80
-msgid "Subscribe now"
-msgstr "Prenumeruoti dabar"
-
-#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
-#: item.php:165
-msgid "Delete"
-msgstr "Naikinti"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "Atšaukti"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Ankstesnis vaizdas"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Kitas vaizdas"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "Uždaryti"
-
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "Jūsų paieška"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "Miestas"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Rodyti tik"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "sąrašai su paveikslėliais"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Kaina"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Min"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Maks"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Vartoti"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Patikslinti kategoriją"
-
-#: loop-single-premium.php:46 loop-single.php:46 item.php:73
-msgid "Edit item"
-msgstr "Redaguoti elementą"
-
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Šio veiksmo anuliuoti negalima. Ar tikrai norite tęsti?"
-
-#: loop-single-premium.php:51 loop-single.php:51
-msgid "Activate"
-msgstr "Aktyvinti"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>adresas:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>vieta:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "Vartotojo aprašas"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "Naujausi sąrašai"
-
-#: main.php:38
-msgid "Latest Listings"
-msgstr "Naujausi sąrašai"
-
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "Šiuo metu nėra sąrašų"
-
-#: main.php:45 search.php:80 admin/settings.php:60
-msgid "List"
-msgstr "Sąrašas"
-
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Tinklelis"
-
-#: main.php:57
-msgid "See all listings"
-msgstr "Peržiūrėti visus sąrašus"
-
-#: main.php:74 item.php:66
-msgid "Location"
-msgstr "Vieta"
-
-#: user-profile.php:32 user-profile.php:37 functions.php:445
-msgid "Update account"
-msgstr "Naujinti abonementą"
-
-#: user-profile.php:52
-msgid "User type"
-msgstr "Vartotojo tipas"
-
-#: user-profile.php:59
-msgid "Cell phone"
-msgstr "Mobilusis telefonas"
-
-#: user-profile.php:65
-msgid "Phone"
-msgstr "Telefonas"
-
-#: user-profile.php:71 item-post.php:92
-msgid "Country"
-msgstr "Kraštas"
-
-#: user-profile.php:77 item-post.php:98 item-post.php:124
-msgid "Region"
-msgstr "Regionas"
-
-#: user-profile.php:89
-msgid "City area"
-msgstr "Miesto teritorija"
-
-#: user-profile.php:95 item-post.php:168
-msgid "Address"
-msgstr "Adresas"
-
-#: user-profile.php:101
-msgid "Website"
-msgstr "Interneto svetainė"
-
-#: user-profile.php:107 item-post.php:71
-msgid "Description"
-msgstr "Apibūdinimas"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "Ie. PHP programuotojas"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Sąrašo publikavimas"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "Sąrašo redagavimas"
-
-#: functions.php:436 item-send-friend.php:31
-msgid "Send to a friend"
-msgstr "Siųsti draugui"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Ieškos rezultatai"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Paieškos rezultatai: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Prietaisų skydelis"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%sprofilis"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "Sąskaita"
-
-#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
-msgid "Listings"
-msgstr "Aukcionai"
-
-#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
 msgid "Alerts"
 msgstr "Įspėjimus"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "Keisti el. paštą"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "Slaptažodžio keitimas"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Atkurti slaptažodį"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Naujos paskyros kūrimas"
-
-#: functions.php:453 user-public-sidebar.php:26 footer.php:65
-msgid "Contact"
-msgstr "Liestis"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Viešasis profilis"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Temos parametrai atnaujinti teisingai"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Logotipo vaizdas nusiųstas teisingai"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Įvyko klaida, bandykite dar kartą"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "Logotipo vaizdas pašalintas"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "Vaizdas nerastas"
-
-#: functions.php:666 admin/header.php:29
-msgid "Header logo"
-msgstr "Antraštės logotipas"
-
-#: functions.php:668 admin/settings.php:46
-msgid "Theme settings"
-msgstr "Temos parametrai"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Visos kategorijos"
 
 #: user-alerts.php:39
 msgid "You do not have any alerts yet"
@@ -465,6 +37,45 @@ msgstr "Šio veiksmo anuliuoti negalima. Ar tikrai norite tęsti?"
 msgid "Delete this alert"
 msgstr "Naikinti šį įspėjimą"
 
+#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
+msgid "Listings"
+msgstr "Aukcionai"
+
+#: item-send-friend.php:31 functions.php:436
+msgid "Send to a friend"
+msgstr "Siųsti draugui"
+
+#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
+#: user-public-sidebar.php:33 contact.php:40
+msgid "Your name"
+msgstr "Tavo vardas"
+
+#: item-send-friend.php:50 item.php:197
+msgid "Your e-mail"
+msgstr "Jūsų el. paštas"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "Jūsų draugo vardas"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "Jūsų draugo el. pašto adresas"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Tema (neprivaloma)"
+
+#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
+#: contact.php:60
+msgid "Message"
+msgstr "Pranešimas"
+
+#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
+#: user-public-sidebar.php:54 contact.php:68
+msgid "Send"
+msgstr "Siųsti"
+
 #: item.php:59
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
@@ -474,6 +85,14 @@ msgstr "<strong class=\"publish\">Paskelbta data</strong>: %1$s"
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
 msgstr "<strong class=\"update\">Modifikavimo data:</strong> %1$s"
+
+#: item.php:66 main.php:74
+msgid "Location"
+msgstr "Vieta"
+
+#: item.php:73 loop-single.php:46 loop-single-premium.php:46
+msgid "Edit item"
+msgstr "Redaguoti elementą"
 
 #: item.php:85 item.php:92
 msgid "Image"
@@ -523,13 +142,14 @@ msgstr "pagal"
 msgid "Delete your comment"
 msgstr "Komentaro ištrynimas"
 
+#: item.php:165 common/head.php:25 loop-single.php:48
+#: loop-single-premium.php:48
+msgid "Delete"
+msgstr "Naikinti"
+
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "Palikite savo komentarą (šlamštas ir įžeidžiantis pranešimai bus pašalintas)"
-
-#: item.php:197 item-send-friend.php:50
-msgid "Your e-mail"
-msgstr "Jūsų el. paštas"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -539,11 +159,37 @@ msgstr "Titulinis"
 msgid "Comment"
 msgstr "Komentaras"
 
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
+msgid "Change username"
+msgstr "Keisti vartotojo vardą"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Vartotojo vardas: šis laukas yra būtinas"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Vartotojo vardas yra prieinamas"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Vartotojo vardas nepasiekiamas"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Vartotojo vardas"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "Naujinti"
+
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Prieiga prie paskyros"
 
-#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
 msgid "E-mail"
 msgstr "El. paštas"
 
@@ -559,172 +205,241 @@ msgstr "Prisimink mane"
 msgid "Log in"
 msgstr "Prisijungti, prisijunk"
 
+#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "Užsiregistruokite į nemokamą sąskaitą"
+
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "Pamiršote slaptažodį?"
 
-#: header.php:48 footer.php:35
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "Žymėti kaip..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "Žymėti kaip pašto šiukšles"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "Pažymėti kaip neteisingai klasifikuotą"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "Žymėti kaip dubliuotus"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "Žymėti kaip nebegaliojantį"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "Pažymėti kaip įžeidžiantį"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "Susisiekite su leidėju"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "Sąrašas nebegalioja. Negalite susisiekti su leidėju."
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "Tai jūsų pačių sąrašas, negalite susisiekti su leidėju."
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "Norėdami susisiekti su reklamuotoju, turite prisijungti arba užregistruoti naują paskyrą"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "Prisijungti"
+
+#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
+#: item-post.php:179
+msgid "Name"
+msgstr "Vardas, pavadinimas"
+
+#: item-sidebar.php:70
 #, php-format
-msgid "Hi %s"
-msgstr "Sveiki %s"
+msgid "Name: %s"
+msgstr "Vardas: %s"
 
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "Mano paskyra"
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "El. paštas: %s"
 
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "Išsiregistruoti"
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "Telefonas: %s"
 
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "Skelbimo publikavimas nemokamai"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "Pasirinkti kategoriją"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "Ieškoti"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "Bendroji informacija"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "Kategorija"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "Sąrašo vieta"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "Miesto zona"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "Pardavėjo informacija"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "Rodyti el. paštą sąrašo puslapyje"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "Publikuoti"
-
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
+#: item-sidebar.php:89
+msgid "Your e-mail address"
 msgstr "Jūsų el. pašto adresas"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Registruokite paskyrą nemokamai"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "Telefono numeris"
 
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Kartoti slaptažodį"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "Pasirinktinai"
 
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "Slaptažodžiai nesutampa"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "Priedą"
 
-#: user-register.php:73
-msgid "Create"
-msgstr "Kurti"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "Jūs sėkmingai užsiprenumeravote įspėjimą"
 
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "Atsiprašome, bet aš negaliu rasti puslapį, kurio ieškote"
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "Neleistinas el. pašto adresas"
 
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "Leiskite mums jums padėti, mes turime keletą patarimų, kaip jį rasti."
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "Iškilo įspėjimo problema"
 
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>Ieškokite jo</strong> :"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "Jau užsiprenumeravote šią iešką"
 
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>Ieškokite</strong> populiariausių kategorijų."
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "Prenumeruoti šią iešką"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "Susisiekite su mumis"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "Prenumeruoti dabar"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "Tema"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Jūsų paieška"
 
-#: user-forgot_password.php:30 user-recover.php:30
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Miestas"
+
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Rodyti tik"
+
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "sąrašai su paveikslėliais"
+
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Kaina"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Min"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Maks"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Vartoti"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Patikslinti kategoriją"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "Keisti el. paštą"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "Dabartinis el. paštas"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Naujas el. paštas"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "El. paštas: šis laukas yra būtinas"
+
+#: user-recover.php:30 user-forgot_password.php:30
 msgid "Recover your password"
 msgstr "Slaptažodžio atkūrimas"
 
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Naujas slaptažodis"
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "Siųsti man naują slaptažodį"
 
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Kartoti naują slaptažodį"
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "Naujinti abonementą"
 
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "Jūsų draugo vardas"
+#: user-profile.php:52
+msgid "User type"
+msgstr "Vartotojo tipas"
 
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "Jūsų draugo el. pašto adresas"
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "Mobilusis telefonas"
 
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Tema (neprivaloma)"
+#: user-profile.php:65
+msgid "Phone"
+msgstr "Telefonas"
 
-#: user-items.php:41
-msgid "My listings"
-msgstr "Mano sąrašai"
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "Kraštas"
 
-#: user-items.php:43
-msgid "No listings have been added yet"
-msgstr "Dar nepridėta jokių sąrašų"
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "Regionas"
 
-#: search.php:55
-msgid "Selected"
-msgstr "Pasirinktas"
+#: user-profile.php:89
+msgid "City area"
+msgstr "Miesto teritorija"
 
-#: search.php:56
-msgid "Nothing selected, input was"
-msgstr "Nieko nepasirinkta, įvestis buvo"
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "Adresas"
 
-#: search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "Nėra rezultatų, atitinkančių \"%s\""
+#: user-profile.php:101
+msgid "Website"
+msgstr "Interneto svetainė"
 
-#: search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%1$d - %3$d sąrašų %2$d"
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "Apibūdinimas"
 
-#: search.php:78
-msgid "Show filters"
-msgstr "Rodyti filtrus"
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Naujausi sąrašai"
 
-#: search.php:85
-msgid "Sort by"
-msgstr "Rūšiuoti pagal"
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Šiuo metu nėra sąrašų"
 
-#: search.php:121
-msgid "Premium listings"
-msgstr "Aukščiausios kokybės sąrašai"
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Sąrašas"
 
-#: search.php:142
-msgid "Other searches that may interest you"
-msgstr "Kitos paieškos, kurios gali jus sudominti"
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Tinklelis"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Peržiūrėti visus sąrašus"
+
+#: admin/header.php:29 functions.php:666
+msgid "Header logo"
+msgstr "Antraštės logotipas"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -786,6 +501,10 @@ msgstr "Paprotys"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "Paaukoti"
+
+#: admin/settings.php:46 functions.php:668
+msgid "Theme settings"
+msgstr "Temos parametrai"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -895,9 +614,200 @@ msgstr "Šis skelbimas bus rodomas dešinėje svetainės šoninę juostą, produ
 msgid "Save changes"
 msgstr "Įrašyti keitimus"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Dabartinis slaptažodis"
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Registruokite paskyrą nemokamai"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Kartoti slaptažodį"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "Slaptažodžiai nesutampa"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "Kurti"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Ankstesnis vaizdas"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Kitas vaizdas"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Uždaryti"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "Ie. PHP programuotojas"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Sąrašo publikavimas"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Sąrašo redagavimas"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Ieškos rezultatai"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Paieškos rezultatai: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Prietaisų skydelis"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%sprofilis"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Sąskaita"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Keisti el. paštą"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "Slaptažodžio keitimas"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Atkurti slaptažodį"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Naujos paskyros kūrimas"
+
+#: functions.php:453 footer.php:65 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "Liestis"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Viešasis profilis"
+
+#: functions.php:516 user-sidebar.php:28
+msgid "Delete account"
+msgstr "Naikinti abonementą"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Temos parametrai atnaujinti teisingai"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Logotipo vaizdas nusiųstas teisingai"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Įvyko klaida, bandykite dar kartą"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Logotipo vaizdas pašalintas"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Vaizdas nerastas"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Visos kategorijos"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Šio veiksmo anuliuoti negalima. Ar tikrai norite tęsti?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Aktyvinti"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "Sveiki %s"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "Mano paskyra"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "Išsiregistruoti"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "Skelbimo publikavimas nemokamai"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "Pasirinkti kategoriją"
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "Ieškoti"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>adresas:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>vieta:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Vartotojo aprašas"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "Naujausi sąrašai"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Atsiprašome, bet aš negaliu rasti puslapį, kurio ieškote"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "Leiskite mums jums padėti, mes turime keletą patarimų, kaip jį rasti."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>Ieškokite jo</strong> :"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>Ieškokite</strong> populiariausių kategorijų."
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Rodyti meniu"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Ar tikrai norite ištrinti paskyrą?"
 
 #: footer.php:69
 #, php-format
@@ -908,7 +818,97 @@ msgstr "Ši svetainė išdidžiai naudoja <a title=\"Osclass web\" href=\"%s\">k
 msgid "Language:"
 msgstr "Kalba:"
 
-#: user-recover.php:45
-msgid "Send me a new password"
-msgstr "Siųsti man naują slaptažodį"
+#: item-post.php:57
+msgid "General Information"
+msgstr "Bendroji informacija"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "Kategorija"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "Sąrašo vieta"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "Miesto zona"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "Pardavėjo informacija"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "Rodyti el. paštą sąrašo puslapyje"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "Publikuoti"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Naujas slaptažodis"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Kartoti naują slaptažodį"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "Mano sąrašai"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "Dar nepridėta jokių sąrašų"
+
+#: search.php:55
+msgid "Selected"
+msgstr "Pasirinktas"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "Nieko nepasirinkta, įvestis buvo"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "Nėra rezultatų, atitinkančių \"%s\""
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %3$d sąrašų %2$d"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "Rodyti filtrus"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "Rūšiuoti pagal"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "Aukščiausios kokybės sąrašai"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "Kitos paieškos, kurios gali jus sudominti"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "Jūsų el. pašto adresas"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Dabartinis slaptažodis"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Susisiekite su mumis"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Tema"
 
