@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:25\n"
+"POT-Creation-Date: 2021-09-20 03:52+0000\n"
+"PO-Revision-Date: 2021-09-20 05:03\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "Language: hi_IN\n"
@@ -90,7 +90,7 @@ msgstr "इस फ़ील्ड द्वारा खोजों की अ�
 
 #: oc-admin/themes/modern/fields/iframe.php:105
 #: oc-admin/themes/modern/items/settings.php:312
-#: oc-admin/themes/modern/languages/frm.php:146
+#: oc-admin/themes/modern/languages/frm.php:152
 #: oc-admin/themes/modern/users/settings.php:124
 #: oc-admin/themes/modern/appearance/add_widget.php:40
 #: oc-admin/themes/modern/appearance/add_widget.php:80
@@ -189,7 +189,7 @@ msgstr "कस्टम फ़ील्ड जोड़ें"
 #: oc-admin/themes/modern/settings/locations.php:100
 #: oc-admin/themes/modern/settings/locations.php:192
 #: oc-admin/themes/modern/settings/currencies.php:80
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:524
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:499
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:353
 #: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:152
 #: oc-includes/osclass/classes/datatables/UsersDataTable.php:222
@@ -253,9 +253,9 @@ msgstr "संपादन करना"
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:389
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:326
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:328
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:541
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:632
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:634
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:516
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:607
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:609
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:356
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:400
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:402
@@ -707,7 +707,7 @@ msgstr "क्या आप सुनिश्चित हैं कि आप 
 #: oc-admin/themes/modern/settings/currencies.php:100
 #: oc-admin/themes/modern/settings/currencies.php:174
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:321
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:595
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:570
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:395
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:563
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:709
@@ -989,34 +989,38 @@ msgid "Description"
 msgstr "वर्णन"
 
 #: oc-admin/themes/modern/languages/frm.php:97
+msgid "Direction"
+msgstr ""
+
+#: oc-admin/themes/modern/languages/frm.php:103
 msgid "Currency format"
 msgstr "मुद्रा प्रारूप"
 
-#: oc-admin/themes/modern/languages/frm.php:103
+#: oc-admin/themes/modern/languages/frm.php:109
 msgid "Number of decimals"
 msgstr "दशमलव की संख्या"
 
-#: oc-admin/themes/modern/languages/frm.php:109
+#: oc-admin/themes/modern/languages/frm.php:115
 msgid "Decimal point"
 msgstr "दशमलव"
 
-#: oc-admin/themes/modern/languages/frm.php:115
+#: oc-admin/themes/modern/languages/frm.php:121
 msgid "Thousands separator"
 msgstr "हजारों विभाजक"
 
-#: oc-admin/themes/modern/languages/frm.php:121
+#: oc-admin/themes/modern/languages/frm.php:127
 msgid "Date format"
 msgstr "तिथि प्रारूप"
 
-#: oc-admin/themes/modern/languages/frm.php:127
+#: oc-admin/themes/modern/languages/frm.php:133
 msgid "Stopwords"
 msgstr "स्टॉपवर्ड"
 
-#: oc-admin/themes/modern/languages/frm.php:136
+#: oc-admin/themes/modern/languages/frm.php:142
 msgid "Enabled for the public website"
 msgstr "सार्वजनिक वेबसाइट के लिए सक्षम"
 
-#: oc-admin/themes/modern/languages/frm.php:140
+#: oc-admin/themes/modern/languages/frm.php:146
 msgid "Enabled for the backoffice (oc-admin)"
 msgstr "बैकऑफिस (ओसी-एडमिन) के लिए सक्षम"
 
@@ -2003,8 +2007,8 @@ msgid "HTML Code for the Widget"
 msgstr "विजेट के लिए एचटीएमएल कोड"
 
 #: oc-admin/themes/modern/appearance/add_widget.php:162
-#: oc-includes/osclass/classes/form/LanguageForm.php:236
-#: oc-includes/osclass/classes/form/LanguageForm.php:237
+#: oc-includes/osclass/classes/form/LanguageForm.php:245
+#: oc-includes/osclass/classes/form/LanguageForm.php:246
 msgid "Description: this field is required"
 msgstr "विवरण: इस फ़ील्ड की आवश्यकता है"
 
@@ -3260,8 +3264,8 @@ msgstr "मुद्रा कोड: इस फ़ील्ड की आवश
 #: oc-admin/themes/modern/settings/currency_form.php:60
 #: oc-includes/osclass/classes/form/UserForm.php:417
 #: oc-includes/osclass/classes/form/UserForm.php:532
-#: oc-includes/osclass/classes/form/LanguageForm.php:228
-#: oc-includes/osclass/classes/form/LanguageForm.php:229
+#: oc-includes/osclass/classes/form/LanguageForm.php:237
+#: oc-includes/osclass/classes/form/LanguageForm.php:238
 #: oc-includes/osclass/classes/form/AdminForm.php:144
 msgid "Name: this field is required"
 msgstr "नाम: इस फ़ील्ड की आवश्यकता है"
@@ -4793,36 +4797,36 @@ msgstr "पासवर्ड मैच नहीं हुए"
 msgid "No results"
 msgstr "कोई परिणाम नहीं"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:232
-#: oc-includes/osclass/classes/form/LanguageForm.php:233
+#: oc-includes/osclass/classes/form/LanguageForm.php:241
+#: oc-includes/osclass/classes/form/LanguageForm.php:242
 msgid "Short name: this field is required"
 msgstr "संक्षिप्त नाम: इस फ़ील्ड की आवश्यकता है"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:240
-#: oc-includes/osclass/classes/form/LanguageForm.php:241
+#: oc-includes/osclass/classes/form/LanguageForm.php:249
+#: oc-includes/osclass/classes/form/LanguageForm.php:250
 msgid "Currency format: this field is required"
 msgstr "मुद्रा प्रारूप: इस फ़ील्ड की आवश्यकता है"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:244
+#: oc-includes/osclass/classes/form/LanguageForm.php:253
 msgid "Number of decimals: this field is required"
 msgstr "दशमलव की संख्या: इस फ़ील्ड की आवश्यकता है"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:245
+#: oc-includes/osclass/classes/form/LanguageForm.php:254
 msgid "Number of decimals: this field must only contain numeric characters"
 msgstr "दशमलव की संख्या: इस फ़ील्ड में केवल संख्यात्मक वर्ण होने चाहिए"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:248
-#: oc-includes/osclass/classes/form/LanguageForm.php:249
+#: oc-includes/osclass/classes/form/LanguageForm.php:257
+#: oc-includes/osclass/classes/form/LanguageForm.php:258
 msgid "Decimal point: this field is required"
 msgstr "दशमलव बिंदु: इस क्षेत्र की आवश्यकता है"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:252
-#: oc-includes/osclass/classes/form/LanguageForm.php:253
+#: oc-includes/osclass/classes/form/LanguageForm.php:261
+#: oc-includes/osclass/classes/form/LanguageForm.php:262
 msgid "Thousands separator: this field is required"
 msgstr "हजारों विभाजक: इस फ़ील्ड की आवश्यकता है"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:256
-#: oc-includes/osclass/classes/form/LanguageForm.php:257
+#: oc-includes/osclass/classes/form/LanguageForm.php:265
+#: oc-includes/osclass/classes/form/LanguageForm.php:266
 msgid "Date format: this field is required"
 msgstr "तिथि प्रारूप: इस फ़ील्ड की आवश्यकता है"
 
@@ -5598,6 +5602,10 @@ msgstr "अपना पासवर्ड बदलें"
 msgid "Create a new account"
 msgstr "एक नया खाता बनाएं"
 
+#: oc-includes/osclass/classes/Breadcrumb.php:105
+msgid "Home"
+msgstr ""
+
 #: oc-includes/osclass/classes/model/Category.php:919
 msgid "Non-Existent Category"
 msgstr "गैर-मौजूद श्रेणी"
@@ -5691,56 +5699,56 @@ msgstr "द्वारा"
 msgid "Are you sure you want to %s the selected pages?"
 msgstr "क्या आप सुनिश्चित हैं कि आप चयनित पृष्ठों को %s करना चाहते हैं?"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:529
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:504
 msgid "Disable (website)"
 msgstr "अक्षम (वेबसाइट)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:529
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:504
 msgid "Enable (website)"
 msgstr "सक्षम (वेबसाइट)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:534
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:624
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:626
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:509
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:599
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:601
 msgid "Disable (oc-admin)"
 msgstr "अक्षम (ओसी-व्यवस्थापक)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:535
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:616
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:618
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:510
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:591
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:593
 msgid "Enable (oc-admin)"
 msgstr "सक्षम (ओसी-व्यवस्थापक)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:556
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:531
 msgid "Update here"
 msgstr "यहां अपडेट करें"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:564
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:538
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:539
 msgid "Yes"
 msgstr "हाँ"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:564
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:538
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:539
 msgid "No"
 msgstr "नहीं"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:599
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:607
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:615
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:623
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:631
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:574
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:582
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:590
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:598
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:606
 #, php-format
 msgid "Are you sure you want to %s the selected languages?"
 msgstr "क्या आप सुनिश्चित हैं कि आप चयनित भाषाओं को %s करना चाहते हैं?"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:600
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:602
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:575
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:577
 msgid "Enable (Website)"
 msgstr "सक्षम (वेबसाइट)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:608
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:610
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:583
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:585
 msgid "Disable (Website)"
 msgstr "अक्षम (वेबसाइट)"
 

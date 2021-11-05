@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:26\n"
+"POT-Creation-Date: 2021-09-20 03:52+0000\n"
+"PO-Revision-Date: 2021-09-20 05:03\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -90,7 +90,7 @@ msgstr "Επιλέξτε για να επιτρέψετε αναζητήσεις
 
 #: oc-admin/themes/modern/fields/iframe.php:105
 #: oc-admin/themes/modern/items/settings.php:312
-#: oc-admin/themes/modern/languages/frm.php:146
+#: oc-admin/themes/modern/languages/frm.php:152
 #: oc-admin/themes/modern/users/settings.php:124
 #: oc-admin/themes/modern/appearance/add_widget.php:40
 #: oc-admin/themes/modern/appearance/add_widget.php:80
@@ -189,7 +189,7 @@ msgstr "Προσθήκη προσαρμοσμένου πεδίου"
 #: oc-admin/themes/modern/settings/locations.php:100
 #: oc-admin/themes/modern/settings/locations.php:192
 #: oc-admin/themes/modern/settings/currencies.php:80
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:524
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:499
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:353
 #: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:152
 #: oc-includes/osclass/classes/datatables/UsersDataTable.php:222
@@ -253,9 +253,9 @@ msgstr "Επεξεργασία"
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:389
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:326
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:328
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:541
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:632
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:634
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:516
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:607
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:609
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:356
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:400
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:402
@@ -707,7 +707,7 @@ msgstr "Είστε σίγουρος πως θέλετε να διαγράψετ�
 #: oc-admin/themes/modern/settings/currencies.php:100
 #: oc-admin/themes/modern/settings/currencies.php:174
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:321
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:595
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:570
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:395
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:563
 #: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:709
@@ -989,34 +989,38 @@ msgid "Description"
 msgstr "Περιγραφή"
 
 #: oc-admin/themes/modern/languages/frm.php:97
+msgid "Direction"
+msgstr "Κατεύθυνση"
+
+#: oc-admin/themes/modern/languages/frm.php:103
 msgid "Currency format"
 msgstr "Μορφή νομίσματος"
 
-#: oc-admin/themes/modern/languages/frm.php:103
+#: oc-admin/themes/modern/languages/frm.php:109
 msgid "Number of decimals"
 msgstr "Αριθμός δεκαδικών ψηφίων"
 
-#: oc-admin/themes/modern/languages/frm.php:109
+#: oc-admin/themes/modern/languages/frm.php:115
 msgid "Decimal point"
 msgstr "Δεκαδικό σημείο"
 
-#: oc-admin/themes/modern/languages/frm.php:115
+#: oc-admin/themes/modern/languages/frm.php:121
 msgid "Thousands separator"
 msgstr "Διαχωριστικό χιλιάδων"
 
-#: oc-admin/themes/modern/languages/frm.php:121
+#: oc-admin/themes/modern/languages/frm.php:127
 msgid "Date format"
 msgstr "Μορφή ημερομηνίας"
 
-#: oc-admin/themes/modern/languages/frm.php:127
+#: oc-admin/themes/modern/languages/frm.php:133
 msgid "Stopwords"
 msgstr "Διακοπές"
 
-#: oc-admin/themes/modern/languages/frm.php:136
+#: oc-admin/themes/modern/languages/frm.php:142
 msgid "Enabled for the public website"
 msgstr "Ενεργοποιημένη για τον δημόσιο ιστότοπο"
 
-#: oc-admin/themes/modern/languages/frm.php:140
+#: oc-admin/themes/modern/languages/frm.php:146
 msgid "Enabled for the backoffice (oc-admin)"
 msgstr "Ενεργοποιημένη για το backoffice (oc-admin)"
 
@@ -2003,8 +2007,8 @@ msgid "HTML Code for the Widget"
 msgstr "Κώδικας HTML για το widget"
 
 #: oc-admin/themes/modern/appearance/add_widget.php:162
-#: oc-includes/osclass/classes/form/LanguageForm.php:236
-#: oc-includes/osclass/classes/form/LanguageForm.php:237
+#: oc-includes/osclass/classes/form/LanguageForm.php:245
+#: oc-includes/osclass/classes/form/LanguageForm.php:246
 msgid "Description: this field is required"
 msgstr "Περιγραφή: αυτό το πεδίο είναι υποχρεωτικό"
 
@@ -3259,8 +3263,8 @@ msgstr "Κωδικός νομίσματος: αυτό το πεδίο είναι
 #: oc-admin/themes/modern/settings/currency_form.php:60
 #: oc-includes/osclass/classes/form/UserForm.php:417
 #: oc-includes/osclass/classes/form/UserForm.php:532
-#: oc-includes/osclass/classes/form/LanguageForm.php:228
-#: oc-includes/osclass/classes/form/LanguageForm.php:229
+#: oc-includes/osclass/classes/form/LanguageForm.php:237
+#: oc-includes/osclass/classes/form/LanguageForm.php:238
 #: oc-includes/osclass/classes/form/AdminForm.php:144
 msgid "Name: this field is required"
 msgstr "Όνομα: αυτό το πεδίο είναι υποχρεωτικό"
@@ -4792,36 +4796,36 @@ msgstr "Οι κωδικοί δεν ταιριάζουν"
 msgid "No results"
 msgstr "Κανένα αποτέλεσμα"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:232
-#: oc-includes/osclass/classes/form/LanguageForm.php:233
+#: oc-includes/osclass/classes/form/LanguageForm.php:241
+#: oc-includes/osclass/classes/form/LanguageForm.php:242
 msgid "Short name: this field is required"
 msgstr "Σύντομο όνομα: αυτό το πεδίο απαιτείται"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:240
-#: oc-includes/osclass/classes/form/LanguageForm.php:241
+#: oc-includes/osclass/classes/form/LanguageForm.php:249
+#: oc-includes/osclass/classes/form/LanguageForm.php:250
 msgid "Currency format: this field is required"
 msgstr "Μορφή νομίσματος: αυτό το πεδίο είναι απαραίτητο"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:244
+#: oc-includes/osclass/classes/form/LanguageForm.php:253
 msgid "Number of decimals: this field is required"
 msgstr "Αριθμός δεκαδικών: αυτό το πεδίο απαιτείται"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:245
+#: oc-includes/osclass/classes/form/LanguageForm.php:254
 msgid "Number of decimals: this field must only contain numeric characters"
 msgstr "Αριθμός δεκαδικών: το πεδίο αυτό πρέπει να περιέχει μόνο αριθμητικούς χαρακτήρες"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:248
-#: oc-includes/osclass/classes/form/LanguageForm.php:249
+#: oc-includes/osclass/classes/form/LanguageForm.php:257
+#: oc-includes/osclass/classes/form/LanguageForm.php:258
 msgid "Decimal point: this field is required"
 msgstr "Δεκαδικό σημείο: αυτό το πεδίο απαιτείται"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:252
-#: oc-includes/osclass/classes/form/LanguageForm.php:253
+#: oc-includes/osclass/classes/form/LanguageForm.php:261
+#: oc-includes/osclass/classes/form/LanguageForm.php:262
 msgid "Thousands separator: this field is required"
 msgstr "Διαχωριστικό χιλιάδες: αυτό το πεδίο απαιτείται"
 
-#: oc-includes/osclass/classes/form/LanguageForm.php:256
-#: oc-includes/osclass/classes/form/LanguageForm.php:257
+#: oc-includes/osclass/classes/form/LanguageForm.php:265
+#: oc-includes/osclass/classes/form/LanguageForm.php:266
 msgid "Date format: this field is required"
 msgstr "Μορφή ημερομηνίας: αυτό το πεδίο είναι απαραίτητο"
 
@@ -5597,6 +5601,10 @@ msgstr "Άλλαξε τον κωδικό σου"
 msgid "Create a new account"
 msgstr "Δημιουργία Λογαριασμού"
 
+#: oc-includes/osclass/classes/Breadcrumb.php:105
+msgid "Home"
+msgstr "Αρχική"
+
 #: oc-includes/osclass/classes/model/Category.php:919
 msgid "Non-Existent Category"
 msgstr "Μη Υπάρχουσα Κατηγορία"
@@ -5690,56 +5698,56 @@ msgstr "Από"
 msgid "Are you sure you want to %s the selected pages?"
 msgstr "Είστε σίγουροι ότι θέλετε να %s τις επιλεγμένες σελίδες?"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:529
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:504
 msgid "Disable (website)"
 msgstr "Απενεργοποίηση (ιστοσελίδα)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:529
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:504
 msgid "Enable (website)"
 msgstr "Ενεργοποίηση (website)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:534
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:624
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:626
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:509
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:599
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:601
 msgid "Disable (oc-admin)"
 msgstr "Απενεργοποίηση (διαχειριστικό)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:535
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:616
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:618
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:510
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:591
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:593
 msgid "Enable (oc-admin)"
 msgstr "Ενεργοποίηση (διαχειριστιικό)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:556
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:531
 msgid "Update here"
 msgstr "Ενημέρωση εδώ"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:564
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:538
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:539
 msgid "Yes"
 msgstr "Ναι"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:563
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:564
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:538
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:539
 msgid "No"
 msgstr "Όχι"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:599
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:607
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:615
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:623
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:631
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:574
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:582
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:590
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:598
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:606
 #, php-format
 msgid "Are you sure you want to %s the selected languages?"
 msgstr "Είστε σίγουροι ότι θέλετε να %s τις επιλεγμένες γλώσσες?"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:600
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:602
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:575
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:577
 msgid "Enable (Website)"
 msgstr "Ενεργοποίηση (Ιστοσελίδα)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:608
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:610
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:583
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:585
 msgid "Disable (Website)"
 msgstr "Απενεργοποίηση (Ιστοσελίδα)"
 
