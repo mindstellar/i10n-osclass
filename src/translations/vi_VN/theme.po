@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:25\n"
+"POT-Creation-Date: 2021-11-05 09:41+0000\n"
+"PO-Revision-Date: 2021-11-05 09:46\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -17,437 +17,9 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "Đổi tên tài khoản"
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Tài khoản: bắt buộc phải nhập"
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "Tên tài khoản được chấp nhận"
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Tên tài khoản KHÔNG được chấp nhận"
-
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Tài khoản"
-
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "Cập nhật"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "Đổi email"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "E-mail hiện tại"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "E-mail mới"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "Email: yêu cầu nhập"
-
-#: user-change_email.php:77 alert-form.php:28
-msgid "Invalid email address"
-msgstr "Địa chỉ email không chính xác"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Menu Hiển thị"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "Xoá tài khoản"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Bạn có chắc chắn muốn xóa tài khoản của mình không?"
-
-#: item-sidebar.php:30
-msgid "Mark as..."
-msgstr "Đánh dấu là..."
-
-#: item-sidebar.php:31
-msgid "Mark as spam"
-msgstr "Đánh dấu tin rác"
-
-#: item-sidebar.php:32
-msgid "Mark as misclassified"
-msgstr "Đánh dấu là phân loại sai"
-
-#: item-sidebar.php:33
-msgid "Mark as duplicated"
-msgstr "Đánh dấu là trùng lặp"
-
-#: item-sidebar.php:34
-msgid "Mark as expired"
-msgstr "Đánh dấu là hết hạn"
-
-#: item-sidebar.php:35
-msgid "Mark as offensive"
-msgstr "Đánh dấu là xúc phạm"
-
-#: item-sidebar.php:49 functions.php:437
-msgid "Contact publisher"
-msgstr "Liên hệ người đăng"
-
-#: item-sidebar.php:52
-msgid "The listing is expired. You can't contact the publisher."
-msgstr "Danh sách đã hết hạn. Bạn không thể liên hệ với nhà xuất bản."
-
-#: item-sidebar.php:56
-msgid "It's your own listing, you can't contact the publisher."
-msgstr "Đó là danh sách của riêng bạn, bạn không thể liên hệ với nhà xuất bản."
-
-#: item-sidebar.php:60
-msgid "You must log in or register a new account in order to contact the advertiser"
-msgstr "Bạn phải đăng nhập hoặc đăng ký tài khoản mới để liên hệ với nhà quảng cáo"
-
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "Đăng nhập"
-
-#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "Đăng ký tài khoản miễn phí"
-
-#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
-#: user-register.php:39
-msgid "Name"
-msgstr "Tên"
-
-#: item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "Tên: %s"
-
-#: item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "Email: %s"
-
-#: item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "Điện thoại: %s"
-
-#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
-#: item-send-friend.php:44
-msgid "Your name"
-msgstr "Tên bạn"
-
-#: item-sidebar.php:89
-msgid "Your e-mail address"
-msgstr "Địa chỉ email của bạn"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41
-msgid "Phone number"
-msgstr "Số điện thoại"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
-msgid "optional"
-msgstr "Tùy chọn"
-
-#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
-#: item-send-friend.php:78
-msgid "Message"
-msgstr "Thông điệp"
-
-#: item-sidebar.php:104
-msgid "Attachment"
-msgstr "Đính kèm"
-
-#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
-#: item-send-friend.php:87
-msgid "Send"
-msgstr "Gửi"
-
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "Bạn đã đăng ký cảnh báo thành công"
-
-#: alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "Có vấn đề được cảnh báo"
-
-#: alert-form.php:61
-msgid "Already subscribed to this search"
-msgstr "Đã đăng ký tìm kiếm này"
-
-#: alert-form.php:65
-msgid "Subscribe to this search"
-msgstr "Đăng ký tìm kiếm này"
-
-#: alert-form.php:80
-msgid "Subscribe now"
-msgstr "Đăng ký ngay"
-
-#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
-#: item.php:165
-msgid "Delete"
-msgstr "Xoá"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "Thôi"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Hình trước"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Hình kế tiếp"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "Đóng"
-
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "Tìm kiếm của bạn"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "Thành phố"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Chỉ Hiển thị"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "danh sách có hình ảnh"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Giá"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Phút"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Max"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Áp dụng"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Tinh chỉnh danh mục"
-
-#: loop-single-premium.php:46 loop-single.php:46 item.php:73
-msgid "Edit item"
-msgstr "Sửa mục"
-
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Hành động này không thể hoàn tác. Bạn chắc muốn tiếp tục?"
-
-#: loop-single-premium.php:51 loop-single.php:51
-msgid "Activate"
-msgstr "Kích hoạt"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Địa chỉ:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Địa phương:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "Mô tả người dùng"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "Danh sách mới nhất"
-
-#: main.php:38
-msgid "Latest Listings"
-msgstr "Danh sách mới nhất"
-
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "Không có danh sách có sẵn tại thời điểm này"
-
-#: main.php:45 search.php:80 admin/settings.php:60
-msgid "List"
-msgstr "Danh sách"
-
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Lưới"
-
-#: main.php:57
-msgid "See all listings"
-msgstr "Xem tất cả các danh sách"
-
-#: main.php:74 item.php:66
-msgid "Location"
-msgstr "Địa điểm"
-
-#: user-profile.php:32 user-profile.php:37 functions.php:445
-msgid "Update account"
-msgstr "Cập nhật tài khoản"
-
-#: user-profile.php:52
-msgid "User type"
-msgstr "Loại người dùng"
-
-#: user-profile.php:59
-msgid "Cell phone"
-msgstr "Điện thoại di động"
-
-#: user-profile.php:65
-msgid "Phone"
-msgstr "Điện thoại"
-
-#: user-profile.php:71 item-post.php:92
-msgid "Country"
-msgstr "Quốc gia"
-
-#: user-profile.php:77 item-post.php:98 item-post.php:124
-msgid "Region"
-msgstr "Vùng"
-
-#: user-profile.php:89
-msgid "City area"
-msgstr "Khu vực thành phố"
-
-#: user-profile.php:95 item-post.php:168
-msgid "Address"
-msgstr "Địa chỉ"
-
-#: user-profile.php:101
-msgid "Website"
-msgstr "Trang web"
-
-#: user-profile.php:107 item-post.php:71
-msgid "Description"
-msgstr "Mô tả"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "ví dụ: Lập trình viên"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Đăng một rao vặt"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "Chỉnh sửa rao vặt của bạn"
-
-#: functions.php:436 item-send-friend.php:31
-msgid "Send to a friend"
-msgstr "Gửi cho bạn bè"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Kết quả tìm kiếm"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Kết quả tìm kiếm: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Bảng điều khiển"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "Tiểu sử của %s"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "Tài khoản"
-
-#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
-msgid "Listings"
-msgstr "Rao vặt"
-
-#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
 msgid "Alerts"
 msgstr "Cảnh báo"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "Đổi địa chỉ email"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "Đổi mật khẩu"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Khôi phục mật khẩu"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Tạo tài khoản mới"
-
-#: functions.php:453 user-public-sidebar.php:26 footer.php:65
-msgid "Contact"
-msgstr "Liên hệ"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Hồ sơ"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Cập nhật thiết lập giao diện thành công"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Tải lên hình ảnh logo thành công"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Xảy ra lỗi, vui lòng thử lại"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "Hình ảnh logo đã bị loại bỏ"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "Không tìm thấy hình ảnh"
-
-#: functions.php:666 admin/header.php:29
-msgid "Header logo"
-msgstr "Logo đầu trang"
-
-#: functions.php:668 admin/settings.php:46
-msgid "Theme settings"
-msgstr "Thiết lập giao diện"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Tất cả các chuyên mục"
 
 #: user-alerts.php:39
 msgid "You do not have any alerts yet"
@@ -465,6 +37,45 @@ msgstr "Hành động này không thể hoàn tác. Bạn chắc muốn tiếp t
 msgid "Delete this alert"
 msgstr "Xóa cảnh báo này"
 
+#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
+msgid "Listings"
+msgstr "Rao vặt"
+
+#: item-send-friend.php:31 functions.php:436
+msgid "Send to a friend"
+msgstr "Gửi cho bạn bè"
+
+#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
+#: user-public-sidebar.php:33 contact.php:40
+msgid "Your name"
+msgstr "Tên bạn"
+
+#: item-send-friend.php:50 item.php:197
+msgid "Your e-mail"
+msgstr "E-mail của bạn"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "Tên của bạn anh"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "Địa chỉ email của bạn bè bạn"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Chủ đề (tùy chọn)"
+
+#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
+#: contact.php:60
+msgid "Message"
+msgstr "Thông điệp"
+
+#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
+#: user-public-sidebar.php:54 contact.php:68
+msgid "Send"
+msgstr "Gửi"
+
 #: item.php:59
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
@@ -474,6 +85,14 @@ msgstr "<strong class=\"publish\">Ngày đăng</strong>: %1$s"
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
 msgstr "<strong class=\"update\">Ngày sửa:</strong> %1$s"
+
+#: item.php:66 main.php:74
+msgid "Location"
+msgstr "Địa điểm"
+
+#: item.php:73 loop-single.php:46 loop-single-premium.php:46
+msgid "Edit item"
+msgstr "Sửa mục"
 
 #: item.php:85 item.php:92
 msgid "Image"
@@ -523,13 +142,14 @@ msgstr "bởi"
 msgid "Delete your comment"
 msgstr "Xóa nhận xét của bạn"
 
+#: item.php:165 common/head.php:25 loop-single.php:48
+#: loop-single-premium.php:48
+msgid "Delete"
+msgstr "Xoá"
+
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "Để lại bình luận của bạn (thư rác và tin nhắn xúc phạm sẽ bị xóa)"
-
-#: item.php:197 item-send-friend.php:50
-msgid "Your e-mail"
-msgstr "E-mail của bạn"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -539,11 +159,37 @@ msgstr "Tiêu đề"
 msgid "Comment"
 msgstr "Bình luận"
 
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
+msgid "Change username"
+msgstr "Đổi tên tài khoản"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Tài khoản: bắt buộc phải nhập"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Tên tài khoản được chấp nhận"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Tên tài khoản KHÔNG được chấp nhận"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Tài khoản"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "Cập nhật"
+
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Truy cập vào tài khoản của bạn"
 
-#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
 msgid "E-mail"
 msgstr "Email"
 
@@ -559,172 +205,241 @@ msgstr "Hãy nhớ đến tôi"
 msgid "Log in"
 msgstr "Đăng nhập"
 
+#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "Đăng ký tài khoản miễn phí"
+
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "Quên mật khẩu?"
 
-#: header.php:48 footer.php:35
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "Đánh dấu là..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "Đánh dấu tin rác"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "Đánh dấu là phân loại sai"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "Đánh dấu là trùng lặp"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "Đánh dấu là hết hạn"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "Đánh dấu là xúc phạm"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "Liên hệ người đăng"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "Danh sách đã hết hạn. Bạn không thể liên hệ với nhà xuất bản."
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "Đó là danh sách của riêng bạn, bạn không thể liên hệ với nhà xuất bản."
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "Bạn phải đăng nhập hoặc đăng ký tài khoản mới để liên hệ với nhà quảng cáo"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
+#: item-post.php:179
+msgid "Name"
+msgstr "Tên"
+
+#: item-sidebar.php:70
 #, php-format
-msgid "Hi %s"
-msgstr "Xin chào %s"
+msgid "Name: %s"
+msgstr "Tên: %s"
 
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "Tài khoản của tôi"
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "Email: %s"
 
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "Thoát"
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "Điện thoại: %s"
 
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "Phát hành quảng cáo của bạn miễn phí"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "Chọn một chuyên mục"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "Tìm kiếm"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "Thông tin chung"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "Chuyên mục"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "Vị trí niêm yết"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "Khu vực thành phố"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "Thông tin của người bán"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "Hiện e-mail trên trang danh sách"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "Xuất bản"
-
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
+#: item-sidebar.php:89
+msgid "Your e-mail address"
 msgstr "Địa chỉ email của bạn"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Đăng ký tài khoản miễn phí"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "Số điện thoại"
 
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Lặp lại mật khẩu"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "Tùy chọn"
 
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "Mật khẩu không trùng khớp"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "Đính kèm"
 
-#: user-register.php:73
-msgid "Create"
-msgstr "Tạo"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "Bạn đã đăng ký cảnh báo thành công"
 
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "Xin lỗi nhưng tôi không thể tìm thấy trang bạn đang tìm kiếm"
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "Địa chỉ email không chính xác"
 
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "Hãy để chúng tôi giúp bạn, chúng tôi đã có một vài lời khuyên để bạn tìm thấy nó."
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "Có vấn đề được cảnh báo"
 
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong></strong> tìm kiếm cho nó:"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "Đã đăng ký tìm kiếm này"
 
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>Nhìn</strong> cho nó trong các danh mục phổ biến nhất."
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "Đăng ký tìm kiếm này"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "Liên hệ với chúng tôi"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "Đăng ký ngay"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "Chủ đề"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Tìm kiếm của bạn"
 
-#: user-forgot_password.php:30 user-recover.php:30
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Thành phố"
+
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Chỉ Hiển thị"
+
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "danh sách có hình ảnh"
+
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Giá"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Phút"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Max"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Tinh chỉnh danh mục"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "Đổi email"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "E-mail hiện tại"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "E-mail mới"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "Email: yêu cầu nhập"
+
+#: user-recover.php:30 user-forgot_password.php:30
 msgid "Recover your password"
 msgstr "Khôi phục mật khẩu của bạn"
 
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Mật khẩu mới"
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "Gửi cho tôi mật khẩu mới"
 
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Lặp lại mật khẩu mới"
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "Cập nhật tài khoản"
 
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "Tên của bạn anh"
+#: user-profile.php:52
+msgid "User type"
+msgstr "Loại người dùng"
 
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "Địa chỉ email của bạn bè bạn"
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "Điện thoại di động"
 
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Chủ đề (tùy chọn)"
+#: user-profile.php:65
+msgid "Phone"
+msgstr "Điện thoại"
 
-#: user-items.php:41
-msgid "My listings"
-msgstr "Tin rao của tôi"
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "Quốc gia"
 
-#: user-items.php:43
-msgid "No listings have been added yet"
-msgstr "Chưa có danh sách nào được thêm vào"
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "Vùng"
 
-#: search.php:55
-msgid "Selected"
-msgstr "Đã chọn"
+#: user-profile.php:89
+msgid "City area"
+msgstr "Khu vực thành phố"
 
-#: search.php:56
-msgid "Nothing selected, input was"
-msgstr "Chưa chọn gì, đầu vào là"
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "Địa chỉ"
 
-#: search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "Không có kết quả nào phù hợp với \"%s\""
+#: user-profile.php:101
+msgid "Website"
+msgstr "Trang web"
 
-#: search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%1$d - %2$d của %3$d mẫu tin"
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "Mô tả"
 
-#: search.php:78
-msgid "Show filters"
-msgstr "Hiện bộ lọc"
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Danh sách mới nhất"
 
-#: search.php:85
-msgid "Sort by"
-msgstr "Sắp xếp theo"
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Không có danh sách có sẵn tại thời điểm này"
 
-#: search.php:121
-msgid "Premium listings"
-msgstr "Mẫu tin ưu tiên"
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Danh sách"
 
-#: search.php:142
-msgid "Other searches that may interest you"
-msgstr "Các tìm kiếm khác có thể khiến bạn quan tâm"
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Lưới"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Xem tất cả các danh sách"
+
+#: admin/header.php:29 functions.php:666
+msgid "Header logo"
+msgstr "Logo đầu trang"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -786,6 +501,10 @@ msgstr "Phong tục"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "Đóng góp"
+
+#: admin/settings.php:46 functions.php:668
+msgid "Theme settings"
+msgstr "Thiết lập giao diện"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -895,9 +614,200 @@ msgstr "Quảng cáo này sẽ được hiển thị ở thanh bên phải của
 msgid "Save changes"
 msgstr "Lưu các thay đổi"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Mật khẩu hiện tại"
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Đăng ký tài khoản miễn phí"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Lặp lại mật khẩu"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "Mật khẩu không trùng khớp"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "Tạo"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Thôi"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Hình trước"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Hình kế tiếp"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Đóng"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "ví dụ: Lập trình viên"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Đăng một rao vặt"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Chỉnh sửa rao vặt của bạn"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Kết quả tìm kiếm"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Kết quả tìm kiếm: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "Tiểu sử của %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Tài khoản"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Đổi địa chỉ email"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "Đổi mật khẩu"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Khôi phục mật khẩu"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Tạo tài khoản mới"
+
+#: functions.php:453 footer.php:65 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Hồ sơ"
+
+#: functions.php:516 user-sidebar.php:28
+msgid "Delete account"
+msgstr "Xoá tài khoản"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Cập nhật thiết lập giao diện thành công"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Tải lên hình ảnh logo thành công"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Xảy ra lỗi, vui lòng thử lại"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Hình ảnh logo đã bị loại bỏ"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Không tìm thấy hình ảnh"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Tất cả các chuyên mục"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Hành động này không thể hoàn tác. Bạn chắc muốn tiếp tục?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "Xin chào %s"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "Tài khoản của tôi"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "Thoát"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "Phát hành quảng cáo của bạn miễn phí"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "Chọn một chuyên mục"
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Địa chỉ:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Địa phương:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Mô tả người dùng"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "Danh sách mới nhất"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Xin lỗi nhưng tôi không thể tìm thấy trang bạn đang tìm kiếm"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "Hãy để chúng tôi giúp bạn, chúng tôi đã có một vài lời khuyên để bạn tìm thấy nó."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong></strong> tìm kiếm cho nó:"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>Nhìn</strong> cho nó trong các danh mục phổ biến nhất."
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Menu Hiển thị"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Bạn có chắc chắn muốn xóa tài khoản của mình không?"
 
 #: footer.php:69
 #, php-format
@@ -908,7 +818,97 @@ msgstr "Trang này sử dụng mã nguồn <a title=\"Osclass web\" href=\"%s\">
 msgid "Language:"
 msgstr "Ngôn ngữ:"
 
-#: user-recover.php:45
-msgid "Send me a new password"
-msgstr "Gửi cho tôi mật khẩu mới"
+#: item-post.php:57
+msgid "General Information"
+msgstr "Thông tin chung"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "Chuyên mục"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "Vị trí niêm yết"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "Khu vực thành phố"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "Thông tin của người bán"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "Hiện e-mail trên trang danh sách"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "Xuất bản"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Mật khẩu mới"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Lặp lại mật khẩu mới"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "Tin rao của tôi"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "Chưa có danh sách nào được thêm vào"
+
+#: search.php:55
+msgid "Selected"
+msgstr "Đã chọn"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "Chưa chọn gì, đầu vào là"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "Không có kết quả nào phù hợp với \"%s\""
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %2$d của %3$d mẫu tin"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "Hiện bộ lọc"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "Sắp xếp theo"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "Mẫu tin ưu tiên"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "Các tìm kiếm khác có thể khiến bạn quan tâm"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "Địa chỉ email của bạn"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Mật khẩu hiện tại"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Liên hệ với chúng tôi"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Chủ đề"
 
