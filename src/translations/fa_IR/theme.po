@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:25\n"
+"POT-Creation-Date: 2021-11-05 09:41+0000\n"
+"PO-Revision-Date: 2021-11-05 09:46\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -17,437 +17,9 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "تغییر نام کاربری"
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "نام کاربری: این فیلد لازم است"
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "نام کاربری در دسترس است."
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "نام کاربری در دسترس نیست"
-
-#: user-change_username.php:94
-msgid "Username"
-msgstr "نام کاربری"
-
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "بروزرسانی"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "تغییر ایمیل"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "ایمیل فعلی"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "ایمیل جدید"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "ایمیل: این فیلد لازم است"
-
-#: user-change_email.php:77 alert-form.php:28
-msgid "Invalid email address"
-msgstr "ایمیل نامعتبر است"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "منوی نمایش"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "حذف حساب"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "آیا مطمئن هستید که می خواهید حساب خود را حذف کنید؟"
-
-#: item-sidebar.php:30
-msgid "Mark as..."
-msgstr "علامت گذاری به عنوان..."
-
-#: item-sidebar.php:31
-msgid "Mark as spam"
-msgstr "نشانه‌گذاری به عنوان هرزنامه"
-
-#: item-sidebar.php:32
-msgid "Mark as misclassified"
-msgstr "علامت گذاری به عنوان اشتباه طبقه بندی شده"
-
-#: item-sidebar.php:33
-msgid "Mark as duplicated"
-msgstr "علامت گذاری به عنوان تکراری"
-
-#: item-sidebar.php:34
-msgid "Mark as expired"
-msgstr "علامت گذاری به عنوان منقضی شده"
-
-#: item-sidebar.php:35
-msgid "Mark as offensive"
-msgstr "علامت گذاری به عنوان توهین آمیز"
-
-#: item-sidebar.php:49 functions.php:437
-msgid "Contact publisher"
-msgstr "تماس با ناشر"
-
-#: item-sidebar.php:52
-msgid "The listing is expired. You can't contact the publisher."
-msgstr "لیست منقضی شده است. شما نمی توانید با ناشر تماس بگیرید."
-
-#: item-sidebar.php:56
-msgid "It's your own listing, you can't contact the publisher."
-msgstr "این لیست خود شماست، شما نمی توانید با ناشر تماس بگیرید."
-
-#: item-sidebar.php:60
-msgid "You must log in or register a new account in order to contact the advertiser"
-msgstr "شما باید وارد سیستم شوید و یا یک حساب جدید ثبت نام کنید تا با تبلیغ کننده تماس بگیرید"
-
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "ورود"
-
-#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "ثبت نام برای یک حساب رایگان"
-
-#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
-#: user-register.php:39
-msgid "Name"
-msgstr "نام"
-
-#: item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "نام: %s"
-
-#: item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "ایمیل: %s"
-
-#: item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "تلفن: %s"
-
-#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
-#: item-send-friend.php:44
-msgid "Your name"
-msgstr "اسم شما"
-
-#: item-sidebar.php:89
-msgid "Your e-mail address"
-msgstr "آدرس ایمیل شما"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41
-msgid "Phone number"
-msgstr "شماره تلفن"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
-msgid "optional"
-msgstr "اختیاری"
-
-#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
-#: item-send-friend.php:78
-msgid "Message"
-msgstr "پیام"
-
-#: item-sidebar.php:104
-msgid "Attachment"
-msgstr "پیوست"
-
-#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
-#: item-send-friend.php:87
-msgid "Send"
-msgstr "ارسال"
-
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "اشتراک شما در این اعلامیه با موفقیت انجام شد"
-
-#: alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "مشکلی در اطلاعیه وجود داشت"
-
-#: alert-form.php:61
-msgid "Already subscribed to this search"
-msgstr "در حال حاضر مشترک این جستجو"
-
-#: alert-form.php:65
-msgid "Subscribe to this search"
-msgstr "اشتراک در این جستجو"
-
-#: alert-form.php:80
-msgid "Subscribe now"
-msgstr "هم اکنون مشترک شوید"
-
-#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
-#: item.php:165
-msgid "Delete"
-msgstr "حذف"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "لغو"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "تصویر قبلی"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "تصویر بعدی"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "بستن"
-
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "جستجوی شما"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "شهر"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "فقط نشون بده"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "لیست با تصاویر"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "قيمت"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "دقیقه"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "حداکثر"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "اعمال کردن"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "رده پالایش"
-
-#: loop-single-premium.php:46 loop-single.php:46 item.php:73
-msgid "Edit item"
-msgstr "ویرایش آیتم"
-
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "این اقدام قابل بازگرداندن نیست. آیا مطمئن هستید که می‌خواهید ادامه دهید؟"
-
-#: loop-single-premium.php:51 loop-single.php:51
-msgid "Activate"
-msgstr "فعال‌سازی"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>آدرس:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>موقعیت:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "توضیحات کاربر"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "آخرین لیست ها"
-
-#: main.php:38
-msgid "Latest Listings"
-msgstr "آخرین لیست ها"
-
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "لیست های موجود در این لحظه وجود ندارد"
-
-#: main.php:45 search.php:80 admin/settings.php:60
-msgid "List"
-msgstr "لیست"
-
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "شبکه"
-
-#: main.php:57
-msgid "See all listings"
-msgstr "همه لیست ها را ببینید"
-
-#: main.php:74 item.php:66
-msgid "Location"
-msgstr "موقعیت"
-
-#: user-profile.php:32 user-profile.php:37 functions.php:445
-msgid "Update account"
-msgstr "بروز رسانی حساب"
-
-#: user-profile.php:52
-msgid "User type"
-msgstr "نوع کاربر"
-
-#: user-profile.php:59
-msgid "Cell phone"
-msgstr "تلفن همراه"
-
-#: user-profile.php:65
-msgid "Phone"
-msgstr "تلفن"
-
-#: user-profile.php:71 item-post.php:92
-msgid "Country"
-msgstr "کشور"
-
-#: user-profile.php:77 item-post.php:98 item-post.php:124
-msgid "Region"
-msgstr "منطقه"
-
-#: user-profile.php:89
-msgid "City area"
-msgstr "منطقه شهر"
-
-#: user-profile.php:95 item-post.php:168
-msgid "Address"
-msgstr "آدرس"
-
-#: user-profile.php:101
-msgid "Website"
-msgstr "وب سایت"
-
-#: user-profile.php:107 item-post.php:71
-msgid "Description"
-msgstr "توضیح"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "به عنوان مثال: برنامه نویس"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "انتشار یک آگهی"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "ویرایش آگهی شما"
-
-#: functions.php:436 item-send-friend.php:31
-msgid "Send to a friend"
-msgstr "ارسال به دوست"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "نتایج جستجو"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "نتایج جستجو: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "پیشخوان"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "پروفایل %s"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "حساب کاربری"
-
-#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
-msgid "Listings"
-msgstr "آگهی‌ها"
-
-#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
 msgid "Alerts"
 msgstr "هشدارها"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "تغییر ایمیل"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "تغییر رمز عبور"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "بازیابی رمز عبور"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "ایجاد یک حساب جدید"
-
-#: functions.php:453 user-public-sidebar.php:26 footer.php:65
-msgid "Contact"
-msgstr "تماس با ما"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "مشخصات عمومی"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "تنظیمات پوسته به درستی بروزرسانی شد."
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "تصویر لوگو به درستی بارگذاری شد"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "خطایی رخ داده است، لطفا دوباره سعی کنید."
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "تصویر لوگو پاک شد."
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "تصویر یافت نشد"
-
-#: functions.php:666 admin/header.php:29
-msgid "Header logo"
-msgstr "لوگوی هدر"
-
-#: functions.php:668 admin/settings.php:46
-msgid "Theme settings"
-msgstr "تنظیمات پوسته"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "تمام دسته ها"
 
 #: user-alerts.php:39
 msgid "You do not have any alerts yet"
@@ -465,6 +37,45 @@ msgstr "این اقدام قابل بازگرداندن نیست. آیا مطم�
 msgid "Delete this alert"
 msgstr "حذف این هشدار"
 
+#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
+msgid "Listings"
+msgstr "آگهی‌ها"
+
+#: item-send-friend.php:31 functions.php:436
+msgid "Send to a friend"
+msgstr "ارسال به دوست"
+
+#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
+#: user-public-sidebar.php:33 contact.php:40
+msgid "Your name"
+msgstr "اسم شما"
+
+#: item-send-friend.php:50 item.php:197
+msgid "Your e-mail"
+msgstr "ایمیل شما"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "اسم دوستت"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "آدرس ایمیل دوست شما"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "موضوع (اختیاری)"
+
+#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
+#: contact.php:60
+msgid "Message"
+msgstr "پیام"
+
+#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
+#: user-public-sidebar.php:54 contact.php:68
+msgid "Send"
+msgstr "ارسال"
+
 #: item.php:59
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
@@ -474,6 +85,14 @@ msgstr "<strong class=\"publish\">تاریخ انتشار</strong>: %1$s"
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
 msgstr "<strong class=\"update\">تاریخ بروزرسانی:</strong> %1$s"
+
+#: item.php:66 main.php:74
+msgid "Location"
+msgstr "موقعیت"
+
+#: item.php:73 loop-single.php:46 loop-single-premium.php:46
+msgid "Edit item"
+msgstr "ویرایش آیتم"
 
 #: item.php:85 item.php:92
 msgid "Image"
@@ -523,13 +142,14 @@ msgstr "توسط"
 msgid "Delete your comment"
 msgstr "نظر خود را حذف کنید"
 
+#: item.php:165 common/head.php:25 loop-single.php:48
+#: loop-single-premium.php:48
+msgid "Delete"
+msgstr "حذف"
+
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "نظر خود را بگذارید (هرزنامه ها و پیام های توهین آمیز حذف خواهند شد)"
-
-#: item.php:197 item-send-friend.php:50
-msgid "Your e-mail"
-msgstr "ایمیل شما"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -539,11 +159,37 @@ msgstr "عنوان"
 msgid "Comment"
 msgstr "دیدگاه"
 
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
+msgid "Change username"
+msgstr "تغییر نام کاربری"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "نام کاربری: این فیلد لازم است"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "نام کاربری در دسترس است."
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "نام کاربری در دسترس نیست"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "نام کاربری"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "بروزرسانی"
+
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "دسترسی به حساب شما"
 
-#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
 msgid "E-mail"
 msgstr "ایمیل"
 
@@ -559,172 +205,241 @@ msgstr "منو يادت باشه"
 msgid "Log in"
 msgstr "ورود"
 
+#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "ثبت نام برای یک حساب رایگان"
+
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "رمز عبور را فراموش کرده اید؟"
 
-#: header.php:48 footer.php:35
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "علامت گذاری به عنوان..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "نشانه‌گذاری به عنوان هرزنامه"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "علامت گذاری به عنوان اشتباه طبقه بندی شده"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "علامت گذاری به عنوان تکراری"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "علامت گذاری به عنوان منقضی شده"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "علامت گذاری به عنوان توهین آمیز"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "تماس با ناشر"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "لیست منقضی شده است. شما نمی توانید با ناشر تماس بگیرید."
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "این لیست خود شماست، شما نمی توانید با ناشر تماس بگیرید."
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "شما باید وارد سیستم شوید و یا یک حساب جدید ثبت نام کنید تا با تبلیغ کننده تماس بگیرید"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "ورود"
+
+#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
+#: item-post.php:179
+msgid "Name"
+msgstr "نام"
+
+#: item-sidebar.php:70
 #, php-format
-msgid "Hi %s"
-msgstr "درود %s"
+msgid "Name: %s"
+msgstr "نام: %s"
 
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "حساب من"
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "ایمیل: %s"
 
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "خروج"
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "تلفن: %s"
 
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "آگهی خود را به صورت رایگان منتشر کنید"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "انتخاب یک دسته"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "جستجو"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "اطلاعات عمومی"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "دسته"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "فهرست مکان"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "مساحت شهر"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "اطلاعات فروشنده"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "نمایش ایمیل در صفحه لیست"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "انتشار"
-
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
+#: item-sidebar.php:89
+msgid "Your e-mail address"
 msgstr "آدرس ایمیل شما"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "ثبت نام یک حساب به صورت رایگان"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "شماره تلفن"
 
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "تکرار رمز عبور"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "اختیاری"
 
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "رمزعبورها مطابقت ندارند"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "پیوست"
 
-#: user-register.php:73
-msgid "Create"
-msgstr "ایجاد"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "اشتراک شما در این اعلامیه با موفقیت انجام شد"
 
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "ببخشید ولی من نمیتونم صفحه ای که دنبالش میگردی رو پیدا کنم"
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "ایمیل نامعتبر است"
 
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "اجازه دهید ما به شما کمک کند، ما چند راهنمایی برای شما برای پیدا کردن آن."
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "مشکلی در اطلاعیه وجود داشت"
 
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>جستجو</strong> برای آن:"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "در حال حاضر مشترک این جستجو"
 
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>نگاه</strong> برای آن در رده های محبوب ترین."
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "اشتراک در این جستجو"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "با ما تماس بگیرید"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "هم اکنون مشترک شوید"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "موضوع"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "جستجوی شما"
 
-#: user-forgot_password.php:30 user-recover.php:30
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "شهر"
+
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "فقط نشون بده"
+
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "لیست با تصاویر"
+
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "قيمت"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "دقیقه"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "حداکثر"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "اعمال کردن"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "رده پالایش"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "تغییر ایمیل"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "ایمیل فعلی"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "ایمیل جدید"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "ایمیل: این فیلد لازم است"
+
+#: user-recover.php:30 user-forgot_password.php:30
 msgid "Recover your password"
 msgstr "بازیابی رمزعبور شما"
 
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "رمز عبور جدید"
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "یک رمز عبور جدید برایم بفرستید"
 
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "تکرار رمز عبور جدید"
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "بروز رسانی حساب"
 
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "اسم دوستت"
+#: user-profile.php:52
+msgid "User type"
+msgstr "نوع کاربر"
 
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "آدرس ایمیل دوست شما"
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "تلفن همراه"
 
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "موضوع (اختیاری)"
+#: user-profile.php:65
+msgid "Phone"
+msgstr "تلفن"
 
-#: user-items.php:41
-msgid "My listings"
-msgstr "آگهی‌های من"
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "کشور"
 
-#: user-items.php:43
-msgid "No listings have been added yet"
-msgstr "هنوز هیچ فهرستی اضافه نشده است"
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "منطقه"
 
-#: search.php:55
-msgid "Selected"
-msgstr "انتخاب شده"
+#: user-profile.php:89
+msgid "City area"
+msgstr "منطقه شهر"
 
-#: search.php:56
-msgid "Nothing selected, input was"
-msgstr "هیچ چیز انتخاب نشده، ورودی بود"
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "آدرس"
 
-#: search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "هیچ نتیجه‌ای مطابق با \"%s\" نیست"
+#: user-profile.php:101
+msgid "Website"
+msgstr "وب سایت"
 
-#: search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%1$d - %2$d از %3$d لیست"
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "توضیح"
 
-#: search.php:78
-msgid "Show filters"
-msgstr "نمایش فیلترها"
+#: main.php:38
+msgid "Latest Listings"
+msgstr "آخرین لیست ها"
 
-#: search.php:85
-msgid "Sort by"
-msgstr "مرتب سازی بر اساس"
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "لیست های موجود در این لحظه وجود ندارد"
 
-#: search.php:121
-msgid "Premium listings"
-msgstr "لیست حق بیمه"
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "لیست"
 
-#: search.php:142
-msgid "Other searches that may interest you"
-msgstr "جستجوهای دیگری که ممکن است به شما علاقه مند شوند"
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "شبکه"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "همه لیست ها را ببینید"
+
+#: admin/header.php:29 functions.php:666
+msgid "Header logo"
+msgstr "لوگوی هدر"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -786,6 +501,10 @@ msgstr "سفارشی"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "اهدا"
+
+#: admin/settings.php:46 functions.php:668
+msgid "Theme settings"
+msgstr "تنظیمات پوسته"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -895,9 +614,200 @@ msgstr "این آگهی در نوار سمت راست وب سایت شما، د�
 msgid "Save changes"
 msgstr "ذخیره تغییرات"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "رمز عبور فعلی"
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "ثبت نام یک حساب به صورت رایگان"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "تکرار رمز عبور"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "رمزعبورها مطابقت ندارند"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "ایجاد"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "لغو"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "تصویر قبلی"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "تصویر بعدی"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "بستن"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "به عنوان مثال: برنامه نویس"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "انتشار یک آگهی"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "ویرایش آگهی شما"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "نتایج جستجو"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "نتایج جستجو: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "پیشخوان"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "پروفایل %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "حساب کاربری"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "تغییر ایمیل"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "تغییر رمز عبور"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "بازیابی رمز عبور"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "ایجاد یک حساب جدید"
+
+#: functions.php:453 footer.php:65 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "تماس با ما"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "مشخصات عمومی"
+
+#: functions.php:516 user-sidebar.php:28
+msgid "Delete account"
+msgstr "حذف حساب"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "تنظیمات پوسته به درستی بروزرسانی شد."
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "تصویر لوگو به درستی بارگذاری شد"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "خطایی رخ داده است، لطفا دوباره سعی کنید."
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "تصویر لوگو پاک شد."
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "تصویر یافت نشد"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "تمام دسته ها"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "این اقدام قابل بازگرداندن نیست. آیا مطمئن هستید که می‌خواهید ادامه دهید؟"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "فعال‌سازی"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "درود %s"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "حساب من"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "خروج"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "آگهی خود را به صورت رایگان منتشر کنید"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "انتخاب یک دسته"
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "جستجو"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>آدرس:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>موقعیت:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "توضیحات کاربر"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "آخرین لیست ها"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "ببخشید ولی من نمیتونم صفحه ای که دنبالش میگردی رو پیدا کنم"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "اجازه دهید ما به شما کمک کند، ما چند راهنمایی برای شما برای پیدا کردن آن."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>جستجو</strong> برای آن:"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>نگاه</strong> برای آن در رده های محبوب ترین."
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "منوی نمایش"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "آیا مطمئن هستید که می خواهید حساب خود را حذف کنید؟"
 
 #: footer.php:69
 #, php-format
@@ -908,7 +818,97 @@ msgstr "این وب سایت با افتخار با استفاده از <a title
 msgid "Language:"
 msgstr "زبان:"
 
-#: user-recover.php:45
-msgid "Send me a new password"
-msgstr "یک رمز عبور جدید برایم بفرستید"
+#: item-post.php:57
+msgid "General Information"
+msgstr "اطلاعات عمومی"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "دسته"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "فهرست مکان"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "مساحت شهر"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "اطلاعات فروشنده"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "نمایش ایمیل در صفحه لیست"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "انتشار"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "رمز عبور جدید"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "تکرار رمز عبور جدید"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "آگهی‌های من"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "هنوز هیچ فهرستی اضافه نشده است"
+
+#: search.php:55
+msgid "Selected"
+msgstr "انتخاب شده"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "هیچ چیز انتخاب نشده، ورودی بود"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "هیچ نتیجه‌ای مطابق با \"%s\" نیست"
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %2$d از %3$d لیست"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "نمایش فیلترها"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "مرتب سازی بر اساس"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "لیست حق بیمه"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "جستجوهای دیگری که ممکن است به شما علاقه مند شوند"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "آدرس ایمیل شما"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "رمز عبور فعلی"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "با ما تماس بگیرید"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "موضوع"
 
