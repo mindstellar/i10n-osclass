@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:25\n"
+"POT-Creation-Date: 2021-11-05 09:41+0000\n"
+"PO-Revision-Date: 2021-11-05 09:46\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -17,437 +17,9 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "Alterar nome de usuário"
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Usuário: Este campo é obrigatório"
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "O nome de usuário está disponível"
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "O nome de usuário não está disponível"
-
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Nome de usuário"
-
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "Atualizar"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "Alterar e-mail"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "E-mail atual"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "Novo e-mail"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "Email: Este campo é obrigatório"
-
-#: user-change_email.php:77 alert-form.php:28
-msgid "Invalid email address"
-msgstr "Endereço de E-mail Inválido"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Exibir menu"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "Excluir conta"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Tem certeza que deseja excluir sua conta?"
-
-#: item-sidebar.php:30
-msgid "Mark as..."
-msgstr "Marcar como..."
-
-#: item-sidebar.php:31
-msgid "Mark as spam"
-msgstr "Marcar como SPAM"
-
-#: item-sidebar.php:32
-msgid "Mark as misclassified"
-msgstr "Marcar como não classificado"
-
-#: item-sidebar.php:33
-msgid "Mark as duplicated"
-msgstr "Marcar como duplicado"
-
-#: item-sidebar.php:34
-msgid "Mark as expired"
-msgstr "Marcar como expirado"
-
-#: item-sidebar.php:35
-msgid "Mark as offensive"
-msgstr "Marcar como ofensivo"
-
-#: item-sidebar.php:49 functions.php:437
-msgid "Contact publisher"
-msgstr "Fale com o anunciante"
-
-#: item-sidebar.php:52
-msgid "The listing is expired. You can't contact the publisher."
-msgstr "O anúncio está expirado. Você não pode entrar em contato com o editor."
-
-#: item-sidebar.php:56
-msgid "It's your own listing, you can't contact the publisher."
-msgstr "Este é o seu próprio anúncio, você não pode entrar em contato com o editor."
-
-#: item-sidebar.php:60
-msgid "You must log in or register a new account in order to contact the advertiser"
-msgstr "Você deve entrar ou registrar uma nova conta para entrar em contato com o anunciante"
-
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "Entrar"
-
-#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "Registre-se para uma conta gratuita"
-
-#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
-#: user-register.php:39
-msgid "Name"
-msgstr "Nome"
-
-#: item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "Nome: %s"
-
-#: item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "E-mail: %s"
-
-#: item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "Telefone: %s"
-
-#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
-#: item-send-friend.php:44
-msgid "Your name"
-msgstr "Seu Nome"
-
-#: item-sidebar.php:89
-msgid "Your e-mail address"
-msgstr "Seu endereço de e-mail"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41
-msgid "Phone number"
-msgstr "Número de telefone"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
-msgid "optional"
-msgstr "opcional"
-
-#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
-#: item-send-friend.php:78
-msgid "Message"
-msgstr "mensagem"
-
-#: item-sidebar.php:104
-msgid "Attachment"
-msgstr "Anexo"
-
-#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
-#: item-send-friend.php:87
-msgid "Send"
-msgstr "Mandar"
-
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "Você subscreveu com sucesso o alerta"
-
-#: alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "Houve um problema com o alerta"
-
-#: alert-form.php:61
-msgid "Already subscribed to this search"
-msgstr "Já inscrito para esta pesquisa"
-
-#: alert-form.php:65
-msgid "Subscribe to this search"
-msgstr "Inscrever-se para esta busca"
-
-#: alert-form.php:80
-msgid "Subscribe now"
-msgstr "Inscreva-se agora"
-
-#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
-#: item.php:165
-msgid "Delete"
-msgstr "Apagar"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Imagem anterior"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Próxima imagem"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "Fechar"
-
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "Sua pesquisa"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "Cidade"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Mostrar apenas"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "anúncios com fotos"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Preço"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Mínimo"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Máximo"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Aplicar"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Refinar categoria"
-
-#: loop-single-premium.php:46 loop-single.php:46 item.php:73
-msgid "Edit item"
-msgstr "Editar item"
-
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Essa ação não pode ser desfeita. Tem certeza de que deseja continuar?"
-
-#: loop-single-premium.php:51 loop-single.php:51
-msgid "Activate"
-msgstr "Ativar"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Endereço:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Localização:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "Descrição do usuário"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "Últimos anúncios"
-
-#: main.php:38
-msgid "Latest Listings"
-msgstr "Últimas listagens"
-
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "Não há anúncios disponíveis neste momento"
-
-#: main.php:45 search.php:80 admin/settings.php:60
-msgid "List"
-msgstr "Lista"
-
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Grade"
-
-#: main.php:57
-msgid "See all listings"
-msgstr "Ver todos os anúncios"
-
-#: main.php:74 item.php:66
-msgid "Location"
-msgstr "Localização"
-
-#: user-profile.php:32 user-profile.php:37 functions.php:445
-msgid "Update account"
-msgstr "Atualize conta"
-
-#: user-profile.php:52
-msgid "User type"
-msgstr "Tipo de usuário"
-
-#: user-profile.php:59
-msgid "Cell phone"
-msgstr "Celular"
-
-#: user-profile.php:65
-msgid "Phone"
-msgstr "Telefone"
-
-#: user-profile.php:71 item-post.php:92
-msgid "Country"
-msgstr "País"
-
-#: user-profile.php:77 item-post.php:98 item-post.php:124
-msgid "Region"
-msgstr "Região"
-
-#: user-profile.php:89
-msgid "City area"
-msgstr "Área da cidade"
-
-#: user-profile.php:95 item-post.php:168
-msgid "Address"
-msgstr "Endereço"
-
-#: user-profile.php:101
-msgid "Website"
-msgstr "Site"
-
-#: user-profile.php:107 item-post.php:71
-msgid "Description"
-msgstr "Descrição"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "ie. Programador PHP"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Publicar o Anúncio"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "Edite sua lista"
-
-#: functions.php:436 item-send-friend.php:31
-msgid "Send to a friend"
-msgstr "Enviar para amigos"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Resultados da pesquisa"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Resultados da pesquisa:%s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Painel"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%s do perfil"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "Conta"
-
-#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
-msgid "Listings"
-msgstr "Anúncios"
-
-#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
 msgid "Alerts"
 msgstr "Alertas"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "Alterar e-mail"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "Alterar senha"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Recuperar senha"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Criar uma nova conta"
-
-#: functions.php:453 user-public-sidebar.php:26 footer.php:65
-msgid "Contact"
-msgstr "Contato"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Perfil público"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Configurações de tema atualizadas corretamente"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "A imagem do logotipo foi carregado corretamente"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Ocorreu um erro, por favor tente novamente"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "A imagem do logotipo foi removido"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "Imagem não encontrada"
-
-#: functions.php:666 admin/header.php:29
-msgid "Header logo"
-msgstr "Logo do Cabeçalho"
-
-#: functions.php:668 admin/settings.php:46
-msgid "Theme settings"
-msgstr "Configurações do Tema"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Todas as categorias"
 
 #: user-alerts.php:39
 msgid "You do not have any alerts yet"
@@ -465,6 +37,45 @@ msgstr "Essa ação não pode ser desfeita. Tem certeza de que deseja continuar?
 msgid "Delete this alert"
 msgstr "Apagar este alerta"
 
+#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
+msgid "Listings"
+msgstr "Anúncios"
+
+#: item-send-friend.php:31 functions.php:436
+msgid "Send to a friend"
+msgstr "Enviar para amigos"
+
+#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
+#: user-public-sidebar.php:33 contact.php:40
+msgid "Your name"
+msgstr "Seu Nome"
+
+#: item-send-friend.php:50 item.php:197
+msgid "Your e-mail"
+msgstr "Seu e-mail"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "Nome do seu amigo"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "E-mail do seu amigo"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Assunto (opcional)"
+
+#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
+#: contact.php:60
+msgid "Message"
+msgstr "mensagem"
+
+#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
+#: user-public-sidebar.php:54 contact.php:68
+msgid "Send"
+msgstr "Mandar"
+
 #: item.php:59
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
@@ -474,6 +85,14 @@ msgstr "<strong class=\"publish\">Data de publicação</strong>: %1$s"
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
 msgstr "<strong class=\"update\">Data de modificação:</strong> %1$s"
+
+#: item.php:66 main.php:74
+msgid "Location"
+msgstr "Localização"
+
+#: item.php:73 loop-single.php:46 loop-single-premium.php:46
+msgid "Edit item"
+msgstr "Editar item"
 
 #: item.php:85 item.php:92
 msgid "Image"
@@ -523,13 +142,14 @@ msgstr "Por"
 msgid "Delete your comment"
 msgstr "Excluir seu comentário"
 
+#: item.php:165 common/head.php:25 loop-single.php:48
+#: loop-single-premium.php:48
+msgid "Delete"
+msgstr "Apagar"
+
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "Deixe seu comentário (mensagens de spam e ofensivas serão removidas)"
-
-#: item.php:197 item-send-friend.php:50
-msgid "Your e-mail"
-msgstr "Seu e-mail"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -539,11 +159,37 @@ msgstr "Título"
 msgid "Comment"
 msgstr "Comentário"
 
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
+msgid "Change username"
+msgstr "Alterar nome de usuário"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Usuário: Este campo é obrigatório"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "O nome de usuário está disponível"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "O nome de usuário não está disponível"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "Atualizar"
+
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Acesso à sua conta"
 
-#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
 msgid "E-mail"
 msgstr "E-mail"
 
@@ -559,172 +205,241 @@ msgstr "Lembre-se de mim."
 msgid "Log in"
 msgstr "Entrar"
 
+#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "Registre-se para uma conta gratuita"
+
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "Esqueceu a senha?"
 
-#: header.php:48 footer.php:35
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "Marcar como..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "Marcar como SPAM"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "Marcar como não classificado"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "Marcar como duplicado"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "Marcar como expirado"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "Marcar como ofensivo"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "Fale com o anunciante"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "O anúncio está expirado. Você não pode entrar em contato com o editor."
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "Este é o seu próprio anúncio, você não pode entrar em contato com o editor."
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "Você deve entrar ou registrar uma nova conta para entrar em contato com o anunciante"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "Entrar"
+
+#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
+#: item-post.php:179
+msgid "Name"
+msgstr "Nome"
+
+#: item-sidebar.php:70
 #, php-format
-msgid "Hi %s"
-msgstr "Olá %s"
+msgid "Name: %s"
+msgstr "Nome: %s"
 
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "Minha conta"
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
 
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "Sair"
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "Telefone: %s"
 
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "Publique gratuitamente o seu anúncio"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "Selecione uma Categoria"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "Pesquisa"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "Informações Básicas"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "Categoria"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "Localização do anúncio"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "Área da cidade"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "Informações do vendedor"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "Mostrar e-mail na página do anúncio"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "Publicar"
-
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
+#: item-sidebar.php:89
+msgid "Your e-mail address"
 msgstr "Seu endereço de e-mail"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Registre uma conta gratuitamente"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "Número de telefone"
 
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Repita a senha"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "opcional"
 
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "Senhas não coincidem"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "Anexo"
 
-#: user-register.php:73
-msgid "Create"
-msgstr "Crio"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "Você subscreveu com sucesso o alerta"
 
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "Desculpe, mas não consigo encontrar a página que você está procurando"
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "Endereço de E-mail Inválido"
 
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "Vamos ajudá-lo, temos algumas dicas para o encontrar."
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "Houve um problema com o alerta"
 
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>procure</strong> por ele:"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "Já inscrito para esta pesquisa"
 
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>Procure</strong> por ele nas categorias mais populares."
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "Inscrever-se para esta busca"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "Entre em contato"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "Inscreva-se agora"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "Cargo"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Sua pesquisa"
 
-#: user-forgot_password.php:30 user-recover.php:30
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Cidade"
+
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Mostrar apenas"
+
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "anúncios com fotos"
+
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Preço"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Mínimo"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Máximo"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Aplicar"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Refinar categoria"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "Alterar e-mail"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "E-mail atual"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Novo e-mail"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "Email: Este campo é obrigatório"
+
+#: user-recover.php:30 user-forgot_password.php:30
 msgid "Recover your password"
 msgstr "Recuperar a sua senha"
 
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Nova senha"
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "Envie-me uma nova senha"
 
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Repita nova senha"
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "Atualize conta"
 
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "Nome do seu amigo"
+#: user-profile.php:52
+msgid "User type"
+msgstr "Tipo de usuário"
 
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "E-mail do seu amigo"
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "Celular"
 
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Assunto (opcional)"
+#: user-profile.php:65
+msgid "Phone"
+msgstr "Telefone"
 
-#: user-items.php:41
-msgid "My listings"
-msgstr "Os meus anúncios"
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "País"
 
-#: user-items.php:43
-msgid "No listings have been added yet"
-msgstr "Nenhum anúncio foi adicionado ainda"
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "Região"
 
-#: search.php:55
-msgid "Selected"
-msgstr "Selecionado"
+#: user-profile.php:89
+msgid "City area"
+msgstr "Área da cidade"
 
-#: search.php:56
-msgid "Nothing selected, input was"
-msgstr "Nada selecionado, a entrada foi"
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "Endereço"
 
-#: search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "Não existem resultados que correspondem à \"%s\""
+#: user-profile.php:101
+msgid "Website"
+msgstr "Site"
 
-#: search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%1$d - %2$d de %3$d anúncios"
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "Descrição"
 
-#: search.php:78
-msgid "Show filters"
-msgstr "Mostrar filtros"
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Últimas listagens"
 
-#: search.php:85
-msgid "Sort by"
-msgstr "Classificar por"
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Não há anúncios disponíveis neste momento"
 
-#: search.php:121
-msgid "Premium listings"
-msgstr "Anúncios premium"
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Lista"
 
-#: search.php:142
-msgid "Other searches that may interest you"
-msgstr "Outras pesquisas que podem lhe interessar"
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Grade"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Ver todos os anúncios"
+
+#: admin/header.php:29 functions.php:666
+msgid "Header logo"
+msgstr "Logo do Cabeçalho"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -786,6 +501,10 @@ msgstr "Personalizado"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "Doar"
+
+#: admin/settings.php:46 functions.php:668
+msgid "Theme settings"
+msgstr "Configurações do Tema"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -895,9 +614,200 @@ msgstr "Este anúncio será exibido na barra lateral direita do seu site, na pá
 msgid "Save changes"
 msgstr "Salve as mudanças"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Senha atual"
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Registre uma conta gratuitamente"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Repita a senha"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "Senhas não coincidem"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "Crio"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Imagem anterior"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Próxima imagem"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Fechar"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "ie. Programador PHP"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Publicar o Anúncio"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Edite sua lista"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Resultados da pesquisa"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Resultados da pesquisa:%s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Painel"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%s do perfil"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Conta"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Alterar e-mail"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "Alterar senha"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Recuperar senha"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Criar uma nova conta"
+
+#: functions.php:453 footer.php:65 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "Contato"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Perfil público"
+
+#: functions.php:516 user-sidebar.php:28
+msgid "Delete account"
+msgstr "Excluir conta"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Configurações de tema atualizadas corretamente"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "A imagem do logotipo foi carregado corretamente"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Ocorreu um erro, por favor tente novamente"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "A imagem do logotipo foi removido"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Imagem não encontrada"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Todas as categorias"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Essa ação não pode ser desfeita. Tem certeza de que deseja continuar?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Ativar"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "Olá %s"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "Minha conta"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "Sair"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "Publique gratuitamente o seu anúncio"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "Selecione uma Categoria"
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "Pesquisa"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Endereço:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Localização:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Descrição do usuário"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "Últimos anúncios"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Desculpe, mas não consigo encontrar a página que você está procurando"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "Vamos ajudá-lo, temos algumas dicas para o encontrar."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>procure</strong> por ele:"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>Procure</strong> por ele nas categorias mais populares."
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Exibir menu"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Tem certeza que deseja excluir sua conta?"
 
 #: footer.php:69
 #, php-format
@@ -908,7 +818,97 @@ msgstr "Este site está orgulhosamente usando o <a title=\"Osclass web\" href=\"
 msgid "Language:"
 msgstr "Idioma:"
 
-#: user-recover.php:45
-msgid "Send me a new password"
-msgstr "Envie-me uma nova senha"
+#: item-post.php:57
+msgid "General Information"
+msgstr "Informações Básicas"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "Categoria"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "Localização do anúncio"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "Área da cidade"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "Informações do vendedor"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "Mostrar e-mail na página do anúncio"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "Publicar"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Nova senha"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Repita nova senha"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "Os meus anúncios"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "Nenhum anúncio foi adicionado ainda"
+
+#: search.php:55
+msgid "Selected"
+msgstr "Selecionado"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "Nada selecionado, a entrada foi"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "Não existem resultados que correspondem à \"%s\""
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %2$d de %3$d anúncios"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "Mostrar filtros"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "Classificar por"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "Anúncios premium"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "Outras pesquisas que podem lhe interessar"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "Seu endereço de e-mail"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Senha atual"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Entre em contato"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Cargo"
 

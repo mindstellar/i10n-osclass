@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:25\n"
+"POT-Creation-Date: 2021-11-05 09:41+0000\n"
+"PO-Revision-Date: 2021-11-05 09:46\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "Language: hi_IN\n"
@@ -17,437 +17,9 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "खाता नाम बदलें"
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "उपयोगकर्ता नाम: इस फ़ील्ड की आवश्यकता है"
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "उपयोगकर्ता नाम उपलब्ध है"
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "यूजरनेम उपलब्ध नहीं है"
-
-#: user-change_username.php:94
-msgid "Username"
-msgstr "उपयोगकर्ता नाम"
-
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "आधुनिकीकरणअ"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "ई-मेल बदलें"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "वर्तमान ई-मेल"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "नया ई-मेल"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "यह फ़ील्ड आवश्यक है"
-
-#: user-change_email.php:77 alert-form.php:28
-msgid "Invalid email address"
-msgstr "अमान्य ईमेल पता"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "डिस्प्ले मेनू"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "अकाउंट डिलीट करें"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "क्या आप वाकई अपना खाता हटाना चाहते हैं?"
-
-#: item-sidebar.php:30
-msgid "Mark as..."
-msgstr "ऐसे चिन्हित करें..."
-
-#: item-sidebar.php:31
-msgid "Mark as spam"
-msgstr "स्पैम के रूप में मार्क"
-
-#: item-sidebar.php:32
-msgid "Mark as misclassified"
-msgstr "गलत वर्गीकृत"
-
-#: item-sidebar.php:33
-msgid "Mark as duplicated"
-msgstr "डुप्लीकेट"
-
-#: item-sidebar.php:34
-msgid "Mark as expired"
-msgstr "समाप्त हो गया"
-
-#: item-sidebar.php:35
-msgid "Mark as offensive"
-msgstr "आक्रामक के रूप में मार्क"
-
-#: item-sidebar.php:49 functions.php:437
-msgid "Contact publisher"
-msgstr "संपर्क प्रकाशक"
-
-#: item-sidebar.php:52
-msgid "The listing is expired. You can't contact the publisher."
-msgstr "लिस्टिंग समाप्त हो गई है। आप प्रकाशक से संपर्क नहीं कर सकते."
-
-#: item-sidebar.php:56
-msgid "It's your own listing, you can't contact the publisher."
-msgstr "यह आपकी अपनी लिस्टिंग है, आप प्रकाशक से संपर्क नहीं कर सकते।"
-
-#: item-sidebar.php:60
-msgid "You must log in or register a new account in order to contact the advertiser"
-msgstr "विज्ञापनदाता से संपर्क करने के लिए आपको लॉग इन करना होगा या नया खाता रजिस्टर करना होगा"
-
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "लॉगिन"
-
-#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "एक मुफ्त खाते के लिए रजिस्टर करें"
-
-#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
-#: user-register.php:39
-msgid "Name"
-msgstr "नाम"
-
-#: item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "नाम: %s"
-
-#: item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "ई-मेल:%s"
-
-#: item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "फोन: %s"
-
-#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
-#: item-send-friend.php:44
-msgid "Your name"
-msgstr "आपका नाम"
-
-#: item-sidebar.php:89
-msgid "Your e-mail address"
-msgstr "आपका ई-मेल पता"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41
-msgid "Phone number"
-msgstr "फ़ोन नंबर"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
-msgid "optional"
-msgstr "वैकल्पिक"
-
-#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
-#: item-send-friend.php:78
-msgid "Message"
-msgstr "मैसेज"
-
-#: item-sidebar.php:104
-msgid "Attachment"
-msgstr "अटैचमेंट"
-
-#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
-#: item-send-friend.php:87
-msgid "Send"
-msgstr "भेजें"
-
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "आपने अलर्ट की पूरी तरह से सदस्यता ली है"
-
-#: alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "अलर्ट को लेकर थी समस्या"
-
-#: alert-form.php:61
-msgid "Already subscribed to this search"
-msgstr "पहले से ही ये सर्च सबस्क्राइब कर चुके हैं।"
-
-#: alert-form.php:65
-msgid "Subscribe to this search"
-msgstr "इस सर्च को सबस्क्राइब करें ।"
-
-#: alert-form.php:80
-msgid "Subscribe now"
-msgstr "सबस्क्राइब करें।"
-
-#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
-#: item.php:165
-msgid "Delete"
-msgstr "मिटायें"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "रद्द करें"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "पिछली छवि"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "अगली छवि"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "बंद करें"
-
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "आपकी खोज"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "शहर"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "केवल दिखाएं"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "चित्रों के साथ लिस्टिंग"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "दाम"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "न्यूनतम"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "अधिकतम"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "लागू करना"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "रिफाइन केटेगरी"
-
-#: loop-single-premium.php:46 loop-single.php:46 item.php:73
-msgid "Edit item"
-msgstr "आइटम संपादित करें"
-
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "इस कार्रवाई को पूर्ववत नहीं किया जा सकता है। क्या आप सुनिश्चित हैं कि आप जारी रखना चाहते हैं?"
-
-#: loop-single-premium.php:51 loop-single.php:51
-msgid "Activate"
-msgstr "सक्रिय करना"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>पता:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>स्थान:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "उपयोगकर्ता विवरण"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "नवीनतम लिस्टिंग"
-
-#: main.php:38
-msgid "Latest Listings"
-msgstr "नवीनतम लिस्टिंग"
-
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "इस समय लिस्टिंग उपलब्ध नहीं है"
-
-#: main.php:45 search.php:80 admin/settings.php:60
-msgid "List"
-msgstr "सूची"
-
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "ग्रिड"
-
-#: main.php:57
-msgid "See all listings"
-msgstr "सभी लिस्टिंग देखें"
-
-#: main.php:74 item.php:66
-msgid "Location"
-msgstr "स्थान"
-
-#: user-profile.php:32 user-profile.php:37 functions.php:445
-msgid "Update account"
-msgstr "अकाउंट अपडेट करें"
-
-#: user-profile.php:52
-msgid "User type"
-msgstr "उपयोगकर्ता प्रकार"
-
-#: user-profile.php:59
-msgid "Cell phone"
-msgstr "मोबाइल फ़ोन"
-
-#: user-profile.php:65
-msgid "Phone"
-msgstr "फ़ोन"
-
-#: user-profile.php:71 item-post.php:92
-msgid "Country"
-msgstr "देश"
-
-#: user-profile.php:77 item-post.php:98 item-post.php:124
-msgid "Region"
-msgstr "क्षेत्र"
-
-#: user-profile.php:89
-msgid "City area"
-msgstr "शहर क्षेत्र"
-
-#: user-profile.php:95 item-post.php:168
-msgid "Address"
-msgstr "पता"
-
-#: user-profile.php:101
-msgid "Website"
-msgstr "वेबसाइट"
-
-#: user-profile.php:107 item-post.php:71
-msgid "Description"
-msgstr "वर्णन"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "यानी। पीएचपी प्रोग्रामर"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "एक लिस्टिंग प्रकाशित"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "अपनी लिस्टिंग को संपादित करें"
-
-#: functions.php:436 item-send-friend.php:31
-msgid "Send to a friend"
-msgstr "किसी मित्र को ई-मेल भेजें"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "खोज परिणाम"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "खोज परिणाम: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "डैशबोर्ड"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%sका प्रोफाइल"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "खाता"
-
-#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
-msgid "Listings"
-msgstr "लिस्टिंग"
-
-#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
 msgid "Alerts"
 msgstr "चेतावनियां"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "ईमेल बदलें"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "पासवर्ड बदलें"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "पासवर्ड रिकवर"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "एक नया खाता बनाएं"
-
-#: functions.php:453 user-public-sidebar.php:26 footer.php:65
-msgid "Contact"
-msgstr "संपर्क"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "पब्लिक प्रोफाइल"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "थीम सेटिंग्स को सही ढंग से अपडेट किया गया"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "लोगो छवि सही ढंग से अपलोड किया गया है"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "एक त्रुटि हुई है, कृपया फिर से प्रयास करें"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "लोगो छवि हटा दी गई है"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "छवि नहीं मिली"
-
-#: functions.php:666 admin/header.php:29
-msgid "Header logo"
-msgstr "हेडर लोगो"
-
-#: functions.php:668 admin/settings.php:46
-msgid "Theme settings"
-msgstr "थीम सेटिंग्स"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "सभी श्रेणियां"
 
 #: user-alerts.php:39
 msgid "You do not have any alerts yet"
@@ -465,6 +37,45 @@ msgstr "इस कार्रवाई को पूर्ववत नही�
 msgid "Delete this alert"
 msgstr "इस अलर्ट को हटाएं"
 
+#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
+msgid "Listings"
+msgstr "लिस्टिंग"
+
+#: item-send-friend.php:31 functions.php:436
+msgid "Send to a friend"
+msgstr "किसी मित्र को ई-मेल भेजें"
+
+#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
+#: user-public-sidebar.php:33 contact.php:40
+msgid "Your name"
+msgstr "आपका नाम"
+
+#: item-send-friend.php:50 item.php:197
+msgid "Your e-mail"
+msgstr "आपका ई-मेल"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "आपके मित्र का नाम"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "आपके मित्र का ई-मेल पता"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "विषय (वैकल्पिक)"
+
+#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
+#: contact.php:60
+msgid "Message"
+msgstr "मैसेज"
+
+#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
+#: user-public-sidebar.php:54 contact.php:68
+msgid "Send"
+msgstr "भेजें"
+
 #: item.php:59
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
@@ -474,6 +85,14 @@ msgstr "<strong class=\"publish\">प्रकाशित तिथि</strong>
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
 msgstr "<strong class=\"update\">संशोधित तिथि:</strong> %1$s"
+
+#: item.php:66 main.php:74
+msgid "Location"
+msgstr "स्थान"
+
+#: item.php:73 loop-single.php:46 loop-single-premium.php:46
+msgid "Edit item"
+msgstr "आइटम संपादित करें"
 
 #: item.php:85 item.php:92
 msgid "Image"
@@ -523,13 +142,14 @@ msgstr "द्वारा"
 msgid "Delete your comment"
 msgstr "अपनी टिप्पणी हटाएं"
 
+#: item.php:165 common/head.php:25 loop-single.php:48
+#: loop-single-premium.php:48
+msgid "Delete"
+msgstr "मिटायें"
+
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "अपनी टिप्पणी छोड़ दें (स्पैम और आपत्तिजनक संदेश हटा दिए जाएंगे)"
-
-#: item.php:197 item-send-friend.php:50
-msgid "Your e-mail"
-msgstr "आपका ई-मेल"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -539,11 +159,37 @@ msgstr "उपाधि"
 msgid "Comment"
 msgstr "टिप्पणी"
 
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
+msgid "Change username"
+msgstr "खाता नाम बदलें"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "उपयोगकर्ता नाम: इस फ़ील्ड की आवश्यकता है"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "उपयोगकर्ता नाम उपलब्ध है"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "यूजरनेम उपलब्ध नहीं है"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "आधुनिकीकरणअ"
+
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "अपने अकाउंट तक पहुंचे"
 
-#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
 msgid "E-mail"
 msgstr "ई-मेल"
 
@@ -559,172 +205,241 @@ msgstr "मुझे याद रखें"
 msgid "Log in"
 msgstr "लॉग इन करो"
 
+#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "एक मुफ्त खाते के लिए रजिस्टर करें"
+
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "पासवर्ड भूल गया?"
 
-#: header.php:48 footer.php:35
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "ऐसे चिन्हित करें..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "स्पैम के रूप में मार्क"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "गलत वर्गीकृत"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "डुप्लीकेट"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "समाप्त हो गया"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "आक्रामक के रूप में मार्क"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "संपर्क प्रकाशक"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "लिस्टिंग समाप्त हो गई है। आप प्रकाशक से संपर्क नहीं कर सकते."
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "यह आपकी अपनी लिस्टिंग है, आप प्रकाशक से संपर्क नहीं कर सकते।"
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "विज्ञापनदाता से संपर्क करने के लिए आपको लॉग इन करना होगा या नया खाता रजिस्टर करना होगा"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "लॉगिन"
+
+#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
+#: item-post.php:179
+msgid "Name"
+msgstr "नाम"
+
+#: item-sidebar.php:70
 #, php-format
-msgid "Hi %s"
-msgstr "नमस्ते %s"
+msgid "Name: %s"
+msgstr "नाम: %s"
 
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "मेरा खाता"
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "ई-मेल:%s"
 
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "लॉगआउट"
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "फोन: %s"
 
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "अपना विज्ञापन मुफ्त में प्रकाशित करें"
+#: item-sidebar.php:89
+msgid "Your e-mail address"
+msgstr "आपका ई-मेल पता"
 
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "एक वर्ग का चयन करें"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "फ़ोन नंबर"
 
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "ढूँढ"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "वैकल्पिक"
 
-#: item-post.php:57
-msgid "General Information"
-msgstr "सामान्य जानकारी"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "अटैचमेंट"
 
-#: item-post.php:59
-msgid "Category"
-msgstr "वर्ग"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "आपने अलर्ट की पूरी तरह से सदस्यता ली है"
 
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "लिस्टिंग स्थान"
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "अमान्य ईमेल पता"
 
-#: item-post.php:162
-msgid "City Area"
-msgstr "सिटी एरिया"
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "अलर्ट को लेकर थी समस्या"
 
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "विक्रेता की जानकारी"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "पहले से ही ये सर्च सबस्क्राइब कर चुके हैं।"
 
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "लिस्टिंग पेज पर ई-मेल दिखाएं"
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "इस सर्च को सबस्क्राइब करें ।"
 
-#: item-post.php:211
-msgid "Publish"
-msgstr "प्रकाशित करना"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "सबस्क्राइब करें।"
 
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
-msgstr "आपका ईमेल पता"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "आपकी खोज"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "मुफ्त में खाता पंजीकृत करें"
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "शहर"
 
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "पासवर्ड दोहराएं"
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "केवल दिखाएं"
 
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "पासवर्ड मेल नहीं खाते"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "चित्रों के साथ लिस्टिंग"
 
-#: user-register.php:73
-msgid "Create"
-msgstr "बनाना"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "दाम"
 
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "क्षमा करें, लेकिन मुझे वह पृष्ठ नहीं मिल रहा है जिसे आप ढूंढ रहे हैं"
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "न्यूनतम"
 
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "आइए हम आपकी मदद करते हैं, हमें आपके लिए इसे खोजने के लिए कुछ टिप्स मिले हैं ।"
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "अधिकतम"
 
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>इसके लिए</strong> खोजें:"
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "लागू करना"
 
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>सबसे लोकप्रिय श्रेणियों में इसके लिए</strong> देखो ।"
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "रिफाइन केटेगरी"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "हमसे संपर्क करें"
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "ई-मेल बदलें"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "विषय"
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "वर्तमान ई-मेल"
 
-#: user-forgot_password.php:30 user-recover.php:30
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "नया ई-मेल"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "यह फ़ील्ड आवश्यक है"
+
+#: user-recover.php:30 user-forgot_password.php:30
 msgid "Recover your password"
 msgstr "अपना पासवर्ड रिकवर करें"
 
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "नया पासवर्ड"
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "मुझे एक नया पासवर्ड भेजें"
 
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "नया पासवर्ड दोहराएं"
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "अकाउंट अपडेट करें"
 
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "आपके मित्र का नाम"
+#: user-profile.php:52
+msgid "User type"
+msgstr "उपयोगकर्ता प्रकार"
 
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "आपके मित्र का ई-मेल पता"
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "मोबाइल फ़ोन"
 
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "विषय (वैकल्पिक)"
+#: user-profile.php:65
+msgid "Phone"
+msgstr "फ़ोन"
 
-#: user-items.php:41
-msgid "My listings"
-msgstr "मेरी लिस्टिंग"
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "देश"
 
-#: user-items.php:43
-msgid "No listings have been added yet"
-msgstr "अभी तक कोई लिस्टिंग नहीं जोड़ी गई है"
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "क्षेत्र"
 
-#: search.php:55
-msgid "Selected"
-msgstr "चयनित"
+#: user-profile.php:89
+msgid "City area"
+msgstr "शहर क्षेत्र"
 
-#: search.php:56
-msgid "Nothing selected, input was"
-msgstr "कुछ भी नहीं चुना, इनपुट था"
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "पता"
 
-#: search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "\"%s\" से मेल खाने वाले कोई परिणाम नहीं हैं"
+#: user-profile.php:101
+msgid "Website"
+msgstr "वेबसाइट"
 
-#: search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%1$d - %3$d लिस्टिंग का %2$d"
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "वर्णन"
 
-#: search.php:78
-msgid "Show filters"
-msgstr "फ़िल्टर दिखाएं"
+#: main.php:38
+msgid "Latest Listings"
+msgstr "नवीनतम लिस्टिंग"
 
-#: search.php:85
-msgid "Sort by"
-msgstr "द्वारा सॉर्ट करें"
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "इस समय लिस्टिंग उपलब्ध नहीं है"
 
-#: search.php:121
-msgid "Premium listings"
-msgstr "प्रीमियम लिस्टिंग"
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "सूची"
 
-#: search.php:142
-msgid "Other searches that may interest you"
-msgstr "अन्य खोजें जो आपकी रुचि ले सकती हैं"
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "ग्रिड"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "सभी लिस्टिंग देखें"
+
+#: admin/header.php:29 functions.php:666
+msgid "Header logo"
+msgstr "हेडर लोगो"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -786,6 +501,10 @@ msgstr "परम्परा"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "दान करें"
+
+#: admin/settings.php:46 functions.php:668
+msgid "Theme settings"
+msgstr "थीम सेटिंग्स"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -895,9 +614,200 @@ msgstr "यह विज्ञापन आपकी वेबसाइट क�
 msgid "Save changes"
 msgstr "परिवर्तनों को सहेजें"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "वर्तमान पासवर्ड"
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "मुफ्त में खाता पंजीकृत करें"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "पासवर्ड दोहराएं"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "पासवर्ड मेल नहीं खाते"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "बनाना"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "पिछली छवि"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "अगली छवि"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "बंद करें"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "यानी। पीएचपी प्रोग्रामर"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "एक लिस्टिंग प्रकाशित"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "अपनी लिस्टिंग को संपादित करें"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "खोज परिणाम"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "खोज परिणाम: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%sका प्रोफाइल"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "खाता"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "ईमेल बदलें"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "पासवर्ड बदलें"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "पासवर्ड रिकवर"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "एक नया खाता बनाएं"
+
+#: functions.php:453 footer.php:65 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "संपर्क"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "पब्लिक प्रोफाइल"
+
+#: functions.php:516 user-sidebar.php:28
+msgid "Delete account"
+msgstr "अकाउंट डिलीट करें"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "थीम सेटिंग्स को सही ढंग से अपडेट किया गया"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "लोगो छवि सही ढंग से अपलोड किया गया है"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "एक त्रुटि हुई है, कृपया फिर से प्रयास करें"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "लोगो छवि हटा दी गई है"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "छवि नहीं मिली"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "सभी श्रेणियां"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "इस कार्रवाई को पूर्ववत नहीं किया जा सकता है। क्या आप सुनिश्चित हैं कि आप जारी रखना चाहते हैं?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "सक्रिय करना"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "नमस्ते %s"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "मेरा खाता"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "लॉगआउट"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "अपना विज्ञापन मुफ्त में प्रकाशित करें"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "एक वर्ग का चयन करें"
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "ढूँढ"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>पता:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>स्थान:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "उपयोगकर्ता विवरण"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "नवीनतम लिस्टिंग"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "क्षमा करें, लेकिन मुझे वह पृष्ठ नहीं मिल रहा है जिसे आप ढूंढ रहे हैं"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "आइए हम आपकी मदद करते हैं, हमें आपके लिए इसे खोजने के लिए कुछ टिप्स मिले हैं ।"
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>इसके लिए</strong> खोजें:"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>सबसे लोकप्रिय श्रेणियों में इसके लिए</strong> देखो ।"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "डिस्प्ले मेनू"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "क्या आप वाकई अपना खाता हटाना चाहते हैं?"
 
 #: footer.php:69
 #, php-format
@@ -908,7 +818,97 @@ msgstr "यह वेबसाइट गर्व से ओक्लास</str
 msgid "Language:"
 msgstr "भाषा:"
 
-#: user-recover.php:45
-msgid "Send me a new password"
-msgstr "मुझे एक नया पासवर्ड भेजें"
+#: item-post.php:57
+msgid "General Information"
+msgstr "सामान्य जानकारी"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "वर्ग"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "लिस्टिंग स्थान"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "सिटी एरिया"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "विक्रेता की जानकारी"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "लिस्टिंग पेज पर ई-मेल दिखाएं"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "प्रकाशित करना"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "नया पासवर्ड"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "नया पासवर्ड दोहराएं"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "मेरी लिस्टिंग"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "अभी तक कोई लिस्टिंग नहीं जोड़ी गई है"
+
+#: search.php:55
+msgid "Selected"
+msgstr "चयनित"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "कुछ भी नहीं चुना, इनपुट था"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "\"%s\" से मेल खाने वाले कोई परिणाम नहीं हैं"
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %3$d लिस्टिंग का %2$d"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "फ़िल्टर दिखाएं"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "द्वारा सॉर्ट करें"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "प्रीमियम लिस्टिंग"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "अन्य खोजें जो आपकी रुचि ले सकती हैं"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "आपका ईमेल पता"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "वर्तमान पासवर्ड"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "हमसे संपर्क करें"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "विषय"
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-20 03:52+0000\n"
-"PO-Revision-Date: 2021-09-20 05:04\n"
+"POT-Creation-Date: 2021-11-05 09:41+0000\n"
+"PO-Revision-Date: 2021-11-05 09:46\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -17,268 +17,24 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/messages.pot\n"
 "X-Crowdin-File-ID: 8223\n"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:124
-msgid "Name too long."
-msgstr "Nama terlalu panjang."
+#: oc-includes/osclass/emails.php:861
+msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
+msgstr "Kami telah mengirimkan e-mail. Ikuti instruksinya untuk memvalidasi perubahan"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:125
-msgid "Email invalid."
-msgstr "Email tidak valid."
+#: oc-includes/osclass/emails.php:864
+msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
+msgstr "Kami mencoba mengirimimu e-mail, tapi gagal. Silakan hubungi administrator"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:131
-msgid "Too fast. You should wait a little to publish your ad."
-msgstr "Terlalu cepat. Anda harus menunggu sedikit untuk mempublikasikan iklan Anda."
+#: oc-includes/osclass/emails.php:1122
+msgid "There has been some errors sending the message"
+msgstr "Ada beberapa kesalahan yang mengirim pesan"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:323
-#: oc-includes/osclass/classes/controller/CWebContact.php:168
-msgid "The file you tried to upload does not have a valid extension"
-msgstr "File yang Anda coba unggah tidak memiliki ekstensi yang valid"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:351
-msgid "One of the files you tried to upload exceeds the maximum size"
-msgstr "Salah satu file yang Anda coba unggah melebihi ukuran maksimum"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:413
-msgid "Image with an incorrect extension."
-msgstr "Gambar dengan ekstensi yang salah."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:416
-msgid "Image is too big. Max. size"
-msgstr "Gambarnya terlalu besar. Max. ukuran"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:426
-#, php-format
-msgid "Title too short (%s)."
-msgstr "Judul terlalu pendek (%s)."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:428
-#, php-format
-msgid "Title too long (%s)."
-msgstr "Judul terlalu lama (%s)."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:438
-#, php-format
-msgid "Description too short (%s)."
-msgstr "Deskripsi terlalu singkat (%s)."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:441
-#, php-format
-msgid "Description too long (%s)."
-msgstr "Deskripsi terlalu lama (%s)."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:445
-msgid "Category invalid."
-msgstr "Kategori tidak valid."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:446
-msgid "Price must be a number."
-msgstr "Harga harus menjadi angka."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:448
-msgid "Price too long."
-msgstr "Harga terlalu lama."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:451
-msgid "Price must be positive number."
-msgstr "Harga harus angka positif."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:453
-msgid "Country too short."
-msgstr "Negara terlalu pendek."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:455
-msgid "Country too long."
-msgstr "Negara terlalu lama."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:457
-msgid "Region too short."
-msgstr "Wilayah terlalu pendek."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:459
-msgid "Region too long."
-msgstr "Wilayah terlalu lama."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:461
-msgid "City too short."
-msgstr "Kota terlalu pendek."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:462
-msgid "City too long."
-msgstr "Kota terlalu lama."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:464
-msgid "Municipality too short."
-msgstr "Munisipalitas terlalu pendek."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:466
-msgid "Municipality too long."
-msgstr "Munisipalitas terlalu lama."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:468
-msgid "Address too short."
-msgstr "Alamat terlalu pendek."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:470
-msgid "Address too long."
-msgstr "Alamat terlalu lama."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:472
-msgid "Phone invalid."
-msgstr "Telepon tidak valid."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:560
-#: oc-includes/osclass/classes/actions/ItemActions.php:573
-#: oc-includes/osclass/classes/actions/ItemActions.php:584
-#: oc-includes/osclass/classes/actions/ItemActions.php:594
-#: oc-includes/osclass/classes/actions/ItemActions.php:596
-#, php-format
-msgid "%s is invalid."
-msgstr "%s tidak valid."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:563
-#: oc-includes/osclass/classes/actions/ItemActions.php:566
-#: oc-includes/osclass/classes/actions/ItemActions.php:576
-#: oc-includes/osclass/classes/actions/ItemActions.php:587
-#: oc-includes/osclass/classes/actions/ItemActions.php:599
-#: oc-includes/osclass/classes/actions/ItemActions.php:606
-#, php-format
-msgid "%s is required."
-msgstr "%s diperlukan."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:1366
-#, php-format
-msgid "We just sent your message to %s"
-msgstr "Kami baru saja mengirim pesan Anda ke %s"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:65
-msgid "The reCAPTCHA was not entered correctly"
-msgstr "ReCAPTCHA tidak dimasukkan dengan benar"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:70
-msgid "The password cannot be empty"
-msgstr "Kata sandi tidak bisa kosong"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:75
-#: oc-includes/osclass/classes/actions/UserActions.php:309
-#: oc-includes/osclass/classes/controller/CWebUser.php:242
-msgid "Passwords don't match"
-msgstr "Kata sandi tidak cocok"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:86
-#: oc-includes/osclass/classes/actions/UserActions.php:302
-msgid "The name cannot be empty"
-msgstr "Nama tidak bisa kosong"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:91
-msgid "The email is not valid"
-msgstr "Email tidak valid"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:98
-#: oc-includes/osclass/classes/controller/CWebUser.php:138
-msgid "The specified e-mail is already in use"
-msgstr "Email yang ditentukan sudah digunakan"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:105
-msgid "Username is already taken"
-msgstr "Username sudah diambil"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:109
-#: oc-includes/osclass/classes/controller/CWebUser.php:190
-msgid "The specified username is not valid, it contains some invalid words"
-msgstr "Nama pengguna yang ditentukan tidak valid, berisi beberapa kata yang tidak valid"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:291
-#, php-format
-msgid "The specified e-mail is already used by %s"
-msgstr "E-mail yang ditentukan sudah digunakan oleh %s"
-
-#: oc-includes/osclass/classes/Csrf.php:181
-msgid "Probable invalid request."
-msgstr "Kemungkinan permintaan tidak valid."
-
-#: oc-includes/osclass/classes/Csrf.php:184
-msgid "Invalid CSRF token."
-msgstr "Token CSRF yang tidak valid."
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
 #: oc-includes/osclass/classes/controller/CWebLogin.php:39
-#: oc-includes/osclass/classes/controller/CWebRegister.php:40
 #: oc-includes/osclass/classes/controller/CWebUser.php:39
+#: oc-includes/osclass/classes/controller/CWebRegister.php:40
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
 msgid "Users not enabled"
 msgstr "Pengguna tidak diaktifkan"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
-msgid "Your email has been changed successfully"
-msgstr "Email Anda telah berhasil diubah"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
-#: oc-includes/osclass/classes/controller/CWebLogin.php:271
-#: oc-includes/osclass/classes/controller/CWebLogin.php:319
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
-msgid "Sorry, the link is not valid"
-msgstr "Maaf, link ini tidak valid"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
-#: oc-includes/osclass/classes/controller/CWebUser.php:296
-msgid "Alert activated"
-msgstr "Peringatan diaktifkan"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
-#: oc-includes/osclass/classes/controller/CWebUser.php:298
-msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
-msgstr "Ups! Ada masalah mencoba mengaktifkan peringatan Anda. Silakan hubungi administrator"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
-#: oc-includes/osclass/classes/controller/CWebUser.php:317
-msgid "Unsubscribed correctly"
-msgstr "Unsubscribed dengan benar"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
-#: oc-includes/osclass/classes/controller/CWebUser.php:319
-msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
-msgstr "Ups! Ada masalah mencoba untuk berhenti berlangganan Anda. Silakan hubungi administrator"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
-#: oc-includes/osclass/classes/controller/CWebContact.php:57
-#: oc-includes/osclass/classes/controller/CWebItem.php:147
-#: oc-includes/osclass/classes/controller/CWebItem.php:272
-#: oc-includes/osclass/classes/controller/CWebItem.php:476
-#: oc-includes/osclass/classes/controller/CWebItem.php:535
-msgid "The Recaptcha code is wrong"
-msgstr "Kode Rekaptcha salah"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
-#: oc-includes/osclass/classes/controller/CWebContact.php:69
-#: oc-includes/osclass/classes/controller/CWebContact.php:81
-#: oc-includes/osclass/classes/controller/CWebLogin.php:111
-#: oc-includes/osclass/classes/controller/CWebRegister.php:72
-#: oc-includes/osclass/classes/controller/CWebItem.php:167
-#: oc-includes/osclass/classes/controller/CWebItem.php:550
-msgid "Your current email is not allowed"
-msgstr "Email Anda saat ini tidak diperbolehkan"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
-#: oc-includes/osclass/classes/controller/CWebContact.php:72
-#: oc-includes/osclass/classes/controller/CWebLogin.php:114
-#: oc-includes/osclass/classes/controller/CWebRegister.php:75
-#: oc-includes/osclass/classes/controller/CWebItem.php:170
-#: oc-includes/osclass/classes/controller/CWebItem.php:553
-msgid "Your current IP is not allowed"
-msgstr "IP Anda saat ini tidak diperbolehkan"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
-msgid "Your email has been sent properly."
-msgstr "Email Anda telah dikirim dengan benar."
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:86
-msgid "Please enter a correct email"
-msgstr "Silakan masukkan email yang benar"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:182
-msgid "Your email has been sent properly. Thank you for contacting us!"
-msgstr "Email Anda telah dikirim dengan benar. Terima kasih telah menghubungi kami!"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:51
 #: oc-includes/osclass/classes/controller/CWebRegister.php:64
@@ -295,12 +51,32 @@ msgstr "Kata sandi kosong tidak diperbolehkan. Harap berikan password"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:80
 #: oc-includes/osclass/classes/controller/CWebLogin.php:157
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:656
 msgid "The user doesn't exist"
 msgstr "Pengguna tidak ada"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:104
 msgid "The password is incorrect"
 msgstr "Kata sandi tidak benar"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:111
+#: oc-includes/osclass/classes/controller/CWebRegister.php:72
+#: oc-includes/osclass/classes/controller/CWebContact.php:69
+#: oc-includes/osclass/classes/controller/CWebContact.php:81
+#: oc-includes/osclass/classes/controller/CWebItem.php:167
+#: oc-includes/osclass/classes/controller/CWebItem.php:550
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
+msgid "Your current email is not allowed"
+msgstr "Email Anda saat ini tidak diperbolehkan"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:114
+#: oc-includes/osclass/classes/controller/CWebRegister.php:75
+#: oc-includes/osclass/classes/controller/CWebContact.php:72
+#: oc-includes/osclass/classes/controller/CWebItem.php:170
+#: oc-includes/osclass/classes/controller/CWebItem.php:553
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
+msgid "Your current IP is not allowed"
+msgstr "IP Anda saat ini tidak diperbolehkan"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:161
 #, php-format
@@ -347,6 +123,15 @@ msgstr "Kami tidak dapat mengidentifikasi Anda mengingat informasi yang diberika
 msgid "The recaptcha code is wrong"
 msgstr "Kode rekaptcha salah"
 
+#: oc-includes/osclass/classes/controller/CWebLogin.php:271
+#: oc-includes/osclass/classes/controller/CWebLogin.php:319
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
+msgid "Sorry, the link is not valid"
+msgstr "Maaf, link ini tidak valid"
+
 #: oc-includes/osclass/classes/controller/CWebLogin.php:280
 #: oc-includes/osclass/classes/controller/CWebUser.php:221
 msgid "Password cannot be blank"
@@ -360,34 +145,6 @@ msgstr "Kata sandi telah diubah"
 #: oc-includes/osclass/classes/controller/CWebLogin.php:312
 msgid "Error, the password don't match"
 msgstr "Kesalahan, kata sandi tidak cocok"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:45
-msgid "User registration is not enabled"
-msgstr "Pendaftaran pengguna tidak diaktifkan"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:82
-msgid "The user has been created. An activation email has been sent"
-msgstr "Pengguna telah dibuat. Email aktivasi telah dikirim"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:85
-msgid "Your account has been created successfully"
-msgstr "Akun Anda telah dibuat dengan sukses"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:103
-msgid "The link is not valid anymore. Sorry for the inconvenience!"
-msgstr "Link ini tidak valid lagi. Maaf atas ketidaknyamanannya!"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:108
-msgid "Your account has already been validated"
-msgstr "Akun Anda telah divalidasi"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:129
-msgid "Your account has been validated"
-msgstr "Akun Anda telah divalidasi"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:131
-msgid "Account validation failed"
-msgstr "Validasi akun gagal"
 
 #: oc-includes/osclass/classes/controller/CWebAjax.php:107
 #: oc-includes/osclass/classes/controller/CWebAjax.php:203
@@ -421,6 +178,133 @@ msgstr "Foto yang dipilih bukan milik Anda"
 #: oc-includes/osclass/classes/controller/CWebItem.php:432
 msgid "The selected photo couldn't be deleted"
 msgstr "Foto yang dipilih tidak dapat dihapus"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:103
+msgid "Your profile has been updated successfully"
+msgstr "Profil Anda telah diperbarui dengan sukses"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:138
+#: oc-includes/osclass/classes/actions/UserActions.php:98
+msgid "The specified e-mail is already in use"
+msgstr "Email yang ditentukan sudah digunakan"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:170
+msgid "The specified e-mail is not valid"
+msgstr "Email yang ditentukan tidak valid"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:188
+msgid "The specified username is already in use"
+msgstr "Nama pengguna yang ditentukan sudah digunakan"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:190
+#: oc-includes/osclass/classes/actions/UserActions.php:109
+msgid "The specified username is not valid, it contains some invalid words"
+msgstr "Nama pengguna yang ditentukan tidak valid, berisi beberapa kata yang tidak valid"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:196
+msgid "The username was updated"
+msgstr "Nama pengguna diperbarui"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:205
+msgid "The specified username could not be empty"
+msgstr "Nama pengguna yang ditentukan tidak bisa kosong"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:230
+msgid "Current password doesn't match"
+msgstr "Kata sandi saat ini tidak cocok"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:235
+msgid "Passwords can't be empty"
+msgstr "Kata sandi tidak bisa kosong"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:242
+#: oc-includes/osclass/classes/actions/UserActions.php:75
+#: oc-includes/osclass/classes/actions/UserActions.php:309
+msgid "Passwords don't match"
+msgstr "Kata sandi tidak cocok"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:257
+msgid "Password has been changed"
+msgstr "Password telah diubah"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:296
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
+msgid "Alert activated"
+msgstr "Peringatan diaktifkan"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:298
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
+msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
+msgstr "Ups! Ada masalah mencoba mengaktifkan peringatan Anda. Silakan hubungi administrator"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:317
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
+msgid "Unsubscribed correctly"
+msgstr "Unsubscribed dengan benar"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:319
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
+msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
+msgstr "Ups! Ada masalah mencoba untuk berhenti berlangganan Anda. Silakan hubungi administrator"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:349
+msgid "Your account have been deleted"
+msgstr "Akun Anda telah dihapus"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:352
+#: oc-includes/osclass/classes/controller/CWebUser.php:356
+msgid "Oops! you can not do that"
+msgstr "Ups! Anda tidak dapat melakukan itu"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:45
+msgid "User registration is not enabled"
+msgstr "Pendaftaran pengguna tidak diaktifkan"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:82
+msgid "The user has been created. An activation email has been sent"
+msgstr "Pengguna telah dibuat. Email aktivasi telah dikirim"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:85
+msgid "Your account has been created successfully"
+msgstr "Akun Anda telah dibuat dengan sukses"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:103
+msgid "The link is not valid anymore. Sorry for the inconvenience!"
+msgstr "Link ini tidak valid lagi. Maaf atas ketidaknyamanannya!"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:108
+msgid "Your account has already been validated"
+msgstr "Akun Anda telah divalidasi"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:129
+msgid "Your account has been validated"
+msgstr "Akun Anda telah divalidasi"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:131
+msgid "Account validation failed"
+msgstr "Validasi akun gagal"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:57
+#: oc-includes/osclass/classes/controller/CWebItem.php:147
+#: oc-includes/osclass/classes/controller/CWebItem.php:272
+#: oc-includes/osclass/classes/controller/CWebItem.php:476
+#: oc-includes/osclass/classes/controller/CWebItem.php:535
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
+msgid "The Recaptcha code is wrong"
+msgstr "Kode Rekaptcha salah"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:86
+msgid "Please enter a correct email"
+msgstr "Silakan masukkan email yang benar"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:168
+#: oc-includes/osclass/classes/actions/ItemActions.php:329
+msgid "The file you tried to upload does not have a valid extension"
+msgstr "File yang Anda coba unggah tidak memiliki ekstensi yang valid"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:182
+msgid "Your email has been sent properly. Thank you for contacting us!"
+msgstr "Email Anda telah dikirim dengan benar. Terima kasih telah menghubungi kami!"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:72
 #: oc-includes/osclass/classes/controller/CWebItem.php:140
@@ -569,141 +453,97 @@ msgstr "Daftar belum diaktifkan. Silakan aktifkan untuk membuatnya publik"
 msgid "The listing has been blocked or is awaiting moderation from the admin"
 msgstr "Daftar telah diblokir atau sedang menunggu moderasi dari admin"
 
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
-msgid "You don't have enough permissions"
-msgstr "Anda tidak memiliki izin yang cukup"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:663
+msgid "This action cannot be done because it is a demo site"
+msgstr "Tindakan ini tidak dapat dilakukan karena ini adalah situs demo."
 
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
-msgid "Thank you very much for your donation"
-msgstr "Terima kasih banyak atas donasi Anda"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
+msgid "Import complete"
+msgstr "Impor selesai"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
-msgid "This action can't be done because it's a demo site"
-msgstr "Tindakan ini tidak dapat dilakukan karena ini adalah situs demo"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
+msgid "There was a problem importing data to the database"
+msgstr "Ada masalah mengimpor data ke database"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
-msgid "The plugin folder is not writable"
-msgstr "Folder plugin tidak dapat ditulis"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
-msgid "The plugin has been uploaded correctly"
-msgstr "Plugin telah diunggah dengan benar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
-msgid "The zip file is not valid"
-msgstr "Berkas zip tidak sahih"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
 #: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
 msgid "No file was uploaded"
 msgstr "Tidak ada berkas yang diunggah"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
-msgid "There was a problem adding the plugin"
-msgstr "Ada masalah menambahkan plugin"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
+msgid "Recount category stats has been successful"
+msgstr "Statistik kategori penghitungan ulang telah berhasil"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
+msgid "Path is empty"
+msgstr "Jalan kosong"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
+msgid "Could not connect with the database"
+msgstr "Tak bisa tersambung dengan database"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
+msgid "There are no tables to back up"
+msgstr "Tidak ada tabel untuk dicadangkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
+msgid "The folder is not writable"
+msgstr "Folder tidak dapat ditulis"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
+msgid "Backup completed successfully"
+msgstr "Backup berhasil diselesaikan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
 #, php-format
-msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr "Plugin ini menghasilkan karakter %d dari output <strong>tak terduga</strong> selama instalasi. Output: \"%s\""
+msgid "Could not connect with the database. Error: %s"
+msgstr "Tidak dapat terhubung dengan database. Galat: %s"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
-msgid "Plugin is already installed"
-msgstr "Plugin sudah diinstal"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
-msgid "Plugin couldn't be installed because their files are missing"
-msgstr "Plugin tidak dapat diinstal karena file mereka hilang"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
 #, php-format
-msgid "Plugin couldn't be installed because of: %s"
-msgstr "Plugin tidak dapat diinstal karena: %s"
+msgid "Could not select the database. Error: %s"
+msgstr "Tak bisa memilih database. Galat: %s"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
-msgid "Plugin couldn't be installed"
-msgstr "Plugin tidak bisa diinstal"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
+msgid "Archived successfully!"
+msgstr "Diarsipkan dengan sukses!"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
-msgid "Plugin installed"
-msgstr "Plugin diinstal"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
+msgid "Error, the zip file was not created in the specified directory"
+msgstr "Galat, file zip tidak dibuat di direktori yang ditentukan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
-msgid "Plugin uninstalled"
-msgstr "Plugin dihapus"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
+msgid "Maintenance mode is ON"
+msgstr "Mode pemeliharaan adalah ON"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
-msgid "Plugin couldn't be uninstalled"
-msgstr "Plugin tidak dapat dihapus"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
+msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
+msgstr "Ada kesalahan membuat file .maintenance, silakan buat secara manual di folder root"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
-msgid "Plugin enabled"
-msgstr "Plugin diaktifkan"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
+msgid "Maintenance mode is OFF"
+msgstr "Mode pemeliharaan tidak aktif"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
-msgid "Plugin is already enabled"
-msgstr "Plugin sudah diaktifkan"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
-msgid "Plugin disabled"
-msgstr "Plugin dinonaktifkan"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
-msgid "Plugin is already disabled"
-msgstr "Plugin sudah dinonaktifkan"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
-msgid "Configuration was saved"
-msgstr "Konfigurasi disimpan"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
-msgid "No plugin selected"
-msgstr "Tidak ada plugin yang dipilih"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
-msgid "The files were deleted"
-msgstr "Berkas-berkas tersebut telah dihapus"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
-#, php-format
-msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr "Ada kesalahan menghapus file, silakan periksa izin file di %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
-msgid "Invalid plugin file"
-msgstr "Berkas plugin tidak valid"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
+msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
+msgstr "Ada kesalahan menghapus file .maintenance, silakan hapus secara manual dari folder root"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
@@ -767,25 +607,34 @@ msgstr "Satu halaman telah dihapus dengan benar"
 msgid "%s pages have been deleted correctly"
 msgstr "halaman %s telah dihapus dengan benar"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
-msgid "You have very few free space left, users will not be able to upload pictures"
-msgstr "Anda memiliki sangat sedikit ruang kosong yang tersisa, pengguna tidak akan dapat mengunggah gambar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
-msgid "Entered an invalid email"
-msgstr "Memasukkan email yang tidak valid"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
-msgid "You're already subscribed"
-msgstr "Anda sudah berlangganan"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
-msgid "Subscribed correctly"
-msgstr "Berlangganan dengan benar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
-msgid "Error subscribing"
-msgstr "Galat berlangganan"
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
+msgid "This action can't be done because it's a demo site"
+msgstr "Tindakan ini tidak dapat dilakukan karena ini adalah situs demo"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
 msgid "The translation folder is not writable"
@@ -799,122 +648,119 @@ msgstr "Bahasa telah diinstal dengan benar"
 msgid "File uploaded but unable to activate the language"
 msgstr "File diunggah tetapi tidak dapat mengaktifkan bahasa"
 
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
+msgid "The zip file is not valid"
+msgstr "Berkas zip tidak sahih"
+
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
 msgstr "Ada masalah menambahkan bahasa"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:153
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:154
 #, php-format
 msgid "Directory \"%s\" was not created"
 msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:182
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:183
 msgid "Language imported successfully"
 msgstr "Bahasa yang berhasil diimpor"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:192
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:225
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:194
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:227
 msgid "Language id isn't in the correct format"
 msgstr "Id bahasa tidak dalam format yang benar"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:199
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:201
 msgid "Language id doesn't exist"
 msgstr "Id bahasa tidak ada"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:248
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
 msgid "Language name field is required"
 msgstr "Bidang nama bahasa diperlukan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:251
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:253
 msgid "Language direction field is required"
 msgstr "Bidang arah bahasa diperlukan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:254
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:256
 msgid "Language short name field is required"
 msgstr "Bidang nama pendek bahasa diperlukan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:257
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:259
 msgid "Language description field is required"
 msgstr "Bidang deskripsi bahasa diperlukan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:260
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:262
 msgid "Currency format field is required"
 msgstr "Bidang format mata uang diperlukan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:263
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:265
 msgid "Number of decimals must only contain numeric characters"
 msgstr "Jumlah desimal hanya boleh berisi karakter numerik"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:287
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:289
 #, php-format
 msgid "%s has been updated"
 msgstr "%s telah diperbarui"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:293
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:295
 msgid "Selected languages have been enabled for the website"
 msgstr "Bahasa yang dipilih telah diaktifkan untuk situs web"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:300
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:325
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:359
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:384
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:302
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:327
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:361
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:386
 msgid "The language ids aren't in the correct format"
 msgstr "Id bahasa tidak dalam format yang benar"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:317
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:319
 msgid "Selected languages have been disabled for the website"
 msgstr "Bahasa yang dipilih telah dinonaktifkan untuk situs web"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:332
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:391
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:334
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:393
 #, php-format
 msgid "%s can't be disabled because it's the default language"
 msgstr "%s tidak dapat dinonaktifkan karena itu adalah bahasa default"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:352
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:354
 msgid "Selected languages have been enabled for the backoffice (oc-admin)"
 msgstr "Bahasa yang dipilih telah diaktifkan untuk backoffice (oc-admin)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:376
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:378
 msgid "Selected languages have been disabled for the backoffice (oc-admin)"
 msgstr "Bahasa yang dipilih telah dinonaktifkan untuk backoffice (oc-admin)"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:418
-#, php-format
-msgid "Directory '%s' couldn't be removed"
-msgstr "Direktori '%s' tidak dapat dihapus"
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:420
+msgid "The current language can't be deleted. Please logout and login again with another language."
+msgstr ""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:423
-#, php-format
-msgid "Directory \"%s\" has been successfully removed"
-msgstr "Direktori \"%s\" telah berhasil dihapus"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:429
-#, php-format
-msgid "Directory '%s' couldn't be removed;)"
-msgstr "Direktori '%s' tidak dapat dihapus;)"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:437
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:426
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
 msgstr "Direktori '%s' tidak dapat dihapus karena itu adalah bahasa default. <a href=\"%s\">Atur bahasa lain</a> sebagai default terlebih dahulu dan coba lagi"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:628
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:437
+#, php-format
+msgid "Directory '%s' couldn't be removed"
+msgstr "Direktori '%s' tidak dapat dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:442
+#, php-format
+msgid "Directory \"%s\" has been successfully removed"
+msgstr "Direktori \"%s\" telah berhasil dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:448
+#, php-format
+msgid "Directory '%s' couldn't be removed;)"
+msgstr "Direktori '%s' tidak dapat dihapus;)"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:635
 msgid "There was a problem importing email templates"
 msgstr "Ada masalah mengimpor templat email"
-
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
-msgid "This action cannot be done because it is a demo site"
-msgstr "Tindakan ini tidak dapat dilakukan karena ini adalah situs demo."
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
 msgid "The username field is empty"
@@ -945,6 +791,60 @@ msgstr "Kata sandi baru telah dikirim ke email Anda"
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
 msgid "Error, the passwords don't match"
 msgstr "Kesalahan, kata sandi tidak cocok"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
+msgid "The comments have been deleted"
+msgstr "Komentar telah dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
+msgid "The comments have been approved"
+msgstr "Komentar tersebut telah disetujui"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
+msgid "The comments have been disapproved"
+msgstr "Komentar tersebut tidak disetujui."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
+msgid "The comments have been unblocked"
+msgstr "Komentar tersebut tidak diblokir."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
+msgid "The comments have been blocked"
+msgstr "Komentar tersebut telah diblokir"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
+msgid "The comment has been approved"
+msgstr "Komentar tersebut telah disetujui"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
+msgid "The comment has been disapproved"
+msgstr "Komentar tersebut tidak disetujui."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
+msgid "The comment has been enabled"
+msgstr "Komentar tersebut telah diaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
+msgid "The comment has been disabled"
+msgstr "Komentar tersebut telah dinonaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
+msgid "Email is not correct"
+msgstr "Email tidak benar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
+msgid "Comment is required"
+msgstr "Komentar diperlukan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
+msgid "Great! We just updated your comment"
+msgstr "Hebat! Kami baru saja memperbarui komentar Anda"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
+msgid "You don't have enough permissions"
+msgstr "Anda tidak memiliki izin yang cukup"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
@@ -1026,77 +926,178 @@ msgstr "Admin telah dihapus dengan benar"
 msgid "The admin couldn't be deleted"
 msgstr "Admin tidak bisa dihapus"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
-msgid "Import complete"
-msgstr "Impor selesai"
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
+msgid "You have very few free space left, users will not be able to upload pictures"
+msgstr "Anda memiliki sangat sedikit ruang kosong yang tersisa, pengguna tidak akan dapat mengunggah gambar"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
-msgid "There was a problem importing data to the database"
-msgstr "Ada masalah mengimpor data ke database"
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
+msgid "Entered an invalid email"
+msgstr "Memasukkan email yang tidak valid"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
-msgid "Recount category stats has been successful"
-msgstr "Statistik kategori penghitungan ulang telah berhasil"
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
+msgid "You're already subscribed"
+msgstr "Anda sudah berlangganan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
-msgid "Path is empty"
-msgstr "Jalan kosong"
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
+msgid "Subscribed correctly"
+msgstr "Berlangganan dengan benar"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
-msgid "Could not connect with the database"
-msgstr "Tak bisa tersambung dengan database"
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
+msgid "Error subscribing"
+msgstr "Galat berlangganan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
-msgid "There are no tables to back up"
-msgstr "Tidak ada tabel untuk dicadangkan"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
+msgid "The user has been created. We've sent an activation e-mail"
+msgstr "Pengguna telah dibuat. Kami telah mengirim e-mail aktivasi"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
-msgid "The folder is not writable"
-msgstr "Folder tidak dapat ditulis"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
+msgid "The user has been created successfully"
+msgstr "Pengguna telah berhasil dibuat"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
-msgid "Backup completed successfully"
-msgstr "Backup berhasil diselesaikan"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:164
+msgid "The user has been updated"
+msgstr "Pengguna telah diperbarui"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:166
+msgid "The user has been updated and activated"
+msgstr "Pengguna telah diperbarui dan diaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:180
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:206
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:259
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:285
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:310
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:629
+msgid "User id isn't in the correct format"
+msgstr "Id pengguna tidak dalam format yang benar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:190
+msgid "No users have been selected"
+msgstr "Tidak ada pengguna yang dipilih"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:193
 #, php-format
-msgid "Could not connect with the database. Error: %s"
-msgstr "Tidak dapat terhubung dengan database. Galat: %s"
+msgid "Activation email sent to one user"
+msgid_plural "Activation email sent to %s users"
+msgstr[0] "Email aktivasi yang dikirim ke pengguna %s"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:216
+msgid "No users have been activated"
+msgstr "Tidak ada pengguna yang diaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:219
 #, php-format
-msgid "Could not select the database. Error: %s"
-msgstr "Tak bisa memilih database. Galat: %s"
+msgid "One user has been activated"
+msgid_plural "%s users have been activated"
+msgstr[0] "%s pengguna telah diaktifkan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
-msgid "Archived successfully!"
-msgstr "Diarsipkan dengan sukses!"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:243
+msgid "No users have been deactivated"
+msgstr "Tidak ada pengguna yang dinonaktifkan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
-msgid "Error, the zip file was not created in the specified directory"
-msgstr "Galat, file zip tidak dibuat di direktori yang ditentukan"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:246
+#, php-format
+msgid "One user has been deactivated"
+msgid_plural "%s users have been deactivated"
+msgstr[0] "%s pengguna telah dinonaktifkan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
-msgid "Maintenance mode is ON"
-msgstr "Mode pemeliharaan adalah ON"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:269
+msgid "No users have been enabled"
+msgstr "Tidak ada pengguna yang diaktifkan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
-msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
-msgstr "Ada kesalahan membuat file .maintenance, silakan buat secara manual di folder root"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:272
+#, php-format
+msgid "One user has been unblocked"
+msgid_plural "%s users have been unblocked"
+msgstr[0] "%s pengguna tidak diblokir"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
-msgid "Maintenance mode is OFF"
-msgstr "Mode pemeliharaan tidak aktif"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:295
+msgid "No users have been disabled"
+msgstr "Tidak ada pengguna yang dinonaktifkan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
-msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
-msgstr "Ada kesalahan menghapus file .maintenance, silakan hapus secara manual dari folder root"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:298
+#, php-format
+msgid "One user has been blocked"
+msgid_plural "%s users have been blocked"
+msgstr[0] "%s pengguna telah diblokir"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:324
+msgid "No users have been deleted"
+msgstr "Tidak ada pengguna yang dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:327
+#, php-format
+msgid "One user has been deleted"
+msgid_plural "%s users have been deleted"
+msgstr[0] "%s pengguna telah dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:337
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:373
+msgid "Alert id isn't in the correct format"
+msgstr "Id peringatan tidak dalam format yang benar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:353
+msgid "No alerts have been deleted"
+msgstr "Tidak ada peringatan yang dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:356
+#, php-format
+msgid "One alert has been deleted"
+msgid_plural "%s alerts have been deleted"
+msgstr[0] "peringatan %s telah dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:394
+msgid "No alerts have been activated"
+msgstr "Tidak ada peringatan yang diaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:397
+#, php-format
+msgid "One alert has been activated"
+msgid_plural "%s alerts have been activated"
+msgstr[0] "%s peringatan telah diaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
+msgid "No alerts have been deactivated"
+msgstr "Tidak ada peringatan yang dinonaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:406
+#, php-format
+msgid "One alert has been deactivated"
+msgid_plural "%s alerts have been deactivated"
+msgstr[0] "%s peringatan telah dinonaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:446
+msgid "User settings have been updated"
+msgstr "Pengaturan pengguna telah diperbarui"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:592
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:611
+msgid "Both rules can not be empty"
+msgstr "Kedua aturan tidak bisa kosong."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:601
+msgid "Rule updated correctly"
+msgstr "Aturan diperbarui dengan benar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:620
+msgid "Rule saved correctly"
+msgstr "Aturan disimpan dengan benar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:641
+msgid "No rules have been deleted"
+msgstr "Tidak ada aturan yang dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:644
+#, php-format
+msgid "One ban rule has been deleted"
+msgid_plural "%s ban rules have been deleted"
+msgstr[0] "aturan larangan %s telah dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:667
+#, php-format
+msgid "Logged in as %s successfully"
+msgstr ""
 
 #: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
 msgid "The email/alert has been updated"
@@ -1105,6 +1106,12 @@ msgstr "Email/alert telah diperbarui"
 #: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
 msgid "The email couldn't be updated, at least one title should not be empty"
 msgstr "Email tidak dapat diperbarui, setidaknya satu judul tidak boleh kosong"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
+msgid "Resource deleted"
+msgstr "Sumber daya dihapus"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
 msgid "The theme folder is not writable"
@@ -1159,207 +1166,390 @@ msgstr "Widget ditambahkan dengan benar"
 msgid "Theme activated correctly"
 msgstr "Tema diaktifkan dengan benar"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
-msgid "The user has been created. We've sent an activation e-mail"
-msgstr "Pengguna telah dibuat. Kami telah mengirim e-mail aktivasi"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
+msgid "The plugin folder is not writable"
+msgstr "Folder plugin tidak dapat ditulis"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
-msgid "The user has been created successfully"
-msgstr "Pengguna telah berhasil dibuat"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
+msgid "The plugin has been uploaded correctly"
+msgstr "Plugin telah diunggah dengan benar"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
-msgid "The user has been updated"
-msgstr "Pengguna telah diperbarui"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
+msgid "There was a problem adding the plugin"
+msgstr "Ada masalah menambahkan plugin"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
-msgid "The user has been updated and activated"
-msgstr "Pengguna telah diperbarui dan diaktifkan"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:229
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:255
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:281
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:306
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:625
-msgid "User id isn't in the correct format"
-msgstr "Id pengguna tidak dalam format yang benar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:186
-msgid "No users have been selected"
-msgstr "Tidak ada pengguna yang dipilih"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:189
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
 #, php-format
-msgid "Activation email sent to one user"
-msgid_plural "Activation email sent to %s users"
-msgstr[0] "Email aktivasi yang dikirim ke pengguna %s"
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
+msgstr "Plugin ini menghasilkan karakter %d dari output <strong>tak terduga</strong> selama instalasi. Output: \"%s\""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
-msgid "No users have been activated"
-msgstr "Tidak ada pengguna yang diaktifkan"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
+msgid "Plugin is already installed"
+msgstr "Plugin sudah diinstal"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:215
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
+msgid "Plugin couldn't be installed because their files are missing"
+msgstr "Plugin tidak dapat diinstal karena file mereka hilang"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
 #, php-format
-msgid "One user has been activated"
-msgid_plural "%s users have been activated"
-msgstr[0] "%s pengguna telah diaktifkan"
+msgid "Plugin couldn't be installed because of: %s"
+msgstr "Plugin tidak dapat diinstal karena: %s"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
-msgid "No users have been deactivated"
-msgstr "Tidak ada pengguna yang dinonaktifkan"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
+msgid "Plugin couldn't be installed"
+msgstr "Plugin tidak bisa diinstal"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:242
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
+msgid "Plugin installed"
+msgstr "Plugin diinstal"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
+msgid "Plugin uninstalled"
+msgstr "Plugin dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
+msgid "Plugin couldn't be uninstalled"
+msgstr "Plugin tidak dapat dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
+msgid "Plugin enabled"
+msgstr "Plugin diaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
+msgid "Plugin is already enabled"
+msgstr "Plugin sudah diaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
+msgid "Plugin disabled"
+msgstr "Plugin dinonaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
+msgid "Plugin is already disabled"
+msgstr "Plugin sudah dinonaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
+msgid "Configuration was saved"
+msgstr "Konfigurasi disimpan"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
+msgid "No plugin selected"
+msgstr "Tidak ada plugin yang dipilih"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
+msgid "The files were deleted"
+msgstr "Berkas-berkas tersebut telah dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
 #, php-format
-msgid "One user has been deactivated"
-msgid_plural "%s users have been deactivated"
-msgstr[0] "%s pengguna telah dinonaktifkan"
+msgid "There were an error deleting the files, please check the permissions of the files in %s"
+msgstr "Ada kesalahan menghapus file, silakan periksa izin file di %s"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
-msgid "No users have been enabled"
-msgstr "Tidak ada pengguna yang diaktifkan"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
+msgid "Invalid plugin file"
+msgstr "Berkas plugin tidak valid"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:268
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
+msgid "Custom number could not be left empty"
+msgstr "Nomor kustom tidak bisa dibiarkan kosong"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
+msgid "Last search settings have been updated"
+msgstr "Pengaturan pencarian terakhir telah diperbarui"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
+msgid "All fields are required."
+msgstr "Semua bidang diperlukan."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:644
 #, php-format
-msgid "One user has been unblocked"
-msgid_plural "%s users have been unblocked"
-msgstr[0] "%s pengguna tidak diblokir"
+msgid "One field was not updated"
+msgid_plural "%s fields were not updated"
+msgstr[0] "%s bidang tidak diperbarui"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
-msgid "No users have been disabled"
-msgstr "Tidak ada pengguna yang dinonaktifkan"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
+msgid "Permalinks structure updated"
+msgstr "Struktur Permalinks diperbarui"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:294
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
+msgid "Permalinks structure updated."
+msgstr "Struktur Permalink diperbarui."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
+msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
+msgstr "Namun, kita tidak dapat memeriksa apakah modul Apache <b>mod_rewrite</b> dimuat. Jika Anda mengalami beberapa masalah dengan URL, Anda harus menonaktifkan URL ramah <em></em>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
+msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
+msgstr "File <b>.htaccess</b> tidak dapat diisi dengan konten yang tepat."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Inilah konten yang harus Anda tambahkan ke file</b> <b>.htaccess. Jika Anda tidak dapat membuat file, silakan nonaktifkan opsi</em> URL Ramah <em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Inilah konten yang harus Anda tambahkan ke file</b> <b>.htaccess. Jika Anda tidak dapat membuat file atau mengalami beberapa masalah dengan URL, silakan nonaktifkan opsi</em> URL ramah <em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
+msgid "File <b>.htaccess</b> already exists and was not modified."
+msgstr "File <b>.htaccess</b> sudah ada dan tidak dimodifikasi."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Inilah konten yang harus Anda tambahkan ke file</b> <b>.htaccess. Jika Anda tidak dapat memodifikasi file atau mengalami beberapa masalah dengan URL, silakan nonaktifkan opsi</em> URL ramah <em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
+msgid "Friendly URLs successfully deactivated"
+msgstr "URL ramah berhasil dinonaktifkan"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
+msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
+msgstr "URL ramah dinonaktifkan, tetapi file .htaccess tidak dapat dihapus. Silakan, hapus secara manual"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
+msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
+msgstr "URL ramah dinonaktifkan, tetapi file .htaccess dimodifikasi di luar Osclass dan tidak dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
+msgid "Advanced settings have been updated"
+msgstr "Pengaturan tingkat lanjut telah diperbarui"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
+msgid "Cache flushed correctly"
+msgstr "Cache memerah dengan benar"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
+msgid "The currency code is not in the correct format"
+msgstr "Kode mata uang tidak dalam format yang benar"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
+msgid "Currency added"
+msgstr "Mata uang ditambahkan"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
+msgid "Currency couldn't be added"
+msgstr "Mata uang tidak dapat ditambahkan"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
 #, php-format
-msgid "One user has been blocked"
-msgid_plural "%s users have been blocked"
-msgstr[0] "%s pengguna telah diblokir"
+msgid "The currency code '%s' doesn't exist"
+msgstr "Kode mata uang '%s' tidak ada"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
-msgid "No users have been deleted"
-msgstr "Tidak ada pengguna yang dihapus"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
+msgid "Error: the currency code is not in the correct format"
+msgstr "Kesalahan: kode mata uang tidak dalam format yang benar"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:323
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
+msgid "Currency updated"
+msgstr "Mata uang diperbarui"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
+msgid "No changes were made"
+msgstr "Tidak ada perubahan yang dilakukan"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
 #, php-format
-msgid "One user has been deleted"
-msgid_plural "%s users have been deleted"
-msgstr[0] "%s pengguna telah dihapus"
+msgid "%s couldn't be deleted because it has listings associated to it"
+msgstr "%s tidak dapat dihapus karena memiliki daftar yang terkait dengannya."
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
-msgid "Alert id isn't in the correct format"
-msgstr "Id peringatan tidak dalam format yang benar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
-msgid "No alerts have been deleted"
-msgstr "Tidak ada peringatan yang dihapus"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:352
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
 #, php-format
-msgid "One alert has been deleted"
-msgid_plural "%s alerts have been deleted"
-msgstr[0] "peringatan %s telah dihapus"
+msgid "%s couldn't be deleted because it's the default currency"
+msgstr "%s tidak dapat dihapus karena itu adalah mata uang default"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
-msgid "No alerts have been activated"
-msgstr "Tidak ada peringatan yang diaktifkan"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
+msgid "No currencies have been deleted"
+msgstr "Tidak ada mata uang yang dihapus"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:393
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
+msgid "One currency has been deleted"
+msgstr "Satu mata uang telah dihapus"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
 #, php-format
-msgid "One alert has been activated"
-msgid_plural "%s alerts have been activated"
-msgstr[0] "%s peringatan telah diaktifkan"
+msgid "%s currencies have been deleted"
+msgstr "%s mata uang telah dihapus"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
-msgid "No alerts have been deactivated"
-msgstr "Tidak ada peringatan yang dinonaktifkan"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
+msgid "Number of moderate comments must only contain numeric characters"
+msgstr "Jumlah komentar moderat hanya boleh berisi karakter numerik"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
+msgid "Comments per page must only contain numeric characters"
+msgstr "Komentar per halaman hanya boleh berisi karakter numerik"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
+msgid "Comment settings have been updated"
+msgstr "Pengaturan komentar telah diperbarui"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
+msgid "Your Akismet key has been cleared"
+msgstr "Kunci Akismet Anda telah dibersihkan"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
+msgid "Your Akismet key has been updated"
+msgstr "Kunci Akismet Anda telah diperbarui"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
+msgid "Your reCAPTCHA key has been cleared"
+msgstr "Kunci reCAPTCHA Anda telah dibersihkan"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
+msgid "Your reCAPTCHA key has been updated"
+msgstr "Kunci reCAPTCHA Anda telah diperbarui"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
+msgid "There was a problem uploading the watermark image"
+msgstr "Ada masalah mengunggah gambar watermark"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
+msgid "The watermark image has to be a .PNG file"
+msgstr "Gambar watermark harus menjadi . Berkas PNG"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
 #, php-format
-msgid "One alert has been deactivated"
-msgid_plural "%s alerts have been deactivated"
-msgstr[0] "%s peringatan telah dinonaktifkan"
+msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
+msgstr "Anda tidak dapat mengatur ukuran file maksimum yang lebih tinggi dari yang diizinkan dalam konfigurasi PHP: <b>%d KB</b>"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
-msgid "User settings have been updated"
-msgstr "Pengaturan pengguna telah diperbarui"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
+msgid "Media config has been updated"
+msgstr "Konfigurasi media telah diperbarui"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
-msgid "Both rules can not be empty"
-msgstr "Kedua aturan tidak bisa kosong."
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
+msgid "Re-generation complete"
+msgstr "Generasi ulang selesai"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
-msgid "Rule updated correctly"
-msgstr "Aturan diperbarui dengan benar"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
+msgid "Last check"
+msgstr "Pemeriksaan terakhir"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
-msgid "Rule saved correctly"
-msgstr "Aturan disimpan dengan benar"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
+msgid "Page title field is required"
+msgstr "Bidang judul halaman diperlukan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
-msgid "No rules have been deleted"
-msgstr "Tidak ada aturan yang dihapus"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
+msgid "Contact email field is required"
+msgstr "Bidang email kontak diperlukan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:640
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
+msgid "Number of listings in the RSS has to be a numeric value"
+msgstr "Jumlah daftar di RSS harus berupa nilai numerik"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
+msgid "Max latest listings has to be a numeric value"
+msgstr "Daftar terbaru maksimal harus menjadi nilai numerik"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
+msgid "Number of listings on search has to be a numeric value"
+msgstr "Jumlah daftar yang dicari harus berupa nilai numerik"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
+msgid "Number of listings in the RSS must be an integer"
+msgstr "Jumlah daftar dalam RSS harus berupa integer"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
+msgid "Number of recent listings displayed at home must be an integer"
+msgstr "Jumlah daftar terbaru yang ditampilkan di rumah harus berupa integer"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
+msgid "General settings have been updated"
+msgstr "Pengaturan umum telah diperbarui"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
+msgid "Mail server type is incorrect"
+msgstr "Tipe server email tidak benar"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
+msgid "Mail server configuration has changed"
+msgstr "Konfigurasi server email telah berubah"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
 #, php-format
-msgid "One ban rule has been deleted"
-msgid_plural "%s ban rules have been deleted"
-msgstr[0] "aturan larangan %s telah dihapus"
+msgid "%s already was in the database"
+msgstr "%s sudah ada di database"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
-#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
-msgid "Resource deleted"
-msgstr "Sumber daya dihapus"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#, php-format
+msgid "%s has been added as a new country"
+msgstr "%s telah ditambahkan sebagai negara baru."
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
-msgid "The comments have been deleted"
-msgstr "Komentar telah dihapus"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
+msgid "Country name cannot be blank"
+msgstr "Nama negara tidak bisa kosong"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
-msgid "The comments have been approved"
-msgstr "Komentar tersebut telah disetujui"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
+msgid "Country has been edited"
+msgstr "Negara telah diedit"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
-msgid "The comments have been disapproved"
-msgstr "Komentar tersebut tidak disetujui."
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
+msgid "There were some problems editing the country"
+msgstr "Ada beberapa masalah dalam mengedit negara"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
-msgid "The comments have been unblocked"
-msgstr "Komentar tersebut tidak diblokir."
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
+msgid "There was a problem deleting locations"
+msgstr "Ada masalah menghapus lokasi"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
-msgid "The comments have been blocked"
-msgstr "Komentar tersebut telah diblokir"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
+msgid "No country was selected"
+msgstr "Tidak ada negara yang dipilih"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
-msgid "The comment has been approved"
-msgstr "Komentar tersebut telah disetujui"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
+msgid "Region name cannot be blank"
+msgstr "Nama wilayah tidak bisa kosong"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
-msgid "The comment has been disapproved"
-msgstr "Komentar tersebut tidak disetujui."
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#, php-format
+msgid "%s has been added as a new region"
+msgstr "%s telah ditambahkan sebagai wilayah baru"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
-msgid "The comment has been enabled"
-msgstr "Komentar tersebut telah diaktifkan"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#, php-format
+msgid "%s has been edited"
+msgstr "%s telah diedit"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
-msgid "The comment has been disabled"
-msgstr "Komentar tersebut telah dinonaktifkan"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
+msgid "No region was selected"
+msgstr "Tidak ada wilayah yang dipilih"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
-msgid "Email is not correct"
-msgstr "Email tidak benar"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
+msgid "New city name cannot be blank"
+msgstr "Nama kota baru tidak bisa kosong"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
-msgid "Comment is required"
-msgstr "Komentar diperlukan"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#, php-format
+msgid "%s has been added as a new city"
+msgstr "%s telah ditambahkan sebagai kota baru"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
-msgid "Great! We just updated your comment"
-msgstr "Hebat! Kami baru saja memperbarui komentar Anda"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
+msgid "City name cannot be blank"
+msgstr "Nama kota tidak bisa kosong"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
+msgid "No city was selected"
+msgstr "Tidak ada kota yang dipilih"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
+msgid "Location imported successfully"
+msgstr "Lokasi berhasil diimpor"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
+msgid "There was a problem importing the selected location"
+msgstr "Ada masalah mengimpor lokasi yang dipilih"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:80
 #, php-format
@@ -1533,357 +1723,177 @@ msgstr "Panjang deskripsi harus menjadi nilai numerik"
 msgid "Listings' settings have been updated"
 msgstr "Pengaturan daftar telah diperbarui"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
-msgid "Mail server type is incorrect"
-msgstr "Tipe server email tidak benar"
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
+msgid "Thank you very much for your donation"
+msgstr "Terima kasih banyak atas donasi Anda"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
-msgid "Mail server configuration has changed"
-msgstr "Konfigurasi server email telah berubah"
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
+msgid "Your email has been changed successfully"
+msgstr "Email Anda telah berhasil diubah"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
+msgid "Your email has been sent properly."
+msgstr "Email Anda telah dikirim dengan benar."
+
+#: oc-includes/osclass/classes/Csrf.php:181
+msgid "Probable invalid request."
+msgstr "Kemungkinan permintaan tidak valid."
+
+#: oc-includes/osclass/classes/Csrf.php:184
+msgid "Invalid CSRF token."
+msgstr "Token CSRF yang tidak valid."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:124
+msgid "Name too long."
+msgstr "Nama terlalu panjang."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:125
+msgid "Email invalid."
+msgstr "Email tidak valid."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:131
+msgid "Too fast. You should wait a little to publish your ad."
+msgstr "Terlalu cepat. Anda harus menunggu sedikit untuk mempublikasikan iklan Anda."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:357
+msgid "One of the files you tried to upload exceeds the maximum size"
+msgstr "Salah satu file yang Anda coba unggah melebihi ukuran maksimum"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:419
+msgid "Image with an incorrect extension."
+msgstr "Gambar dengan ekstensi yang salah."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:422
+msgid "Image is too big. Max. size"
+msgstr "Gambarnya terlalu besar. Max. ukuran"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:432
 #, php-format
-msgid "%s already was in the database"
-msgstr "%s sudah ada di database"
+msgid "Title too short (%s)."
+msgstr "Judul terlalu pendek (%s)."
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#: oc-includes/osclass/classes/actions/ItemActions.php:434
 #, php-format
-msgid "%s has been added as a new country"
-msgstr "%s telah ditambahkan sebagai negara baru."
+msgid "Title too long (%s)."
+msgstr "Judul terlalu lama (%s)."
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
-msgid "Country name cannot be blank"
-msgstr "Nama negara tidak bisa kosong"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
-msgid "Country has been edited"
-msgstr "Negara telah diedit"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
-msgid "There were some problems editing the country"
-msgstr "Ada beberapa masalah dalam mengedit negara"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
-msgid "There was a problem deleting locations"
-msgstr "Ada masalah menghapus lokasi"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
-msgid "No country was selected"
-msgstr "Tidak ada negara yang dipilih"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
-msgid "Region name cannot be blank"
-msgstr "Nama wilayah tidak bisa kosong"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#: oc-includes/osclass/classes/actions/ItemActions.php:444
 #, php-format
-msgid "%s has been added as a new region"
-msgstr "%s telah ditambahkan sebagai wilayah baru"
+msgid "Description too short (%s)."
+msgstr "Deskripsi terlalu singkat (%s)."
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#: oc-includes/osclass/classes/actions/ItemActions.php:447
 #, php-format
-msgid "%s has been edited"
-msgstr "%s telah diedit"
+msgid "Description too long (%s)."
+msgstr "Deskripsi terlalu lama (%s)."
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
-msgid "No region was selected"
-msgstr "Tidak ada wilayah yang dipilih"
+#: oc-includes/osclass/classes/actions/ItemActions.php:451
+msgid "Category invalid."
+msgstr "Kategori tidak valid."
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
-msgid "New city name cannot be blank"
-msgstr "Nama kota baru tidak bisa kosong"
+#: oc-includes/osclass/classes/actions/ItemActions.php:452
+msgid "Price must be a number."
+msgstr "Harga harus menjadi angka."
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#: oc-includes/osclass/classes/actions/ItemActions.php:454
+msgid "Price too long."
+msgstr "Harga terlalu lama."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:457
+msgid "Price must be positive number."
+msgstr "Harga harus angka positif."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:459
+msgid "Country too short."
+msgstr "Negara terlalu pendek."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:461
+msgid "Country too long."
+msgstr "Negara terlalu lama."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:463
+msgid "Region too short."
+msgstr "Wilayah terlalu pendek."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:465
+msgid "Region too long."
+msgstr "Wilayah terlalu lama."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:467
+msgid "City too short."
+msgstr "Kota terlalu pendek."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:468
+msgid "City too long."
+msgstr "Kota terlalu lama."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:470
+msgid "Municipality too short."
+msgstr "Munisipalitas terlalu pendek."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:472
+msgid "Municipality too long."
+msgstr "Munisipalitas terlalu lama."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:474
+msgid "Address too short."
+msgstr "Alamat terlalu pendek."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:476
+msgid "Address too long."
+msgstr "Alamat terlalu lama."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:478
+msgid "Phone invalid."
+msgstr "Telepon tidak valid."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:572
+#: oc-includes/osclass/classes/actions/ItemActions.php:585
+#: oc-includes/osclass/classes/actions/ItemActions.php:596
+#: oc-includes/osclass/classes/actions/ItemActions.php:606
+#: oc-includes/osclass/classes/actions/ItemActions.php:608
 #, php-format
-msgid "%s has been added as a new city"
-msgstr "%s telah ditambahkan sebagai kota baru"
+msgid "%s is invalid."
+msgstr "%s tidak valid."
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
-msgid "City name cannot be blank"
-msgstr "Nama kota tidak bisa kosong"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
-msgid "No city was selected"
-msgstr "Tidak ada kota yang dipilih"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
-msgid "Location imported successfully"
-msgstr "Lokasi berhasil diimpor"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
-msgid "There was a problem importing the selected location"
-msgstr "Ada masalah mengimpor lokasi yang dipilih"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
-msgid "All fields are required."
-msgstr "Semua bidang diperlukan."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:644
+#: oc-includes/osclass/classes/actions/ItemActions.php:575
+#: oc-includes/osclass/classes/actions/ItemActions.php:578
+#: oc-includes/osclass/classes/actions/ItemActions.php:588
+#: oc-includes/osclass/classes/actions/ItemActions.php:599
+#: oc-includes/osclass/classes/actions/ItemActions.php:611
+#: oc-includes/osclass/classes/actions/ItemActions.php:618
 #, php-format
-msgid "One field was not updated"
-msgid_plural "%s fields were not updated"
-msgstr[0] "%s bidang tidak diperbarui"
+msgid "%s is required."
+msgstr "%s diperlukan."
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
-msgid "Permalinks structure updated"
-msgstr "Struktur Permalinks diperbarui"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
-msgid "Permalinks structure updated."
-msgstr "Struktur Permalink diperbarui."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
-msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
-msgstr "Namun, kita tidak dapat memeriksa apakah modul Apache <b>mod_rewrite</b> dimuat. Jika Anda mengalami beberapa masalah dengan URL, Anda harus menonaktifkan URL ramah <em></em>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
-msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
-msgstr "File <b>.htaccess</b> tidak dapat diisi dengan konten yang tepat."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Inilah konten yang harus Anda tambahkan ke file</b> <b>.htaccess. Jika Anda tidak dapat membuat file, silakan nonaktifkan opsi</em> URL Ramah <em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Inilah konten yang harus Anda tambahkan ke file</b> <b>.htaccess. Jika Anda tidak dapat membuat file atau mengalami beberapa masalah dengan URL, silakan nonaktifkan opsi</em> URL ramah <em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
-msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr "File <b>.htaccess</b> sudah ada dan tidak dimodifikasi."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Inilah konten yang harus Anda tambahkan ke file</b> <b>.htaccess. Jika Anda tidak dapat memodifikasi file atau mengalami beberapa masalah dengan URL, silakan nonaktifkan opsi</em> URL ramah <em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
-msgid "Friendly URLs successfully deactivated"
-msgstr "URL ramah berhasil dinonaktifkan"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
-msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr "URL ramah dinonaktifkan, tetapi file .htaccess tidak dapat dihapus. Silakan, hapus secara manual"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
-msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr "URL ramah dinonaktifkan, tetapi file .htaccess dimodifikasi di luar Osclass dan tidak dihapus"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
-msgid "Custom number could not be left empty"
-msgstr "Nomor kustom tidak bisa dibiarkan kosong"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
-msgid "Last search settings have been updated"
-msgstr "Pengaturan pencarian terakhir telah diperbarui"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
-msgid "Last check"
-msgstr "Pemeriksaan terakhir"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
-msgid "Page title field is required"
-msgstr "Bidang judul halaman diperlukan"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
-msgid "Contact email field is required"
-msgstr "Bidang email kontak diperlukan"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
-msgid "Number of listings in the RSS has to be a numeric value"
-msgstr "Jumlah daftar di RSS harus berupa nilai numerik"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
-msgid "Max latest listings has to be a numeric value"
-msgstr "Daftar terbaru maksimal harus menjadi nilai numerik"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
-msgid "Number of listings on search has to be a numeric value"
-msgstr "Jumlah daftar yang dicari harus berupa nilai numerik"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
-msgid "Number of listings in the RSS must be an integer"
-msgstr "Jumlah daftar dalam RSS harus berupa integer"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
-msgid "Number of recent listings displayed at home must be an integer"
-msgstr "Jumlah daftar terbaru yang ditampilkan di rumah harus berupa integer"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
-msgid "General settings have been updated"
-msgstr "Pengaturan umum telah diperbarui"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
-msgid "Your Akismet key has been cleared"
-msgstr "Kunci Akismet Anda telah dibersihkan"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
-msgid "Your Akismet key has been updated"
-msgstr "Kunci Akismet Anda telah diperbarui"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
-msgid "Your reCAPTCHA key has been cleared"
-msgstr "Kunci reCAPTCHA Anda telah dibersihkan"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
-msgid "Your reCAPTCHA key has been updated"
-msgstr "Kunci reCAPTCHA Anda telah diperbarui"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
-msgid "Advanced settings have been updated"
-msgstr "Pengaturan tingkat lanjut telah diperbarui"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
-msgid "Cache flushed correctly"
-msgstr "Cache memerah dengan benar"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
-msgid "Number of moderate comments must only contain numeric characters"
-msgstr "Jumlah komentar moderat hanya boleh berisi karakter numerik"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
-msgid "Comments per page must only contain numeric characters"
-msgstr "Komentar per halaman hanya boleh berisi karakter numerik"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
-msgid "Comment settings have been updated"
-msgstr "Pengaturan komentar telah diperbarui"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
-msgid "The currency code is not in the correct format"
-msgstr "Kode mata uang tidak dalam format yang benar"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
-msgid "Currency added"
-msgstr "Mata uang ditambahkan"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
-msgid "Currency couldn't be added"
-msgstr "Mata uang tidak dapat ditambahkan"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
+#: oc-includes/osclass/classes/actions/ItemActions.php:1378
 #, php-format
-msgid "The currency code '%s' doesn't exist"
-msgstr "Kode mata uang '%s' tidak ada"
+msgid "We just sent your message to %s"
+msgstr "Kami baru saja mengirim pesan Anda ke %s"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
-msgid "Error: the currency code is not in the correct format"
-msgstr "Kesalahan: kode mata uang tidak dalam format yang benar"
+#: oc-includes/osclass/classes/actions/UserActions.php:65
+msgid "The reCAPTCHA was not entered correctly"
+msgstr "ReCAPTCHA tidak dimasukkan dengan benar"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
-msgid "Currency updated"
-msgstr "Mata uang diperbarui"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
-msgid "No changes were made"
-msgstr "Tidak ada perubahan yang dilakukan"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
-#, php-format
-msgid "%s couldn't be deleted because it has listings associated to it"
-msgstr "%s tidak dapat dihapus karena memiliki daftar yang terkait dengannya."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
-#, php-format
-msgid "%s couldn't be deleted because it's the default currency"
-msgstr "%s tidak dapat dihapus karena itu adalah mata uang default"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
-msgid "No currencies have been deleted"
-msgstr "Tidak ada mata uang yang dihapus"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
-msgid "One currency has been deleted"
-msgstr "Satu mata uang telah dihapus"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
-#, php-format
-msgid "%s currencies have been deleted"
-msgstr "%s mata uang telah dihapus"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
-msgid "There was a problem uploading the watermark image"
-msgstr "Ada masalah mengunggah gambar watermark"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
-msgid "The watermark image has to be a .PNG file"
-msgstr "Gambar watermark harus menjadi . Berkas PNG"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
-#, php-format
-msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
-msgstr "Anda tidak dapat mengatur ukuran file maksimum yang lebih tinggi dari yang diizinkan dalam konfigurasi PHP: <b>%d KB</b>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
-msgid "Media config has been updated"
-msgstr "Konfigurasi media telah diperbarui"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
-msgid "Re-generation complete"
-msgstr "Generasi ulang selesai"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:103
-msgid "Your profile has been updated successfully"
-msgstr "Profil Anda telah diperbarui dengan sukses"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:170
-msgid "The specified e-mail is not valid"
-msgstr "Email yang ditentukan tidak valid"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:188
-msgid "The specified username is already in use"
-msgstr "Nama pengguna yang ditentukan sudah digunakan"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:196
-msgid "The username was updated"
-msgstr "Nama pengguna diperbarui"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:205
-msgid "The specified username could not be empty"
-msgstr "Nama pengguna yang ditentukan tidak bisa kosong"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:230
-msgid "Current password doesn't match"
-msgstr "Kata sandi saat ini tidak cocok"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:235
-msgid "Passwords can't be empty"
+#: oc-includes/osclass/classes/actions/UserActions.php:70
+msgid "The password cannot be empty"
 msgstr "Kata sandi tidak bisa kosong"
 
-#: oc-includes/osclass/classes/controller/CWebUser.php:257
-msgid "Password has been changed"
-msgstr "Password telah diubah"
+#: oc-includes/osclass/classes/actions/UserActions.php:86
+#: oc-includes/osclass/classes/actions/UserActions.php:302
+msgid "The name cannot be empty"
+msgstr "Nama tidak bisa kosong"
 
-#: oc-includes/osclass/classes/controller/CWebUser.php:349
-msgid "Your account have been deleted"
-msgstr "Akun Anda telah dihapus"
+#: oc-includes/osclass/classes/actions/UserActions.php:91
+msgid "The email is not valid"
+msgstr "Email tidak valid"
 
-#: oc-includes/osclass/classes/controller/CWebUser.php:352
-#: oc-includes/osclass/classes/controller/CWebUser.php:356
-msgid "Oops! you can not do that"
-msgstr "Ups! Anda tidak dapat melakukan itu"
+#: oc-includes/osclass/classes/actions/UserActions.php:105
+msgid "Username is already taken"
+msgstr "Username sudah diambil"
 
-#: oc-includes/osclass/emails.php:861
-msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
-msgstr "Kami telah mengirimkan e-mail. Ikuti instruksinya untuk memvalidasi perubahan"
-
-#: oc-includes/osclass/emails.php:864
-msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
-msgstr "Kami mencoba mengirimimu e-mail, tapi gagal. Silakan hubungi administrator"
-
-#: oc-includes/osclass/emails.php:1122
-msgid "There has been some errors sending the message"
-msgstr "Ada beberapa kesalahan yang mengirim pesan"
+#: oc-includes/osclass/classes/actions/UserActions.php:291
+#, php-format
+msgid "The specified e-mail is already used by %s"
+msgstr "E-mail yang ditentukan sudah digunakan oleh %s"
 

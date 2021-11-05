@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:26\n"
+"POT-Creation-Date: 2021-11-05 09:41+0000\n"
+"PO-Revision-Date: 2021-11-05 09:45\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -17,437 +17,9 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "Felhasználónév módosítása"
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Falhasználónév: a mező kitöltése kötelező"
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "A felhasználónév elérhető"
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "A felhasználónév NEM érhető el"
-
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Felhasználónév"
-
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "Frissítés"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "E-mail módosítása "
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "Aktuális e-mail"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "Új e-mail"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "Email: a mező kitöltése kötelező"
-
-#: user-change_email.php:77 alert-form.php:28
-msgid "Invalid email address"
-msgstr "Helytelen e-mail cím"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Megjelenítési menü"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "Fiók törlése"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Biztos benne, hogy törölni szeretné fiókját?"
-
-#: item-sidebar.php:30
-msgid "Mark as..."
-msgstr "Jel, mint..."
-
-#: item-sidebar.php:31
-msgid "Mark as spam"
-msgstr "Megjelölés mint spam"
-
-#: item-sidebar.php:32
-msgid "Mark as misclassified"
-msgstr "Hibásan osztályozott megjelölés"
-
-#: item-sidebar.php:33
-msgid "Mark as duplicated"
-msgstr "Többszörjelölés"
-
-#: item-sidebar.php:34
-msgid "Mark as expired"
-msgstr "A jelölés lejárt"
-
-#: item-sidebar.php:35
-msgid "Mark as offensive"
-msgstr "Jelölés támadóként"
-
-#: item-sidebar.php:49 functions.php:437
-msgid "Contact publisher"
-msgstr "Válaszolj a hirdetőnek"
-
-#: item-sidebar.php:52
-msgid "The listing is expired. You can't contact the publisher."
-msgstr "A lista lejárt. Nem léphet kapcsolatba a kiadóval."
-
-#: item-sidebar.php:56
-msgid "It's your own listing, you can't contact the publisher."
-msgstr "Ez a saját listája, nem léphet kapcsolatba a kiadóval."
-
-#: item-sidebar.php:60
-msgid "You must log in or register a new account in order to contact the advertiser"
-msgstr "A hirdetővel való kapcsolatfelvételhez be kell jelentkeznie vagy regisztrálnia kell egy új fiókot"
-
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "Belépés"
-
-#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "Regisztráljon ingyenes fiókra"
-
-#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
-#: user-register.php:39
-msgid "Name"
-msgstr "Név"
-
-#: item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "Név: %s"
-
-#: item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "E-mail cím: %s"
-
-#: item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "Telefon: %s"
-
-#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
-#: item-send-friend.php:44
-msgid "Your name"
-msgstr "A neved"
-
-#: item-sidebar.php:89
-msgid "Your e-mail address"
-msgstr "Az Ön e-mail címe"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41
-msgid "Phone number"
-msgstr "Telefonszám"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
-msgid "optional"
-msgstr "szabadon választható"
-
-#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
-#: item-send-friend.php:78
-msgid "Message"
-msgstr "Üzenet"
-
-#: item-sidebar.php:104
-msgid "Attachment"
-msgstr "Melléklet"
-
-#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
-#: item-send-friend.php:87
-msgid "Send"
-msgstr "Küld"
-
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "Sikeresen feliratkoztál a figyelmeztetésekre"
-
-#: alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "Probléma adódott a figyelmeztetéssel"
-
-#: alert-form.php:61
-msgid "Already subscribed to this search"
-msgstr "Már feliratkozott erre a keresésre"
-
-#: alert-form.php:65
-msgid "Subscribe to this search"
-msgstr "Feliratkozás erre a keresésre"
-
-#: alert-form.php:80
-msgid "Subscribe now"
-msgstr "Feliratkozás most"
-
-#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
-#: item.php:165
-msgid "Delete"
-msgstr "Törlés"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "Mégse"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Előző kép"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Következő kép"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "Bezár"
-
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "Az Ön keresése"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "Város"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Csak megjelenítése"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "képekkel ellátott listák"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Ár"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Min"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Max"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Alkalmaz"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Kategória finomítása"
-
-#: loop-single-premium.php:46 loop-single.php:46 item.php:73
-msgid "Edit item"
-msgstr "Elem szerkesztése"
-
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Ez a művelet nem visszavonható. Biztos vagy benne, hogy folytatod?"
-
-#: loop-single-premium.php:51 loop-single.php:51
-msgid "Activate"
-msgstr "Aktiválás"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Cím:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Elhelyezkedés:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "Felhasználói leírás"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "Legfrissebb listák"
-
-#: main.php:38
-msgid "Latest Listings"
-msgstr "Legfrissebb listák"
-
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "Jelenleg nem állnak rendelkezésre listák."
-
-#: main.php:45 search.php:80 admin/settings.php:60
-msgid "List"
-msgstr "Lista"
-
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Rács"
-
-#: main.php:57
-msgid "See all listings"
-msgstr "Az összes lista megtekintése"
-
-#: main.php:74 item.php:66
-msgid "Location"
-msgstr "Elhelyezkedés"
-
-#: user-profile.php:32 user-profile.php:37 functions.php:445
-msgid "Update account"
-msgstr "Fiók frissítése"
-
-#: user-profile.php:52
-msgid "User type"
-msgstr "Felhasználó típusa"
-
-#: user-profile.php:59
-msgid "Cell phone"
-msgstr "Mobiltelefon"
-
-#: user-profile.php:65
-msgid "Phone"
-msgstr "Telefon"
-
-#: user-profile.php:71 item-post.php:92
-msgid "Country"
-msgstr "Ország"
-
-#: user-profile.php:77 item-post.php:98 item-post.php:124
-msgid "Region"
-msgstr "Régió"
-
-#: user-profile.php:89
-msgid "City area"
-msgstr "Város környéke"
-
-#: user-profile.php:95 item-post.php:168
-msgid "Address"
-msgstr "Cím"
-
-#: user-profile.php:101
-msgid "Website"
-msgstr "Weboldal"
-
-#: user-profile.php:107 item-post.php:71
-msgid "Description"
-msgstr "Leírás"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "keresés..."
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Hirdetés közzététele"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "Hirdetésed szerkesztése"
-
-#: functions.php:436 item-send-friend.php:31
-msgid "Send to a friend"
-msgstr "Küld el barátnak"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Keresési eredmények"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Keresési eredmények: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Vezérlőpult"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%s profilja"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "Fiók"
-
-#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
-msgid "Listings"
-msgstr "Hirdetések"
-
-#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
 msgid "Alerts"
 msgstr "Figyelmeztetések"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "E-mail módosítása"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "Jelszó megváltoztatása"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Jelszó visszaállítása"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Új fiók létrehozása"
-
-#: functions.php:453 user-public-sidebar.php:26 footer.php:65
-msgid "Contact"
-msgstr "Elérhetőség"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Nyilvános profil"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Téma beállítások sikeresen frissitve"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "A logo képe sikeresen feltöltve"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Hiba történt próbálkozz újra"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "A logó kép el lett távolítva"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "Kép nem található"
-
-#: functions.php:666 admin/header.php:29
-msgid "Header logo"
-msgstr "Fejléc logó"
-
-#: functions.php:668 admin/settings.php:46
-msgid "Theme settings"
-msgstr "Téma beállítások"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Minden kategória"
 
 #: user-alerts.php:39
 msgid "You do not have any alerts yet"
@@ -465,6 +37,45 @@ msgstr "A művelet nem vonható vissza. Boztos vagy benne, hogy folytatod?"
 msgid "Delete this alert"
 msgstr "A riasztás törlése"
 
+#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
+msgid "Listings"
+msgstr "Hirdetések"
+
+#: item-send-friend.php:31 functions.php:436
+msgid "Send to a friend"
+msgstr "Küld el barátnak"
+
+#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
+#: user-public-sidebar.php:33 contact.php:40
+msgid "Your name"
+msgstr "A neved"
+
+#: item-send-friend.php:50 item.php:197
+msgid "Your e-mail"
+msgstr "Az Ön e-mail címe"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "A barátod neve"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "Barátja e-mail címe"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Tárgy (nem kötelező)"
+
+#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
+#: contact.php:60
+msgid "Message"
+msgstr "Üzenet"
+
+#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
+#: user-public-sidebar.php:54 contact.php:68
+msgid "Send"
+msgstr "Küld"
+
 #: item.php:59
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
@@ -474,6 +85,14 @@ msgstr "<strong class=\"publish\">Közzététel dátuma:</strong>: %1$s"
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
 msgstr "<strong class=\"update\">Módosítás dátuma:</strong> %1$s"
+
+#: item.php:66 main.php:74
+msgid "Location"
+msgstr "Elhelyezkedés"
+
+#: item.php:73 loop-single.php:46 loop-single-premium.php:46
+msgid "Edit item"
+msgstr "Elem szerkesztése"
 
 #: item.php:85 item.php:92
 msgid "Image"
@@ -523,13 +142,14 @@ msgstr "által"
 msgid "Delete your comment"
 msgstr "Megjegyzés törlése"
 
+#: item.php:165 common/head.php:25 loop-single.php:48
+#: loop-single-premium.php:48
+msgid "Delete"
+msgstr "Törlés"
+
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "Leave your comment (spam és sértő üzenetek törlődnek)"
-
-#: item.php:197 item-send-friend.php:50
-msgid "Your e-mail"
-msgstr "Az Ön e-mail címe"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -539,11 +159,37 @@ msgstr "Cím"
 msgid "Comment"
 msgstr "Hozzászólás"
 
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
+msgid "Change username"
+msgstr "Felhasználónév módosítása"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Falhasználónév: a mező kitöltése kötelező"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "A felhasználónév elérhető"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "A felhasználónév NEM érhető el"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "Frissítés"
+
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Hozzáférés a fiókjához"
 
-#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
 msgid "E-mail"
 msgstr "E-mail cím"
 
@@ -559,172 +205,241 @@ msgstr "Emlékezz rám"
 msgid "Log in"
 msgstr "Belépés"
 
+#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "Regisztráljon ingyenes fiókra"
+
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "Elfelejtette jelszavát?"
 
-#: header.php:48 footer.php:35
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "Jel, mint..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "Megjelölés mint spam"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "Hibásan osztályozott megjelölés"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "Többszörjelölés"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "A jelölés lejárt"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "Jelölés támadóként"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "Válaszolj a hirdetőnek"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "A lista lejárt. Nem léphet kapcsolatba a kiadóval."
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "Ez a saját listája, nem léphet kapcsolatba a kiadóval."
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "A hirdetővel való kapcsolatfelvételhez be kell jelentkeznie vagy regisztrálnia kell egy új fiókot"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "Belépés"
+
+#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
+#: item-post.php:179
+msgid "Name"
+msgstr "Név"
+
+#: item-sidebar.php:70
 #, php-format
-msgid "Hi %s"
-msgstr "Üdv %s"
+msgid "Name: %s"
+msgstr "Név: %s"
 
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "Saját fiók"
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail cím: %s"
 
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "Kijelentkezés"
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "Telefon: %s"
 
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "Hirdetésének ingyenes közzététele"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "Válassz kategóriát"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "Keresés"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "Általános információk"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "Kategória"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "A lista helye"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "Város környéke"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "Eladó adatai"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "E-mailek megjelenítése a listaoldalon"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "Közzétesz"
-
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
+#: item-sidebar.php:89
+msgid "Your e-mail address"
 msgstr "Az Ön e-mail címe"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Fiók regisztrálása ingyenesen"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "Telefonszám"
 
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Jelszó ismétlése"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "szabadon választható"
 
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "A jelszavak nem azonosak"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "Melléklet"
 
-#: user-register.php:73
-msgid "Create"
-msgstr "Alkot"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "Sikeresen feliratkoztál a figyelmeztetésekre"
 
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "Sajnálom, de nem találom a keresett oldalt."
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "Helytelen e-mail cím"
 
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "Engedje meg, hogy segítsünk, van néhány tippünk, hogy megtalálja."
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "Probléma adódott a figyelmeztetéssel"
 
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>Keresés</strong> :"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "Már feliratkozott erre a keresésre"
 
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>Keresse meg</strong> a legnépszerűbb kategóriákban."
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "Feliratkozás erre a keresésre"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "Kapcsolat"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "Feliratkozás most"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "Tárgy"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Az Ön keresése"
 
-#: user-forgot_password.php:30 user-recover.php:30
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Város"
+
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Csak megjelenítése"
+
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "képekkel ellátott listák"
+
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Ár"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Min"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Max"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Alkalmaz"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Kategória finomítása"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "E-mail módosítása "
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "Aktuális e-mail"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Új e-mail"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "Email: a mező kitöltése kötelező"
+
+#: user-recover.php:30 user-forgot_password.php:30
 msgid "Recover your password"
 msgstr "Elfelejtett jelszó"
 
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Új jelszó"
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "Küldjön nekem egy új jelszót"
 
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Új jelszó ismétlése"
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "Fiók frissítése"
 
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "A barátod neve"
+#: user-profile.php:52
+msgid "User type"
+msgstr "Felhasználó típusa"
 
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "Barátja e-mail címe"
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "Mobiltelefon"
 
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Tárgy (nem kötelező)"
+#: user-profile.php:65
+msgid "Phone"
+msgstr "Telefon"
 
-#: user-items.php:41
-msgid "My listings"
-msgstr "Hirdetéseim"
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "Ország"
 
-#: user-items.php:43
-msgid "No listings have been added yet"
-msgstr "Még nem adtak hozzá listát"
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "Régió"
 
-#: search.php:55
-msgid "Selected"
-msgstr "Kiválsztva"
+#: user-profile.php:89
+msgid "City area"
+msgstr "Város környéke"
 
-#: search.php:56
-msgid "Nothing selected, input was"
-msgstr "Nincs semmi kiválasztva, a beírás a következő volt:"
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "Cím"
 
-#: search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "Nincs találat erre:  \"%s\""
+#: user-profile.php:101
+msgid "Website"
+msgstr "Weboldal"
 
-#: search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%1$d - %2$d a %3$d hirdetésből"
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "Leírás"
 
-#: search.php:78
-msgid "Show filters"
-msgstr "Szűrők megjelenítése"
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Legfrissebb listák"
 
-#: search.php:85
-msgid "Sort by"
-msgstr "Rendezés szerint"
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Jelenleg nem állnak rendelkezésre listák."
 
-#: search.php:121
-msgid "Premium listings"
-msgstr "Támogatott hirdetések"
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Lista"
 
-#: search.php:142
-msgid "Other searches that may interest you"
-msgstr "Egyéb keresések, amelyek érdekelhetik Önt"
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Rács"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Az összes lista megtekintése"
+
+#: admin/header.php:29 functions.php:666
+msgid "Header logo"
+msgstr "Fejléc logó"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -786,6 +501,10 @@ msgstr "Szokás"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "Támogatás"
+
+#: admin/settings.php:46 functions.php:668
+msgid "Theme settings"
+msgstr "Téma beállítások"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -895,9 +614,200 @@ msgstr "Ez a hirdetés a webhely jobb oldalán, a termék részletei oldalon jel
 msgid "Save changes"
 msgstr "Módosítások mentése"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Aktuális jelszó"
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Fiók regisztrálása ingyenesen"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Jelszó ismétlése"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "A jelszavak nem azonosak"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "Alkot"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Mégse"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Előző kép"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Következő kép"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Bezár"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "keresés..."
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Hirdetés közzététele"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Hirdetésed szerkesztése"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Keresési eredmények"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Keresési eredmények: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Vezérlőpult"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%s profilja"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Fiók"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "E-mail módosítása"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "Jelszó megváltoztatása"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Jelszó visszaállítása"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Új fiók létrehozása"
+
+#: functions.php:453 footer.php:65 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "Elérhetőség"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Nyilvános profil"
+
+#: functions.php:516 user-sidebar.php:28
+msgid "Delete account"
+msgstr "Fiók törlése"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Téma beállítások sikeresen frissitve"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "A logo képe sikeresen feltöltve"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Hiba történt próbálkozz újra"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "A logó kép el lett távolítva"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Kép nem található"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Minden kategória"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Ez a művelet nem visszavonható. Biztos vagy benne, hogy folytatod?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Aktiválás"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "Üdv %s"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "Saját fiók"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "Hirdetésének ingyenes közzététele"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "Válassz kategóriát"
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "Keresés"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Cím:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Elhelyezkedés:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Felhasználói leírás"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "Legfrissebb listák"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Sajnálom, de nem találom a keresett oldalt."
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "Engedje meg, hogy segítsünk, van néhány tippünk, hogy megtalálja."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>Keresés</strong> :"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>Keresse meg</strong> a legnépszerűbb kategóriákban."
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Megjelenítési menü"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Biztos benne, hogy törölni szeretné fiókját?"
 
 #: footer.php:69
 #, php-format
@@ -908,7 +818,97 @@ msgstr "Ez a weblap az <a title=\"Osclass web\" href=\"%s\">classifieds scripts<
 msgid "Language:"
 msgstr "Nyelv:"
 
-#: user-recover.php:45
-msgid "Send me a new password"
-msgstr "Küldjön nekem egy új jelszót"
+#: item-post.php:57
+msgid "General Information"
+msgstr "Általános információk"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "Kategória"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "A lista helye"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "Város környéke"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "Eladó adatai"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "E-mailek megjelenítése a listaoldalon"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "Közzétesz"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Új jelszó"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Új jelszó ismétlése"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "Hirdetéseim"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "Még nem adtak hozzá listát"
+
+#: search.php:55
+msgid "Selected"
+msgstr "Kiválsztva"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "Nincs semmi kiválasztva, a beírás a következő volt:"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "Nincs találat erre:  \"%s\""
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %2$d a %3$d hirdetésből"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "Szűrők megjelenítése"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "Rendezés szerint"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "Támogatott hirdetések"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "Egyéb keresések, amelyek érdekelhetik Önt"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "Az Ön e-mail címe"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Aktuális jelszó"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Kapcsolat"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Tárgy"
 
