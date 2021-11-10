@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:25\n"
+"POT-Creation-Date: 2021-11-05 09:41+0000\n"
+"PO-Revision-Date: 2021-11-05 09:46\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -17,437 +17,9 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "更改用户名"
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "用户名:必填"
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "用户名可用"
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "用户名不可用"
-
-#: user-change_username.php:94
-msgid "Username"
-msgstr "用户名"
-
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "更新"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "更改电子邮件"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "当前电子邮件"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "新邮件"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "邮件：必填项"
-
-#: user-change_email.php:77 alert-form.php:28
-msgid "Invalid email address"
-msgstr "无效的邮箱地址"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "显示菜单"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "删除帐户"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "您确定要删除您的帐户吗？"
-
-#: item-sidebar.php:30
-msgid "Mark as..."
-msgstr "标记为..."
-
-#: item-sidebar.php:31
-msgid "Mark as spam"
-msgstr "垃圾信息标记"
-
-#: item-sidebar.php:32
-msgid "Mark as misclassified"
-msgstr "标记为错误分类"
-
-#: item-sidebar.php:33
-msgid "Mark as duplicated"
-msgstr "标记为重复"
-
-#: item-sidebar.php:34
-msgid "Mark as expired"
-msgstr "标记为过期"
-
-#: item-sidebar.php:35
-msgid "Mark as offensive"
-msgstr "标记为攻击性的"
-
-#: item-sidebar.php:49 functions.php:437
-msgid "Contact publisher"
-msgstr "联系发布人"
-
-#: item-sidebar.php:52
-msgid "The listing is expired. You can't contact the publisher."
-msgstr "列表已过期。您不能联系发布者。"
-
-#: item-sidebar.php:56
-msgid "It's your own listing, you can't contact the publisher."
-msgstr "这是您自己的列表，不能联系出版商。"
-
-#: item-sidebar.php:60
-msgid "You must log in or register a new account in order to contact the advertiser"
-msgstr "您必须登录或注册一个新帐户才能联系广告商"
-
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "登陆"
-
-#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "注册免费账户"
-
-#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
-#: user-register.php:39
-msgid "Name"
-msgstr "名称"
-
-#: item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "姓名： %s"
-
-#: item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "电子邮件: %s"
-
-#: item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "电话: %s"
-
-#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
-#: item-send-friend.php:44
-msgid "Your name"
-msgstr "您的姓名"
-
-#: item-sidebar.php:89
-msgid "Your e-mail address"
-msgstr "您的电子邮件地址"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41
-msgid "Phone number"
-msgstr "电话号码"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
-msgid "optional"
-msgstr "自选"
-
-#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
-#: item-send-friend.php:78
-msgid "Message"
-msgstr "留言"
-
-#: item-sidebar.php:104
-msgid "Attachment"
-msgstr "附文"
-
-#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
-#: item-send-friend.php:87
-msgid "Send"
-msgstr "发送"
-
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "您已经成功订阅了消息提醒"
-
-#: alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "通知中心有些问题"
-
-#: alert-form.php:61
-msgid "Already subscribed to this search"
-msgstr "已订阅此搜索"
-
-#: alert-form.php:65
-msgid "Subscribe to this search"
-msgstr "订阅此搜索"
-
-#: alert-form.php:80
-msgid "Subscribe now"
-msgstr "现在订阅"
-
-#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
-#: item.php:165
-msgid "Delete"
-msgstr "删除"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "取消"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "上一张图片"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "下一张图片"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "关闭"
-
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "您的搜索"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "城市"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "仅显示"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "图片列表"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "价格"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "最小值"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "最大值"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "保存"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "细化类别"
-
-#: loop-single-premium.php:46 loop-single.php:46 item.php:73
-msgid "Edit item"
-msgstr "编辑项目"
-
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "刚才的动作没有完成.您确定要继续吗？"
-
-#: loop-single-premium.php:51 loop-single.php:51
-msgid "Activate"
-msgstr "激活"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>地址：</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>位置：</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "用户描述"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "最新列表"
-
-#: main.php:38
-msgid "Latest Listings"
-msgstr "最新列表"
-
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "此时没有可用的列表"
-
-#: main.php:45 search.php:80 admin/settings.php:60
-msgid "List"
-msgstr "列表"
-
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "网格"
-
-#: main.php:57
-msgid "See all listings"
-msgstr "查看所有列表"
-
-#: main.php:74 item.php:66
-msgid "Location"
-msgstr "定位"
-
-#: user-profile.php:32 user-profile.php:37 functions.php:445
-msgid "Update account"
-msgstr "更新帐户"
-
-#: user-profile.php:52
-msgid "User type"
-msgstr "用户类型"
-
-#: user-profile.php:59
-msgid "Cell phone"
-msgstr "手机"
-
-#: user-profile.php:65
-msgid "Phone"
-msgstr "电话"
-
-#: user-profile.php:71 item-post.php:92
-msgid "Country"
-msgstr "国家"
-
-#: user-profile.php:77 item-post.php:98 item-post.php:124
-msgid "Region"
-msgstr "地区"
-
-#: user-profile.php:89
-msgid "City area"
-msgstr "城区"
-
-#: user-profile.php:95 item-post.php:168
-msgid "Address"
-msgstr "地址"
-
-#: user-profile.php:101
-msgid "Website"
-msgstr "网站"
-
-#: user-profile.php:107 item-post.php:71
-msgid "Description"
-msgstr "描述"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "例如：PHP程序员"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "发布帖子"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "编辑帖子"
-
-#: functions.php:436 item-send-friend.php:31
-msgid "Send to a friend"
-msgstr "发送给好友"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "搜索结果"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "搜索结果：%s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "控制面板"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%s的个人资料"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "帐户"
-
-#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
-msgid "Listings"
-msgstr "广告"
-
-#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
 msgid "Alerts"
 msgstr "提醒"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "更改电子邮件"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "修改密码"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "恢复密码"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "创建账户"
-
-#: functions.php:453 user-public-sidebar.php:26 footer.php:65
-msgid "Contact"
-msgstr "联系我们"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "公开资料"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "主题设置已更新"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "企业标记图像已上传成功"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "发生错误，稍后再试"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "企业标记图标已移除"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "图像未找到"
-
-#: functions.php:666 admin/header.php:29
-msgid "Header logo"
-msgstr "头标图像"
-
-#: functions.php:668 admin/settings.php:46
-msgid "Theme settings"
-msgstr "主题设置"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "所有类别"
 
 #: user-alerts.php:39
 msgid "You do not have any alerts yet"
@@ -465,6 +37,45 @@ msgstr "刚才的动作没有完成. 您确定要继续吗?"
 msgid "Delete this alert"
 msgstr "删除此提醒"
 
+#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
+msgid "Listings"
+msgstr "广告"
+
+#: item-send-friend.php:31 functions.php:436
+msgid "Send to a friend"
+msgstr "发送给好友"
+
+#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
+#: user-public-sidebar.php:33 contact.php:40
+msgid "Your name"
+msgstr "您的姓名"
+
+#: item-send-friend.php:50 item.php:197
+msgid "Your e-mail"
+msgstr "您的电子邮件"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "您的朋友的姓名"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "您朋友的电子邮件地址"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "主题 (可选)"
+
+#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
+#: contact.php:60
+msgid "Message"
+msgstr "留言"
+
+#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
+#: user-public-sidebar.php:54 contact.php:68
+msgid "Send"
+msgstr "发送"
+
 #: item.php:59
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
@@ -474,6 +85,14 @@ msgstr "<strong class=\"publish\">发布日期</strong>: %1$s"
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
 msgstr "<strong class=\"update\">修改日期：</strong> %1$s"
+
+#: item.php:66 main.php:74
+msgid "Location"
+msgstr "定位"
+
+#: item.php:73 loop-single.php:46 loop-single-premium.php:46
+msgid "Edit item"
+msgstr "编辑项目"
 
 #: item.php:85 item.php:92
 msgid "Image"
@@ -523,13 +142,14 @@ msgstr "由"
 msgid "Delete your comment"
 msgstr "删除您的评论"
 
+#: item.php:165 common/head.php:25 loop-single.php:48
+#: loop-single-premium.php:48
+msgid "Delete"
+msgstr "删除"
+
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "留下您的评论 (垃圾信息和攻击性信息将被删除)"
-
-#: item.php:197 item-send-friend.php:50
-msgid "Your e-mail"
-msgstr "您的电子邮件"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -539,11 +159,37 @@ msgstr "标题"
 msgid "Comment"
 msgstr "留言"
 
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
+msgid "Change username"
+msgstr "更改用户名"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "用户名:必填"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "用户名可用"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "用户名不可用"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "用户名"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "更新"
+
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "访问您的帐户"
 
-#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
 msgid "E-mail"
 msgstr "邮箱"
 
@@ -559,172 +205,241 @@ msgstr "记住我"
 msgid "Log in"
 msgstr "登陆"
 
+#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "注册免费账户"
+
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "忘记密码？"
 
-#: header.php:48 footer.php:35
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "标记为..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "垃圾信息标记"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "标记为错误分类"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "标记为重复"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "标记为过期"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "标记为攻击性的"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "联系发布人"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "列表已过期。您不能联系发布者。"
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "这是您自己的列表，不能联系出版商。"
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "您必须登录或注册一个新帐户才能联系广告商"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "登陆"
+
+#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
+#: item-post.php:179
+msgid "Name"
+msgstr "名称"
+
+#: item-sidebar.php:70
 #, php-format
-msgid "Hi %s"
-msgstr "您好%s"
+msgid "Name: %s"
+msgstr "姓名： %s"
 
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "我的帐户"
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "电子邮件: %s"
 
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "退出"
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "电话: %s"
 
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "免费发布您的广告"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "选择分类"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "搜索"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "一般信息"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "分类"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "位置列表"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "城市地区"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "卖方信息"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "在列表页面显示电子邮件"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "发布"
-
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
+#: item-sidebar.php:89
+msgid "Your e-mail address"
 msgstr "您的电子邮件地址"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "免费注册帐户"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "电话号码"
 
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "重复密码"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "自选"
 
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "密码不符"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "附文"
 
-#: user-register.php:73
-msgid "Create"
-msgstr "创建"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "您已经成功订阅了消息提醒"
 
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "抱歉，我找不到您正在寻找的页面"
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "无效的邮箱地址"
 
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "让我们帮助你们，我们已经有了几条消息让你们找到它。"
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "通知中心有些问题"
 
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>搜索</strong>"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "已订阅此搜索"
 
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>在最受欢迎的类别中查看</strong>。"
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "订阅此搜索"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "联系我们"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "现在订阅"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "议 题"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "您的搜索"
 
-#: user-forgot_password.php:30 user-recover.php:30
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "城市"
+
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "仅显示"
+
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "图片列表"
+
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "价格"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "最小值"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "最大值"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "保存"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "细化类别"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "更改电子邮件"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "当前电子邮件"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "新邮件"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "邮件：必填项"
+
+#: user-recover.php:30 user-forgot_password.php:30
 msgid "Recover your password"
 msgstr "找回密码"
 
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "新密码"
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "给我发送新密码"
 
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "重复新密码"
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "更新帐户"
 
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "您的朋友的姓名"
+#: user-profile.php:52
+msgid "User type"
+msgstr "用户类型"
 
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "您朋友的电子邮件地址"
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "手机"
 
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "主题 (可选)"
+#: user-profile.php:65
+msgid "Phone"
+msgstr "电话"
 
-#: user-items.php:41
-msgid "My listings"
-msgstr "我的目录"
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "国家"
 
-#: user-items.php:43
-msgid "No listings have been added yet"
-msgstr "尚未添加列表"
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "地区"
 
-#: search.php:55
-msgid "Selected"
-msgstr "选择"
+#: user-profile.php:89
+msgid "City area"
+msgstr "城区"
 
-#: search.php:56
-msgid "Nothing selected, input was"
-msgstr "您没有选择任何信息"
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "地址"
 
-#: search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "没有跟\\\"%s\\\"匹配的结果"
+#: user-profile.php:101
+msgid "Website"
+msgstr "网站"
 
-#: search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%1$d - %2$d 的 %3$d 列表"
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "描述"
 
-#: search.php:78
-msgid "Show filters"
-msgstr "显示过滤器"
+#: main.php:38
+msgid "Latest Listings"
+msgstr "最新列表"
 
-#: search.php:85
-msgid "Sort by"
-msgstr "排序方式"
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "此时没有可用的列表"
 
-#: search.php:121
-msgid "Premium listings"
-msgstr "高级列表"
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "列表"
 
-#: search.php:142
-msgid "Other searches that may interest you"
-msgstr "您可能感兴趣的其他搜索"
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "网格"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "查看所有列表"
+
+#: admin/header.php:29 functions.php:666
+msgid "Header logo"
+msgstr "头标图像"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -786,6 +501,10 @@ msgstr "自定义"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "捐款"
+
+#: admin/settings.php:46 functions.php:668
+msgid "Theme settings"
+msgstr "主题设置"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -895,9 +614,200 @@ msgstr "这个广告将显示在您网站的右侧边栏，在产品详细信息
 msgid "Save changes"
 msgstr "保存更改"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "当前密码"
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "免费注册帐户"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "重复密码"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "密码不符"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "创建"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "取消"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "上一张图片"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "下一张图片"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "关闭"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "例如：PHP程序员"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "发布帖子"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "编辑帖子"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "搜索结果"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "搜索结果：%s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%s的个人资料"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "帐户"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "更改电子邮件"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "修改密码"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "恢复密码"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "创建账户"
+
+#: functions.php:453 footer.php:65 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "联系我们"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "公开资料"
+
+#: functions.php:516 user-sidebar.php:28
+msgid "Delete account"
+msgstr "删除帐户"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "主题设置已更新"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "企业标记图像已上传成功"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "发生错误，稍后再试"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "企业标记图标已移除"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "图像未找到"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "所有类别"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "刚才的动作没有完成.您确定要继续吗？"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "激活"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "您好%s"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "我的帐户"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "退出"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "免费发布您的广告"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "选择分类"
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "搜索"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>地址：</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>位置：</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "用户描述"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "最新列表"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "抱歉，我找不到您正在寻找的页面"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "让我们帮助你们，我们已经有了几条消息让你们找到它。"
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>搜索</strong>"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>在最受欢迎的类别中查看</strong>。"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "显示菜单"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "您确定要删除您的帐户吗？"
 
 #: footer.php:69
 #, php-format
@@ -908,7 +818,97 @@ msgstr "此网站自豪地使用 <a title=\"Osclass web\" href=\"%s\">分类脚�
 msgid "Language:"
 msgstr "语言:"
 
-#: user-recover.php:45
-msgid "Send me a new password"
-msgstr "给我发送新密码"
+#: item-post.php:57
+msgid "General Information"
+msgstr "一般信息"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "分类"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "位置列表"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "城市地区"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "卖方信息"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "在列表页面显示电子邮件"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "发布"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "新密码"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "重复新密码"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "我的目录"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "尚未添加列表"
+
+#: search.php:55
+msgid "Selected"
+msgstr "选择"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "您没有选择任何信息"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "没有跟\\\"%s\\\"匹配的结果"
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %2$d 的 %3$d 列表"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "显示过滤器"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "排序方式"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "高级列表"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "您可能感兴趣的其他搜索"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "您的电子邮件地址"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "当前密码"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "联系我们"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "议 题"
 

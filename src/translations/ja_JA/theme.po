@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-19 05:47+0000\n"
-"PO-Revision-Date: 2021-09-19 10:26\n"
+"POT-Creation-Date: 2021-11-05 09:41+0000\n"
+"PO-Revision-Date: 2021-11-05 09:45\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -17,437 +17,9 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "ユーザー名を変更する"
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "ユーザー名：必須です"
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "このユーザー名は利用可能です"
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "このユーザー名は利用できません"
-
-#: user-change_username.php:94
-msgid "Username"
-msgstr "ユーザー名"
-
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "更新"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "メールアドレスを変更"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "現在のメールアドレス"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "新しいメールアドレス"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "Emailアドレス: このフィールドは必項です。"
-
-#: user-change_email.php:77 alert-form.php:28
-msgid "Invalid email address"
-msgstr "メールアドレスが不正です。"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "表示メニュー"
-
-#: user-sidebar.php:28 functions.php:516
-msgid "Delete account"
-msgstr "アカウントを削除"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "アカウントを削除してもよろしいですか？"
-
-#: item-sidebar.php:30
-msgid "Mark as..."
-msgstr "としてマーク..."
-
-#: item-sidebar.php:31
-msgid "Mark as spam"
-msgstr "スパムとしてマーク"
-
-#: item-sidebar.php:32
-msgid "Mark as misclassified"
-msgstr "誤分類としてマーク"
-
-#: item-sidebar.php:33
-msgid "Mark as duplicated"
-msgstr "重複としてマーク"
-
-#: item-sidebar.php:34
-msgid "Mark as expired"
-msgstr "期限切れにする"
-
-#: item-sidebar.php:35
-msgid "Mark as offensive"
-msgstr "攻撃的としてマーク"
-
-#: item-sidebar.php:49 functions.php:437
-msgid "Contact publisher"
-msgstr "この人に連絡する"
-
-#: item-sidebar.php:52
-msgid "The listing is expired. You can't contact the publisher."
-msgstr "リストの有効期限が切れています。パブリッシャーに連絡することはできません。"
-
-#: item-sidebar.php:56
-msgid "It's your own listing, you can't contact the publisher."
-msgstr "それはあなた自身のリスト、出版業者に連絡することができない。"
-
-#: item-sidebar.php:60
-msgid "You must log in or register a new account in order to contact the advertiser"
-msgstr "広告主に連絡するには、ログインまたは新しいアカウントを登録する必要があります"
-
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "ログイン"
-
-#: item-sidebar.php:64 user-login.php:58 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "無料アカウントを登録する"
-
-#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
-#: user-register.php:39
-msgid "Name"
-msgstr "名前"
-
-#: item-sidebar.php:70
-#, php-format
-msgid "Name: %s"
-msgstr "名前: %s"
-
-#: item-sidebar.php:73
-#, php-format
-msgid "E-mail: %s"
-msgstr "メールアドレス: %s"
-
-#: item-sidebar.php:76
-#, php-format
-msgid "Phone: %s"
-msgstr "電話番号: %s"
-
-#: item-sidebar.php:85 item.php:191 user-public-sidebar.php:33 contact.php:40
-#: item-send-friend.php:44
-msgid "Your name"
-msgstr "あなたの名前"
-
-#: item-sidebar.php:89
-msgid "Your e-mail address"
-msgstr "あなたのメールアドレス"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41
-msgid "Phone number"
-msgstr "電話番号"
-
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
-msgid "optional"
-msgstr "随意"
-
-#: item-sidebar.php:98 user-public-sidebar.php:46 contact.php:60
-#: item-send-friend.php:78
-msgid "Message"
-msgstr "メッセージ"
-
-#: item-sidebar.php:104
-msgid "Attachment"
-msgstr "添付ファイル"
-
-#: item-sidebar.php:113 item.php:216 user-public-sidebar.php:54 contact.php:68
-#: item-send-friend.php:87
-msgid "Send"
-msgstr "送信"
-
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "通知アラートに登録しました。"
-
-#: alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "通知に問題がありました。"
-
-#: alert-form.php:61
-msgid "Already subscribed to this search"
-msgstr "この検索はすでに購読しています"
-
-#: alert-form.php:65
-msgid "Subscribe to this search"
-msgstr "この検索を購読する"
-
-#: alert-form.php:80
-msgid "Subscribe now"
-msgstr "今すぐ購読する"
-
-#: common/head.php:25 loop-single-premium.php:48 loop-single.php:48
-#: item.php:165
-msgid "Delete"
-msgstr "削除"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "キャンセル"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "前の画像"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "次の画像"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "閉じる"
-
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "あなたの検索"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "都市"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "表示のみ"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "写真付きの一覧"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "価格"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "最小"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "最大値"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "決定"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "カテゴリを絞り込みます"
-
-#: loop-single-premium.php:46 loop-single.php:46 item.php:73
-msgid "Edit item"
-msgstr "アイテムを編集"
-
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "この操作は取り消しができません。本当に続けますか？"
-
-#: loop-single-premium.php:51 loop-single.php:51
-msgid "Activate"
-msgstr "有効にする"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>住所:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>居住エリア:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "ユーザーの説明"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "最新の一覧"
-
-#: main.php:38
-msgid "Latest Listings"
-msgstr "最新の一覧"
-
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "現在利用可能なリストはありません"
-
-#: main.php:45 search.php:80 admin/settings.php:60
-msgid "List"
-msgstr "リスト"
-
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "グリッド"
-
-#: main.php:57
-msgid "See all listings"
-msgstr "すべてのリストを表示"
-
-#: main.php:74 item.php:66
-msgid "Location"
-msgstr "地区"
-
-#: user-profile.php:32 user-profile.php:37 functions.php:445
-msgid "Update account"
-msgstr "アカウントを更新する"
-
-#: user-profile.php:52
-msgid "User type"
-msgstr "ユーザータイプ"
-
-#: user-profile.php:59
-msgid "Cell phone"
-msgstr "携帯"
-
-#: user-profile.php:65
-msgid "Phone"
-msgstr "電話"
-
-#: user-profile.php:71 item-post.php:92
-msgid "Country"
-msgstr "国"
-
-#: user-profile.php:77 item-post.php:98 item-post.php:124
-msgid "Region"
-msgstr "地域"
-
-#: user-profile.php:89
-msgid "City area"
-msgstr "市街地"
-
-#: user-profile.php:95 item-post.php:168
-msgid "Address"
-msgstr "住所"
-
-#: user-profile.php:101
-msgid "Website"
-msgstr "ウェブサイト"
-
-#: user-profile.php:107 item-post.php:71
-msgid "Description"
-msgstr "説明"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "例：PHPプログラマー"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "広告を出す"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "広告を編集する"
-
-#: functions.php:436 item-send-friend.php:31
-msgid "Send to a friend"
-msgstr "友達に紹介する"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "検索結果"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "検索結果: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "ダッシュボード"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%sのプロフィール"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "アカウント"
-
-#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
-msgid "Listings"
-msgstr "広告"
-
-#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
 msgid "Alerts"
 msgstr "アラート"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "メールアドレスを変更する"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "パスワードを変更"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "パスワードを回復"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "新しいアカウントを作成"
-
-#: functions.php:453 user-public-sidebar.php:26 footer.php:65
-msgid "Contact"
-msgstr "問い合わせる"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "公開プロフィール"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "テーマ設定は正常に更新されました。"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "ロゴ画像は正常にアップロードされました。"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "エラーが発生しました。もう一度お試しください。"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "ロゴ画像は削除されました。"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "画像はみつかりません。"
-
-#: functions.php:666 admin/header.php:29
-msgid "Header logo"
-msgstr "ヘッダーロゴ"
-
-#: functions.php:668 admin/settings.php:46
-msgid "Theme settings"
-msgstr "テーマ設定"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "全カテゴリ"
 
 #: user-alerts.php:39
 msgid "You do not have any alerts yet"
@@ -465,6 +37,45 @@ msgstr "この操作は取り消しできません。本当に続けますか？
 msgid "Delete this alert"
 msgstr "このアラートを削除"
 
+#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
+msgid "Listings"
+msgstr "広告"
+
+#: item-send-friend.php:31 functions.php:436
+msgid "Send to a friend"
+msgstr "友達に紹介する"
+
+#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
+#: user-public-sidebar.php:33 contact.php:40
+msgid "Your name"
+msgstr "あなたの名前"
+
+#: item-send-friend.php:50 item.php:197
+msgid "Your e-mail"
+msgstr "あなたのメールアドレス"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "お友達の名前"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "お友達のメールアドレス"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "件名 (オプション)"
+
+#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
+#: contact.php:60
+msgid "Message"
+msgstr "メッセージ"
+
+#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
+#: user-public-sidebar.php:54 contact.php:68
+msgid "Send"
+msgstr "送信"
+
 #: item.php:59
 #, php-format
 msgid "<strong class=\"publish\">Published date</strong>: %1$s"
@@ -474,6 +85,14 @@ msgstr "<strong class=\"publish\">公開日</strong>: %1$s"
 #, php-format
 msgid "<strong class=\"update\">Modified date:</strong> %1$s"
 msgstr "<strong class=\"update\">更新日:</strong> %1$s"
+
+#: item.php:66 main.php:74
+msgid "Location"
+msgstr "地区"
+
+#: item.php:73 loop-single.php:46 loop-single-premium.php:46
+msgid "Edit item"
+msgstr "アイテムを編集"
 
 #: item.php:85 item.php:92
 msgid "Image"
@@ -523,13 +142,14 @@ msgstr "作成者："
 msgid "Delete your comment"
 msgstr "コメントを削除する"
 
+#: item.php:165 common/head.php:25 loop-single.php:48
+#: loop-single-premium.php:48
+msgid "Delete"
+msgstr "削除"
+
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "コメントを残す (スパムおよび攻撃的なメッセージは削除されます)"
-
-#: item.php:197 item-send-friend.php:50
-msgid "Your e-mail"
-msgstr "あなたのメールアドレス"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -539,11 +159,37 @@ msgstr "タイトル"
 msgid "Comment"
 msgstr "コメント"
 
+#: user-change_username.php:34 user-change_username.php:39 functions.php:447
+#: functions.php:506
+msgid "Change username"
+msgstr "ユーザー名を変更する"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "ユーザー名：必須です"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "このユーザー名は利用可能です"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "このユーザー名は利用できません"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "ユーザー名"
+
+#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
+#: item-post.php:211 user-change_password.php:64
+msgid "Update"
+msgstr "更新"
+
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "あなたのアカウントへのアクセス"
 
-#: user-login.php:38 item-post.php:185 user-register.php:45 user-recover.php:37
+#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
 msgid "E-mail"
 msgstr "メールアドレス"
 
@@ -559,172 +205,241 @@ msgstr "私を思い出してください"
 msgid "Log in"
 msgstr "ログイン"
 
+#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
+msgid "Register for a free account"
+msgstr "無料アカウントを登録する"
+
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "パスワードを忘れましたか？"
 
-#: header.php:48 footer.php:35
+#: item-sidebar.php:30
+msgid "Mark as..."
+msgstr "としてマーク..."
+
+#: item-sidebar.php:31
+msgid "Mark as spam"
+msgstr "スパムとしてマーク"
+
+#: item-sidebar.php:32
+msgid "Mark as misclassified"
+msgstr "誤分類としてマーク"
+
+#: item-sidebar.php:33
+msgid "Mark as duplicated"
+msgstr "重複としてマーク"
+
+#: item-sidebar.php:34
+msgid "Mark as expired"
+msgstr "期限切れにする"
+
+#: item-sidebar.php:35
+msgid "Mark as offensive"
+msgstr "攻撃的としてマーク"
+
+#: item-sidebar.php:49 functions.php:437
+msgid "Contact publisher"
+msgstr "この人に連絡する"
+
+#: item-sidebar.php:52
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "リストの有効期限が切れています。パブリッシャーに連絡することはできません。"
+
+#: item-sidebar.php:56
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "それはあなた自身のリスト、出版業者に連絡することができない。"
+
+#: item-sidebar.php:60
+msgid "You must log in or register a new account in order to contact the advertiser"
+msgstr "広告主に連絡するには、ログインまたは新しいアカウントを登録する必要があります"
+
+#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
+msgid "Login"
+msgstr "ログイン"
+
+#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
+#: item-post.php:179
+msgid "Name"
+msgstr "名前"
+
+#: item-sidebar.php:70
 #, php-format
-msgid "Hi %s"
-msgstr "%s さん、こんにちわ。"
+msgid "Name: %s"
+msgstr "名前: %s"
 
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "マイアカウント"
+#: item-sidebar.php:73
+#, php-format
+msgid "E-mail: %s"
+msgstr "メールアドレス: %s"
 
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "ログアウト"
+#: item-sidebar.php:76
+#, php-format
+msgid "Phone: %s"
+msgstr "電話番号: %s"
 
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "広告を無料で公開"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "カテゴリを選択してください。"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "検索"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "一般情報"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "カテゴリー"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "リストの場所"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "都市地域"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "売り手の情報"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "リスティングページに電子メールを表示"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "公開"
-
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
+#: item-sidebar.php:89
+msgid "Your e-mail address"
 msgstr "あなたのメールアドレス"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "無料でアカウントを登録する"
+#: item-sidebar.php:93 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr "電話番号"
 
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "パスワードを再入力"
+#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+msgid "optional"
+msgstr "随意"
 
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "パスワードが一致しません"
+#: item-sidebar.php:104
+msgid "Attachment"
+msgstr "添付ファイル"
 
-#: user-register.php:73
-msgid "Create"
-msgstr "作成"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "通知アラートに登録しました。"
 
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "申し訳ありませんが、お探しのページが見つかりませんでした"
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "メールアドレスが不正です。"
 
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "私たちはあなたを助けましょう、私たちはあなたがそれを見つけるためのいくつかのヒントを持っています。"
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "通知に問題がありました。"
 
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>検索</strong>"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "この検索はすでに購読しています"
 
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>最も人気のあるカテゴリーで</strong> を見てください。"
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "この検索を購読する"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "お問い合わせ"
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "今すぐ購読する"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "件名"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "あなたの検索"
 
-#: user-forgot_password.php:30 user-recover.php:30
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "都市"
+
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "表示のみ"
+
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "写真付きの一覧"
+
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "価格"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "最小"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "最大値"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "決定"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "カテゴリを絞り込みます"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "メールアドレスを変更"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "現在のメールアドレス"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "新しいメールアドレス"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "Emailアドレス: このフィールドは必項です。"
+
+#: user-recover.php:30 user-forgot_password.php:30
 msgid "Recover your password"
 msgstr "パスワードをリカバーする"
 
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "新しいパスワード"
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "新しいパスワードを送信してください"
 
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "新しいパスワードを繰り返す"
+#: user-profile.php:32 user-profile.php:37 functions.php:445
+msgid "Update account"
+msgstr "アカウントを更新する"
 
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "お友達の名前"
+#: user-profile.php:52
+msgid "User type"
+msgstr "ユーザータイプ"
 
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "お友達のメールアドレス"
+#: user-profile.php:59
+msgid "Cell phone"
+msgstr "携帯"
 
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "件名 (オプション)"
+#: user-profile.php:65
+msgid "Phone"
+msgstr "電話"
 
-#: user-items.php:41
-msgid "My listings"
-msgstr "自分の出している広告"
+#: user-profile.php:71 item-post.php:92
+msgid "Country"
+msgstr "国"
 
-#: user-items.php:43
-msgid "No listings have been added yet"
-msgstr "まだリストが追加されていません"
+#: user-profile.php:77 item-post.php:98 item-post.php:124
+msgid "Region"
+msgstr "地域"
 
-#: search.php:55
-msgid "Selected"
-msgstr "選択中"
+#: user-profile.php:89
+msgid "City area"
+msgstr "市街地"
 
-#: search.php:56
-msgid "Nothing selected, input was"
-msgstr "選択された項目がありません。入力は"
+#: user-profile.php:95 item-post.php:168
+msgid "Address"
+msgstr "住所"
 
-#: search.php:71
-#, php-format
-msgid "There are no results matching \"%s\""
-msgstr "\"%s\"にマッチする広告はありませんでした。"
+#: user-profile.php:101
+msgid "Website"
+msgstr "ウェブサイト"
 
-#: search.php:75
-#, php-format
-msgid "%1$d - %2$d of %3$d listings"
-msgstr "%3$d 件中 %1$d ～ %2$d 件を表示"
+#: user-profile.php:107 item-post.php:71
+msgid "Description"
+msgstr "説明"
 
-#: search.php:78
-msgid "Show filters"
-msgstr "フィルターの表示"
+#: main.php:38
+msgid "Latest Listings"
+msgstr "最新の一覧"
 
-#: search.php:85
-msgid "Sort by"
-msgstr "並び替え"
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "現在利用可能なリストはありません"
 
-#: search.php:121
-msgid "Premium listings"
-msgstr "注目の広告"
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "リスト"
 
-#: search.php:142
-msgid "Other searches that may interest you"
-msgstr "興味のある他の検索"
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "グリッド"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "すべてのリストを表示"
+
+#: admin/header.php:29 functions.php:666
+msgid "Header logo"
+msgstr "ヘッダーロゴ"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -786,6 +501,10 @@ msgstr "カスタム"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "寄付"
+
+#: admin/settings.php:46 functions.php:668
+msgid "Theme settings"
+msgstr "テーマ設定"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -895,9 +614,200 @@ msgstr "この広告はあなたのウェブサイトの右側のサイドバー
 msgid "Save changes"
 msgstr "変更を保存"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "現在のパスワード"
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "無料でアカウントを登録する"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "パスワードを再入力"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "パスワードが一致しません"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "作成"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "前の画像"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "次の画像"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "閉じる"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "例：PHPプログラマー"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "広告を出す"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "広告を編集する"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "検索結果"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "検索結果: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%sのプロフィール"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "アカウント"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "メールアドレスを変更する"
+
+#: functions.php:448 functions.php:451 functions.php:511
+#: user-forgot_password.php:52 user-change_password.php:32
+#: user-change_password.php:37
+msgid "Change password"
+msgstr "パスワードを変更"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "パスワードを回復"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "新しいアカウントを作成"
+
+#: functions.php:453 footer.php:65 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "問い合わせる"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "公開プロフィール"
+
+#: functions.php:516 user-sidebar.php:28
+msgid "Delete account"
+msgstr "アカウントを削除"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "テーマ設定は正常に更新されました。"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "ロゴ画像は正常にアップロードされました。"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "エラーが発生しました。もう一度お試しください。"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "ロゴ画像は削除されました。"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "画像はみつかりません。"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "全カテゴリ"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "この操作は取り消しができません。本当に続けますか？"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "有効にする"
+
+#: header.php:48 footer.php:35
+#, php-format
+msgid "Hi %s"
+msgstr "%s さん、こんにちわ。"
+
+#: header.php:49 footer.php:36
+msgid "My account"
+msgstr "マイアカウント"
+
+#: header.php:50 footer.php:37
+msgid "Logout"
+msgstr "ログアウト"
+
+#: header.php:60 footer.php:50
+msgid "Publish your ad for free"
+msgstr "広告を無料で公開"
+
+#: header.php:74 item-post.php:61
+msgid "Select a category"
+msgstr "カテゴリを選択してください。"
+
+#: header.php:80 404.php:40
+msgid "Search"
+msgstr "検索"
+
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>住所:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>居住エリア:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "ユーザーの説明"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "最新の一覧"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "申し訳ありませんが、お探しのページが見つかりませんでした"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "私たちはあなたを助けましょう、私たちはあなたがそれを見つけるためのいくつかのヒントを持っています。"
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>検索</strong>"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>最も人気のあるカテゴリーで</strong> を見てください。"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "表示メニュー"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "アカウントを削除してもよろしいですか？"
 
 #: footer.php:69
 #, php-format
@@ -908,7 +818,97 @@ msgstr "このウェブサイトは誇らしげに <a title=\"Osclass web\" href
 msgid "Language:"
 msgstr "言語:"
 
-#: user-recover.php:45
-msgid "Send me a new password"
-msgstr "新しいパスワードを送信してください"
+#: item-post.php:57
+msgid "General Information"
+msgstr "一般情報"
+
+#: item-post.php:59
+msgid "Category"
+msgstr "カテゴリー"
+
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "リストの場所"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "都市地域"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "売り手の情報"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "リスティングページに電子メールを表示"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "公開"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "新しいパスワード"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "新しいパスワードを繰り返す"
+
+#: user-items.php:41
+msgid "My listings"
+msgstr "自分の出している広告"
+
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "まだリストが追加されていません"
+
+#: search.php:55
+msgid "Selected"
+msgstr "選択中"
+
+#: search.php:56
+msgid "Nothing selected, input was"
+msgstr "選択された項目がありません。入力は"
+
+#: search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "\"%s\"にマッチする広告はありませんでした。"
+
+#: search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%3$d 件中 %1$d ～ %2$d 件を表示"
+
+#: search.php:78
+msgid "Show filters"
+msgstr "フィルターの表示"
+
+#: search.php:85
+msgid "Sort by"
+msgstr "並び替え"
+
+#: search.php:121
+msgid "Premium listings"
+msgstr "注目の広告"
+
+#: search.php:142
+msgid "Other searches that may interest you"
+msgstr "興味のある他の検索"
+
+#: user-public-sidebar.php:37 contact.php:47
+msgid "Your email address"
+msgstr "あなたのメールアドレス"
+
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "現在のパスワード"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "お問い合わせ"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "件名"
 

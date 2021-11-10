@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-09-20 03:52+0000\n"
-"PO-Revision-Date: 2021-09-20 05:04\n"
+"POT-Creation-Date: 2021-11-05 09:41+0000\n"
+"PO-Revision-Date: 2021-11-05 09:46\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -17,268 +17,24 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/messages.pot\n"
 "X-Crowdin-File-ID: 8223\n"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:124
-msgid "Name too long."
-msgstr "名字太长"
+#: oc-includes/osclass/emails.php:861
+msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
+msgstr "我们已给你发邮件。按那上面说的，激活之，就好了"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:125
-msgid "Email invalid."
-msgstr "邮件无效"
+#: oc-includes/osclass/emails.php:864
+msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
+msgstr "我们努力发邮件给你，但失败了。你联系一下管理员好了"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:131
-msgid "Too fast. You should wait a little to publish your ad."
-msgstr "您发送的广告频率太快，请稍后再发布"
+#: oc-includes/osclass/emails.php:1122
+msgid "There has been some errors sending the message"
+msgstr "发送信息是出现错误"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:323
-#: oc-includes/osclass/classes/controller/CWebContact.php:168
-msgid "The file you tried to upload does not have a valid extension"
-msgstr "你想上传的文件，怎么是那个后缀啊，我晕"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:351
-msgid "One of the files you tried to upload exceeds the maximum size"
-msgstr "其中一个文件大小已达到最大"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:413
-msgid "Image with an incorrect extension."
-msgstr "图像文件后坠不正确的"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:416
-msgid "Image is too big. Max. size"
-msgstr "图像文件太大了的"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:426
-#, php-format
-msgid "Title too short (%s)."
-msgstr "标题太短(%s)。"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:428
-#, php-format
-msgid "Title too long (%s)."
-msgstr "标题太长(%s)。"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:438
-#, php-format
-msgid "Description too short (%s)."
-msgstr "描述太短(%s)。"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:441
-#, php-format
-msgid "Description too long (%s)."
-msgstr "描述过长(%s)。"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:445
-msgid "Category invalid."
-msgstr "分类错误"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:446
-msgid "Price must be a number."
-msgstr "价格，你知道，那应该是个数字"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:448
-msgid "Price too long."
-msgstr "价格太长"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:451
-msgid "Price must be positive number."
-msgstr "价格必须是正数。"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:453
-msgid "Country too short."
-msgstr "国家太短"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:455
-msgid "Country too long."
-msgstr "国家名称太长"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:457
-msgid "Region too short."
-msgstr "地区名称太短(如出现该提示，请在地区名称后加拼音，写成这样: 北京beijing)"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:459
-msgid "Region too long."
-msgstr "地区名称太长"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:461
-msgid "City too short."
-msgstr "城市名太短((如出现该提示，请在城市名称后加拼音，写成这样: 上海shanghai)"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:462
-msgid "City too long."
-msgstr "城市太长"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:464
-msgid "Municipality too short."
-msgstr "直辖市太短"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:466
-msgid "Municipality too long."
-msgstr "直辖市太长"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:468
-msgid "Address too short."
-msgstr "地址太短"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:470
-msgid "Address too long."
-msgstr "地址太长"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:472
-msgid "Phone invalid."
-msgstr "电话无效。"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:560
-#: oc-includes/osclass/classes/actions/ItemActions.php:573
-#: oc-includes/osclass/classes/actions/ItemActions.php:584
-#: oc-includes/osclass/classes/actions/ItemActions.php:594
-#: oc-includes/osclass/classes/actions/ItemActions.php:596
-#, php-format
-msgid "%s is invalid."
-msgstr "%s 无效。"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:563
-#: oc-includes/osclass/classes/actions/ItemActions.php:566
-#: oc-includes/osclass/classes/actions/ItemActions.php:576
-#: oc-includes/osclass/classes/actions/ItemActions.php:587
-#: oc-includes/osclass/classes/actions/ItemActions.php:599
-#: oc-includes/osclass/classes/actions/ItemActions.php:606
-#, php-format
-msgid "%s is required."
-msgstr "%s 是必需的。"
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:1366
-#, php-format
-msgid "We just sent your message to %s"
-msgstr "我们刚才发了信息给你的哈 %s"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:65
-msgid "The reCAPTCHA was not entered correctly"
-msgstr "验证码，你输入的是不正确的"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:70
-msgid "The password cannot be empty"
-msgstr "密码不能为空"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:75
-#: oc-includes/osclass/classes/actions/UserActions.php:309
-#: oc-includes/osclass/classes/controller/CWebUser.php:242
-msgid "Passwords don't match"
-msgstr "密码不符"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:86
-#: oc-includes/osclass/classes/actions/UserActions.php:302
-msgid "The name cannot be empty"
-msgstr "名称不能为空"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:91
-msgid "The email is not valid"
-msgstr "邮件不合法"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:98
-#: oc-includes/osclass/classes/controller/CWebUser.php:138
-msgid "The specified e-mail is already in use"
-msgstr "邮件已被使用"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:105
-msgid "Username is already taken"
-msgstr "用户名已被使用"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:109
-#: oc-includes/osclass/classes/controller/CWebUser.php:190
-msgid "The specified username is not valid, it contains some invalid words"
-msgstr "指定的用户名无效，包含一些无效的单词"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:291
-#, php-format
-msgid "The specified e-mail is already used by %s"
-msgstr "指定的电子邮件已被 %s 使用"
-
-#: oc-includes/osclass/classes/Csrf.php:181
-msgid "Probable invalid request."
-msgstr "可能无效的请求。"
-
-#: oc-includes/osclass/classes/Csrf.php:184
-msgid "Invalid CSRF token."
-msgstr "无效的 CSRF 令牌。"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
 #: oc-includes/osclass/classes/controller/CWebLogin.php:39
-#: oc-includes/osclass/classes/controller/CWebRegister.php:40
 #: oc-includes/osclass/classes/controller/CWebUser.php:39
+#: oc-includes/osclass/classes/controller/CWebRegister.php:40
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
 msgid "Users not enabled"
 msgstr "无效用户"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
-msgid "Your email has been changed successfully"
-msgstr "您的邮件修改成功"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
-#: oc-includes/osclass/classes/controller/CWebLogin.php:271
-#: oc-includes/osclass/classes/controller/CWebLogin.php:319
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
-msgid "Sorry, the link is not valid"
-msgstr "抱歉，连接错误"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
-#: oc-includes/osclass/classes/controller/CWebUser.php:296
-msgid "Alert activated"
-msgstr "激活提醒"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
-#: oc-includes/osclass/classes/controller/CWebUser.php:298
-msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
-msgstr "看起来糟透了，激活出了毛病，你联系管理员吧"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
-#: oc-includes/osclass/classes/controller/CWebUser.php:317
-msgid "Unsubscribed correctly"
-msgstr "取消订阅成功"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
-#: oc-includes/osclass/classes/controller/CWebUser.php:319
-msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
-msgstr "遭透了。虽然你退订，但我们处理处了点毛病，不成功，你联系管理员。"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
-#: oc-includes/osclass/classes/controller/CWebContact.php:57
-#: oc-includes/osclass/classes/controller/CWebItem.php:147
-#: oc-includes/osclass/classes/controller/CWebItem.php:272
-#: oc-includes/osclass/classes/controller/CWebItem.php:476
-#: oc-includes/osclass/classes/controller/CWebItem.php:535
-msgid "The Recaptcha code is wrong"
-msgstr "Recaptcha 代码错误"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
-#: oc-includes/osclass/classes/controller/CWebContact.php:69
-#: oc-includes/osclass/classes/controller/CWebContact.php:81
-#: oc-includes/osclass/classes/controller/CWebLogin.php:111
-#: oc-includes/osclass/classes/controller/CWebRegister.php:72
-#: oc-includes/osclass/classes/controller/CWebItem.php:167
-#: oc-includes/osclass/classes/controller/CWebItem.php:550
-msgid "Your current email is not allowed"
-msgstr "您当前的电子邮件是不允许的"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
-#: oc-includes/osclass/classes/controller/CWebContact.php:72
-#: oc-includes/osclass/classes/controller/CWebLogin.php:114
-#: oc-includes/osclass/classes/controller/CWebRegister.php:75
-#: oc-includes/osclass/classes/controller/CWebItem.php:170
-#: oc-includes/osclass/classes/controller/CWebItem.php:553
-msgid "Your current IP is not allowed"
-msgstr "不允许您当前的IP"
-
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
-msgid "Your email has been sent properly."
-msgstr "您的电子邮件已正确发送。"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:86
-msgid "Please enter a correct email"
-msgstr "你还是把你的邮箱输入正确的好"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:182
-msgid "Your email has been sent properly. Thank you for contacting us!"
-msgstr "你的邮件已发出，并成功发送，谢谢联系我们。"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:51
 #: oc-includes/osclass/classes/controller/CWebRegister.php:64
@@ -295,12 +51,32 @@ msgstr "不允许空密码。请提供密码"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:80
 #: oc-includes/osclass/classes/controller/CWebLogin.php:157
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:656
 msgid "The user doesn't exist"
 msgstr "用户不存在"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:104
 msgid "The password is incorrect"
 msgstr "密码错误"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:111
+#: oc-includes/osclass/classes/controller/CWebRegister.php:72
+#: oc-includes/osclass/classes/controller/CWebContact.php:69
+#: oc-includes/osclass/classes/controller/CWebContact.php:81
+#: oc-includes/osclass/classes/controller/CWebItem.php:167
+#: oc-includes/osclass/classes/controller/CWebItem.php:550
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
+msgid "Your current email is not allowed"
+msgstr "您当前的电子邮件是不允许的"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:114
+#: oc-includes/osclass/classes/controller/CWebRegister.php:75
+#: oc-includes/osclass/classes/controller/CWebContact.php:72
+#: oc-includes/osclass/classes/controller/CWebItem.php:170
+#: oc-includes/osclass/classes/controller/CWebItem.php:553
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
+msgid "Your current IP is not allowed"
+msgstr "不允许您当前的IP"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:161
 #, php-format
@@ -347,6 +123,15 @@ msgstr "我们不能验证提供的信息"
 msgid "The recaptcha code is wrong"
 msgstr "recaptcha 代码错误"
 
+#: oc-includes/osclass/classes/controller/CWebLogin.php:271
+#: oc-includes/osclass/classes/controller/CWebLogin.php:319
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
+msgid "Sorry, the link is not valid"
+msgstr "抱歉，连接错误"
+
 #: oc-includes/osclass/classes/controller/CWebLogin.php:280
 #: oc-includes/osclass/classes/controller/CWebUser.php:221
 msgid "Password cannot be blank"
@@ -360,34 +145,6 @@ msgstr "密码修改成功"
 #: oc-includes/osclass/classes/controller/CWebLogin.php:312
 msgid "Error, the password don't match"
 msgstr "错误，密码不匹配"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:45
-msgid "User registration is not enabled"
-msgstr "用户注册未激活"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:82
-msgid "The user has been created. An activation email has been sent"
-msgstr "用户已创建，激活邮件已发送"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:85
-msgid "Your account has been created successfully"
-msgstr "您的账户创建成功"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:103
-msgid "The link is not valid anymore. Sorry for the inconvenience!"
-msgstr "链接已失效。抱歉给您带来的不便"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:108
-msgid "Your account has already been validated"
-msgstr "您的账户已被验证"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:129
-msgid "Your account has been validated"
-msgstr "您的账户已被验证"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:131
-msgid "Account validation failed"
-msgstr "帐户验证失败"
 
 #: oc-includes/osclass/classes/controller/CWebAjax.php:107
 #: oc-includes/osclass/classes/controller/CWebAjax.php:203
@@ -421,6 +178,133 @@ msgstr "选择的图片不属于你"
 #: oc-includes/osclass/classes/controller/CWebItem.php:432
 msgid "The selected photo couldn't be deleted"
 msgstr "选择的图像不能被删除"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:103
+msgid "Your profile has been updated successfully"
+msgstr "您的配置文件已更新完成"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:138
+#: oc-includes/osclass/classes/actions/UserActions.php:98
+msgid "The specified e-mail is already in use"
+msgstr "邮件已被使用"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:170
+msgid "The specified e-mail is not valid"
+msgstr "指定邮件无效"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:188
+msgid "The specified username is already in use"
+msgstr "指定用户名已被使用"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:190
+#: oc-includes/osclass/classes/actions/UserActions.php:109
+msgid "The specified username is not valid, it contains some invalid words"
+msgstr "指定的用户名无效，包含一些无效的单词"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:196
+msgid "The username was updated"
+msgstr "用户名已更新"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:205
+msgid "The specified username could not be empty"
+msgstr "指定的用户名不能为空"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:230
+msgid "Current password doesn't match"
+msgstr "当前密码不匹配"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:235
+msgid "Passwords can't be empty"
+msgstr "密码不能为空"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:242
+#: oc-includes/osclass/classes/actions/UserActions.php:75
+#: oc-includes/osclass/classes/actions/UserActions.php:309
+msgid "Passwords don't match"
+msgstr "密码不符"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:257
+msgid "Password has been changed"
+msgstr "密码重置成功"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:296
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:130
+msgid "Alert activated"
+msgstr "激活提醒"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:298
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:132
+msgid "Oops! There was a problem trying to activate your alert. Please contact an administrator"
+msgstr "看起来糟透了，激活出了毛病，你联系管理员吧"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:317
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:151
+msgid "Unsubscribed correctly"
+msgstr "取消订阅成功"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:319
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:153
+msgid "Oops! There was a problem trying to unsubscribe you. Please contact an administrator"
+msgstr "遭透了。虽然你退订，但我们处理处了点毛病，不成功，你联系管理员。"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:349
+msgid "Your account have been deleted"
+msgstr "您的帐户已被删除"
+
+#: oc-includes/osclass/classes/controller/CWebUser.php:352
+#: oc-includes/osclass/classes/controller/CWebUser.php:356
+msgid "Oops! you can not do that"
+msgstr "哎呀！你不能做这件事了"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:45
+msgid "User registration is not enabled"
+msgstr "用户注册未激活"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:82
+msgid "The user has been created. An activation email has been sent"
+msgstr "用户已创建，激活邮件已发送"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:85
+msgid "Your account has been created successfully"
+msgstr "您的账户创建成功"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:103
+msgid "The link is not valid anymore. Sorry for the inconvenience!"
+msgstr "链接已失效。抱歉给您带来的不便"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:108
+msgid "Your account has already been validated"
+msgstr "您的账户已被验证"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:129
+msgid "Your account has been validated"
+msgstr "您的账户已被验证"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:131
+msgid "Account validation failed"
+msgstr "帐户验证失败"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:57
+#: oc-includes/osclass/classes/controller/CWebItem.php:147
+#: oc-includes/osclass/classes/controller/CWebItem.php:272
+#: oc-includes/osclass/classes/controller/CWebItem.php:476
+#: oc-includes/osclass/classes/controller/CWebItem.php:535
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
+msgid "The Recaptcha code is wrong"
+msgstr "Recaptcha 代码错误"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:86
+msgid "Please enter a correct email"
+msgstr "你还是把你的邮箱输入正确的好"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:168
+#: oc-includes/osclass/classes/actions/ItemActions.php:329
+msgid "The file you tried to upload does not have a valid extension"
+msgstr "你想上传的文件，怎么是那个后缀啊，我晕"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:182
+msgid "Your email has been sent properly. Thank you for contacting us!"
+msgstr "你的邮件已发出，并成功发送，谢谢联系我们。"
 
 #: oc-includes/osclass/classes/controller/CWebItem.php:72
 #: oc-includes/osclass/classes/controller/CWebItem.php:140
@@ -569,141 +453,97 @@ msgstr "上架商品尚未启用。请启用它以公开。"
 msgid "The listing has been blocked or is awaiting moderation from the admin"
 msgstr "列表已被阻止或正在等待管理员的审核"
 
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
-msgid "You don't have enough permissions"
-msgstr "你没有足够的授权"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:663
+msgid "This action cannot be done because it is a demo site"
+msgstr "此操作无法完成，因为它是一个演示网站"
 
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
-msgid "Thank you very much for your donation"
-msgstr "谢谢了哈"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
+msgid "Import complete"
+msgstr "导入完成"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
-msgid "This action can't be done because it's a demo site"
-msgstr "你不能操作这个，因为这是演示网站"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
+msgid "There was a problem importing data to the database"
+msgstr "导入数据出错"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
-msgid "The plugin folder is not writable"
-msgstr "插件文件夹不可以写"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
-msgid "The plugin has been uploaded correctly"
-msgstr "插件上传成功"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
-msgid "The zip file is not valid"
-msgstr "压缩文件不正确"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
 #: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
 #: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
 msgid "No file was uploaded"
 msgstr "无文件上传"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
-msgid "There was a problem adding the plugin"
-msgstr "添加插件时出现问题"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
+msgid "Recount category stats has been successful"
+msgstr "重置账户分类状态成功"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
+msgid "Path is empty"
+msgstr "路径为空"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
+msgid "Could not connect with the database"
+msgstr "无法连接数据库"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
+msgid "There are no tables to back up"
+msgstr "没有表被备份"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
+msgid "The folder is not writable"
+msgstr "文件夹不可写"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
+msgid "Backup completed successfully"
+msgstr "备份成功完成"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
 #, php-format
-msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr "插件在安装过程中生成了 %d 个字符的 <strong>意外输出</strong> 。输出: \"%s\""
+msgid "Could not connect with the database. Error: %s"
+msgstr "不能连接至数据库.错误：%s"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
-msgid "Plugin is already installed"
-msgstr "插件已安装好啦"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
-msgid "Plugin couldn't be installed because their files are missing"
-msgstr "插件不能安装，因为有文件丢失啦"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
 #, php-format
-msgid "Plugin couldn't be installed because of: %s"
-msgstr "插件未能安装，因为：%s"
+msgid "Could not select the database. Error: %s"
+msgstr "不能选择数据库.错误：%s"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
-msgid "Plugin couldn't be installed"
-msgstr "插件未能安装"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
+msgid "Archived successfully!"
+msgstr "文件袋成功了"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
-msgid "Plugin installed"
-msgstr "插件已安装"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
+msgid "Error, the zip file was not created in the specified directory"
+msgstr "错，zip文件没有在指定的目录创建"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
-msgid "Plugin uninstalled"
-msgstr "插件已被卸载"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
+msgid "Maintenance mode is ON"
+msgstr "维护模式被启用"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
-msgid "Plugin couldn't be uninstalled"
-msgstr "插件为能卸载"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
+msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
+msgstr "你在创建.maintenance文件的时候整错了。请重来，在更目录创建，手工创建"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
-msgid "Plugin enabled"
-msgstr "插件已可用"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
+msgid "Maintenance mode is OFF"
+msgstr "维护模式未启用"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
-msgid "Plugin is already enabled"
-msgstr "插件已可用"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
-msgid "Plugin disabled"
-msgstr "插件未激活"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
-msgid "Plugin is already disabled"
-msgstr "插件已激活"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
-msgid "Configuration was saved"
-msgstr "配置已保存"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
-msgid "No plugin selected"
-msgstr "无插件被选择"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
-msgid "The files were deleted"
-msgstr "文件已删除"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
-#, php-format
-msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr "删除文件时出错，请检查 %s 中文件的权限"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
-msgid "Invalid plugin file"
-msgstr "无效的插件文件"
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
+msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
+msgstr "你在移除.maintenance文件的时候整错了。那在更目录里面，返工重做，"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
 #: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
@@ -767,25 +607,34 @@ msgstr "一个页面已删除成功"
 msgid "%s pages have been deleted correctly"
 msgstr "%s 页面已成功删除"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
-msgid "You have very few free space left, users will not be able to upload pictures"
-msgstr "您剩余的剩余空间非常少，用户将无法上传图片"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
-msgid "Entered an invalid email"
-msgstr "你输入的邮箱不合法"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
-msgid "You're already subscribed"
-msgstr "你已经订阅了"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
-msgid "Subscribed correctly"
-msgstr "成功订阅"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
-msgid "Error subscribing"
-msgstr "错误订阅"
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:192
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:237
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:310
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:361
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
+msgid "This action can't be done because it's a demo site"
+msgstr "你不能操作这个，因为这是演示网站"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
 msgid "The translation folder is not writable"
@@ -799,122 +648,119 @@ msgstr "语言包已正确安装"
 msgid "File uploaded but unable to activate the language"
 msgstr "文件上传但无法激活语言"
 
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
+msgid "The zip file is not valid"
+msgstr "压缩文件不正确"
+
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
 msgstr "添加预言时出错"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:153
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:154
 #, php-format
 msgid "Directory \"%s\" was not created"
 msgstr "目录%s未创建"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:182
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:183
 msgid "Language imported successfully"
 msgstr "语言导入成功"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:192
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:225
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:194
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:227
 msgid "Language id isn't in the correct format"
 msgstr "语言ID格式错误"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:199
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:201
 msgid "Language id doesn't exist"
 msgstr "语言ID不存在"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:248
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:250
 msgid "Language name field is required"
 msgstr "语言文件名是必须的"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:251
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:253
 msgid "Language direction field is required"
 msgstr "语言方向字段是必需的"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:254
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:256
 msgid "Language short name field is required"
 msgstr "语言文件名缩写是必须的"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:257
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:259
 msgid "Language description field is required"
 msgstr "语言描述要求"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:260
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:262
 msgid "Currency format field is required"
 msgstr "当前格式区是要求的"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:263
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:265
 msgid "Number of decimals must only contain numeric characters"
 msgstr "决定数字自然是一个数字了"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:287
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:289
 #, php-format
 msgid "%s has been updated"
 msgstr "%s已更新"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:293
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:295
 msgid "Selected languages have been enabled for the website"
 msgstr "选择语言在网站上有效"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:300
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:325
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:359
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:384
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:302
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:327
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:361
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:386
 msgid "The language ids aren't in the correct format"
 msgstr "语言id格式不正确"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:317
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:319
 msgid "Selected languages have been disabled for the website"
 msgstr "选中语言被设置为无效"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:332
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:391
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:334
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:393
 #, php-format
 msgid "%s can't be disabled because it's the default language"
 msgstr "%s 不能反激活因为默认语言"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:352
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:354
 msgid "Selected languages have been enabled for the backoffice (oc-admin)"
 msgstr "选中语言在后台被设为有效"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:376
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:378
 msgid "Selected languages have been disabled for the backoffice (oc-admin)"
 msgstr "选中语言已在后台被设为无效"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:418
-#, php-format
-msgid "Directory '%s' couldn't be removed"
-msgstr "目录的'%s'不能移除"
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:420
+msgid "The current language can't be deleted. Please logout and login again with another language."
+msgstr "无法删除当前语言。请注销并使用其他语言重新登录。"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:423
-#, php-format
-msgid "Directory \"%s\" has been successfully removed"
-msgstr "%s 文件夹删除成功"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:429
-#, php-format
-msgid "Directory '%s' couldn't be removed;)"
-msgstr "目录'%s'你不能删除，别把你当黑客：) "
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:437
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:426
 #, php-format
 msgid "Directory '%s' couldn't be removed because it's the default language. <a href=\"%s\">Set another language</a> as default first and try again"
 msgstr "目录%s无法删除，因为它是默认语言。 <a href=\"%s\">将另一种语言</a> 设置为默认语言，然后重试"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:628
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:437
+#, php-format
+msgid "Directory '%s' couldn't be removed"
+msgstr "目录的'%s'不能移除"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:442
+#, php-format
+msgid "Directory \"%s\" has been successfully removed"
+msgstr "%s 文件夹删除成功"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:448
+#, php-format
+msgid "Directory '%s' couldn't be removed;)"
+msgstr "目录'%s'你不能删除，别把你当黑客：) "
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:635
 msgid "There was a problem importing email templates"
 msgstr "导入电子邮件模板时出现问题"
-
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:650
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
-msgid "This action cannot be done because it is a demo site"
-msgstr "此操作无法完成，因为它是一个演示网站"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
 msgid "The username field is empty"
@@ -945,6 +791,60 @@ msgstr "新密码已发送至您邮箱"
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
 msgid "Error, the passwords don't match"
 msgstr "错误。你输入的密码不正确"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
+msgid "The comments have been deleted"
+msgstr "留言删除"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
+msgid "The comments have been approved"
+msgstr "留言获准"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
+msgid "The comments have been disapproved"
+msgstr "留言被驳回"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
+msgid "The comments have been unblocked"
+msgstr "评论已解锁"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
+msgid "The comments have been blocked"
+msgstr "评论已解锁"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
+msgid "The comment has been approved"
+msgstr "留言已获准"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
+msgid "The comment has been disapproved"
+msgstr "留言被驳回"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
+msgid "The comment has been enabled"
+msgstr "留言已审核"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
+msgid "The comment has been disabled"
+msgstr "留言无效"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
+msgid "Email is not correct"
+msgstr "电子邮件不正确"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
+msgid "Comment is required"
+msgstr "必须填写内容"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
+msgid "Great! We just updated your comment"
+msgstr "很好，我们更新了您的留言"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
+msgid "You don't have enough permissions"
+msgstr "你没有足够的授权"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
@@ -1026,77 +926,178 @@ msgstr "管理员已被正确的删除"
 msgid "The admin couldn't be deleted"
 msgstr "管理员不能被删除"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
-msgid "Import complete"
-msgstr "导入完成"
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
+msgid "You have very few free space left, users will not be able to upload pictures"
+msgstr "您剩余的剩余空间非常少，用户将无法上传图片"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
-msgid "There was a problem importing data to the database"
-msgstr "导入数据出错"
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
+msgid "Entered an invalid email"
+msgstr "你输入的邮箱不合法"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
-msgid "Recount category stats has been successful"
-msgstr "重置账户分类状态成功"
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
+msgid "You're already subscribed"
+msgstr "你已经订阅了"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
-msgid "Path is empty"
-msgstr "路径为空"
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
+msgid "Subscribed correctly"
+msgstr "成功订阅"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
-msgid "Could not connect with the database"
-msgstr "无法连接数据库"
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
+msgid "Error subscribing"
+msgstr "错误订阅"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
-msgid "There are no tables to back up"
-msgstr "没有表被备份"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
+msgid "The user has been created. We've sent an activation e-mail"
+msgstr "用户注册成功，我们已发送激活邮件至您的邮箱"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
-msgid "The folder is not writable"
-msgstr "文件夹不可写"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
+msgid "The user has been created successfully"
+msgstr "用户创建成功了，恭喜"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
-msgid "Backup completed successfully"
-msgstr "备份成功完成"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:164
+msgid "The user has been updated"
+msgstr "用户已被更新"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:166
+msgid "The user has been updated and activated"
+msgstr "用户已被更新、激活"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:180
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:206
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:259
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:285
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:310
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:629
+msgid "User id isn't in the correct format"
+msgstr "用户ID格式错误"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:190
+msgid "No users have been selected"
+msgstr "没有选择任何用户"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:193
 #, php-format
-msgid "Could not connect with the database. Error: %s"
-msgstr "不能连接至数据库.错误：%s"
+msgid "Activation email sent to one user"
+msgid_plural "Activation email sent to %s users"
+msgstr[0] "激活邮件发送给 %s 用户"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:216
+msgid "No users have been activated"
+msgstr "没有用户激活"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:219
 #, php-format
-msgid "Could not select the database. Error: %s"
-msgstr "不能选择数据库.错误：%s"
+msgid "One user has been activated"
+msgid_plural "%s users have been activated"
+msgstr[0] "%s 用户已激活"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
-msgid "Archived successfully!"
-msgstr "文件袋成功了"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:243
+msgid "No users have been deactivated"
+msgstr "没有用户反激活"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
-msgid "Error, the zip file was not created in the specified directory"
-msgstr "错，zip文件没有在指定的目录创建"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:246
+#, php-format
+msgid "One user has been deactivated"
+msgid_plural "%s users have been deactivated"
+msgstr[0] "%s 用户已被停用。"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
-msgid "Maintenance mode is ON"
-msgstr "维护模式被启用"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:269
+msgid "No users have been enabled"
+msgstr "没有用户启动"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
-msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
-msgstr "你在创建.maintenance文件的时候整错了。请重来，在更目录创建，手工创建"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:272
+#, php-format
+msgid "One user has been unblocked"
+msgid_plural "%s users have been unblocked"
+msgstr[0] "%s 用户已被解除阻止"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
-msgid "Maintenance mode is OFF"
-msgstr "维护模式未启用"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:295
+msgid "No users have been disabled"
+msgstr "没有用户反启动"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
-msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
-msgstr "你在移除.maintenance文件的时候整错了。那在更目录里面，返工重做，"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:298
+#, php-format
+msgid "One user has been blocked"
+msgid_plural "%s users have been blocked"
+msgstr[0] "%s 用户已被阻止"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:324
+msgid "No users have been deleted"
+msgstr "没有用户删除"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:327
+#, php-format
+msgid "One user has been deleted"
+msgid_plural "%s users have been deleted"
+msgstr[0] "%s 用户已被删除"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:337
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:373
+msgid "Alert id isn't in the correct format"
+msgstr "警报ID格式不正确"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:353
+msgid "No alerts have been deleted"
+msgstr "没有警报被删除"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:356
+#, php-format
+msgid "One alert has been deleted"
+msgid_plural "%s alerts have been deleted"
+msgstr[0] "%s 警报已被删除"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:394
+msgid "No alerts have been activated"
+msgstr "没有警报已激活"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:397
+#, php-format
+msgid "One alert has been activated"
+msgid_plural "%s alerts have been activated"
+msgstr[0] "%s 警报已激活"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
+msgid "No alerts have been deactivated"
+msgstr "没有警报已停用"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:406
+#, php-format
+msgid "One alert has been deactivated"
+msgid_plural "%s alerts have been deactivated"
+msgstr[0] "%s 警报已停用"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:446
+msgid "User settings have been updated"
+msgstr "用户设置更新"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:592
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:611
+msgid "Both rules can not be empty"
+msgstr "两条规则都不能为空"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:601
+msgid "Rule updated correctly"
+msgstr "规则正确更新"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:620
+msgid "Rule saved correctly"
+msgstr "规则已正确保存"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:641
+msgid "No rules have been deleted"
+msgstr "没有规则被删除"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:644
+#, php-format
+msgid "One ban rule has been deleted"
+msgid_plural "%s ban rules have been deleted"
+msgstr[0] "%s 封禁规则已被删除"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:667
+#, php-format
+msgid "Logged in as %s successfully"
+msgstr "以 %s 成功登录"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
 msgid "The email/alert has been updated"
@@ -1105,6 +1106,12 @@ msgstr "邮件/通知已更新"
 #: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
 msgid "The email couldn't be updated, at least one title should not be empty"
 msgstr "邮件不能给更新，至少有一个标题为空"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
+msgid "Resource deleted"
+msgstr "删除的资源"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
 msgid "The theme folder is not writable"
@@ -1159,207 +1166,390 @@ msgstr "小部件已正确的添加"
 msgid "Theme activated correctly"
 msgstr "主题已激活"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
-msgid "The user has been created. We've sent an activation e-mail"
-msgstr "用户注册成功，我们已发送激活邮件至您的邮箱"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
+msgid "The plugin folder is not writable"
+msgstr "插件文件夹不可以写"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
-msgid "The user has been created successfully"
-msgstr "用户创建成功了，恭喜"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
+msgid "The plugin has been uploaded correctly"
+msgstr "插件上传成功"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:160
-msgid "The user has been updated"
-msgstr "用户已被更新"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
+msgid "There was a problem adding the plugin"
+msgstr "添加插件时出现问题"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:162
-msgid "The user has been updated and activated"
-msgstr "用户已被更新、激活"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:176
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:202
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:229
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:255
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:281
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:306
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:625
-msgid "User id isn't in the correct format"
-msgstr "用户ID格式错误"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:186
-msgid "No users have been selected"
-msgstr "没有选择任何用户"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:189
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
 #, php-format
-msgid "Activation email sent to one user"
-msgid_plural "Activation email sent to %s users"
-msgstr[0] "激活邮件发送给 %s 用户"
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
+msgstr "插件在安装过程中生成了 %d 个字符的 <strong>意外输出</strong> 。输出: \"%s\""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:212
-msgid "No users have been activated"
-msgstr "没有用户激活"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
+msgid "Plugin is already installed"
+msgstr "插件已安装好啦"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:215
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
+msgid "Plugin couldn't be installed because their files are missing"
+msgstr "插件不能安装，因为有文件丢失啦"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
 #, php-format
-msgid "One user has been activated"
-msgid_plural "%s users have been activated"
-msgstr[0] "%s 用户已激活"
+msgid "Plugin couldn't be installed because of: %s"
+msgstr "插件未能安装，因为：%s"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:239
-msgid "No users have been deactivated"
-msgstr "没有用户反激活"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
+msgid "Plugin couldn't be installed"
+msgstr "插件未能安装"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:242
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
+msgid "Plugin installed"
+msgstr "插件已安装"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
+msgid "Plugin uninstalled"
+msgstr "插件已被卸载"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
+msgid "Plugin couldn't be uninstalled"
+msgstr "插件为能卸载"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
+msgid "Plugin enabled"
+msgstr "插件已可用"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
+msgid "Plugin is already enabled"
+msgstr "插件已可用"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
+msgid "Plugin disabled"
+msgstr "插件未激活"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
+msgid "Plugin is already disabled"
+msgstr "插件已激活"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
+msgid "Configuration was saved"
+msgstr "配置已保存"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
+msgid "No plugin selected"
+msgstr "无插件被选择"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
+msgid "The files were deleted"
+msgstr "文件已删除"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
 #, php-format
-msgid "One user has been deactivated"
-msgid_plural "%s users have been deactivated"
-msgstr[0] "%s 用户已被停用。"
+msgid "There were an error deleting the files, please check the permissions of the files in %s"
+msgstr "删除文件时出错，请检查 %s 中文件的权限"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:265
-msgid "No users have been enabled"
-msgstr "没有用户启动"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
+msgid "Invalid plugin file"
+msgstr "无效的插件文件"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:268
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
+msgid "Custom number could not be left empty"
+msgstr "开户编号不能为空"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
+msgid "Last search settings have been updated"
+msgstr "最新的搜索设置已更新"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
+msgid "All fields are required."
+msgstr "所有要求的你都填写"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:644
 #, php-format
-msgid "One user has been unblocked"
-msgid_plural "%s users have been unblocked"
-msgstr[0] "%s 用户已被解除阻止"
+msgid "One field was not updated"
+msgid_plural "%s fields were not updated"
+msgstr[0] "%s 字段未更新"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:291
-msgid "No users have been disabled"
-msgstr "没有用户反启动"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
+msgid "Permalinks structure updated"
+msgstr "永久链接结构更新"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:294
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
+msgid "Permalinks structure updated."
+msgstr "永久链接结构更新"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
+msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
+msgstr "但是，我们不能检查到是否你的Apache模块<b>mod_rewrite</b> 已经上传，如果这个链接有问题，你得先反激活 <em>有好链接</em>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
+msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
+msgstr "文件 <b>.htaccess</b> 不能归档，虽然你的内容无懈可击."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
+msgstr "你添加的内容 <b>.htaccess</b> 到文件. 如果你不能创建文件，你们，请你先反激活 <em>有好链接</em> 选项就Okay了."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "你必须添加内容 <b>.htaccess</b> 到文件. 如果你创建文件遇到麻烦，你一定得先反激活 <em>有好链接</em> 选项."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
+msgid "File <b>.htaccess</b> already exists and was not modified."
+msgstr "文件 <b>.htmaccess</b> 已经存在并且没有被修改。"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "这里是您必须添加到 <b>.htm访问</b> 文件的内容。 如果您不能修改文件或遇到一些网址问题，请停用 <em>Friendly URLs</em> 选项。"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
+msgid "Friendly URLs successfully deactivated"
+msgstr "有好链接成功反激活"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
+msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
+msgstr "友情链接已停用，但无法删除。请手动移除该文件"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
+msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
+msgstr "Friendly URLs 已停用，但因Osclass 之外的原因文件被修改而未被删除"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
+msgid "Advanced settings have been updated"
+msgstr "高级设置已更新"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
+msgid "Cache flushed correctly"
+msgstr "已正确刷新缓存"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
+msgid "The currency code is not in the correct format"
+msgstr "当前的编码是不正确的格式哦"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
+msgid "Currency added"
+msgstr "添加货币"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
+msgid "Currency couldn't be added"
+msgstr "不能添加货币"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
 #, php-format
-msgid "One user has been blocked"
-msgid_plural "%s users have been blocked"
-msgstr[0] "%s 用户已被阻止"
+msgid "The currency code '%s' doesn't exist"
+msgstr "货币添加代码 '%s' 不存在"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:320
-msgid "No users have been deleted"
-msgstr "没有用户删除"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
+msgid "Error: the currency code is not in the correct format"
+msgstr "错误：当前货币代码格式错误"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:323
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
+msgid "Currency updated"
+msgstr "货币更新"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
+msgid "No changes were made"
+msgstr "没有改变什么"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
 #, php-format
-msgid "One user has been deleted"
-msgid_plural "%s users have been deleted"
-msgstr[0] "%s 用户已被删除"
+msgid "%s couldn't be deleted because it has listings associated to it"
+msgstr "%s 是不可以删除的，你知道有你们多的广告在里面呢，你想删就删，那我疯了算了"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:333
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:369
-msgid "Alert id isn't in the correct format"
-msgstr "警报ID格式不正确"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:349
-msgid "No alerts have been deleted"
-msgstr "没有警报被删除"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:352
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
 #, php-format
-msgid "One alert has been deleted"
-msgid_plural "%s alerts have been deleted"
-msgstr[0] "%s 警报已被删除"
+msgid "%s couldn't be deleted because it's the default currency"
+msgstr "%s是不可以删除的，你知道那是默认的货币"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:390
-msgid "No alerts have been activated"
-msgstr "没有警报已激活"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
+msgid "No currencies have been deleted"
+msgstr "无货币已删除"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:393
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
+msgid "One currency has been deleted"
+msgstr "一个货币已删除"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
 #, php-format
-msgid "One alert has been activated"
-msgid_plural "%s alerts have been activated"
-msgstr[0] "%s 警报已激活"
+msgid "%s currencies have been deleted"
+msgstr "%s 货币已被删除"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:398
-msgid "No alerts have been deactivated"
-msgstr "没有警报已停用"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
+msgid "Number of moderate comments must only contain numeric characters"
+msgstr "评论审查数必须只能是数字符号了"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
+msgid "Comments per page must only contain numeric characters"
+msgstr "这是每页上显示的评论数量，所以，只能是数字"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
+msgid "Comment settings have been updated"
+msgstr "评论设置更新了"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
+msgid "Your Akismet key has been cleared"
+msgstr "你的Akismet Key被清除掉了"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
+msgid "Your Akismet key has been updated"
+msgstr "Akismet Key已更新"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
+msgid "Your reCAPTCHA key has been cleared"
+msgstr "你的验证码已清出掉"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
+msgid "Your reCAPTCHA key has been updated"
+msgstr "你的验证码已更新"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
+msgid "There was a problem uploading the watermark image"
+msgstr "水印上传出故障"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
+msgid "The watermark image has to be a .PNG file"
+msgstr "水印图像必须是.PNG格式啊"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
 #, php-format
-msgid "One alert has been deactivated"
-msgid_plural "%s alerts have been deactivated"
-msgstr[0] "%s 警报已停用"
+msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
+msgstr "既然PHP中设置过最大图像尺寸，你这里就不能超过那设定了: <b>%d KB</b>"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:442
-msgid "User settings have been updated"
-msgstr "用户设置更新"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
+msgid "Media config has been updated"
+msgstr "媒体配置已更新"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:588
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:607
-msgid "Both rules can not be empty"
-msgstr "两条规则都不能为空"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
+msgid "Re-generation complete"
+msgstr "重置完成"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:597
-msgid "Rule updated correctly"
-msgstr "规则正确更新"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
+msgid "Last check"
+msgstr "最近的查核"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:616
-msgid "Rule saved correctly"
-msgstr "规则已正确保存"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
+msgid "Page title field is required"
+msgstr "页面的标题你还得写一个"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:637
-msgid "No rules have been deleted"
-msgstr "没有规则被删除"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
+msgid "Contact email field is required"
+msgstr "联系邮箱那是必须的，没有是不行的"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:640
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
+msgid "Number of listings in the RSS has to be a numeric value"
+msgstr "RSS广告数自然是数字了"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
+msgid "Max latest listings has to be a numeric value"
+msgstr "最大近期广告数也只能是数字了"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
+msgid "Number of listings on search has to be a numeric value"
+msgstr "搜索广告数也只能是数字了"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
+msgid "Number of listings in the RSS must be an integer"
+msgstr "RSS里的广告数还能是什么呢如果不是一个整数的话，我死了算了"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
+msgid "Number of recent listings displayed at home must be an integer"
+msgstr "近期广告展示数，首页上的，那自然不可能是小数"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
+msgid "General settings have been updated"
+msgstr "常规设置已更新"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
+msgid "Mail server type is incorrect"
+msgstr "邮件服务器类型错误"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
+msgid "Mail server configuration has changed"
+msgstr "邮件服务器设置已修改"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
 #, php-format
-msgid "One ban rule has been deleted"
-msgid_plural "%s ban rules have been deleted"
-msgstr[0] "%s 封禁规则已被删除"
+msgid "%s already was in the database"
+msgstr "%s 已存在于数据库"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
-#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
-msgid "Resource deleted"
-msgstr "删除的资源"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#, php-format
+msgid "%s has been added as a new country"
+msgstr "%s 已作为新国家被添加"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
-msgid "The comments have been deleted"
-msgstr "留言删除"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
+msgid "Country name cannot be blank"
+msgstr "国家名不能为空"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
-msgid "The comments have been approved"
-msgstr "留言获准"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
+msgid "Country has been edited"
+msgstr "国家已被编辑"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
-msgid "The comments have been disapproved"
-msgstr "留言被驳回"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
+msgid "There were some problems editing the country"
+msgstr "编辑国家时发生错误"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
-msgid "The comments have been unblocked"
-msgstr "评论已解锁"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
+msgid "There was a problem deleting locations"
+msgstr "删除位置时出现问题"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
-msgid "The comments have been blocked"
-msgstr "评论已解锁"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
+msgid "No country was selected"
+msgstr "没有选择国家"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
-msgid "The comment has been approved"
-msgstr "留言已获准"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
+msgid "Region name cannot be blank"
+msgstr "区域名不能为空"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
-msgid "The comment has been disapproved"
-msgstr "留言被驳回"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#, php-format
+msgid "%s has been added as a new region"
+msgstr "%s 已被作为一个地区添加"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
-msgid "The comment has been enabled"
-msgstr "留言已审核"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#, php-format
+msgid "%s has been edited"
+msgstr "%s 已被编辑"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
-msgid "The comment has been disabled"
-msgstr "留言无效"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
+msgid "No region was selected"
+msgstr "没有选择区域"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
-msgid "Email is not correct"
-msgstr "电子邮件不正确"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
+msgid "New city name cannot be blank"
+msgstr "新城市名称不能为空"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
-msgid "Comment is required"
-msgstr "必须填写内容"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#, php-format
+msgid "%s has been added as a new city"
+msgstr "%s 已被作为一个城市添加"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
-msgid "Great! We just updated your comment"
-msgstr "很好，我们更新了您的留言"
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
+msgid "City name cannot be blank"
+msgstr "城市名称不能为空"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
+msgid "No city was selected"
+msgstr "没有选择城市"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
+msgid "Location imported successfully"
+msgstr "位置导入成功"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
+msgid "There was a problem importing the selected location"
+msgstr "导入选定位置时出错"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:80
 #, php-format
@@ -1533,357 +1723,177 @@ msgstr "描述长度必须是一个数字"
 msgid "Listings' settings have been updated"
 msgstr "广告设置已更新"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
-msgid "Mail server type is incorrect"
-msgstr "邮件服务器类型错误"
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
+msgid "Thank you very much for your donation"
+msgstr "谢谢了哈"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
-msgid "Mail server configuration has changed"
-msgstr "邮件服务器设置已修改"
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
+msgid "Your email has been changed successfully"
+msgstr "您的邮件修改成功"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
+msgid "Your email has been sent properly."
+msgstr "您的电子邮件已正确发送。"
+
+#: oc-includes/osclass/classes/Csrf.php:181
+msgid "Probable invalid request."
+msgstr "可能无效的请求。"
+
+#: oc-includes/osclass/classes/Csrf.php:184
+msgid "Invalid CSRF token."
+msgstr "无效的 CSRF 令牌。"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:124
+msgid "Name too long."
+msgstr "名字太长"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:125
+msgid "Email invalid."
+msgstr "邮件无效"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:131
+msgid "Too fast. You should wait a little to publish your ad."
+msgstr "您发送的广告频率太快，请稍后再发布"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:357
+msgid "One of the files you tried to upload exceeds the maximum size"
+msgstr "其中一个文件大小已达到最大"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:419
+msgid "Image with an incorrect extension."
+msgstr "图像文件后坠不正确的"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:422
+msgid "Image is too big. Max. size"
+msgstr "图像文件太大了的"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:432
 #, php-format
-msgid "%s already was in the database"
-msgstr "%s 已存在于数据库"
+msgid "Title too short (%s)."
+msgstr "标题太短(%s)。"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#: oc-includes/osclass/classes/actions/ItemActions.php:434
 #, php-format
-msgid "%s has been added as a new country"
-msgstr "%s 已作为新国家被添加"
+msgid "Title too long (%s)."
+msgstr "标题太长(%s)。"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
-msgid "Country name cannot be blank"
-msgstr "国家名不能为空"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
-msgid "Country has been edited"
-msgstr "国家已被编辑"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
-msgid "There were some problems editing the country"
-msgstr "编辑国家时发生错误"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
-msgid "There was a problem deleting locations"
-msgstr "删除位置时出现问题"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
-msgid "No country was selected"
-msgstr "没有选择国家"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
-msgid "Region name cannot be blank"
-msgstr "区域名不能为空"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#: oc-includes/osclass/classes/actions/ItemActions.php:444
 #, php-format
-msgid "%s has been added as a new region"
-msgstr "%s 已被作为一个地区添加"
+msgid "Description too short (%s)."
+msgstr "描述太短(%s)。"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#: oc-includes/osclass/classes/actions/ItemActions.php:447
 #, php-format
-msgid "%s has been edited"
-msgstr "%s 已被编辑"
+msgid "Description too long (%s)."
+msgstr "描述过长(%s)。"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
-msgid "No region was selected"
-msgstr "没有选择区域"
+#: oc-includes/osclass/classes/actions/ItemActions.php:451
+msgid "Category invalid."
+msgstr "分类错误"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
-msgid "New city name cannot be blank"
-msgstr "新城市名称不能为空"
+#: oc-includes/osclass/classes/actions/ItemActions.php:452
+msgid "Price must be a number."
+msgstr "价格，你知道，那应该是个数字"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#: oc-includes/osclass/classes/actions/ItemActions.php:454
+msgid "Price too long."
+msgstr "价格太长"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:457
+msgid "Price must be positive number."
+msgstr "价格必须是正数。"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:459
+msgid "Country too short."
+msgstr "国家太短"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:461
+msgid "Country too long."
+msgstr "国家名称太长"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:463
+msgid "Region too short."
+msgstr "地区名称太短(如出现该提示，请在地区名称后加拼音，写成这样: 北京beijing)"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:465
+msgid "Region too long."
+msgstr "地区名称太长"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:467
+msgid "City too short."
+msgstr "城市名太短((如出现该提示，请在城市名称后加拼音，写成这样: 上海shanghai)"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:468
+msgid "City too long."
+msgstr "城市太长"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:470
+msgid "Municipality too short."
+msgstr "直辖市太短"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:472
+msgid "Municipality too long."
+msgstr "直辖市太长"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:474
+msgid "Address too short."
+msgstr "地址太短"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:476
+msgid "Address too long."
+msgstr "地址太长"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:478
+msgid "Phone invalid."
+msgstr "电话无效。"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:572
+#: oc-includes/osclass/classes/actions/ItemActions.php:585
+#: oc-includes/osclass/classes/actions/ItemActions.php:596
+#: oc-includes/osclass/classes/actions/ItemActions.php:606
+#: oc-includes/osclass/classes/actions/ItemActions.php:608
 #, php-format
-msgid "%s has been added as a new city"
-msgstr "%s 已被作为一个城市添加"
+msgid "%s is invalid."
+msgstr "%s 无效。"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
-msgid "City name cannot be blank"
-msgstr "城市名称不能为空"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
-msgid "No city was selected"
-msgstr "没有选择城市"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
-msgid "Location imported successfully"
-msgstr "位置导入成功"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
-msgid "There was a problem importing the selected location"
-msgstr "导入选定位置时出错"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
-msgid "All fields are required."
-msgstr "所有要求的你都填写"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:644
+#: oc-includes/osclass/classes/actions/ItemActions.php:575
+#: oc-includes/osclass/classes/actions/ItemActions.php:578
+#: oc-includes/osclass/classes/actions/ItemActions.php:588
+#: oc-includes/osclass/classes/actions/ItemActions.php:599
+#: oc-includes/osclass/classes/actions/ItemActions.php:611
+#: oc-includes/osclass/classes/actions/ItemActions.php:618
 #, php-format
-msgid "One field was not updated"
-msgid_plural "%s fields were not updated"
-msgstr[0] "%s 字段未更新"
+msgid "%s is required."
+msgstr "%s 是必需的。"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
-msgid "Permalinks structure updated"
-msgstr "永久链接结构更新"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
-msgid "Permalinks structure updated."
-msgstr "永久链接结构更新"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
-msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
-msgstr "但是，我们不能检查到是否你的Apache模块<b>mod_rewrite</b> 已经上传，如果这个链接有问题，你得先反激活 <em>有好链接</em>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
-msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
-msgstr "文件 <b>.htaccess</b> 不能归档，虽然你的内容无懈可击."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
-msgstr "你添加的内容 <b>.htaccess</b> 到文件. 如果你不能创建文件，你们，请你先反激活 <em>有好链接</em> 选项就Okay了."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "你必须添加内容 <b>.htaccess</b> 到文件. 如果你创建文件遇到麻烦，你一定得先反激活 <em>有好链接</em> 选项."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
-msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr "文件 <b>.htmaccess</b> 已经存在并且没有被修改。"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "这里是您必须添加到 <b>.htm访问</b> 文件的内容。 如果您不能修改文件或遇到一些网址问题，请停用 <em>Friendly URLs</em> 选项。"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
-msgid "Friendly URLs successfully deactivated"
-msgstr "有好链接成功反激活"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
-msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr "友情链接已停用，但无法删除。请手动移除该文件"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
-msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr "Friendly URLs 已停用，但因Osclass 之外的原因文件被修改而未被删除"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
-msgid "Custom number could not be left empty"
-msgstr "开户编号不能为空"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
-msgid "Last search settings have been updated"
-msgstr "最新的搜索设置已更新"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
-msgid "Last check"
-msgstr "最近的查核"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
-msgid "Page title field is required"
-msgstr "页面的标题你还得写一个"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
-msgid "Contact email field is required"
-msgstr "联系邮箱那是必须的，没有是不行的"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
-msgid "Number of listings in the RSS has to be a numeric value"
-msgstr "RSS广告数自然是数字了"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
-msgid "Max latest listings has to be a numeric value"
-msgstr "最大近期广告数也只能是数字了"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
-msgid "Number of listings on search has to be a numeric value"
-msgstr "搜索广告数也只能是数字了"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
-msgid "Number of listings in the RSS must be an integer"
-msgstr "RSS里的广告数还能是什么呢如果不是一个整数的话，我死了算了"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
-msgid "Number of recent listings displayed at home must be an integer"
-msgstr "近期广告展示数，首页上的，那自然不可能是小数"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
-msgid "General settings have been updated"
-msgstr "常规设置已更新"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
-msgid "Your Akismet key has been cleared"
-msgstr "你的Akismet Key被清除掉了"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
-msgid "Your Akismet key has been updated"
-msgstr "Akismet Key已更新"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
-msgid "Your reCAPTCHA key has been cleared"
-msgstr "你的验证码已清出掉"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
-msgid "Your reCAPTCHA key has been updated"
-msgstr "你的验证码已更新"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
-msgid "Advanced settings have been updated"
-msgstr "高级设置已更新"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
-msgid "Cache flushed correctly"
-msgstr "已正确刷新缓存"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
-msgid "Number of moderate comments must only contain numeric characters"
-msgstr "评论审查数必须只能是数字符号了"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
-msgid "Comments per page must only contain numeric characters"
-msgstr "这是每页上显示的评论数量，所以，只能是数字"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
-msgid "Comment settings have been updated"
-msgstr "评论设置更新了"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
-msgid "The currency code is not in the correct format"
-msgstr "当前的编码是不正确的格式哦"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
-msgid "Currency added"
-msgstr "添加货币"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
-msgid "Currency couldn't be added"
-msgstr "不能添加货币"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
+#: oc-includes/osclass/classes/actions/ItemActions.php:1378
 #, php-format
-msgid "The currency code '%s' doesn't exist"
-msgstr "货币添加代码 '%s' 不存在"
+msgid "We just sent your message to %s"
+msgstr "我们刚才发了信息给你的哈 %s"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
-msgid "Error: the currency code is not in the correct format"
-msgstr "错误：当前货币代码格式错误"
+#: oc-includes/osclass/classes/actions/UserActions.php:65
+msgid "The reCAPTCHA was not entered correctly"
+msgstr "验证码，你输入的是不正确的"
 
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
-msgid "Currency updated"
-msgstr "货币更新"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
-msgid "No changes were made"
-msgstr "没有改变什么"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
-#, php-format
-msgid "%s couldn't be deleted because it has listings associated to it"
-msgstr "%s 是不可以删除的，你知道有你们多的广告在里面呢，你想删就删，那我疯了算了"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
-#, php-format
-msgid "%s couldn't be deleted because it's the default currency"
-msgstr "%s是不可以删除的，你知道那是默认的货币"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
-msgid "No currencies have been deleted"
-msgstr "无货币已删除"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
-msgid "One currency has been deleted"
-msgstr "一个货币已删除"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
-#, php-format
-msgid "%s currencies have been deleted"
-msgstr "%s 货币已被删除"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
-msgid "There was a problem uploading the watermark image"
-msgstr "水印上传出故障"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
-msgid "The watermark image has to be a .PNG file"
-msgstr "水印图像必须是.PNG格式啊"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
-#, php-format
-msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
-msgstr "既然PHP中设置过最大图像尺寸，你这里就不能超过那设定了: <b>%d KB</b>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
-msgid "Media config has been updated"
-msgstr "媒体配置已更新"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
-msgid "Re-generation complete"
-msgstr "重置完成"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:103
-msgid "Your profile has been updated successfully"
-msgstr "您的配置文件已更新完成"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:170
-msgid "The specified e-mail is not valid"
-msgstr "指定邮件无效"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:188
-msgid "The specified username is already in use"
-msgstr "指定用户名已被使用"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:196
-msgid "The username was updated"
-msgstr "用户名已更新"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:205
-msgid "The specified username could not be empty"
-msgstr "指定的用户名不能为空"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:230
-msgid "Current password doesn't match"
-msgstr "当前密码不匹配"
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:235
-msgid "Passwords can't be empty"
+#: oc-includes/osclass/classes/actions/UserActions.php:70
+msgid "The password cannot be empty"
 msgstr "密码不能为空"
 
-#: oc-includes/osclass/classes/controller/CWebUser.php:257
-msgid "Password has been changed"
-msgstr "密码重置成功"
+#: oc-includes/osclass/classes/actions/UserActions.php:86
+#: oc-includes/osclass/classes/actions/UserActions.php:302
+msgid "The name cannot be empty"
+msgstr "名称不能为空"
 
-#: oc-includes/osclass/classes/controller/CWebUser.php:349
-msgid "Your account have been deleted"
-msgstr "您的帐户已被删除"
+#: oc-includes/osclass/classes/actions/UserActions.php:91
+msgid "The email is not valid"
+msgstr "邮件不合法"
 
-#: oc-includes/osclass/classes/controller/CWebUser.php:352
-#: oc-includes/osclass/classes/controller/CWebUser.php:356
-msgid "Oops! you can not do that"
-msgstr "哎呀！你不能做这件事了"
+#: oc-includes/osclass/classes/actions/UserActions.php:105
+msgid "Username is already taken"
+msgstr "用户名已被使用"
 
-#: oc-includes/osclass/emails.php:861
-msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
-msgstr "我们已给你发邮件。按那上面说的，激活之，就好了"
-
-#: oc-includes/osclass/emails.php:864
-msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
-msgstr "我们努力发邮件给你，但失败了。你联系一下管理员好了"
-
-#: oc-includes/osclass/emails.php:1122
-msgid "There has been some errors sending the message"
-msgstr "发送信息是出现错误"
+#: oc-includes/osclass/classes/actions/UserActions.php:291
+#, php-format
+msgid "The specified e-mail is already used by %s"
+msgstr "指定的电子邮件已被 %s 使用"
 
