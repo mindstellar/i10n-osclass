@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-11-05 09:41+0000\n"
-"PO-Revision-Date: 2021-11-05 09:45\n"
+"POT-Creation-Date: 2023-04-03 10:27+0000\n"
+"PO-Revision-Date: 2023-04-03 10:35\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -16,65 +16,6 @@ msgstr ""
 "X-Crowdin-Language: tr\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
-
-#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "Uyarılar"
-
-#: user-alerts.php:39
-msgid "You do not have any alerts yet"
-msgstr "Henüz herhangi bir uyarınız yok"
-
-#: user-alerts.php:46
-msgid "Alert"
-msgstr "Uyarı"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Bu işlem geri alınamaz. Devam etmek istediğinize emin misiniz?"
-
-#: user-alerts.php:46
-msgid "Delete this alert"
-msgstr "Bu uyarıyı sil"
-
-#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
-msgid "Listings"
-msgstr "İlanlar"
-
-#: item-send-friend.php:31 functions.php:436
-msgid "Send to a friend"
-msgstr "Bir arkadaşa gönder"
-
-#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
-#: user-public-sidebar.php:33 contact.php:40
-msgid "Your name"
-msgstr "Adınız"
-
-#: item-send-friend.php:50 item.php:197
-msgid "Your e-mail"
-msgstr "E-postanız"
-
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "Arkadaşının adı."
-
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "Arkadaşınızın e-posta adresi"
-
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Konu (isteğe bağlı)"
-
-#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
-#: contact.php:60
-msgid "Message"
-msgstr "İleti"
-
-#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
-#: user-public-sidebar.php:54 contact.php:68
-msgid "Send"
-msgstr "Gönder"
 
 #: item.php:59
 #, php-format
@@ -142,7 +83,7 @@ msgstr "oluşturan"
 msgid "Delete your comment"
 msgstr "Açıklamanızı silme"
 
-#: item.php:165 common/head.php:25 loop-single.php:48
+#: item.php:165 loop-single.php:48 common/head.php:25
 #: loop-single-premium.php:48
 msgid "Delete"
 msgstr "Sil"
@@ -150,6 +91,15 @@ msgstr "Sil"
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "Yorumunuzu bırakın (spam ve saldırgan mesajlar kaldırılacaktır)"
+
+#: item.php:191 item-sidebar.php:85 item-send-friend.php:44 contact.php:40
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr "Adınız"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "E-postanız"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -159,37 +109,147 @@ msgstr "Başlık"
 msgid "Comment"
 msgstr "Yorum"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "Kullanıcı adını değiştir"
+#: item.php:216 item-sidebar.php:113 item-send-friend.php:87 contact.php:68
+#: user-public-sidebar.php:54
+msgid "Send"
+msgstr "Gönder"
 
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Kullanıcı adı: doldurulması zorunlu"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Aramanız"
 
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "Kullanıcı adı uygun"
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Şehir"
 
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Kullanıcı adı uygun DEĞiL"
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Yalnızca göster"
 
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Qullanıcı adı"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "resimli listeler"
 
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "Güncelle"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Fiyat"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Min"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Max"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Uygula"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Kategoriyi daralt"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Bu işlem geri alınamaz. Devam etmek istediğinize emin misiniz?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Aktifleştir"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Üzgünüm ama aradığınız sayfayı bulamıyorum."
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "Size yardım edelim, onu bulmanız için birkaç ipucumuz var."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>Arama</strong> :"
+
+#: 404.php:40 header.php:80
+msgid "Search"
+msgstr "Aramak"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>En popüler kategorilerde</strong> bakın."
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Merhaba %s"
+
+#: footer.php:36 header.php:49
+msgid "My account"
+msgstr "Hesabım"
+
+#: footer.php:37 header.php:50
+msgid "Logout"
+msgstr "Çıkış yap"
+
+#: footer.php:40 item-sidebar.php:63 functions.php:449 header.php:53
+msgid "Login"
+msgstr "Giriş"
+
+#: footer.php:43 user-login.php:58 item-sidebar.php:64 header.php:55
+msgid "Register for a free account"
+msgstr "Ücretsiz bir hesaba kaydolun"
+
+#: footer.php:50 header.php:60
+msgid "Publish your ad for free"
+msgstr "Reklamınızı ücretsiz yayınlama"
+
+#: footer.php:65 functions.php:453 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "İletişim"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Bu web sitesi gururla Osclass</strong><strong><a title=\"Osclass web\" href=\"%s\">sınıflandırılmış komut dosyaları</a> yazılım kullanıyor"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "Dil:"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "Şifrenizi yeniden edinin"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Yeni parola"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Yeni parolayı yinele"
+
+#: user-forgot_password.php:52 functions.php:448 functions.php:451
+#: functions.php:511 user-change_password.php:32 user-change_password.php:37
+msgid "Change password"
+msgstr "Şifre değiştir"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Görüntü menüsü"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Hesabı sil"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Hesabınızı silmek istediğinizden emin misiniz?"
 
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Hesabınıza erişim"
 
-#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
+#: user-login.php:38 user-recover.php:37 item-post.php:185 user-register.php:45
 msgid "E-mail"
 msgstr "E-İleti"
 
@@ -205,13 +265,25 @@ msgstr "Beni hatırla"
 msgid "Log in"
 msgstr "Giriş yap"
 
-#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "Ücretsiz bir hesaba kaydolun"
-
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "Şifreyi mi unuttun?"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "İptal"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Önceki resim"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Sonraki resim"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Kapat"
 
 #: item-sidebar.php:30
 msgid "Mark as..."
@@ -253,12 +325,8 @@ msgstr "Bu sizin kaydınız, yayıncıyla iletişim kuramazsınız."
 msgid "You must log in or register a new account in order to contact the advertiser"
 msgstr "Reklamverenle iletişim kurmak için oturum açmanız veya yeni bir hesap kaydetmeniz gerekir"
 
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "Giriş"
-
-#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
-#: item-post.php:179
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
 msgid "Name"
 msgstr "Ad"
 
@@ -285,9 +353,14 @@ msgstr "E-posta adresiniz"
 msgid "Phone number"
 msgstr "Telefon numarası"
 
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+#: item-sidebar.php:93 contact.php:41 contact.php:54 user-public-sidebar.php:41
 msgid "optional"
 msgstr "opsiyonel"
+
+#: item-sidebar.php:98 item-send-friend.php:78 contact.php:60
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr "İleti"
 
 #: item-sidebar.php:104
 msgid "Attachment"
@@ -317,69 +390,166 @@ msgstr "Bu aramaya abone ol"
 msgid "Subscribe now"
 msgstr "Şimdi abone ol"
 
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "Aramanız"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "Şehir"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Yalnızca göster"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "resimli listeler"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Fiyat"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Min"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Max"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Uygula"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Kategoriyi daralt"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "E-posta adresini değiştir"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "Geçerli e-posta"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "Yeni e-posta"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "E-posta: bu alan gerekli"
-
-#: user-recover.php:30 user-forgot_password.php:30
-msgid "Recover your password"
-msgstr "Şifrenizi yeniden edinin"
-
 #: user-recover.php:45
 msgid "Send me a new password"
 msgstr "Bana yeni bir parola gönder"
 
-#: user-profile.php:32 user-profile.php:37 functions.php:445
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Adres:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Konum:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Kullanıcı açıklaması"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "En son ilanlar"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "ör. PHP Programcısı"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Bir ilan yayınla"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "İlanınızı düzenleyin"
+
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "Bir arkadaşa gönder"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Arama sonuçları"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Arama sonuçları: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Kontrol Paneli"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%s kullanıcısının profili"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Hesap"
+
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "İlanlar"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "Uyarılar"
+
+#: functions.php:445 user-profile.php:32 user-profile.php:37
 msgid "Update account"
 msgstr "Hesabı güncelle"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "E-posta adresini değiştir"
+
+#: functions.php:447 functions.php:506 user-change_username.php:34
+#: user-change_username.php:39
+msgid "Change username"
+msgstr "Kullanıcı adını değiştir"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Şifre kurtarma"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Yeni bir hesap oluştur"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Herkese Açık Bilgiler"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Tema ayarları doğru olarak güncellendi"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Logo resmi doğru olarak yüklendi"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Bir hata oluştu, yeniden deneyin"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Logo resmi silindi"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Resim bulunamadı"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "Başlık için logo"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "Tema Ayarları"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Bütün kategoriler"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "Henüz herhangi bir uyarınız yok"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "Uyarı"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Bu işlem geri alınamaz. Devam etmek istediğinize emin misiniz?"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "Bu uyarıyı sil"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "En Son İlanlar"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Şu anda kullanılabilir liste yok"
+
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Liste"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Kılavuz"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Tüm listeleri görme"
 
 #: user-profile.php:52
 msgid "User type"
@@ -417,29 +587,74 @@ msgstr "Web Sitesi"
 msgid "Description"
 msgstr "Açıklama"
 
-#: main.php:38
-msgid "Latest Listings"
-msgstr "En Son İlanlar"
+#: user-profile.php:115 user-change_password.php:64 item-post.php:211
+#: user-change_email.php:59 user-change_username.php:102
+msgid "Update"
+msgstr "Güncelle"
 
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "Şu anda kullanılabilir liste yok"
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Geçerli parola"
 
-#: main.php:45 admin/settings.php:60 search.php:80
-msgid "List"
-msgstr "Liste"
+#: item-post.php:57
+msgid "General Information"
+msgstr "Genel Bilgi"
 
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Kılavuz"
+#: item-post.php:59
+msgid "Category"
+msgstr "Kategori"
 
-#: main.php:57
-msgid "See all listings"
-msgstr "Tüm listeleri görme"
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Bir kategori seç"
 
-#: admin/header.php:29 functions.php:666
-msgid "Header logo"
-msgstr "Başlık için logo"
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "Listeleme Konumu"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "Şehir Alanı"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "Satıcının bilgileri"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "Listeleme sayfasında e-postayı göster"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "Yayınlamak"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "Arkadaşının adı."
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "Arkadaşınızın e-posta adresi"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Konu (isteğe bağlı)"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Ücretsiz hesap açın"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Parolayı yinele"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "Şifreler aynı değil"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "Yaratmak"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -501,10 +716,6 @@ msgstr "Töre"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "Bağış Yap"
-
-#: admin/settings.php:46 functions.php:668
-msgid "Theme settings"
-msgstr "Tema Ayarları"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -614,246 +825,6 @@ msgstr "Bu reklam web sitenizin sağ kenar çubuğunda, ürün ayrıntıları sa
 msgid "Save changes"
 msgstr "Değişiklikleri kaydet"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Ücretsiz hesap açın"
-
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Parolayı yinele"
-
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "Şifreler aynı değil"
-
-#: user-register.php:73
-msgid "Create"
-msgstr "Yaratmak"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "İptal"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Önceki resim"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Sonraki resim"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "Kapat"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "ör. PHP Programcısı"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Bir ilan yayınla"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "İlanınızı düzenleyin"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Arama sonuçları"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Arama sonuçları: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Kontrol Paneli"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%s kullanıcısının profili"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "Hesap"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "E-posta adresini değiştir"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "Şifre değiştir"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Şifre kurtarma"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Yeni bir hesap oluştur"
-
-#: functions.php:453 footer.php:65 user-public-sidebar.php:26
-msgid "Contact"
-msgstr "İletişim"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Herkese Açık Bilgiler"
-
-#: functions.php:516 user-sidebar.php:28
-msgid "Delete account"
-msgstr "Hesabı sil"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Tema ayarları doğru olarak güncellendi"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Logo resmi doğru olarak yüklendi"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Bir hata oluştu, yeniden deneyin"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "Logo resmi silindi"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "Resim bulunamadı"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Bütün kategoriler"
-
-#: loop-single.php:48 loop-single-premium.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Bu işlem geri alınamaz. Devam etmek istediğinize emin misiniz?"
-
-#: loop-single.php:51 loop-single-premium.php:51
-msgid "Activate"
-msgstr "Aktifleştir"
-
-#: header.php:48 footer.php:35
-#, php-format
-msgid "Hi %s"
-msgstr "Merhaba %s"
-
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "Hesabım"
-
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "Çıkış yap"
-
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "Reklamınızı ücretsiz yayınlama"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "Bir kategori seç"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "Aramak"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Adres:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Konum:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "Kullanıcı açıklaması"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "En son ilanlar"
-
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "Üzgünüm ama aradığınız sayfayı bulamıyorum."
-
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "Size yardım edelim, onu bulmanız için birkaç ipucumuz var."
-
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>Arama</strong> :"
-
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>En popüler kategorilerde</strong> bakın."
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Görüntü menüsü"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Hesabınızı silmek istediğinizden emin misiniz?"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Bu web sitesi gururla Osclass</strong><strong><a title=\"Osclass web\" href=\"%s\">sınıflandırılmış komut dosyaları</a> yazılım kullanıyor"
-
-#: footer.php:74
-msgid "Language:"
-msgstr "Dil:"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "Genel Bilgi"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "Kategori"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "Listeleme Konumu"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "Şehir Alanı"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "Satıcının bilgileri"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "Listeleme sayfasında e-postayı göster"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "Yayınlamak"
-
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Yeni parola"
-
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Yeni parolayı yinele"
-
 #: user-items.php:41
 msgid "My listings"
 msgstr "İlanlarım"
@@ -861,6 +832,18 @@ msgstr "İlanlarım"
 #: user-items.php:43
 msgid "No listings have been added yet"
 msgstr "Henüz hiçbir liste eklenmedi"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Bize ulaşın"
+
+#: contact.php:47 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr "E-posta adresiniz"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Konu"
 
 #: search.php:55
 msgid "Selected"
@@ -896,19 +879,35 @@ msgstr "Öne çıkan ilanlar"
 msgid "Other searches that may interest you"
 msgstr "İlginizi çekebilecek diğer aramalar"
 
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
-msgstr "E-posta adresiniz"
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "E-posta adresini değiştir"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Geçerli parola"
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "Geçerli e-posta"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "Bize ulaşın"
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Yeni e-posta"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "Konu"
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "E-posta: bu alan gerekli"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Kullanıcı adı: doldurulması zorunlu"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Kullanıcı adı uygun"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Kullanıcı adı uygun DEĞiL"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Qullanıcı adı"
 
