@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-11-05 09:41+0000\n"
-"PO-Revision-Date: 2021-11-05 09:44\n"
+"POT-Creation-Date: 2023-04-03 10:27+0000\n"
+"PO-Revision-Date: 2023-04-03 10:34\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -16,65 +16,6 @@ msgstr ""
 "X-Crowdin-Language: ca\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
-
-#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "Avisos"
-
-#: user-alerts.php:39
-msgid "You do not have any alerts yet"
-msgstr "Encara no tens cap alerta"
-
-#: user-alerts.php:46
-msgid "Alert"
-msgstr "Alerta"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Aquesta acció no es pot desfer. Estàs segur de voler continuar?"
-
-#: user-alerts.php:46
-msgid "Delete this alert"
-msgstr "Suprimeix aquest avís"
-
-#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
-msgid "Listings"
-msgstr "Anuncis"
-
-#: item-send-friend.php:31 functions.php:436
-msgid "Send to a friend"
-msgstr "Envia-ho a un amic"
-
-#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
-#: user-public-sidebar.php:33 contact.php:40
-msgid "Your name"
-msgstr "El teu nom"
-
-#: item-send-friend.php:50 item.php:197
-msgid "Your e-mail"
-msgstr "El teu correu electrònic"
-
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "El nom del teu amic"
-
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "L'adreça electrònica del teu amic"
-
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Assignatura (opcional)"
-
-#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
-#: contact.php:60
-msgid "Message"
-msgstr "Missatge"
-
-#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
-#: user-public-sidebar.php:54 contact.php:68
-msgid "Send"
-msgstr "Enviar"
 
 #: item.php:59
 #, php-format
@@ -142,7 +83,7 @@ msgstr "per"
 msgid "Delete your comment"
 msgstr "Suprimir el comentari"
 
-#: item.php:165 common/head.php:25 loop-single.php:48
+#: item.php:165 loop-single.php:48 common/head.php:25
 #: loop-single-premium.php:48
 msgid "Delete"
 msgstr "Elimina"
@@ -150,6 +91,15 @@ msgstr "Elimina"
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "Deixa el teu comentari (se suprimiran els missatges de correu brossa i ofensius)"
+
+#: item.php:191 item-sidebar.php:85 item-send-friend.php:44 contact.php:40
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr "El teu nom"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "El teu correu electrònic"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -159,37 +109,147 @@ msgstr "Títol"
 msgid "Comment"
 msgstr "Comentari"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "Canvia el nom d'usuari"
+#: item.php:216 item-sidebar.php:113 item-send-friend.php:87 contact.php:68
+#: user-public-sidebar.php:54
+msgid "Send"
+msgstr "Enviar"
 
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Nom d'usuari: aquest camp és obligatori!"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "La teva cerca"
 
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "El nom d'usuari està disponible."
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Ciutat"
 
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "El nom d'usuari NO està disponible."
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Mostra només"
 
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Nom d'usuari"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "Llistats amb imatges"
 
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "Actualitza"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Preu"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Min"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Max"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Aplica"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Refina la categoria"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Aquesta acció no es pot desfer. Estàs segur de que vols continuar?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Activa"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Ho sento, però no trobo la pàgina que busques."
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "T'ajudem, tenim alguns consells perquè el trobis."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong></strong> de cerca:"
+
+#: 404.php:40 header.php:80
+msgid "Search"
+msgstr "Buscar"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong></strong> per a això en les categories més populars."
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Hola, %s"
+
+#: footer.php:36 header.php:49
+msgid "My account"
+msgstr "El meu compte"
+
+#: footer.php:37 header.php:50
+msgid "Logout"
+msgstr "Desconnexió"
+
+#: footer.php:40 item-sidebar.php:63 functions.php:449 header.php:53
+msgid "Login"
+msgstr "Accés"
+
+#: footer.php:43 user-login.php:58 item-sidebar.php:64 header.php:55
+msgid "Register for a free account"
+msgstr "Registra't en un compte gratuït"
+
+#: footer.php:50 header.php:60
+msgid "Publish your ad for free"
+msgstr "Publica l'anunci de forma gratuïta"
+
+#: footer.php:65 functions.php:453 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "Contacta"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Aquesta web funciona amb el software d'<a title=\"Osclass web\" href=\"%s\">anuncis classificats </a><strong>Osclass</strong>"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "Idioma:"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "He oblidat la contrasenya"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Contrasenya nova"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Repeteix la contrasenya nova"
+
+#: user-forgot_password.php:52 functions.php:448 functions.php:451
+#: functions.php:511 user-change_password.php:32 user-change_password.php:37
+msgid "Change password"
+msgstr "Canvia la contrasenya"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Menú Visualitza"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Elimina el compte"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Esteu segur que voleu suprimir el compte?"
 
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Accés al teu compte"
 
-#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
+#: user-login.php:38 user-recover.php:37 item-post.php:185 user-register.php:45
 msgid "E-mail"
 msgstr "Correu electrònic"
 
@@ -205,13 +265,25 @@ msgstr "Recorda't de mi"
 msgid "Log in"
 msgstr "Accedeix"
 
-#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "Registra't en un compte gratuït"
-
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "S'ha oblidat la contrasenya?"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Imatge previa"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Imatge següent"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Tancar"
 
 #: item-sidebar.php:30
 msgid "Mark as..."
@@ -253,12 +325,8 @@ msgstr "És la teva pròpia fitxa, no pots contactar amb l'editor."
 msgid "You must log in or register a new account in order to contact the advertiser"
 msgstr "Heu d'iniciar la sessió o registrar un compte nou per posar-vos en contacte amb l'anunciant."
 
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "Accés"
-
-#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
-#: item-post.php:179
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
 msgid "Name"
 msgstr "Nom"
 
@@ -285,9 +353,14 @@ msgstr "La teva adreça de correu electrònic"
 msgid "Phone number"
 msgstr "Número de telèfon"
 
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+#: item-sidebar.php:93 contact.php:41 contact.php:54 user-public-sidebar.php:41
 msgid "optional"
 msgstr "opcional"
+
+#: item-sidebar.php:98 item-send-friend.php:78 contact.php:60
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr "Missatge"
 
 #: item-sidebar.php:104
 msgid "Attachment"
@@ -317,69 +390,166 @@ msgstr "Subscriu-te a aquesta cerca"
 msgid "Subscribe now"
 msgstr "Subscriu-te ara"
 
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "La teva cerca"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "Ciutat"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Mostra només"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "Llistats amb imatges"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Preu"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Min"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Max"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Aplica"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Refina la categoria"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "Canvia el correu electrònic"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "Correu electrònic actual"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "Correu electrònic nou"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "Email: aquest camp és obligatori"
-
-#: user-recover.php:30 user-forgot_password.php:30
-msgid "Recover your password"
-msgstr "He oblidat la contrasenya"
-
 #: user-recover.php:45
 msgid "Send me a new password"
 msgstr "Envia'm una contrasenya nova"
 
-#: user-profile.php:32 user-profile.php:37 functions.php:445
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Adreça:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Ubicació:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Descripció de l'usuari"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "Últimes llistes"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "p.e. mòbil a Blanes"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Publica un anunci"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Edita el teu anunci"
+
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "Envia-ho a un amic"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Resultats de cerca"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Resultats de cerca: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Tauler"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "Perfil de %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Compte"
+
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "Anuncis"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "Avisos"
+
+#: functions.php:445 user-profile.php:32 user-profile.php:37
 msgid "Update account"
 msgstr "Actualitza el compte"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Canvia el correu electrònic"
+
+#: functions.php:447 functions.php:506 user-change_username.php:34
+#: user-change_username.php:39
+msgid "Change username"
+msgstr "Canvia el nom d'usuari"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Recupera la contrasenya"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Crea un compte nou"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Perfil públic"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Configuració del tema actualitzada correctament."
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "La imatge del logotip s'ha pujat correctament."
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Hi ha hagut un error, torna a intentar-ho."
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "S'ha esborrat la imatge del logotip."
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "No s'ha trobat la imatge."
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "Logotip de la capçalera"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "Configuració del tema"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Totes les categories"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "Encara no tens cap alerta"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "Alerta"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Aquesta acció no es pot desfer. Estàs segur de voler continuar?"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "Suprimeix aquest avís"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Últimes llistes"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "De moment no hi ha anuncis disponibles."
+
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Llista"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Sida"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Veure tots els llistats"
 
 #: user-profile.php:52
 msgid "User type"
@@ -417,29 +587,74 @@ msgstr "Lloc web"
 msgid "Description"
 msgstr "Descripció"
 
-#: main.php:38
-msgid "Latest Listings"
-msgstr "Últimes llistes"
+#: user-profile.php:115 user-change_password.php:64 item-post.php:211
+#: user-change_email.php:59 user-change_username.php:102
+msgid "Update"
+msgstr "Actualitza"
 
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "De moment no hi ha anuncis disponibles."
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Contrasenya actual"
 
-#: main.php:45 admin/settings.php:60 search.php:80
-msgid "List"
-msgstr "Llista"
+#: item-post.php:57
+msgid "General Information"
+msgstr "Informació general"
 
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Sida"
+#: item-post.php:59
+msgid "Category"
+msgstr "Categoria"
 
-#: main.php:57
-msgid "See all listings"
-msgstr "Veure tots els llistats"
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Selecciona una categoria"
 
-#: admin/header.php:29 functions.php:666
-msgid "Header logo"
-msgstr "Logotip de la capçalera"
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "Ubicació de la llista"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "Àrea de la ciutat"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "Informació del venedor"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "Mostra el correu electrònic a la pàgina de la llista"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "Publicar"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "El nom del teu amic"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "L'adreça electrònica del teu amic"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Assignatura (opcional)"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Registrar un compte de forma gratuïta"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Repeteix la contrasenya"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "Les contrasenyes no coincideixen."
+
+#: user-register.php:73
+msgid "Create"
+msgstr "Crear"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -501,10 +716,6 @@ msgstr "Costum"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "Dóna"
-
-#: admin/settings.php:46 functions.php:668
-msgid "Theme settings"
-msgstr "Configuració del tema"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -614,246 +825,6 @@ msgstr "Aquest anunci es mostrarà a la barra lateral dreta del vostre lloc web,
 msgid "Save changes"
 msgstr "Desa els canvis"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Registrar un compte de forma gratuïta"
-
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Repeteix la contrasenya"
-
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "Les contrasenyes no coincideixen."
-
-#: user-register.php:73
-msgid "Create"
-msgstr "Crear"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "Cancel·la"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Imatge previa"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Imatge següent"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "Tancar"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "p.e. mòbil a Blanes"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Publica un anunci"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "Edita el teu anunci"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Resultats de cerca"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Resultats de cerca: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Tauler"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "Perfil de %s"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "Compte"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "Canvia el correu electrònic"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "Canvia la contrasenya"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Recupera la contrasenya"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Crea un compte nou"
-
-#: functions.php:453 footer.php:65 user-public-sidebar.php:26
-msgid "Contact"
-msgstr "Contacta"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Perfil públic"
-
-#: functions.php:516 user-sidebar.php:28
-msgid "Delete account"
-msgstr "Elimina el compte"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Configuració del tema actualitzada correctament."
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "La imatge del logotip s'ha pujat correctament."
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Hi ha hagut un error, torna a intentar-ho."
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "S'ha esborrat la imatge del logotip."
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "No s'ha trobat la imatge."
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Totes les categories"
-
-#: loop-single.php:48 loop-single-premium.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Aquesta acció no es pot desfer. Estàs segur de que vols continuar?"
-
-#: loop-single.php:51 loop-single-premium.php:51
-msgid "Activate"
-msgstr "Activa"
-
-#: header.php:48 footer.php:35
-#, php-format
-msgid "Hi %s"
-msgstr "Hola, %s"
-
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "El meu compte"
-
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "Desconnexió"
-
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "Publica l'anunci de forma gratuïta"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "Selecciona una categoria"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "Buscar"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Adreça:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Ubicació:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "Descripció de l'usuari"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "Últimes llistes"
-
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "Ho sento, però no trobo la pàgina que busques."
-
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "T'ajudem, tenim alguns consells perquè el trobis."
-
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong></strong> de cerca:"
-
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong></strong> per a això en les categories més populars."
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Menú Visualitza"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Esteu segur que voleu suprimir el compte?"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Aquesta web funciona amb el software d'<a title=\"Osclass web\" href=\"%s\">anuncis classificats </a><strong>Osclass</strong>"
-
-#: footer.php:74
-msgid "Language:"
-msgstr "Idioma:"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "Informació general"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "Categoria"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "Ubicació de la llista"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "Àrea de la ciutat"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "Informació del venedor"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "Mostra el correu electrònic a la pàgina de la llista"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "Publicar"
-
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Contrasenya nova"
-
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Repeteix la contrasenya nova"
-
 #: user-items.php:41
 msgid "My listings"
 msgstr "Els meus anuncis"
@@ -861,6 +832,18 @@ msgstr "Els meus anuncis"
 #: user-items.php:43
 msgid "No listings have been added yet"
 msgstr "Encara no s'ha afegit cap llista"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Contacta amb nosaltres"
+
+#: contact.php:47 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr "La teva adreça de correu electrònic"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Tema"
 
 #: search.php:55
 msgid "Selected"
@@ -896,19 +879,35 @@ msgstr "Anuncis Premium"
 msgid "Other searches that may interest you"
 msgstr "Altres cerques que et poden interessar"
 
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
-msgstr "La teva adreça de correu electrònic"
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "Canvia el correu electrònic"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Contrasenya actual"
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "Correu electrònic actual"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "Contacta amb nosaltres"
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Correu electrònic nou"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "Tema"
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "Email: aquest camp és obligatori"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Nom d'usuari: aquest camp és obligatori!"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "El nom d'usuari està disponible."
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "El nom d'usuari NO està disponible."
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Nom d'usuari"
 

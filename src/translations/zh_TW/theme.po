@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-11-05 09:41+0000\n"
-"PO-Revision-Date: 2021-11-05 09:46\n"
+"POT-Creation-Date: 2023-04-03 10:27+0000\n"
+"PO-Revision-Date: 2023-04-03 10:35\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -16,65 +16,6 @@ msgstr ""
 "X-Crowdin-Language: zh-TW\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
-
-#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "通知"
-
-#: user-alerts.php:39
-msgid "You do not have any alerts yet"
-msgstr "您還沒有任何警報"
-
-#: user-alerts.php:46
-msgid "Alert"
-msgstr "通知"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "這項操作無法停止，您確定要繼續？"
-
-#: user-alerts.php:46
-msgid "Delete this alert"
-msgstr "刪除此警報"
-
-#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
-msgid "Listings"
-msgstr "廣告清單"
-
-#: item-send-friend.php:31 functions.php:436
-msgid "Send to a friend"
-msgstr "傳送給一位朋友"
-
-#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
-#: user-public-sidebar.php:33 contact.php:40
-msgid "Your name"
-msgstr "您的姓名"
-
-#: item-send-friend.php:50 item.php:197
-msgid "Your e-mail"
-msgstr "您的電子郵件"
-
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "你朋友的名字"
-
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "您朋友的電子郵件位址"
-
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "主題（選擇）"
-
-#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
-#: contact.php:60
-msgid "Message"
-msgstr "消息"
-
-#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
-#: user-public-sidebar.php:54 contact.php:68
-msgid "Send"
-msgstr "發送"
 
 #: item.php:59
 #, php-format
@@ -142,7 +83,7 @@ msgstr "由"
 msgid "Delete your comment"
 msgstr "刪除您的評論"
 
-#: item.php:165 common/head.php:25 loop-single.php:48
+#: item.php:165 loop-single.php:48 common/head.php:25
 #: loop-single-premium.php:48
 msgid "Delete"
 msgstr "刪除"
@@ -150,6 +91,15 @@ msgstr "刪除"
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "留下您的評論（垃圾郵件和冒犯性訊息將被刪除）"
+
+#: item.php:191 item-sidebar.php:85 item-send-friend.php:44 contact.php:40
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr "您的姓名"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "您的電子郵件"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -159,37 +109,147 @@ msgstr "標題"
 msgid "Comment"
 msgstr "線上留言"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "變更使用者名稱"
+#: item.php:216 item-sidebar.php:113 item-send-friend.php:87 contact.php:68
+#: user-public-sidebar.php:54
+msgid "Send"
+msgstr "發送"
 
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "使用者名稱：這是必填欄位"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "您的搜索"
 
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "這個使用者名稱是可以使用的"
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "城市"
 
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "這個使用者名稱是不可以使用的"
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "僅顯示"
 
-#: user-change_username.php:94
-msgid "Username"
-msgstr "使用者名稱"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "清單與圖片"
 
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "更新"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "價格"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "最小"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "麥克斯"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "套用"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "精煉類別"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "這項操作無法停止，您確定要繼續？"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "啟用"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "對不起， 我找不到你要找的頁面"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "讓我們説明你，我們有一些提示，讓你找到它。"
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>搜尋</strong> ："
+
+#: 404.php:40 header.php:80
+msgid "Search"
+msgstr "搜索"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>在最流行的類別中尋找</strong> 。"
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "您好 %s"
+
+#: footer.php:36 header.php:49
+msgid "My account"
+msgstr "我的帳戶"
+
+#: footer.php:37 header.php:50
+msgid "Logout"
+msgstr "登出"
+
+#: footer.php:40 item-sidebar.php:63 functions.php:449 header.php:53
+msgid "Login"
+msgstr "登入"
+
+#: footer.php:43 user-login.php:58 item-sidebar.php:64 header.php:55
+msgid "Register for a free account"
+msgstr "註冊免費帳戶"
+
+#: footer.php:50 header.php:60
+msgid "Publish your ad for free"
+msgstr "免費發佈廣告"
+
+#: footer.php:65 functions.php:453 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "連絡我們"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "這個網站驕傲的使用 <a title=\"Osclass web\" href=\"%s\"> 開發的 </a><strong>Osclass</strong>軟體"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "語言:"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "找回您的密碼"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "新密碼"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "重複新密碼"
+
+#: user-forgot_password.php:52 functions.php:448 functions.php:451
+#: functions.php:511 user-change_password.php:32 user-change_password.php:37
+msgid "Change password"
+msgstr "變更密碼"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "顯示功能表"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "刪除帳號"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "您確定要刪除您的帳戶嗎？"
 
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "訪問您的帳戶"
 
-#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
+#: user-login.php:38 user-recover.php:37 item-post.php:185 user-register.php:45
 msgid "E-mail"
 msgstr "電子郵件"
 
@@ -205,13 +265,25 @@ msgstr "記住我"
 msgid "Log in"
 msgstr "登入"
 
-#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "註冊免費帳戶"
-
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "忘了密碼？"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "取消"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "上一個圖片"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "下一個圖片"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "關閉"
 
 #: item-sidebar.php:30
 msgid "Mark as..."
@@ -253,12 +325,8 @@ msgstr "這是你自己的清單，你不能聯繫出版商。"
 msgid "You must log in or register a new account in order to contact the advertiser"
 msgstr "您必須登錄或註冊新帳戶才能聯繫廣告客戶"
 
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "登入"
-
-#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
-#: item-post.php:179
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
 msgid "Name"
 msgstr "名稱"
 
@@ -285,9 +353,14 @@ msgstr "您的電子郵件位址"
 msgid "Phone number"
 msgstr "電話號碼"
 
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+#: item-sidebar.php:93 contact.php:41 contact.php:54 user-public-sidebar.php:41
 msgid "optional"
 msgstr "自選"
+
+#: item-sidebar.php:98 item-send-friend.php:78 contact.php:60
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr "消息"
 
 #: item-sidebar.php:104
 msgid "Attachment"
@@ -317,69 +390,166 @@ msgstr "訂閱此搜索"
 msgid "Subscribe now"
 msgstr "立即訂閱"
 
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "您的搜索"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "城市"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "僅顯示"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "清單與圖片"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "價格"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "最小"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "麥克斯"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "套用"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "精煉類別"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "變更電子郵件"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "當前電子郵件"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "新電子郵件"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "電子郵件：這個欄位必填"
-
-#: user-recover.php:30 user-forgot_password.php:30
-msgid "Recover your password"
-msgstr "找回您的密碼"
-
 #: user-recover.php:45
 msgid "Send me a new password"
 msgstr "給我發個新密碼"
 
-#: user-profile.php:32 user-profile.php:37 functions.php:445
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>地址：</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>位置：</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "使用者描述"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "最新清單"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "例如：行銷專家"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "發佈一個廣告"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "編輯您的廣告清單"
+
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "傳送給一位朋友"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "搜尋結果"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "搜尋結果：%s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "儀表板"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "%s 的個人資料"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "帳號"
+
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "廣告清單"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "通知"
+
+#: functions.php:445 user-profile.php:32 user-profile.php:37
 msgid "Update account"
 msgstr "更新帳號"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "變更電子郵件"
+
+#: functions.php:447 functions.php:506 user-change_username.php:34
+#: user-change_username.php:39
+msgid "Change username"
+msgstr "變更使用者名稱"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "移除密碼"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "建立一個新的帳號"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "公開個人資料"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "佈景主題設定已更新"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "這個 Logo 圖片已經上傳"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "發生錯誤，請再試一次"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "這個 Logo 圖片已經移除"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "找不到圖片"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "頁首 Logo"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "佈景主題設定"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "所有分類"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "您還沒有任何警報"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "通知"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "這項操作無法停止，您確定要繼續？"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "刪除此警報"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "最新清單"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "目前沒有可用清單"
+
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "清單"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "網 格"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "查看所有清單"
 
 #: user-profile.php:52
 msgid "User type"
@@ -417,29 +587,74 @@ msgstr "網站"
 msgid "Description"
 msgstr "說明"
 
-#: main.php:38
-msgid "Latest Listings"
-msgstr "最新清單"
+#: user-profile.php:115 user-change_password.php:64 item-post.php:211
+#: user-change_email.php:59 user-change_username.php:102
+msgid "Update"
+msgstr "更新"
 
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "目前沒有可用清單"
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "當前密碼"
 
-#: main.php:45 admin/settings.php:60 search.php:80
-msgid "List"
-msgstr "清單"
+#: item-post.php:57
+msgid "General Information"
+msgstr "一般資訊"
 
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "網 格"
+#: item-post.php:59
+msgid "Category"
+msgstr "分類"
 
-#: main.php:57
-msgid "See all listings"
-msgstr "查看所有清單"
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "選取一個分類"
 
-#: admin/header.php:29 functions.php:666
-msgid "Header logo"
-msgstr "頁首 Logo"
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "清單位置"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "城區"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "賣方資訊"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "在清單頁面上顯示電子郵件"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "發佈"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "你朋友的名字"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "您朋友的電子郵件位址"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "主題（選擇）"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "免費註冊帳戶"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "重複密碼"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "密碼不相符"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "創造"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -501,10 +716,6 @@ msgstr "習慣"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "贊助"
-
-#: admin/settings.php:46 functions.php:668
-msgid "Theme settings"
-msgstr "佈景主題設定"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -614,246 +825,6 @@ msgstr "此廣告將在您的網站右側欄，產品詳細信息頁面上顯示
 msgid "Save changes"
 msgstr "儲存變更"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "免費註冊帳戶"
-
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "重複密碼"
-
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "密碼不相符"
-
-#: user-register.php:73
-msgid "Create"
-msgstr "創造"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "取消"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "上一個圖片"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "下一個圖片"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "關閉"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "例如：行銷專家"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "發佈一個廣告"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "編輯您的廣告清單"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "搜尋結果"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "搜尋結果：%s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "儀表板"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%s 的個人資料"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "帳號"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "變更電子郵件"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "變更密碼"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "移除密碼"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "建立一個新的帳號"
-
-#: functions.php:453 footer.php:65 user-public-sidebar.php:26
-msgid "Contact"
-msgstr "連絡我們"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "公開個人資料"
-
-#: functions.php:516 user-sidebar.php:28
-msgid "Delete account"
-msgstr "刪除帳號"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "佈景主題設定已更新"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "這個 Logo 圖片已經上傳"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "發生錯誤，請再試一次"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "這個 Logo 圖片已經移除"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "找不到圖片"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "所有分類"
-
-#: loop-single.php:48 loop-single-premium.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "這項操作無法停止，您確定要繼續？"
-
-#: loop-single.php:51 loop-single-premium.php:51
-msgid "Activate"
-msgstr "啟用"
-
-#: header.php:48 footer.php:35
-#, php-format
-msgid "Hi %s"
-msgstr "您好 %s"
-
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "我的帳戶"
-
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "登出"
-
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "免費發佈廣告"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "選取一個分類"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "搜索"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>地址：</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>位置：</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "使用者描述"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "最新清單"
-
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "對不起， 我找不到你要找的頁面"
-
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "讓我們説明你，我們有一些提示，讓你找到它。"
-
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>搜尋</strong> ："
-
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>在最流行的類別中尋找</strong> 。"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "顯示功能表"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "您確定要刪除您的帳戶嗎？"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "這個網站驕傲的使用 <a title=\"Osclass web\" href=\"%s\"> 開發的 </a><strong>Osclass</strong>軟體"
-
-#: footer.php:74
-msgid "Language:"
-msgstr "語言:"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "一般資訊"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "分類"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "清單位置"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "城區"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "賣方資訊"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "在清單頁面上顯示電子郵件"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "發佈"
-
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "新密碼"
-
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "重複新密碼"
-
 #: user-items.php:41
 msgid "My listings"
 msgstr "我的清單"
@@ -861,6 +832,18 @@ msgstr "我的清單"
 #: user-items.php:43
 msgid "No listings have been added yet"
 msgstr "尚未添加清單"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "聯繫我們"
+
+#: contact.php:47 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr "您的電子郵件位址"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "主題"
 
 #: search.php:55
 msgid "Selected"
@@ -896,19 +879,35 @@ msgstr "需付費的廣告"
 msgid "Other searches that may interest you"
 msgstr "可能感興趣的其他搜索"
 
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
-msgstr "您的電子郵件位址"
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "變更電子郵件"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "當前密碼"
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "當前電子郵件"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "聯繫我們"
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "新電子郵件"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "主題"
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "電子郵件：這個欄位必填"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "使用者名稱：這是必填欄位"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "這個使用者名稱是可以使用的"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "這個使用者名稱是不可以使用的"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "使用者名稱"
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-11-05 09:41+0000\n"
-"PO-Revision-Date: 2021-11-05 09:46\n"
+"POT-Creation-Date: 2023-04-03 10:27+0000\n"
+"PO-Revision-Date: 2023-04-03 10:35\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -16,65 +16,6 @@ msgstr ""
 "X-Crowdin-Language: th\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
-
-#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "การแจ้งเตือน"
-
-#: user-alerts.php:39
-msgid "You do not have any alerts yet"
-msgstr "คุณยังไม่มีการแจ้งเตือนใดๆ"
-
-#: user-alerts.php:46
-msgid "Alert"
-msgstr "แจ้งเตือน"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "การกระทำนี้ไม่สามารถยกเลิกได้ คุณแน่ใจหรือไม่ ว่าต้องการดำเนินการต่อ"
-
-#: user-alerts.php:46
-msgid "Delete this alert"
-msgstr "ลบการแจ้งเตือนนี้"
-
-#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
-msgid "Listings"
-msgstr "ลิสต์รายการ"
-
-#: item-send-friend.php:31 functions.php:436
-msgid "Send to a friend"
-msgstr "ส่งให้เพื่อน"
-
-#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
-#: user-public-sidebar.php:33 contact.php:40
-msgid "Your name"
-msgstr "ชื่อของเธอ"
-
-#: item-send-friend.php:50 item.php:197
-msgid "Your e-mail"
-msgstr "อีเมลของคุณ"
-
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "ชื่อเพื่อนของคุณ"
-
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "ที่อยู่อีเมลของเพื่อนคุณ"
-
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "เรื่อง (ไม่บังคับ)"
-
-#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
-#: contact.php:60
-msgid "Message"
-msgstr "ข้อความ"
-
-#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
-#: user-public-sidebar.php:54 contact.php:68
-msgid "Send"
-msgstr "ส่ง"
 
 #: item.php:59
 #, php-format
@@ -142,7 +83,7 @@ msgstr "โดย"
 msgid "Delete your comment"
 msgstr "ลบความคิดเห็นของคุณ"
 
-#: item.php:165 common/head.php:25 loop-single.php:48
+#: item.php:165 loop-single.php:48 common/head.php:25
 #: loop-single-premium.php:48
 msgid "Delete"
 msgstr "ลบ"
@@ -150,6 +91,15 @@ msgstr "ลบ"
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "แสดงความคิดเห็นของคุณ (สแปมและข้อความที่ไม่เหมาะสมจะถูกลบออก)"
+
+#: item.php:191 item-sidebar.php:85 item-send-friend.php:44 contact.php:40
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr "ชื่อของเธอ"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "อีเมลของคุณ"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -159,37 +109,147 @@ msgstr "ชื่อประกาศ"
 msgid "Comment"
 msgstr "ความคิดเห็น"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "เปลี่ยนชื่อผู้ใช้งาน"
+#: item.php:216 item-sidebar.php:113 item-send-friend.php:87 contact.php:68
+#: user-public-sidebar.php:54
+msgid "Send"
+msgstr "ส่ง"
 
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "ชื่อผู้ใช้ : ฟิลล์นี้จำเป็น"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "การค้นหาของคุณ"
 
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "ชื่อผู้ใช้นี้สามารถใช้งานได้"
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "เมือง"
 
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "ชื่อผู้ใช้นี้ไม่สามารถใช้งานได้"
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "แสดงอย่างเดียว"
 
-#: user-change_username.php:94
-msgid "Username"
-msgstr "ชื่อผู้ใช้"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "รายการที่มีรูปภาพ"
 
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "ปรัปปรุง"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "ราคา"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "นาที"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "สูง สุด"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "ใช้"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "คัดสรรประเภท"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "การกระทำนี้ไม่สามารถย้อนกลับได้ คุณแน่ใจหรือไม่ทำจะดำเนินการต่อ"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "เปิดการใช้งาน"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "ขออภัย แต่ฉันไม่พบหน้าที่คุณกําลังค้นหา"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "ให้เราช่วยคุณเรามีเคล็ดลับสําหรับคุณในการค้นหา"
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "</strong> การค้นหา<strong>:"
+
+#: 404.php:40 header.php:80
+msgid "Search"
+msgstr "ค้น"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>ดู</strong> ในหมวดหมู่ยอดนิยม"
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "สวัสดี %s"
+
+#: footer.php:36 header.php:49
+msgid "My account"
+msgstr "บัญชีของฉัน"
+
+#: footer.php:37 header.php:50
+msgid "Logout"
+msgstr "ออกจากระบบ"
+
+#: footer.php:40 item-sidebar.php:63 functions.php:449 header.php:53
+msgid "Login"
+msgstr "เข้าสู่ระบบ"
+
+#: footer.php:43 user-login.php:58 item-sidebar.php:64 header.php:55
+msgid "Register for a free account"
+msgstr "ลงทะเบียนบัญชีฟรี"
+
+#: footer.php:50 header.php:60
+msgid "Publish your ad for free"
+msgstr "เผยแพร่โฆษณาของคุณฟรี"
+
+#: footer.php:65 functions.php:453 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "ติดต่อ"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "เว็บไซต์นี้ภูมิใจที่ใช้สคริปต์จําแนกประเภท <a title=\"Osclass web\" href=\"%s\"></a> ซอฟต์แวร์ <strong>Osclass</strong>"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "ภาษา:"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "กู้คืนรหัสผ่านของคุณ"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "รหัสผ่านใหม่"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "ทําซ้ํารหัสผ่านใหม่"
+
+#: user-forgot_password.php:52 functions.php:448 functions.php:451
+#: functions.php:511 user-change_password.php:32 user-change_password.php:37
+msgid "Change password"
+msgstr "เปลี่ยนรหัสผ่าน"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "แสดงเมนู"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "ลบบัญชีผู้ใช้งาน"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการลบบัญชีผู้ใช้ของคุณ"
 
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "เข้าถึงบัญชีของคุณ"
 
-#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
+#: user-login.php:38 user-recover.php:37 item-post.php:185 user-register.php:45
 msgid "E-mail"
 msgstr "อีเมล์"
 
@@ -205,13 +265,25 @@ msgstr "จดจําฉันไว้"
 msgid "Log in"
 msgstr "เข้าสู่ระบบ"
 
-#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "ลงทะเบียนบัญชีฟรี"
-
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "ลืมรหัสผ่าน?"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "รูปก่อนหน้า"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "รูปถัดไป"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "ปิด"
 
 #: item-sidebar.php:30
 msgid "Mark as..."
@@ -253,12 +325,8 @@ msgstr "เป็นรายการของคุณเอง คุณไ�
 msgid "You must log in or register a new account in order to contact the advertiser"
 msgstr "คุณต้องเข้าสู่ระบบหรือลงทะเบียนบัญชีใหม่เพื่อติดต่อผู้ลงโฆษณา"
 
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "เข้าสู่ระบบ"
-
-#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
-#: item-post.php:179
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
 msgid "Name"
 msgstr "ชื่อ"
 
@@ -285,9 +353,14 @@ msgstr "ที่อยู่อีเมลของคุณ"
 msgid "Phone number"
 msgstr "หมายเลขโทรศัพท์"
 
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+#: item-sidebar.php:93 contact.php:41 contact.php:54 user-public-sidebar.php:41
 msgid "optional"
 msgstr "เสริม"
+
+#: item-sidebar.php:98 item-send-friend.php:78 contact.php:60
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr "ข้อความ"
 
 #: item-sidebar.php:104
 msgid "Attachment"
@@ -317,69 +390,166 @@ msgstr "สมัครสมาชิกการค้นหานี้"
 msgid "Subscribe now"
 msgstr "สมัครสมาชิกตอนนี้"
 
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "การค้นหาของคุณ"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "เมือง"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "แสดงอย่างเดียว"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "รายการที่มีรูปภาพ"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "ราคา"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "นาที"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "สูง สุด"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "ใช้"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "คัดสรรประเภท"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "เปลี่ยนอีเมลล์"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "อีเมลปัจจุบัน"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "อีเมลใหม่"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "อีเมลล์: ต้องมีข้อมูล"
-
-#: user-recover.php:30 user-forgot_password.php:30
-msgid "Recover your password"
-msgstr "กู้คืนรหัสผ่านของคุณ"
-
 #: user-recover.php:45
 msgid "Send me a new password"
 msgstr "ส่งรหัสผ่านใหม่มาให้ฉัน"
 
-#: user-profile.php:32 user-profile.php:37 functions.php:445
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>ที่อยู่:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>ที่ตั้ง:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "คําอธิบายผู้ใช้"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "รายการล่าสุด"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "ยกตัวอย่างเช่น. นักบัญชี"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "เผยแพร่รายการ"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "แก้ไขรายการของคุณ"
+
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "ส่งให้เพื่อน"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "ผลลัพธ์การค้นหา"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "ผลลัพธ์การค้นหา : %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "แดชบอร์ด"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "โปรไฟล์ของ %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "บัญชี"
+
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "ลิสต์รายการ"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "การแจ้งเตือน"
+
+#: functions.php:445 user-profile.php:32 user-profile.php:37
 msgid "Update account"
 msgstr "อัพเดตบัญชี"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "เปลี่ยนอีเมลล์"
+
+#: functions.php:447 functions.php:506 user-change_username.php:34
+#: user-change_username.php:39
+msgid "Change username"
+msgstr "เปลี่ยนชื่อผู้ใช้งาน"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "กู้คืนรหัสผ่าน"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "สร้างบัญชีใหม่"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "โปรไฟล์สาธารณะ"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "ธีมนี้ได้รับการอัพเดตแล้ว"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "โลโก้ได้ทำการอัพโหลดแล้ว"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "มีข้อผิดพลาด เกิดขึ้น กรุณาลองใหม่อีกครั้ง"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "โลโก้ได้ถูกลบแล้ว"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "ไม่เจอรูปภาพนี้"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "โลโก้ส่วนหัว"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "การตั้งค่าธีม"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "หมาวดหมู่ทั้งหมด"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "คุณยังไม่มีการแจ้งเตือนใดๆ"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "แจ้งเตือน"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "การกระทำนี้ไม่สามารถยกเลิกได้ คุณแน่ใจหรือไม่ ว่าต้องการดำเนินการต่อ"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "ลบการแจ้งเตือนนี้"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "รายการล่าสุด"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "ไม่มีรายชื่อในขณะนี้"
+
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "รายการ"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "ตาราง"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "ดูรายการทั้งหมด"
 
 #: user-profile.php:52
 msgid "User type"
@@ -417,29 +587,74 @@ msgstr "เว็บไซต์"
 msgid "Description"
 msgstr "รายละเอียด"
 
-#: main.php:38
-msgid "Latest Listings"
-msgstr "รายการล่าสุด"
+#: user-profile.php:115 user-change_password.php:64 item-post.php:211
+#: user-change_email.php:59 user-change_username.php:102
+msgid "Update"
+msgstr "ปรัปปรุง"
 
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "ไม่มีรายชื่อในขณะนี้"
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "รหัสผ่านปัจจุบัน"
 
-#: main.php:45 admin/settings.php:60 search.php:80
-msgid "List"
-msgstr "รายการ"
+#: item-post.php:57
+msgid "General Information"
+msgstr "ข้อมูลทั่วไป"
 
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "ตาราง"
+#: item-post.php:59
+msgid "Category"
+msgstr "หมวดหมู่"
 
-#: main.php:57
-msgid "See all listings"
-msgstr "ดูรายการทั้งหมด"
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "เลือกหมวดหมู่"
 
-#: admin/header.php:29 functions.php:666
-msgid "Header logo"
-msgstr "โลโก้ส่วนหัว"
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "ตําแหน่งที่ตั้งการแสดงรายการ"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "เขตเมือง"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "ข้อมูลผู้ขาย"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "แสดงอีเมลบนเพจการแสดงรายการ"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "ตีพิมพ์"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "ชื่อเพื่อนของคุณ"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "ที่อยู่อีเมลของเพื่อนคุณ"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "เรื่อง (ไม่บังคับ)"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "ลงทะเบียนบัญชีฟรี"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "ใส่รหัสผ่านซ้ําอีกครั้ง"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "รหัสผ่านที่ไม่ตรงกัน"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "สร้าง"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -501,10 +716,6 @@ msgstr "ธรรมเนียม"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "บริจาค"
-
-#: admin/settings.php:46 functions.php:668
-msgid "Theme settings"
-msgstr "การตั้งค่าธีม"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -614,246 +825,6 @@ msgstr "โฆษณานี้จะแสดงที่แถบด้าน
 msgid "Save changes"
 msgstr "บันทึกการเปลี่ยนแปลง"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "ลงทะเบียนบัญชีฟรี"
-
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "ใส่รหัสผ่านซ้ําอีกครั้ง"
-
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "รหัสผ่านที่ไม่ตรงกัน"
-
-#: user-register.php:73
-msgid "Create"
-msgstr "สร้าง"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "ยกเลิก"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "รูปก่อนหน้า"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "รูปถัดไป"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "ปิด"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "ยกตัวอย่างเช่น. นักบัญชี"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "เผยแพร่รายการ"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "แก้ไขรายการของคุณ"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "ผลลัพธ์การค้นหา"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "ผลลัพธ์การค้นหา : %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "แดชบอร์ด"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "โปรไฟล์ของ %s"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "บัญชี"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "เปลี่ยนอีเมลล์"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "เปลี่ยนรหัสผ่าน"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "กู้คืนรหัสผ่าน"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "สร้างบัญชีใหม่"
-
-#: functions.php:453 footer.php:65 user-public-sidebar.php:26
-msgid "Contact"
-msgstr "ติดต่อ"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "โปรไฟล์สาธารณะ"
-
-#: functions.php:516 user-sidebar.php:28
-msgid "Delete account"
-msgstr "ลบบัญชีผู้ใช้งาน"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "ธีมนี้ได้รับการอัพเดตแล้ว"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "โลโก้ได้ทำการอัพโหลดแล้ว"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "มีข้อผิดพลาด เกิดขึ้น กรุณาลองใหม่อีกครั้ง"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "โลโก้ได้ถูกลบแล้ว"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "ไม่เจอรูปภาพนี้"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "หมาวดหมู่ทั้งหมด"
-
-#: loop-single.php:48 loop-single-premium.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "การกระทำนี้ไม่สามารถย้อนกลับได้ คุณแน่ใจหรือไม่ทำจะดำเนินการต่อ"
-
-#: loop-single.php:51 loop-single-premium.php:51
-msgid "Activate"
-msgstr "เปิดการใช้งาน"
-
-#: header.php:48 footer.php:35
-#, php-format
-msgid "Hi %s"
-msgstr "สวัสดี %s"
-
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "บัญชีของฉัน"
-
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "ออกจากระบบ"
-
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "เผยแพร่โฆษณาของคุณฟรี"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "เลือกหมวดหมู่"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "ค้น"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>ที่อยู่:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>ที่ตั้ง:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "คําอธิบายผู้ใช้"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "รายการล่าสุด"
-
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "ขออภัย แต่ฉันไม่พบหน้าที่คุณกําลังค้นหา"
-
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "ให้เราช่วยคุณเรามีเคล็ดลับสําหรับคุณในการค้นหา"
-
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "</strong> การค้นหา<strong>:"
-
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>ดู</strong> ในหมวดหมู่ยอดนิยม"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "แสดงเมนู"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการลบบัญชีผู้ใช้ของคุณ"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "เว็บไซต์นี้ภูมิใจที่ใช้สคริปต์จําแนกประเภท <a title=\"Osclass web\" href=\"%s\"></a> ซอฟต์แวร์ <strong>Osclass</strong>"
-
-#: footer.php:74
-msgid "Language:"
-msgstr "ภาษา:"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "ข้อมูลทั่วไป"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "หมวดหมู่"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "ตําแหน่งที่ตั้งการแสดงรายการ"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "เขตเมือง"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "ข้อมูลผู้ขาย"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "แสดงอีเมลบนเพจการแสดงรายการ"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "ตีพิมพ์"
-
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "รหัสผ่านใหม่"
-
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "ทําซ้ํารหัสผ่านใหม่"
-
 #: user-items.php:41
 msgid "My listings"
 msgstr "รายการของฉัน"
@@ -861,6 +832,18 @@ msgstr "รายการของฉัน"
 #: user-items.php:43
 msgid "No listings have been added yet"
 msgstr "ยังไม่มีการเพิ่มรายการ"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "ติดต่อเรา"
+
+#: contact.php:47 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr "ที่อยู่อีเมลของคุณ"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "ชื่อเรื่อง"
 
 #: search.php:55
 msgid "Selected"
@@ -896,19 +879,35 @@ msgstr "รายชื่อพรีเมี่ยม"
 msgid "Other searches that may interest you"
 msgstr "การค้นหาอื่นๆ ที่คุณอาจสนใจ"
 
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
-msgstr "ที่อยู่อีเมลของคุณ"
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "เปลี่ยนอีเมลล์"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "รหัสผ่านปัจจุบัน"
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "อีเมลปัจจุบัน"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "ติดต่อเรา"
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "อีเมลใหม่"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "ชื่อเรื่อง"
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "อีเมลล์: ต้องมีข้อมูล"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "ชื่อผู้ใช้ : ฟิลล์นี้จำเป็น"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "ชื่อผู้ใช้นี้สามารถใช้งานได้"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "ชื่อผู้ใช้นี้ไม่สามารถใช้งานได้"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "ชื่อผู้ใช้"
 

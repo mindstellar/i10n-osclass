@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-11-05 09:41+0000\n"
-"PO-Revision-Date: 2021-11-05 10:54\n"
+"POT-Creation-Date: 2023-04-03 10:27+0000\n"
+"PO-Revision-Date: 2023-04-03 10:34\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -17,29 +17,86 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/messages.pot\n"
 "X-Crowdin-File-ID: 8223\n"
 
-#: oc-includes/osclass/emails.php:861
-msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
-msgstr "Ti è stata inviata una mail. Seguire le istruzioni per validare i cambiamenti."
+#: oc-includes/osclass/classes/controller/CWebContact.php:57
+#: oc-includes/osclass/classes/controller/CWebItem.php:147
+#: oc-includes/osclass/classes/controller/CWebItem.php:272
+#: oc-includes/osclass/classes/controller/CWebItem.php:476
+#: oc-includes/osclass/classes/controller/CWebItem.php:535
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
+msgid "The Recaptcha code is wrong"
+msgstr "Il codice Recaptcha è sbagliato"
 
-#: oc-includes/osclass/emails.php:864
-msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
-msgstr "Abbiamo tentato di mandarti una mail, ma l'operazione non è riuscita. Contattare l'amministratore."
+#: oc-includes/osclass/classes/controller/CWebContact.php:69
+#: oc-includes/osclass/classes/controller/CWebContact.php:81
+#: oc-includes/osclass/classes/controller/CWebRegister.php:72
+#: oc-includes/osclass/classes/controller/CWebLogin.php:111
+#: oc-includes/osclass/classes/controller/CWebItem.php:167
+#: oc-includes/osclass/classes/controller/CWebItem.php:550
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
+msgid "Your current email is not allowed"
+msgstr "Indirizzo di posta elettronica non è consentito"
 
-#: oc-includes/osclass/emails.php:1122
-msgid "There has been some errors sending the message"
-msgstr "Errori durante l'invio del messaggio"
+#: oc-includes/osclass/classes/controller/CWebContact.php:72
+#: oc-includes/osclass/classes/controller/CWebRegister.php:75
+#: oc-includes/osclass/classes/controller/CWebLogin.php:114
+#: oc-includes/osclass/classes/controller/CWebItem.php:170
+#: oc-includes/osclass/classes/controller/CWebItem.php:553
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
+msgid "Your current IP is not allowed"
+msgstr "L'IP corrente non è consentito"
 
+#: oc-includes/osclass/classes/controller/CWebContact.php:86
+msgid "Please enter a correct email"
+msgstr "Inserire un indirizzo di posta elettronica corretto"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:168
+#: oc-includes/osclass/classes/actions/ItemActions.php:329
+msgid "The file you tried to upload does not have a valid extension"
+msgstr "Il file che si sta cercando di caricare non ha un'estensione valida"
+
+#: oc-includes/osclass/classes/controller/CWebContact.php:182
+msgid "Your email has been sent properly. Thank you for contacting us!"
+msgstr "Il messaggio di posta è stato inviato correttamente. Grazie per averci contattato!"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:40
 #: oc-includes/osclass/classes/controller/CWebLogin.php:39
 #: oc-includes/osclass/classes/controller/CWebUser.php:39
-#: oc-includes/osclass/classes/controller/CWebRegister.php:40
 #: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
 msgid "Users not enabled"
 msgstr "Utente non abilitato"
 
-#: oc-includes/osclass/classes/controller/CWebLogin.php:51
+#: oc-includes/osclass/classes/controller/CWebRegister.php:45
+msgid "User registration is not enabled"
+msgstr "La registrazione utenti è disabilitata"
+
 #: oc-includes/osclass/classes/controller/CWebRegister.php:64
+#: oc-includes/osclass/classes/controller/CWebLogin.php:51
 msgid "Users are not enabled"
 msgstr "Gli utenti non sono abilitati"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:82
+msgid "The user has been created. An activation email has been sent"
+msgstr "L'utente è stato creato. E' stata inviata una e-mail di attivazione"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:85
+msgid "Your account has been created successfully"
+msgstr "Il tuo account è stato creato"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:103
+msgid "The link is not valid anymore. Sorry for the inconvenience!"
+msgstr "Il link non è più valido. Ci scusiamo per l'incoveniente"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:108
+msgid "Your account has already been validated"
+msgstr "Il tuo account è già stato convalidato"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:129
+msgid "Your account has been validated"
+msgstr "Il tuo account è stato convalidato"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:131
+msgid "Account validation failed"
+msgstr "Convalida account non riuscita"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:62
 msgid "Please provide an email address"
@@ -58,25 +115,6 @@ msgstr "Utente inesistente"
 #: oc-includes/osclass/classes/controller/CWebLogin.php:104
 msgid "The password is incorrect"
 msgstr "Password incorretta"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:111
-#: oc-includes/osclass/classes/controller/CWebRegister.php:72
-#: oc-includes/osclass/classes/controller/CWebContact.php:69
-#: oc-includes/osclass/classes/controller/CWebContact.php:81
-#: oc-includes/osclass/classes/controller/CWebItem.php:167
-#: oc-includes/osclass/classes/controller/CWebItem.php:550
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
-msgid "Your current email is not allowed"
-msgstr "Indirizzo di posta elettronica non è consentito"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:114
-#: oc-includes/osclass/classes/controller/CWebRegister.php:75
-#: oc-includes/osclass/classes/controller/CWebContact.php:72
-#: oc-includes/osclass/classes/controller/CWebItem.php:170
-#: oc-includes/osclass/classes/controller/CWebItem.php:553
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
-msgid "Your current IP is not allowed"
-msgstr "L'IP corrente non è consentito"
 
 #: oc-includes/osclass/classes/controller/CWebLogin.php:161
 #, php-format
@@ -256,56 +294,6 @@ msgstr "Il tuo account è stato eliminato"
 msgid "Oops! you can not do that"
 msgstr "Ops! Non è possibile farlo"
 
-#: oc-includes/osclass/classes/controller/CWebRegister.php:45
-msgid "User registration is not enabled"
-msgstr "La registrazione utenti è disabilitata"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:82
-msgid "The user has been created. An activation email has been sent"
-msgstr "L'utente è stato creato. E' stata inviata una e-mail di attivazione"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:85
-msgid "Your account has been created successfully"
-msgstr "Il tuo account è stato creato"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:103
-msgid "The link is not valid anymore. Sorry for the inconvenience!"
-msgstr "Il link non è più valido. Ci scusiamo per l'incoveniente"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:108
-msgid "Your account has already been validated"
-msgstr "Il tuo account è già stato convalidato"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:129
-msgid "Your account has been validated"
-msgstr "Il tuo account è stato convalidato"
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:131
-msgid "Account validation failed"
-msgstr "Convalida account non riuscita"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:57
-#: oc-includes/osclass/classes/controller/CWebItem.php:147
-#: oc-includes/osclass/classes/controller/CWebItem.php:272
-#: oc-includes/osclass/classes/controller/CWebItem.php:476
-#: oc-includes/osclass/classes/controller/CWebItem.php:535
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
-msgid "The Recaptcha code is wrong"
-msgstr "Il codice Recaptcha è sbagliato"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:86
-msgid "Please enter a correct email"
-msgstr "Inserire un indirizzo di posta elettronica corretto"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:168
-#: oc-includes/osclass/classes/actions/ItemActions.php:329
-msgid "The file you tried to upload does not have a valid extension"
-msgstr "Il file che si sta cercando di caricare non ha un'estensione valida"
-
-#: oc-includes/osclass/classes/controller/CWebContact.php:182
-msgid "Your email has been sent properly. Thank you for contacting us!"
-msgstr "Il messaggio di posta è stato inviato correttamente. Grazie per averci contattato!"
-
 #: oc-includes/osclass/classes/controller/CWebItem.php:72
 #: oc-includes/osclass/classes/controller/CWebItem.php:140
 msgid "Only registered users are allowed to post listings"
@@ -453,166 +441,18 @@ msgstr "L' annuncio non è stato abilitato. Abilitatlo per poterlo rendere pubbl
 msgid "The listing has been blocked or is awaiting moderation from the admin"
 msgstr "L'elenco è stato bloccato o è in attesa di moderazione dall'amministratore"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:663
-msgid "This action cannot be done because it is a demo site"
-msgstr "Questa azione non può essere fatta perché è un sito dimostrativo"
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
+msgid "You don't have enough permissions"
+msgstr "Non hai le autorizzazioni"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
-msgid "Import complete"
-msgstr "Importazione completata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
-msgid "There was a problem importing data to the database"
-msgstr "Dei problemi sono occorsi importando i dati dal database"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
-msgid "No file was uploaded"
-msgstr "Nessun file caricato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
-msgid "Recount category stats has been successful"
-msgstr "La categoria di riconto statisticha ha avuto successo"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
-msgid "Path is empty"
-msgstr "Il percorso è vuoto"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
-msgid "Could not connect with the database"
-msgstr "Impossibile connettersi al database"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
-msgid "There are no tables to back up"
-msgstr "Non vi sono tabelle da salvare"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
-msgid "The folder is not writable"
-msgstr "La cartella non è scrivibile"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
-msgid "Backup completed successfully"
-msgstr "Backup completato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
-#, php-format
-msgid "Could not connect with the database. Error: %s"
-msgstr "Connessione non possibile col database. Errore: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
-#, php-format
-msgid "Could not select the database. Error: %s"
-msgstr "Database non selezionabile. Errore: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
-msgid "Archived successfully!"
-msgstr "Archiviazione completata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
-msgid "Error, the zip file was not created in the specified directory"
-msgstr "Errore: il file compresso non è stato creato nella directory specificata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
-msgid "Maintenance mode is ON"
-msgstr "Modo manutenzione è ON"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
-msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
-msgstr "Errore durante la creazione del file .maintenance. Creare manualmente il file nella cartella principale"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
-msgid "Maintenance mode is OFF"
-msgstr "Il modo manutenzione è OFF"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
-msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
-msgstr "Si è verificato un errore nel rimuovere il file .maintenance. Rimuoverlo manualmente dalla cartella principale"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
-msgid "You have to set an internal name"
-msgstr "È necessario impostare un nome interno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
-msgid "You have to set a different internal name"
-msgstr "Hai impostato un nome interno diverso"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
-msgid "The page has been updated"
-msgstr "La pagina è stata aggiornata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
-msgid "You can't repeat internal name"
-msgstr "Non puoi ripetere il nome interno"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
-msgid "The page couldn't be updated, at least one title should not be empty"
-msgstr "La pagina non ha potuto essere aggiornata, almeno un titolo non può essere vuoto"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
-msgid "The page has been added"
-msgstr "La pagina è stata aggiunta"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
-msgid "The page couldn't be added, at least one title should not be empty"
-msgstr "La pagina non ha potuto essere aggiunta, almeno un titolo non può essere vuoto"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
-msgid "Oops! That internal name is already in use. We can't make the changes"
-msgstr "Oops! Il nome è già in uso. Non possiamo effettuare la modifica"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
-msgid "One page can't be deleted because it is indelible"
-msgstr "Una pagina non può essere eliminata perché è indelebile"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
-#, php-format
-msgid "%s pages couldn't be deleted because they are indelible"
-msgstr "%s la pagine non possono essere eliminate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
-msgid "One page couldn't be deleted"
-msgstr "Una pagina non può essere cancellata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
-#, php-format
-msgid "%s pages couldn't be deleted"
-msgstr "%s pagine non possono essere cancellate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
-msgid "One page has been deleted correctly"
-msgstr "Una pagina è stata cancellata correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
-#, php-format
-msgid "%s pages have been deleted correctly"
-msgstr "%s pagine sono state cancellate correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
 #: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
 #: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
 #: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
@@ -622,7 +462,6 @@ msgstr "%s pagine sono state cancellate correttamente"
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
@@ -633,8 +472,89 @@ msgstr "%s pagine sono state cancellate correttamente"
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
 msgid "This action can't be done because it's a demo site"
 msgstr "Impossibile eseguire l'azione perché è un sito demo"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
+msgid "Email invalid"
+msgstr "E-mail non valida"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
+msgid "Username invalid"
+msgstr "Utente non valido"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
+msgid "Name invalid"
+msgstr "Nome non valido"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
+msgid "Password invalid"
+msgstr "Password non valida"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
+msgid "Email already in use"
+msgstr "E-mail già in uso"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
+msgid "Username already in use"
+msgstr "Nome utente già in uso"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
+msgid "Incorrent current password"
+msgstr "Password attuale"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
+msgid "The admin has been added"
+msgstr "E' stato aggiunto un amministratore"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
+msgid "There has been an error adding a new admin"
+msgstr "Si è verificato un errore durante l'aggiunta di un nuovo admin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
+msgid "There is no admin with this id"
+msgstr "Nessun admin con questo ID"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
+msgid "This admin doesn't exist"
+msgstr " L'admin non esiste"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
+msgid "Existing email"
+msgstr "E-mail esistente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
+msgid "Existing username"
+msgstr "Username esistente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
+msgid "The password couldn't be updated. Passwords don't match"
+msgstr "La password non può essere cambiata. Le password non coincidono"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
+msgid "The admin has been updated"
+msgstr "L'amministratore è stato modificato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
+msgid "The admin id isn't in the correct format"
+msgstr "L'id admin non è nel formato corretto"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
+msgid "The operation hasn't been completed. You're trying to remove yourself!"
+msgstr "L'operazione non è stata completata. Stai cercando di rimuovere te stesso!"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
+msgid "The admin has been deleted correctly"
+msgstr "L'amministratore è stato eliminato correttamente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
+msgid "The admin couldn't be deleted"
+msgstr "L'amministratore non può essere cancellato"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
 msgid "The translation folder is not writable"
@@ -653,6 +573,13 @@ msgstr "File caricato ma non in grado di attivare la lingua"
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
 msgid "The zip file is not valid"
 msgstr "Il file zip non è valido"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
+msgid "No file was uploaded"
+msgstr "Nessun file caricato"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
@@ -762,35 +689,67 @@ msgstr "Impossibile eliminare directory '%s'"
 msgid "There was a problem importing email templates"
 msgstr "Si è verificato un problema durante l'importazione dei modelli di email"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
-msgid "The username field is empty"
-msgstr "Il campo username è vuoto"
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
+msgid "You have to set an internal name"
+msgstr "È necessario impostare un nome interno"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
-msgid "The password field is empty"
-msgstr "Il campo password è vuoto"
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
+msgid "You have to set a different internal name"
+msgstr "Hai impostato un nome interno diverso"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
+msgid "The page has been updated"
+msgstr "La pagina è stata aggiornata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
+msgid "You can't repeat internal name"
+msgstr "Non puoi ripetere il nome interno"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
+msgid "The page couldn't be updated, at least one title should not be empty"
+msgstr "La pagina non ha potuto essere aggiornata, almeno un titolo non può essere vuoto"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
+msgid "The page has been added"
+msgstr "La pagina è stata aggiunta"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
+msgid "The page couldn't be added, at least one title should not be empty"
+msgstr "La pagina non ha potuto essere aggiunta, almeno un titolo non può essere vuoto"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
+msgid "Oops! That internal name is already in use. We can't make the changes"
+msgstr "Oops! Il nome è già in uso. Non possiamo effettuare la modifica"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
+msgid "One page can't be deleted because it is indelible"
+msgstr "Una pagina non può essere eliminata perché è indelebile"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
 #, php-format
-msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Spiacenti, username non corretto. <a href=\\\"%s\\\">Hai perso la tua password? </a>"
+msgid "%s pages couldn't be deleted because they are indelible"
+msgstr "%s la pagine non possono essere eliminate"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
+msgid "One page couldn't be deleted"
+msgstr "Una pagina non può essere cancellata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
 #, php-format
-msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
-msgstr "Spiacenti, password non corretta. <a href=\\\"%s\\\">Hai perso la tua password? </a>"
+msgid "%s pages couldn't be deleted"
+msgstr "%s pagine non possono essere cancellate"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
-msgid "The reCAPTCHA code is wrong"
-msgstr "Il codice reCAPTCHA è sbagliato"
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
+msgid "One page has been deleted correctly"
+msgstr "Una pagina è stata cancellata correttamente"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
-msgid "A new password has been sent to your e-mail"
-msgstr "Una nuova password è stata inviata alla tua e-mail"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
-msgid "Error, the passwords don't match"
-msgstr "Errore, le password non coincidono"
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
+#, php-format
+msgid "%s pages have been deleted correctly"
+msgstr "%s pagine sono state cancellate correttamente"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
 msgid "The comments have been deleted"
@@ -840,92 +799,6 @@ msgstr "Commento obbligatorio"
 msgid "Great! We just updated your comment"
 msgstr "Grande! Abbiamo appena aggiornato il tuo commento"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
-msgid "You don't have enough permissions"
-msgstr "Non hai le autorizzazioni"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
-msgid "Email invalid"
-msgstr "E-mail non valida"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
-msgid "Username invalid"
-msgstr "Utente non valido"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
-msgid "Name invalid"
-msgstr "Nome non valido"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
-msgid "Password invalid"
-msgstr "Password non valida"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
-msgid "Email already in use"
-msgstr "E-mail già in uso"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
-msgid "Username already in use"
-msgstr "Nome utente già in uso"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
-msgid "Incorrent current password"
-msgstr "Password attuale"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
-msgid "The admin has been added"
-msgstr "E' stato aggiunto un amministratore"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
-msgid "There has been an error adding a new admin"
-msgstr "Si è verificato un errore durante l'aggiunta di un nuovo admin"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
-msgid "There is no admin with this id"
-msgstr "Nessun admin con questo ID"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
-msgid "This admin doesn't exist"
-msgstr " L'admin non esiste"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
-msgid "Existing email"
-msgstr "E-mail esistente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
-msgid "Existing username"
-msgstr "Username esistente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
-msgid "The password couldn't be updated. Passwords don't match"
-msgstr "La password non può essere cambiata. Le password non coincidono"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
-msgid "The admin has been updated"
-msgstr "L'amministratore è stato modificato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
-msgid "The admin id isn't in the correct format"
-msgstr "L'id admin non è nel formato corretto"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
-msgid "The operation hasn't been completed. You're trying to remove yourself!"
-msgstr "L'operazione non è stata completata. Stai cercando di rimuovere te stesso!"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
-msgid "The admin has been deleted correctly"
-msgstr "L'amministratore è stato eliminato correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
-msgid "The admin couldn't be deleted"
-msgstr "L'amministratore non può essere cancellato"
-
 #: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
 msgid "You have very few free space left, users will not be able to upload pictures"
 msgstr "Spazio insufficiente.  Gli utenti non possono caricare immagini"
@@ -946,621 +819,54 @@ msgstr "Iscrizione avvenuta con successo"
 msgid "Error subscribing"
 msgstr "Errore durante l'iscrizione"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
-msgid "The user has been created. We've sent an activation e-mail"
-msgstr "L'utente è stato creato. Abbiamo inviato una chiave di attivazione via e-mail"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
-msgid "The user has been created successfully"
-msgstr "L'utente è stato creato correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:164
-msgid "The user has been updated"
-msgstr "L'utente è stato aggiornato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:166
-msgid "The user has been updated and activated"
-msgstr "L'utente è stato aggiornato e attivato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:180
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:206
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:233
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:259
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:285
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:310
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:629
-msgid "User id isn't in the correct format"
-msgstr "Id Utente non nel formato corretto"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:190
-msgid "No users have been selected"
-msgstr "Nessun utente selezionato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:193
-#, php-format
-msgid "Activation email sent to one user"
-msgid_plural "Activation email sent to %s users"
-msgstr[0] "Email di attivazione inviata a un utente"
-msgstr[1] "Email di attivazione inviata agli utenti %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:216
-msgid "No users have been activated"
-msgstr "Nessun utente attivo"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:219
-#, php-format
-msgid "One user has been activated"
-msgid_plural "%s users have been activated"
-msgstr[0] "È stato attivato un utente"
-msgstr[1] "%s utenti sono stati attivati"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:243
-msgid "No users have been deactivated"
-msgstr "Nessun utente disattivo"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:246
-#, php-format
-msgid "One user has been deactivated"
-msgid_plural "%s users have been deactivated"
-msgstr[0] "Un utente è stato disattivato"
-msgstr[1] "%s utenti sono stati disattivati"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:269
-msgid "No users have been enabled"
-msgstr "Nessun utente abilitato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:272
-#, php-format
-msgid "One user has been unblocked"
-msgid_plural "%s users have been unblocked"
-msgstr[0] "Un utente è stato sbloccato"
-msgstr[1] "%s utenti sono stati sbloccati"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:295
-msgid "No users have been disabled"
-msgstr "Nessun utente disabilitato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:298
-#, php-format
-msgid "One user has been blocked"
-msgid_plural "%s users have been blocked"
-msgstr[0] "Un utente è stato bloccato"
-msgstr[1] "%s utenti sono stati bloccati"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:324
-msgid "No users have been deleted"
-msgstr "Nessun utente eliminato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:327
-#, php-format
-msgid "One user has been deleted"
-msgid_plural "%s users have been deleted"
-msgstr[0] "Un utente è stato eliminato"
-msgstr[1] "%s utenti sono stati eliminati"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:337
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:373
-msgid "Alert id isn't in the correct format"
-msgstr "L'ID avviso non è nel formato corretto"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:353
-msgid "No alerts have been deleted"
-msgstr "Nessun avviso eliminato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:356
-#, php-format
-msgid "One alert has been deleted"
-msgid_plural "%s alerts have been deleted"
-msgstr[0] "Un avviso è stato eliminato"
-msgstr[1] "%s avvisi sono stati eliminati"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:394
-msgid "No alerts have been activated"
-msgstr "Nessun avviso attivo"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:397
-#, php-format
-msgid "One alert has been activated"
-msgid_plural "%s alerts have been activated"
-msgstr[0] "È stato attivato un avviso"
-msgstr[1] "%s avvisi sono stati attivati"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
-msgid "No alerts have been deactivated"
-msgstr "Nessun avviso disattivato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:406
-#, php-format
-msgid "One alert has been deactivated"
-msgid_plural "%s alerts have been deactivated"
-msgstr[0] "Un avviso è stato disattivato"
-msgstr[1] "%s avvisi sono stati disattivati"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:446
-msgid "User settings have been updated"
-msgstr "Le configurazioni utente sono state aggiornate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:592
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:611
-msgid "Both rules can not be empty"
-msgstr "Entrambe regole non possono essere vuote"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:601
-msgid "Rule updated correctly"
-msgstr "Regola aggiornata in modo corretto"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:620
-msgid "Rule saved correctly"
-msgstr "Regola salvata in modo corretto"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:641
-msgid "No rules have been deleted"
-msgstr "Nessuna regola eliminata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:644
-#, php-format
-msgid "One ban rule has been deleted"
-msgid_plural "%s ban rules have been deleted"
-msgstr[0] "Una regola di divieto è stata eliminata"
-msgstr[1] "%s regole di divieto sono state eliminate"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:667
-#, php-format
-msgid "Logged in as %s successfully"
-msgstr "Accesso effettuato con successo come %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
-msgid "The email/alert has been updated"
-msgstr "La e-mail/notifica è stata aggiornata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
-msgid "The email couldn't be updated, at least one title should not be empty"
-msgstr "L 'e-mail non ha potuto essere aggiornata,  almeno un titolo non deve  essere vuoto"
-
 #: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
 #: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
 msgid "Resource deleted"
 msgstr "Risorsa eliminata"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
-msgid "The theme folder is not writable"
-msgstr "La cartella del tema non è scrivibile"
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:690
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
+msgid "This action cannot be done because it is a demo site"
+msgstr "Questa azione non può essere fatta perché è un sito dimostrativo"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
-msgid "The theme has been installed correctly"
-msgstr "Il tema  è stato installato correttamente"
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
+msgid "The username field is empty"
+msgstr "Il campo username è vuoto"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
-msgid "There was a problem adding the theme"
-msgstr "C'è un problema nell'aggiungere il tema"
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:74
+msgid "The password field is empty"
+msgstr "Il campo password è vuoto"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
-msgid "Theme removed successfully"
-msgstr "Tema rimosso"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
-msgid "There was a problem removing the theme"
-msgstr "Errore durante la rimozione del tema"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
-msgid "Current theme can not be deleted"
-msgstr "Il tema corrente non può essere eliminato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
-msgid "No theme selected"
-msgstr "Nessun tema selezionato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
-msgid "Widget removed correctly"
-msgstr "Widget rimosso correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
-msgid "Description field is required"
-msgstr "Descrizione obbligatoria"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
-msgid "Widget updated correctly"
-msgstr "Elemento aggiornato correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
-msgid "Widget cannot be updated correctly"
-msgstr "L'elemento non può essere aggiornato correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
-msgid "Widget added correctly"
-msgstr "Widget aggiunto correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
-msgid "Theme activated correctly"
-msgstr "Tema attivato correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
-msgid "The plugin folder is not writable"
-msgstr "La cartella dei plugins non è scrivibile"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
-msgid "The plugin has been uploaded correctly"
-msgstr "Il plugin è stato caricato correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
-msgid "There was a problem adding the plugin"
-msgstr "È insorto un problema aggiungendo il plugin"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:83
 #, php-format
-msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr "Il plugin generato %d caratteri di<strong> uscita inaspettata</strong> durante l'installazione. produzione: \"%s\""
+msgid "Sorry, incorrect username. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "Spiacenti, username non corretto. <a href=\\\"%s\\\">Hai perso la tua password? </a>"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
-msgid "Plugin is already installed"
-msgstr "Plugin già installata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
-msgid "Plugin couldn't be installed because their files are missing"
-msgstr "La Plugin non può essere installata perché i suoi file sono mancanti"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:91
 #, php-format
-msgid "Plugin couldn't be installed because of: %s"
-msgstr "La Plugin non può essere installata per il seguente motivo: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
-msgid "Plugin couldn't be installed"
-msgstr "Il Plugin non può essere installato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
-msgid "Plugin installed"
-msgstr "Il plugin è stato installato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
-msgid "Plugin uninstalled"
-msgstr "Plugin disinstallato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
-msgid "Plugin couldn't be uninstalled"
-msgstr "Il Plugin non può essere disinstallato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
-msgid "Plugin enabled"
-msgstr "Plugin abilitato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
-msgid "Plugin is already enabled"
-msgstr "Il Plugin è già attivato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
-msgid "Plugin disabled"
-msgstr "Plugin disabilitato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
-msgid "Plugin is already disabled"
-msgstr "Il Plugin è già disattivato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
-msgid "Configuration was saved"
-msgstr "La Configurazione è stata salvata"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
-msgid "No plugin selected"
-msgstr "Nessun plugin selezionato"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
-msgid "The files were deleted"
-msgstr "I file sono stati eliminati"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
-#, php-format
-msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr "Si è verificato un errore durante l'eliminazione dei file, si prega di controllare i permessi dei file in %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
-msgid "Invalid plugin file"
-msgstr "File plugin non valido"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
-msgid "Custom number could not be left empty"
-msgstr "il numero personalizzato non può essere lasciato vuoto"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
-msgid "Last search settings have been updated"
-msgstr "Gli Impostazioni di ricerca ultimi sono stati aggiornati"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
-msgid "All fields are required."
-msgstr "Tutti i campi sono obbligatori"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:644
-#, php-format
-msgid "One field was not updated"
-msgid_plural "%s fields were not updated"
-msgstr[0] "Un campo non è stato aggiornato"
-msgstr[1] "%s campi non sono stati aggiornati"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
-msgid "Permalinks structure updated"
-msgstr "Struttura Permalinks aggiornata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
-msgid "Permalinks structure updated."
-msgstr "Struttura Permalinks aggiornata."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
-msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
-msgstr "Tuttavia, non è possibile verificare se il modulo Apache<b> mod_rewrite  </b> è stato caricato. Se si verificano dei problemi con gli URL, è necessario disattivare <em> Friendly URL </em>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
-msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
-msgstr "Impossibile compilare file <b>.htaccess</b> con il contenuto corretto."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Questo è il contenuto da aggiungere al file <b>.htaccess</b>. Se è impossibile creare il file, disattivare l'opzione <em>Friendly URLs</em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Questo è il contenuto da aggiungere al file <b>.htaccess</b>. Se è impossibile creare il file o si verificano errori con le URL, disattivare l'opzione <em>Friendly URLs</em>. "
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
-msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr "Il File <b>.htaccess</b> esiste già e non è stato modificato"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Ecco il contenuto che devi aggiungere alla <b>.htaccess</b> file. Se non è possibile modificare il file o sperimentare alcuni problemi con gli URL, si prega di disattivare l'opzione <em>Url amichevole</em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
-msgid "Friendly URLs successfully deactivated"
-msgstr "Friendly URLs sono state disattivate"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
-msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr "L'URL amichevole é  disattivata​​, ma .htaccess non potevano essere cancellato. Per favore, rimuoverlo manualmente"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
-msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr "L'URL amichevole é disattivata​​, ma .htaccess è stato modificato al di fuori Osclass e non è stato cancellato"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
-msgid "Advanced settings have been updated"
-msgstr " Le Impostazioni avanzate sono state aggiornate"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
-msgid "Cache flushed correctly"
-msgstr "Cache sciacquata correttamente"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
-msgid "The currency code is not in the correct format"
-msgstr "Il codice Valuta non è nel formato corretto"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
-msgid "Currency added"
-msgstr "Valuta aggiunta"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
-msgid "Currency couldn't be added"
-msgstr "La Valuta non può essere aggiunta"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
-#, php-format
-msgid "The currency code '%s' doesn't exist"
-msgstr "Il codice Valuta '%s' non esiste"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
-msgid "Error: the currency code is not in the correct format"
-msgstr "Errore: il codice valuta non è nel formato corretto"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
-msgid "Currency updated"
-msgstr "Valuta modificata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
-msgid "No changes were made"
-msgstr "Nessuna modifica effettuata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
-#, php-format
-msgid "%s couldn't be deleted because it has listings associated to it"
-msgstr "Impossibile eliminare %s perché ha degli annunci associati"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
-#, php-format
-msgid "%s couldn't be deleted because it's the default currency"
-msgstr "Impossibile eliminare %s perché è la valuta predefinita"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
-msgid "No currencies have been deleted"
-msgstr "Nessuna valuta è stata eliminata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
-msgid "One currency has been deleted"
-msgstr "Una valuta è stata eliminata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
-#, php-format
-msgid "%s currencies have been deleted"
-msgstr "%s valute sono state eliminate"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
-msgid "Number of moderate comments must only contain numeric characters"
-msgstr "Il numero dei commenti moderati deve contenere solo caratteri numerici"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
-msgid "Comments per page must only contain numeric characters"
-msgstr "I commenti per pagina devono contenere solo caratteri numerici"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
-msgid "Comment settings have been updated"
-msgstr "Impostazione commenti aggiornata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
-msgid "Your Akismet key has been cleared"
-msgstr "La Chiave Akismet è stata pulita"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
-msgid "Your Akismet key has been updated"
-msgstr "La Chiave Akismet è stata aggiornata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
-msgid "Your reCAPTCHA key has been cleared"
-msgstr "La Chiave reCAPTCHA è stata pulita"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
-msgid "Your reCAPTCHA key has been updated"
-msgstr "La Chiave reCAPTCHA è stata aggiornata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
-msgid "There was a problem uploading the watermark image"
-msgstr "Si è verificato un problema durante il caricamento dell'immagine della filigrana"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
-msgid "The watermark image has to be a .PNG file"
-msgstr "L'immagine filigrana deve essere un file .PNG"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
-#, php-format
-msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
-msgstr "Non è possibile impostare una dimensione massima superiore a quello consentito nella configurazione di PHP: <b>%d KB </b>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
-msgid "Media config has been updated"
-msgstr "La configurazione media è stata aggiornata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
-msgid "Re-generation complete"
-msgstr "Ri-generazione completa"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
-msgid "Last check"
-msgstr "Ultima verifica"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
-msgid "Page title field is required"
-msgstr "Il campo titolo della pagina è necessario"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
-msgid "Contact email field is required"
-msgstr "Il campo email di contatto è richiesto"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
-msgid "Number of listings in the RSS has to be a numeric value"
-msgstr "Il numero di annunci nell'RSS deve essere un valore numerico"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
-msgid "Max latest listings has to be a numeric value"
-msgstr "Il numero massimo di annunci più recenti deve essere un valore numerico"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
-msgid "Number of listings on search has to be a numeric value"
-msgstr "Il numero di annunci cercati deve essere un valore numerico"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
-msgid "Number of listings in the RSS must be an integer"
-msgstr "Il numero di annunci nell'RSS deve essere un numero intero"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
-msgid "Number of recent listings displayed at home must be an integer"
-msgstr "Il numero degli annunci recenti visualizzati nella Home deve essere un numero intero"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
-msgid "General settings have been updated"
-msgstr "Le impostazioni generali sono state aggiornate"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
-msgid "Mail server type is incorrect"
-msgstr "Il server mail non è corretto"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
-msgid "Mail server configuration has changed"
-msgstr "La configurazione del server mail è stata cambiata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
-#, php-format
-msgid "%s already was in the database"
-msgstr "%s  era già nel database"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
-#, php-format
-msgid "%s has been added as a new country"
-msgstr "%s è stato aggiunto come nuovo Paese"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
-msgid "Country name cannot be blank"
-msgstr "Il campo del nome del Paese non può essere vuoto."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
-msgid "Country has been edited"
-msgstr "La nazione è stata eliminata."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
-msgid "There were some problems editing the country"
-msgstr "Ci sono stati problemi nella modifica della nazione."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
-msgid "There was a problem deleting locations"
-msgstr "Errore nell'eliminazione dei percorsi."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
-msgid "No country was selected"
-msgstr "Nessun Paese selezionato"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
-msgid "Region name cannot be blank"
-msgstr "Il campo del nome della regione non può essere vuoto"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
-#, php-format
-msgid "%s has been added as a new region"
-msgstr "%s è stato aggiunto come una nuova Regione"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
-#, php-format
-msgid "%s has been edited"
-msgstr "%s è stato aggiornato"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
-msgid "No region was selected"
-msgstr "Nessuna regione selezionata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
-msgid "New city name cannot be blank"
-msgstr "Campo con nuovo nome di città non può essere vuoto"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
-#, php-format
-msgid "%s has been added as a new city"
-msgstr "%s è stata aggiunta come una nuova città"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
-msgid "City name cannot be blank"
-msgstr "Campo nome città non può essere vuoto"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
-msgid "No city was selected"
-msgstr "Nessuna città selezionata"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
-msgid "Location imported successfully"
-msgstr "Posizione importata con successo"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
-msgid "There was a problem importing the selected location"
-msgstr "Si è verificato un problema durante l'importazione della posizione selezionata"
+msgid "Sorry, incorrect password. <a href=\"%s\">Have you lost your password?</a>"
+msgstr "Spiacenti, password non corretta. <a href=\\\"%s\\\">Hai perso la tua password? </a>"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:165
+msgid "The reCAPTCHA code is wrong"
+msgstr "Il codice reCAPTCHA è sbagliato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:183
+msgid "A new password has been sent to your e-mail"
+msgstr "Una nuova password è stata inviata alla tua e-mail"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
+msgid "Error, the passwords don't match"
+msgstr "Errore, le password non coincidono"
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:80
 #, php-format
@@ -1748,9 +1054,687 @@ msgstr "La lunghezza della descrizione deve essere un valore numerico."
 msgid "Listings' settings have been updated"
 msgstr "Le impostazioni degli annuci sono state aggiornate"
 
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
-msgid "Thank you very much for your donation"
-msgstr "Ti rigraziamo per la tua donazione"
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
+msgid "The theme folder is not writable"
+msgstr "La cartella del tema non è scrivibile"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
+msgid "The theme has been installed correctly"
+msgstr "Il tema  è stato installato correttamente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
+msgid "There was a problem adding the theme"
+msgstr "C'è un problema nell'aggiungere il tema"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
+msgid "Theme removed successfully"
+msgstr "Tema rimosso"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
+msgid "There was a problem removing the theme"
+msgstr "Errore durante la rimozione del tema"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
+msgid "Current theme can not be deleted"
+msgstr "Il tema corrente non può essere eliminato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
+msgid "No theme selected"
+msgstr "Nessun tema selezionato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
+msgid "Widget removed correctly"
+msgstr "Widget rimosso correttamente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
+msgid "Description field is required"
+msgstr "Descrizione obbligatoria"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
+msgid "Widget updated correctly"
+msgstr "Elemento aggiornato correttamente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
+msgid "Widget cannot be updated correctly"
+msgstr "L'elemento non può essere aggiornato correttamente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
+msgid "Widget added correctly"
+msgstr "Widget aggiunto correttamente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
+msgid "Theme activated correctly"
+msgstr "Tema attivato correttamente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
+msgid "The plugin folder is not writable"
+msgstr "La cartella dei plugins non è scrivibile"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
+msgid "The plugin has been uploaded correctly"
+msgstr "Il plugin è stato caricato correttamente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
+msgid "There was a problem adding the plugin"
+msgstr "È insorto un problema aggiungendo il plugin"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
+#, php-format
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
+msgstr "Il plugin generato %d caratteri di<strong> uscita inaspettata</strong> durante l'installazione. produzione: \"%s\""
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
+msgid "Plugin is already installed"
+msgstr "Plugin già installata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
+msgid "Plugin couldn't be installed because their files are missing"
+msgstr "La Plugin non può essere installata perché i suoi file sono mancanti"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
+#, php-format
+msgid "Plugin couldn't be installed because of: %s"
+msgstr "La Plugin non può essere installata per il seguente motivo: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
+msgid "Plugin couldn't be installed"
+msgstr "Il Plugin non può essere installato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
+msgid "Plugin installed"
+msgstr "Il plugin è stato installato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
+msgid "Plugin uninstalled"
+msgstr "Plugin disinstallato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
+msgid "Plugin couldn't be uninstalled"
+msgstr "Il Plugin non può essere disinstallato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
+msgid "Plugin enabled"
+msgstr "Plugin abilitato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
+msgid "Plugin is already enabled"
+msgstr "Il Plugin è già attivato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
+msgid "Plugin disabled"
+msgstr "Plugin disabilitato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
+msgid "Plugin is already disabled"
+msgstr "Il Plugin è già disattivato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
+msgid "Configuration was saved"
+msgstr "La Configurazione è stata salvata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
+msgid "No plugin selected"
+msgstr "Nessun plugin selezionato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
+msgid "The files were deleted"
+msgstr "I file sono stati eliminati"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
+#, php-format
+msgid "There were an error deleting the files, please check the permissions of the files in %s"
+msgstr "Si è verificato un errore durante l'eliminazione dei file, si prega di controllare i permessi dei file in %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
+msgid "Invalid plugin file"
+msgstr "File plugin non valido"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
+msgid "Import complete"
+msgstr "Importazione completata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
+msgid "There was a problem importing data to the database"
+msgstr "Dei problemi sono occorsi importando i dati dal database"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
+msgid "Recount category stats has been successful"
+msgstr "La categoria di riconto statisticha ha avuto successo"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
+msgid "Path is empty"
+msgstr "Il percorso è vuoto"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
+msgid "Could not connect with the database"
+msgstr "Impossibile connettersi al database"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
+msgid "There are no tables to back up"
+msgstr "Non vi sono tabelle da salvare"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
+msgid "The folder is not writable"
+msgstr "La cartella non è scrivibile"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
+msgid "Backup completed successfully"
+msgstr "Backup completato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
+#, php-format
+msgid "Could not connect with the database. Error: %s"
+msgstr "Connessione non possibile col database. Errore: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
+#, php-format
+msgid "Could not select the database. Error: %s"
+msgstr "Database non selezionabile. Errore: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
+msgid "Archived successfully!"
+msgstr "Archiviazione completata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
+msgid "Error, the zip file was not created in the specified directory"
+msgstr "Errore: il file compresso non è stato creato nella directory specificata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
+msgid "Maintenance mode is ON"
+msgstr "Modo manutenzione è ON"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
+msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
+msgstr "Errore durante la creazione del file .maintenance. Creare manualmente il file nella cartella principale"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
+msgid "Maintenance mode is OFF"
+msgstr "Il modo manutenzione è OFF"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
+msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
+msgstr "Si è verificato un errore nel rimuovere il file .maintenance. Rimuoverlo manualmente dalla cartella principale"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
+msgid "Advanced settings have been updated"
+msgstr " Le Impostazioni avanzate sono state aggiornate"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
+msgid "Cache flushed correctly"
+msgstr "Cache sciacquata correttamente"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
+msgid "There was a problem uploading the watermark image"
+msgstr "Si è verificato un problema durante il caricamento dell'immagine della filigrana"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
+msgid "The watermark image has to be a .PNG file"
+msgstr "L'immagine filigrana deve essere un file .PNG"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
+#, php-format
+msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
+msgstr "Non è possibile impostare una dimensione massima superiore a quello consentito nella configurazione di PHP: <b>%d KB </b>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
+msgid "Media config has been updated"
+msgstr "La configurazione media è stata aggiornata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
+msgid "Re-generation complete"
+msgstr "Ri-generazione completa"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
+msgid "Your Akismet key has been cleared"
+msgstr "La Chiave Akismet è stata pulita"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
+msgid "Your Akismet key has been updated"
+msgstr "La Chiave Akismet è stata aggiornata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
+msgid "Your reCAPTCHA key has been cleared"
+msgstr "La Chiave reCAPTCHA è stata pulita"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
+msgid "Your reCAPTCHA key has been updated"
+msgstr "La Chiave reCAPTCHA è stata aggiornata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
+#, php-format
+msgid "%s already was in the database"
+msgstr "%s  era già nel database"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#, php-format
+msgid "%s has been added as a new country"
+msgstr "%s è stato aggiunto come nuovo Paese"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
+msgid "Country name cannot be blank"
+msgstr "Il campo del nome del Paese non può essere vuoto."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
+msgid "Country has been edited"
+msgstr "La nazione è stata eliminata."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
+msgid "There were some problems editing the country"
+msgstr "Ci sono stati problemi nella modifica della nazione."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
+msgid "There was a problem deleting locations"
+msgstr "Errore nell'eliminazione dei percorsi."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
+msgid "No country was selected"
+msgstr "Nessun Paese selezionato"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
+msgid "Region name cannot be blank"
+msgstr "Il campo del nome della regione non può essere vuoto"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#, php-format
+msgid "%s has been added as a new region"
+msgstr "%s è stato aggiunto come una nuova Regione"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#, php-format
+msgid "%s has been edited"
+msgstr "%s è stato aggiornato"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
+msgid "No region was selected"
+msgstr "Nessuna regione selezionata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
+msgid "New city name cannot be blank"
+msgstr "Campo con nuovo nome di città non può essere vuoto"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#, php-format
+msgid "%s has been added as a new city"
+msgstr "%s è stata aggiunta come una nuova città"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
+msgid "City name cannot be blank"
+msgstr "Campo nome città non può essere vuoto"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
+msgid "No city was selected"
+msgstr "Nessuna città selezionata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
+msgid "Location imported successfully"
+msgstr "Posizione importata con successo"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
+msgid "There was a problem importing the selected location"
+msgstr "Si è verificato un problema durante l'importazione della posizione selezionata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
+msgid "Last check"
+msgstr "Ultima verifica"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
+msgid "Page title field is required"
+msgstr "Il campo titolo della pagina è necessario"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
+msgid "Contact email field is required"
+msgstr "Il campo email di contatto è richiesto"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
+msgid "Number of listings in the RSS has to be a numeric value"
+msgstr "Il numero di annunci nell'RSS deve essere un valore numerico"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
+msgid "Max latest listings has to be a numeric value"
+msgstr "Il numero massimo di annunci più recenti deve essere un valore numerico"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
+msgid "Number of listings on search has to be a numeric value"
+msgstr "Il numero di annunci cercati deve essere un valore numerico"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
+msgid "Number of listings in the RSS must be an integer"
+msgstr "Il numero di annunci nell'RSS deve essere un numero intero"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
+msgid "Number of recent listings displayed at home must be an integer"
+msgstr "Il numero degli annunci recenti visualizzati nella Home deve essere un numero intero"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
+msgid "General settings have been updated"
+msgstr "Le impostazioni generali sono state aggiornate"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
+msgid "All fields are required."
+msgstr "Tutti i campi sono obbligatori"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:644
+#, php-format
+msgid "One field was not updated"
+msgid_plural "%s fields were not updated"
+msgstr[0] "Un campo non è stato aggiornato"
+msgstr[1] "%s campi non sono stati aggiornati"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
+msgid "Permalinks structure updated"
+msgstr "Struttura Permalinks aggiornata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
+msgid "Permalinks structure updated."
+msgstr "Struttura Permalinks aggiornata."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
+msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
+msgstr "Tuttavia, non è possibile verificare se il modulo Apache<b> mod_rewrite  </b> è stato caricato. Se si verificano dei problemi con gli URL, è necessario disattivare <em> Friendly URL </em>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
+msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
+msgstr "Impossibile compilare file <b>.htaccess</b> con il contenuto corretto."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Questo è il contenuto da aggiungere al file <b>.htaccess</b>. Se è impossibile creare il file, disattivare l'opzione <em>Friendly URLs</em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Questo è il contenuto da aggiungere al file <b>.htaccess</b>. Se è impossibile creare il file o si verificano errori con le URL, disattivare l'opzione <em>Friendly URLs</em>. "
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
+msgid "File <b>.htaccess</b> already exists and was not modified."
+msgstr "Il File <b>.htaccess</b> esiste già e non è stato modificato"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Ecco il contenuto che devi aggiungere alla <b>.htaccess</b> file. Se non è possibile modificare il file o sperimentare alcuni problemi con gli URL, si prega di disattivare l'opzione <em>Url amichevole</em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
+msgid "Friendly URLs successfully deactivated"
+msgstr "Friendly URLs sono state disattivate"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
+msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
+msgstr "L'URL amichevole é  disattivata​​, ma .htaccess non potevano essere cancellato. Per favore, rimuoverlo manualmente"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
+msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
+msgstr "L'URL amichevole é disattivata​​, ma .htaccess è stato modificato al di fuori Osclass e non è stato cancellato"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
+msgid "Mail server type is incorrect"
+msgstr "Il server mail non è corretto"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
+msgid "Mail server configuration has changed"
+msgstr "La configurazione del server mail è stata cambiata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
+msgid "Number of moderate comments must only contain numeric characters"
+msgstr "Il numero dei commenti moderati deve contenere solo caratteri numerici"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
+msgid "Comments per page must only contain numeric characters"
+msgstr "I commenti per pagina devono contenere solo caratteri numerici"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
+msgid "Comment settings have been updated"
+msgstr "Impostazione commenti aggiornata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
+msgid "Custom number could not be left empty"
+msgstr "il numero personalizzato non può essere lasciato vuoto"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
+msgid "Last search settings have been updated"
+msgstr "Gli Impostazioni di ricerca ultimi sono stati aggiornati"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
+msgid "The currency code is not in the correct format"
+msgstr "Il codice Valuta non è nel formato corretto"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
+msgid "Currency added"
+msgstr "Valuta aggiunta"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
+msgid "Currency couldn't be added"
+msgstr "La Valuta non può essere aggiunta"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
+#, php-format
+msgid "The currency code '%s' doesn't exist"
+msgstr "Il codice Valuta '%s' non esiste"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
+msgid "Error: the currency code is not in the correct format"
+msgstr "Errore: il codice valuta non è nel formato corretto"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
+msgid "Currency updated"
+msgstr "Valuta modificata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
+msgid "No changes were made"
+msgstr "Nessuna modifica effettuata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
+#, php-format
+msgid "%s couldn't be deleted because it has listings associated to it"
+msgstr "Impossibile eliminare %s perché ha degli annunci associati"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
+#, php-format
+msgid "%s couldn't be deleted because it's the default currency"
+msgstr "Impossibile eliminare %s perché è la valuta predefinita"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
+msgid "No currencies have been deleted"
+msgstr "Nessuna valuta è stata eliminata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
+msgid "One currency has been deleted"
+msgstr "Una valuta è stata eliminata"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
+#, php-format
+msgid "%s currencies have been deleted"
+msgstr "%s valute sono state eliminate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
+msgid "The email/alert has been updated"
+msgstr "La e-mail/notifica è stata aggiornata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
+msgid "The email couldn't be updated, at least one title should not be empty"
+msgstr "L 'e-mail non ha potuto essere aggiornata,  almeno un titolo non deve  essere vuoto"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
+msgid "The user has been created. We've sent an activation e-mail"
+msgstr "L'utente è stato creato. Abbiamo inviato una chiave di attivazione via e-mail"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
+msgid "The user has been created successfully"
+msgstr "L'utente è stato creato correttamente"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:164
+msgid "The user has been updated"
+msgstr "L'utente è stato aggiornato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:166
+msgid "The user has been updated and activated"
+msgstr "L'utente è stato aggiornato e attivato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:180
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:206
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:259
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:285
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:310
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:629
+msgid "User id isn't in the correct format"
+msgstr "Id Utente non nel formato corretto"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:190
+msgid "No users have been selected"
+msgstr "Nessun utente selezionato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:193
+#, php-format
+msgid "Activation email sent to one user"
+msgid_plural "Activation email sent to %s users"
+msgstr[0] "Email di attivazione inviata a un utente"
+msgstr[1] "Email di attivazione inviata agli utenti %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:216
+msgid "No users have been activated"
+msgstr "Nessun utente attivo"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:219
+#, php-format
+msgid "One user has been activated"
+msgid_plural "%s users have been activated"
+msgstr[0] "È stato attivato un utente"
+msgstr[1] "%s utenti sono stati attivati"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:243
+msgid "No users have been deactivated"
+msgstr "Nessun utente disattivo"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:246
+#, php-format
+msgid "One user has been deactivated"
+msgid_plural "%s users have been deactivated"
+msgstr[0] "Un utente è stato disattivato"
+msgstr[1] "%s utenti sono stati disattivati"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:269
+msgid "No users have been enabled"
+msgstr "Nessun utente abilitato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:272
+#, php-format
+msgid "One user has been unblocked"
+msgid_plural "%s users have been unblocked"
+msgstr[0] "Un utente è stato sbloccato"
+msgstr[1] "%s utenti sono stati sbloccati"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:295
+msgid "No users have been disabled"
+msgstr "Nessun utente disabilitato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:298
+#, php-format
+msgid "One user has been blocked"
+msgid_plural "%s users have been blocked"
+msgstr[0] "Un utente è stato bloccato"
+msgstr[1] "%s utenti sono stati bloccati"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:324
+msgid "No users have been deleted"
+msgstr "Nessun utente eliminato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:327
+#, php-format
+msgid "One user has been deleted"
+msgid_plural "%s users have been deleted"
+msgstr[0] "Un utente è stato eliminato"
+msgstr[1] "%s utenti sono stati eliminati"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:337
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:373
+msgid "Alert id isn't in the correct format"
+msgstr "L'ID avviso non è nel formato corretto"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:353
+msgid "No alerts have been deleted"
+msgstr "Nessun avviso eliminato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:356
+#, php-format
+msgid "One alert has been deleted"
+msgid_plural "%s alerts have been deleted"
+msgstr[0] "Un avviso è stato eliminato"
+msgstr[1] "%s avvisi sono stati eliminati"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:394
+msgid "No alerts have been activated"
+msgstr "Nessun avviso attivo"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:397
+#, php-format
+msgid "One alert has been activated"
+msgid_plural "%s alerts have been activated"
+msgstr[0] "È stato attivato un avviso"
+msgstr[1] "%s avvisi sono stati attivati"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
+msgid "No alerts have been deactivated"
+msgstr "Nessun avviso disattivato"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:406
+#, php-format
+msgid "One alert has been deactivated"
+msgid_plural "%s alerts have been deactivated"
+msgstr[0] "Un avviso è stato disattivato"
+msgstr[1] "%s avvisi sono stati disattivati"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:446
+msgid "User settings have been updated"
+msgstr "Le configurazioni utente sono state aggiornate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:592
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:611
+msgid "Both rules can not be empty"
+msgstr "Entrambe regole non possono essere vuote"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:601
+msgid "Rule updated correctly"
+msgstr "Regola aggiornata in modo corretto"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:620
+msgid "Rule saved correctly"
+msgstr "Regola salvata in modo corretto"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:641
+msgid "No rules have been deleted"
+msgstr "Nessuna regola eliminata"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:644
+#, php-format
+msgid "One ban rule has been deleted"
+msgid_plural "%s ban rules have been deleted"
+msgstr[0] "Una regola di divieto è stata eliminata"
+msgstr[1] "%s regole di divieto sono state eliminate"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:667
+#, php-format
+msgid "Logged in as %s successfully"
+msgstr "Accesso effettuato con successo come %s"
 
 #: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
 msgid "Your email has been changed successfully"
@@ -1759,6 +1743,10 @@ msgstr "La tua e-mail è stata modificata"
 #: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
 msgid "Your email has been sent properly."
 msgstr "La tua email è stata inviata correttamente."
+
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
+msgid "Thank you very much for your donation"
+msgstr "Ti rigraziamo per la tua donazione"
 
 #: oc-includes/osclass/classes/Csrf.php:181
 msgid "Probable invalid request."
@@ -1873,25 +1861,25 @@ msgid "Phone invalid."
 msgstr "Telefono non valido."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:572
-#: oc-includes/osclass/classes/actions/ItemActions.php:585
-#: oc-includes/osclass/classes/actions/ItemActions.php:596
-#: oc-includes/osclass/classes/actions/ItemActions.php:606
-#: oc-includes/osclass/classes/actions/ItemActions.php:608
+#: oc-includes/osclass/classes/actions/ItemActions.php:586
+#: oc-includes/osclass/classes/actions/ItemActions.php:597
+#: oc-includes/osclass/classes/actions/ItemActions.php:607
+#: oc-includes/osclass/classes/actions/ItemActions.php:609
 #, php-format
 msgid "%s is invalid."
 msgstr "%s non è valido."
 
 #: oc-includes/osclass/classes/actions/ItemActions.php:575
 #: oc-includes/osclass/classes/actions/ItemActions.php:578
-#: oc-includes/osclass/classes/actions/ItemActions.php:588
-#: oc-includes/osclass/classes/actions/ItemActions.php:599
-#: oc-includes/osclass/classes/actions/ItemActions.php:611
-#: oc-includes/osclass/classes/actions/ItemActions.php:618
+#: oc-includes/osclass/classes/actions/ItemActions.php:589
+#: oc-includes/osclass/classes/actions/ItemActions.php:600
+#: oc-includes/osclass/classes/actions/ItemActions.php:612
+#: oc-includes/osclass/classes/actions/ItemActions.php:619
 #, php-format
 msgid "%s is required."
 msgstr "%s è richiesto."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:1378
+#: oc-includes/osclass/classes/actions/ItemActions.php:1379
 #, php-format
 msgid "We just sent your message to %s"
 msgstr "Il messaggio è stato inoltrato a %s"
@@ -1921,4 +1909,16 @@ msgstr "Nome utente già utilizzato"
 #, php-format
 msgid "The specified e-mail is already used by %s"
 msgstr "L'e-mail specificata è già utilizzata da %s"
+
+#: oc-includes/osclass/emails.php:861
+msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
+msgstr "Ti è stata inviata una mail. Seguire le istruzioni per validare i cambiamenti."
+
+#: oc-includes/osclass/emails.php:864
+msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
+msgstr "Abbiamo tentato di mandarti una mail, ma l'operazione non è riuscita. Contattare l'amministratore."
+
+#: oc-includes/osclass/emails.php:1122
+msgid "There has been some errors sending the message"
+msgstr "Errori durante l'invio del messaggio"
 
