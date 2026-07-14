@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-11-05 09:41+0000\n"
-"PO-Revision-Date: 2021-11-05 09:44\n"
+"POT-Creation-Date: 2023-04-03 10:27+0000\n"
+"PO-Revision-Date: 2023-04-03 10:34\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -16,65 +16,6 @@ msgstr ""
 "X-Crowdin-Language: cs\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
-
-#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "Upozornění"
-
-#: user-alerts.php:39
-msgid "You do not have any alerts yet"
-msgstr "Zatím nemáte žádná upozornění"
-
-#: user-alerts.php:46
-msgid "Alert"
-msgstr "Upozornění"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Tuto akci nelze vrátit zpět. Jsi si jist, že chceš pokračovat?"
-
-#: user-alerts.php:46
-msgid "Delete this alert"
-msgstr "Odstranit toto upozornění"
-
-#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
-msgid "Listings"
-msgstr "Inzeráty"
-
-#: item-send-friend.php:31 functions.php:436
-msgid "Send to a friend"
-msgstr "Poštli to příteli"
-
-#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
-#: user-public-sidebar.php:33 contact.php:40
-msgid "Your name"
-msgstr "Vaše jméno"
-
-#: item-send-friend.php:50 item.php:197
-msgid "Your e-mail"
-msgstr "Váš e-mail"
-
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "Jméno Vašeho přítele"
-
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "E-mailová adresa Vašeho přítele"
-
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Předmět (volitelné)"
-
-#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
-#: contact.php:60
-msgid "Message"
-msgstr "Zpráva"
-
-#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
-#: user-public-sidebar.php:54 contact.php:68
-msgid "Send"
-msgstr "Poslat"
 
 #: item.php:59
 #, php-format
@@ -142,7 +83,7 @@ msgstr "autor"
 msgid "Delete your comment"
 msgstr "Odstranit váš komentář"
 
-#: item.php:165 common/head.php:25 loop-single.php:48
+#: item.php:165 loop-single.php:48 common/head.php:25
 #: loop-single-premium.php:48
 msgid "Delete"
 msgstr "Smazat"
@@ -150,6 +91,15 @@ msgstr "Smazat"
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "Ponechat svůj komentář (budou odstraněny nevyžádané a urážlivé zprávy)"
+
+#: item.php:191 item-sidebar.php:85 item-send-friend.php:44 contact.php:40
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr "Vaše jméno"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "Váš e-mail"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -159,37 +109,147 @@ msgstr "Titulek"
 msgid "Comment"
 msgstr "Komentář"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "Změnit uživatelské jméno"
+#: item.php:216 item-sidebar.php:113 item-send-friend.php:87 contact.php:68
+#: user-public-sidebar.php:54
+msgid "Send"
+msgstr "Poslat"
 
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Uživatelské jméno: toto pole je povinné"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Vaše hledání"
 
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "Toto uživatelské jméno je dostupné"
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Město"
 
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Toto uživatelské jméno NENÍ dostupné"
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Zobrazit pouze"
 
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Uživatelské jméno"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "výpisy s obrázky"
 
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "Aktualizace"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Cena"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Min."
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Max."
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Použít"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Upřesnit kategorii"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Tuto akci nelze vzít zpět. Jsi si jist, že chceš pokračovat?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Aktivovat"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Omlouváme se, ale nemohu najít stránku, kterou hledáte"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "Pomůžeme vám, máme několik tipů, jak to najít."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>Hledat</strong> pro ni:"
+
+#: 404.php:40 header.php:80
+msgid "Search"
+msgstr "Hledat"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>Podívejte se na</strong> v nejpopulárnějších kategoriích."
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Ahoj %s"
+
+#: footer.php:36 header.php:49
+msgid "My account"
+msgstr "Můj účet"
+
+#: footer.php:37 header.php:50
+msgid "Logout"
+msgstr "Odhlásit"
+
+#: footer.php:40 item-sidebar.php:63 functions.php:449 header.php:53
+msgid "Login"
+msgstr "Přihlásit"
+
+#: footer.php:43 user-login.php:58 item-sidebar.php:64 header.php:55
+msgid "Register for a free account"
+msgstr "Registrujte se na účet zdarma"
+
+#: footer.php:50 header.php:60
+msgid "Publish your ad for free"
+msgstr "Publikujte svou reklamu zdarma"
+
+#: footer.php:65 functions.php:453 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "Kontakt"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Tato webová stránka je hrdá pomocí <a title=\"Osclass web\" href=\"%s\">classifieds skripts</a> software <strong>Osclass</strong>"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "Jazyk:"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "Obnovit heslo"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Nové heslo"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Opakovat nové heslo"
+
+#: user-forgot_password.php:52 functions.php:448 functions.php:451
+#: functions.php:511 user-change_password.php:32 user-change_password.php:37
+msgid "Change password"
+msgstr "Změňit heslo"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Zobrazit nabídku"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Smazat účet"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Jste si jisti, že chcete smazat svůj účet?"
 
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Přístup k vašemu účtu"
 
-#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
+#: user-login.php:38 user-recover.php:37 item-post.php:185 user-register.php:45
 msgid "E-mail"
 msgstr "E-mail"
 
@@ -205,13 +265,25 @@ msgstr "Pamatuj si mě."
 msgid "Log in"
 msgstr "Přihlášení"
 
-#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "Registrujte se na účet zdarma"
-
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "Zapomněli jste heslo?"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Předchozí obrázek"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Další obrázek"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Zavřít"
 
 #: item-sidebar.php:30
 msgid "Mark as..."
@@ -253,12 +325,8 @@ msgstr "Je to váš vlastní seznam, nemůžete kontaktovat vydavatele."
 msgid "You must log in or register a new account in order to contact the advertiser"
 msgstr "Musíte se přihlásit nebo zaregistrovat nový účet, abyste mohli kontaktovat inzerenta"
 
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "Přihlásit"
-
-#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
-#: item-post.php:179
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
 msgid "Name"
 msgstr "Jméno"
 
@@ -285,9 +353,14 @@ msgstr "Vaše e-mailová adresa"
 msgid "Phone number"
 msgstr "Telefonní číslo"
 
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+#: item-sidebar.php:93 contact.php:41 contact.php:54 user-public-sidebar.php:41
 msgid "optional"
 msgstr "volitelný"
+
+#: item-sidebar.php:98 item-send-friend.php:78 contact.php:60
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr "Zpráva"
 
 #: item-sidebar.php:104
 msgid "Attachment"
@@ -317,69 +390,166 @@ msgstr "Přihlásit se k tomuto vyhledávání"
 msgid "Subscribe now"
 msgstr "Přihlásit se k odběru"
 
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "Vaše hledání"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "Město"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Zobrazit pouze"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "výpisy s obrázky"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Cena"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Min."
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Max."
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Použít"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Upřesnit kategorii"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "Změnit email"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "Aktuální e-mail"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "Nový e-mail"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "Email: povinné pole"
-
-#: user-recover.php:30 user-forgot_password.php:30
-msgid "Recover your password"
-msgstr "Obnovit heslo"
-
 #: user-recover.php:45
 msgid "Send me a new password"
 msgstr "Pošlete mi nové heslo"
 
-#: user-profile.php:32 user-profile.php:37 functions.php:445
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Adresa:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Místo:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Popis uživatele"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "Poslední výpisy"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "např: Audi A6"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Zveřejnit inzerát"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Upravit inzerát"
+
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "Poštli to příteli"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Výsledky hledání"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Výsledky hledání: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Ovládací panel"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "profil uživatele %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Účet"
+
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "Inzeráty"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "Upozornění"
+
+#: functions.php:445 user-profile.php:32 user-profile.php:37
 msgid "Update account"
 msgstr "Aktualizuj účet"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Změnit email"
+
+#: functions.php:447 functions.php:506 user-change_username.php:34
+#: user-change_username.php:39
+msgid "Change username"
+msgstr "Změnit uživatelské jméno"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Obnovit heslo"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Vytvořit nový účet"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Veřejný profil"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Nastavení motivu bylo úspěšně aktualizováno"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Logo bylo úspěšně nahráno"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Vyskytla se chyba, zkus to znou"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Logo bylo odstraněno"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Obrázek nebyl nalezen"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "Logo hlavičky stránky"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "Nastavení motivu"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Všechny kategorie"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "Zatím nemáte žádná upozornění"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "Upozornění"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Tuto akci nelze vrátit zpět. Jsi si jist, že chceš pokračovat?"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "Odstranit toto upozornění"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Poslední výpisy"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "V tuto chvíli nejsou k dispozici výpisy"
+
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Seznam"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Mřížka"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Zobrazit všechny výpisy"
 
 #: user-profile.php:52
 msgid "User type"
@@ -417,29 +587,74 @@ msgstr "Internetová stránka"
 msgid "Description"
 msgstr "Popis"
 
-#: main.php:38
-msgid "Latest Listings"
-msgstr "Poslední výpisy"
+#: user-profile.php:115 user-change_password.php:64 item-post.php:211
+#: user-change_email.php:59 user-change_username.php:102
+msgid "Update"
+msgstr "Aktualizace"
 
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "V tuto chvíli nejsou k dispozici výpisy"
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Aktuální heslo"
 
-#: main.php:45 admin/settings.php:60 search.php:80
-msgid "List"
-msgstr "Seznam"
+#: item-post.php:57
+msgid "General Information"
+msgstr "Obecné informace"
 
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Mřížka"
+#: item-post.php:59
+msgid "Category"
+msgstr "Kategorie"
 
-#: main.php:57
-msgid "See all listings"
-msgstr "Zobrazit všechny výpisy"
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Vyber kategorii"
 
-#: admin/header.php:29 functions.php:666
-msgid "Header logo"
-msgstr "Logo hlavičky stránky"
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "Seznam umístění"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "Oblast města"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "Informace o prodejci"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "Zobrazit e-mail na stránce výpisu"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "Publikovat"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "Jméno Vašeho přítele"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "E-mailová adresa Vašeho přítele"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Předmět (volitelné)"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Zaregistrujte účet zdarma"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Opakovat heslo"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "Heslo se neshodují"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "Vytvořit"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -501,10 +716,6 @@ msgstr "Vlastní"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "Přispěj"
-
-#: admin/settings.php:46 functions.php:668
-msgid "Theme settings"
-msgstr "Nastavení motivu"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -614,246 +825,6 @@ msgstr "Tato reklama bude zobrazena v pravém postranním panelu na stránce s p
 msgid "Save changes"
 msgstr "Uložit změny"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Zaregistrujte účet zdarma"
-
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Opakovat heslo"
-
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "Heslo se neshodují"
-
-#: user-register.php:73
-msgid "Create"
-msgstr "Vytvořit"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "Zrušit"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Předchozí obrázek"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Další obrázek"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "Zavřít"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "např: Audi A6"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Zveřejnit inzerát"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "Upravit inzerát"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Výsledky hledání"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Výsledky hledání: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Ovládací panel"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "profil uživatele %s"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "Účet"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "Změnit email"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "Změňit heslo"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Obnovit heslo"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Vytvořit nový účet"
-
-#: functions.php:453 footer.php:65 user-public-sidebar.php:26
-msgid "Contact"
-msgstr "Kontakt"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Veřejný profil"
-
-#: functions.php:516 user-sidebar.php:28
-msgid "Delete account"
-msgstr "Smazat účet"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Nastavení motivu bylo úspěšně aktualizováno"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Logo bylo úspěšně nahráno"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Vyskytla se chyba, zkus to znou"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "Logo bylo odstraněno"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "Obrázek nebyl nalezen"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Všechny kategorie"
-
-#: loop-single.php:48 loop-single-premium.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Tuto akci nelze vzít zpět. Jsi si jist, že chceš pokračovat?"
-
-#: loop-single.php:51 loop-single-premium.php:51
-msgid "Activate"
-msgstr "Aktivovat"
-
-#: header.php:48 footer.php:35
-#, php-format
-msgid "Hi %s"
-msgstr "Ahoj %s"
-
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "Můj účet"
-
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "Odhlásit"
-
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "Publikujte svou reklamu zdarma"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "Vyber kategorii"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "Hledat"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Adresa:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Místo:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "Popis uživatele"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "Poslední výpisy"
-
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "Omlouváme se, ale nemohu najít stránku, kterou hledáte"
-
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "Pomůžeme vám, máme několik tipů, jak to najít."
-
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>Hledat</strong> pro ni:"
-
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>Podívejte se na</strong> v nejpopulárnějších kategoriích."
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Zobrazit nabídku"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Jste si jisti, že chcete smazat svůj účet?"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Tato webová stránka je hrdá pomocí <a title=\"Osclass web\" href=\"%s\">classifieds skripts</a> software <strong>Osclass</strong>"
-
-#: footer.php:74
-msgid "Language:"
-msgstr "Jazyk:"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "Obecné informace"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "Kategorie"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "Seznam umístění"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "Oblast města"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "Informace o prodejci"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "Zobrazit e-mail na stránce výpisu"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "Publikovat"
-
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Nové heslo"
-
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Opakovat nové heslo"
-
 #: user-items.php:41
 msgid "My listings"
 msgstr "Moje položky"
@@ -861,6 +832,18 @@ msgstr "Moje položky"
 #: user-items.php:43
 msgid "No listings have been added yet"
 msgstr "Zatím nebyly přidány žádné výpisy"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Kontaktujte nás"
+
+#: contact.php:47 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr "Vaše e-mailová adresa"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Předmět"
 
 #: search.php:55
 msgid "Selected"
@@ -896,19 +879,35 @@ msgstr "Prémiové inzeráty"
 msgid "Other searches that may interest you"
 msgstr "Další vyhledávání, která vás mohou zajímat"
 
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
-msgstr "Vaše e-mailová adresa"
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "Změnit email"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Aktuální heslo"
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "Aktuální e-mail"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "Kontaktujte nás"
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Nový e-mail"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "Předmět"
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "Email: povinné pole"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Uživatelské jméno: toto pole je povinné"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Toto uživatelské jméno je dostupné"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Toto uživatelské jméno NENÍ dostupné"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Uživatelské jméno"
 

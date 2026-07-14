@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-11-05 09:41+0000\n"
-"PO-Revision-Date: 2021-11-05 09:44\n"
+"POT-Creation-Date: 2023-04-03 10:27+0000\n"
+"PO-Revision-Date: 2023-04-03 10:33\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -16,65 +16,6 @@ msgstr ""
 "X-Crowdin-Language: ro\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
-
-#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "Alerte"
-
-#: user-alerts.php:39
-msgid "You do not have any alerts yet"
-msgstr "Încă nu aveți nicio alertă"
-
-#: user-alerts.php:46
-msgid "Alert"
-msgstr "Alertă"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Această acţiune nu este reversibilă. Eşti sigur că vrei să continui?"
-
-#: user-alerts.php:46
-msgid "Delete this alert"
-msgstr "Șterge această alertă"
-
-#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
-msgid "Listings"
-msgstr "Anunţuri"
-
-#: item-send-friend.php:31 functions.php:436
-msgid "Send to a friend"
-msgstr "Trimite unui prieten"
-
-#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
-#: user-public-sidebar.php:33 contact.php:40
-msgid "Your name"
-msgstr "Numele tău"
-
-#: item-send-friend.php:50 item.php:197
-msgid "Your e-mail"
-msgstr "E-mailul dvs."
-
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "Numele prietenului tău"
-
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "Adresa de e-mail a prietenului tău"
-
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Subiect (opţional)"
-
-#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
-#: contact.php:60
-msgid "Message"
-msgstr "Mesaj"
-
-#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
-#: user-public-sidebar.php:54 contact.php:68
-msgid "Send"
-msgstr "Trimite"
 
 #: item.php:59
 #, php-format
@@ -142,7 +83,7 @@ msgstr "de"
 msgid "Delete your comment"
 msgstr "Șterge comentariul tău"
 
-#: item.php:165 common/head.php:25 loop-single.php:48
+#: item.php:165 loop-single.php:48 common/head.php:25
 #: loop-single-premium.php:48
 msgid "Delete"
 msgstr "Şterge"
@@ -150,6 +91,15 @@ msgstr "Şterge"
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "Lasă-ți comentariul (mesajele spam și cele ofensive vor fi șterse)"
+
+#: item.php:191 item-sidebar.php:85 item-send-friend.php:44 contact.php:40
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr "Numele tău"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "E-mailul dvs."
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -159,37 +109,147 @@ msgstr "Titlu"
 msgid "Comment"
 msgstr "Comentariu"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "Modifică numele de utilizator"
+#: item.php:216 item-sidebar.php:113 item-send-friend.php:87 contact.php:68
+#: user-public-sidebar.php:54
+msgid "Send"
+msgstr "Trimite"
 
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Nume utilizator: acest câmp este obligatoriu"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Căutarea dvs."
 
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "Numele de utilizator este disponibil"
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Oraș"
 
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Numele de utilizator NU este disponibil"
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Arată doar"
 
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Nume utilizator"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "listări cu imagini"
 
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "Actualizare"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Preț"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Minim"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Maxim"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Aplica"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Rafinează categoria"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Această acţiune nu este reversibilă. Eşti sigur că doreşti să continui?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Activează"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Ne pare rău, dar nu găsesc pagina pe care o cauți"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "Haideţi să vă ajutăm, avem câteva sfaturi pentru a le găsi."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>Caută</strong> pentru ea:"
+
+#: 404.php:40 header.php:80
+msgid "Search"
+msgstr "Caută"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>Uită-te</strong> în cele mai populare categorii."
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Salutare %s"
+
+#: footer.php:36 header.php:49
+msgid "My account"
+msgstr "Contul meu"
+
+#: footer.php:37 header.php:50
+msgid "Logout"
+msgstr "Deconectare"
+
+#: footer.php:40 item-sidebar.php:63 functions.php:449 header.php:53
+msgid "Login"
+msgstr "Autentificare"
+
+#: footer.php:43 user-login.php:58 item-sidebar.php:64 header.php:55
+msgid "Register for a free account"
+msgstr "Înregistrează-te pentru un cont gratuit"
+
+#: footer.php:50 header.php:60
+msgid "Publish your ad for free"
+msgstr "Publică-ți anunțul gratuit"
+
+#: footer.php:65 functions.php:453 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "Contact"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Acest site foloseşte <a title=\"Osclass web\" href=\"%s\">scripturile de anunţuri</a> ale software-ului <strong>Osclass</strong>"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "Limba:"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "Recuperare parola"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Parolă nouă"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Repetați parola nouă"
+
+#: user-forgot_password.php:52 functions.php:448 functions.php:451
+#: functions.php:511 user-change_password.php:32 user-change_password.php:37
+msgid "Change password"
+msgstr "Modifică parola"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Afişare meniu"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Şterge cont"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Sunteţi sigur că doriţi să vă ştergeţi contul?"
 
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Acces la contul dvs."
 
-#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
+#: user-login.php:38 user-recover.php:37 item-post.php:185 user-register.php:45
 msgid "E-mail"
 msgstr "Email"
 
@@ -205,13 +265,25 @@ msgstr "Amintiți-vă de mine"
 msgid "Log in"
 msgstr "Autentificare"
 
-#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "Înregistrează-te pentru un cont gratuit"
-
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "Ai uitat parola?"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Anulează"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Imaginea anterioară"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Imaginea următoare"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Închide"
 
 #: item-sidebar.php:30
 msgid "Mark as..."
@@ -253,12 +325,8 @@ msgstr "Este propria ta listare, nu poți contacta editorul."
 msgid "You must log in or register a new account in order to contact the advertiser"
 msgstr "Trebuie să vă autentificați sau să înregistrați un cont nou pentru a contacta persoana care publică anunțul"
 
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "Autentificare"
-
-#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
-#: item-post.php:179
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
 msgid "Name"
 msgstr "Nume"
 
@@ -285,9 +353,14 @@ msgstr "Adresa ta de e-mail"
 msgid "Phone number"
 msgstr "Număr de telefon"
 
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+#: item-sidebar.php:93 contact.php:41 contact.php:54 user-public-sidebar.php:41
 msgid "optional"
 msgstr "facultativ"
+
+#: item-sidebar.php:98 item-send-friend.php:78 contact.php:60
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr "Mesaj"
 
 #: item-sidebar.php:104
 msgid "Attachment"
@@ -317,69 +390,166 @@ msgstr "Abonează-te la această căutare"
 msgid "Subscribe now"
 msgstr "Abonează-te acum"
 
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "Căutarea dvs."
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "Oraș"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Arată doar"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "listări cu imagini"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Preț"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Minim"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Maxim"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Aplica"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Rafinează categoria"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "Modifică e-mail"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "E-mail curent"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "E-mail nou"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "E-mail: acest câmp este obligatoriu"
-
-#: user-recover.php:30 user-forgot_password.php:30
-msgid "Recover your password"
-msgstr "Recuperare parola"
-
 #: user-recover.php:45
 msgid "Send me a new password"
 msgstr "Trimite-mi o parolă nouă"
 
-#: user-profile.php:32 user-profile.php:37 functions.php:445
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>Adresă:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong>Locaţie:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Descriere utilizator"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "Ultimele listări"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "De ex: Programator PHP"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Adaugă un anunţ"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Editează anunţul"
+
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "Trimite unui prieten"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Rezultatele căutării"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Rezultatele căutării: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Panou control"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "Profilul utilizatorului %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Cont"
+
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "Anunţuri"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "Alerte"
+
+#: functions.php:445 user-profile.php:32 user-profile.php:37
 msgid "Update account"
 msgstr "Actualizează contul"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Modifică e-mail"
+
+#: functions.php:447 functions.php:506 user-change_username.php:34
+#: user-change_username.php:39
+msgid "Change username"
+msgstr "Modifică numele de utilizator"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Recuperează parola"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Creează un cont nou"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Profil public"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Setările temei au fost actualizate corect"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Imaginea logo a fost încărcată corect"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "A apărut o eroare, te rog încearcă din nou"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Imaginea logo a fost ştearsă."
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Imaginea nu a fost găsită"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "Logo antet"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "Setări temă"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Toate categoriile"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "Încă nu aveți nicio alertă"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "Alertă"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Această acţiune nu este reversibilă. Eşti sigur că vrei să continui?"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "Șterge această alertă"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Ultimele listări"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Nu există liste disponibile în acest moment"
+
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Listă"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Grilă"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Vezi toate listările"
 
 #: user-profile.php:52
 msgid "User type"
@@ -417,29 +587,74 @@ msgstr "Site-ul web"
 msgid "Description"
 msgstr "Descriere"
 
-#: main.php:38
-msgid "Latest Listings"
-msgstr "Ultimele listări"
+#: user-profile.php:115 user-change_password.php:64 item-post.php:211
+#: user-change_email.php:59 user-change_username.php:102
+msgid "Update"
+msgstr "Actualizare"
 
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "Nu există liste disponibile în acest moment"
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Parola curentă"
 
-#: main.php:45 admin/settings.php:60 search.php:80
-msgid "List"
-msgstr "Listă"
+#: item-post.php:57
+msgid "General Information"
+msgstr "Informaţii generale"
 
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Grilă"
+#: item-post.php:59
+msgid "Category"
+msgstr "Categoria"
 
-#: main.php:57
-msgid "See all listings"
-msgstr "Vezi toate listările"
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Selectează o categorie"
 
-#: admin/header.php:29 functions.php:666
-msgid "Header logo"
-msgstr "Logo antet"
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "Locație listare"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "Zona Orașului"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "Informațiile vânzătorului"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "Arată e-mail pe pagina de listare"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "Publică"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "Numele prietenului tău"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "Adresa de e-mail a prietenului tău"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Subiect (opţional)"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Înregistrează un cont gratuit"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Repetă parola"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "Parolele nu seamana intre ele"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "Crează"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -501,10 +716,6 @@ msgstr "Personalizat"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "Donează"
-
-#: admin/settings.php:46 functions.php:668
-msgid "Theme settings"
-msgstr "Setări temă"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -614,246 +825,6 @@ msgstr "Acest anunț va fi afișat în bara laterală dreaptă a website-ului, p
 msgid "Save changes"
 msgstr "Salvare modificări"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Înregistrează un cont gratuit"
-
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Repetă parola"
-
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "Parolele nu seamana intre ele"
-
-#: user-register.php:73
-msgid "Create"
-msgstr "Crează"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "Anulează"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Imaginea anterioară"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Imaginea următoare"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "Închide"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "De ex: Programator PHP"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Adaugă un anunţ"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "Editează anunţul"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Rezultatele căutării"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Rezultatele căutării: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Panou control"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "Profilul utilizatorului %s"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "Cont"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "Modifică e-mail"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "Modifică parola"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Recuperează parola"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Creează un cont nou"
-
-#: functions.php:453 footer.php:65 user-public-sidebar.php:26
-msgid "Contact"
-msgstr "Contact"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Profil public"
-
-#: functions.php:516 user-sidebar.php:28
-msgid "Delete account"
-msgstr "Şterge cont"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Setările temei au fost actualizate corect"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Imaginea logo a fost încărcată corect"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "A apărut o eroare, te rog încearcă din nou"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "Imaginea logo a fost ştearsă."
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "Imaginea nu a fost găsită"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Toate categoriile"
-
-#: loop-single.php:48 loop-single-premium.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Această acţiune nu este reversibilă. Eşti sigur că doreşti să continui?"
-
-#: loop-single.php:51 loop-single-premium.php:51
-msgid "Activate"
-msgstr "Activează"
-
-#: header.php:48 footer.php:35
-#, php-format
-msgid "Hi %s"
-msgstr "Salutare %s"
-
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "Contul meu"
-
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "Deconectare"
-
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "Publică-ți anunțul gratuit"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "Selectează o categorie"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "Caută"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "<strong>Adresă:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "<strong>Locaţie:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "Descriere utilizator"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "Ultimele listări"
-
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "Ne pare rău, dar nu găsesc pagina pe care o cauți"
-
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "Haideţi să vă ajutăm, avem câteva sfaturi pentru a le găsi."
-
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>Caută</strong> pentru ea:"
-
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>Uită-te</strong> în cele mai populare categorii."
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Afişare meniu"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Sunteţi sigur că doriţi să vă ştergeţi contul?"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Acest site foloseşte <a title=\"Osclass web\" href=\"%s\">scripturile de anunţuri</a> ale software-ului <strong>Osclass</strong>"
-
-#: footer.php:74
-msgid "Language:"
-msgstr "Limba:"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "Informaţii generale"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "Categoria"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "Locație listare"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "Zona Orașului"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "Informațiile vânzătorului"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "Arată e-mail pe pagina de listare"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "Publică"
-
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Parolă nouă"
-
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Repetați parola nouă"
-
 #: user-items.php:41
 msgid "My listings"
 msgstr "Listele mele"
@@ -861,6 +832,18 @@ msgstr "Listele mele"
 #: user-items.php:43
 msgid "No listings have been added yet"
 msgstr "Nicio listă nu a fost adăugată încă"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Contactați-ne"
+
+#: contact.php:47 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr "Adresa ta de e-mail"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Subiect"
 
 #: search.php:55
 msgid "Selected"
@@ -896,19 +879,35 @@ msgstr "Anunţuri premium"
 msgid "Other searches that may interest you"
 msgstr "Alte căutări care vă pot interesa"
 
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
-msgstr "Adresa ta de e-mail"
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "Modifică e-mail"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Parola curentă"
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "E-mail curent"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "Contactați-ne"
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "E-mail nou"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "Subiect"
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "E-mail: acest câmp este obligatoriu"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Nume utilizator: acest câmp este obligatoriu"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Numele de utilizator este disponibil"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Numele de utilizator NU este disponibil"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Nume utilizator"
 
