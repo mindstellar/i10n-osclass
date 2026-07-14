@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2021-11-05 09:41+0000\n"
-"PO-Revision-Date: 2021-11-05 09:46\n"
+"POT-Creation-Date: 2023-04-03 10:27+0000\n"
+"PO-Revision-Date: 2023-04-03 10:35\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -16,65 +16,6 @@ msgstr ""
 "X-Crowdin-Language: id\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
-
-#: user-alerts.php:32 user-alerts.php:37 functions.php:444 functions.php:491
-msgid "Alerts"
-msgstr "Tanda"
-
-#: user-alerts.php:39
-msgid "You do not have any alerts yet"
-msgstr "Anda belum memiliki peringatan"
-
-#: user-alerts.php:46
-msgid "Alert"
-msgstr "Siaga"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Tindakan ini tidak dapat dibatalkan. Apakah Anda yakin ingin melanjutkan?"
-
-#: user-alerts.php:46
-msgid "Delete this alert"
-msgstr "Hapus peringatan ini"
-
-#: user-alerts.php:51 functions.php:443 functions.php:486 search.php:129
-msgid "Listings"
-msgstr "Daftar"
-
-#: item-send-friend.php:31 functions.php:436
-msgid "Send to a friend"
-msgstr "Kirim ke teman"
-
-#: item-send-friend.php:44 item.php:191 item-sidebar.php:85
-#: user-public-sidebar.php:33 contact.php:40
-msgid "Your name"
-msgstr "Namamu"
-
-#: item-send-friend.php:50 item.php:197
-msgid "Your e-mail"
-msgstr "Email Anda"
-
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "Nama temanmu"
-
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "Alamat email teman Anda"
-
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Subjek (opsional)"
-
-#: item-send-friend.php:78 item-sidebar.php:98 user-public-sidebar.php:46
-#: contact.php:60
-msgid "Message"
-msgstr "Pesan"
-
-#: item-send-friend.php:87 item.php:216 item-sidebar.php:113
-#: user-public-sidebar.php:54 contact.php:68
-msgid "Send"
-msgstr "Kirim"
 
 #: item.php:59
 #, php-format
@@ -142,7 +83,7 @@ msgstr "oleh"
 msgid "Delete your comment"
 msgstr "Hapus komentar Anda"
 
-#: item.php:165 common/head.php:25 loop-single.php:48
+#: item.php:165 loop-single.php:48 common/head.php:25
 #: loop-single-premium.php:48
 msgid "Delete"
 msgstr "Menghapus"
@@ -150,6 +91,15 @@ msgstr "Menghapus"
 #: item.php:177
 msgid "Leave your comment (spam and offensive messages will be removed)"
 msgstr "Tinggalkan komentar Anda (spam dan pesan ofensif akan dihapus)"
+
+#: item.php:191 item-sidebar.php:85 item-send-friend.php:44 contact.php:40
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr "Namamu"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "Email Anda"
 
 #: item.php:204 item-post.php:65
 msgid "Title"
@@ -159,37 +109,147 @@ msgstr "Titel"
 msgid "Comment"
 msgstr "Komentar"
 
-#: user-change_username.php:34 user-change_username.php:39 functions.php:447
-#: functions.php:506
-msgid "Change username"
-msgstr "Mengubah nama pengguna"
+#: item.php:216 item-sidebar.php:113 item-send-friend.php:87 contact.php:68
+#: user-public-sidebar.php:54
+msgid "Send"
+msgstr "Kirim"
 
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Nama pengguna: bidang ini diperlukan"
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Pencarian Anda"
 
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "Nama pengguna tersedia"
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Kota"
 
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Nama pengguna tidak tersedia"
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Tampilkan saja"
 
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Nama pengguna"
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "daftar dengan gambar"
 
-#: user-change_username.php:102 user-change_email.php:59 user-profile.php:115
-#: item-post.php:211 user-change_password.php:64
-msgid "Update"
-msgstr "Pemutakhiran"
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Harga"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Min"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Maks"
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Berlaku"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Memperbaiki kategori"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Tindakan ini tidak dapat dibatalkan. Apakah Anda yakin ingin melanjutkan?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Mengaktifkan"
+
+#: 404.php:30
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "Maaf tapi aku tidak bisa menemukan halaman yang kau cari"
+
+#: 404.php:32
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "Mari kita bantu Anda, kami punya beberapa tips bagi Anda untuk menemukannya."
+
+#: 404.php:35
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>mencari</strong> untuk itu:"
+
+#: 404.php:40 header.php:80
+msgid "Search"
+msgstr "Mencari"
+
+#: 404.php:44
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>Look</strong> untuk itu dalam kategori yang paling populer."
+
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Hi %s"
+
+#: footer.php:36 header.php:49
+msgid "My account"
+msgstr "Akun saya"
+
+#: footer.php:37 header.php:50
+msgid "Logout"
+msgstr "Logout"
+
+#: footer.php:40 item-sidebar.php:63 functions.php:449 header.php:53
+msgid "Login"
+msgstr "Login"
+
+#: footer.php:43 user-login.php:58 item-sidebar.php:64 header.php:55
+msgid "Register for a free account"
+msgstr "Mendaftar untuk akun gratis"
+
+#: footer.php:50 header.php:60
+msgid "Publish your ad for free"
+msgstr "Publikasikan iklan Anda secara gratis"
+
+#: footer.php:65 functions.php:453 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "Kontak"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Situs web ini dengan bangga menggunakan skrip <a title=\"Osclass web\" href=\"%s\"></a> perangkat lunak <strong>Osclass</strong>"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "Bahasa:"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "Memulihkan kata sandi Anda"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Kata sandi baru"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Mengulangi kata sandi baru"
+
+#: user-forgot_password.php:52 functions.php:448 functions.php:451
+#: functions.php:511 user-change_password.php:32 user-change_password.php:37
+msgid "Change password"
+msgstr "Mengubah kata sandi"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Menu tampilan"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Hapus akun"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Apakah Anda yakin ingin menghapus akun Anda?"
 
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Akses ke akun Anda"
 
-#: user-login.php:38 user-recover.php:37 user-register.php:45 item-post.php:185
+#: user-login.php:38 user-recover.php:37 item-post.php:185 user-register.php:45
 msgid "E-mail"
 msgstr "Email"
 
@@ -205,13 +265,25 @@ msgstr "Ingat aku"
 msgid "Log in"
 msgstr "Masuk"
 
-#: user-login.php:58 item-sidebar.php:64 header.php:55 footer.php:43
-msgid "Register for a free account"
-msgstr "Mendaftar untuk akun gratis"
-
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "Lupa kata sandi?"
+
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Membatalkan"
+
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Gambar sebelumnya"
+
+#: common/head.php:73
+msgid "Next image"
+msgstr "Gambar berikutnya"
+
+#: common/head.php:74
+msgid "Close"
+msgstr "Tutup"
 
 #: item-sidebar.php:30
 msgid "Mark as..."
@@ -253,12 +325,8 @@ msgstr "Ini daftar Anda sendiri, Anda tidak dapat menghubungi penerbit."
 msgid "You must log in or register a new account in order to contact the advertiser"
 msgstr "Anda harus masuk atau mendaftarkan akun baru untuk menghubungi pengiklan"
 
-#: item-sidebar.php:63 functions.php:449 header.php:53 footer.php:40
-msgid "Login"
-msgstr "Login"
-
-#: item-sidebar.php:68 user-profile.php:46 user-register.php:39
-#: item-post.php:179
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
 msgid "Name"
 msgstr "Nama"
 
@@ -285,9 +353,14 @@ msgstr "Alamat email Anda"
 msgid "Phone number"
 msgstr "Nomor telepon"
 
-#: item-sidebar.php:93 user-public-sidebar.php:41 contact.php:41 contact.php:54
+#: item-sidebar.php:93 contact.php:41 contact.php:54 user-public-sidebar.php:41
 msgid "optional"
 msgstr "fakultatif"
+
+#: item-sidebar.php:98 item-send-friend.php:78 contact.php:60
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr "Pesan"
 
 #: item-sidebar.php:104
 msgid "Attachment"
@@ -317,69 +390,166 @@ msgstr "Berlangganan pencarian ini"
 msgid "Subscribe now"
 msgstr "Berlangganan sekarang"
 
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "Pencarian Anda"
-
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "Kota"
-
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Tampilkan saja"
-
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "daftar dengan gambar"
-
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Harga"
-
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Min"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Maks"
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Berlaku"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Memperbaiki kategori"
-
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "Mengubah e-mail"
-
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "Email saat ini"
-
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "Email baru"
-
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "Email: bidang ini diperlukan"
-
-#: user-recover.php:30 user-forgot_password.php:30
-msgid "Recover your password"
-msgstr "Memulihkan kata sandi Anda"
-
 #: user-recover.php:45
 msgid "Send me a new password"
 msgstr "Kirimi saya kata sandi baru"
 
-#: user-profile.php:32 user-profile.php:37 functions.php:445
+#: user-public-profile.php:67
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "Alamat <strong>:</strong> %1$s"
+
+#: user-public-profile.php:70
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "Lokasi <strong>:</strong> %1$s"
+
+#: user-public-profile.php:75
+msgid "User description"
+msgstr "Deskripsi pengguna"
+
+#: user-public-profile.php:80
+msgid "Latest listings"
+msgstr "Daftar terbaru"
+
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "Ie. PHP Programmer"
+
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Menerbitkan daftar"
+
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Mengedit daftar Anda"
+
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "Kirim ke teman"
+
+#: functions.php:438
+msgid "Search results"
+msgstr "Hasil pencarian"
+
+#: functions.php:439
+#, php-format
+msgid "Search results: %s"
+msgstr "Hasil pencarian: %s"
+
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: functions.php:441
+#, php-format
+msgid "%s's profile"
+msgstr "profil %s"
+
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Rekening"
+
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "Daftar"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "Tanda"
+
+#: functions.php:445 user-profile.php:32 user-profile.php:37
 msgid "Update account"
 msgstr "Memperbarui akun"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Mengubah email"
+
+#: functions.php:447 functions.php:506 user-change_username.php:34
+#: user-change_username.php:39
+msgid "Change username"
+msgstr "Mengubah nama pengguna"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Memulihkan kata sandi"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Membuat akun baru"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Profil Publik"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Pengaturan tema diperbarui dengan benar"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Gambar logo telah diunggah dengan benar"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Timbul galat, silakan coba lagi"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Gambar logo telah dihapus"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Gambar tidak ditemukan"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "Logo header"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "Setelan tema"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Semua kategori"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "Anda belum memiliki peringatan"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "Siaga"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Tindakan ini tidak dapat dibatalkan. Apakah Anda yakin ingin melanjutkan?"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "Hapus peringatan ini"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Daftar Terbaru"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Tidak ada daftar yang tersedia saat ini"
+
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Daftar"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Grid"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Lihat semua daftar"
 
 #: user-profile.php:52
 msgid "User type"
@@ -417,29 +587,74 @@ msgstr "Situs Web"
 msgid "Description"
 msgstr "Deskripsi"
 
-#: main.php:38
-msgid "Latest Listings"
-msgstr "Daftar Terbaru"
+#: user-profile.php:115 user-change_password.php:64 item-post.php:211
+#: user-change_email.php:59 user-change_username.php:102
+msgid "Update"
+msgstr "Pemutakhiran"
 
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "Tidak ada daftar yang tersedia saat ini"
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Kata sandi saat ini"
 
-#: main.php:45 admin/settings.php:60 search.php:80
-msgid "List"
-msgstr "Daftar"
+#: item-post.php:57
+msgid "General Information"
+msgstr "Informasi Umum"
 
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Grid"
+#: item-post.php:59
+msgid "Category"
+msgstr "Golongan"
 
-#: main.php:57
-msgid "See all listings"
-msgstr "Lihat semua daftar"
+#: item-post.php:61 header.php:74
+msgid "Select a category"
+msgstr "Memilih kategori"
 
-#: admin/header.php:29 functions.php:666
-msgid "Header logo"
-msgstr "Logo header"
+#: item-post.php:89
+msgid "Listing Location"
+msgstr "Lokasi Daftar"
+
+#: item-post.php:162
+msgid "City Area"
+msgstr "Wilayah Kota"
+
+#: item-post.php:177
+msgid "Seller's information"
+msgstr "Informasi Penjual"
+
+#: item-post.php:192
+msgid "Show e-mail on the listing page"
+msgstr "Tampilkan email di halaman daftar"
+
+#: item-post.php:211
+msgid "Publish"
+msgstr "Menerbitkan"
+
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "Nama temanmu"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "Alamat email teman Anda"
+
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Subjek (opsional)"
+
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Mendaftarkan akun secara gratis"
+
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Ulangi kata sandi"
+
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "Kata sandi tidak cocok"
+
+#: user-register.php:73
+msgid "Create"
+msgstr "Menciptakan"
 
 #: admin/header.php:35
 msgid "Preview"
@@ -501,10 +716,6 @@ msgstr "Adat"
 #: admin/settings.php:42
 msgid "Donate"
 msgstr "Menyumbangkan"
-
-#: admin/settings.php:46 functions.php:668
-msgid "Theme settings"
-msgstr "Setelan tema"
 
 #: admin/settings.php:52
 msgid "Search placeholder"
@@ -614,246 +825,6 @@ msgstr "Iklan ini akan ditampilkan di sidebar kanan situs web Anda, di halaman d
 msgid "Save changes"
 msgstr "Menyimpan perubahan"
 
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Mendaftarkan akun secara gratis"
-
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Ulangi kata sandi"
-
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "Kata sandi tidak cocok"
-
-#: user-register.php:73
-msgid "Create"
-msgstr "Menciptakan"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "Membatalkan"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Gambar sebelumnya"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Gambar berikutnya"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "Tutup"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "Ie. PHP Programmer"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Menerbitkan daftar"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "Mengedit daftar Anda"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Hasil pencarian"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Hasil pencarian: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Dashboard"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "profil %s"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "Rekening"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "Mengubah email"
-
-#: functions.php:448 functions.php:451 functions.php:511
-#: user-forgot_password.php:52 user-change_password.php:32
-#: user-change_password.php:37
-msgid "Change password"
-msgstr "Mengubah kata sandi"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Memulihkan kata sandi"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Membuat akun baru"
-
-#: functions.php:453 footer.php:65 user-public-sidebar.php:26
-msgid "Contact"
-msgstr "Kontak"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Profil Publik"
-
-#: functions.php:516 user-sidebar.php:28
-msgid "Delete account"
-msgstr "Hapus akun"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Pengaturan tema diperbarui dengan benar"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Gambar logo telah diunggah dengan benar"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Timbul galat, silakan coba lagi"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "Gambar logo telah dihapus"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "Gambar tidak ditemukan"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Semua kategori"
-
-#: loop-single.php:48 loop-single-premium.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Tindakan ini tidak dapat dibatalkan. Apakah Anda yakin ingin melanjutkan?"
-
-#: loop-single.php:51 loop-single-premium.php:51
-msgid "Activate"
-msgstr "Mengaktifkan"
-
-#: header.php:48 footer.php:35
-#, php-format
-msgid "Hi %s"
-msgstr "Hi %s"
-
-#: header.php:49 footer.php:36
-msgid "My account"
-msgstr "Akun saya"
-
-#: header.php:50 footer.php:37
-msgid "Logout"
-msgstr "Logout"
-
-#: header.php:60 footer.php:50
-msgid "Publish your ad for free"
-msgstr "Publikasikan iklan Anda secara gratis"
-
-#: header.php:74 item-post.php:61
-msgid "Select a category"
-msgstr "Memilih kategori"
-
-#: header.php:80 404.php:40
-msgid "Search"
-msgstr "Mencari"
-
-#: user-public-profile.php:67
-#, php-format
-msgid "<strong>Address:</strong> %1$s"
-msgstr "Alamat <strong>:</strong> %1$s"
-
-#: user-public-profile.php:70
-#, php-format
-msgid "<strong>Location:</strong> %1$s"
-msgstr "Lokasi <strong>:</strong> %1$s"
-
-#: user-public-profile.php:75
-msgid "User description"
-msgstr "Deskripsi pengguna"
-
-#: user-public-profile.php:80
-msgid "Latest listings"
-msgstr "Daftar terbaru"
-
-#: 404.php:30
-msgid "Sorry but I can't find the page you're looking for"
-msgstr "Maaf tapi aku tidak bisa menemukan halaman yang kau cari"
-
-#: 404.php:32
-msgid "Let us help you, we have got a few tips for you to find it."
-msgstr "Mari kita bantu Anda, kami punya beberapa tips bagi Anda untuk menemukannya."
-
-#: 404.php:35
-msgid "<strong>Search</strong> for it:"
-msgstr "<strong>mencari</strong> untuk itu:"
-
-#: 404.php:44
-msgid "<strong>Look</strong> for it in the most popular categories."
-msgstr "<strong>Look</strong> untuk itu dalam kategori yang paling populer."
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Menu tampilan"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Apakah Anda yakin ingin menghapus akun Anda?"
-
-#: footer.php:69
-#, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Situs web ini dengan bangga menggunakan skrip <a title=\"Osclass web\" href=\"%s\"></a> perangkat lunak <strong>Osclass</strong>"
-
-#: footer.php:74
-msgid "Language:"
-msgstr "Bahasa:"
-
-#: item-post.php:57
-msgid "General Information"
-msgstr "Informasi Umum"
-
-#: item-post.php:59
-msgid "Category"
-msgstr "Golongan"
-
-#: item-post.php:89
-msgid "Listing Location"
-msgstr "Lokasi Daftar"
-
-#: item-post.php:162
-msgid "City Area"
-msgstr "Wilayah Kota"
-
-#: item-post.php:177
-msgid "Seller's information"
-msgstr "Informasi Penjual"
-
-#: item-post.php:192
-msgid "Show e-mail on the listing page"
-msgstr "Tampilkan email di halaman daftar"
-
-#: item-post.php:211
-msgid "Publish"
-msgstr "Menerbitkan"
-
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Kata sandi baru"
-
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Mengulangi kata sandi baru"
-
 #: user-items.php:41
 msgid "My listings"
 msgstr "Daftar saya"
@@ -861,6 +832,18 @@ msgstr "Daftar saya"
 #: user-items.php:43
 msgid "No listings have been added yet"
 msgstr "Belum ada daftar yang ditambahkan"
+
+#: contact.php:31
+msgid "Contact us"
+msgstr "Hubungi"
+
+#: contact.php:47 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr "Alamat email Anda"
+
+#: contact.php:53
+msgid "Subject"
+msgstr "Subyek"
 
 #: search.php:55
 msgid "Selected"
@@ -896,19 +879,35 @@ msgstr "Daftar premium"
 msgid "Other searches that may interest you"
 msgstr "Pencarian lain yang mungkin menarik minat Anda"
 
-#: user-public-sidebar.php:37 contact.php:47
-msgid "Your email address"
-msgstr "Alamat email Anda"
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "Mengubah e-mail"
 
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Kata sandi saat ini"
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "Email saat ini"
 
-#: contact.php:31
-msgid "Contact us"
-msgstr "Hubungi"
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Email baru"
 
-#: contact.php:53
-msgid "Subject"
-msgstr "Subyek"
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "Email: bidang ini diperlukan"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Nama pengguna: bidang ini diperlukan"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Nama pengguna tersedia"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Nama pengguna tidak tersedia"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Nama pengguna"
 
