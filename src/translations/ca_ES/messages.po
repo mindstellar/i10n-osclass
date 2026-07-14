@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2023-04-03 10:27+0000\n"
-"PO-Revision-Date: 2023-04-03 10:34\n"
+"POT-Creation-Date: 2026-07-14 08:33+0000\n"
+"PO-Revision-Date: 2026-07-14 09:10\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -17,214 +17,216 @@ msgstr ""
 "X-Crowdin-File: /develop/src/templates/messages.pot\n"
 "X-Crowdin-File-ID: 8223\n"
 
-#: oc-includes/osclass/classes/controller/CWebContact.php:57
-#: oc-includes/osclass/classes/controller/CWebItem.php:147
-#: oc-includes/osclass/classes/controller/CWebItem.php:272
-#: oc-includes/osclass/classes/controller/CWebItem.php:476
-#: oc-includes/osclass/classes/controller/CWebItem.php:535
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:217
-msgid "The Recaptcha code is wrong"
-msgstr "El codi reCAPTCHA és incorrecte."
+#: oc-includes/osclass/emails.php:861
+msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
+msgstr "T'hem enviat un e-mail. Segueix-ne les instruccions per a activar els canvis."
 
-#: oc-includes/osclass/classes/controller/CWebContact.php:69
-#: oc-includes/osclass/classes/controller/CWebContact.php:81
-#: oc-includes/osclass/classes/controller/CWebRegister.php:72
-#: oc-includes/osclass/classes/controller/CWebLogin.php:111
-#: oc-includes/osclass/classes/controller/CWebItem.php:167
-#: oc-includes/osclass/classes/controller/CWebItem.php:550
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:231
-msgid "Your current email is not allowed"
-msgstr "El teu email actual no està permès"
+#: oc-includes/osclass/emails.php:864
+msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
+msgstr "Hem intentat enviar-te un e-mail però hem fallat. Si us plau, contacta amb l'administrador."
 
-#: oc-includes/osclass/classes/controller/CWebContact.php:72
-#: oc-includes/osclass/classes/controller/CWebRegister.php:75
-#: oc-includes/osclass/classes/controller/CWebLogin.php:114
-#: oc-includes/osclass/classes/controller/CWebItem.php:170
-#: oc-includes/osclass/classes/controller/CWebItem.php:553
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:234
-msgid "Your current IP is not allowed"
-msgstr "La teva IP actual no està permesa"
+#: oc-includes/osclass/emails.php:1122
+msgid "There has been some errors sending the message"
+msgstr "Hi ha hagut alguns errors a l'hora d'enviar el missatge."
 
-#: oc-includes/osclass/classes/controller/CWebContact.php:86
-msgid "Please enter a correct email"
-msgstr "Si us plau, introdueix un email correcte"
+#: oc-includes/osclass/classes/actions/ItemActions.php:124
+msgid "Name too long."
+msgstr "El nom és massa llarg."
 
-#: oc-includes/osclass/classes/controller/CWebContact.php:168
+#: oc-includes/osclass/classes/actions/ItemActions.php:125
+msgid "Email invalid."
+msgstr "Enviar per correu electrònic vàlida."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:131
+msgid "Too fast. You should wait a little to publish your ad."
+msgstr "Massa ràpid. Vostè ha d'esperar una mica per publicar el seu anunci."
+
 #: oc-includes/osclass/classes/actions/ItemActions.php:329
+#: oc-includes/osclass/classes/controller/CWebContact.php:168
 msgid "The file you tried to upload does not have a valid extension"
 msgstr "L'arxiu que intentes pujar no té una extensió vàlida."
 
-#: oc-includes/osclass/classes/controller/CWebContact.php:182
-msgid "Your email has been sent properly. Thank you for contacting us!"
-msgstr "El teu email s'ha enviat correctament. Gràcies per contactar amb nosaltres!"
+#: oc-includes/osclass/classes/actions/ItemActions.php:357
+msgid "One of the files you tried to upload exceeds the maximum size"
+msgstr "Un dels arxius que intentes carregar excedeix el tamany máxim"
 
-#: oc-includes/osclass/classes/controller/CWebRegister.php:40
-#: oc-includes/osclass/classes/controller/CWebLogin.php:39
+#: oc-includes/osclass/classes/actions/ItemActions.php:419
+msgid "Image with an incorrect extension."
+msgstr "Imatge amb extensió incorrecta"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:422
+msgid "Image is too big. Max. size"
+msgstr "Imatge massa gran. Mida màxima"
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:432
+#, php-format
+msgid "Title too short (%s)."
+msgstr "Títol massa curt (%s)."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:434
+#, php-format
+msgid "Title too long (%s)."
+msgstr "Títol massa llarg (%s)."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:444
+#, php-format
+msgid "Description too short (%s)."
+msgstr "Descripció massa curta (%s)."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:447
+#, php-format
+msgid "Description too long (%s)."
+msgstr "Descripció massa llarga (%s)."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:451
+msgid "Category invalid."
+msgstr "Categoria vàlid."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:452
+msgid "Price must be a number."
+msgstr "Preu ha de ser un nombre."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:455
+msgid "Price too long."
+msgstr "Preu massa llarg."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:459
+msgid "Price must be positive number."
+msgstr "El preu ha de ser un nombre positiu."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:461
+msgid "Country too short."
+msgstr "País molt curt."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:463
+msgid "Country too long."
+msgstr "País massa llarg."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:465
+msgid "Region too short."
+msgstr "Regió massa curt."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:467
+msgid "Region too long."
+msgstr "Regió massa llarg."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:469
+msgid "City too short."
+msgstr "Ciutat molt curt."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:470
+msgid "City too long."
+msgstr "Ciutat de molt temps."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:472
+msgid "Municipality too short."
+msgstr "Municipi massa curt."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:474
+msgid "Municipality too long."
+msgstr "Municipi massa llarg."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:476
+msgid "Address too short."
+msgstr "Adreça massa curta."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:478
+msgid "Address too long."
+msgstr "Adreçar massa molt de temps."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:480
+msgid "Phone invalid."
+msgstr "El telèfon no és vàlid."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:574
+#: oc-includes/osclass/classes/actions/ItemActions.php:588
+#: oc-includes/osclass/classes/actions/ItemActions.php:599
+#: oc-includes/osclass/classes/actions/ItemActions.php:609
+#: oc-includes/osclass/classes/actions/ItemActions.php:611
+#, php-format
+msgid "%s is invalid."
+msgstr "%s no és vàlid."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:577
+#: oc-includes/osclass/classes/actions/ItemActions.php:580
+#: oc-includes/osclass/classes/actions/ItemActions.php:591
+#: oc-includes/osclass/classes/actions/ItemActions.php:602
+#: oc-includes/osclass/classes/actions/ItemActions.php:614
+#: oc-includes/osclass/classes/actions/ItemActions.php:621
+#, php-format
+msgid "%s is required."
+msgstr "%s és necessari."
+
+#: oc-includes/osclass/classes/actions/ItemActions.php:1392
+#, php-format
+msgid "We just sent your message to %s"
+msgstr "Hem enviat el teu missatge a %s."
+
+#: oc-includes/osclass/classes/actions/UserActions.php:65
+msgid "The reCAPTCHA was not entered correctly"
+msgstr "El reCAPTCHA no s'ha entrat correctament."
+
+#: oc-includes/osclass/classes/actions/UserActions.php:70
+msgid "The password cannot be empty"
+msgstr "La contrasenya no pot estar buida."
+
+#: oc-includes/osclass/classes/actions/UserActions.php:75
+#: oc-includes/osclass/classes/actions/UserActions.php:320
+#: oc-includes/osclass/classes/controller/CWebUser.php:242
+msgid "Passwords don't match"
+msgstr "Les contrasenyes no coincideixen."
+
+#: oc-includes/osclass/classes/actions/UserActions.php:86
+#: oc-includes/osclass/classes/actions/UserActions.php:313
+msgid "The name cannot be empty"
+msgstr "El nom no es pot deixar en blanc"
+
+#: oc-includes/osclass/classes/actions/UserActions.php:91
+msgid "The email is not valid"
+msgstr "El correu electrònic no és vàlid."
+
+#: oc-includes/osclass/classes/actions/UserActions.php:100
+#, php-format
+msgid "The field %s is too long"
+msgstr ""
+
+#: oc-includes/osclass/classes/actions/UserActions.php:109
+#: oc-includes/osclass/classes/controller/CWebUser.php:138
+msgid "The specified e-mail is already in use"
+msgstr "El correu electrònic especificat ja està sent utilitzat."
+
+#: oc-includes/osclass/classes/actions/UserActions.php:116
+msgid "Username is already taken"
+msgstr "Nom d'usuari existent"
+
+#: oc-includes/osclass/classes/actions/UserActions.php:120
+#: oc-includes/osclass/classes/controller/CWebUser.php:190
+msgid "The specified username is not valid, it contains some invalid words"
+msgstr "Aquest nom d'usuari no és vàlid, conté algunes paraules no vàlides."
+
+#: oc-includes/osclass/classes/actions/UserActions.php:302
+#, php-format
+msgid "The specified e-mail is already used by %s"
+msgstr "L'e-mail especificat ja està en ús per %s"
+
+#: oc-includes/osclass/classes/Csrf.php:181
+msgid "Probable invalid request."
+msgstr "Petició probablement no vàlida."
+
+#: oc-includes/osclass/classes/Csrf.php:184
+msgid "Invalid CSRF token."
+msgstr "Token CSRF invalid"
+
 #: oc-includes/osclass/classes/controller/CWebUser.php:39
+#: oc-includes/osclass/classes/controller/CWebRegister.php:40
 #: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:42
+#: oc-includes/osclass/classes/controller/CWebLogin.php:39
 msgid "Users not enabled"
 msgstr "Els usuaris no s'han habilitat."
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:45
-msgid "User registration is not enabled"
-msgstr "El registre d'usuaris no està habilitat."
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:64
-#: oc-includes/osclass/classes/controller/CWebLogin.php:51
-msgid "Users are not enabled"
-msgstr "Els usuaris no estan habilitats."
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:82
-msgid "The user has been created. An activation email has been sent"
-msgstr "L'usuari s'ha creat correctament. T'hem enviat un correu electrònic d'activació."
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:85
-msgid "Your account has been created successfully"
-msgstr "El teu compte s'ha creat correctament."
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:103
-msgid "The link is not valid anymore. Sorry for the inconvenience!"
-msgstr "L'enllaç ja no es válid."
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:108
-msgid "Your account has already been validated"
-msgstr "El teu compte ja ha estat comprovat."
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:129
-msgid "Your account has been validated"
-msgstr "El teu compte ha estat comprovat."
-
-#: oc-includes/osclass/classes/controller/CWebRegister.php:131
-msgid "Account validation failed"
-msgstr "Validació de compte fallida"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:62
-msgid "Please provide an email address"
-msgstr "Si us plau, introdueix una adreça e-mail"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:66
-msgid "Empty passwords are not allowed. Please provide a password"
-msgstr "No es permeten contrassenyes en blanc. Si us plau, introdueix una contrasenya."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:80
-#: oc-includes/osclass/classes/controller/CWebLogin.php:157
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:656
-msgid "The user doesn't exist"
-msgstr "L'usuari no existeix."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:104
-msgid "The password is incorrect"
-msgstr "La contrasenya es incorrecta."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:161
-#, php-format
-msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
-msgstr "L'usuari no ha estat validat encara. Vols tornar a enviar l'<a href=\"%s\">activació?</a>"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:165
-msgid "The user has not been validated yet"
-msgstr "El usuari encara no ha estat comprovat."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:168
-msgid "The user has been suspended"
-msgstr "L'usuari ha estat suspès."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:197
-msgid "This should never happen"
-msgstr "Això no hauria de passar mai"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:213
-msgid "Incorrect link"
-msgstr "Link incorrecte"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:227
-msgid "Validation email re-sent"
-msgstr "E-mail de validació enviat"
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:229
-msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
-msgstr "Acabem d'enviar-te un email per validar el teu compte. Hauràs d'esperar uns minuts per tornar-lo a enviar."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:243
-msgid "Invalid email address"
-msgstr "Adreça de correu electrònic invàlida."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:252
-msgid "We have sent you an email with the instructions to reset your password"
-msgstr "T'hem enviat un correu electrònic amb les instruccions per restablir la teva contrasenya."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:256
-msgid "We were not able to identify you given the information provided"
-msgstr "No hem pogut identificar-te amb la informació proporcionada."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:260
-msgid "The recaptcha code is wrong"
-msgstr "El codi reCAPTCHA és incorrecte."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:271
-#: oc-includes/osclass/classes/controller/CWebLogin.php:319
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
-msgid "Sorry, the link is not valid"
-msgstr "Ho sentim, l'enllaç no es válid."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:280
-#: oc-includes/osclass/classes/controller/CWebUser.php:221
-msgid "Password cannot be blank"
-msgstr "No pots deixar en blanc la contrasenya."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:309
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
-msgid "The password has been changed"
-msgstr "La contrasenya s'ha canviat."
-
-#: oc-includes/osclass/classes/controller/CWebLogin.php:312
-msgid "Error, the password don't match"
-msgstr "Error. La contrasenya no coincideix."
-
-#: oc-includes/osclass/classes/controller/CWebAjax.php:107
-#: oc-includes/osclass/classes/controller/CWebAjax.php:203
-#: oc-includes/osclass/classes/controller/CWebItem.php:427
-msgid "The selected photo has been successfully deleted"
-msgstr "La imatge seleccionada ha estat eliminada correctament."
-
-#: oc-includes/osclass/classes/controller/CWebAjax.php:128
-#: oc-includes/osclass/classes/controller/CWebItem.php:383
-msgid "The selected photo couldn't be deleted, the url doesn't exist"
-msgstr "La imatge seleccionada no pot ser eliminada, la URL no existeix."
-
-#: oc-includes/osclass/classes/controller/CWebAjax.php:140
-#: oc-includes/osclass/classes/controller/CWebItem.php:389
-msgid "The listing doesn't exist"
-msgstr "L'anunci no existeix."
-
-#: oc-includes/osclass/classes/controller/CWebAjax.php:150
-#: oc-includes/osclass/classes/controller/CWebAjax.php:161
-#: oc-includes/osclass/classes/controller/CWebItem.php:395
-#: oc-includes/osclass/classes/controller/CWebItem.php:402
-msgid "The listing doesn't belong to you"
-msgstr "L'anunci no et pertany."
-
-#: oc-includes/osclass/classes/controller/CWebAjax.php:206
-#: oc-includes/osclass/classes/controller/CWebItem.php:429
-msgid "The selected photo does not belong to you"
-msgstr "La foto seleccionada no et pertany."
-
-#: oc-includes/osclass/classes/controller/CWebAjax.php:210
-#: oc-includes/osclass/classes/controller/CWebItem.php:432
-msgid "The selected photo couldn't be deleted"
-msgstr "La imatge seleccionada no s'ha pogut eliminar."
 
 #: oc-includes/osclass/classes/controller/CWebUser.php:103
 msgid "Your profile has been updated successfully"
 msgstr "El teu perfil ha estat modificat correctament."
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:138
-#: oc-includes/osclass/classes/actions/UserActions.php:98
-msgid "The specified e-mail is already in use"
-msgstr "El correu electrònic especificat ja està sent utilitzat."
 
 #: oc-includes/osclass/classes/controller/CWebUser.php:170
 msgid "The specified e-mail is not valid"
@@ -234,11 +236,6 @@ msgstr "El correu electrònic especificat no es vàlid."
 msgid "The specified username is already in use"
 msgstr "L'usuari especificat ja existeix."
 
-#: oc-includes/osclass/classes/controller/CWebUser.php:190
-#: oc-includes/osclass/classes/actions/UserActions.php:109
-msgid "The specified username is not valid, it contains some invalid words"
-msgstr "Aquest nom d'usuari no és vàlid, conté algunes paraules no vàlides."
-
 #: oc-includes/osclass/classes/controller/CWebUser.php:196
 msgid "The username was updated"
 msgstr "El nom d'usuari s'ha actualitzat"
@@ -247,6 +244,11 @@ msgstr "El nom d'usuari s'ha actualitzat"
 msgid "The specified username could not be empty"
 msgstr "Aquest nom d'usuari no pot estar en blanc"
 
+#: oc-includes/osclass/classes/controller/CWebUser.php:221
+#: oc-includes/osclass/classes/controller/CWebLogin.php:280
+msgid "Password cannot be blank"
+msgstr "No pots deixar en blanc la contrasenya."
+
 #: oc-includes/osclass/classes/controller/CWebUser.php:230
 msgid "Current password doesn't match"
 msgstr "La contrasenya actual no coincideix."
@@ -254,12 +256,6 @@ msgstr "La contrasenya actual no coincideix."
 #: oc-includes/osclass/classes/controller/CWebUser.php:235
 msgid "Passwords can't be empty"
 msgstr "Les contrasenyes no poden estar buides."
-
-#: oc-includes/osclass/classes/controller/CWebUser.php:242
-#: oc-includes/osclass/classes/actions/UserActions.php:75
-#: oc-includes/osclass/classes/actions/UserActions.php:309
-msgid "Passwords don't match"
-msgstr "Les contrasenyes no coincideixen."
 
 #: oc-includes/osclass/classes/controller/CWebUser.php:257
 msgid "Password has been changed"
@@ -294,174 +290,66 @@ msgstr "El teu compte s'ha esborrat"
 msgid "Oops! you can not do that"
 msgstr "Ups! No pots fer això."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:72
-#: oc-includes/osclass/classes/controller/CWebItem.php:140
-msgid "Only registered users are allowed to post listings"
-msgstr "Només els usuaris registrats poden publicar anuncis."
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
+msgid "The comments have been deleted"
+msgstr "Els comentaris han estat eliminats."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:160
-msgid "A user with that email address already exists, if it is you, please log in"
-msgstr "Ja existeix un usuari amb aquesta adreça de correo. Si ets tu, si us plau inicia sessió."
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
+msgid "The comments have been approved"
+msgstr "Els comentaris han estat aprovats."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:188
-msgid "Check your inbox to validate your listing"
-msgstr "Comproveu la safata d'entrada per validar l'anunci"
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
+msgid "The comments have been disapproved"
+msgstr "Els comentaris han estat descartats."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:190
-msgid "Your listing will be published after an admin approves it."
-msgstr "La vostra fitxa es publicarà després que l’administrador l’aprovi."
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
+msgid "The comments have been unblocked"
+msgstr "Els comentaris han estat desbloquejats"
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:192
-msgid "Your listing has been published"
-msgstr "El teu anunci ha estat publicat."
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
+msgid "The comments have been blocked"
+msgstr "Els comentaris han estat bloquejats"
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:228
-msgid "Sorry, we don't have any listings with that ID"
-msgstr "Ho sentim, no tenim cap anunci amb aquesta ID"
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
+msgid "The comment has been approved"
+msgstr "El comentari ha estat aprovat."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:288
-msgid "Your listing will be published after an admin approves the changes."
-msgstr "La vostra fitxa es publicarà després que un administrador aprovi els canvis."
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
+msgid "The comment has been disapproved"
+msgstr "El comentari ha estat descartat."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:290
-msgid "Great! We've just updated your listing"
-msgstr "Fantàstic! Acabem d'actualitzar el teu anunci."
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
+msgid "The comment has been enabled"
+msgstr "El comentari s'ha habilitat."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:328
-msgid "The listing has been validated"
-msgstr "L'anunci ha estat comprovat."
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
+msgid "The comment has been disabled"
+msgstr "El comentari ha estat desactivat."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:330
-msgid "The listing can't be validated"
-msgstr "No s'ha pogut comprovar l'anunci."
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
+msgid "Email is not correct"
+msgstr "El correu electrònic no és correcte."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:333
-msgid "The listing has already been validated"
-msgstr "L'anunci ja ha estat comprovat."
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
+msgid "Comment is required"
+msgstr "El comentari és obligatori."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:352
-msgid "Your listing has been deleted"
-msgstr "El teu anunci s'ha eliminat."
+#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
+msgid "Great! We just updated your comment"
+msgstr "Fantàstic! Hem actualitzat el teu comentari!"
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:354
-#: oc-includes/osclass/classes/controller/CWebItem.php:362
-msgid "The listing you are trying to delete couldn't be deleted"
-msgstr "No s'ha pogut eliminar l'anunci que estàs intentant eliminar."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:454
-msgid "Thanks! That's very helpful"
-msgstr "Gràcies! Has estat molt útil!"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:499
-#: oc-includes/osclass/classes/controller/CWebItem.php:641
-msgid "This listing doesn't exist"
-msgstr "Aquest anunci no existeix."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:506
-#: oc-includes/osclass/classes/controller/CWebItem.php:559
-msgid "We're sorry, but the listing has expired. You can't contact the seller"
-msgstr "Ho sentim, però l'anunci ha caducat. Ja no pots posar-te en contacte amb el venedor."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:516
-#: oc-includes/osclass/classes/controller/CWebItem.php:528
-msgid "You can't contact the seller, only registered users can"
-msgstr "Només els usuaris registrats poden posar-se en contacte amb el venedor."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:518
-#, php-format
-msgid "<a href=\"%s\">Click here to sign-in</a>"
-msgstr "<a href=\"%s\"> Feu clic aquí per iniciar la sessió </a>"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:573
-msgid "We've just sent an e-mail to the seller"
-msgstr "Acabem d'enviar un correu electrònic al venedor."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:591
-msgid "Sorry, we could not save your comment. Try again later"
-msgstr "Ho sentim, però no hem pogut desar el teu comentari. Torna a intentar-ho més endavant."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:595
-msgid "Your comment is awaiting moderation"
-msgstr "El teu comentari está esperant moderació."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:599
-msgid "Your comment has been approved"
-msgstr "El teu comentari ha estat aprovat."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:603
-msgid "Please fill the required field (email)"
-msgstr "Si us plau, omple el camp obligatori (correu electrònic)."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:607
-msgid "Please type a comment"
-msgstr "Si us plau, escriu un comentari."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:611
-msgid "Your comment has been marked as spam"
-msgstr "El teu comentari ha estat marcat com a contingut brossa."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:615
-msgid "You need to be logged to comment"
-msgstr "Has d'haver iniciat sessió per a comentar"
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:619
-msgid "Sorry, comments are disabled"
-msgstr "Ho sentim, comentaris desactivats."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:648
-msgid "You must be logged in to delete a comment"
-msgstr "Has d'haver accedit al web per esborrar un comentari."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:656
-msgid "The comment doesn't exist"
-msgstr "El comentari no existeix."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:661
-msgid "The comment is not active, you cannot delete it"
-msgstr "El comentari no está actiu. No pots eliminar-lo."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:666
-msgid "The comment was not added by you, you cannot delete it"
-msgstr "No pots eliminar el comentari perquè no el vas fer tu."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:671
 #: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:229
+#: oc-includes/osclass/classes/controller/CWebItem.php:675
 msgid "The comment has been deleted"
 msgstr "El comentari ha estat eliminat."
 
-#: oc-includes/osclass/classes/controller/CWebItem.php:702
-msgid "The listing hasn't been validated. Please validate it in order to make it public"
-msgstr "L'anunci no s'ha validat. Si us plau, valida'l per fer-lo públic. "
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:712
-msgid "The listing hasn't been enabled. Please enable it in order to make it public"
-msgstr "L'anunci no ha estat activat. Si us plau, activa'l per a poder fer-lo públic."
-
-#: oc-includes/osclass/classes/controller/CWebItem.php:718
-msgid "The listing has been blocked or is awaiting moderation from the admin"
-msgstr "L'anunci s'ha bloquejat o està esperant aprovació de l'administrador"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
-#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
-msgid "You don't have enough permissions"
-msgstr "No tens suficients permisos."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
-#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:56
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:98
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:144
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:159
 #: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:174
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:57
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:61
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:93
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:150
@@ -472,89 +360,492 @@ msgstr "No tens suficients permisos."
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:409
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:482
 #: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:530
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:56
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:199
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:62
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:112
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:153
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:71
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:177
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:284
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:48
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:90
 msgid "This action can't be done because it's a demo site"
 msgstr "Aquesta acció no es pot executar perquè és una web demo"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
-msgid "Email invalid"
-msgstr "Correu electrònic no vàlid."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
+msgid "The plugin folder is not writable"
+msgstr "El directori del plugin no es pot escriure"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
-msgid "Username invalid"
-msgstr "Nom d´usuari no vàlid."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
+msgid "The plugin has been uploaded correctly"
+msgstr "El plugin ha estat carregat correctament."
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
-msgid "Name invalid"
-msgstr "Nom no vàlid."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
+msgid "The zip file is not valid"
+msgstr "L'arxiu zip no és vàlid."
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
-msgid "Password invalid"
-msgstr "Contrasenya no vàlida."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
+msgid "No file was uploaded"
+msgstr "No s'ha pujat cap arxiu."
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
-msgid "Email already in use"
-msgstr "El correu electrònic ja està en ús."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
+msgid "There was a problem adding the plugin"
+msgstr "Ha hagut un problema agregant el plugin"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
-msgid "Username already in use"
-msgstr "El nom d´usuari ja està en ús."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
+#, php-format
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
+msgstr "El plugin ha generat %d caràcters d'una <strong>sortida inesperada</strong> durant l'instal·lació. Sortida: \"%s\""
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
-msgid "Incorrent current password"
-msgstr "Contrasenya actual incorrecta"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
+msgid "Plugin is already installed"
+msgstr "Plugin ja està instal·lat"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
-msgid "The admin has been added"
-msgstr "L'administrador ha estat afegit."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
+msgid "Plugin couldn't be installed because their files are missing"
+msgstr "Plugin no es va poder instal·lar perquè els seus arxius no estan"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
-msgid "There has been an error adding a new admin"
-msgstr "S'ha produït un error en afegir un nou administrador"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
+#, php-format
+msgid "Plugin couldn't be installed because of: %s"
+msgstr "Plugin no es va poder instal·lar a causa de: %s"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
-msgid "There is no admin with this id"
-msgstr "No hi ha cap administrador amb aquesta id"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
+msgid "Plugin couldn't be installed"
+msgstr "Plugin no es pot instal·lar"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
-msgid "This admin doesn't exist"
-msgstr "L'administrador no existeix."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
+msgid "Plugin installed"
+msgstr "El plugin s´ha instalat correctament"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
-msgid "Existing email"
-msgstr "El correu electrònic ja existeix."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
+msgid "Plugin uninstalled"
+msgstr "El plugin s´ha desinstalat correctament"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
-msgid "Existing username"
-msgstr "El nom d'usuari ja existeix."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
+msgid "Plugin couldn't be uninstalled"
+msgstr "Plugin no pot ser desinstal·lat"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
-msgid "The password couldn't be updated. Passwords don't match"
-msgstr "No s'ha pogut canviar la contrasenya. Les contrasenyes no coincideixen."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
+msgid "Plugin enabled"
+msgstr "Plugin habilitat"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
-msgid "The admin has been updated"
-msgstr "L'administrador s'ha actualitzat correctament."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
+msgid "Plugin is already enabled"
+msgstr "Plugin ja està habilitat"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
-msgid "The admin id isn't in the correct format"
-msgstr "L'identificador d'administrador no té el format correcte."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
+msgid "Plugin disabled"
+msgstr "Plugin desactivat"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
-msgid "The operation hasn't been completed. You're trying to remove yourself!"
-msgstr "La operació no ha estat completada. Estàs intentant borrar el teu compte!"
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
+msgid "Plugin is already disabled"
+msgstr "Plugin ja està desactivada"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
-msgid "The admin has been deleted correctly"
-msgstr "L'administrador ha estat eliminat correctament."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
+msgid "Configuration was saved"
+msgstr "S'ha desat la configuració."
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
-msgid "The admin couldn't be deleted"
-msgstr "No s'ha pogut eliminar l'administrador."
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
+msgid "No plugin selected"
+msgstr "No hi ha cap plugin seleccionat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
+msgid "The files were deleted"
+msgstr "Els arxius s'han esborrat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
+#, php-format
+msgid "There were an error deleting the files, please check the permissions of the files in %s"
+msgstr "S'ha produït un error en esborrar els arxius. Si us plau, comprova els permissos dels arxius a %s."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
+msgid "Invalid plugin file"
+msgstr "El fitxer de complement no és vàlid"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
+msgid "You have to set an internal name"
+msgstr "Tens que especificar un nom intern per la pàgina."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
+msgid "You have to set a different internal name"
+msgstr "Vostè ha d'establir un nom intern diferent"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
+msgid "The page has been updated"
+msgstr "La pàgina s´ha modificat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
+msgid "You can't repeat internal name"
+msgstr "No pots repetir el nom intern."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
+msgid "The page couldn't be updated, at least one title should not be empty"
+msgstr "La pàgina no pot ser actualitzada, al menys un títol no pot estar buit"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
+msgid "The page has been added"
+msgstr "La pàgina ha estat afegida correctament"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
+msgid "The page couldn't be added, at least one title should not be empty"
+msgstr "La pàgina no pot ser afegida, al menys un títol no pot estar buit"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
+msgid "Oops! That internal name is already in use. We can't make the changes"
+msgstr "Ui! Aquest nom intern ja està en ús. No podem fer els canvis"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
+msgid "One page can't be deleted because it is indelible"
+msgstr "Alguna de les pàgines que intentes eliminar es necesaria per el funcionament del sistema i no pot ser eliminada"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
+#, php-format
+msgid "%s pages couldn't be deleted because they are indelible"
+msgstr "Pàgines %s no va poder ser eliminat, ja que són indelebles"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
+msgid "One page couldn't be deleted"
+msgstr "La pàgina no es pot eliminar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
+#, php-format
+msgid "%s pages couldn't be deleted"
+msgstr "Pàgines %s no va poder ser eliminat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
+msgid "One page has been deleted correctly"
+msgstr "La pàgina s´ha eliminat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
+#, php-format
+msgid "%s pages have been deleted correctly"
+msgstr "Pàgines %s s'han eliminat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
+msgid "Number of moderate comments must only contain numeric characters"
+msgstr "El nombre de comentaris moderats només pot contenir caràcters numèrics"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
+msgid "Comments per page must only contain numeric characters"
+msgstr "Comentaris per pàgina només pot contenir caràcters numèrics"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
+msgid "Comment settings have been updated"
+msgstr "La configuracuó dels comentaris s'ha actualitzat"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
+msgid "The currency code is not in the correct format"
+msgstr "El codi de la moneda no té el format correcte"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
+msgid "Currency added"
+msgstr "La moneda va afegir"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
+msgid "Currency couldn't be added"
+msgstr "De monedes no es pot afegir"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
+#, php-format
+msgid "The currency code '%s' doesn't exist"
+msgstr "El codi de la moneda '%s' no existeix"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
+msgid "Error: the currency code is not in the correct format"
+msgstr "Error: El codi de moneda no está en el format correcte"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
+msgid "Currency updated"
+msgstr "Moneda actualitzada"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
+msgid "No changes were made"
+msgstr "No es van fer canvis"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
+#, php-format
+msgid "%s couldn't be deleted because it has listings associated to it"
+msgstr "%s no s'ha pogut esborrar perquè hi té anuncis associats"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
+#, php-format
+msgid "%s couldn't be deleted because it's the default currency"
+msgstr "%s no s'ha pogut esborrar perquè és la moneda per defecte"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
+msgid "No currencies have been deleted"
+msgstr "No s´ha eliminat cap moneda"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
+msgid "One currency has been deleted"
+msgstr "La moneda s´ha eliminat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
+#, php-format
+msgid "%s currencies have been deleted"
+msgstr "%s monedes s´han eliminat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
+msgid "Your Akismet key has been cleared"
+msgstr "La clau de Akismet ha estat aprovat"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
+msgid "Your Akismet key has been updated"
+msgstr "La clau de Akismet ha estat actualitzat"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
+msgid "Your reCAPTCHA key has been cleared"
+msgstr "La teva clau de reCAPTCHA s'ha esborrat."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
+msgid "Your reCAPTCHA key has been updated"
+msgstr "La teva clau de reCAPTCHA s'ha actualitzat."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
+msgid "Last check"
+msgstr "Darrer xec"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
+msgid "Page title field is required"
+msgstr "Camp de títol de la pàgina és requerit"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
+msgid "Contact email field is required"
+msgstr "Poseu-vos en contacte amb el camp E-mail és obligatori"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
+msgid "Number of listings in the RSS has to be a numeric value"
+msgstr "Nombre d'anuncis a l'RSS ha de ser un valor numèric"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
+msgid "Max latest listings has to be a numeric value"
+msgstr "Màx. anuncis recents ha de ser un valor numèric"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
+msgid "Number of listings on search has to be a numeric value"
+msgstr "Nombre d'anuncis a la cerca ha de ser un valor numèric"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
+msgid "Number of listings in the RSS must be an integer"
+msgstr "Nombre d'anuncis en l'RSS ha de ser un nombre enter"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
+msgid "Number of recent listings displayed at home must be an integer"
+msgstr "El nombre d'anuncis recents mostrats a la pàgina principal ha de ser un nombre enter"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
+msgid "General settings have been updated"
+msgstr "La configuració s´ha modificat correctament."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
+msgid "Advanced settings have been updated"
+msgstr "Configuració avançada s'ha actualitzat"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
+msgid "Cache flushed correctly"
+msgstr "Cache netejada correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
+msgid "Custom number could not be left empty"
+msgstr "Nombre d'encàrrec no podia deixar en blanc"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
+msgid "Last search settings have been updated"
+msgstr "L'última configuració de cerca s'han actualitzat"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
+msgid "Mail server type is incorrect"
+msgstr "Error: El tipus de servidor d´E-mail es incorrecte"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
+msgid "Mail server configuration has changed"
+msgstr "La configuració del servidor d´E-mail s´ha modificat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
+msgid "All fields are required."
+msgstr "Tots els camps són obligatoris"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:644
+#, php-format
+msgid "One field was not updated"
+msgid_plural "%s fields were not updated"
+msgstr[0] "No s'ha actualitzat un camp"
+msgstr[1] "%s camps no s'han actualitzat"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
+msgid "Permalinks structure updated"
+msgstr "Estructura de permalinks actualitzada"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
+msgid "Permalinks structure updated."
+msgstr "Estructura de permalinks actualitzada."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
+msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
+msgstr "No obstant això, no podem comprovar si com a mòdul d'Apache <b>mod_rewrite</b>està carregat. Si vostè experimenta alguns problemes amb les adreces URLs, ha de desactivar <em>Amistós URLs</em>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
+msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
+msgstr "L'arxiu <b>.htaccess</b> no s'ha pogut emplenar amb el contingut adequat."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Aquest és el contingut que has d'afegir a l'arxiu <b>.htaccess</b>. Si no pots crear l'arxiu, si us plau desactiva l'opció <em> URLs amistoses </em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Aquest és el contingut que has d'afegir a l'arxiu <b>.htaccess</b>. Si no pots modificar l'arxiu o experimentes alguns problemes amb les URLs, si us plau desactiva l'opció <em>URLs Amistoses</em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
+msgid "File <b>.htaccess</b> already exists and was not modified."
+msgstr "L'arxiu <b>.htaccess</b> ja existeix i no s'ha modificat."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
+msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
+msgstr "Aquest és el contingut que has d'afegir a l'arxiu <b>.htaccess</b>. Si no pots crear l'arxiu, si us plau desactiva l'opció <em> URLs amistoses </em>."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
+msgid "Friendly URLs successfully deactivated"
+msgstr "Amistós URLs desactivat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
+msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
+msgstr "URLs Amistoses desactivat, però l'arxiu .htaccess no s'ha pogut esborrar. Si us plau, esborra'l manualment."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
+msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
+msgstr "URLs amistoses desactivat, però l'arxiu .htaccess s'ha modificat fora d'Osclass i no s'ha esborrat."
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
+#, php-format
+msgid "%s already was in the database"
+msgstr "%s ja era a la base de dades"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
+#, php-format
+msgid "%s has been added as a new country"
+msgstr "El pais %s s´ha afegit correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
+msgid "Country name cannot be blank"
+msgstr "Nom de país no pot estar en blanc"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
+msgid "Country has been edited"
+msgstr "El país ha estat editat"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
+msgid "There were some problems editing the country"
+msgstr "Hi va haver alguns problemes d'edició el país"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
+msgid "There was a problem deleting locations"
+msgstr "S'ha produït un error en esborrar les ubicacions"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
+msgid "No country was selected"
+msgstr "No s'ha sel·leccionat cap país"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
+msgid "Region name cannot be blank"
+msgstr "El nom de la regió no pot estar en blanc"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
+#, php-format
+msgid "%s has been added as a new region"
+msgstr "La provincia %s s´ha afegit correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
+#, php-format
+msgid "%s has been edited"
+msgstr "%s s´ha modificat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
+msgid "No region was selected"
+msgstr "No s'ha sel·leccionat cap regió"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
+msgid "New city name cannot be blank"
+msgstr "Nou nom de ciutat no es pot deixar en blanc"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
+#, php-format
+msgid "%s has been added as a new city"
+msgstr "La ciutat %s s´ha afegit correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
+msgid "City name cannot be blank"
+msgstr "Nom de ciutat no es pot deixar en blanc"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
+msgid "No city was selected"
+msgstr "No s'ha sel·leccionat cap ciutat"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
+msgid "Location imported successfully"
+msgstr "La ubicació s'ha importat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
+msgid "There was a problem importing the selected location"
+msgstr "S'ha produït un problema en importar la ubicació seleccionada"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
+msgid "There was a problem uploading the watermark image"
+msgstr "Hi va haver un problema en pujar la imatge de marca d'aigua"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
+msgid "The watermark image has to be a .PNG file"
+msgstr "La imatge de marca d'aigua ha de ser un arxiu. PNG"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
+#, php-format
+msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
+msgstr "No es pot establir una mida màxima de fitxer més gran que el permès en la configuració de PHP:<b>%d KB</b>"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
+msgid "Media config has been updated"
+msgstr "La configuració mitja s´ha modificat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
+msgid "Re-generation complete"
+msgstr "La regeneració de imatges s´ha efectuat correctament"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
+#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
+msgid "Resource deleted"
+msgstr "Recurs eliminat."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
+msgid "The email/alert has been updated"
+msgstr "El correu electrònic/avís ha estat actualitzat."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
+msgid "The email couldn't be updated, at least one title should not be empty"
+msgstr "El correu electrònic no ha pogut ser actualizat. Al menys un títol no ha d'estar buit."
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:78
 msgid "The translation folder is not writable"
@@ -567,19 +858,6 @@ msgstr "El idioma s'ha instal·lat correctament."
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:86
 msgid "File uploaded but unable to activate the language"
 msgstr "El fitxer s'ha penjat però no es pot activar l'idioma"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:91
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:71
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:79
-msgid "The zip file is not valid"
-msgstr "L'arxiu zip no és vàlid."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:95
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:75
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:73
-msgid "No file was uploaded"
-msgstr "No s'ha pujat cap arxiu."
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLanguages.php:101
 msgid "There was a problem adding the language"
@@ -689,154 +967,174 @@ msgstr "El directory  '%s' no s'ha pogut eliminar;)"
 msgid "There was a problem importing email templates"
 msgstr "S'ha produït un problema en importar plantilles de correu electrònic"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:96
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:164
-msgid "You have to set an internal name"
-msgstr "Tens que especificar un nom intern per la pàgina."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
+msgid "The user has been created. We've sent an activation e-mail"
+msgstr "L´usuari s´ha creat correctament. T´hem enviat un E-mail d´activació"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:101
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:169
-msgid "You have to set a different internal name"
-msgstr "Vostè ha d'establir un nom intern diferent"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
+msgid "The user has been created successfully"
+msgstr "L'usuari ha estat creat amb èxit"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:118
-msgid "The page has been updated"
-msgstr "La pàgina s´ha modificat correctament"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:164
+msgid "The user has been updated"
+msgstr "El usuari s´ha modificat correctament"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:121
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:103
-msgid "You can't repeat internal name"
-msgstr "No pots repetir el nom intern."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:166
+msgid "The user has been updated and activated"
+msgstr "El usuari s´ha modificat i activat correctament"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:124
-msgid "The page couldn't be updated, at least one title should not be empty"
-msgstr "La pàgina no pot ser actualitzada, al menys un títol no pot estar buit"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:180
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:206
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:259
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:285
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:310
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:629
+msgid "User id isn't in the correct format"
+msgstr "El identificador d´usuari no está en el format correcte"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:185
-msgid "The page has been added"
-msgstr "La pàgina ha estat afegida correctament"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:190
+msgid "No users have been selected"
+msgstr "No s'ha seleccionat cap usuari"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:189
-msgid "The page couldn't be added, at least one title should not be empty"
-msgstr "La pàgina no pot ser afegida, al menys un títol no pot estar buit"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:195
-msgid "Oops! That internal name is already in use. We can't make the changes"
-msgstr "Ui! Aquest nom intern ja està en ús. No podem fer els canvis"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:228
-msgid "One page can't be deleted because it is indelible"
-msgstr "Alguna de les pàgines que intentes eliminar es necesaria per el funcionament del sistema i no pot ser eliminada"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:231
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:193
 #, php-format
-msgid "%s pages couldn't be deleted because they are indelible"
-msgstr "Pàgines %s no va poder ser eliminat, ja que són indelebles"
+msgid "Activation email sent to one user"
+msgid_plural "Activation email sent to %s users"
+msgstr[0] "Correu electrònic d'activació enviat a un usuari"
+msgstr[1] "Correu electrònic d'activació enviat a usuaris %s"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:238
-msgid "One page couldn't be deleted"
-msgstr "La pàgina no es pot eliminar"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:216
+msgid "No users have been activated"
+msgstr "No s'ha activat cap usuari"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:241
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:219
 #, php-format
-msgid "%s pages couldn't be deleted"
-msgstr "Pàgines %s no va poder ser eliminat"
+msgid "One user has been activated"
+msgid_plural "%s users have been activated"
+msgstr[0] "S'ha activat un usuari"
+msgstr[1] "%s usuaris s'han activat"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:248
-msgid "One page has been deleted correctly"
-msgstr "La pàgina s´ha eliminat correctament"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:243
+msgid "No users have been deactivated"
+msgstr "No s'ha desactivat cap usuari"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminPages.php:251
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:246
 #, php-format
-msgid "%s pages have been deleted correctly"
-msgstr "Pàgines %s s'han eliminat correctament"
+msgid "One user has been deactivated"
+msgid_plural "%s users have been deactivated"
+msgstr[0] "S'ha desactivat un usuari"
+msgstr[1] "%s usuaris s'han desactivat"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:78
-msgid "The comments have been deleted"
-msgstr "Els comentaris han estat eliminats."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:269
+msgid "No users have been enabled"
+msgstr "No s'ha habilitat cap usuari"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:91
-msgid "The comments have been approved"
-msgstr "Els comentaris han estat aprovats."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:272
+#, php-format
+msgid "One user has been unblocked"
+msgid_plural "%s users have been unblocked"
+msgstr[0] "S'ha desbloquejat un usuari"
+msgstr[1] "%s usuaris s'han desbloquejat"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:101
-msgid "The comments have been disapproved"
-msgstr "Els comentaris han estat descartats."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:295
+msgid "No users have been disabled"
+msgstr "No s'ha deshabilitat cap usuari"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:114
-msgid "The comments have been unblocked"
-msgstr "Els comentaris han estat desbloquejats"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:298
+#, php-format
+msgid "One user has been blocked"
+msgid_plural "%s users have been blocked"
+msgstr[0] "S'ha blocat un usuari"
+msgstr[1] "%s usuaris han estat bloquejats"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:124
-msgid "The comments have been blocked"
-msgstr "Els comentaris han estat bloquejats"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:324
+msgid "No users have been deleted"
+msgstr "No s'ha eliminat cap usuari"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:160
-msgid "The comment has been approved"
-msgstr "El comentari ha estat aprovat."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:327
+#, php-format
+msgid "One user has been deleted"
+msgid_plural "%s users have been deleted"
+msgstr[0] "S'ha suprimit un usuari"
+msgstr[1] "%s usuaris s'han suprimit"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:167
-msgid "The comment has been disapproved"
-msgstr "El comentari ha estat descartat."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:337
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:373
+msgid "Alert id isn't in the correct format"
+msgstr "La id de l'alerta no està en el format correcte"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:174
-msgid "The comment has been enabled"
-msgstr "El comentari s'ha habilitat."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:353
+msgid "No alerts have been deleted"
+msgstr "No s'ha esborrat cap alerta"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:181
-msgid "The comment has been disabled"
-msgstr "El comentari ha estat desactivat."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:356
+#, php-format
+msgid "One alert has been deleted"
+msgid_plural "%s alerts have been deleted"
+msgstr[0] "S'ha suprimit un avís"
+msgstr[1] "%s 'han suprimit els avisos"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:197
-msgid "Email is not correct"
-msgstr "El correu electrònic no és correcte."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:394
+msgid "No alerts have been activated"
+msgstr "No s'ha activat cap alerta"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:200
-msgid "Comment is required"
-msgstr "El comentari és obligatori."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:397
+#, php-format
+msgid "One alert has been activated"
+msgid_plural "%s alerts have been activated"
+msgstr[0] "S'ha activat un avís"
+msgstr[1] "%s 'han activat les alertes"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminItemComments.php:223
-msgid "Great! We just updated your comment"
-msgstr "Fantàstic! Hem actualitzat el teu comentari!"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
+msgid "No alerts have been deactivated"
+msgstr "No s'ha desactivat cap alerta"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
-msgid "You have very few free space left, users will not be able to upload pictures"
-msgstr "Tens poc espai lliure, els usuaris no podran pujar imatges"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:406
+#, php-format
+msgid "One alert has been deactivated"
+msgid_plural "%s alerts have been deactivated"
+msgstr[0] "S'ha desactivat un avís"
+msgstr[1] "%s 'han desactivat els avisos"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
-msgid "Entered an invalid email"
-msgstr "Va entrar un correu electrònic vàlid"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:446
+msgid "User settings have been updated"
+msgstr "La configuració d'usuari s'ha actualitzat"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
-msgid "You're already subscribed"
-msgstr "Vostè ja està subscrit"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:592
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:611
+msgid "Both rules can not be empty"
+msgstr "Ambdues regles no poden estar en blanc"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
-msgid "Subscribed correctly"
-msgstr "Subscrit correctament"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:601
+msgid "Rule updated correctly"
+msgstr "Regla actualitzada correctament"
 
-#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
-msgid "Error subscribing"
-msgstr "Error de subscripció"
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:620
+msgid "Rule saved correctly"
+msgstr "Regla desada correctament."
 
-#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:69
-#: oc-includes/osclass/classes/controller/admin/CAdminMedia.php:92
-#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:670
-msgid "Resource deleted"
-msgstr "Recurs eliminat."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:641
+msgid "No rules have been deleted"
+msgstr "No s'ha esborrat cap regla "
 
-#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:690
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
-msgid "This action cannot be done because it is a demo site"
-msgstr "Aquesta acció no es pot dur a terme perquè aquest és un lloc web de demostració."
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:644
+#, php-format
+msgid "One ban rule has been deleted"
+msgid_plural "%s ban rules have been deleted"
+msgstr[0] "S'ha suprimit una regla de prohibició"
+msgstr[1] "%s s'han suprimit les normes de prohibició"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:656
+#: oc-includes/osclass/classes/controller/CWebLogin.php:80
+#: oc-includes/osclass/classes/controller/CWebLogin.php:157
+msgid "The user doesn't exist"
+msgstr "L'usuari no existeix."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:667
+#, php-format
+msgid "Logged in as %s successfully"
+msgstr ""
 
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:69
 msgid "The username field is empty"
@@ -864,9 +1162,267 @@ msgstr "El codi de reCAPTCHA és incorrecte"
 msgid "A new password has been sent to your e-mail"
 msgstr "Una nova contrasenya ha estat enviada al teu E-mail"
 
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:189
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:200
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:101
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:105
+#: oc-includes/osclass/classes/controller/CWebLogin.php:271
+#: oc-includes/osclass/classes/controller/CWebLogin.php:319
+msgid "Sorry, the link is not valid"
+msgstr "Ho sentim, l'enllaç no es válid."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:213
+#: oc-includes/osclass/classes/controller/CWebLogin.php:309
+msgid "The password has been changed"
+msgstr "La contrasenya s'ha canviat."
+
 #: oc-includes/osclass/classes/controller/admin/CAdminLogin.php:216
 msgid "Error, the passwords don't match"
 msgstr "Error, les contrasenyes no coincideixen"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:49
+#: oc-includes/osclass/classes/controller/admin/CAdminItems.php:60
+#: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:54
+msgid "You don't have enough permissions"
+msgstr "No tens suficients permisos."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:97
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:207
+msgid "Email invalid"
+msgstr "Correu electrònic no vàlid."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:101
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:211
+msgid "Username invalid"
+msgstr "Nom d´usuari no vàlid."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:215
+msgid "Name invalid"
+msgstr "Nom no vàlid."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:109
+msgid "Password invalid"
+msgstr "Contrasenya no vàlida."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:114
+msgid "Email already in use"
+msgstr "El correu electrònic ja està en ús."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:119
+msgid "Username already in use"
+msgstr "El nom d´usuari ja està en ús."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:128
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:256
+msgid "Incorrent current password"
+msgstr "Contrasenya actual incorrecta"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:151
+msgid "The admin has been added"
+msgstr "L'administrador ha estat afegit."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:153
+msgid "There has been an error adding a new admin"
+msgstr "S'ha produït un error en afegir un nou administrador"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:168
+msgid "There is no admin with this id"
+msgstr "No hi ha cap administrador amb aquesta id"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:222
+msgid "This admin doesn't exist"
+msgstr "L'administrador no existeix."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:227
+msgid "Existing email"
+msgstr "El correu electrònic ja existeix."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:232
+msgid "Existing username"
+msgstr "El nom d'usuari ja existeix."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:244
+msgid "The password couldn't be updated. Passwords don't match"
+msgstr "No s'ha pogut canviar la contrasenya. Les contrasenyes no coincideixen."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:273
+msgid "The admin has been updated"
+msgstr "L'administrador s'ha actualitzat correctament."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:293
+msgid "The admin id isn't in the correct format"
+msgstr "L'identificador d'administrador no té el format correcte."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:300
+msgid "The operation hasn't been completed. You're trying to remove yourself!"
+msgstr "La operació no ha estat completada. Estàs intentant borrar el teu compte!"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:309
+msgid "The admin has been deleted correctly"
+msgstr "L'administrador ha estat eliminat correctament."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAdmins.php:311
+msgid "The admin couldn't be deleted"
+msgstr "No s'ha pogut eliminar l'administrador."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:86
+msgid "You have very few free space left, users will not be able to upload pictures"
+msgstr "Tens poc espai lliure, els usuaris no podran pujar imatges"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:97
+msgid "Entered an invalid email"
+msgstr "Va entrar un correu electrònic vàlid"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:100
+msgid "You're already subscribed"
+msgstr "Vostè ja està subscrit"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:103
+msgid "Subscribed correctly"
+msgstr "Subscrit correctament"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminMain.php:106
+msgid "Error subscribing"
+msgstr "Error de subscripció"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
+msgid "The theme folder is not writable"
+msgstr "No es pot escriure en la carpeta del tema."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
+msgid "The theme has been installed correctly"
+msgstr "El tema ha estat instal·lat correctament."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
+msgid "There was a problem adding the theme"
+msgstr "Hi ha hagut un problema afegint el tema."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
+msgid "Theme removed successfully"
+msgstr "El tema s'ha eliminat correctament."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
+msgid "There was a problem removing the theme"
+msgstr "Hi ha hagut un problema eliminant el tema."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
+msgid "Current theme can not be deleted"
+msgstr "El tema actual no es pot eliminar."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
+msgid "No theme selected"
+msgstr "No s'ha seleccionat cap tema."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
+msgid "Widget removed correctly"
+msgstr "El giny s'ha eliminat correctament."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
+msgid "Description field is required"
+msgstr "El camp de descripció és obligatori."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
+msgid "Widget updated correctly"
+msgstr "El giny s'ha actualitzat correctament."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
+msgid "Widget cannot be updated correctly"
+msgstr "El giny no s'ha pogut actualitzar correctament."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
+msgid "Widget added correctly"
+msgstr "El giny s'ha afegit correctament."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
+msgid "Theme activated correctly"
+msgstr "El tema s'ha activat correctament."
+
+#: oc-includes/osclass/classes/controller/admin/ajax/CAdminAjax.php:690
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:54
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:83
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:95
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:105
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:119
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:160
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:211
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:239
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:266
+msgid "This action cannot be done because it is a demo site"
+msgstr "Aquesta acció no es pot dur a terme perquè aquest és un lloc web de demostració."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
+msgid "Import complete"
+msgstr "Importació completada"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
+msgid "There was a problem importing data to the database"
+msgstr "Ha hagut un problema importan dades a la base de dades"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
+msgid "Recount category stats has been successful"
+msgstr "Recompte categoria d'estadístiques ha estat un èxit."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
+msgid "Path is empty"
+msgstr "La ruta está buida"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
+msgid "Could not connect with the database"
+msgstr "No s'ha pogut connectar amb la base de dades"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
+msgid "There are no tables to back up"
+msgstr "No hi ha tables per respaldar"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
+msgid "The folder is not writable"
+msgstr "El directori no es pot escriure"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
+msgid "Backup completed successfully"
+msgstr "Còpia de seguretat completada correctament."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
+#, php-format
+msgid "Could not connect with the database. Error: %s"
+msgstr "No s'ha pogut connectar amb la base de dades. Error: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
+#, php-format
+msgid "Could not select the database. Error: %s"
+msgstr "No s'ha pogut seleccionar la base de dades. Error: %s"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
+msgid "Archived successfully!"
+msgstr "Desat amb èxit!"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
+msgid "Error, the zip file was not created in the specified directory"
+msgstr "Error, l'arxiu zip no s'ha creat en el directori especificat"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
+msgid "Maintenance mode is ON"
+msgstr "La manera de manteniment està en ON"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
+msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
+msgstr "S'ha produït un error en crear el fitxer .maintenance. Si us plau, crea'l manualment a la carpeta arrel."
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
+msgid "Maintenance mode is OFF"
+msgstr "La manera de manteniment està en OFF"
+
+#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
+msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
+msgstr "S'ha produït un error en esborrar el fitxer .maintenance. Si us plau, esborra'l manualment de la carpeta arrel."
 
 #: oc-includes/osclass/classes/controller/admin/CAdminItems.php:80
 #, php-format
@@ -1054,871 +1610,329 @@ msgstr "Grandària de la Descripció ha de ser un valor numèric"
 msgid "Listings' settings have been updated"
 msgstr "La configuració dels anuncis s'ha actualitzat."
 
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:63
-msgid "The theme folder is not writable"
-msgstr "No es pot escriure en la carpeta del tema."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:67
-msgid "The theme has been installed correctly"
-msgstr "El tema ha estat instal·lat correctament."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:81
-msgid "There was a problem adding the theme"
-msgstr "Hi ha hagut un problema afegint el tema."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:102
-msgid "Theme removed successfully"
-msgstr "El tema s'ha eliminat correctament."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:104
-msgid "There was a problem removing the theme"
-msgstr "Hi ha hagut un problema eliminant el tema."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:107
-msgid "Current theme can not be deleted"
-msgstr "El tema actual no es pot eliminar."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:110
-msgid "No theme selected"
-msgstr "No s'ha seleccionat cap tema."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:139
-msgid "Widget removed correctly"
-msgstr "El giny s'ha eliminat correctament."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:145
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:167
-msgid "Description field is required"
-msgstr "El camp de descripció és obligatori."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:158
-msgid "Widget updated correctly"
-msgstr "El giny s'ha actualitzat correctament."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:160
-msgid "Widget cannot be updated correctly"
-msgstr "El giny no s'ha pogut actualitzar correctament."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:179
-msgid "Widget added correctly"
-msgstr "El giny s'ha afegit correctament."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminAppearance.php:186
-msgid "Theme activated correctly"
-msgstr "El tema s'ha activat correctament."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:71
-msgid "The plugin folder is not writable"
-msgstr "El directori del plugin no es pot escriure"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:75
-msgid "The plugin has been uploaded correctly"
-msgstr "El plugin ha estat carregat correctament."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:89
-msgid "There was a problem adding the plugin"
-msgstr "Ha hagut un problema agregant el plugin"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:112
-#, php-format
-msgid "The plugin generated %d characters of <strong>unexpected output</strong> during the installation. Output: \"%s\""
-msgstr "El plugin ha generat %d caràcters d'una <strong>sortida inesperada</strong> durant l'instal·lació. Sortida: \"%s\""
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:118
-msgid "Plugin is already installed"
-msgstr "Plugin ja està instal·lat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:122
-msgid "Plugin couldn't be installed because their files are missing"
-msgstr "Plugin no es va poder instal·lar perquè els seus arxius no estan"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:128
-#, php-format
-msgid "Plugin couldn't be installed because of: %s"
-msgstr "Plugin no es va poder instal·lar a causa de: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:133
-msgid "Plugin couldn't be installed"
-msgstr "Plugin no es pot instal·lar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:137
-msgid "Plugin installed"
-msgstr "El plugin s´ha instalat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:150
-msgid "Plugin uninstalled"
-msgstr "El plugin s´ha desinstalat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:152
-msgid "Plugin couldn't be uninstalled"
-msgstr "Plugin no pot ser desinstal·lat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:165
-msgid "Plugin enabled"
-msgstr "Plugin habilitat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:167
-msgid "Plugin is already enabled"
-msgstr "Plugin ja està habilitat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:180
-msgid "Plugin disabled"
-msgstr "Plugin desactivat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:182
-msgid "Plugin is already disabled"
-msgstr "Plugin ja està desactivada"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:251
-msgid "Configuration was saved"
-msgstr "S'ha desat la configuració."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:255
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:276
-msgid "No plugin selected"
-msgstr "No hi ha cap plugin seleccionat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:266
-msgid "The files were deleted"
-msgstr "Els arxius s'han esborrat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:269
-#, php-format
-msgid "There were an error deleting the files, please check the permissions of the files in %s"
-msgstr "S'ha produït un error en esborrar els arxius. Si us plau, comprova els permissos dels arxius a %s."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminPlugins.php:283
-msgid "Invalid plugin file"
-msgstr "El fitxer de complement no és vàlid"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:68
-msgid "Import complete"
-msgstr "Importació completada"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:70
-msgid "There was a problem importing data to the database"
-msgstr "Ha hagut un problema importan dades a la base de dades"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:87
-msgid "Recount category stats has been successful"
-msgstr "Recompte categoria d'estadístiques ha estat un èxit."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:136
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:170
-msgid "Path is empty"
-msgstr "La ruta está buida"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:140
-msgid "Could not connect with the database"
-msgstr "No s'ha pogut connectar amb la base de dades"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:144
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:184
-msgid "There are no tables to back up"
-msgstr "No hi ha tables per respaldar"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:148
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:188
-msgid "The folder is not writable"
-msgstr "El directori no es pot escriure"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:152
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:192
-msgid "Backup completed successfully"
-msgstr "Còpia de seguretat completada correctament."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:174
-#, php-format
-msgid "Could not connect with the database. Error: %s"
-msgstr "No s'ha pogut connectar amb la base de dades. Error: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:179
-#, php-format
-msgid "Could not select the database. Error: %s"
-msgstr "No s'ha pogut seleccionar la base de dades. Error: %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:218
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:256
-msgid "Archived successfully!"
-msgstr "Desat amb èxit!"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:233
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:259
-msgid "Error, the zip file was not created in the specified directory"
-msgstr "Error, l'arxiu zip no s'ha creat en el directori especificat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:276
-msgid "Maintenance mode is ON"
-msgstr "La manera de manteniment està en ON"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:279
-msgid "There was an error creating the .maintenance file, please create it manually at the root folder"
-msgstr "S'ha produït un error en crear el fitxer .maintenance. Si us plau, crea'l manualment a la carpeta arrel."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:289
-msgid "Maintenance mode is OFF"
-msgstr "La manera de manteniment està en OFF"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminTools.php:292
-msgid "There was an error removing the .maintenance file, please remove it manually from the root folder"
-msgstr "S'ha produït un error en esborrar el fitxer .maintenance. Si us plau, esborra'l manualment de la carpeta arrel."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:69
-msgid "Advanced settings have been updated"
-msgstr "Configuració avançada s'ha actualitzat"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsAdvanced.php:76
-msgid "Cache flushed correctly"
-msgstr "Cache netejada correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:109
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:117
-msgid "There was a problem uploading the watermark image"
-msgstr "Hi va haver un problema en pujar la imatge de marca d'aigua"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:113
-msgid "The watermark image has to be a .PNG file"
-msgstr "La imatge de marca d'aigua ha de ser un arxiu. PNG"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:165
-#, php-format
-msgid "You cannot set a maximum file size higher than the one allowed in the PHP configuration: <b>%d KB</b>"
-msgstr "No es pot establir una mida màxima de fitxer més gran que el permès en la configuració de PHP:<b>%d KB</b>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:192
-msgid "Media config has been updated"
-msgstr "La configuració mitja s´ha modificat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMedia.php:265
-msgid "Re-generation complete"
-msgstr "La regeneració de imatges s´ha efectuat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:73
-msgid "Your Akismet key has been cleared"
-msgstr "La clau de Akismet ha estat aprovat"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:75
-msgid "Your Akismet key has been updated"
-msgstr "La clau de Akismet ha estat actualitzat"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:95
-msgid "Your reCAPTCHA key has been cleared"
-msgstr "La teva clau de reCAPTCHA s'ha esborrat."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsSpamnBots.php:97
-msgid "Your reCAPTCHA key has been updated"
-msgstr "La teva clau de reCAPTCHA s'ha actualitzat."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:72
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:223
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:298
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:396
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:470
-#, php-format
-msgid "%s already was in the database"
-msgstr "%s ja era a la base de dades"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:81
-#, php-format
-msgid "%s has been added as a new country"
-msgstr "El pais %s s´ha afegit correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:100
-msgid "Country name cannot be blank"
-msgstr "Nom de país no pot estar en blanc"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:137
-msgid "Country has been edited"
-msgstr "El país ha estat editat"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:140
-msgid "There were some problems editing the country"
-msgstr "Hi va haver alguns problemes d'edició el país"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:180
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:347
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:516
-msgid "There was a problem deleting locations"
-msgstr "S'ha produït un error en esborrar les ubicacions"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:185
-msgid "No country was selected"
-msgstr "No s'ha sel·leccionat cap país"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:204
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:248
-msgid "Region name cannot be blank"
-msgstr "El nom de la regió no pot estar en blanc"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:218
-#, php-format
-msgid "%s has been added as a new region"
-msgstr "La provincia %s s´ha afegit correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:292
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:465
-#, php-format
-msgid "%s has been edited"
-msgstr "%s s´ha modificat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:352
-msgid "No region was selected"
-msgstr "No s'ha sel·leccionat cap regió"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:376
-msgid "New city name cannot be blank"
-msgstr "Nou nom de ciutat no es pot deixar en blanc"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:391
-#, php-format
-msgid "%s has been added as a new city"
-msgstr "La ciutat %s s´ha afegit correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:421
-msgid "City name cannot be blank"
-msgstr "Nom de ciutat no es pot deixar en blanc"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:521
-msgid "No city was selected"
-msgstr "No s'ha sel·leccionat cap ciutat"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:541
-msgid "Location imported successfully"
-msgstr "La ubicació s'ha importat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLocations.php:550
-msgid "There was a problem importing the selected location"
-msgstr "S'ha produït un problema en importar la ubicació seleccionada"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:50
-msgid "Last check"
-msgstr "Darrer xec"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:94
-msgid "Page title field is required"
-msgstr "Camp de títol de la pàgina és requerit"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:97
-msgid "Contact email field is required"
-msgstr "Poseu-vos en contacte amb el camp E-mail és obligatori"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:100
-msgid "Number of listings in the RSS has to be a numeric value"
-msgstr "Nombre d'anuncis a l'RSS ha de ser un valor numèric"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:103
-msgid "Max latest listings has to be a numeric value"
-msgstr "Màx. anuncis recents ha de ser un valor numèric"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:106
-msgid "Number of listings on search has to be a numeric value"
-msgstr "Nombre d'anuncis a la cerca ha de ser un valor numèric"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:132
-msgid "Number of listings in the RSS must be an integer"
-msgstr "Nombre d'anuncis en l'RSS ha de ser un nombre enter"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:141
-msgid "Number of recent listings displayed at home must be an integer"
-msgstr "El nombre d'anuncis recents mostrats a la pàgina principal ha de ser un nombre enter"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:158
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMain.php:160
-msgid "General settings have been updated"
-msgstr "La configuració s´ha modificat correctament."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:643
-msgid "All fields are required."
-msgstr "Tots els camps són obligatoris"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:644
-#, php-format
-msgid "One field was not updated"
-msgid_plural "%s fields were not updated"
-msgstr[0] "No s'ha actualitzat un camp"
-msgstr[1] "%s camps no s'han actualitzat"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:650
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:699
-msgid "Permalinks structure updated"
-msgstr "Estructura de permalinks actualitzada"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:659
-msgid "Permalinks structure updated."
-msgstr "Estructura de permalinks actualitzada."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:661
-msgid "However, we can't check if Apache module <b>mod_rewrite</b> is loaded. If you experience some problems with the URLs, you should deactivate <em>Friendly URLs</em>"
-msgstr "No obstant això, no podem comprovar si com a mòdul d'Apache <b>mod_rewrite</b>està carregat. Si vostè experimenta alguns problemes amb les adreces URLs, ha de desactivar <em>Amistós URLs</em>"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:668
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:678
-msgid "File <b>.htaccess</b> couldn't be filled out with the right content."
-msgstr "L'arxiu <b>.htaccess</b> no s'ha pogut emplenar amb el contingut adequat."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:670
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Aquest és el contingut que has d'afegir a l'arxiu <b>.htaccess</b>. Si no pots crear l'arxiu, si us plau desactiva l'opció <em> URLs amistoses </em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:680
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't create the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Aquest és el contingut que has d'afegir a l'arxiu <b>.htaccess</b>. Si no pots modificar l'arxiu o experimentes alguns problemes amb les URLs, si us plau desactiva l'opció <em>URLs Amistoses</em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:692
-msgid "File <b>.htaccess</b> already exists and was not modified."
-msgstr "L'arxiu <b>.htaccess</b> ja existeix i no s'ha modificat."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:694
-msgid "Here's the content you have to add to the <b>.htaccess</b> file. If you can't modify the file or experience some problems with the URLs, please deactivate the <em>Friendly URLs</em> option."
-msgstr "Aquest és el contingut que has d'afegir a l'arxiu <b>.htaccess</b>. Si no pots crear l'arxiu, si us plau desactiva l'opció <em> URLs amistoses </em>."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:728
-msgid "Friendly URLs successfully deactivated"
-msgstr "Amistós URLs desactivat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:731
-msgid "Friendly URLs deactivated, but .htaccess file could not be deleted. Please, remove it manually"
-msgstr "URLs Amistoses desactivat, però l'arxiu .htaccess no s'ha pogut esborrar. Si us plau, esborra'l manualment."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsPermalinks.php:736
-msgid "Friendly URLs deactivated, but .htaccess file was modified outside Osclass and was not deleted"
-msgstr "URLs amistoses desactivat, però l'arxiu .htaccess s'ha modificat fora d'Osclass i no s'ha esborrat."
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:77
-msgid "Mail server type is incorrect"
-msgstr "Error: El tipus de servidor d´E-mail es incorrecte"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsMailserver.php:93
-msgid "Mail server configuration has changed"
-msgstr "La configuració del servidor d´E-mail s´ha modificat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:73
-msgid "Number of moderate comments must only contain numeric characters"
-msgstr "El nombre de comentaris moderats només pot contenir caràcters numèrics"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:76
-msgid "Comments per page must only contain numeric characters"
-msgstr "Comentaris per pàgina només pot contenir caràcters numèrics"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsComments.php:96
-msgid "Comment settings have been updated"
-msgstr "La configuracuó dels comentaris s'ha actualitzat"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:64
-msgid "Custom number could not be left empty"
-msgstr "Nombre d'encàrrec no podia deixar en blanc"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsLatestSearches.php:69
-msgid "Last search settings have been updated"
-msgstr "L'última configuració de cerca s'han actualitzat"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:72
-msgid "The currency code is not in the correct format"
-msgstr "El codi de la moneda no té el format correcte"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:85
-msgid "Currency added"
-msgstr "La moneda va afegir"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:87
-msgid "Currency couldn't be added"
-msgstr "De monedes no es pot afegir"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:98
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:108
-#, php-format
-msgid "The currency code '%s' doesn't exist"
-msgstr "El codi de la moneda '%s' no existeix"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:132
-msgid "Error: the currency code is not in the correct format"
-msgstr "Error: El codi de moneda no está en el format correcte"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:145
-msgid "Currency updated"
-msgstr "Moneda actualitzada"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:147
-msgid "No changes were made"
-msgstr "No es van fer canvis"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:170
-#, php-format
-msgid "%s couldn't be deleted because it has listings associated to it"
-msgstr "%s no s'ha pogut esborrar perquè hi té anuncis associats"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:173
-#, php-format
-msgid "%s couldn't be deleted because it's the default currency"
-msgstr "%s no s'ha pogut esborrar perquè és la moneda per defecte"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:181
-msgid "No currencies have been deleted"
-msgstr "No s´ha eliminat cap moneda"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:185
-msgid "One currency has been deleted"
-msgstr "La moneda s´ha eliminat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/settings/CAdminSettingsCurrencies.php:189
-#, php-format
-msgid "%s currencies have been deleted"
-msgstr "%s monedes s´han eliminat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:100
-msgid "The email/alert has been updated"
-msgstr "El correu electrònic/avís ha estat actualitzat."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminEmails.php:106
-msgid "The email couldn't be updated, at least one title should not be empty"
-msgstr "El correu electrònic no ha pogut ser actualizat. Al menys un títol no ha d'estar buit."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:86
-msgid "The user has been created. We've sent an activation e-mail"
-msgstr "L´usuari s´ha creat correctament. T´hem enviat un E-mail d´activació"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:91
-msgid "The user has been created successfully"
-msgstr "L'usuari ha estat creat amb èxit"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:164
-msgid "The user has been updated"
-msgstr "El usuari s´ha modificat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:166
-msgid "The user has been updated and activated"
-msgstr "El usuari s´ha modificat i activat correctament"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:180
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:206
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:233
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:259
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:285
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:310
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:629
-msgid "User id isn't in the correct format"
-msgstr "El identificador d´usuari no está en el format correcte"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:190
-msgid "No users have been selected"
-msgstr "No s'ha seleccionat cap usuari"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:193
-#, php-format
-msgid "Activation email sent to one user"
-msgid_plural "Activation email sent to %s users"
-msgstr[0] "Correu electrònic d'activació enviat a un usuari"
-msgstr[1] "Correu electrònic d'activació enviat a usuaris %s"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:216
-msgid "No users have been activated"
-msgstr "No s'ha activat cap usuari"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:219
-#, php-format
-msgid "One user has been activated"
-msgid_plural "%s users have been activated"
-msgstr[0] "S'ha activat un usuari"
-msgstr[1] "%s usuaris s'han activat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:243
-msgid "No users have been deactivated"
-msgstr "No s'ha desactivat cap usuari"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:246
-#, php-format
-msgid "One user has been deactivated"
-msgid_plural "%s users have been deactivated"
-msgstr[0] "S'ha desactivat un usuari"
-msgstr[1] "%s usuaris s'han desactivat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:269
-msgid "No users have been enabled"
-msgstr "No s'ha habilitat cap usuari"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:272
-#, php-format
-msgid "One user has been unblocked"
-msgid_plural "%s users have been unblocked"
-msgstr[0] "S'ha desbloquejat un usuari"
-msgstr[1] "%s usuaris s'han desbloquejat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:295
-msgid "No users have been disabled"
-msgstr "No s'ha deshabilitat cap usuari"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:298
-#, php-format
-msgid "One user has been blocked"
-msgid_plural "%s users have been blocked"
-msgstr[0] "S'ha blocat un usuari"
-msgstr[1] "%s usuaris han estat bloquejats"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:324
-msgid "No users have been deleted"
-msgstr "No s'ha eliminat cap usuari"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:327
-#, php-format
-msgid "One user has been deleted"
-msgid_plural "%s users have been deleted"
-msgstr[0] "S'ha suprimit un usuari"
-msgstr[1] "%s usuaris s'han suprimit"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:337
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:373
-msgid "Alert id isn't in the correct format"
-msgstr "La id de l'alerta no està en el format correcte"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:353
-msgid "No alerts have been deleted"
-msgstr "No s'ha esborrat cap alerta"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:356
-#, php-format
-msgid "One alert has been deleted"
-msgid_plural "%s alerts have been deleted"
-msgstr[0] "S'ha suprimit un avís"
-msgstr[1] "%s 'han suprimit els avisos"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:394
-msgid "No alerts have been activated"
-msgstr "No s'ha activat cap alerta"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:397
-#, php-format
-msgid "One alert has been activated"
-msgid_plural "%s alerts have been activated"
-msgstr[0] "S'ha activat un avís"
-msgstr[1] "%s 'han activat les alertes"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:402
-msgid "No alerts have been deactivated"
-msgstr "No s'ha desactivat cap alerta"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:406
-#, php-format
-msgid "One alert has been deactivated"
-msgid_plural "%s alerts have been deactivated"
-msgstr[0] "S'ha desactivat un avís"
-msgstr[1] "%s 'han desactivat els avisos"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:446
-msgid "User settings have been updated"
-msgstr "La configuració d'usuari s'ha actualitzat"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:592
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:611
-msgid "Both rules can not be empty"
-msgstr "Ambdues regles no poden estar en blanc"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:601
-msgid "Rule updated correctly"
-msgstr "Regla actualitzada correctament"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:620
-msgid "Rule saved correctly"
-msgstr "Regla desada correctament."
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:641
-msgid "No rules have been deleted"
-msgstr "No s'ha esborrat cap regla "
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:644
-#, php-format
-msgid "One ban rule has been deleted"
-msgid_plural "%s ban rules have been deleted"
-msgstr[0] "S'ha suprimit una regla de prohibició"
-msgstr[1] "%s s'han suprimit les normes de prohibició"
-
-#: oc-includes/osclass/classes/controller/admin/CAdminUsers.php:667
-#, php-format
-msgid "Logged in as %s successfully"
-msgstr ""
+#: oc-includes/osclass/classes/controller/CWebRegister.php:45
+msgid "User registration is not enabled"
+msgstr "El registre d'usuaris no està habilitat."
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:64
+#: oc-includes/osclass/classes/controller/CWebLogin.php:51
+msgid "Users are not enabled"
+msgstr "Els usuaris no estan habilitats."
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:72
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:242
+#: oc-includes/osclass/classes/controller/CWebLogin.php:111
+#: oc-includes/osclass/classes/controller/CWebContact.php:69
+#: oc-includes/osclass/classes/controller/CWebContact.php:81
+#: oc-includes/osclass/classes/controller/CWebItem.php:167
+#: oc-includes/osclass/classes/controller/CWebItem.php:554
+msgid "Your current email is not allowed"
+msgstr "El teu email actual no està permès"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:75
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:245
+#: oc-includes/osclass/classes/controller/CWebLogin.php:114
+#: oc-includes/osclass/classes/controller/CWebContact.php:72
+#: oc-includes/osclass/classes/controller/CWebItem.php:170
+#: oc-includes/osclass/classes/controller/CWebItem.php:557
+msgid "Your current IP is not allowed"
+msgstr "La teva IP actual no està permesa"
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:82
+msgid "The user has been created. An activation email has been sent"
+msgstr "L'usuari s'ha creat correctament. T'hem enviat un correu electrònic d'activació."
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:85
+msgid "Your account has been created successfully"
+msgstr "El teu compte s'ha creat correctament."
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:103
+msgid "The link is not valid anymore. Sorry for the inconvenience!"
+msgstr "L'enllaç ja no es válid."
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:108
+msgid "Your account has already been validated"
+msgstr "El teu compte ja ha estat comprovat."
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:129
+msgid "Your account has been validated"
+msgstr "El teu compte ha estat comprovat."
+
+#: oc-includes/osclass/classes/controller/CWebRegister.php:131
+msgid "Account validation failed"
+msgstr "Validació de compte fallida"
 
 #: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:98
 msgid "Your email has been changed successfully"
 msgstr "El teu correu electrònic s'ha modificat correctament."
 
-#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:246
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:173
+msgid "User not activated"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:178
+msgid "User not enabled"
+msgstr ""
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:228
+#: oc-includes/osclass/classes/controller/CWebContact.php:57
+#: oc-includes/osclass/classes/controller/CWebItem.php:147
+#: oc-includes/osclass/classes/controller/CWebItem.php:272
+#: oc-includes/osclass/classes/controller/CWebItem.php:480
+#: oc-includes/osclass/classes/controller/CWebItem.php:539
+msgid "The Recaptcha code is wrong"
+msgstr "El codi reCAPTCHA és incorrecte."
+
+#: oc-includes/osclass/classes/controller/CWebUserNonSecure.php:257
 msgid "Your email has been sent properly."
 msgstr "El teu email s'ha enviat correctament."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:62
+msgid "Please provide an email address"
+msgstr "Si us plau, introdueix una adreça e-mail"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:66
+msgid "Empty passwords are not allowed. Please provide a password"
+msgstr "No es permeten contrassenyes en blanc. Si us plau, introdueix una contrasenya."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:104
+msgid "The password is incorrect"
+msgstr "La contrasenya es incorrecta."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:161
+#, php-format
+msgid "The user has not been validated yet. Would you like to re-send your <a href=\"%s\">activation?</a>"
+msgstr "L'usuari no ha estat validat encara. Vols tornar a enviar l'<a href=\"%s\">activació?</a>"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:165
+msgid "The user has not been validated yet"
+msgstr "El usuari encara no ha estat comprovat."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:168
+msgid "The user has been suspended"
+msgstr "L'usuari ha estat suspès."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:197
+msgid "This should never happen"
+msgstr "Això no hauria de passar mai"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:213
+msgid "Incorrect link"
+msgstr "Link incorrecte"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:227
+msgid "Validation email re-sent"
+msgstr "E-mail de validació enviat"
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:229
+msgid "We have just sent you an email to validate your account, you will have to wait a few minutes to resend it again"
+msgstr "Acabem d'enviar-te un email per validar el teu compte. Hauràs d'esperar uns minuts per tornar-lo a enviar."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:243
+msgid "Invalid email address"
+msgstr "Adreça de correu electrònic invàlida."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:252
+msgid "We have sent you an email with the instructions to reset your password"
+msgstr "T'hem enviat un correu electrònic amb les instruccions per restablir la teva contrasenya."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:256
+msgid "We were not able to identify you given the information provided"
+msgstr "No hem pogut identificar-te amb la informació proporcionada."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:260
+msgid "The recaptcha code is wrong"
+msgstr "El codi reCAPTCHA és incorrecte."
+
+#: oc-includes/osclass/classes/controller/CWebLogin.php:312
+msgid "Error, the password don't match"
+msgstr "Error. La contrasenya no coincideix."
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:107
+#: oc-includes/osclass/classes/controller/CWebAjax.php:203
+#: oc-includes/osclass/classes/controller/CWebItem.php:427
+msgid "The selected photo has been successfully deleted"
+msgstr "La imatge seleccionada ha estat eliminada correctament."
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:128
+#: oc-includes/osclass/classes/controller/CWebItem.php:383
+msgid "The selected photo couldn't be deleted, the url doesn't exist"
+msgstr "La imatge seleccionada no pot ser eliminada, la URL no existeix."
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:140
+#: oc-includes/osclass/classes/controller/CWebItem.php:389
+msgid "The listing doesn't exist"
+msgstr "L'anunci no existeix."
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:150
+#: oc-includes/osclass/classes/controller/CWebAjax.php:161
+#: oc-includes/osclass/classes/controller/CWebItem.php:395
+#: oc-includes/osclass/classes/controller/CWebItem.php:402
+msgid "The listing doesn't belong to you"
+msgstr "L'anunci no et pertany."
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:206
+#: oc-includes/osclass/classes/controller/CWebItem.php:429
+msgid "The selected photo does not belong to you"
+msgstr "La foto seleccionada no et pertany."
+
+#: oc-includes/osclass/classes/controller/CWebAjax.php:210
+#: oc-includes/osclass/classes/controller/CWebItem.php:432
+msgid "The selected photo couldn't be deleted"
+msgstr "La imatge seleccionada no s'ha pogut eliminar."
 
 #: oc-includes/osclass/classes/controller/base/AdminSecBaseModel.php:75
 msgid "Thank you very much for your donation"
 msgstr "Moltes gràcies per la seva donació"
 
-#: oc-includes/osclass/classes/Csrf.php:181
-msgid "Probable invalid request."
-msgstr "Petició probablement no vàlida."
+#: oc-includes/osclass/classes/controller/CWebContact.php:86
+msgid "Please enter a correct email"
+msgstr "Si us plau, introdueix un email correcte"
 
-#: oc-includes/osclass/classes/Csrf.php:184
-msgid "Invalid CSRF token."
-msgstr "Token CSRF invalid"
+#: oc-includes/osclass/classes/controller/CWebContact.php:182
+msgid "Your email has been sent properly. Thank you for contacting us!"
+msgstr "El teu email s'ha enviat correctament. Gràcies per contactar amb nosaltres!"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:124
-msgid "Name too long."
-msgstr "El nom és massa llarg."
+#: oc-includes/osclass/classes/controller/CWebItem.php:72
+#: oc-includes/osclass/classes/controller/CWebItem.php:140
+msgid "Only registered users are allowed to post listings"
+msgstr "Només els usuaris registrats poden publicar anuncis."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:125
-msgid "Email invalid."
-msgstr "Enviar per correu electrònic vàlida."
+#: oc-includes/osclass/classes/controller/CWebItem.php:160
+msgid "A user with that email address already exists, if it is you, please log in"
+msgstr "Ja existeix un usuari amb aquesta adreça de correo. Si ets tu, si us plau inicia sessió."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:131
-msgid "Too fast. You should wait a little to publish your ad."
-msgstr "Massa ràpid. Vostè ha d'esperar una mica per publicar el seu anunci."
+#: oc-includes/osclass/classes/controller/CWebItem.php:188
+msgid "Check your inbox to validate your listing"
+msgstr "Comproveu la safata d'entrada per validar l'anunci"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:357
-msgid "One of the files you tried to upload exceeds the maximum size"
-msgstr "Un dels arxius que intentes carregar excedeix el tamany máxim"
+#: oc-includes/osclass/classes/controller/CWebItem.php:190
+msgid "Your listing will be published after an admin approves it."
+msgstr "La vostra fitxa es publicarà després que l’administrador l’aprovi."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:419
-msgid "Image with an incorrect extension."
-msgstr "Imatge amb extensió incorrecta"
+#: oc-includes/osclass/classes/controller/CWebItem.php:192
+msgid "Your listing has been published"
+msgstr "El teu anunci ha estat publicat."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:422
-msgid "Image is too big. Max. size"
-msgstr "Imatge massa gran. Mida màxima"
+#: oc-includes/osclass/classes/controller/CWebItem.php:228
+msgid "Sorry, we don't have any listings with that ID"
+msgstr "Ho sentim, no tenim cap anunci amb aquesta ID"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:432
+#: oc-includes/osclass/classes/controller/CWebItem.php:288
+msgid "Your listing will be published after an admin approves the changes."
+msgstr "La vostra fitxa es publicarà després que un administrador aprovi els canvis."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:290
+msgid "Great! We've just updated your listing"
+msgstr "Fantàstic! Acabem d'actualitzar el teu anunci."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:328
+msgid "The listing has been validated"
+msgstr "L'anunci ha estat comprovat."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:330
+msgid "The listing can't be validated"
+msgstr "No s'ha pogut comprovar l'anunci."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:333
+msgid "The listing has already been validated"
+msgstr "L'anunci ja ha estat comprovat."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:352
+msgid "Your listing has been deleted"
+msgstr "El teu anunci s'ha eliminat."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:354
+#: oc-includes/osclass/classes/controller/CWebItem.php:362
+msgid "The listing you are trying to delete couldn't be deleted"
+msgstr "No s'ha pogut eliminar l'anunci que estàs intentant eliminar."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:443
+#: oc-includes/osclass/classes/controller/CWebItem.php:503
+#: oc-includes/osclass/classes/controller/CWebItem.php:645
+msgid "This listing doesn't exist"
+msgstr "Aquest anunci no existeix."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:458
+msgid "Thanks! That's very helpful"
+msgstr "Gràcies! Has estat molt útil!"
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:510
+#: oc-includes/osclass/classes/controller/CWebItem.php:563
+msgid "We're sorry, but the listing has expired. You can't contact the seller"
+msgstr "Ho sentim, però l'anunci ha caducat. Ja no pots posar-te en contacte amb el venedor."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:520
+#: oc-includes/osclass/classes/controller/CWebItem.php:532
+msgid "You can't contact the seller, only registered users can"
+msgstr "Només els usuaris registrats poden posar-se en contacte amb el venedor."
+
+#: oc-includes/osclass/classes/controller/CWebItem.php:522
 #, php-format
-msgid "Title too short (%s)."
-msgstr "Títol massa curt (%s)."
+msgid "<a href=\"%s\">Click here to sign-in</a>"
+msgstr "<a href=\"%s\"> Feu clic aquí per iniciar la sessió </a>"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:434
-#, php-format
-msgid "Title too long (%s)."
-msgstr "Títol massa llarg (%s)."
+#: oc-includes/osclass/classes/controller/CWebItem.php:577
+msgid "We've just sent an e-mail to the seller"
+msgstr "Acabem d'enviar un correu electrònic al venedor."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:444
-#, php-format
-msgid "Description too short (%s)."
-msgstr "Descripció massa curta (%s)."
+#: oc-includes/osclass/classes/controller/CWebItem.php:595
+msgid "Sorry, we could not save your comment. Try again later"
+msgstr "Ho sentim, però no hem pogut desar el teu comentari. Torna a intentar-ho més endavant."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:447
-#, php-format
-msgid "Description too long (%s)."
-msgstr "Descripció massa llarga (%s)."
+#: oc-includes/osclass/classes/controller/CWebItem.php:599
+msgid "Your comment is awaiting moderation"
+msgstr "El teu comentari está esperant moderació."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:451
-msgid "Category invalid."
-msgstr "Categoria vàlid."
+#: oc-includes/osclass/classes/controller/CWebItem.php:603
+msgid "Your comment has been approved"
+msgstr "El teu comentari ha estat aprovat."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:452
-msgid "Price must be a number."
-msgstr "Preu ha de ser un nombre."
+#: oc-includes/osclass/classes/controller/CWebItem.php:607
+msgid "Please fill the required field (email)"
+msgstr "Si us plau, omple el camp obligatori (correu electrònic)."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:454
-msgid "Price too long."
-msgstr "Preu massa llarg."
+#: oc-includes/osclass/classes/controller/CWebItem.php:611
+msgid "Please type a comment"
+msgstr "Si us plau, escriu un comentari."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:457
-msgid "Price must be positive number."
-msgstr "El preu ha de ser un nombre positiu."
+#: oc-includes/osclass/classes/controller/CWebItem.php:615
+msgid "Your comment has been marked as spam"
+msgstr "El teu comentari ha estat marcat com a contingut brossa."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:459
-msgid "Country too short."
-msgstr "País molt curt."
+#: oc-includes/osclass/classes/controller/CWebItem.php:619
+msgid "You need to be logged to comment"
+msgstr "Has d'haver iniciat sessió per a comentar"
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:461
-msgid "Country too long."
-msgstr "País massa llarg."
+#: oc-includes/osclass/classes/controller/CWebItem.php:623
+msgid "Sorry, comments are disabled"
+msgstr "Ho sentim, comentaris desactivats."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:463
-msgid "Region too short."
-msgstr "Regió massa curt."
+#: oc-includes/osclass/classes/controller/CWebItem.php:652
+msgid "You must be logged in to delete a comment"
+msgstr "Has d'haver accedit al web per esborrar un comentari."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:465
-msgid "Region too long."
-msgstr "Regió massa llarg."
+#: oc-includes/osclass/classes/controller/CWebItem.php:660
+msgid "The comment doesn't exist"
+msgstr "El comentari no existeix."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:467
-msgid "City too short."
-msgstr "Ciutat molt curt."
+#: oc-includes/osclass/classes/controller/CWebItem.php:665
+msgid "The comment is not active, you cannot delete it"
+msgstr "El comentari no está actiu. No pots eliminar-lo."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:468
-msgid "City too long."
-msgstr "Ciutat de molt temps."
+#: oc-includes/osclass/classes/controller/CWebItem.php:670
+msgid "The comment was not added by you, you cannot delete it"
+msgstr "No pots eliminar el comentari perquè no el vas fer tu."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:470
-msgid "Municipality too short."
-msgstr "Municipi massa curt."
+#: oc-includes/osclass/classes/controller/CWebItem.php:706
+msgid "The listing hasn't been validated. Please validate it in order to make it public"
+msgstr "L'anunci no s'ha validat. Si us plau, valida'l per fer-lo públic. "
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:472
-msgid "Municipality too long."
-msgstr "Municipi massa llarg."
+#: oc-includes/osclass/classes/controller/CWebItem.php:716
+msgid "The listing hasn't been enabled. Please enable it in order to make it public"
+msgstr "L'anunci no ha estat activat. Si us plau, activa'l per a poder fer-lo públic."
 
-#: oc-includes/osclass/classes/actions/ItemActions.php:474
-msgid "Address too short."
-msgstr "Adreça massa curta."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:476
-msgid "Address too long."
-msgstr "Adreçar massa molt de temps."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:478
-msgid "Phone invalid."
-msgstr "El telèfon no és vàlid."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:572
-#: oc-includes/osclass/classes/actions/ItemActions.php:586
-#: oc-includes/osclass/classes/actions/ItemActions.php:597
-#: oc-includes/osclass/classes/actions/ItemActions.php:607
-#: oc-includes/osclass/classes/actions/ItemActions.php:609
-#, php-format
-msgid "%s is invalid."
-msgstr "%s no és vàlid."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:575
-#: oc-includes/osclass/classes/actions/ItemActions.php:578
-#: oc-includes/osclass/classes/actions/ItemActions.php:589
-#: oc-includes/osclass/classes/actions/ItemActions.php:600
-#: oc-includes/osclass/classes/actions/ItemActions.php:612
-#: oc-includes/osclass/classes/actions/ItemActions.php:619
-#, php-format
-msgid "%s is required."
-msgstr "%s és necessari."
-
-#: oc-includes/osclass/classes/actions/ItemActions.php:1379
-#, php-format
-msgid "We just sent your message to %s"
-msgstr "Hem enviat el teu missatge a %s."
-
-#: oc-includes/osclass/classes/actions/UserActions.php:65
-msgid "The reCAPTCHA was not entered correctly"
-msgstr "El reCAPTCHA no s'ha entrat correctament."
-
-#: oc-includes/osclass/classes/actions/UserActions.php:70
-msgid "The password cannot be empty"
-msgstr "La contrasenya no pot estar buida."
-
-#: oc-includes/osclass/classes/actions/UserActions.php:86
-#: oc-includes/osclass/classes/actions/UserActions.php:302
-msgid "The name cannot be empty"
-msgstr "El nom no es pot deixar en blanc"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:91
-msgid "The email is not valid"
-msgstr "El correu electrònic no és vàlid."
-
-#: oc-includes/osclass/classes/actions/UserActions.php:105
-msgid "Username is already taken"
-msgstr "Nom d'usuari existent"
-
-#: oc-includes/osclass/classes/actions/UserActions.php:291
-#, php-format
-msgid "The specified e-mail is already used by %s"
-msgstr "L'e-mail especificat ja està en ús per %s"
-
-#: oc-includes/osclass/emails.php:861
-msgid "We've sent you an e-mail. Follow its instructions to validate the changes"
-msgstr "T'hem enviat un e-mail. Segueix-ne les instruccions per a activar els canvis."
-
-#: oc-includes/osclass/emails.php:864
-msgid "We tried to sent you an e-mail, but it failed. Please, contact an administrator"
-msgstr "Hem intentat enviar-te un e-mail però hem fallat. Si us plau, contacta amb l'administrador."
-
-#: oc-includes/osclass/emails.php:1122
-msgid "There has been some errors sending the message"
-msgstr "Hi ha hagut alguns errors a l'hora d'enviar el missatge."
+#: oc-includes/osclass/classes/controller/CWebItem.php:722
+msgid "The listing has been blocked or is awaiting moderation from the admin"
+msgstr "L'anunci s'ha bloquejat o està esperant aprovació de l'administrador"
 
