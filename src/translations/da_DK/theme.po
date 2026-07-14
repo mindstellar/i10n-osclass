@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2026-07-14 08:33+0000\n"
-"PO-Revision-Date: 2026-07-14 09:11\n"
+"POT-Creation-Date: 2023-04-03 10:27+0000\n"
+"PO-Revision-Date: 2026-07-14 10:43\n"
 "Last-Translator: \n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
@@ -16,6 +16,147 @@ msgstr ""
 "X-Crowdin-Language: da\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Oprettet d</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Redigeret d</strong> %1$s"
+
+#: item.php:66 main.php:74
+msgid "Location"
+msgstr "GEO lokalisering"
+
+#: item.php:73 loop-single.php:46 loop-single-premium.php:46
+msgid "Edit item"
+msgstr "Rediger element"
+
+#: item.php:85 item.php:92
+msgid "Image"
+msgstr "Billede"
+
+#: item.php:121
+msgid "Contact seller"
+msgstr "Kontakt annoncør"
+
+#: item.php:125
+msgid "Share"
+msgstr "Del"
+
+#: item.php:131
+msgid "Useful information"
+msgstr "Nyttige oplysninger"
+
+#: item.php:133
+msgid "Avoid scams by acting locally or paying with PayPal"
+msgstr "Undgå svindel ved at handle lokalt eller betale med PayPal"
+
+#: item.php:134
+msgid "Never pay with Western Union, Moneygram or other anonymous payment services"
+msgstr "Betal aldrig med Western Union, Moneygram eller andre anonyme betalingstjenester"
+
+#: item.php:135
+msgid "Don't buy or sell outside of your country. Don't accept cashier cheques from outside your country"
+msgstr "Du må ikke købe eller sælge uden for dit land. Du må ikke acceptere kontantcheck uden for dit land"
+
+#: item.php:136
+msgid "This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\""
+msgstr "Dette websted er aldrig involveret i nogen transaktion, og ikke håndtere betalinger, shipping, garantitransaktioner, levere deponeringstjenester eller tilbyde \"køberbeskyttelse\" eller \"sælgercertificering\""
+
+#: item.php:143
+msgid "Related listings"
+msgstr "Relaterede lister"
+
+#: item.php:154
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: item.php:161
+msgid "by"
+msgstr "af"
+
+#: item.php:165
+msgid "Delete your comment"
+msgstr "Slet din kommentar"
+
+#: item.php:165 loop-single.php:48 common/head.php:25
+#: loop-single-premium.php:48
+msgid "Delete"
+msgstr "* SLET *"
+
+#: item.php:177
+msgid "Leave your comment (spam and offensive messages will be removed)"
+msgstr "Efterlad din kommentar (spam og stødende beskeder vil blive fjernet)"
+
+#: item.php:191 item-sidebar.php:85 item-send-friend.php:44 contact.php:40
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr "Dit navn"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "Din e-mail"
+
+#: item.php:204 item-post.php:65
+msgid "Title"
+msgstr "Overskrift"
+
+#: item.php:210
+msgid "Comment"
+msgstr "Kommentar"
+
+#: item.php:216 item-sidebar.php:113 item-send-friend.php:87 contact.php:68
+#: user-public-sidebar.php:54
+msgid "Send"
+msgstr "Send"
+
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Din søgning"
+
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "By"
+
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Vis kun"
+
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "lister med billeder"
+
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Pris"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Min."
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Maks."
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Anvend"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Præcisér kategori"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Handlingen kan ikke fortrydes. - Er du sikker på du vil fortsætte?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Aktiver"
 
 #: 404.php:30
 msgid "Sorry but I can't find the page you're looking for"
@@ -37,11 +178,78 @@ msgstr "Søg"
 msgid "<strong>Look</strong> for it in the most popular categories."
 msgstr "<strong>Kig efter</strong> i de mest populære kategorier."
 
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "<em>Goddag</em>: %s"
+
+#: footer.php:36 header.php:49
+msgid "My account"
+msgstr "Min konto"
+
+#: footer.php:37 header.php:50
+msgid "Logout"
+msgstr "Log UD <em> ..: husk det altid :..</em>"
+
+#: footer.php:40 item-sidebar.php:63 functions.php:449 header.php:53
+msgid "Login"
+msgstr "Log IND"
+
+#: footer.php:43 user-login.php:58 item-sidebar.php:64 header.php:55
+msgid "Register for a free account"
+msgstr "Registrer dig for en gratis konto"
+
+#: footer.php:50 header.php:60
+msgid "Publish your ad for free"
+msgstr "Udgiv din annonce gratis"
+
+#: footer.php:65 functions.php:453 user-public-sidebar.php:26
+msgid "Contact"
+msgstr " Kontakt"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Dette websted er bygget med <a title=\"Osclass web\" href=\"%s\"> software fra </a> <strong> Osclass </strong>"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "Sprog:"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "Udbed et nyt PassWord"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Ny adgangskode"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Gentag ny adgangskode"
+
+#: user-forgot_password.php:52 functions.php:448 functions.php:451
+#: functions.php:511 user-change_password.php:32 user-change_password.php:37
+msgid "Change password"
+msgstr "Skift PassWord"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Vis menu"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "? SLET KONTO ?"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Er du sikker på, at du vil slette din konto?"
+
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Adgang til din konto"
 
-#: user-login.php:38 user-register.php:45 user-recover.php:37 item-post.php:185
+#: user-login.php:38 user-recover.php:37 item-post.php:185 user-register.php:45
 msgid "E-mail"
 msgstr "E-Mail"
 
@@ -57,126 +265,25 @@ msgstr "Husk mig"
 msgid "Log in"
 msgstr "Log IND"
 
-#: user-login.php:58 item-sidebar.php:64 footer.php:43 header.php:55
-msgid "Register for a free account"
-msgstr "Registrer dig for en gratis konto"
-
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "Glemt adgangskode?"
 
-#: loop-single-premium.php:46 item.php:73 loop-single.php:46
-msgid "Edit item"
-msgstr "Rediger element"
+#: common/head.php:26
+msgid "Cancel"
+msgstr ".. Fortryd .."
 
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Handlingen kan ikke fortrydes. - Er du sikker på du vil fortsætte?"
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Forrige billede"
 
-#: loop-single-premium.php:48 common/head.php:25 item.php:165
-#: loop-single.php:48
-msgid "Delete"
-msgstr "* SLET *"
+#: common/head.php:73
+msgid "Next image"
+msgstr "Næste billede"
 
-#: loop-single-premium.php:51 loop-single.php:51
-msgid "Activate"
-msgstr "Aktiver"
-
-#: item-send-friend.php:31 functions.php:436
-msgid "Send to a friend"
-msgstr "Send til en ven"
-
-#: item-send-friend.php:44 contact.php:40 item-sidebar.php:85 item.php:191
-#: user-public-sidebar.php:33
-msgid "Your name"
-msgstr "Dit navn"
-
-#: item-send-friend.php:50 item.php:197
-msgid "Your e-mail"
-msgstr "Din e-mail"
-
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "Din vens navn"
-
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "Din vens e-mail adresse"
-
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Emne (valgfrit)"
-
-#: item-send-friend.php:78 contact.php:60 item-sidebar.php:98
-#: user-public-sidebar.php:46
-msgid "Message"
-msgstr "Besked"
-
-#: item-send-friend.php:87 contact.php:68 item-sidebar.php:113 item.php:216
-#: user-public-sidebar.php:54
-msgid "Send"
-msgstr "Send"
-
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Registrer en gratis konto"
-
-#: user-register.php:39 item-sidebar.php:68 user-profile.php:46
-#: item-post.php:179
-msgid "Name"
-msgstr "Navn"
-
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Gentag adgangskode"
-
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "PassWords er ikke ens"
-
-#: user-register.php:73
-msgid "Create"
-msgstr "Opret"
-
-#: contact.php:31
-msgid "Contact us"
-msgstr "Kontakt os"
-
-#: contact.php:41 contact.php:54 item-sidebar.php:93 user-public-sidebar.php:41
-msgid "optional"
-msgstr "valgfri"
-
-#: contact.php:47 user-public-sidebar.php:37
-msgid "Your email address"
-msgstr "Din e-mail adresse"
-
-#: contact.php:53
-msgid "Subject"
-msgstr "Emne"
-
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "Du er nu tilmeldt denne påmindelse"
-
-#: alert-form.php:28 user-change_email.php:77
-msgid "Invalid email address"
-msgstr "Forkert E-Mail adresse"
-
-#: alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "Der opstod et problem med påmindelsen"
-
-#: alert-form.php:61
-msgid "Already subscribed to this search"
-msgstr "Allerede tilmeldt denne søgning"
-
-#: alert-form.php:65
-msgid "Subscribe to this search"
-msgstr "Abonner på denne søgning"
-
-#: alert-form.php:80
-msgid "Subscribe now"
-msgstr "Abonner nu"
+#: common/head.php:74
+msgid "Close"
+msgstr "LUK"
 
 #: item-sidebar.php:30
 msgid "Mark as..."
@@ -218,9 +325,10 @@ msgstr "Det er din egen liste, du kan ikke kontakte udgiveren."
 msgid "You must log in or register a new account in order to contact the advertiser"
 msgstr "Du skal logge ind eller registrere en ny konto for at kontakte annoncøren"
 
-#: item-sidebar.php:63 footer.php:40 functions.php:449 header.php:53
-msgid "Login"
-msgstr "Log IND"
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
+msgid "Name"
+msgstr "Navn"
 
 #: item-sidebar.php:70
 #, php-format
@@ -245,30 +353,46 @@ msgstr "Din e-mail adresse"
 msgid "Phone number"
 msgstr "Telefonnummer"
 
+#: item-sidebar.php:93 contact.php:41 contact.php:54 user-public-sidebar.php:41
+msgid "optional"
+msgstr "valgfri"
+
+#: item-sidebar.php:98 item-send-friend.php:78 contact.php:60
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr "Besked"
+
 #: item-sidebar.php:104
 msgid "Attachment"
 msgstr "Vedhæft"
 
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "Ændre E-Mail"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "Du er nu tilmeldt denne påmindelse"
 
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "Nuværende e-mail"
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "Forkert E-Mail adresse"
 
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "Ny e-mail"
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "Der opstod et problem med påmindelsen"
 
-#: user-change_email.php:59 user-profile.php:115 item-post.php:211
-#: user-change_password.php:64 user-change_username.php:102
-msgid "Update"
-msgstr "Opdater"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "Allerede tilmeldt denne søgning"
 
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "E-Mail: Feltet er påkrævet"
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "Abonner på denne søgning"
+
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "Abonner nu"
+
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "Send mig en ny adgangskode"
 
 #: user-public-profile.php:67
 #, php-format
@@ -288,75 +412,144 @@ msgstr "Bruger beskrivelse"
 msgid "Latest listings"
 msgstr "Seneste opslag"
 
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "Din søgning"
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "f.eks. Søger Dansk PHP Programmør"
 
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "By"
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Opret annonce"
 
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Vis kun"
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Rediger din annonce"
 
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "lister med billeder"
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "Send til en ven"
 
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Pris"
+#: functions.php:438
+msgid "Search results"
+msgstr "Søge resultater"
 
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Min."
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Maks."
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Anvend"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Præcisér kategori"
-
-#: footer.php:35 header.php:48
+#: functions.php:439
 #, php-format
-msgid "Hi %s"
-msgstr "<em>Goddag</em>: %s"
+msgid "Search results: %s"
+msgstr "Søge resultater: %s"
 
-#: footer.php:36 header.php:49
-msgid "My account"
-msgstr "Min konto"
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Kontrolpanel"
 
-#: footer.php:37 header.php:50
-msgid "Logout"
-msgstr "Log UD <em> ..: husk det altid :..</em>"
-
-#: footer.php:50 header.php:60
-msgid "Publish your ad for free"
-msgstr "Udgiv din annonce gratis"
-
-#: footer.php:65 functions.php:453 user-public-sidebar.php:26
-msgid "Contact"
-msgstr " Kontakt"
-
-#: footer.php:69
+#: functions.php:441
 #, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Dette websted er bygget med <a title=\"Osclass web\" href=\"%s\"> software fra </a> <strong> Osclass </strong>"
+msgid "%s's profile"
+msgstr "%s's  profil"
 
-#: footer.php:74
-msgid "Language:"
-msgstr "Sprog:"
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr " KONTO PROFIL *"
 
-#: user-profile.php:32 user-profile.php:37 functions.php:445
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "Annoncer "
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "Påmindelser"
+
+#: functions.php:445 user-profile.php:32 user-profile.php:37
 msgid "Update account"
 msgstr "Konto profil opdatering"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "Ændre E-Mail"
+
+#: functions.php:447 functions.php:506 user-change_username.php:34
+#: user-change_username.php:39
+msgid "Change username"
+msgstr "Skift bruger navn"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Reset PassWord"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Opret en ny konto"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Offentlig Profil"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Tema indstillinger er opdateret korrekt"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Logo billede er blevet uploadet korrekt"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "FEJL opstod, prøv venligst igen"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Logo billedet er blevet fjernet"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Billede ikke fundet"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "Header (top) logo"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "Tema indstillinger"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Alle kategorier"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "Du har ingen advarsler endnu"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "Påmindelse"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Handlingen kan ikke fortrydes. - Er du sikker på du vil fortsætte?"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "Slet denne advarsel"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Seneste Lister"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Der er ikke tilgængelige lister i øjeblikket"
+
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Liste"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Gitter"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Se alle lister"
 
 #: user-profile.php:52
 msgid "User type"
@@ -394,141 +587,14 @@ msgstr "Websted"
 msgid "Description"
 msgstr "Beskrivelse..."
 
-#: user-forgot_password.php:30 user-recover.php:30
-msgid "Recover your password"
-msgstr "Udbed et nyt PassWord"
+#: user-profile.php:115 user-change_password.php:64 item-post.php:211
+#: user-change_email.php:59 user-change_username.php:102
+msgid "Update"
+msgstr "Opdater"
 
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Ny adgangskode"
-
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Gentag ny adgangskode"
-
-#: user-forgot_password.php:52 functions.php:448 functions.php:451
-#: functions.php:511 user-change_password.php:32 user-change_password.php:37
-msgid "Change password"
-msgstr "Skift PassWord"
-
-#: user-recover.php:45
-msgid "Send me a new password"
-msgstr "Send mig en ny adgangskode"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr ".. Fortryd .."
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Forrige billede"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Næste billede"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "LUK"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "f.eks. Søger Dansk PHP Programmør"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Opret annonce"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "Rediger din annonce"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Søge resultater"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Søge resultater: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Kontrolpanel"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "%s's  profil"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr " KONTO PROFIL *"
-
-#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
-msgid "Listings"
-msgstr "Annoncer "
-
-#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
-msgid "Alerts"
-msgstr "Påmindelser"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "Ændre E-Mail"
-
-#: functions.php:447 functions.php:506 user-change_username.php:34
-#: user-change_username.php:39
-msgid "Change username"
-msgstr "Skift bruger navn"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Reset PassWord"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Opret en ny konto"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Offentlig Profil"
-
-#: functions.php:516 user-sidebar.php:28
-msgid "Delete account"
-msgstr "? SLET KONTO ?"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Tema indstillinger er opdateret korrekt"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Logo billede er blevet uploadet korrekt"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "FEJL opstod, prøv venligst igen"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "Logo billedet er blevet fjernet"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "Billede ikke fundet"
-
-#: functions.php:666 admin/header.php:29
-msgid "Header logo"
-msgstr "Header (top) logo"
-
-#: functions.php:668 admin/settings.php:46
-msgid "Theme settings"
-msgstr "Tema indstillinger"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Alle kategorier"
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Nuværende adgangskode"
 
 #: item-post.php:57
 msgid "General Information"
@@ -541,10 +607,6 @@ msgstr "Kategori"
 #: item-post.php:61 header.php:74
 msgid "Select a category"
 msgstr "VÆLG  EN  KATEGORI"
-
-#: item-post.php:65 item.php:204
-msgid "Title"
-msgstr "Overskrift"
 
 #: item-post.php:89
 msgid "Listing Location"
@@ -566,37 +628,82 @@ msgstr "Vis e-mail på listesiden"
 msgid "Publish"
 msgstr "Udgiv"
 
-#: main.php:38
-msgid "Latest Listings"
-msgstr "Seneste Lister"
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "Din vens navn"
 
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "Der er ikke tilgængelige lister i øjeblikket"
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "Din vens e-mail adresse"
 
-#: main.php:45 admin/settings.php:60 search.php:80
-msgid "List"
-msgstr "Liste"
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Emne (valgfrit)"
 
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Gitter"
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Registrer en gratis konto"
 
-#: main.php:57
-msgid "See all listings"
-msgstr "Se alle lister"
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Gentag adgangskode"
 
-#: main.php:74 item.php:66
-msgid "Location"
-msgstr "GEO lokalisering"
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "PassWords er ikke ens"
 
-#: user-items.php:41
-msgid "My listings"
-msgstr "Mine annoncer"
+#: user-register.php:73
+msgid "Create"
+msgstr "Opret"
 
-#: user-items.php:43
-msgid "No listings have been added yet"
-msgstr "Ingen lister er tilføjet endnu"
+#: admin/header.php:35
+msgid "Preview"
+msgstr "Preview"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Fjern logo"
+
+#: admin/header.php:49
+msgid "No logo has been uploaded yet"
+msgstr "Intet logo er blevet uploadet endnu"
+
+#: admin/header.php:52
+msgid "Upload logo"
+msgstr "Upload logo"
+
+#: admin/header.php:53
+msgid "The preferred size of the logo is 600x100."
+msgstr "Den foretrukne størrelse af logoet er 600x100."
+
+#: admin/header.php:55
+msgid "<strong>Note:</strong> Uploading another logo will overwrite the current logo."
+msgstr "<strong>Bemærk:</strong> Upload af et andet logo vil overskrive det aktuelle logo."
+
+#: admin/header.php:63
+msgid "Logo image (png,gif,jpg)"
+msgstr "Logobillede (png,gif,jpg)"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Opload"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "Billede mappen <strong>%s</strong> er ikke skrivbar på serveren"
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Osclass kan ikke uploade logoet fra kontrolpanelet"
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Venligst gør den førnævnte billedmappe på serveren skrivbar."
+
+#: admin/header.php:85
+msgid "To make a directory writable under UNIX execute this command from the shell:"
+msgstr "For at gøre en mappe skrivbar under UNIX, eksekvér denne kommando fra skallen:"
 
 #: admin/settings.php:36
 msgid "I would like to contribute to the development of Osclass with a donation of"
@@ -718,164 +825,25 @@ msgstr "Denne annonce vil blive vist på den rigtige sidepanel på din hjemmesid
 msgid "Save changes"
 msgstr "* GEM ÆNDRINGER *"
 
-#: admin/header.php:35
-msgid "Preview"
-msgstr "Preview"
+#: user-items.php:41
+msgid "My listings"
+msgstr "Mine annoncer"
 
-#: admin/header.php:42
-msgid "Remove logo"
-msgstr "Fjern logo"
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "Ingen lister er tilføjet endnu"
 
-#: admin/header.php:49
-msgid "No logo has been uploaded yet"
-msgstr "Intet logo er blevet uploadet endnu"
+#: contact.php:31
+msgid "Contact us"
+msgstr "Kontakt os"
 
-#: admin/header.php:52
-msgid "Upload logo"
-msgstr "Upload logo"
+#: contact.php:47 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr "Din e-mail adresse"
 
-#: admin/header.php:53
-msgid "The preferred size of the logo is 600x100."
-msgstr "Den foretrukne størrelse af logoet er 600x100."
-
-#: admin/header.php:55
-msgid "<strong>Note:</strong> Uploading another logo will overwrite the current logo."
-msgstr "<strong>Bemærk:</strong> Upload af et andet logo vil overskrive det aktuelle logo."
-
-#: admin/header.php:63
-msgid "Logo image (png,gif,jpg)"
-msgstr "Logobillede (png,gif,jpg)"
-
-#: admin/header.php:69
-msgid "Upload"
-msgstr "Opload"
-
-#: admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "Billede mappen <strong>%s</strong> er ikke skrivbar på serveren"
-
-#: admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Osclass kan ikke uploade logoet fra kontrolpanelet"
-
-#: admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Venligst gør den førnævnte billedmappe på serveren skrivbar."
-
-#: admin/header.php:85
-msgid "To make a directory writable under UNIX execute this command from the shell:"
-msgstr "For at gøre en mappe skrivbar under UNIX, eksekvér denne kommando fra skallen:"
-
-#: user-alerts.php:39
-msgid "You do not have any alerts yet"
-msgstr "Du har ingen advarsler endnu"
-
-#: user-alerts.php:46
-msgid "Alert"
-msgstr "Påmindelse"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Handlingen kan ikke fortrydes. - Er du sikker på du vil fortsætte?"
-
-#: user-alerts.php:46
-msgid "Delete this alert"
-msgstr "Slet denne advarsel"
-
-#: item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Oprettet d</strong>: %1$s"
-
-#: item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Redigeret d</strong> %1$s"
-
-#: item.php:85 item.php:92
-msgid "Image"
-msgstr "Billede"
-
-#: item.php:121
-msgid "Contact seller"
-msgstr "Kontakt annoncør"
-
-#: item.php:125
-msgid "Share"
-msgstr "Del"
-
-#: item.php:131
-msgid "Useful information"
-msgstr "Nyttige oplysninger"
-
-#: item.php:133
-msgid "Avoid scams by acting locally or paying with PayPal"
-msgstr "Undgå svindel ved at handle lokalt eller betale med PayPal"
-
-#: item.php:134
-msgid "Never pay with Western Union, Moneygram or other anonymous payment services"
-msgstr "Betal aldrig med Western Union, Moneygram eller andre anonyme betalingstjenester"
-
-#: item.php:135
-msgid "Don't buy or sell outside of your country. Don't accept cashier cheques from outside your country"
-msgstr "Du må ikke købe eller sælge uden for dit land. Du må ikke acceptere kontantcheck uden for dit land"
-
-#: item.php:136
-msgid "This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\""
-msgstr "Dette websted er aldrig involveret i nogen transaktion, og ikke håndtere betalinger, shipping, garantitransaktioner, levere deponeringstjenester eller tilbyde \"køberbeskyttelse\" eller \"sælgercertificering\""
-
-#: item.php:143
-msgid "Related listings"
-msgstr "Relaterede lister"
-
-#: item.php:154
-msgid "Comments"
-msgstr "Kommentarer"
-
-#: item.php:161
-msgid "by"
-msgstr "af"
-
-#: item.php:165
-msgid "Delete your comment"
-msgstr "Slet din kommentar"
-
-#: item.php:177
-msgid "Leave your comment (spam and offensive messages will be removed)"
-msgstr "Efterlad din kommentar (spam og stødende beskeder vil blive fjernet)"
-
-#: item.php:210
-msgid "Comment"
-msgstr "Kommentar"
-
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Nuværende adgangskode"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Vis menu"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Er du sikker på, at du vil slette din konto?"
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Brugernavn: (feltet er påkrævet)"
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "Brugernavnet er ledigt"
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Brugernavnet er IKKE ledigt"
-
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Brugernavn"
+#: contact.php:53
+msgid "Subject"
+msgstr "Emne"
 
 #: search.php:55
 msgid "Selected"
@@ -910,4 +878,36 @@ msgstr "Premium annoncer"
 #: search.php:142
 msgid "Other searches that may interest you"
 msgstr "Andre søgninger, der kan interessere dig"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "Ændre E-Mail"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "Nuværende e-mail"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Ny e-mail"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "E-Mail: Feltet er påkrævet"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Brugernavn: (feltet er påkrævet)"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Brugernavnet er ledigt"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Brugernavnet er IKKE ledigt"
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Brugernavn"
 
