@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osclass-v2\n"
 "Report-Msgid-Bugs-To: translations@mindstellar.com\n"
-"POT-Creation-Date: 2026-07-14 08:33+0000\n"
-"PO-Revision-Date: 2026-07-14 09:11\n"
+"POT-Creation-Date: 2023-04-03 10:27+0000\n"
+"PO-Revision-Date: 2026-07-19 06:12\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -16,6 +16,147 @@ msgstr ""
 "X-Crowdin-Language: de\n"
 "X-Crowdin-File: /develop/src/templates/theme.pot\n"
 "X-Crowdin-File-ID: 8225\n"
+
+#: item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">Datum der Veröffentlichung</strong>: %1$s"
+
+#: item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">Änderungsdatum:</strong> %1$s"
+
+#: item.php:66 main.php:74
+msgid "Location"
+msgstr "Ort"
+
+#: item.php:73 loop-single.php:46 loop-single-premium.php:46
+msgid "Edit item"
+msgstr "Element bearbeiten"
+
+#: item.php:85 item.php:92
+msgid "Image"
+msgstr "Bild"
+
+#: item.php:121
+msgid "Contact seller"
+msgstr "Anbieter kontaktieren"
+
+#: item.php:125
+msgid "Share"
+msgstr "Teilen"
+
+#: item.php:131
+msgid "Useful information"
+msgstr "Nützliche Informationen"
+
+#: item.php:133
+msgid "Avoid scams by acting locally or paying with PayPal"
+msgstr "Vermeiden Sie Betrügereien, indem Sie lokal handeln oder mit PayPal bezahlen"
+
+#: item.php:134
+msgid "Never pay with Western Union, Moneygram or other anonymous payment services"
+msgstr "Bezahlen Sie niemals mit Western Union, Moneygram oder anderen anonymen Zahlungsdiensten"
+
+#: item.php:135
+msgid "Don't buy or sell outside of your country. Don't accept cashier cheques from outside your country"
+msgstr "Kaufen oder verkaufen Sie nicht außerhalb Ihres Landes. Akzeptieren Sie keine Kassenschecks von außerhalb Ihres Landes"
+
+#: item.php:136
+msgid "This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\""
+msgstr "Diese Seite ist nie an einer Transaktion beteiligt und behandelt keine Zahlungen, Versand, Garantie Transaktionen, Treuhandleistungen erbringen oder \"Käuferschutz\" oder \"Verkäuferzertifikat\" anbieten"
+
+#: item.php:143
+msgid "Related listings"
+msgstr "Ähnliche Angebote"
+
+#: item.php:154
+msgid "Comments"
+msgstr "Kommentare"
+
+#: item.php:161
+msgid "by"
+msgstr "von"
+
+#: item.php:165
+msgid "Delete your comment"
+msgstr "Kommentar löschen"
+
+#: item.php:165 loop-single.php:48 common/head.php:25
+#: loop-single-premium.php:48
+msgid "Delete"
+msgstr "Löschen"
+
+#: item.php:177
+msgid "Leave your comment (spam and offensive messages will be removed)"
+msgstr "Hinterlassen Sie Ihren Kommentar (Spam und anstößige Nachrichten werden entfernt)"
+
+#: item.php:191 item-sidebar.php:85 item-send-friend.php:44 contact.php:40
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr "Ihr Name"
+
+#: item.php:197 item-send-friend.php:50
+msgid "Your e-mail"
+msgstr "Ihre E-Mail"
+
+#: item.php:204 item-post.php:65
+msgid "Title"
+msgstr "Titel"
+
+#: item.php:210
+msgid "Comment"
+msgstr "Kommentieren"
+
+#: item.php:216 item-sidebar.php:113 item-send-friend.php:87 contact.php:68
+#: user-public-sidebar.php:54
+msgid "Send"
+msgstr "Senden"
+
+#: search-sidebar.php:38
+msgid "Your search"
+msgstr "Ihre Suche"
+
+#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
+msgid "City"
+msgstr "Stadt"
+
+#: search-sidebar.php:52
+msgid "Show only"
+msgstr "Nur anzeigen"
+
+#: search-sidebar.php:55
+msgid "listings with pictures"
+msgstr "Angebote mit Bildern"
+
+#: search-sidebar.php:62 item-post.php:78
+msgid "Price"
+msgstr "Preis"
+
+#: search-sidebar.php:63
+msgid "Min"
+msgstr "Min"
+
+#: search-sidebar.php:66
+msgid "Max"
+msgstr "Max."
+
+#: search-sidebar.php:87
+msgid "Apply"
+msgstr "Bewerben"
+
+#: search-sidebar.php:92
+msgid "Refine category"
+msgstr "Kategorie verfeinern"
+
+#: loop-single.php:48 loop-single-premium.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "Diese Aktion kann nicht rückgängig gemacht werden. Sind sie sicher, dass Sie fortfahren möchten?"
+
+#: loop-single.php:51 loop-single-premium.php:51
+msgid "Activate"
+msgstr "Aktivieren"
 
 #: 404.php:30
 msgid "Sorry but I can't find the page you're looking for"
@@ -37,11 +178,78 @@ msgstr "Suchen"
 msgid "<strong>Look</strong> for it in the most popular categories."
 msgstr "<strong>Suche</strong> in den beliebtesten Kategorien."
 
+#: footer.php:35 header.php:48
+#, php-format
+msgid "Hi %s"
+msgstr "Hallo %s"
+
+#: footer.php:36 header.php:49
+msgid "My account"
+msgstr "Mein Konto"
+
+#: footer.php:37 header.php:50
+msgid "Logout"
+msgstr "Ausloggen"
+
+#: footer.php:40 item-sidebar.php:63 functions.php:449 header.php:53
+msgid "Login"
+msgstr "Anmelden"
+
+#: footer.php:43 user-login.php:58 item-sidebar.php:64 header.php:55
+msgid "Register for a free account"
+msgstr "Für ein kostenloses Konto registrieren"
+
+#: footer.php:50 header.php:60
+msgid "Publish your ad for free"
+msgstr "Veröffentlichen Sie Ihre Anzeige kostenlos"
+
+#: footer.php:65 functions.php:453 user-public-sidebar.php:26
+msgid "Contact"
+msgstr "Kontakt"
+
+#: footer.php:69
+#, php-format
+msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr "Diese Website verwendet die <a title=\"Osclass web\" href=\"%s\">Kleinanzeigen</a>-Software <strong>Osclass</strong>"
+
+#: footer.php:74
+msgid "Language:"
+msgstr "Sprache:"
+
+#: user-forgot_password.php:30 user-recover.php:30
+msgid "Recover your password"
+msgstr "Passwort wiederherstellen"
+
+#: user-forgot_password.php:39 user-change_password.php:51
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: user-forgot_password.php:45 user-change_password.php:57
+msgid "Repeat new password"
+msgstr "Neues Passwort wiederholen"
+
+#: user-forgot_password.php:52 functions.php:448 functions.php:451
+#: functions.php:511 user-change_password.php:32 user-change_password.php:37
+msgid "Change password"
+msgstr "Passwort ändern"
+
+#: user-sidebar.php:23
+msgid "Display menu"
+msgstr "Menü anzeigen"
+
+#: user-sidebar.php:28 functions.php:516
+msgid "Delete account"
+msgstr "Account löschen"
+
+#: user-sidebar.php:29
+msgid "Are you sure you want to delete your account?"
+msgstr "Sind Sie sicher, dass Sie Ihr Konto löschen möchten?"
+
 #: user-login.php:30
 msgid "Access to your account"
 msgstr "Zugriff auf Ihr Konto"
 
-#: user-login.php:38 user-register.php:45 user-recover.php:37 item-post.php:185
+#: user-login.php:38 user-recover.php:37 item-post.php:185 user-register.php:45
 msgid "E-mail"
 msgstr "Email"
 
@@ -57,126 +265,25 @@ msgstr "Erinnern Sie sich an mich"
 msgid "Log in"
 msgstr "Einloggen"
 
-#: user-login.php:58 item-sidebar.php:64 footer.php:43 header.php:55
-msgid "Register for a free account"
-msgstr "Für ein kostenloses Konto registrieren"
-
 #: user-login.php:58
 msgid "Forgot password?"
 msgstr "Passwort vergessen?"
 
-#: loop-single-premium.php:46 item.php:73 loop-single.php:46
-msgid "Edit item"
-msgstr "Element bearbeiten"
+#: common/head.php:26
+msgid "Cancel"
+msgstr "Abbrechen"
 
-#: loop-single-premium.php:48 loop-single.php:48
-msgid "This action can not be undone. Are you sure you want to continue?"
-msgstr "Diese Aktion kann nicht rückgängig gemacht werden. Sind sie sicher, dass Sie fortfahren möchten?"
+#: common/head.php:72
+msgid "Previous image"
+msgstr "Vorheriges Bild"
 
-#: loop-single-premium.php:48 common/head.php:25 item.php:165
-#: loop-single.php:48
-msgid "Delete"
-msgstr "Löschen"
+#: common/head.php:73
+msgid "Next image"
+msgstr "Nächstes Bild"
 
-#: loop-single-premium.php:51 loop-single.php:51
-msgid "Activate"
-msgstr "Aktivieren"
-
-#: item-send-friend.php:31 functions.php:436
-msgid "Send to a friend"
-msgstr "An einen Freund senden"
-
-#: item-send-friend.php:44 contact.php:40 item-sidebar.php:85 item.php:191
-#: user-public-sidebar.php:33
-msgid "Your name"
-msgstr "Ihr Name"
-
-#: item-send-friend.php:50 item.php:197
-msgid "Your e-mail"
-msgstr "Ihre E-Mail"
-
-#: item-send-friend.php:57
-msgid "Your friend's name"
-msgstr "Name deines Freundes"
-
-#: item-send-friend.php:63
-msgid "Your friend's e-mail address"
-msgstr "E-Mail-Adresse Ihres Freundes"
-
-#: item-send-friend.php:70
-msgid "Subject (optional)"
-msgstr "Betreff (optional)"
-
-#: item-send-friend.php:78 contact.php:60 item-sidebar.php:98
-#: user-public-sidebar.php:46
-msgid "Message"
-msgstr "Nachricht"
-
-#: item-send-friend.php:87 contact.php:68 item-sidebar.php:113 item.php:216
-#: user-public-sidebar.php:54
-msgid "Send"
-msgstr "Senden"
-
-#: user-register.php:31
-msgid "Register an account for free"
-msgstr "Registrieren Sie sich kostenlos"
-
-#: user-register.php:39 item-sidebar.php:68 user-profile.php:46
-#: item-post.php:179
-msgid "Name"
-msgstr "Name"
-
-#: user-register.php:57
-msgid "Repeat password"
-msgstr "Passwort wiederholen"
-
-#: user-register.php:61
-msgid "Passwords don't match"
-msgstr "Passwörter stimmen nicht überein"
-
-#: user-register.php:73
-msgid "Create"
-msgstr "Anlegen"
-
-#: contact.php:31
-msgid "Contact us"
-msgstr "Kontaktiere uns"
-
-#: contact.php:41 contact.php:54 item-sidebar.php:93 user-public-sidebar.php:41
-msgid "optional"
-msgstr "wahlfrei"
-
-#: contact.php:47 user-public-sidebar.php:37
-msgid "Your email address"
-msgstr "Ihre E-Mail-Adresse"
-
-#: contact.php:53
-msgid "Subject"
-msgstr "Betreff"
-
-#: alert-form.php:27
-msgid "You have sucessfully subscribed to the alert"
-msgstr "Sie haben die Anzeige erfolgreich abonniert"
-
-#: alert-form.php:28 user-change_email.php:77
-msgid "Invalid email address"
-msgstr "Ungültige E-Mail Adresse"
-
-#: alert-form.php:29
-msgid "There was a problem with the alert"
-msgstr "Es gab ein Problem mit dieser Anzeige"
-
-#: alert-form.php:61
-msgid "Already subscribed to this search"
-msgstr "Diese Suche wurde bereits abonniert"
-
-#: alert-form.php:65
-msgid "Subscribe to this search"
-msgstr "Diese Suche abonnieren"
-
-#: alert-form.php:80
-msgid "Subscribe now"
-msgstr "Jetzt abonnieren"
+#: common/head.php:74
+msgid "Close"
+msgstr "Schließen"
 
 #: item-sidebar.php:30
 msgid "Mark as..."
@@ -218,9 +325,10 @@ msgstr "Es ist Ihre eigene Eintragung, Sie können den Verlag nicht kontaktieren
 msgid "You must log in or register a new account in order to contact the advertiser"
 msgstr "Sie müssen sich einloggen oder ein neues Konto registrieren, um den Inserenten zu kontaktieren"
 
-#: item-sidebar.php:63 footer.php:40 functions.php:449 header.php:53
-msgid "Login"
-msgstr "Anmelden"
+#: item-sidebar.php:68 user-profile.php:46 item-post.php:179
+#: user-register.php:39
+msgid "Name"
+msgstr "Name"
 
 #: item-sidebar.php:70
 #, php-format
@@ -245,30 +353,46 @@ msgstr "Ihre E-Mail-Adresse"
 msgid "Phone number"
 msgstr "Telefonnummer"
 
+#: item-sidebar.php:93 contact.php:41 contact.php:54 user-public-sidebar.php:41
+msgid "optional"
+msgstr "wahlfrei"
+
+#: item-sidebar.php:98 item-send-friend.php:78 contact.php:60
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr "Nachricht"
+
 #: item-sidebar.php:104
 msgid "Attachment"
 msgstr "Anhang"
 
-#: user-change_email.php:33 user-change_email.php:38
-msgid "Change e-mail"
-msgstr "E-Mail Adresse ändern"
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr "Sie haben die Anzeige erfolgreich abonniert"
 
-#: user-change_email.php:46
-msgid "Current e-mail"
-msgstr "Aktuelle E-Mail"
+#: alert-form.php:28 user-change_email.php:77
+msgid "Invalid email address"
+msgstr "Ungültige E-Mail Adresse"
 
-#: user-change_email.php:52
-msgid "New e-mail"
-msgstr "Neue E-Mail"
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr "Es gab ein Problem mit dieser Anzeige"
 
-#: user-change_email.php:59 user-profile.php:115 item-post.php:211
-#: user-change_password.php:64 user-change_username.php:102
-msgid "Update"
-msgstr "Aktualisieren"
+#: alert-form.php:61
+msgid "Already subscribed to this search"
+msgstr "Diese Suche wurde bereits abonniert"
 
-#: user-change_email.php:76
-msgid "Email: this field is required"
-msgstr "Email: Feld ist erforderlich"
+#: alert-form.php:65
+msgid "Subscribe to this search"
+msgstr "Diese Suche abonnieren"
+
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr "Jetzt abonnieren"
+
+#: user-recover.php:45
+msgid "Send me a new password"
+msgstr "Schicke mir ein neues Passwort"
 
 #: user-public-profile.php:67
 #, php-format
@@ -288,75 +412,144 @@ msgstr "Benutzerbeschreibung"
 msgid "Latest listings"
 msgstr "Neueste Angebote"
 
-#: search-sidebar.php:38
-msgid "Your search"
-msgstr "Ihre Suche"
+#: functions.php:28
+msgid "ie. PHP Programmer"
+msgstr "z.B. PHP Programmierer"
 
-#: search-sidebar.php:44 user-profile.php:83 item-post.php:146
-msgid "City"
-msgstr "Stadt"
+#: functions.php:434 item-post.php:46
+msgid "Publish a listing"
+msgstr "Eine Anzeige veröffentlichen"
 
-#: search-sidebar.php:52
-msgid "Show only"
-msgstr "Nur anzeigen"
+#: functions.php:435
+msgid "Edit your listing"
+msgstr "Anzeige bearbeiten"
 
-#: search-sidebar.php:55
-msgid "listings with pictures"
-msgstr "Angebote mit Bildern"
+#: functions.php:436 item-send-friend.php:31
+msgid "Send to a friend"
+msgstr "An einen Freund senden"
 
-#: search-sidebar.php:62 item-post.php:78
-msgid "Price"
-msgstr "Preis"
+#: functions.php:438
+msgid "Search results"
+msgstr "Suchresultate"
 
-#: search-sidebar.php:63
-msgid "Min"
-msgstr "Min"
-
-#: search-sidebar.php:66
-msgid "Max"
-msgstr "Max."
-
-#: search-sidebar.php:87
-msgid "Apply"
-msgstr "Bewerben"
-
-#: search-sidebar.php:92
-msgid "Refine category"
-msgstr "Kategorie verfeinern"
-
-#: footer.php:35 header.php:48
+#: functions.php:439
 #, php-format
-msgid "Hi %s"
-msgstr "Hallo %s"
+msgid "Search results: %s"
+msgstr "Resultate der Suche: %s"
 
-#: footer.php:36 header.php:49
-msgid "My account"
-msgstr "Mein Konto"
+#: functions.php:440
+msgid "Dashboard"
+msgstr "Übersicht"
 
-#: footer.php:37 header.php:50
-msgid "Logout"
-msgstr "Ausloggen"
-
-#: footer.php:50 header.php:60
-msgid "Publish your ad for free"
-msgstr "Veröffentlichen Sie Ihre Anzeige kostenlos"
-
-#: footer.php:65 functions.php:453 user-public-sidebar.php:26
-msgid "Contact"
-msgstr "Kontakt"
-
-#: footer.php:69
+#: functions.php:441
 #, php-format
-msgid "This website is proudly using the <a title=\"Osclass web\" href=\"%s\">classifieds scripts</a> software <strong>Osclass</strong>"
-msgstr "Diese Website verwendet die <a title=\"Osclass web\" href=\"%s\">Kleinanzeigen</a>-Software <strong>Osclass</strong>"
+msgid "%s's profile"
+msgstr "Profil von %s"
 
-#: footer.php:74
-msgid "Language:"
-msgstr "Sprache:"
+#: functions.php:442 functions.php:496
+msgid "Account"
+msgstr "Benutzerkonto"
 
-#: user-profile.php:32 user-profile.php:37 functions.php:445
+#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
+msgid "Listings"
+msgstr "Anzeigen"
+
+#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
+msgid "Alerts"
+msgstr "Abonnements"
+
+#: functions.php:445 user-profile.php:32 user-profile.php:37
 msgid "Update account"
 msgstr "Benutzerkonto aktualisieren"
+
+#: functions.php:446 functions.php:501
+msgid "Change email"
+msgstr "E-Mail Adresse ändern"
+
+#: functions.php:447 functions.php:506 user-change_username.php:34
+#: user-change_username.php:39
+msgid "Change username"
+msgstr "Benutzername ändern"
+
+#: functions.php:450
+msgid "Recover password"
+msgstr "Passwort wiederherstellen"
+
+#: functions.php:452
+msgid "Create a new account"
+msgstr "Neues Benutzerkonto anlegen"
+
+#: functions.php:481
+msgid "Public Profile"
+msgstr "Öffentliches Profil"
+
+#: functions.php:608
+msgid "Theme settings updated correctly"
+msgstr "Einstellungen der Design Vorlage erfolgreich upgedatet"
+
+#: functions.php:623
+msgid "The logo image has been uploaded correctly"
+msgstr "Das Logo wurde erfolgreich hochgeladen!"
+
+#: functions.php:625
+msgid "An error has occurred, please try again"
+msgstr "Es ist ein Fehler aufgetreten, bitte versuchen Sie es noch einmal"
+
+#: functions.php:636
+msgid "The logo image has been removed"
+msgstr "Das Logo wurde entfernt!"
+
+#: functions.php:638
+msgid "Image not found"
+msgstr "Bild nicht gefunden"
+
+#: functions.php:666 admin/header.php:29
+msgid "Header logo"
+msgstr "Logo Navigationsleiste"
+
+#: functions.php:668 admin/settings.php:46
+msgid "Theme settings"
+msgstr "Design Einstellungen"
+
+#: functions.php:728 functions.php:760
+msgid "All categories"
+msgstr "Alle Kategorien"
+
+#: user-alerts.php:39
+msgid "You do not have any alerts yet"
+msgstr "Sie haben noch keine Benachrichtigungen"
+
+#: user-alerts.php:46
+msgid "Alert"
+msgstr "Benachrichtigung"
+
+#: user-alerts.php:46
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Diese Aktion kann nicht rückgängig gemacht werden. Sind Sie sicher, dass Sie fortfahren möchten?"
+
+#: user-alerts.php:46
+msgid "Delete this alert"
+msgstr "Diese Warnung löschen"
+
+#: main.php:38
+msgid "Latest Listings"
+msgstr "Neueste Angebote"
+
+#: main.php:41
+msgid "There aren't listings available at this moment"
+msgstr "Zur Zeit sind keine Angebote verfügbar"
+
+#: main.php:45 admin/settings.php:60 search.php:80
+msgid "List"
+msgstr "Liste"
+
+#: main.php:46 search.php:81
+msgid "Grid"
+msgstr "Raster"
+
+#: main.php:57
+msgid "See all listings"
+msgstr "Alle Angebote anzeigen"
 
 #: user-profile.php:52
 msgid "User type"
@@ -394,141 +587,14 @@ msgstr "Website"
 msgid "Description"
 msgstr "Beschreibung"
 
-#: user-forgot_password.php:30 user-recover.php:30
-msgid "Recover your password"
-msgstr "Passwort wiederherstellen"
+#: user-profile.php:115 user-change_password.php:64 item-post.php:211
+#: user-change_email.php:59 user-change_username.php:102
+msgid "Update"
+msgstr "Aktualisieren"
 
-#: user-forgot_password.php:39 user-change_password.php:51
-msgid "New password"
-msgstr "Neues Passwort"
-
-#: user-forgot_password.php:45 user-change_password.php:57
-msgid "Repeat new password"
-msgstr "Neues Passwort wiederholen"
-
-#: user-forgot_password.php:52 functions.php:448 functions.php:451
-#: functions.php:511 user-change_password.php:32 user-change_password.php:37
-msgid "Change password"
-msgstr "Passwort ändern"
-
-#: user-recover.php:45
-msgid "Send me a new password"
-msgstr "Schicke mir ein neues Passwort"
-
-#: common/head.php:26
-msgid "Cancel"
-msgstr "Abbrechen"
-
-#: common/head.php:72
-msgid "Previous image"
-msgstr "Vorheriges Bild"
-
-#: common/head.php:73
-msgid "Next image"
-msgstr "Nächstes Bild"
-
-#: common/head.php:74
-msgid "Close"
-msgstr "Schließen"
-
-#: functions.php:28
-msgid "ie. PHP Programmer"
-msgstr "z.B. PHP Programmierer"
-
-#: functions.php:434 item-post.php:46
-msgid "Publish a listing"
-msgstr "Eine Anzeige veröffentlichen"
-
-#: functions.php:435
-msgid "Edit your listing"
-msgstr "Anzeige bearbeiten"
-
-#: functions.php:438
-msgid "Search results"
-msgstr "Suchresultate"
-
-#: functions.php:439
-#, php-format
-msgid "Search results: %s"
-msgstr "Resultate der Suche: %s"
-
-#: functions.php:440
-msgid "Dashboard"
-msgstr "Übersicht"
-
-#: functions.php:441
-#, php-format
-msgid "%s's profile"
-msgstr "Profil von %s"
-
-#: functions.php:442 functions.php:496
-msgid "Account"
-msgstr "Benutzerkonto"
-
-#: functions.php:443 functions.php:486 user-alerts.php:51 search.php:129
-msgid "Listings"
-msgstr "Anzeigen"
-
-#: functions.php:444 functions.php:491 user-alerts.php:32 user-alerts.php:37
-msgid "Alerts"
-msgstr "Abonnements"
-
-#: functions.php:446 functions.php:501
-msgid "Change email"
-msgstr "E-Mail Adresse ändern"
-
-#: functions.php:447 functions.php:506 user-change_username.php:34
-#: user-change_username.php:39
-msgid "Change username"
-msgstr "Benutzername ändern"
-
-#: functions.php:450
-msgid "Recover password"
-msgstr "Passwort wiederherstellen"
-
-#: functions.php:452
-msgid "Create a new account"
-msgstr "Neues Benutzerkonto anlegen"
-
-#: functions.php:481
-msgid "Public Profile"
-msgstr "Öffentliches Profil"
-
-#: functions.php:516 user-sidebar.php:28
-msgid "Delete account"
-msgstr "Account löschen"
-
-#: functions.php:608
-msgid "Theme settings updated correctly"
-msgstr "Einstellungen der Design Vorlage erfolgreich upgedatet"
-
-#: functions.php:623
-msgid "The logo image has been uploaded correctly"
-msgstr "Das Logo wurde erfolgreich hochgeladen!"
-
-#: functions.php:625
-msgid "An error has occurred, please try again"
-msgstr "Es ist ein Fehler aufgetreten, bitte versuchen Sie es noch einmal"
-
-#: functions.php:636
-msgid "The logo image has been removed"
-msgstr "Das Logo wurde entfernt!"
-
-#: functions.php:638
-msgid "Image not found"
-msgstr "Bild nicht gefunden"
-
-#: functions.php:666 admin/header.php:29
-msgid "Header logo"
-msgstr "Logo Navigationsleiste"
-
-#: functions.php:668 admin/settings.php:46
-msgid "Theme settings"
-msgstr "Design Einstellungen"
-
-#: functions.php:728 functions.php:760
-msgid "All categories"
-msgstr "Alle Kategorien"
+#: user-change_password.php:45
+msgid "Current password"
+msgstr "Aktuelles Passwort"
 
 #: item-post.php:57
 msgid "General Information"
@@ -541,10 +607,6 @@ msgstr "Kategorie"
 #: item-post.php:61 header.php:74
 msgid "Select a category"
 msgstr "Kategorie auswählen"
-
-#: item-post.php:65 item.php:204
-msgid "Title"
-msgstr "Titel"
 
 #: item-post.php:89
 msgid "Listing Location"
@@ -566,37 +628,82 @@ msgstr "E-Mail auf der Angebotsseite anzeigen"
 msgid "Publish"
 msgstr "Veröffentlichen"
 
-#: main.php:38
-msgid "Latest Listings"
-msgstr "Neueste Angebote"
+#: item-send-friend.php:57
+msgid "Your friend's name"
+msgstr "Name deines Freundes"
 
-#: main.php:41
-msgid "There aren't listings available at this moment"
-msgstr "Zur Zeit sind keine Angebote verfügbar"
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "E-Mail-Adresse Ihres Freundes"
 
-#: main.php:45 admin/settings.php:60 search.php:80
-msgid "List"
-msgstr "Liste"
+#: item-send-friend.php:70
+msgid "Subject (optional)"
+msgstr "Betreff (optional)"
 
-#: main.php:46 search.php:81
-msgid "Grid"
-msgstr "Raster"
+#: user-register.php:31
+msgid "Register an account for free"
+msgstr "Registrieren Sie sich kostenlos"
 
-#: main.php:57
-msgid "See all listings"
-msgstr "Alle Angebote anzeigen"
+#: user-register.php:57
+msgid "Repeat password"
+msgstr "Passwort wiederholen"
 
-#: main.php:74 item.php:66
-msgid "Location"
-msgstr "Ort"
+#: user-register.php:61
+msgid "Passwords don't match"
+msgstr "Passwörter stimmen nicht überein"
 
-#: user-items.php:41
-msgid "My listings"
-msgstr "Meine Angebote"
+#: user-register.php:73
+msgid "Create"
+msgstr "Anlegen"
 
-#: user-items.php:43
-msgid "No listings have been added yet"
-msgstr "Es wurden noch keine Angebote hinzugefügt"
+#: admin/header.php:35
+msgid "Preview"
+msgstr "Vorschau"
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr "Logo entfernen"
+
+#: admin/header.php:49
+msgid "No logo has been uploaded yet"
+msgstr "Noch kein Logo hochgeladen"
+
+#: admin/header.php:52
+msgid "Upload logo"
+msgstr "Logo hochladen"
+
+#: admin/header.php:53
+msgid "The preferred size of the logo is 600x100."
+msgstr "Die bevorzugte Größe des Logos ist 600x100."
+
+#: admin/header.php:55
+msgid "<strong>Note:</strong> Uploading another logo will overwrite the current logo."
+msgstr "<strong>Hinweis:</strong> Beim Hochladen eines anderen Logos wird das aktuelle Logo überschrieben."
+
+#: admin/header.php:63
+msgid "Logo image (png,gif,jpg)"
+msgstr "Logo Bild (png,gif,jpg)"
+
+#: admin/header.php:69
+msgid "Upload"
+msgstr "Hochladen"
+
+#: admin/header.php:78
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "Der Bilder Ordner auf Ihrem Server <strong>%s</strong> ist leider nicht beschreibbar."
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "Ossclass kann das Logo leider nicht vom Administrations Panel aus hochladen."
+
+#: admin/header.php:80
+msgid "Please make the aforementioned image folder writable."
+msgstr "Bitte machen Sie den genannten Ordner beschreibbar!"
+
+#: admin/header.php:85
+msgid "To make a directory writable under UNIX execute this command from the shell:"
+msgstr "Um ein Verzeichnis beschreibbar unter UNIX zu machen, führen Sie diesen Befehl aus der Shell aus:"
 
 #: admin/settings.php:36
 msgid "I would like to contribute to the development of Osclass with a donation of"
@@ -718,164 +825,25 @@ msgstr "Diese Anzeige wird in der rechten Seitenleiste Ihrer Website auf der Pro
 msgid "Save changes"
 msgstr "Änderungen speichern"
 
-#: admin/header.php:35
-msgid "Preview"
-msgstr "Vorschau"
+#: user-items.php:41
+msgid "My listings"
+msgstr "Meine Angebote"
 
-#: admin/header.php:42
-msgid "Remove logo"
-msgstr "Logo entfernen"
+#: user-items.php:43
+msgid "No listings have been added yet"
+msgstr "Es wurden noch keine Angebote hinzugefügt"
 
-#: admin/header.php:49
-msgid "No logo has been uploaded yet"
-msgstr "Noch kein Logo hochgeladen"
+#: contact.php:31
+msgid "Contact us"
+msgstr "Kontaktiere uns"
 
-#: admin/header.php:52
-msgid "Upload logo"
-msgstr "Logo hochladen"
+#: contact.php:47 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr "Ihre E-Mail-Adresse"
 
-#: admin/header.php:53
-msgid "The preferred size of the logo is 600x100."
-msgstr "Die bevorzugte Größe des Logos ist 600x100."
-
-#: admin/header.php:55
-msgid "<strong>Note:</strong> Uploading another logo will overwrite the current logo."
-msgstr "<strong>Hinweis:</strong> Beim Hochladen eines anderen Logos wird das aktuelle Logo überschrieben."
-
-#: admin/header.php:63
-msgid "Logo image (png,gif,jpg)"
-msgstr "Logo Bild (png,gif,jpg)"
-
-#: admin/header.php:69
-msgid "Upload"
-msgstr "Hochladen"
-
-#: admin/header.php:78
-#, php-format
-msgid "The images folder <strong>%s</strong> is not writable on your server"
-msgstr "Der Bilder Ordner auf Ihrem Server <strong>%s</strong> ist leider nicht beschreibbar."
-
-#: admin/header.php:79
-msgid "Osclass can't upload the logo image from the administration panel."
-msgstr "Ossclass kann das Logo leider nicht vom Administrations Panel aus hochladen."
-
-#: admin/header.php:80
-msgid "Please make the aforementioned image folder writable."
-msgstr "Bitte machen Sie den genannten Ordner beschreibbar!"
-
-#: admin/header.php:85
-msgid "To make a directory writable under UNIX execute this command from the shell:"
-msgstr "Um ein Verzeichnis beschreibbar unter UNIX zu machen, führen Sie diesen Befehl aus der Shell aus:"
-
-#: user-alerts.php:39
-msgid "You do not have any alerts yet"
-msgstr "Sie haben noch keine Benachrichtigungen"
-
-#: user-alerts.php:46
-msgid "Alert"
-msgstr "Benachrichtigung"
-
-#: user-alerts.php:46
-msgid "This action can't be undone. Are you sure you want to continue?"
-msgstr "Diese Aktion kann nicht rückgängig gemacht werden. Sind Sie sicher, dass Sie fortfahren möchten?"
-
-#: user-alerts.php:46
-msgid "Delete this alert"
-msgstr "Diese Warnung löschen"
-
-#: item.php:59
-#, php-format
-msgid "<strong class=\"publish\">Published date</strong>: %1$s"
-msgstr "<strong class=\"publish\">Datum der Veröffentlichung</strong>: %1$s"
-
-#: item.php:62
-#, php-format
-msgid "<strong class=\"update\">Modified date:</strong> %1$s"
-msgstr "<strong class=\"update\">Änderungsdatum:</strong> %1$s"
-
-#: item.php:85 item.php:92
-msgid "Image"
-msgstr "Bild"
-
-#: item.php:121
-msgid "Contact seller"
-msgstr "Anbieter kontaktieren"
-
-#: item.php:125
-msgid "Share"
-msgstr "Teilen"
-
-#: item.php:131
-msgid "Useful information"
-msgstr "Nützliche Informationen"
-
-#: item.php:133
-msgid "Avoid scams by acting locally or paying with PayPal"
-msgstr "Vermeiden Sie Betrügereien, indem Sie lokal handeln oder mit PayPal bezahlen"
-
-#: item.php:134
-msgid "Never pay with Western Union, Moneygram or other anonymous payment services"
-msgstr "Bezahlen Sie niemals mit Western Union, Moneygram oder anderen anonymen Zahlungsdiensten"
-
-#: item.php:135
-msgid "Don't buy or sell outside of your country. Don't accept cashier cheques from outside your country"
-msgstr "Kaufen oder verkaufen Sie nicht außerhalb Ihres Landes. Akzeptieren Sie keine Kassenschecks von außerhalb Ihres Landes"
-
-#: item.php:136
-msgid "This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer \"buyer protection\" or \"seller certification\""
-msgstr "Diese Seite ist nie an einer Transaktion beteiligt und behandelt keine Zahlungen, Versand, Garantie Transaktionen, Treuhandleistungen erbringen oder \"Käuferschutz\" oder \"Verkäuferzertifikat\" anbieten"
-
-#: item.php:143
-msgid "Related listings"
-msgstr "Ähnliche Angebote"
-
-#: item.php:154
-msgid "Comments"
-msgstr "Kommentare"
-
-#: item.php:161
-msgid "by"
-msgstr "von"
-
-#: item.php:165
-msgid "Delete your comment"
-msgstr "Kommentar löschen"
-
-#: item.php:177
-msgid "Leave your comment (spam and offensive messages will be removed)"
-msgstr "Hinterlassen Sie Ihren Kommentar (Spam und anstößige Nachrichten werden entfernt)"
-
-#: item.php:210
-msgid "Comment"
-msgstr "Kommentieren"
-
-#: user-change_password.php:45
-msgid "Current password"
-msgstr "Aktuelles Passwort"
-
-#: user-sidebar.php:23
-msgid "Display menu"
-msgstr "Menü anzeigen"
-
-#: user-sidebar.php:29
-msgid "Are you sure you want to delete your account?"
-msgstr "Sind Sie sicher, dass Sie Ihr Konto löschen möchten?"
-
-#: user-change_username.php:50
-msgid "Username: this field is required"
-msgstr "Benutzername - Pflichtfeld!"
-
-#: user-change_username.php:75
-msgid "The username is available"
-msgstr "Benutzername verfügbar!"
-
-#: user-change_username.php:77
-msgid "The username is NOT available"
-msgstr "Benutzername leider nicht mehr verfügbar! "
-
-#: user-change_username.php:94
-msgid "Username"
-msgstr "Benutzername"
+#: contact.php:53
+msgid "Subject"
+msgstr "Betreff"
 
 #: search.php:55
 msgid "Selected"
@@ -911,4 +879,36 @@ msgstr "Premium-Anzeigen"
 #: search.php:142
 msgid "Other searches that may interest you"
 msgstr "Andere Suchen, die Sie interessieren könnten"
+
+#: user-change_email.php:33 user-change_email.php:38
+msgid "Change e-mail"
+msgstr "E-Mail Adresse ändern"
+
+#: user-change_email.php:46
+msgid "Current e-mail"
+msgstr "Aktuelle E-Mail"
+
+#: user-change_email.php:52
+msgid "New e-mail"
+msgstr "Neue E-Mail"
+
+#: user-change_email.php:76
+msgid "Email: this field is required"
+msgstr "Email: Feld ist erforderlich"
+
+#: user-change_username.php:50
+msgid "Username: this field is required"
+msgstr "Benutzername - Pflichtfeld!"
+
+#: user-change_username.php:75
+msgid "The username is available"
+msgstr "Benutzername verfügbar!"
+
+#: user-change_username.php:77
+msgid "The username is NOT available"
+msgstr "Benutzername leider nicht mehr verfügbar! "
+
+#: user-change_username.php:94
+msgid "Username"
+msgstr "Benutzername"
 
